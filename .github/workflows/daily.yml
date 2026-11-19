@@ -20,6 +20,8 @@ jobs:
       - name: Discover relevant articles from ITIS daily news
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
+      - name: Limit each sector to 8 new discoveries per day
+        run: python scripts/select_daily.py
       - name: Read free public original articles
         run: python scripts/read_articles.py
       - name: Translate available titles and publisher excerpts offline
@@ -31,6 +33,10 @@ jobs:
           GROQ_MODEL: openai/gpt-oss-20b
           AI_DAILY_LIMIT: '20'
         run: python scripts/generate_ai_insights.py
+      - name: Remove only confirmed same-content duplicates
+        run: python scripts/dedupe_articles.py
+      - name: Recheck daily sector limits after AI classification
+        run: python scripts/select_daily.py
       - name: Build source-backed industry brief
         run: python scripts/build_brief.py
       - name: Commit refreshed index
