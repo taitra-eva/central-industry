@@ -14,8 +14,8 @@ PUBLICATION_WINDOW=NOW-timedelta(days=14)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
-blocked=('indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
-news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in n.get('source','').casefold() for word in blocked) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+blocked=('經濟部國際貿易署','國際貿易署經貿資訊網','國貿署','international trade administration','indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
+news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
 success=0
 for query in cfg:
     en=query.get('locale')=='en-US'
@@ -44,6 +44,7 @@ for query in cfg:
             source=e.get('source',{}).get('title','') if e.get('source') else 'Google News'
             # Exclude clearly paywalled / market-research lead-generation domains or sources.
             if any(word in source.casefold() for word in blocked):continue
+            if 'trade.gov.tw' in link.lower() or 'trade.moea.gov.tw' in link.lower():continue
             low=title.casefold()
             # Google News RSS descriptions are often just a list of article links. They
             # should never be represented as meaningful article-body evidence.
