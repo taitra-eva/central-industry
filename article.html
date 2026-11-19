@@ -19,7 +19,7 @@ const tags=document.createElement('div');root.appendChild(tags);
 for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
 add(root,'h2','繁體中文重點摘要');
-if(x.summary_zh&&x.summary_status==='verified'){add(root,'p',x.summary_zh)}
+if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){add(root,'p',x.summary_zh);if(x.summary_status==='source_excerpt_translated')add(root,'p','此為來源提供之摘要片段的機器翻譯，並非 AI 閱讀完整報導後撰寫。','meta')}
 else{add(root,'div','此則新聞尚未完成可靠的中文摘要。目前蒐集系統只取得標題、來源、日期及原文連結，沒有取得足夠的報導內容，因此不會根據標題編造摘要。','pending')}
 if(x.impact_zh){add(root,'h2','產業影響分析');add(root,'p',x.impact_zh)}
 root.appendChild(document.createElement('hr'));
