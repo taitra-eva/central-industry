@@ -38,10 +38,18 @@ for query in cfg:
                 if query['industry'] not in news[uid]['industries']:news[uid]['industries'].append(query['industry'])
                 continue
             source=e.get('source',{}).get('title','') if e.get('source') else 'Google News'
+            # Exclude clearly paywalled / market-research lead-generation domains or sources.
+            blocked=('indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information')
+            if any(word in source.casefold() for word in blocked):continue
             low=title.casefold()
+            # Google News RSS descriptions are often just a list of article links. They
+            # should never be represented as meaningful article-body evidence.
+            plain=unescape(re.sub(r'<[^>]+>',' ',e.get('summary','')))
+            plain=' '.join(plain.split())
+            excerpt=plain if len(plain)>120 and title.casefold() not in plain.casefold() and len(re.findall(r'http',plain))==0 else ''
             topics=[('政策與貿易措施',['tariff','關稅','regulation','policy','法規','補貼']),('供應鏈與原物料',['steel','鋼','鋁','material','supply chain','原料']),('進出口與訂單趨勢',['export','import','出口','進口','訂單','orders']),('市場需求與景氣',['market','demand','sales','庫存','需求','景氣']),('技術發展與產業轉型',['automation','technology','技術','自動化'])]
             topic=next((t for t,terms in topics if any(term in low for term in terms)),'產業動態')
-            news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']],'region':query['region'],'topic':topic}
+            news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']],'region':query['region'],'topic':topic,'access_status':'not_verified','excerpt':excerpt}
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
