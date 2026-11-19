@@ -1,12 +1,12 @@
 {
   "generated_at": "2026-11-19T08:34:49.417404+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 308,
+  "articles_total": 306,
   "readable_total": 42,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 78,
+      "articles": 76,
       "readable": 29
     },
     {
