@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
-from relevance import should_keep
+from relevance import should_keep, is_government_source
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/news.json"
@@ -41,7 +41,7 @@ def is_publisher_link(url):
     parsed = urlparse(url)
     if parsed.scheme not in ("http","https") or not parsed.netloc:
         return False
-    return not any(parsed.netloc.lower().endswith(x) for x in BLOCKED_HOSTS)
+    return not any(parsed.netloc.lower().endswith(x) for x in BLOCKED_HOSTS) and not is_government_source("",url)
 
 def choose_categories(title):
     low=title.casefold()
@@ -80,7 +80,7 @@ def get_day(day):
 
 def main():
     data=json.loads(DATA.read_text(encoding="utf8"))
-    news={n["id"]:n for n in data.get("items",[]) if should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+    news={n["id"]:n for n in data.get("items",[]) if not is_government_source(n.get("source",""),n.get("source_url") or n.get("url","")) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
     added=0
     successful_days=0
     # Attempt each day of the publication discovery window; ITIS can have gaps.
