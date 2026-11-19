@@ -41,7 +41,7 @@ def should_keep(title, industry=None):
     low = text.casefold()
     if len(text) < 12:
         return False, "short_or_empty_title"
-    if re.search(r"(?:^|[\\s｜|:：-])(?:版權所有|著作權所有|Copyright(?: ©)?|All Rights Reserved)(?:[\\s。｜|:：-]|$)",text,re.I):
+    if re.search(r"(?:^|[\s｜|:：-])(?:版權所有|著作權所有|Copyright(?: ©)?|All Rights Reserved)(?:[\s。｜|:：-]|$)",text,re.I):
         return False, "copyright_footer_or_navigation"
     # Exclude university publicity about recruitment or talent programs when
     # it lacks a concrete factory, actual order or industrial product.
