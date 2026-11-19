@@ -19,6 +19,15 @@ blocked=('經濟部國際貿易署','國際貿易署經貿資訊網','國貿署'
 news={n['id']:n for n in previous.get('items',[]) if n['id'] not in EXCLUDED and datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and not is_government_source(n.get('source',''), n.get('source_url') or n.get('url','')) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
 for entry in news.values():
     if entry.get('region')=='日本':entry['region']='亞洲'
+    # A hand-tool firm can be described as a "工具" company without the
+    # literal words 手工具. Industry-specific evidence should override a
+    # generic macro discovery query; retain machining as a cross-sector tag.
+    headline=(entry.get('title_zh') or entry.get('title') or '')
+    if '伯鑫工具' in headline or ('六強聯盟' in headline and '工具' in headline):
+        entry['industries']=[v for v in entry.get('industries',[]) if v!='總體情勢']
+        for sector in ('手工具','機械與金屬加工'):
+            if sector not in entry['industries']: entry['industries'].append(sector)
+        entry['topic']='產業動態'
 success=0
 counts={}
 for query in cfg:
@@ -75,6 +84,11 @@ for query in cfg:
                     '無人載具及機器人':['無人機','機器人','drone','robotics','unmanned']
                 }
                 extra_industries=[industry for industry,terms in industry_terms.items() if any(t in low for t in terms)]
+                # Product-independent contract machining partners often appear
+                # alongside hand-tool maker names, not generic 手工具 keywords.
+                if ('伯鑫工具' in title or ('六強聯盟' in title and '工具' in title)):
+                    for sector in ('手工具','機械與金屬加工'):
+                        if sector not in extra_industries:extra_industries.append(sector)
             tags=[]
             for tag,words in {
                 '國內政策':['法規','補助','政策','經濟部','產發署'],
