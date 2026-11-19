@@ -26,8 +26,8 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 <section class="section" id="archive"><div class="section-head"><div class="section-name"><span class="num">03</span><h2>歷史新聞資料庫</h2></div><small>30-DAY ARTICLE ARCHIVE</small></div><div class="archive-panel"><div class="controls"><input id="keyword" placeholder="搜尋標題、廠商、來源及標籤" aria-label="新聞搜尋"><select id="industry" aria-label="產業分類"></select><select id="region" aria-label="區域"><option value="">所有地區</option><option>台灣</option><option>北美</option><option>歐洲</option><option>亞洲</option><option>其他</option></select></div><div class="mini" id="archive-count"></div><div class="archive-list" id="archive-list"></div><div id="pager" class="pager"></div></div><p class="footnote">資料庫每頁顯示 30 篇，按原始發布日期排序。原文連結由新聞來源提供；個別媒體可能有會員或閱讀限制。</p></section>
 </main><button id="backtop" class="backtop" type="button" title="返回頂端" aria-label="返回頂端">↑</button><footer class="sitefooter"><div class="shell footer-brand"><img id="footer-logo" class="footer-logo" alt="TAITRA 貿協標誌"><div class="footer-taitra">TAITRA</div><div class="footer-org">中華民國對外貿易發展協會　台中辦事處</div><div class="footer-en">TAITRA Taichung Office</div><div class="footer-contact">E-mail：<a href="mailto:taichung@taitra.org.tw">taichung@taitra.org.tw</a></div><div class="footer-date" id="footer-update">中部產業情報中心 · 資料更新日期載入中</div><div class="footer-note">本報告僅供參考，新聞及數據請以原始來源為準。</div></div></footer>
 <script>
-const SECTORS=['總體情勢','機械','自行車','汽配','手工具','無人載具及機器人'];
-const shortName={'總體情勢':'政策、能源、原物料與地緣情勢','機械':'工具機、機電及相關製造業','自行車':'品牌商、零組件與海外市場','汽配':'汽車零組件與售後市場','手工具':'五金、汽修及水五金供應鏈','無人載具及機器人':'無人系統、工業及服務型機器人'};
+const SECTORS=['總體情勢','機械與金屬加工','自行車','汽配','手工具','無人載具及機器人'];
+const shortName={'總體情勢':'政策、能源、原物料與地緣情勢','機械與金屬加工':'工具機、木工機、精密機械及客製金屬零件','自行車':'品牌商、零組件與海外市場','汽配':'汽車零組件與售後市場','手工具':'五金、汽修及水五金供應鏈','無人載具及機器人':'無人系統、工業及服務型機器人'};
 let records=[],brief={events:[],sectors:[]},insights={items:[]},chosen='總體情勢',page=1,watchPage=1;
 const $=id=>document.getElementById(id),PAGE=30;
 function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
