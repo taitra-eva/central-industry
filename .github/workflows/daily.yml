@@ -9,7 +9,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,6 +17,9 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python scripts/collect.py
+      - name: Translate available titles and publisher excerpts offline
+        run: python scripts/translate.py
+        continue-on-error: true
       - name: Commit refreshed index
         run: |
           git config user.name 'github-actions[bot]'
