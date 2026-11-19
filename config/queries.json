@@ -95,7 +95,7 @@
     {
       "industry": "無人載具及機器人",
       "region": "台灣",
-      "q": "台灣 無人機 無人載具 機器人 供應鏈 產業"
+      "q": "台灣 無人機 無人載具 機器人 供應鏈"
     },
     {
       "industry": "無人載具及機器人",
@@ -118,7 +118,7 @@
     {
       "industry": "機械與金屬加工",
       "region": "台灣",
-      "q": "site:ma-online.com.tw 工具機 零組件 產業"
+      "q": "site:ma-online.com.tw 工具機 零組件"
     },
     {
       "industry": "機械與金屬加工",
@@ -128,22 +128,22 @@
     {
       "industry": "自行車",
       "region": "台灣",
-      "q": "site:wheelgiant.com.tw 自行車 產業 品牌 零件"
+      "q": "site:wheelgiant.com.tw 自行車 品牌 零件"
     },
     {
       "industry": "自行車",
       "region": "台灣",
-      "q": "site:tba-cycling.org 自行車 產業 出口"
+      "q": "site:tba-cycling.org 自行車 出口"
     },
     {
       "industry": "汽配",
       "region": "台灣",
-      "q": "site:ttvma.org.tw 汽車 零組件 產業"
+      "q": "site:ttvma.org.tw 汽車 零組件"
     },
     {
       "industry": "汽配",
       "region": "台灣",
-      "q": "site:artc.org.tw 車輛 零組件 產業"
+      "q": "site:artc.org.tw 車輛 零組件"
     },
     {
       "industry": "手工具",
@@ -153,12 +153,12 @@
     {
       "industry": "手工具",
       "region": "台灣",
-      "q": "site:taiwanhandtools.com.tw 手工具 產業 會員"
+      "q": "site:taiwanhandtools.com.tw 手工具 會員"
     },
     {
       "industry": "無人載具及機器人",
       "region": "台灣",
-      "q": "site:taiwandrones.org 無人機 供應鏈 產業"
+      "q": "site:taiwandrones.org 無人機 供應鏈"
     },
     {
       "industry": "無人載具及機器人",
@@ -192,12 +192,12 @@
     {
       "industry": "機械與金屬加工",
       "region": "台灣",
-      "q": "site:itis.org.tw/NetReport_Detail.aspx 工具機 機械 產業"
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 工具機 機械"
     },
     {
       "industry": "手工具",
       "region": "台灣",
-      "q": "site:itis.org.tw/NetReport_Detail.aspx 手工具 水五金 產業"
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 手工具 水五金"
     },
     {
       "industry": "汽配",
@@ -361,7 +361,7 @@
     {
       "industry": "總體情勢",
       "region": "台灣",
-      "q": "site:cna.com.tw 產業 出口 關稅 原物料 供應鏈",
+      "q": "site:cna.com.tw 出口 關稅 原物料 供應鏈",
       "locale": "zh-TW"
     },
     {
@@ -373,7 +373,7 @@
     {
       "industry": "總體情勢",
       "region": "台灣",
-      "q": "site:ctee.com.tw 產業 經營 供應鏈 出口 訂單",
+      "q": "site:ctee.com.tw 經營 供應鏈 出口 訂單",
       "locale": "zh-TW"
     },
     {
@@ -487,7 +487,7 @@
     {
       "industry": "無人載具及機器人",
       "region": "台灣",
-      "q": "site:technews.tw 機器人 無人機 台灣 產業",
+      "q": "site:technews.tw 機器人 無人機 台灣",
       "locale": "zh-TW"
     },
     {
@@ -577,7 +577,7 @@
     {
       "industry": "總體情勢",
       "region": "台灣",
-      "q": "site:cna.com.tw 新台幣 匯率 外銷 出口 產業",
+      "q": "site:cna.com.tw 新台幣 匯率 外銷 出口",
       "locale": "zh-TW"
     },
     {
