@@ -104,8 +104,9 @@ def main():
         })
     # Prioritize reports with Taiwan industry evidence; broad aggregates are not
     # necessarily more important than company-specific verified developments.
-    boosts={"tariff-steel-eu":7,"foxconn-auto":6,"robot-eink":5,"robot-jialianyi":5,"machine-apple":3,"industry-machinery":4}
-    events.sort(key=lambda e:(-(boosts.get(e["id"],0)),not e["taiwan_focus"],-len(e["article_ids"]),-datetime.fromisoformat(e["latest_at"]).timestamp() if e["latest_at"] else 0))
+    # Neutral, auditable order. No company or issue receives a hard-coded bonus.
+    # Taiwan relevance, distinct contributing sources and recency are the only sort factors.
+    events.sort(key=lambda e:(not e["taiwan_focus"],-e["readable_sources"],-datetime.fromisoformat(e["latest_at"]).timestamp() if e["latest_at"] else 0))
     output={
        "generated_at":datetime.now(timezone.utc).isoformat(),
        "method":"rule_based_source_backed_grouping_no_generative_ai",
