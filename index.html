@@ -128,7 +128,7 @@ function renderWatch(){
   if(insight&&insight.summary)main.append(node('p',insight.summary));
   else if(isSourced(x))main.append(node('p',preview(x,205)));
   else if(x.excerpt_translation_zh)main.append(node('p',x.excerpt_translation_zh.slice(0,185)));
-  else main.append(node('p',x.access_status==='blocked'?'新聞網站不允許機器讀取全文。':'目前尚無法產生中文摘要；請閱讀原文。','mini'));
+  else main.append(node('p',x.access_status==='blocked'?'新聞網站不允許機器讀取全文。':'目前無法產生中文摘要；請閱讀原文。','mini'));
   const foot=node('div',undefined,'watch-foot');
   if(group.items.length===1){foot.append(link('閱讀原文',original(x),true))}
   else{
