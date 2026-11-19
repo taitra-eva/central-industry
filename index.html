@@ -11,7 +11,7 @@ function render(){const q=el('keyword').value.toLowerCase(),r=el('region').value
  for(const tag of [...(x.industries||[]),x.region,x.topic].filter(Boolean)){head.appendChild(textNode('span',tag,'tag'))}
  a.appendChild(head);
  const h=document.createElement('h3');h.textContent=x.title_zh||x.title;a.appendChild(h);
- const summary=x.summary_zh&&x.summary_status==='verified'?x.summary_zh:(x.access_status==='blocked'?'新聞網站不允許機器讀取全文。'+(x.topic?'（本新聞涉及'+x.topic+'；僅依已取得的標題與分類資訊判定。）':''):'詳細中文摘要尚未完成；目前只能確認文章主題。');
+ const summary=x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)?x.summary_zh:(x.access_status==='blocked'?'新聞網站不允許機器讀取全文。'+(x.topic?'（本新聞涉及'+x.topic+'；僅依已取得的標題與分類資訊判定。）':''):'詳細中文摘要尚未完成；目前只能確認文章主題。');
  const inline=document.createElement('div');inline.className='article-inline';inline.appendChild(textNode('span',summary,'summary'));
  const links=document.createElement('div');links.className='article-links';
  const ai=document.createElement('a');ai.href='./article.html?id='+encodeURIComponent(x.id);ai.textContent='AI中文摘要';links.appendChild(ai);
