@@ -26,7 +26,7 @@ function sendDailyIndustryDigest() {
     if (!x.discovered_at) return false;
     return Utilities.formatDate(new Date(x.discovered_at), TZ, 'yyyy-MM-dd') === today;
   });
-  const industries = ['機械','自行車','汽配','手工具','無人載具及機器人','共通政策與國際情勢'];
+  const industries = ['機械','自行車','汽配','手工具','無人載具及機器人','總體情勢'];
   const esc = s => String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   // Include every newly discovered article exactly once, even when tagged to multiple industries.
   const displayed = new Set();
@@ -72,7 +72,7 @@ function sendTestDigestNow() {
   const response = UrlFetchApp.fetch(NEWS_URL + '?test=' + Date.now(), {muteHttpExceptions:true});
   if (response.getResponseCode() !== 200) throw Error('新聞資料無法讀取：' + response.getResponseCode());
   const d = JSON.parse(response.getContentText('UTF-8'));
-  const industries = ['機械','自行車','汽配','手工具','無人載具及機器人','共通政策與國際情勢'];
+  const industries = ['機械','自行車','汽配','手工具','無人載具及機器人','總體情勢'];
   const escapeHtml = s => String(s || '').replace(/[&<>"']/g,c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const all = d.items || [];
   let sections = '';
