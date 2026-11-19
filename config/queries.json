@@ -163,11 +163,6 @@
     {
       "industry": "無人載具及機器人",
       "region": "台灣",
-      "q": "site:ida.gov.tw 無人機 機器人 產業"
-    },
-    {
-      "industry": "無人載具及機器人",
-      "region": "台灣",
       "q": "台灣 無人載具 機器人 廠商 投資 合作"
     },
     {
@@ -213,21 +208,6 @@
       "industry": "無人載具及機器人",
       "region": "台灣",
       "q": "site:itis.org.tw/NetReport_Detail.aspx 無人機 機器人"
-    },
-    {
-      "industry": "總體情勢",
-      "region": "台灣",
-      "q": "site:ida.gov.tw 產業政策 傳統產業 中小企業 製造業"
-    },
-    {
-      "industry": "總體情勢",
-      "region": "台灣",
-      "q": "site:moea.gov.tw 產業政策 外銷訂單 工業生產"
-    },
-    {
-      "industry": "總體情勢",
-      "region": "台灣",
-      "q": "site:customs.gov.tw 鋼鋁 關稅 進出口 貿易"
     },
     {
       "industry": "總體情勢",
