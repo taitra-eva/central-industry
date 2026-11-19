@@ -70,6 +70,19 @@ def same_publication_window(a,b):
         return False
 
 
+# Explicitly reviewed same-event articles that use materially different headlines.
+# A topic/company alone is never proof of duplication. Do not broaden these groups
+# without verifying the underlying reporting and its specific factual claims.
+VERIFIED_SAME_EVENT_GROUPS = (
+    frozenset(("98ba1184d41156422d28", "6f5454b08d0dae9702f9")),
+    frozenset(("8cf0757fcb7437e69f80", "3d748b1d3d1b6bb8e84a")),
+)
+
+def verified_same_event(a,b):
+    return any(a.get("id") in group and b.get("id") in group
+               for group in VERIFIED_SAME_EVENT_GROUPS)
+
+
 def exact_title_duplicate(a,b):
     ka,kb=headline_key(a),headline_key(b)
     return bool(ka and kb and ka==kb and same_publication_window(a,b))
@@ -103,7 +116,7 @@ def main():
         prior=None
         by_title=False
         for existing in chosen:
-            if exact_title_duplicate(item,existing):
+            if verified_same_event(item,existing) or exact_title_duplicate(item,existing):
                 prior=existing
                 by_title=True
                 break
