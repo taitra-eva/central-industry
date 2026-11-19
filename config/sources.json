@@ -156,6 +156,15 @@
       "url": "https://www.robot-digest.com/",
       "collection_status": "google_news_site_query_only",
       "access_status": "not_verified"
+    },
+    {
+      "name": "ITIS 智網公開產業評析",
+      "region": "台灣",
+      "type": "產業知識研究平台",
+      "url": "https://www.itis.org.tw/Search.aspx",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "僅候選公開免登入內容；會員或付費出版物不納入免費全文翻譯"
     }
   ]
 }
