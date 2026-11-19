@@ -1,5 +1,5 @@
 {
-  "note": "Candidate editorial and official sources only. Direct automated fetch not yet implemented or verified.",
+  "note": "Verified topical relevance; site: RSS discovery queries have been added. Direct feed retrieval and free-full-text access must still be tested per site.",
   "sources": [
     {
       "name": "經濟部統計處",
@@ -60,6 +60,102 @@
       "region": "日本",
       "type": "汽車專業媒體",
       "url": "https://www.netdenjd.com/"
+    },
+    {
+      "name": "MA 工具機與零組件雜誌",
+      "region": "台灣",
+      "type": "機械專業媒體",
+      "url": "https://www.ma-online.com.tw/zh-TW",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "台灣工具機公會產業商情",
+      "region": "台灣",
+      "type": "機械公會",
+      "url": "https://www.tmba.org.tw/zh-TW/news/traditionandbusiness",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "輪彥國際",
+      "region": "台灣",
+      "type": "自行車專業媒體",
+      "url": "https://www.wheelgiant.com.tw/publications/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "台灣自行車輸出公會",
+      "region": "台灣",
+      "type": "自行車公會",
+      "url": "https://www.tba-cycling.org/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "車輛研究測試中心",
+      "region": "台灣",
+      "type": "汽車產業研究機構",
+      "url": "https://www.artc.org.tw/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "中經社 CENS",
+      "region": "台灣",
+      "type": "五金與手工具專業資訊",
+      "url": "https://www.cens.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "台灣無人機協會",
+      "region": "台灣",
+      "type": "無人機協會新聞",
+      "url": "https://taiwandrones.org/news/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "產業發展署金屬機電新聞",
+      "region": "台灣",
+      "type": "政府機構新聞",
+      "url": "https://www.ida.gov.tw/ctlr?PRO=news.NewsList&cate=81",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "The Robot Report",
+      "region": "北美",
+      "type": "機器人專業媒體",
+      "url": "https://www.therobotreport.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "Unmanned Systems Technology",
+      "region": "北美",
+      "type": "無人載具專業媒體",
+      "url": "https://www.unmannedsystemstechnology.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "Robotics & Automation News",
+      "region": "歐洲",
+      "type": "機器人專業媒體",
+      "url": "https://roboticsandautomationnews.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
+    },
+    {
+      "name": "robot digest",
+      "region": "日本",
+      "type": "工業機器人專業媒體",
+      "url": "https://www.robot-digest.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified"
     }
   ]
 }
