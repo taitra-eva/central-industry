@@ -66,7 +66,7 @@ for query in cfg:
             extra_industries=[]
             if query['industry']=='總體情勢':
                 industry_terms={
-                    '機械':['工具機','機械','machine tool','machinery','cnc'],
+                    '機械與金屬加工':['工具機','機械','木工機','木工機械','精密機械','金屬加工','精密加工','鈑金','沖壓','鍛造','鑄造','metal fabrication','precision machining','woodworking machinery','machine tool','machinery','cnc'],
                     '自行車':['自行車','bicycle','e-bike','bike industry'],
                     '汽配':['汽車零件','汽車零組件','auto parts','automotive parts','aftermarket'],
                     '手工具':['手工具','五金工具','hand tool','repair tools'],
