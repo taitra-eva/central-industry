@@ -16,7 +16,7 @@ if(!x){add(root,'h1','找不到這則新聞');add(root,'p','可能已移至歷�
 add(root,'div',(x.source||'來源未確認')+' · '+(x.published_at?new Date(x.published_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'}):'日期未確認'),'meta');
 add(root,'h1',x.title_zh||x.title);
 const tags=document.createElement('div');root.appendChild(tags);
-for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
+const tagValues=[x.region,...(x.industries||[]),x.topic,...(x.tags||[])].filter(Boolean);for(const t of [...new Set(tagValues)])add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
 add(root,'h2','中文重點與原文資訊');
 if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){
