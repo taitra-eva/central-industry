@@ -63,3 +63,11 @@ GitHub Pages website for public news indexing covering 機械、自行車、汽�
 - **全文繁體中文翻譯條件：** 必須已取得完整文章內容，而且持有必要的翻譯及站內刊載授權，才會出現在 article.html。其他第三方新聞僅顯示已翻譯標題、來源與跳轉原文，不擅自重製全文。現行免費 Google News RSS 一般只有標題與來源，故尚未實現每篇自動全文翻譯。
 - 英／日文標題翻譯預先於更新流程執行，成功後寫入 news.json，使用者開網頁不需等待即時呼叫模型。Argos 離線模型仍需完成首次工作流程實測，無法保證每篇翻譯成功。
 - 電子報程式的**未來版本**已取消「每類最多五則」與測試版「最多三則」，將列出當天新收錄全部新聞（跨產業重複去重）。使用者目前已貼入 Google Apps Script 的舊程式不會自動同步。依使用者指示先不進行電子報測試。
+
+## 2026-11-19：原文閱讀必要步驟
+- 在 GitHub Actions 的新聞蒐集後、翻譯前，已新增 `python scripts/read_articles.py`。
+- 該步驟實際嘗試解析 Google News RSS 網址，連線至原始媒體網頁，透過 Trafilatura 抽取主文。
+- 預設每輪最多嘗試 45 則，優先台灣文章；記錄 readable、blocked、unresolved、insufficient_text、read_failed 等狀態及檢查時間。無法取得全文不宣稱已閱讀。
+- 可讀正文暫存於 Actions 工作目錄 `.article_texts.json`，不提交至公開 GitHub 資料檔；從已讀正文擇取段落、使用免費離線翻譯，呈現時標為「原文段落翻譯」，**尚非生成式 AI 詳細摘要**。
+- 已將首頁摘要狀態與兩個連結壓在同一行；電子報仍不寄送。
+- Google News URL 解析、媒體網站的反爬蟲限制及翻譯模型運作均需在下一次 Actions 執行時驗收。不同媒體可讀率可能不同。
