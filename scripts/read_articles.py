@@ -20,7 +20,7 @@ TEMP = ROOT / ".article_texts.json"
 UA = "Mozilla/5.0 (compatible; CentralIndustryNews/1.0; public article reader)"
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"})
-LIMIT = 90  # bounded daily network work; prioritize Taiwan and current news
+LIMIT = 45  # bounded daily network work; prioritize Taiwan and current news
 MAX_BYTES = 2_500_000
 
 def google_link(url):
@@ -37,8 +37,8 @@ def publisher_url(link):
     # Google News RSS encoded links need a resolver. Optional library is preferred,
     # but failure must be observable, not silently treated as publisher content.
     try:
-        from googlenewsdecoder import new_decoderv1
-        r = new_decoderv1(link, interval=0)
+        from googlenewsdecoder import gnewsdecoder
+        r = gnewsdecoder(link, interval=0)
         if isinstance(r, dict) and r.get("status") and r.get("decoded_url", "").startswith("http"):
             return r["decoded_url"]
     except Exception as ex:
@@ -47,7 +47,7 @@ def publisher_url(link):
 
 def read_public_page(url):
     try:
-        response = session.get(url, timeout=16, allow_redirects=True, stream=True)
+        response = session.get(url, timeout=10, allow_redirects=True, stream=True)
         status = response.status_code
         if status in (401,403,451):
             return {"access_status":"blocked","read_reason":"HTTP "+str(status)}
