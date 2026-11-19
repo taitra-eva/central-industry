@@ -36,6 +36,8 @@ jobs:
       - name: Discover relevant articles from ITIS
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
+      - name: Deduplicate independently verifiable identical headlines before capping
+        run: python scripts/dedupe_articles.py
       - name: Select up to eight new stories per sector
         run: python scripts/select_daily.py
       - name: Commit morning collection
@@ -94,6 +96,8 @@ jobs:
       - name: Discover relevant articles from ITIS
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
+      - name: Deduplicate independently verifiable identical headlines before capping
+        run: python scripts/dedupe_articles.py
       - name: Select eight per industry and ORIGINAL publication day
         run: python scripts/select_daily.py
       - name: Read publisher article contents and resolve links
