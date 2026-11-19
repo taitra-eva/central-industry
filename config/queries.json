@@ -109,6 +109,84 @@
       "industry": "無人載具及機器人",
       "region": "日本",
       "q": "日本 ロボット 無人機 ドローン 産業 市場"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:ma-online.com.tw 工具機 零組件 產業"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:tmba.org.tw 工具機 會員 廠商 訂單"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:wheelgiant.com.tw 自行車 產業 品牌 零件"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:tba-cycling.org 自行車 產業 出口"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:ttvma.org.tw 汽車 零組件 產業"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:artc.org.tw 車輛 零組件 產業"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:cens.com 手工具 五金 台灣 製造商"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:taiwanhandtools.com.tw 手工具 產業 會員"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:taiwandrones.org 無人機 供應鏈 產業"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:ida.gov.tw 無人機 機器人 產業"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "台灣 無人載具 機器人 廠商 投資 合作"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "北美",
+      "q": "site:therobotreport.com robotics industry manufacturers drones",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "北美",
+      "q": "site:unmannedsystemstechnology.com unmanned systems commercial drones",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "歐洲",
+      "q": "site:roboticsandautomationnews.com European robotics automation",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "日本",
+      "q": "site:robot-digest.com 産業用ロボット 導入 メーカー"
     }
   ]
 }
