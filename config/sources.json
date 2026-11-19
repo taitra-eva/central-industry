@@ -2,18 +2,6 @@
   "note": "Verified topical relevance; site: RSS discovery queries have been added. Direct feed retrieval and free-full-text access must still be tested per site.",
   "sources": [
     {
-      "name": "經濟部統計處",
-      "region": "台灣",
-      "type": "官方統計",
-      "url": "https://www.moea.gov.tw/MNS/dos/home/Home.aspx"
-    },
-    {
-      "name": "財政部關務署",
-      "region": "台灣",
-      "type": "官方統計",
-      "url": "https://web.customs.gov.tw/"
-    },
-    {
       "name": "Modern Machine Shop",
       "region": "北美",
       "type": "工具機專業媒體",
@@ -118,14 +106,6 @@
       "access_status": "not_verified"
     },
     {
-      "name": "產業發展署金屬機電新聞",
-      "region": "台灣",
-      "type": "政府機構新聞",
-      "url": "https://www.ida.gov.tw/ctlr?PRO=news.NewsList&cate=81",
-      "collection_status": "google_news_site_query_only",
-      "access_status": "not_verified"
-    },
-    {
       "name": "The Robot Report",
       "region": "北美",
       "type": "機器人專業媒體",
@@ -165,22 +145,6 @@
       "collection_status": "google_news_site_query_only",
       "access_status": "not_verified",
       "note": "僅候選公開免登入內容；會員或付費出版物不納入免費全文翻譯"
-    },
-    {
-      "name": "經濟部產業發展署產業政策",
-      "region": "台灣",
-      "type": "國內產業政策",
-      "url": "https://www.ida.gov.tw/ctlr?PRO=news.NewsList&cate=75",
-      "collection_status": "candidate_site_query",
-      "access_status": "not_verified"
-    },
-    {
-      "name": "經濟部產業發展署新聞發布",
-      "region": "台灣",
-      "type": "產業及業者政策",
-      "url": "https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsList",
-      "collection_status": "candidate_site_query",
-      "access_status": "not_verified"
     }
   ]
 }
