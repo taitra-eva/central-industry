@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Validate six-sector entity matching before collection
+        run: |
+          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect.py scripts/select_daily.py
+          python scripts/test_industry_entities.py
       - name: Collect Google News RSS candidates
         run: python scripts/collect.py
       - name: Collect verified direct publisher RSS links (no Google News redirect)
@@ -88,6 +92,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Validate six-sector entity matching before collection
+        run: |
+          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect.py scripts/select_daily.py
+          python scripts/test_industry_entities.py
       - name: Fetch last 14 days of news candidates
         run: python scripts/collect.py
       - name: Collect verified direct publisher RSS links (no Google News redirect)
