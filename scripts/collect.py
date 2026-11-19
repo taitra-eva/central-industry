@@ -16,16 +16,23 @@ path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
 blocked=('經濟部國際貿易署','國際貿易署經貿資訊網','國貿署','international trade administration','indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
 news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+for entry in news.values():
+    if entry.get('region')=='日本':entry['region']='亞洲'
 success=0
+counts={}
 for query in cfg:
-    en=query.get('locale')=='en-US'
-    url='https://news.google.com/rss/search?q='+quote(query['q'])+('&hl=en-US&gl=US&ceid=US:en' if en else '&hl=zh-TW&gl=TW&ceid=TW:zh-Hant')
+    locale=query.get('locale','zh-TW')
+    params=('&hl=en-US&gl=US&ceid=US:en' if locale=='en-US' else
+            '&hl=ja&gl=JP&ceid=JP:ja' if locale=='ja-JP' else
+            '&hl=zh-TW&gl=TW&ceid=TW:zh-Hant')
+    url='https://news.google.com/rss/search?q='+quote(query['q'])+params
     try:
         r=requests.get(url,timeout=20,headers={'User-Agent':'Central-Industry-News/1.0'})
         r.raise_for_status()
         feed=feedparser.parse(r.content)
         if not feed.entries and feed.bozo: raise ValueError('invalid feed')
         success+=1
+        counts[query['q']]={'rss_entries':len(feed.entries),'new_items':0}
         for e in feed.entries[:35]:
             title=re.sub('<[^>]*>','',e.get('title','')).strip()
             link=e.get('link','')
@@ -75,6 +82,7 @@ for query in cfg:
                 '台灣產業':['台灣','臺灣','taiwan']
             }.items():
                 if any(word in low for word in words):tags.append(tag)
+            counts[query['q']]['new_items']+=1
             news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']]+extra_industries,'tags':tags,'priority':'taiwan' if query['region']=='台灣' else 'international','region':query['region'],'topic':topic,'access_status':'not_verified','excerpt':excerpt}
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
@@ -90,3 +98,4 @@ if archive.exists():
 result={'updated_at':NOW.isoformat(),'status':'ok' if success==len(cfg) else 'partial','sources_checked':len(cfg),'sources_successful':success,'items':items}
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('success',success,'/',len(cfg),'items',len(items))
+for q,stat in counts.items(): print('SEARCH',q,stat)
