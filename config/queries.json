@@ -221,11 +221,6 @@
     {
       "industry": "總體情勢",
       "region": "台灣",
-      "q": "site:trade.gov.tw 貿易政策 關稅 出口 業者"
-    },
-    {
-      "industry": "總體情勢",
-      "region": "台灣",
       "q": "site:customs.gov.tw 鋼鋁 關稅 進出口 貿易"
     },
     {
