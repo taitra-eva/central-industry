@@ -27,25 +27,6 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "9d02ad7db42daa185cb4",
-      "title": "公告訊息 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82OHJRYS1oZzhyZDRNakZFWjhnUFdUYlk1anVtNFY1a0x2QUhGeEl5d1ZjZUVxU3JjWGlYTDZKQ0RrSGY3azExWXk5dXZLOUFWOE81R2JEU3JnaXJmTDU4aFBwck9CaC1CNVJlSmpiZHM?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-19T02:51:54+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
       "id": "7a57d45643ef1744cd65",
       "title": "Specialized跨足保險 打造全方位售後服務 - 輪彥國際有限公司",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQnZ6cmt3dGhFemxPaEFhMTlmRjd6N05YdDdWd2JWOGFEM0FGTy1BV05zN0YwR1czakwyWnNGc0ZFNV9LODliSThUM2Z2R2lHbk1QQ2NMX3ZMNzc0ZEppRXV0Vy02WF80d2RMckNTSlpUODItNDNzWm1HaVJVcHdrSGNEOF84VWdFUkpMVU1PQWRWZGJ6R2ozM2pIcmhhYnpUT3Vua1dVR00wME5DQlFlNWRtSEtocnFmYnJ2VlhaejN2eGFtd0JVT3gtYlRKejhiYVh1a0ZqR2U5NFpTTmhJeEpwREloeWhyc2ZtRDRBcndBYnA4cWR1dVZCcEo3QURW?oc=5",
@@ -82,25 +63,6 @@
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "川崎機器人發射 F系列 S型控制器 整合安全和網路安全 機器人與自動化新聞",
       "excerpt_translation_status": "machine_translation_of_source_excerpt"
-    },
-    {
-      "id": "6aec1c88853a268a992b",
-      "title": "全球商機資訊 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80QzRNeHRWWnM5eUVEN0NJd3FoN2VwVlZEM2Qwd0drbk01ajlwX3hvNG9yaTJEenc3ZURIX3lNUTJ6cjhoSWFOV2VHR2pfRjBIMnk0bFJFQU9SS19vY1NwVXVjcEpwR3dGb0szYl9PUXQ?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T21:11:50+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
     },
     {
       "id": "71ef18a7a590354a2b60",
@@ -241,80 +203,6 @@
       "translation_method": "manual_headline_translation"
     },
     {
-      "id": "bf66e7c24736e5189e44",
-      "title": "Looking Ahead: What the US Midterms Could Mean for Trade and Tariffs - PwC Ireland",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1udGwyMlNZb09TekNlMnYtdnhSNlE1WUdYVmNkakgtLXg0b0t5bmV5UW1MVldleGJBZFVMMllib0hXYWthWGJhRU5SRTFIXzhEY2gydzhHZHhKVGFzQnluUFE2T1hKVmdEdkdNdy1ESDEydmM?oc=5",
-      "source": "PwC Ireland",
-      "published_at": "2026-11-18T14:43:06+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國際政策"
-      ],
-      "priority": "international",
-      "region": "北美",
-      "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "展望未來:美國中期貿易與關稅的平均值-愛爾蘭",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "769872b5ae84da2a3d1c",
-      "title": "The Making of a Global Hunger Crisis - Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ScThzQUNIUElxVlFXR0hfWTR4RjIxRk5xTy1KRHRXNEJpdWV0cG91STlIb0hpU05oQXE3dmtmTmdCcnBUcU5OMmZnUm9xdm5ZNGNNaG13a0NTUlE5TlE3SElYM2xXNDhUc1ZPVjFDSFlDQQ?oc=5",
-      "source": "Council on Foreign Relations",
-      "published_at": "2026-11-18T13:00:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "其他",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "全球飢餓危機的形成----對外關係理事會",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "52b6c1c81ece2d9eb696",
-      "title": "LKQ Stock After Q3 Earnings: Is LKQ a Buy, Hold or Sell? - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcWtTckxfdVJFQlczVnNWVTljZzRyWFZFc01hanZTVkNVYjZoR0pUNTBMZVhQVE5mNnc3RHgtNU1ERjFwZDhlNXNWcl9QUmpPMEliRlRTaWhFRkxHX2U4VDhmMmhwcmdrclJtcEhxQXdSbGNfQnFuWHBMS0w1TXdwVTZpaXRNWmhFSG9LN1NYbEJzaktkNmFxc2FrWUxuTFRMMHk0NExLRE5zcWJDZEE?oc=5",
-      "source": "TradingView",
-      "published_at": "2026-11-18T12:18:00+00:00",
-      "discovered_at": "2026-11-19T01:58:57.330268+00:00",
-      "industries": [
-        "汽配"
-      ],
-      "region": "歐洲",
-      "topic": "產業動態",
-      "title_zh": "LKQ股票在Q3收益後:LKQ是買賣嗎? - 貿易維尤",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "96299d277628347808de",
-      "title": "Exclusive | Cost Pressures Already in Pipeline to Fuel Higher Inflation - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaHROaGlMV1FteF9zZlkyZGE5ZUdHa2tFRzZDTnR3QUJXWkdRZ3dlelRhWHNlNWJQTzlsNkxCeWpHb2luR2d5NGk0ZC1fS3RyOW5vYVdsYXptclBfa2VZVHNnMzVSNTIyZFNVdjZ5S204OTM4MjBZT1JrdTd2Z0JKbDZjemNsX0p3ck53Xy1MY254dGhjSC0yczlRakcxSm1GaWpxRGlB?oc=5",
-      "source": "WSJ",
-      "published_at": "2026-11-18T10:43:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "北美",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "已排入燃料高通脹管道的成本壓力 - WSJ",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
       "id": "8eb65cc5efde5c9e8dc5",
       "title": "ClearSpace moves closer to launch of European space debris removal mission - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSzRBWElzeHJWaXFFbGZxcHV2SV9VaDl0N29UVU55VTRHWHhSWE56MUdUNEVqbkRFS2FjSVg4Umd4OE0tYUdSRlZfR2lSM2dXdVpCMGliaV9HbmVMUFZHMzduTU1HU0NFNi1tVnF5REswRHlKZGFNWWlJT2RGRnZWcFFrMnBGUHUyTHV2dGhhVHplYk5WS1Y4SDRnQ3VoN1E3aGsxZUJVMC1VQmoySmpBUm5QVl9DS2ZZNlQzbUVXV09pM1llVHBOTDk4SQ?oc=5",
@@ -332,63 +220,6 @@
       "excerpt": "",
       "title_zh": "ClearSpace更接近歐洲空間碎片清除任務的發射 - 機器人和自動化新聞",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "9bdd5c7c25dadfd995c7",
-      "title": "荷蘭(The Netherlands)經貿檔 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzd4TTVzUDI0a2FVZzJnekgzNFpTQzBLcEJEb2p3djVvSy1WcHN3bTZRUElJeHo5QlItOURGQXN6cWtUVmxRdUVEZ1pIUHp6VWtDRFJidGJKOHhaTGZ2alBEenpWaHdRcmRZSUZsTE5LSkUtSzF5dC1BTWY0MVp1ZlBB?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T07:40:41+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
-      "id": "f2ea9cc7ee37f4648f31",
-      "title": "烏拉圭(Oriental Republic of Uruguay)經貿檔 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU3hhR3RoWHVhZnBmb2llTHQ3ZVNaRE05VFNoeDVXaHZjbldRV004eUNEZGpwMzJoaHFEbEJJZVQzcE1MdVlIMWJEakEzMjR1TlM5bjlQOTNDZWZ5MlZZTlAwOUgtR014OE96d1pJN001TzVtX21SdUJUYWRkM3NtelJR?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T06:43:06+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
-      "id": "2b9671adac0a86ae0e25",
-      "title": "阿根廷(Argentine Republic)經貿檔 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbk1BLWljX21NZkJVakd2WFNpM0VZTFFfTE1FREgwdkhiVlBhV1JQcGFuOTVXR0N4ZUNGaFlXU0ROaDkyU1hpQ1R5S1NCUUFOWS11LVB4Tl9zVG9MQ3liV2hyMk5DTk5kVHVSd0NCNVcxa0NUWE9PREs0X3pETHB1cTJn?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T06:38:05+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
     },
     {
       "id": "d5f8fcae6fe04d0fa996",
@@ -410,25 +241,6 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "33a2a4d6d433c2942d02",
-      "title": "巴西(Brazil)經貿檔 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLVNnRDhNMy13RmNIbHBtM0R2SVBwYWFlakZaVmctcWRyMEY2enczbmhZLVpxSlBCNWtFcUt4cU9BNE5BSnVnOGg3UVZNTTFBSTVFRTUtZGNQY0lwMy05WThlZURjUjRtal9iMTVRZUQwbmFLdFBYa0QxRWpjVmhPcGRn?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T05:59:16+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
       "id": "6d61b9eecdc50a93b24a",
       "title": "COMMENTARY: Trump’s failed import tariff policy added to inflation - Las Vegas Review-Journal",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSVBhQlJWQU1TZ2ZiLUpIeklIZjJVWjNDUXdZdXZ6YkhZcGplbThfWEYxTjRqOGZnak9lcEYtS3pHLUpTQTU1aWhIS0ZvWEUzSWJUVzEzSTk4YjlXOGN5QVpCVEk2M0NranNCMW9OV1RLa25hcUc2QXFwQjJkalVoRktRQjR6ZWphekxTdW5PRHR4cjdOQndsNlBkZlJwemlMWTBVcFFtUl9Qem1XaDV4Yg?oc=5",
@@ -448,44 +260,6 @@
       "excerpt": "",
       "title_zh": "評論:特朗普的進口關稅政策失敗 通貨膨脹增加-拉斯維加斯評論-雜誌",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "661d76de2cb5d0fe0fd1",
-      "title": "中信金屬及礦業（009830）於11月23日募集！布局鋼鐵、銅與黃金 掌握AI基建商機 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9icUNONjBXVGhObzJWZkpZTDJCa19xZEUyU1ZTVkE5RkFyNmtYNHhsYXQzek5hRTc5Q19odDFFQnhUcHVrLVlWeUVYMzZoX0l4eXB30gFYQVVfeXFMT1JLU2dJbGNvVWV6RnAza3lxUXhvd01IYUFtdGRuUFQ0Q0hITVV5SzNPc05BVV9fOFRWcVhCd0dYc0tsa242ZWwxX29LVFpXV1dRRkxVQVhobw?oc=5",
-      "source": "UDN",
-      "published_at": "2026-11-18T04:05:09+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "上游原物料"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
-      "id": "b31f93620d1fe7caaf3b",
-      "title": "活動花絮 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zTEh2RWF5YmlYdzhzbUwxVi16Nmt5M3RlQXNXY0RQcnI2Qm5ZVEc5QkkwTEU5S1lXSktVWm43NmswTnM5MXVpbm1YN3Vyc0tQRDJ1dElhTV9VSzl5RnhGbnd4ZHo3YU51LWdmdm9aTzY4eDA?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-18T03:20:26+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
     },
     {
       "id": "b66beeccfc43d3c152bd",
@@ -520,25 +294,6 @@
       "topic": "產業動態",
       "title_zh": "美利達工業前三季獲利下降 2%",
       "translation_method": "manual_headline_translation"
-    },
-    {
-      "id": "7092e23bc0455ba9986b",
-      "title": "Good News: \"Trumpflation\" Might Go Away Soon. Here's What This Means for Stocks. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc2RCMTVEOHJucGQwbnlzWE1sZVljaU4tQm5HMTZCdHlhVExOXzNrMDJ0RlBNYlg3LWk2UHVlQUtNd2o3bHR6MVgtREVzVzVBaE9pNTJvcGkxTjlaNkV0ZDI4UUx6aDVNZ0ExelIzNnUxQ1Q2QmJFNnE1b2g1MFJyU2NxaTRWZWpUaERfeXdGeVZRZ0t2UzRTWm5RVGNnSkEzdklvemE2bENncGNlcDQ3REUtN2pYQWpadEE?oc=5",
-      "source": "The Motley Fool",
-      "published_at": "2026-11-18T00:21:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "北美",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "好訊息:\"暴漲\"可能會很快消失. 這就是股票的意義 - 莫特利的傻瓜 - 滾開 - The Motley fool",
-      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "e49f5dcc8a82cd80ff48",
@@ -654,27 +409,6 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "波士頓動態 地圖集人造物首次著陸 非自動試驗 - 機器人報告",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "a079d2a602bfef59fc97",
-      "title": "The tariff scapegoat doesn’t explain the blue wave - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLTdZNkx0cjAwQ3RWdW1tb2ZOTVA0endKODh6LS1TYzVVaXdoTG1ZZjNqYTNOTWl4SWpGNVk0dTBRQ2liZjVDTzdLZ3JYWHd6VmVPS1kzcmdFOVlvcWozaXhKOGhzV2o2VWhjdHFyWjBzU1pwMFl3MWN3SlRuYmR1TF9faDJfYW1Dekh0a2hMUW5Nd9IBlwFBVV95cUxPejlDQzlOVG5CVWJJMVFhT085THNGUF9TRzZHblBEZlBBcU5OSHFuTG5DSFo2Z0JVNHdhM2lXSW9HSFNEQUFodThGU2NzaVM1SmVpUGQ3WkJLMHNZNTNqMUpJZzEtYWZjNElub2h0TnUwc096Nm5odU1WcUVzY2I2b2tsYjM0UktrTUVHeTNXdE91bXBSVGhV?oc=5",
-      "source": "The Hill",
-      "published_at": "2026-11-17T13:00:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國際政策"
-      ],
-      "priority": "international",
-      "region": "北美",
-      "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "關稅替罪羊並不能解釋藍色的浪潮-The Hill",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -864,27 +598,6 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "9d5cc122491424530908",
-      "title": "Trump’s tariffs are unpopular — but they’ll be tough to repeal despite Democrats’ landslide win - The Seattle Times",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGRqVWVDUUJPNUJVdzI3R3VEMngxTUw3VVRoVUF1TEtJY0U3aEpZUlNGRHpBTVI1VHdpWnpIVWFVaUNXTlhzTXFiNTAxSGViZTJUbkNkdEl2WjcxdU5iblJxeENSYTY5aXFNQkhFSnBOTjNqQndkTTViUnN3SS1TVmEtUjIzWWVVZzRRSDE0M1J3ZlF6cEM1dHFOelloVlJmcDdxd3BzdXhWMTdYRG1aaE1ldGNhZjhFcUxsZ1RTVlBtaWxjTGJqSw?oc=5",
-      "source": "The Seattle Times",
-      "published_at": "2026-11-16T11:01:06+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國際政策"
-      ],
-      "priority": "international",
-      "region": "北美",
-      "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "特朗普的關稅是不受歡迎的 — — 但儘管民主黨贏得了滑坡勝利,它們仍然很難廢除。 西雅圖時報",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
       "id": "af7612c734592bca178c",
       "title": "經濟部因應美國關稅4大措施 截至11月12日辦理情形 - 經濟部產業發展署",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VTDAwV0FkbDJVRFBtWER6TG5YUzNxVUNxcm05T3ZXVTREaFhRU2tQby1lWC1CeEd6c2NTdlJvNGJ3LWptcXU1MkZ2M0hxUkdGVlVSMzBRX2tiRkV2SWdsWlVXNGI?oc=5",
@@ -901,46 +614,6 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
-      "id": "873555ed0601ac8b147b",
-      "title": "Democrats target Trump’s tariffs. Can they agree on what’s next? - The Christian Science Monitor",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa3VYUklFWlJPYklZMWJhZ0x5R29ZRmhPSmV2Sm9GbkY4cjhmTy02ZGpNbS1VY2xtUTBwaXgzbnFWUTBZakNWX291cGtuQU8wM1lDYk03Nl9jMnZxLVpIZV9CNkU3ZkFDazlpMTI5UElZX0Z0d2RHTWJSRjE5QmxHRFZURlJBUzBOWWVXSA?oc=5",
-      "source": "The Christian Science Monitor",
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國際政策"
-      ],
-      "priority": "international",
-      "region": "北美",
-      "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "民主黨以特朗普的關稅為目標. 他們能否就下一步行動達成一致? - 基督教科學監測組織",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "55c591e54da18126179e",
-      "title": "新聞稿 - 經濟部國際貿易署經貿資訊網",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLajk1OEJYVm4yNnh3QXRoeFBYZXp0aU5VdEhPbTE3X0t0a1hKcUV0VFJBbGJwbUI0WmlYS01lUlBEUVFQOVJ5bmRBRUZwZEFhUkx0NjJxME0xNXFXM2ljMXpjTkRvWmFjcUdWMmREcEE?oc=5",
-      "source": "經濟部國際貿易署經貿資訊網",
-      "published_at": "2026-11-16T02:41:17+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
       "access_status": "not_verified",
       "excerpt": ""
     },
@@ -1019,25 +692,6 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "ca5a42c4bb3e4f9e3c66",
-      "title": "核電不是振興經濟的萬靈丹 核能議題應回歸法治、科學與專業 - 經濟部",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGY0Q1RQSGZHeGpvTjcwZG9fQ1VGWmxXb3dCclgxeWFWMktCYnFpcE5SamE5MnRzcWROTUd3NEJJd0t2enFnSk1KbmhfUWhtNGtlTkFRU3FCWVF1VzN3ckc0LTlkaUQ4QkFUWml1SmhkUlpaNGJRNHVPWm10c2V3TWZCanpEZGFUSHBvbg?oc=5",
-      "source": "經濟部",
-      "published_at": "2026-11-14T12:52:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
       "id": "a3549eee2440fa61a53a",
       "title": "2026台灣國際遊艇展盛大開幕 78艘船艇齊聚高雄 展現臺灣遊艇產業國際實力 - 經濟部",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYjctMHJIYjhkZmxSMUhqWl9ZWEMtSGR2WVBQeWN2Mi16VlVpcmxYT2pEcGVGWENSN1dEbjQwb1BOcElXS0FIMnhLSmhoaVF5ejVmU0RmREFMdUV1T0hDVEVjRktiM2Z5SzBfYnd1OFVpbkVKblRwU2ItUkM5bXV3QXpfbklqU3JVRkVyTg?oc=5",
@@ -1050,25 +704,6 @@
       "tags": [
         "國內政策",
         "台灣產業"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
-    },
-    {
-      "id": "7cfa305092f0d065acf9",
-      "title": "知識經濟產業組業務內容 - 經濟部產業發展署",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGU3TE81TTBzZldTRTJaZ1F0Tl9hY1Qyd2JrZ2xNcUVUOHlvMVQtaXNSdUdPUGIxcjUwWld3NE51RUowZGs4cE04TDNUSG52REZCaVRMZWpINFZDdThGc01lM1JzUVFFT29iMko1b1dIakMtODNMRnlLNGlMV2ZYNVd5WnVHd053M1dz?oc=5",
-      "source": "經濟部產業發展署",
-      "published_at": "2026-11-13T22:32:44+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "國內政策"
       ],
       "priority": "taiwan",
       "region": "台灣",
@@ -1130,23 +765,6 @@
       "excerpt": "",
       "title_zh": "ESTUN 機器人整合RoboDK模擬軟體以加速歐洲擴張 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "910a62ead71ca74fb677",
-      "title": "AI基建引爆需求礦業ETF鎖定工業金屬商機| 金融 - 非凡新聞台",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wTEIxMjlqV3lGZ3BUQU0tVnpOWVdKcVlyREcwSGozYktZcEY5SHM5anZJWjIwUEJCSGhueUNVQkVPVjBWM2NRZ2dFZU9tNkJRS2EtUzUzQUt6OEV0WlBCb0lENDZrZk5fQ0twWTZYQUFZUThtRUMyVEF2OA?oc=5",
-      "source": "非凡新聞台",
-      "published_at": "2026-11-11T07:30:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "市場需求與景氣",
-      "access_status": "not_verified",
-      "excerpt": ""
     },
     {
       "id": "3917f8d274dac1aaf8e1",
@@ -1293,25 +911,6 @@
       "excerpt": "",
       "title_zh": "固定翼無人駕駛飛行器、無人駕駛飛行器製造商-無人駕駛系統技術",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "95622abde203ab48b7e7",
-      "title": "中信 009830 11/23開募！押注美國礦業復興，與貝萊德 009835 差在哪？ - Business Insider Taiwan",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yTHVPekphMWNZMVlMWGJ0YzBvVW1iZUhKcnpwZEdJSUs5c2ljUkluc3pSaEVkbnVQdkwtVk9wRF9qVXM3dVpuSG9KNGZheDJQUG96QjJ3?oc=5",
-      "source": "Business Insider Taiwan",
-      "published_at": "2026-11-09T08:00:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [
-        "台灣產業"
-      ],
-      "priority": "taiwan",
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
     },
     {
       "id": "b2a2ed205e3572f789c2",
