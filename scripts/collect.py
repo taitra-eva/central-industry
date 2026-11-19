@@ -42,7 +42,17 @@ for query in cfg:
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
-items=sorted(news.values(),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)[:1200]
+items=sorted(news.values(),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
+# Retain all index items; also save a dated snapshot of newly discovered items.
+archive=ROOT/'data/archive'
+archive.mkdir(parents=True,exist_ok=True)
+today=(NOW+timedelta(hours=8)).date().isoformat()
+today_items=[n for n in items if n.get('discovered_at','').startswith(NOW.date().isoformat())]
+snapshot=archive/(today+'.json')
+existing=json.loads(snapshot.read_text(encoding='utf8')) if snapshot.exists() else {'date':today,'items':[]}
+all_today={n['id']:n for n in existing.get('items',[])}
+all_today.update({n['id']:n for n in today_items})
+snapshot.write_text(json.dumps({'date':today,'items':list(all_today.values())},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 result={'updated_at':NOW.isoformat(),'status':'ok' if success==len(cfg) else 'partial','sources_checked':len(cfg),'sources_successful':success,'items':items}
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('success',success,'/',len(cfg),'items',len(items))
