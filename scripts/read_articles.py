@@ -75,7 +75,7 @@ def main():
     d=json.loads(DB.read_text(encoding="utf-8"))
     rows=d.get("items", [])
     # Re-check articles not previously read; prefer Taiwan and newer articles.
-    candidates=[n for n in rows if n.get("access_status") != "readable"]
+    candidates=[n for n in rows if n.get("access_status") != "readable" or not n.get("summary_zh")]
     candidates.sort(key=lambda x:(x.get("region") != "台灣", -(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
     texts={}
     stats={}
