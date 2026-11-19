@@ -19,8 +19,9 @@
     },
     {
       "industry": "機械",
-      "region": "日本",
-      "q": "日本 工作機械 受注 日刊工業新聞"
+      "region": "亞洲",
+      "q": "日本 工作機械 受注 日刊工業新聞",
+      "locale": "ja-JP"
     },
     {
       "industry": "自行車",
@@ -41,8 +42,9 @@
     },
     {
       "industry": "自行車",
-      "region": "日本",
-      "q": "日本 自転車 業界 市場"
+      "region": "亞洲",
+      "q": "日本 自転車 業界 市場",
+      "locale": "ja-JP"
     },
     {
       "industry": "汽配",
@@ -63,8 +65,9 @@
     },
     {
       "industry": "汽配",
-      "region": "日本",
-      "q": "日本 自動車部品 業界"
+      "region": "亞洲",
+      "q": "日本 自動車部品 業界",
+      "locale": "ja-JP"
     },
     {
       "industry": "手工具",
@@ -85,8 +88,9 @@
     },
     {
       "industry": "手工具",
-      "region": "日本",
-      "q": "日本 作業工具 DIY ホームセンター 市場"
+      "region": "亞洲",
+      "q": "日本 作業工具 DIY ホームセンター 市場",
+      "locale": "ja-JP"
     },
     {
       "industry": "無人載具及機器人",
@@ -107,8 +111,9 @@
     },
     {
       "industry": "無人載具及機器人",
-      "region": "日本",
-      "q": "日本 ロボット 無人機 ドローン 産業 市場"
+      "region": "亞洲",
+      "q": "日本 ロボット 無人機 ドローン 産業 市場",
+      "locale": "ja-JP"
     },
     {
       "industry": "機械",
@@ -185,8 +190,9 @@
     },
     {
       "industry": "無人載具及機器人",
-      "region": "日本",
-      "q": "site:robot-digest.com 産業用ロボット 導入 メーカー"
+      "region": "亞洲",
+      "q": "site:robot-digest.com 産業用ロボット 導入 メーカー",
+      "locale": "ja-JP"
     },
     {
       "industry": "機械",
@@ -242,8 +248,9 @@
     },
     {
       "industry": "總體情勢",
-      "region": "日本",
-      "q": "日本 産業政策 製造業 原材料 エネルギー 物流"
+      "region": "亞洲",
+      "q": "日本 産業政策 製造業 原材料 エネルギー 物流",
+      "locale": "ja-JP"
     },
     {
       "industry": "總體情勢",
@@ -301,8 +308,75 @@
     },
     {
       "industry": "手工具",
-      "region": "日本",
-      "q": "日本 作業工具 メーカー"
+      "region": "亞洲",
+      "q": "日本 作業工具 メーカー",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "機械",
+      "region": "亞洲",
+      "q": "日本 工具機 受注 生産 企業 2026",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "自行車",
+      "region": "亞洲",
+      "q": "日本 自転車 業界 メーカー 出荷 市場 2026",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "汽配",
+      "region": "亞洲",
+      "q": "日本 自動車部品 サプライヤー 受注 2026",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "手工具",
+      "region": "亞洲",
+      "q": "日本 作業工具 ハンドツール 工具メーカー 市場",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "亞洲",
+      "q": "日本 産業用ロボット ドローン メーカー 市場",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "亞洲",
+      "q": "韓國 日本 東南亞 製造業 供應鏈 出口 關稅",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械",
+      "region": "亞洲",
+      "q": "South Korea Southeast Asia machine tool factories manufacturers orders",
+      "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "亞洲",
+      "q": "Japan Vietnam bicycle parts manufacturing exports industry",
+      "locale": "en-US"
+    },
+    {
+      "industry": "汽配",
+      "region": "亞洲",
+      "q": "ASEAN Japan South Korea auto parts aftermarket suppliers",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "亞洲",
+      "q": "Vietnam Thailand hand tools hardware manufacturers exports",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "亞洲",
+      "q": "Japan Korea Singapore robotics drone suppliers industry",
+      "locale": "en-US"
     }
   ]
 }
