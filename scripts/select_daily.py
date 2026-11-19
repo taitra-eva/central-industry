@@ -88,12 +88,15 @@ def main():
                 rejected["no_confirmed_sector_subject"]+=1
                 continue
             article["industries"]=sectors
-            if any(per_sector[x]>=CAP for x in sectors):
-                for x in sectors:
-                    if per_sector[x]>=CAP:rejected[x]+=1
+            available=[x for x in sectors if per_sector[x]<CAP]
+            for x in sectors:
+                if x not in available:rejected[x]+=1
+            if not available:
                 continue
+            # Preserve the article once, and count each eligible sector separately.
+            article["industries"]=available
             retained.append(article)
-            for sector in sectors:per_sector[sector]+=1
+            for sector in available:per_sector[sector]+=1
         print("Daily selection",day,json.dumps(dict(per_sector),ensure_ascii=False))
     data["items"]=sorted(retained,key=timestamp,reverse=True)
     data["daily_category_cap"]=CAP
