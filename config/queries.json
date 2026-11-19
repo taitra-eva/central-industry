@@ -645,6 +645,29 @@
       "region": "亞洲",
       "q": "Southeast Asia electric two wheeler electric tricycle manufacturers parts market",
       "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "台灣 電動工具 氣動工具 園藝工具 製造 出口"
+    },
+    {
+      "industry": "手工具",
+      "region": "北美",
+      "q": "power tools pneumatic tools garden tools manufacturers US market",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "歐洲",
+      "q": "European power tools outdoor power equipment garden tools industry",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "亞洲",
+      "q": "日本 電動工具 エア工具 園芸工具 メーカー 需要",
+      "locale": "ja-JP"
     }
   ]
 }

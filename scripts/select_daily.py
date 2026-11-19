@@ -1,8 +1,8 @@
-"""Cap new discoveries at 8 articles per industry per discovery day.
+"""Cap news at 8 articles per industry per ORIGINAL PUBLICATION day.
 
 Rules:
 * All six categories count; a cross-sector article consumes one slot in each.
-* Existing 30-day archive uses the same cap per original discovery date.
+* A 14-day backfill allocates each story to its original publication day, not the crawl day.
 * News is ranked by supported, specific subject and freshness, not RSS order.
 * This is an editorial selection limit, NOT proof that 8 stories exist.
 * Duplicates are handled separately only when source content supports it.
@@ -23,7 +23,7 @@ SECTOR_TERMS={
  "機械與金屬加工":("工具機","精密機械","木工機","機床","金屬加工","精密零件","鈑金","沖壓","鑄造","鍛造","CNC","機械訂單","上銀","永進","東台","程泰","machine tool","metal fabrication","machining","woodworking machinery"),
  "自行車":("自行車","電動自行車","電動輔助自行車","電動二輪車","電動三輪車","三輪車","電動機車","美利達","巨大集團","捷安特","Specialized","Giant Bicycles","e-bike","ebike","electric bicycle","electric bike","electric two-wheeler","electric motorcycle","electric tricycle","e-trike","tricycle","bicycle","bike","pedelec","cargo bike"),
  "汽配":("汽車零組件","汽配","汽車零配件","車用零件","車用零組件","AM零件","汽車售後","汽車零件","東陽","堤維西","昭輝","車載相機","汽車部品","automotive parts","aftermarket","auto parts"),
- "手工具":("手工具","五金工具","五金業","水五金","扳手","套筒","氣動工具","電動工具","伯鑫工具","臺灣五金","Taiwan Tools Expo","TITE x IHT","hand tools","hardware tools"),
+ "手工具":("手工具","五金工具","五金業","水五金","扳手","套筒","氣動工具","電動工具","園藝工具","園林工具","修枝剪","鏈鋸","電鑽","衝擊起子","釘槍","氣動扳手","power tools","pneumatic tools","air tools","garden tools","gardening tools","outdoor power equipment","伯鑫工具","臺灣五金","Taiwan Tools Expo","TITE x IHT","hand tools","hardware tools"),
  "無人載具及機器人":("機器人","無人機","無人載具","人形機器人","無人船","robotics","humanoid","drone","unmanned"),
 }
 # Clearly non-industry pages should never fill the daily quota just because
@@ -47,7 +47,7 @@ def relevant_to_sector(article,sector,verified):
 
 TRUSTED=("中央社","經濟日報","工商時報","MoneyDJ","輪彥","Bicycle Retailer","Bike Europe","MA 工具機","Modern Machine Shop","ITIS 每日新聞")
 def date_key(article):
-    stamp=article.get("discovered_at") or article.get("published_at") or ""
+    stamp=article.get("published_at") or article.get("discovered_at") or ""
     return stamp[:10] if len(stamp)>=10 else "undated"
 
 def timestamp(article):
@@ -88,16 +88,19 @@ def main():
                 rejected["no_confirmed_sector_subject"]+=1
                 continue
             article["industries"]=sectors
-            if any(per_sector[x]>=CAP for x in sectors):
-                for x in sectors:
-                    if per_sector[x]>=CAP:rejected[x]+=1
+            available=[x for x in sectors if per_sector[x]<CAP]
+            for x in sectors:
+                if x not in available:rejected[x]+=1
+            if not available:
                 continue
+            # Preserve the article once, and count each eligible sector separately.
+            article["industries"]=available
             retained.append(article)
-            for sector in sectors:per_sector[sector]+=1
+            for sector in available:per_sector[sector]+=1
         print("Daily selection",day,json.dumps(dict(per_sector),ensure_ascii=False))
     data["items"]=sorted(retained,key=timestamp,reverse=True)
     data["daily_category_cap"]=CAP
-    data["daily_selection_limit_note"]="每個產業以首次收錄日期計算，每日最多8則；舊日新聞在30日內保留"
+    data["daily_selection_limit_note"]="每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留"
     DB.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Daily cap selection:",len(articles),"->",len(retained),"; dropped:",dict(rejected))
 if __name__=="__main__":main()
