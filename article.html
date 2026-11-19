@@ -19,9 +19,9 @@ const tags=document.createElement('div');root.appendChild(tags);
 for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
 add(root,'h2','繁體中文重點整理');
-if(x.summary_zh&&x.summary_status==='verified'){
+if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){
  add(root,'p',x.summary_zh);
- add(root,'p','依取得的原始報導內容整理；公司、數據和事件以原文為準。','meta');
+ add(root,'p',x.summary_status==='source_excerpt_translated'?'此段是從實際讀取的來源正文擷取重點段落並翻成中文，尚非生成式 AI 撰寫的完整摘要。':'依取得的原始報導內容整理；公司、數據和事件以原文為準。','meta');
 }else{
  add(root,'div',x.access_status==='blocked'?'新聞網站不允許機器讀取全文。':'目前尚未取得足夠的原文內容，無法產生可靠的繁體中文重點整理。','pending');
  add(root,'p','（本新聞涉及'+(x.topic||'產業動態')+'；僅依已取得的標題與分類資訊判定，並非全文摘要。）','meta');
