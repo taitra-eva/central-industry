@@ -122,3 +122,11 @@ GitHub Pages website for public news indexing covering 機械、自行車、汽�
 - 焦點解讀只有一則原始報導時，來源與日期合併到卡片右上角，不再底部重複日期；多來源才收合「相關報導」。
 - 歷史新聞資料庫沿用產業動態的主題／標題相似規則分組；每組提供原始連結展開，原始新聞不刪除。每頁30**組**，而不是30筆新聞。
 - 目前海外文章的原文解析與完整摘要仍未解決；有英文或日文的公開摘要可以人工查核後製作繁體中文重點，但不表示所有文章均已經自動閱讀全文。
+
+## 2026-11-19：真正原文閱讀與 AI 整理的改善
+- 原始問題：(1) Google News RSS 返回 `news.google.com/rss/articles/` 中繼連結；之前的解碼器過舊，國外報導常無法解析；(2) 工作流程只有 Argos 離線翻譯／擷取前段，不具生成式摘要與產業推論；(3) 所以網站不能從「有標題」直接得出可信產業觀察。
+- 已升級 `googlenewsdecoder` 至 0.2.2 並讓 `read_articles.py` **優先使用已核實的 `source_url`**，以原始出版商可公開讀取的 HTML 為來源，暫存正文於不會提交的 `.article_texts.json`。保留閱讀成功／失敗原因；不繞過付費牆。
+- `scripts/generate_ai_insights.py` 新增真實的生成式整理步驟。若 GitHub Actions secret **`GROQ_API_KEY`** 已設置，可透過 Groq `openai/gpt-oss-20b` 對可讀原文產生繁體中文 `summary`、`observation`、產業分類及信心程度，寫入 `data/insights.json`，首頁自動展示。未設金鑰則在 Actions 日誌明確標示 **AI analysis NOT ACTIVE**，不冒稱已執行。預設每次上限 35 篇，額度不足則停止；Groq 服務可能更改免費額度，不能保證永久免費。
+- 需要由儲存庫擁有者在 GitHub **Settings → Secrets and variables → Actions → New repository secret** 設定 `GROQ_API_KEY`，金鑰僅存 GitHub Secret，**絕不能寫入程式、貼到聊天或提交到 repository**。到 https://console.groq.com/keys 建立。隨後在 https://github.com/taitra-eva/central-industry/actions/workflows/daily.yml 執行 workflow。
+- 文章閱讀之後是否成功，需看工作紀錄中的 `Publisher article read results:`、`Original URL resolution:`、`AI summary finished:`。尚未有透過 GitHub Actions 成功完成端對端 AI 推論的實際驗收。
+- 特別案例「伯鑫工具串聯同業與加工夥伴 組成六強聯盟」，已改用經確認的經濟日報直連 https://money.udn.com/money/story/11799/9887094 並根據公開報導補上查證後摘要與觀察重點；不是假定已經執行 Groq。
