@@ -57,3 +57,24 @@ def should_keep(title, industry=None):
         if not any(p in low for p in SUBSTANTIVE):
             return False, "no_concrete_economic_or_industry_subject"
     return True, "industry_relevant_candidate"
+
+# Exclude direct government publishing. This does NOT exclude private-sector
+# reporting about a policy, tariff, budget or ministry decision.
+GOVERNMENT_SOURCE_LABELS = (
+    "經濟部", "財政部", "產業發展署", "關務署", "國際貿易署",
+    "行政院", "交通部", "勞動部", "國家發展委員會", "國發會",
+    "農業部", "環境部", "能源署", "工業局", "中央銀行",
+)
+def is_government_source(source="", url=""):
+    from urllib.parse import urlparse
+    host = (urlparse(url).hostname or "").casefold()
+    if any(host == t or host.endswith("." + t) for t in ("gov.tw", "gov.jp", "gov.hk", "gov.sg", "gov.uk", "gov")):
+        return True
+    # For Google News RSS proxy links, source title is the only available
+    # publisher indicator until the URL can be resolved.
+    name = (source or "").strip()
+    if any(name == label or name.startswith(label+" -") or name.startswith(label+"｜") or name.startswith(label+"（") for label in GOVERNMENT_SOURCE_LABELS):
+        return True
+    if name in ("經濟部產業發展署", "經濟部統計處", "財政部關務署"):
+        return True
+    return False
