@@ -1,13 +1,27 @@
 name: Daily industry news
 on:
   workflow_dispatch:
+    inputs:
+      stage:
+        description: "Choose which stage to run"
+        type: choice
+        options:
+          - collect
+          - analyze
+        default: collect
   schedule:
-    - cron: '0 9 * * *' # 09:00 local Taipei time; scheduling may be delayed
+    - cron: '30 7 * * *'
+      timezone: 'Asia/Taipei'
+    - cron: '0 8 * * *'
       timezone: 'Asia/Taipei'
 permissions:
   contents: write
+concurrency:
+  group: daily-industry-news
+  cancel-in-progress: false
 jobs:
   collect:
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '30 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'collect') }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -16,18 +30,36 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - run: python scripts/collect.py
-      - name: Discover relevant articles from ITIS daily news
+      - name: Collect Google News RSS candidates
+        run: python scripts/collect.py
+      - name: Discover relevant articles from ITIS
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
-      - name: Limit each sector to 8 new discoveries per day
+      - name: Select up to eight new stories per sector
         run: python scripts/select_daily.py
-      - name: Read free public original articles
+      - name: Commit morning collection
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data/
+          git diff --cached --quiet || (git commit -m 'chore: morning news collection' && git push)
+
+  analyze:
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 8 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'analyze') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read free public publisher articles
         run: python scripts/read_articles.py
-      - name: Translate available titles and publisher excerpts offline
+      - name: Translate titles and verified source excerpts offline
         run: python scripts/translate.py
         continue-on-error: true
-      - name: Generate grounded AI summaries from readable originals
+      - name: Generate AI summaries from verified full text when free API configured
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: openai/gpt-oss-20b
@@ -35,13 +67,13 @@ jobs:
         run: python scripts/generate_ai_insights.py
       - name: Remove only confirmed same-content duplicates
         run: python scripts/dedupe_articles.py
-      - name: Recheck daily sector limits after AI classification
+      - name: Recheck daily sector limits
         run: python scripts/select_daily.py
       - name: Build source-backed industry brief
         run: python scripts/build_brief.py
-      - name: Commit refreshed index
+      - name: Commit analyzed news
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A data/
-          git diff --cached --quiet || (git commit -m 'chore: refresh news index' && git push)
+          git diff --cached --quiet || (git commit -m 'chore: morning article analysis' && git push)
