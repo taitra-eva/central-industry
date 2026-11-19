@@ -1,0 +1,65 @@
+{
+  "note": "Candidate editorial and official sources only. Direct automated fetch not yet implemented or verified.",
+  "sources": [
+    {
+      "name": "經濟部統計處",
+      "region": "台灣",
+      "type": "官方統計",
+      "url": "https://www.moea.gov.tw/MNS/dos/home/Home.aspx"
+    },
+    {
+      "name": "財政部關務署",
+      "region": "台灣",
+      "type": "官方統計",
+      "url": "https://web.customs.gov.tw/"
+    },
+    {
+      "name": "Modern Machine Shop",
+      "region": "北美",
+      "type": "工具機專業媒體",
+      "url": "https://www.mmsonline.com/"
+    },
+    {
+      "name": "American Machinist",
+      "region": "北美",
+      "type": "機械專業媒體",
+      "url": "https://www.americanmachinist.com/"
+    },
+    {
+      "name": "Bicycle Retailer",
+      "region": "北美",
+      "type": "自行車專業媒體",
+      "url": "https://www.bicycleretailer.com/"
+    },
+    {
+      "name": "AftermarketNews",
+      "region": "北美",
+      "type": "汽配專業媒體",
+      "url": "https://www.aftermarketnews.com/"
+    },
+    {
+      "name": "Bike Europe",
+      "region": "歐洲",
+      "type": "自行車專業媒體",
+      "url": "https://www.bike-eu.com/news"
+    },
+    {
+      "name": "ETMM",
+      "region": "歐洲",
+      "type": "機械專業媒體",
+      "url": "https://www.etmm-online.com/"
+    },
+    {
+      "name": "DIY International",
+      "region": "歐洲",
+      "type": "DIY及五金通路專業媒體",
+      "url": "https://www.diyinternational.com/"
+    },
+    {
+      "name": "日刊自動車新聞",
+      "region": "日本",
+      "type": "汽車專業媒體",
+      "url": "https://www.netdenjd.com/"
+    }
+  ]
+}
