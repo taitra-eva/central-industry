@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from functools import lru_cache
 DATA=Path(__file__).resolve().parents[1]/"config/industry_entities.json"
-EVENTS=("訂單","接單","出貨","擴產","增產","產能","營收","獲利","財報","併購","收購","投資","設廠","關廠","裁員","出口","量產","新品","合作","市場","庫存","營運","供應鏈","sales","revenue","earnings","results","orders","backlog","production","manufactur","factory","plant","capacity","acquisition","investment","export","demand","launch","market","layoffs","forecast","partnership","expansion","growth","shipment","tariff","業績","売上","受注","生産","工場","買収","輸出","新製品")
+EVENTS=("訂單","接單","出貨","擴產","增產","產能","營收","獲利","財報","併購","收購","投資","設廠","關廠","裁員","出口","量產","新品","合作","市場","庫存","營運","供應鏈","sales","revenue","earnings","results","orders","backlog","production","manufacturing","manufacturer","manufactured","factory","plant","capacity","acquisition","investment","export","demand","launch","market","layoffs","restructuring","forecast","partnership","expansion","growth","shipment","tariff","業績","売上","受注","生産","工場","買収","輸出","新製品")
 PRODUCT={
 "總體情勢":("鋼價","油價","石油","原油","運費","關稅","匯率","鋼鐵","oil price","steel price"),
 "機械與金屬加工":("工具機","機床","金屬加工","滾珠螺桿","線性滑軌","線軌","加工中心","CNC","machining","machine tool","metalworking","woodworking machinery"),
