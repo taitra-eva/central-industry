@@ -12,10 +12,11 @@ NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
 PUBLICATION_WINDOW=NOW-timedelta(days=14)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
+EXCLUDED=set(json.loads((ROOT/'config/excluded_news_ids.json').read_text(encoding='utf8'))['ids'])
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
 blocked=('經濟部國際貿易署','國際貿易署經貿資訊網','國貿署','international trade administration','indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
-news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and not is_government_source(n.get('source',''), n.get('source_url') or n.get('url','')) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+news={n['id']:n for n in previous.get('items',[]) if n['id'] not in EXCLUDED and datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and not is_government_source(n.get('source',''), n.get('source_url') or n.get('url','')) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
 for entry in news.values():
     if entry.get('region')=='日本':entry['region']='亞洲'
 success=0
@@ -45,6 +46,7 @@ for query in cfg:
                 if datetime.fromisoformat(published)<PUBLICATION_WINDOW:continue
             norm=re.sub(r'\W+','',title.casefold())
             uid=hashlib.sha256(norm.encode()).hexdigest()[:20]
+            if uid in EXCLUDED:continue
             if uid in news:
                 if query['industry'] not in news[uid]['industries']:news[uid]['industries'].append(query['industry'])
                 continue
