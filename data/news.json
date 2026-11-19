@@ -356,29 +356,6 @@
       "tags": []
     },
     {
-      "id": "24338fe3076d2b5ec7c6",
-      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
-      "url": "https://udn.com/news/story/7252/9873026",
-      "source": "ITIS 每日新聞所引述的原始媒體",
-      "published_at": "2026-11-11T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
-      "industries": [
-        "無人載具及機器人"
-      ],
-      "region": "台灣",
-      "topic": "產業動態",
-      "access_status": "readable",
-      "discovery_source": "ITIS 每日重點新聞",
-      "read_checked_at": "2026-11-19T05:19:29.301866+00:00",
-      "source_url": "https://udn.com/news/story/7252/9873026",
-      "body_length": 1124,
-      "excerpt": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機\n雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結緣。\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\nGoogle宣布，Gemini Robotics",
-      "summary_zh": "雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\n\nGoogle宣布，Gemini Robotics 2.5已在賓士生產線上崗，在賓士生產線的概念驗證中，協助Apptronik的Apollo 2人形機器人揀貨並包裝汽車零件，成功率達96%。可承接單調工作，讓技術人員專注於複雜組裝任務。\n\n機器人利用Google開發的具身推理模型（Gemini Robotics ER）追蹤工作流程，並採用Gemini Robotics 2.5動作模型控制其手臂和手部，從物料箱中取出金屬汽車支架，並將其放入排序容器中，同時自動修正任何間隙。\n\n業界指出，Apollo 2人形機器人在上述場域有出色表現，元太的電子紙在人機介面的功能，是讓實體AI順利運作的關鍵之一。\n\nGoogle指出，Gemini Robotics 2.5在三大關鍵領域技術大幅提升，機器人可藉助日常工具、處理嬌弱柔性物體，完成顯著較多任務，性能與靈巧度大幅提升。同時，Google優化實體安",
-      "summary_status": "source_excerpt_translated",
-      "tags": []
-    },
-    {
       "id": "c4993511f0584b9f0b67",
       "title": "元太報喜 大咬 Google 最強 VLA 機器人商機",
       "url": "https://money.udn.com/money/story/5612/9873068",
