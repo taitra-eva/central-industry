@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-19T13:28:53.801020+00:00",
+  "generated_at": "2026-11-19T14:03:14.103950+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 115,
+  "articles_total": 121,
   "readable_total": 18,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 51,
-      "readable": 9
+      "articles": 55,
+      "readable": 8
     },
     {
       "name": "機械與金屬加工",
@@ -31,7 +31,7 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 42,
+      "articles": 43,
       "readable": 8
     }
   ],
@@ -39,9 +39,8 @@
     {
       "id": "article-27249349a6b343634e3f",
       "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
-      "sector": "總體情勢",
+      "sector": "機械與金屬加工",
       "sectors": [
-        "總體情勢",
         "機械與金屬加工",
         "手工具"
       ],
@@ -73,6 +72,23 @@
       "taiwan_focus": true
     },
     {
+      "id": "article-827b1cf36512e7e1b15a",
+      "title": "鴻海斥資 14 億買 Sony 子公司 深耕日本車用零組件市場",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "827b1cf36512e7e1b15a"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
       "id": "article-837a827aee4a22bd5d12",
       "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
       "sector": "總體情勢",
@@ -100,23 +116,6 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "ed629697ab15e1752cec"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-17T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-827b1cf36512e7e1b15a",
-      "title": "鴻海斥資 14 億買 Sony 子公司 深耕日本車用零組件市場",
-      "sector": "汽配",
-      "sectors": [
-        "汽配"
-      ],
-      "preview": "鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "827b1cf36512e7e1b15a"
       ],
       "readable_sources": 1,
       "source_count": 1,
