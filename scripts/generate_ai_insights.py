@@ -19,7 +19,7 @@ TEXTS=ROOT/".article_texts.json"
 INSIGHTS=ROOT/"data/insights.json"
 KEY=os.environ.get("GROQ_API_KEY","").strip()
 MODEL=os.environ.get("GROQ_MODEL","openai/gpt-oss-20b")
-LIMIT=int(os.environ.get("AI_DAILY_LIMIT","20"))
+LIMIT=int(os.environ.get("AI_DAILY_LIMIT","48"))
 API="https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM="""你是臺灣製造業產業情報分析員。只能使用使用者提供的原始新聞全文作答。
