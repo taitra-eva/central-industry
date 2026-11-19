@@ -63,3 +63,30 @@ function setupDailyDigestTrigger() {
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction()==='sendDailyIndustryDigest').forEach(ScriptApp.deleteTrigger);
   ScriptApp.newTrigger('sendDailyIndustryDigest').timeBased().everyMinutes(30).create();
 }
+
+/**
+ * 手動寄出一次測試信：選取 GitHub 已收錄的真實新聞，不影響每日排程的寄送旗標。
+ * 在 Apps Script 選單選 sendTestDigestNow 並點「執行」。
+ */
+function sendTestDigestNow() {
+  const response = UrlFetchApp.fetch(NEWS_URL + '?test=' + Date.now(), {muteHttpExceptions:true});
+  if (response.getResponseCode() !== 200) throw Error('新聞資料無法讀取：' + response.getResponseCode());
+  const d = JSON.parse(response.getContentText('UTF-8'));
+  const industries = ['機械','自行車','汽配','手工具','無人載具及機器人'];
+  const escapeHtml = s => String(s || '').replace(/[&<>"']/g,c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const all = d.items || [];
+  let sections = '';
+  for (const sector of industries) {
+    const items = all.filter(x => (x.industries || []).includes(sector)).slice(0,3);
+    sections += '<h3 style="color:#865027;border-left:4px solid #b46c38;padding-left:10px">' + escapeHtml(sector) + '</h3>';
+    sections += items.length ? '<ul style="padding-left:20px">' + items.map(x => {
+      const link = HOME_URL+'article.html?id='+encodeURIComponent(x.id);
+      return '<li style="margin-bottom:12px"><a style="color:#945226" href="'+escapeHtml(link)+'">'+escapeHtml(x.title_zh||x.title)+'</a><div style="color:#8b7a70;font-size:12px">'+escapeHtml((x.source||'')+'｜'+(x.region||''))+'</div></li>';
+    }).join('') + '</ul>' : '<p style="color:#8b7a70">目前無收錄新聞</p>';
+  }
+  const content = '<div style="max-width:700px;font-family:Arial,sans-serif;color:#382e27">' +
+    '<div style="background:#744020;color:white;padding:22px"><h2 style="margin:0">中部產業情報日報｜測試版</h2><p>以下是 GitHub 已收錄的真實新聞標題；尚未完成的翻譯或摘要不會冒充中文分析。</p></div>' +
+    '<div style="background:#fffaf5;padding:20px">'+sections+
+    '<p><a style="color:#945226" href="'+HOME_URL+'">查看完整新聞清單</a></p></div></div>';
+  MailApp.sendEmail({to:RECIPIENT,subject:'【測試】中部產業情報日報｜五大產業',body:'測試電子報：'+HOME_URL,htmlBody:content});
+}
