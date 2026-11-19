@@ -2,3 +2,6 @@ feedparser==6.0.12
 requests==2.32.3
 argostranslate>=1.9,<2
 opencc-python-reimplemented>=0.1.7,<1
+trafilatura>=2.0,<3.0
+googlenewsdecoder>=0.1.7,<1.0
+selectolax<1.0
