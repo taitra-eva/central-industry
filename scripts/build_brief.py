@@ -54,7 +54,7 @@ def summary_preview(item, limit=175):
     summary=item.get("summary_zh","")
     if item.get("summary_status") not in ("verified","source_excerpt_translated") or not summary:
         return ""
-    summary=re.sub(r"\\s+"," ",summary).strip()
+    summary=re.sub(r"\s+"," ",summary).strip()
     # Avoid long literal republishing: display a concise excerpt, not full text.
     chunks=re.split(r"(?<=[。！？])",summary)
     result=""
@@ -114,7 +114,7 @@ def main():
                   for sector in SECTORS],
        "events":events,
     }
-    OUTPUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    OUTPUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Industry brief:",len(events),"sourced event groups;",len(records),"articles")
 
 if __name__=="__main__":
