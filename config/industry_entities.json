@@ -1,5 +1,5 @@
 {
-  "description": "Curated candidate search entities. Broad company names alone are not sufficient proof of industry relevance.",
+  "description": "Six-sector curated candidate sources: company_names are enterprises or manufacturer names, brand_names are brands/products, strong is their combined search alias list; ambiguous names need additional product and business-event evidence. No company website press release is a direct news source.",
   "sectors": {
     "總體情勢": {
       "strong": [
@@ -10,7 +10,16 @@
         "Formosa Petrochemical",
         "中油"
       ],
-      "contextual": []
+      "contextual": [],
+      "company_names": [
+        "中鋼",
+        "中國鋼鐵",
+        "China Steel Corporation",
+        "台塑化",
+        "Formosa Petrochemical",
+        "中油"
+      ],
+      "brand_names": []
     },
     "機械與金屬加工": {
       "strong": [
@@ -32,7 +41,24 @@
       "contextual": [
         "FANUC",
         "Mitsubishi Electric"
-      ]
+      ],
+      "company_names": [
+        "上銀",
+        "HIWIN",
+        "永進機械",
+        "YCM",
+        "東台精機",
+        "Tongtai Machine",
+        "台中精機",
+        "Victor Taichung",
+        "程泰",
+        "Goodway Machine",
+        "DMG MORI",
+        "Okuma",
+        "TRUMPF",
+        "Mazak"
+      ],
+      "brand_names": []
     },
     "自行車": {
       "strong": [
@@ -56,6 +82,23 @@
         "Kenda",
         "Maxxis",
         "Specialized"
+      ],
+      "company_names": [
+        "巨大集團",
+        "Giant Manufacturing",
+        "美利達",
+        "Merida",
+        "桂盟",
+        "KMC",
+        "A-Pro",
+        "愛地雅",
+        "Ideal Bike"
+      ],
+      "brand_names": [
+        "捷安特",
+        "Giant Bicycles",
+        "SR Suntour",
+        "建大輪胎"
       ]
     },
     "汽配": {
@@ -70,13 +113,30 @@
         "Valeo",
         "DENSO",
         "Magna International",
-        "Aptiv"
+        "Aptiv",
+        "帝寶工業"
       ],
       "contextual": [
         "Bosch",
         "Continental",
         "Toyota",
         "Hyundai"
+      ],
+      "company_names": [
+        "東陽實業",
+        "東陽",
+        "Tong Yang",
+        "堤維西",
+        "TYC",
+        "昭輝",
+        "Valeo",
+        "DENSO",
+        "Magna International",
+        "Aptiv",
+        "帝寶工業"
+      ],
+      "brand_names": [
+        "DEPO"
       ]
     },
     "手工具": {
@@ -97,7 +157,13 @@
         "Wiha Tools",
         "FACOM",
         "Proto Tools",
-        "伯鑫工具"
+        "伯鑫工具",
+        "Jonnesway Enterprise Co., Ltd.",
+        "Apex Tool Group",
+        "King Tony",
+        "KING TONY",
+        "TOPTUL",
+        "JONNESWAY"
       ],
       "contextual": [
         "STANLEY",
@@ -106,6 +172,32 @@
         "TTI",
         "Irwin",
         "Ridgid"
+      ],
+      "company_names": [
+        "Stanley Black & Decker",
+        "Techtronic Industries",
+        "Makita",
+        "Snap-on",
+        "Jonnesway Enterprise Co., Ltd.",
+        "Apex Tool Group"
+      ],
+      "brand_names": [
+        "DEWALT",
+        "CRAFTSMAN",
+        "Milwaukee Tool",
+        "Bosch Power Tools",
+        "HiKOKI",
+        "Metabo",
+        "KNIPEX",
+        "Wera Tools",
+        "Wiha Tools",
+        "FACOM",
+        "Proto Tools",
+        "Blue-Point",
+        "TOPTUL",
+        "KING TONY",
+        "JONNESWAY",
+        "King Tony"
       ]
     },
     "無人載具及機器人": {
@@ -129,7 +221,22 @@
         "ABB",
         "Hyundai",
         "Boston Dynamics"
-      ]
+      ],
+      "company_names": [
+        "FANUC",
+        "Yaskawa",
+        "KUKA",
+        "Universal Robots",
+        "ABB Robotics",
+        "Skydio",
+        "AeroVironment",
+        "宇樹科技",
+        "Unitree Robotics",
+        "達明機器人",
+        "Techman Robot",
+        "大疆創新"
+      ],
+      "brand_names": []
     }
   }
 }

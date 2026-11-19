@@ -10,7 +10,7 @@ Rules:
 import json
 import re
 from collections import defaultdict
-from industry_entities import entity_event
+from industry_entities import entity_event, has as precise_match
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -40,7 +40,7 @@ def relevant_to_sector(article,sector,verified):
     title=((article.get("title") or "")+" "+(article.get("title_zh") or "")).casefold()
     if any(word.casefold() in title for word in BAD_HEADLINE):return False
     terms=SECTOR_TERMS.get(sector,())
-    if any(term.casefold() in title for term in terms):
+    if any(precise_match(title,term) for term in terms):
         return True
     if entity_event(title,sector):
         return True
@@ -60,7 +60,7 @@ def timestamp(article):
 def score(article,verified):
     title=((article.get("title") or "")+" "+(article.get("title_zh") or "")).casefold()
     industries=[x for x in article.get("industries",[]) if x in SECTORS]
-    specific=max((sum(1 for term in SECTOR_TERMS[x] if term.casefold() in title) for x in industries),default=0)
+    specific=max((sum(1 for term in SECTOR_TERMS[x] if precise_match(title,term)) for x in industries),default=0)
     publisher=article.get("source","")
     return (
       1 if article["id"] in verified else 0,
