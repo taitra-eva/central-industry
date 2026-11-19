@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 import requests, feedparser
+from relevance import should_keep
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
@@ -14,7 +15,7 @@ cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
 blocked=('indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
-news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in n.get('source','').casefold() for word in blocked)}
+news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in n.get('source','').casefold() for word in blocked) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
 success=0
 for query in cfg:
     en=query.get('locale')=='en-US'
@@ -29,6 +30,7 @@ for query in cfg:
             title=re.sub('<[^>]*>','',e.get('title','')).strip()
             link=e.get('link','')
             if not title or not link.startswith('https://'):continue
+            if not should_keep(title, query['industry'])[0]:continue
             published=None
             if e.get('published_parsed'):
                 import calendar
