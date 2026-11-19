@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-11-19T12:46:54.582826+00:00",
   "method": "individual_articles_only_content_confirmed_duplicates_removed_separately",
-  "articles_total": 33,
-  "readable_total": 17,
+  "articles_total": 32,
+  "readable_total": 16,
   "sectors": [
     {
       "name": "總體情勢",
@@ -31,8 +31,8 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 8,
-      "readable": 8
+      "articles": 7,
+      "readable": 7
     }
   ],
   "events": [
@@ -204,23 +204,6 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-12T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-24338fe3076d2b5ec7c6",
-      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "24338fe3076d2b5ec7c6"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-11T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
