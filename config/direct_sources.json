@@ -43,12 +43,7 @@
       "industry": "手工具",
       "url": "https://www.torque-expo.com/hand-power-tools/",
       "status": "html_parser_unverified"
-    },
-    {
-      "name": "Bosch Power Tools Media Service",
-      "industry": "手工具",
-      "url": "https://www.bosch-presse.de/pressportal/us/en/news/power-tools/",
-      "status": "html_parser_unverified"
     }
-  ]
+  ],
+  "description": "Only independent industry media and association news feeds are eligible; manufacturer press-release and promotion pages are not scraped as industry news."
 }
