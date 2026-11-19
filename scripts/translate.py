@@ -24,17 +24,21 @@ def main():
     converter = OpenCC("s2twp")
     data = json.loads(DATA.read_text(encoding="utf-8"))
     entries = data.get("items", [])
+    raw_file = ROOT / ".article_texts.json"
+    source_texts = json.loads(raw_file.read_text(encoding="utf-8")) if raw_file.exists() else {}
     needed = set()
     for x in entries:
         if not x.get("title_zh") and (lang := language(x.get("title", ""))):
             needed.add(lang)
         if x.get("excerpt") and not x.get("excerpt_translation_zh") and (lang := language(x["excerpt"])):
             needed.add(lang)
-    if not needed:
-        print("No foreign items to translate")
+    if not needed and not source_texts:
+        print("No foreign items or source bodies to translate")
         return
     installed = {(p.from_code,p.to_code) for p in argostranslate.package.get_installed_packages()}
-    required = {("en","zh")} if needed else set()
+    if source_texts:
+        needed.update(language(body[:250]) for body in source_texts.values() if language(body[:250]))
+    required = {("en","zh")} if "en" in needed or "ja" in needed else set()
     if "ja" in needed:
         required.add(("ja","en"))
     missing = required - installed
@@ -85,6 +89,30 @@ def main():
                     x["excerpt_translation_status"]="machine_translation_of_source_excerpt"
             except Exception as ex:
                 print("Excerpt translation error:",str(ex)[:100])
+        body = source_texts.get(x.get("id"), "")
+        if len(body) >= 250 and not x.get("summary_zh"):
+            # Faithful source excerpts, NOT a generative AI summary.
+            paragraphs=[p.strip() for p in re.split(r"\n+", body) if len(p.strip()) > 55]
+            chosen=[]
+            total=0
+            for para in paragraphs:
+                if total + len(para) > 1900: break
+                chosen.append(para)
+                total += len(para)
+                if len(chosen) >= 8: break
+            selected="\n\n".join(chosen)
+            lang=language(selected[:300])
+            if selected and lang in ("en","ja"):
+                try:
+                    translated=translate_to_zh(selected,lang)
+                    if translated and translated.strip():
+                        x["summary_zh"]=converter.convert(translated.strip())[:950]
+                        x["summary_status"]="source_excerpt_translated"
+                except Exception as ex:
+                    print("Source passage translation failed:",str(ex)[:120])
+            elif selected and not lang:
+                x["summary_zh"]=selected[:600]
+                x["summary_status"]="source_excerpt_translated"
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Translated titles:",count, "total:",len(entries))
 
