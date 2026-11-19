@@ -1,18 +1,18 @@
 {
   "generated_at": "2026-11-19T08:05:49.283964+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 292,
-  "readable_total": 46,
+  "articles_total": 288,
+  "readable_total": 42,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 67,
-      "readable": 32
+      "articles": 64,
+      "readable": 29
     },
     {
       "name": "機械與金屬加工",
-      "articles": 65,
-      "readable": 1
+      "articles": 64,
+      "readable": 0
     },
     {
       "name": "自行車",
@@ -296,23 +296,6 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-c870b327935673e3ada9",
-      "title": "關稅減壓 紡纖業2027看旺",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "關稅減壓 紡纖業2027看旺 美期中選舉後，遠東新、新纖、力麗、儒鴻、聚陽齊喊衝 04:102026/11/16 工商時報 袁延壽 Facebook Line Threads 複製連結 示意圖。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "c870b327935673e3ada9"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
       "id": "article-9e7630daca61e502f40f",
       "title": "1分鐘看世界／歐盟能源業延攬前北約官員 擬強化能源基建防護力",
       "sector": "總體情勢",
@@ -378,57 +361,6 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-bf1c3bbc4e25e60acd95",
-      "title": "觀察站／黃仁勳卸任輝達CEO 牽動供應鏈布局",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "輝達執行長黃仁勳捲入桃色風波請辭，這家由黃仁勳掌舵卅三年的晶片龍頭大廠要臨時撤換執行長，一時間，要找到適當的接替人選，難上加難。不過，業界人士點明，此風波後續仍有六大關鍵變數，值得觀察。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "bf1c3bbc4e25e60acd95"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-12T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-155bc86c5adb82dc9641",
-      "title": "後市變數增 台韓供應鏈嚴陣以待",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "輝達執行長黃仁勳辭去執行長一職，有分析指出其真正的變數在於尚處投資初期的AI工廠、機器人及自駕車計畫。Omdia首席分析師蘇廉節警告，若輝達執行速度放慢或產品藍圖不再明確，競爭對手將獲得更多追趕空間。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "155bc86c5adb82dc9641"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-12T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "industry-machinery",
-      "title": "機電四雄：今年獲利估續創新高",
-      "sector": "機械與金屬加工",
-      "sectors": [
-        "機械與金屬加工"
-      ],
-      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "465d9374763b2138353d"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-12T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
