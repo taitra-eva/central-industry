@@ -549,6 +549,48 @@
       "region": "亞洲",
       "q": "日本 木工機械 精密加工 金属加工 受注",
       "locale": "ja-JP"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "新台幣 匯率 升值 貶值 出口 製造業 外銷 接單 央行",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "美元 新台幣 匯率 台灣 機械 出口 自行車 汽車零組件",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "日圓 歐元 匯率 台灣 廠商 出口 競爭力 成本",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:money.udn.com 新台幣 匯率 出口商 製造業",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:cna.com.tw 新台幣 匯率 外銷 出口 產業",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 匯率 升貶 傳統產業 機械 自行車",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "北美",
+      "q": "Taiwan dollar exchange rate manufacturing exporters competitiveness USD TWD",
+      "locale": "en-US"
     }
   ]
 }
