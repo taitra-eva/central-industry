@@ -357,6 +357,138 @@
       "region": "亞洲",
       "q": "Japan Korea Singapore robotics drone suppliers industry",
       "locale": "en-US"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:cna.com.tw 產業 出口 關稅 原物料 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:money.udn.com 台灣 製造業 景氣 接單 關稅",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 產業 經營 供應鏈 出口 訂單",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:moneydj.com 製造業 出口 原物料 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:money.udn.com 工具機 機械 訂單 精密零組件",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:cna.com.tw 工具機 機械 出口 設備",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 工具機 機電 設備 廠商",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:moneydj.com 工具機 傳動 滾珠螺桿 機械",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:money.udn.com 自行車 巨大 美利達 零組件",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:cna.com.tw 自行車 品牌 出口 零組件",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 自行車 巨大 美利達 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:money.udn.com 汽車零組件 東陽 堤維西 車用",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:cna.com.tw 汽車零組件 汽配 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 汽車零組件 AM 售後市場",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:money.udn.com 手工具 水五金 扳手 彰化",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:cna.com.tw 手工具 水五金 五金產業",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 手工具 五金 水五金 出口",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:moneydj.com 手工具 氣動工具 五金業",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:money.udn.com 無人機 機器人 台廠 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:cna.com.tw 無人機 機器人 製造商",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 機器人 無人機 零組件",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:technews.tw 機器人 無人機 台灣 產業",
+      "locale": "zh-TW"
     }
   ]
 }
