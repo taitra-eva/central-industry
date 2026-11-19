@@ -33,7 +33,7 @@ KEYWORDS = {
     "總體情勢":("關稅","貿易","經濟部","工業生產","原物料","鋼價","鋁價","銅價","石油","能源",
                "航運","物流","運費","戰爭","制裁","供應鏈","產業政策","貨幣","匯率")
 }
-BLOCKED_HOSTS = ("itis.org.tw","itisweb2.itis.org.tw")
+BLOCKED_HOSTS = ("itis.org.tw","itisweb2.itis.org.tw","trade.gov.tw","trade.moea.gov.tw")
 SKIP_TEXT = ("登入","會員","更多","首頁","列印","回上頁","最新活動","研討會","top")
 MAX_NEW=75
 
