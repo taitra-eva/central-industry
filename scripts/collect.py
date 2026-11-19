@@ -13,7 +13,8 @@ PUBLICATION_WINDOW=NOW-timedelta(days=14)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
-news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF}
+blocked=('indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
+news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in n.get('source','').casefold() for word in blocked)}
 success=0
 for query in cfg:
     en=query.get('locale')=='en-US'
@@ -40,7 +41,6 @@ for query in cfg:
                 continue
             source=e.get('source',{}).get('title','') if e.get('source') else 'Google News'
             # Exclude clearly paywalled / market-research lead-generation domains or sources.
-            blocked=('indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information')
             if any(word in source.casefold() for word in blocked):continue
             low=title.casefold()
             # Google News RSS descriptions are often just a list of article links. They
