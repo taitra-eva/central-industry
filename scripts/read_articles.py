@@ -63,6 +63,14 @@ def read_public_page(url):
         response.encoding = response.apparent_encoding or response.encoding
         html = payload.decode(response.encoding or "utf-8", errors="replace")
         text = trafilatura.extract(html, include_comments=False, include_tables=True, favor_recall=True)
+        # Do not mistake a subscription prompt surrounded by recommendations
+        # for a freely accessible full article. Do not bypass the paywall.
+        if text:
+            paywall_phrases=("此篇限「暢讀會員", "升級付費方案，即可暢讀",
+                             "訂閱會員才能閱讀全文", "訂閱後可閱讀完整內容",
+                             "subscribe to read the full article", "sign in to read the full article")
+            if any(phrase.casefold() in text.casefold() for phrase in paywall_phrases):
+                return {"access_status":"blocked","read_reason":"Article body is behind subscription/login"}
         if not text or len(text.strip()) < 250:
             return {"access_status":"insufficient_text","read_reason":"Page retrieved but substantial article body not extracted"}
         return {"access_status":"readable","source_url":response.url,"body":text.strip()}
