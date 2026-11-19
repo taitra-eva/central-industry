@@ -255,6 +255,59 @@
       "region": "其他",
       "q": "global conflict shipping routes oil prices manufacturing supply chains",
       "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "台灣 手工具 OR 五金工具"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "手工具 出口 OR 訂單"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "台灣 水五金 OR 衛浴五金"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "台灣 扳手 OR 套筒 OR 氣動工具"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "手工具 公會 OR 金屬中心"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:itis.org.tw 手工具"
+    },
+    {
+      "industry": "手工具",
+      "region": "北美",
+      "q": "hand tools manufacturers demand",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "北美",
+      "q": "hardware tools retail market",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "歐洲",
+      "q": "European hand tools hardware industry",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "日本",
+      "q": "日本 作業工具 メーカー"
     }
   ]
 }
