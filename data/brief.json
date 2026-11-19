@@ -37,34 +37,92 @@
   ],
   "events": [
     {
-      "id": "trade-tariff",
-      "title": "國際關稅與貿易措施",
+      "id": "tariff-steel-eu",
+      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "中國大陸國家主席習近平昨在深圳會見赴陸出席亞太經合會（ＡＰＥＣ）的加拿大總理卡尼，會後雙方宣布將延長並擴大經貿問題初步聯合安排，包括中方進一步放寬加拿大農漁產品的關稅減免，加方則延長並擴大部分大陸鋼鋁產品的關稅減免二年。",
+      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "6d61b9eecdc50a93b24a",
-        "e49f5dcc8a82cd80ff48",
-        "6ec3e4d38332184acaa7",
-        "647743db85cf8e0db7ba",
-        "ed629697ab15e1752cec",
-        "0c54579ab5864516279f",
-        "19ae260e19ebbb49a43a",
-        "af7612c734592bca178c",
-        "c870b327935673e3ada9",
-        "0477154adc4469aa5e41",
-        "d38124750d9ad3cc552a",
-        "b8a3dd899c4a8f718467",
-        "213da3b194bf8983da27",
-        "ef40bb70f49bf16768d0",
-        "56bacd8f764108d77e42"
+        "837a827aee4a22bd5d12"
       ],
-      "readable_sources": 5,
-      "source_count": 15,
-      "latest_at": "2026-11-18T05:00:00+00:00",
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "robot-eink",
+      "title": "元太電子紙與機器人應用",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "c4993511f0584b9f0b67",
+        "24338fe3076d2b5ec7c6"
+      ],
+      "readable_sources": 2,
+      "source_count": 2,
+      "latest_at": "2026-11-11T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "robot-jialianyi",
+      "title": "嘉聯益攻機器人 專案明年量產",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0da396402460d8cf1914"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "industry-machinery",
+      "title": "機電四雄：今年獲利估續創新高",
+      "sector": "機械",
+      "sectors": [
+        "機械"
+      ],
+      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line Threads 複製連結 字級設定：小中大特 士電",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "465d9374763b2138353d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-12T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "machine-apple",
+      "title": "蘋果與機器人供應鏈",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "90c91aff78fa1a064c7b",
+        "8cf0757fcb7437e69f80",
+        "592f2daab4316ee77ff9",
+        "3d748b1d3d1b6bb8e84a"
+      ],
+      "readable_sources": 4,
+      "source_count": 4,
+      "latest_at": "2026-11-09T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -96,26 +154,6 @@
       "taiwan_focus": true
     },
     {
-      "id": "machine-apple",
-      "title": "蘋果與機器人供應鏈",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "90c91aff78fa1a064c7b",
-        "8cf0757fcb7437e69f80",
-        "592f2daab4316ee77ff9",
-        "3d748b1d3d1b6bb8e84a"
-      ],
-      "readable_sources": 4,
-      "source_count": 4,
-      "latest_at": "2026-11-09T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
       "id": "taiwan-electric",
       "title": "台灣電網建設與用電",
       "sector": "總體情勢",
@@ -134,24 +172,6 @@
       "taiwan_focus": true
     },
     {
-      "id": "robot-eink",
-      "title": "元太電子紙與機器人應用",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "c4993511f0584b9f0b67",
-        "24338fe3076d2b5ec7c6"
-      ],
-      "readable_sources": 2,
-      "source_count": 2,
-      "latest_at": "2026-11-11T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
       "id": "taiwan-steel",
       "title": "台灣及亞洲鋼鐵市場",
       "sector": "總體情勢",
@@ -167,23 +187,6 @@
       "readable_sources": 1,
       "source_count": 2,
       "latest_at": "2026-11-11T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "robot-jialianyi",
-      "title": "嘉聯益攻機器人 專案明年量產",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "0da396402460d8cf1914"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-18T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -238,16 +241,16 @@
       "taiwan_focus": true
     },
     {
-      "id": "tariff-steel-eu",
-      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
+      "id": "article-ed629697ab15e1752cec",
+      "title": "中加走近…卡尼赴APEC會習近平 雙方宣布擴大關稅減免",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。",
+      "preview": "中國大陸國家主席習近平昨在深圳會見赴陸出席亞太經合會（ＡＰＥＣ）的加拿大總理卡尼，會後雙方宣布將延長並擴大經貿問題初步聯合安排，包括中方進一步放寬加拿大農漁產品的關稅減免，加方則延長並擴大部分大陸鋼鋁產品的關稅減免二年。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "837a827aee4a22bd5d12"
+        "ed629697ab15e1752cec"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -282,6 +285,23 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "2bd7b316dedc46ae9a11"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-19ae260e19ebbb49a43a",
+      "title": "ABAC支持亞太自貿區 籲數位產品永久零關稅",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "APEC領袖峰會17日登場，ABAC（APEC企業諮詢委員會）則在16日順利結束年內最後一次會議，共達成14份成果文件，包括支持亞太自貿區等區域貿易一體化方針，並呼籲永久免徵數位產品關稅。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "19ae260e19ebbb49a43a"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -357,6 +377,23 @@
       "taiwan_focus": true
     },
     {
+      "id": "article-c870b327935673e3ada9",
+      "title": "關稅減壓 紡纖業2027看旺",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "關稅減壓 紡纖業2027看旺 美期中選舉後，遠東新、新纖、力麗、儒鴻、聚陽齊喊衝 04:102026/11/16 工商時報 袁延壽 Facebook Line Threads 複製連結 示意圖。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "c870b327935673e3ada9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-15T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
       "id": "article-bf1c3bbc4e25e60acd95",
       "title": "觀察站／黃仁勳卸任輝達CEO 牽動供應鏈布局",
       "sector": "總體情勢",
@@ -391,16 +428,33 @@
       "taiwan_focus": true
     },
     {
-      "id": "industry-machinery",
-      "title": "機電四雄：今年獲利估續創新高",
-      "sector": "機械",
+      "id": "article-0477154adc4469aa5e41",
+      "title": "COP31示警 戰爭、關稅不應耽擱氣候改善",
+      "sector": "總體情勢",
       "sectors": [
-        "機械"
+        "總體情勢"
       ],
-      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line Threads 複製連結 字級設定：小中大特 士電",
+      "preview": "第31屆聯合國氣候變遷大會（COP31）正在土耳其舉行。會議期間，巴西與土耳其等國領袖警告，全球不應因戰爭與貿易衝突而分散改善氣候的努力。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "465d9374763b2138353d"
+        "0477154adc4469aa5e41"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-12T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-d38124750d9ad3cc552a",
+      "title": "零關稅卡關 美系車廠訂價策略轉彎",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d38124750d9ad3cc552a"
       ],
       "readable_sources": 1,
       "source_count": 1,
