@@ -8,7 +8,7 @@
     {
       "industry": "機械與金屬加工",
       "region": "北美",
-      "q": "machine tools manufacturing orders CNC US",
+      "q": "\"DMG MORI\" OR \"TRUMPF\" machine tool orders",
       "locale": "en-US"
     },
     {
@@ -31,13 +31,13 @@
     {
       "industry": "自行車",
       "region": "北美",
-      "q": "bicycle retailer inventory sales North America",
+      "q": "\"Giant Bicycles\" OR \"SRAM\" bicycle sales inventory",
       "locale": "en-US"
     },
     {
       "industry": "自行車",
       "region": "歐洲",
-      "q": "Bike Europe bicycle market inventory",
+      "q": "\"Merida\" OR \"KMC\" bicycle supply demand",
       "locale": "en-US"
     },
     {
@@ -54,13 +54,13 @@
     {
       "industry": "汽配",
       "region": "北美",
-      "q": "automotive aftermarket parts suppliers US",
+      "q": "\"Tong Yang\" OR \"TYC\" automotive aftermarket",
       "locale": "en-US"
     },
     {
       "industry": "汽配",
       "region": "歐洲",
-      "q": "European automotive suppliers aftermarket",
+      "q": "\"Valeo\" OR \"DENSO\" automotive parts orders",
       "locale": "en-US"
     },
     {
@@ -100,13 +100,13 @@
     {
       "industry": "無人載具及機器人",
       "region": "北美",
-      "q": "US drone unmanned vehicle robotics manufacturers supply chain",
+      "q": "\"Skydio\" OR \"AeroVironment\" drones manufacturing",
       "locale": "en-US"
     },
     {
       "industry": "無人載具及機器人",
       "region": "歐洲",
-      "q": "European robotics unmanned systems industrial drones market",
+      "q": "\"KUKA\" OR \"Universal Robots\" industrial robotics",
       "locale": "en-US"
     },
     {
@@ -241,7 +241,7 @@
     {
       "industry": "手工具",
       "region": "台灣",
-      "q": "台灣 手工具 OR 五金工具"
+      "q": "伯鑫工具 手工具 出口 訂單"
     },
     {
       "industry": "手工具",
@@ -271,31 +271,31 @@
     {
       "industry": "手工具",
       "region": "北美",
-      "q": "hand tools manufacturers demand",
+      "q": "\"Stanley Black & Decker\" OR \"Techtronic Industries\" tools earnings",
       "locale": "en-US"
     },
     {
       "industry": "手工具",
       "region": "北美",
-      "q": "hardware tools retail market",
+      "q": "\"DEWALT\" OR \"Snap-on\" tool sales manufacturing",
       "locale": "en-US"
     },
     {
       "industry": "手工具",
       "region": "歐洲",
-      "q": "European hand tools hardware industry",
+      "q": "\"Bosch Power Tools\" OR \"KNIPEX\" production demand",
       "locale": "en-US"
     },
     {
       "industry": "手工具",
       "region": "亞洲",
-      "q": "日本 作業工具 メーカー",
+      "q": "マキタ 工具 生産 OR HiKOKI 業績",
       "locale": "ja-JP"
     },
     {
       "industry": "機械與金屬加工",
       "region": "亞洲",
-      "q": "日本 工具機 受注 生産 企業 2026",
+      "q": "ファナック 工作機械 受注 OR オークマ 生産",
       "locale": "ja-JP"
     },
     {
@@ -355,7 +355,7 @@
     {
       "industry": "無人載具及機器人",
       "region": "亞洲",
-      "q": "Japan Korea Singapore robotics drone suppliers industry",
+      "q": "\"FANUC\" OR \"Yaskawa\" robots factory orders",
       "locale": "en-US"
     },
     {
