@@ -45,7 +45,58 @@ def publisher_url(link):
         print("Google News URL resolver failed:", str(ex)[:160])
     return None
 
-def read_public_page(url):
+def clean_title(value):
+    """Normalize titles for matching, not for fabricating a publisher URL."""
+    import html
+    from difflib import SequenceMatcher
+    value = html.unescape(value or "").casefold()
+    value = re.sub(r"[^\\w\\u4e00-\\u9fff]+", " ", value, flags=re.UNICODE)
+    return " ".join(value.split())
+
+
+def title_matches(wanted, found, minimum=0.83):
+    """Accept minor publisher suffixes, but reject unrelated stories."""
+    from difflib import SequenceMatcher
+    a, b = clean_title(wanted), clean_title(found)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if min(len(a), len(b)) >= 24 and (a in b or b in a):
+        return True
+    return SequenceMatcher(None, a, b).ratio() >= minimum
+
+
+def search_original_article(title, source):
+    """Free Bing RSS search fallback; never assume a search hit is the article."""
+    import feedparser
+    from urllib.parse import urlencode
+    query = '"' + re.sub(r"\\s+-\\s+[^-]+$", "", title).strip() + '" ' + (source or "")
+    try:
+        response = session.get("https://www.bing.com/search",
+                               params={"q": query, "format": "rss"},
+                               timeout=12)
+        response.raise_for_status()
+        feed = feedparser.parse(response.content)
+        for entry in feed.entries[:8]:
+            url = entry.get("link", "")
+            host = (urlparse(url).hostname or "").lower()
+            if not url.startswith("https://") or not host or google_link(url):
+                continue
+            # Reject unrelated sites when the publisher has an explicit domain.
+            publisher_domain = re.search(r"([a-z0-9-]+\\.(?:com|net|org|co\\.uk|tw|jp))", (source or "").lower())
+            if publisher_domain and not (host == publisher_domain.group(1) or host.endswith("." + publisher_domain.group(1))):
+                continue
+            if not title_matches(title, entry.get("title", ""), 0.78):
+                continue
+            # The linked page must itself be readable and title-verified below.
+            return url
+    except (requests.RequestException, ValueError) as exc:
+        print("Original article lookup failed:", str(exc)[:160])
+    return None
+
+
+def read_public_page(url, expected_title=None):
     try:
         response = session.get(url, timeout=10, allow_redirects=True, stream=True)
         status = response.status_code
@@ -62,6 +113,12 @@ def read_public_page(url):
             return {"access_status":"unsupported","read_reason":"Document larger than permitted fetch size"}
         response.encoding = response.apparent_encoding or response.encoding
         html = payload.decode(response.encoding or "utf-8", errors="replace")
+        if expected_title:
+            metadata = trafilatura.extract_metadata(html)
+            page_title = metadata.title if metadata else ""
+            if not title_matches(expected_title, page_title):
+                return {"access_status":"unresolved",
+                        "read_reason":"Search result page title differs from the original news headline"}
         text = trafilatura.extract(html, include_comments=False, include_tables=True, favor_recall=True)
         # Do not mistake a subscription prompt surrounded by recommendations
         # for a freely accessible full article. Do not bypass the paywall.
@@ -108,10 +165,14 @@ def main():
     stats={}
     for item in candidates:
         resolved=item.get("source_url") or publisher_url(item["url"])
+        from_search = False
         if not resolved:
-            result={"access_status":"unresolved","read_reason":"Google News did not provide a usable publisher URL"}
+            resolved = search_original_article(item.get("title", ""), item.get("source", ""))
+            from_search = bool(resolved)
+        if not resolved:
+            result={"access_status":"unresolved","read_reason":"Google News URL and free publisher search could not find a verified article"}
         else:
-            result=read_public_page(resolved)
+            result=read_public_page(resolved, expected_title=item.get("title", "") if from_search else None)
         item["access_status"]=result["access_status"]
         item["read_checked_at"]=datetime.now(timezone.utc).isoformat()
         if result.get("source_url"):
