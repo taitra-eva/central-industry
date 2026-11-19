@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "name": "Bike Europe",
+      "industry": "自行車",
+      "region": "歐洲",
+      "type": "rss",
+      "url": "https://cms.bike-eu.com/rss_feed/business-news",
+      "status": "published_official_feed_link"
+    },
+    {
+      "name": "Bike Europe",
+      "industry": "自行車",
+      "region": "歐洲",
+      "type": "rss",
+      "url": "https://cms.bike-eu.com/rss_feed/e-bike-updates",
+      "status": "published_official_feed_link"
+    },
+    {
+      "name": "Bike Europe",
+      "industry": "自行車",
+      "region": "歐洲",
+      "type": "rss",
+      "url": "https://cms.bike-eu.com/rss_feed/news-marketing",
+      "status": "published_official_feed_link"
+    }
+  ],
+  "pending_html_sources": [
+    {
+      "name": "輪彥國際",
+      "industry": "自行車",
+      "url": "https://www.wheelgiant.com.tw/news/",
+      "status": "html_parser_unverified"
+    },
+    {
+      "name": "AftermarketNews",
+      "industry": "汽配",
+      "url": "https://www.aftermarketnews.com/category/aftermarket-news/",
+      "status": "html_parser_unverified"
+    },
+    {
+      "name": "Torque-Expo",
+      "industry": "手工具",
+      "url": "https://www.torque-expo.com/hand-power-tools/",
+      "status": "html_parser_unverified"
+    },
+    {
+      "name": "Bosch Power Tools Media Service",
+      "industry": "手工具",
+      "url": "https://www.bosch-presse.de/pressportal/us/en/news/power-tools/",
+      "status": "html_parser_unverified"
+    }
+  ]
+}
