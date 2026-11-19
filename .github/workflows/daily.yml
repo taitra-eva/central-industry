@@ -25,6 +25,12 @@ jobs:
       - name: Translate available titles and publisher excerpts offline
         run: python scripts/translate.py
         continue-on-error: true
+      - name: Generate grounded AI summaries from readable originals
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-20b
+          AI_DAILY_LIMIT: '35'
+        run: python scripts/generate_ai_insights.py
       - name: Build source-backed industry brief
         run: python scripts/build_brief.py
       - name: Commit refreshed index
