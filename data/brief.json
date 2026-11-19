@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-19T06:09:21.832381+00:00",
+  "generated_at": "2026-11-19T08:05:49.283964+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 139,
+  "articles_total": 292,
   "readable_total": 46,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 54,
+      "articles": 67,
       "readable": 32
     },
     {
       "name": "機械",
-      "articles": 16,
+      "articles": 65,
       "readable": 1
     },
     {
       "name": "自行車",
-      "articles": 10,
+      "articles": 16,
       "readable": 0
     },
     {
       "name": "汽配",
-      "articles": 24,
+      "articles": 31,
       "readable": 1
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 31,
+      "articles": 112,
       "readable": 12
     }
   ],
@@ -120,6 +120,7 @@
       "preview": "日相高市早苗可能提議成立亞洲版的國際能源總署（IEA），以便此區國家在遭遇危機時，能合作採購石油。另外，她也打算提案，要收取使用費，在日本國內替東南亞國家儲備石油。 日本「讀賣新聞」15日報導，政府官員透露，高市將在17日於菲律賓馬尼拉舉行的亞洲零排放共同體（AZEC）會議上，提出此事。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
+        "4d608f96eb7950bfe269",
         "5cef2712fa38e97318b1",
         "d4c75ee34188efd65bcd",
         "e1dac169bb2556503f7f",
@@ -136,8 +137,8 @@
         "c0b8761afd1ed4759fbb"
       ],
       "readable_sources": 1,
-      "source_count": 14,
-      "latest_at": "2026-11-19T03:00:06+00:00",
+      "source_count": 15,
+      "latest_at": "2026-11-19T08:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -172,23 +173,6 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-18T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "tariff-steel-eu",
-      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "837a827aee4a22bd5d12"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-17T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -243,6 +227,23 @@
       "taiwan_focus": true
     },
     {
+      "id": "tariff-steel-eu",
+      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "837a827aee4a22bd5d12"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
       "id": "article-19ae260e19ebbb49a43a",
       "title": "ABAC支持亞太自貿區 籲數位產品永久零關稅",
       "sector": "總體情勢",
@@ -261,7 +262,7 @@
     },
     {
       "id": "robot-robotready",
-      "title": "機器人通用化指引發布論壇 產官研雲集",
+      "title": "台灣機器人通用化與產業政策",
       "sector": "無人載具及機器人",
       "sectors": [
         "無人載具及機器人"
@@ -269,10 +270,11 @@
       "preview": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY 2026機器人通用化指引發布暨技術生態論壇」，透過指引發布、技術論壇與實體展示，聚焦關鍵零組件的技術發展與應用，以此勾勒臺灣機器人產業下一階段的發展方向。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "3c76bd961330ec3190e1"
+        "3c76bd961330ec3190e1",
+        "4c2655dbf54fbe9d4351"
       ],
       "readable_sources": 1,
-      "source_count": 1,
+      "source_count": 2,
       "latest_at": "2026-11-16T16:00:00+00:00",
       "taiwan_focus": true
     },
@@ -379,23 +381,6 @@
       "taiwan_focus": true
     },
     {
-      "id": "industry-machinery",
-      "title": "機電四雄：今年獲利估續創新高",
-      "sector": "機械",
-      "sectors": [
-        "機械"
-      ],
-      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "465d9374763b2138353d"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-12T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
       "id": "article-bf1c3bbc4e25e60acd95",
       "title": "觀察站／黃仁勳卸任輝達CEO 牽動供應鏈布局",
       "sector": "總體情勢",
@@ -423,6 +408,23 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "155bc86c5adb82dc9641"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-12T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "industry-machinery",
+      "title": "機電四雄：今年獲利估續創新高",
+      "sector": "機械",
+      "sectors": [
+        "機械"
+      ],
+      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "465d9374763b2138353d"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -735,6 +737,5 @@
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
     }
-  ],
-  "selection_method": "台灣相關性優先，其次有原文片段的來源數，再依原文發布時間；無任何特定公司加分。內容僅供來源索引，非AI重要性分級。"
+  ]
 }
