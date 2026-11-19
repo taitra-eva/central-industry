@@ -10,7 +10,7 @@
       "readable": 32
     },
     {
-      "name": "機械",
+      "name": "機械與金屬加工",
       "articles": 65,
       "readable": 1
     },
@@ -417,9 +417,9 @@
     {
       "id": "industry-machinery",
       "title": "機電四雄：今年獲利估續創新高",
-      "sector": "機械",
+      "sector": "機械與金屬加工",
       "sectors": [
-        "機械"
+        "機械與金屬加工"
       ],
       "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
       "body_status": "publisher_excerpt_not_ai_summary",
