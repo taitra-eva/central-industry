@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
+from relevance import should_keep
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/news.json"
@@ -63,6 +64,8 @@ def get_day(day):
                 if not (9<=len(title)<=135) or any(skip in title for skip in SKIP_TEXT):
                     continue
                 sectors=choose_categories(title)
+                if not should_keep(title,'總體情勢' if '總體情勢' in sectors else None)[0]:
+                    continue
                 if not sectors:
                     continue
                 direct=urljoin(r.url,a["href"])
@@ -77,7 +80,7 @@ def get_day(day):
 
 def main():
     data=json.loads(DATA.read_text(encoding="utf8"))
-    news={n["id"]:n for n in data.get("items",[])}
+    news={n["id"]:n for n in data.get("items",[]) if should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
     added=0
     successful_days=0
     # Attempt each day of the publication discovery window; ITIS can have gaps.
