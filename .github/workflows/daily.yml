@@ -17,6 +17,8 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python scripts/collect.py
+      - name: Read free public original articles
+        run: python scripts/read_articles.py
       - name: Translate available titles and publisher excerpts offline
         run: python scripts/translate.py
         continue-on-error: true
