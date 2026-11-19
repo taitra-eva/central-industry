@@ -1,69 +1,65 @@
 編號,產業,設定地區,實際送入 Google News 的搜尋字串,語系,審核決定（保留／修改／刪除）,備註
-1,機械,台灣,台灣 工具機 工業 機械 訂單,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-2,機械,北美,machine tools manufacturing orders CNC US,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-3,機械,歐洲,European machine tools manufacturing demand,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-4,機械,亞洲,日本 工作機械 受注 日刊工業新聞,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-5,自行車,台灣,台灣 自行車 零組件 出口 庫存,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-6,自行車,北美,bicycle retailer inventory sales North America,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-7,自行車,歐洲,Bike Europe bicycle market inventory,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-8,自行車,亞洲,日本 自転車 業界 市場,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-9,汽配,台灣,台灣 汽車零組件 售後市場 出口,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-10,汽配,北美,automotive aftermarket parts suppliers US,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-11,汽配,歐洲,European automotive suppliers aftermarket,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-12,汽配,亞洲,日本 自動車部品 業界,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-13,手工具,台灣,台灣 手工具 汽修工具 五金 出口,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-14,手工具,北美,hand tools automotive repair tools DIY market USA,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-15,手工具,歐洲,European DIY hardware tools retail demand,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-16,手工具,亞洲,日本 作業工具 DIY ホームセンター 市場,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-17,無人載具及機器人,台灣,台灣 無人機 無人載具 機器人 供應鏈 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-18,無人載具及機器人,北美,US drone unmanned vehicle robotics manufacturers supply chain,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-19,無人載具及機器人,歐洲,European robotics unmanned systems industrial drones market,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-20,無人載具及機器人,亞洲,日本 ロボット 無人機 ドローン 産業 市場,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-21,機械,台灣,site:ma-online.com.tw 工具機 零組件 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-22,機械,台灣,site:tmba.org.tw 工具機 會員 廠商 訂單,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-23,自行車,台灣,site:wheelgiant.com.tw 自行車 產業 品牌 零件,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-24,自行車,台灣,site:tba-cycling.org 自行車 產業 出口,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-25,汽配,台灣,site:ttvma.org.tw 汽車 零組件 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-26,汽配,台灣,site:artc.org.tw 車輛 零組件 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-27,手工具,台灣,site:cens.com 手工具 五金 台灣 製造商,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-28,手工具,台灣,site:taiwanhandtools.com.tw 手工具 產業 會員,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-29,無人載具及機器人,台灣,site:taiwandrones.org 無人機 供應鏈 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-30,無人載具及機器人,台灣,site:ida.gov.tw 無人機 機器人 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-31,無人載具及機器人,台灣,台灣 無人載具 機器人 廠商 投資 合作,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-32,無人載具及機器人,北美,site:therobotreport.com robotics industry manufacturers drones,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-33,無人載具及機器人,北美,site:unmannedsystemstechnology.com unmanned systems commercial drones,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-34,無人載具及機器人,歐洲,site:roboticsandautomationnews.com European robotics automation,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-35,無人載具及機器人,亞洲,site:robot-digest.com 産業用ロボット 導入 メーカー,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-36,機械,台灣,site:itis.org.tw/NetReport_Detail.aspx 工具機 機械 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-37,手工具,台灣,site:itis.org.tw/NetReport_Detail.aspx 手工具 水五金 產業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-38,汽配,台灣,site:itis.org.tw/NetReport_Detail.aspx 車輛 汽車零組件,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-39,無人載具及機器人,台灣,site:itis.org.tw/NetReport_Detail.aspx 無人機 機器人,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-40,總體情勢,台灣,site:ida.gov.tw 產業政策 傳統產業 中小企業 製造業,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-41,總體情勢,台灣,site:moea.gov.tw 產業政策 外銷訂單 工業生產,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-42,總體情勢,台灣,site:customs.gov.tw 鋼鋁 關稅 進出口 貿易,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-43,總體情勢,台灣,台灣 製造業 鋼鐵 銅 鋁 原物料 價格 供應鏈,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-44,總體情勢,北美,US tariffs trade policy manufacturing supply chains energy costs,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-45,總體情勢,歐洲,Europe EU industrial policy machinery supply chain energy sanctions,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-46,總體情勢,亞洲,日本 産業政策 製造業 原材料 エネルギー 物流,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-47,總體情勢,其他,global conflict shipping routes oil prices manufacturing supply chains,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-48,手工具,台灣,台灣 手工具 OR 五金工具,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-49,手工具,台灣,手工具 出口 OR 訂單,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-50,手工具,台灣,台灣 水五金 OR 衛浴五金,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-51,手工具,台灣,台灣 扳手 OR 套筒 OR 氣動工具,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-52,手工具,台灣,手工具 公會 OR 金屬中心,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-53,手工具,台灣,site:itis.org.tw 手工具,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-54,手工具,北美,hand tools manufacturers demand,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-55,手工具,北美,hardware tools retail market,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-56,手工具,歐洲,European hand tools hardware industry,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-57,手工具,亞洲,日本 作業工具 メーカー,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-58,機械,亞洲,日本 工具機 受注 生産 企業 2026,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-59,自行車,亞洲,日本 自転車 業界 メーカー 出荷 市場 2026,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-60,汽配,亞洲,日本 自動車部品 サプライヤー 受注 2026,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-61,手工具,亞洲,日本 作業工具 ハンドツール 工具メーカー 市場,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-62,無人載具及機器人,亞洲,日本 産業用ロボット ドローン メーカー 市場,ja-JP,待審核,每日搜尋最近14天，並非固定網站RSS
-63,總體情勢,亞洲,韓國 日本 東南亞 製造業 供應鏈 出口 關稅,zh-TW,待審核,每日搜尋最近14天，並非固定網站RSS
-64,機械,亞洲,South Korea Southeast Asia machine tool factories manufacturers orders,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-65,自行車,亞洲,Japan Vietnam bicycle parts manufacturing exports industry,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-66,汽配,亞洲,ASEAN Japan South Korea auto parts aftermarket suppliers,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-67,手工具,亞洲,Vietnam Thailand hand tools hardware manufacturers exports,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
-68,無人載具及機器人,亞洲,Japan Korea Singapore robotics drone suppliers industry,en-US,待審核,每日搜尋最近14天，並非固定網站RSS
+1,機械,台灣,台灣 工具機 工業 機械 訂單,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+2,機械,北美,machine tools manufacturing orders CNC US,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+3,機械,歐洲,European machine tools manufacturing demand,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+4,機械,亞洲,日本 工作機械 受注 日刊工業新聞,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+5,自行車,台灣,台灣 自行車 零組件 出口 庫存,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+6,自行車,北美,bicycle retailer inventory sales North America,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+7,自行車,歐洲,Bike Europe bicycle market inventory,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+8,自行車,亞洲,日本 自転車 業界 市場,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+9,汽配,台灣,台灣 汽車零組件 售後市場 出口,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+10,汽配,北美,automotive aftermarket parts suppliers US,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+11,汽配,歐洲,European automotive suppliers aftermarket,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+12,汽配,亞洲,日本 自動車部品 業界,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+13,手工具,台灣,台灣 手工具 汽修工具 五金 出口,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+14,手工具,北美,hand tools automotive repair tools DIY market USA,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+15,手工具,歐洲,European DIY hardware tools retail demand,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+16,手工具,亞洲,日本 作業工具 DIY ホームセンター 市場,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+17,無人載具及機器人,台灣,台灣 無人機 無人載具 機器人 供應鏈 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+18,無人載具及機器人,北美,US drone unmanned vehicle robotics manufacturers supply chain,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+19,無人載具及機器人,歐洲,European robotics unmanned systems industrial drones market,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+20,無人載具及機器人,亞洲,日本 ロボット 無人機 ドローン 産業 市場,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+21,機械,台灣,site:ma-online.com.tw 工具機 零組件 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+22,機械,台灣,site:tmba.org.tw 工具機 會員 廠商 訂單,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+23,自行車,台灣,site:wheelgiant.com.tw 自行車 產業 品牌 零件,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+24,自行車,台灣,site:tba-cycling.org 自行車 產業 出口,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+25,汽配,台灣,site:ttvma.org.tw 汽車 零組件 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+26,汽配,台灣,site:artc.org.tw 車輛 零組件 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+27,手工具,台灣,site:cens.com 手工具 五金 台灣 製造商,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+28,手工具,台灣,site:taiwanhandtools.com.tw 手工具 產業 會員,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+29,無人載具及機器人,台灣,site:taiwandrones.org 無人機 供應鏈 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+30,無人載具及機器人,台灣,台灣 無人載具 機器人 廠商 投資 合作,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+31,無人載具及機器人,北美,site:therobotreport.com robotics industry manufacturers drones,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+32,無人載具及機器人,北美,site:unmannedsystemstechnology.com unmanned systems commercial drones,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+33,無人載具及機器人,歐洲,site:roboticsandautomationnews.com European robotics automation,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+34,無人載具及機器人,亞洲,site:robot-digest.com 産業用ロボット 導入 メーカー,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+35,機械,台灣,site:itis.org.tw/NetReport_Detail.aspx 工具機 機械 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+36,手工具,台灣,site:itis.org.tw/NetReport_Detail.aspx 手工具 水五金 產業,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+37,汽配,台灣,site:itis.org.tw/NetReport_Detail.aspx 車輛 汽車零組件,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+38,無人載具及機器人,台灣,site:itis.org.tw/NetReport_Detail.aspx 無人機 機器人,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+39,總體情勢,台灣,台灣 製造業 鋼鐵 銅 鋁 原物料 價格 供應鏈,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+40,總體情勢,北美,US tariffs trade policy manufacturing supply chains energy costs,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+41,總體情勢,歐洲,Europe EU industrial policy machinery supply chain energy sanctions,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+42,總體情勢,亞洲,日本 産業政策 製造業 原材料 エネルギー 物流,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+43,總體情勢,其他,global conflict shipping routes oil prices manufacturing supply chains,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+44,手工具,台灣,台灣 手工具 OR 五金工具,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+45,手工具,台灣,手工具 出口 OR 訂單,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+46,手工具,台灣,台灣 水五金 OR 衛浴五金,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+47,手工具,台灣,台灣 扳手 OR 套筒 OR 氣動工具,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+48,手工具,台灣,手工具 公會 OR 金屬中心,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+49,手工具,台灣,site:itis.org.tw 手工具,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+50,手工具,北美,hand tools manufacturers demand,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+51,手工具,北美,hardware tools retail market,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+52,手工具,歐洲,European hand tools hardware industry,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+53,手工具,亞洲,日本 作業工具 メーカー,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+54,機械,亞洲,日本 工具機 受注 生産 企業 2026,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+55,自行車,亞洲,日本 自転車 業界 メーカー 出荷 市場 2026,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+56,汽配,亞洲,日本 自動車部品 サプライヤー 受注 2026,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+57,手工具,亞洲,日本 作業工具 ハンドツール 工具メーカー 市場,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+58,無人載具及機器人,亞洲,日本 産業用ロボット ドローン メーカー 市場,ja-JP,待審核,固定搜尋條件；每天回傳媒體不同
+59,總體情勢,亞洲,韓國 日本 東南亞 製造業 供應鏈 出口 關稅,zh-TW,待審核,固定搜尋條件；每天回傳媒體不同
+60,機械,亞洲,South Korea Southeast Asia machine tool factories manufacturers orders,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+61,自行車,亞洲,Japan Vietnam bicycle parts manufacturing exports industry,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+62,汽配,亞洲,ASEAN Japan South Korea auto parts aftermarket suppliers,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+63,手工具,亞洲,Vietnam Thailand hand tools hardware manufacturers exports,en-US,待審核,固定搜尋條件；每天回傳媒體不同
+64,無人載具及機器人,亞洲,Japan Korea Singapore robotics drone suppliers industry,en-US,待審核,固定搜尋條件；每天回傳媒體不同
