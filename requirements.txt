@@ -5,3 +5,4 @@ opencc-python-reimplemented>=0.1.7,<1
 trafilatura>=2.0,<3.0
 googlenewsdecoder>=0.1.7,<1.0
 selectolax<1.0
+beautifulsoup4>=4.12,<5
