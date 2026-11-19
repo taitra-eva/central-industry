@@ -1,0 +1,135 @@
+{
+  "description": "Curated candidate search entities. Broad company names alone are not sufficient proof of industry relevance.",
+  "sectors": {
+    "總體情勢": {
+      "strong": [
+        "中鋼",
+        "中國鋼鐵",
+        "China Steel Corporation",
+        "台塑化",
+        "Formosa Petrochemical",
+        "中油"
+      ],
+      "contextual": []
+    },
+    "機械與金屬加工": {
+      "strong": [
+        "上銀",
+        "HIWIN",
+        "永進機械",
+        "YCM",
+        "東台精機",
+        "Tongtai Machine",
+        "台中精機",
+        "Victor Taichung",
+        "程泰",
+        "Goodway Machine",
+        "DMG MORI",
+        "Okuma",
+        "TRUMPF",
+        "Mazak"
+      ],
+      "contextual": [
+        "FANUC",
+        "Mitsubishi Electric"
+      ]
+    },
+    "自行車": {
+      "strong": [
+        "巨大集團",
+        "捷安特",
+        "Giant Bicycles",
+        "Giant Manufacturing",
+        "美利達",
+        "Merida",
+        "KMC",
+        "桂盟",
+        "建大輪胎",
+        "SR Suntour",
+        "A-Pro",
+        "愛地雅",
+        "Ideal Bike"
+      ],
+      "contextual": [
+        "Shimano",
+        "SRAM",
+        "Kenda",
+        "Maxxis",
+        "Specialized"
+      ]
+    },
+    "汽配": {
+      "strong": [
+        "東陽實業",
+        "東陽",
+        "Tong Yang",
+        "堤維西",
+        "TYC",
+        "昭輝",
+        "DEPO",
+        "Valeo",
+        "DENSO",
+        "Magna International",
+        "Aptiv"
+      ],
+      "contextual": [
+        "Bosch",
+        "Continental",
+        "Toyota",
+        "Hyundai"
+      ]
+    },
+    "手工具": {
+      "strong": [
+        "Stanley Black & Decker",
+        "DEWALT",
+        "CRAFTSMAN",
+        "Snap-on",
+        "Blue-Point",
+        "Makita",
+        "Techtronic Industries",
+        "Milwaukee Tool",
+        "Bosch Power Tools",
+        "HiKOKI",
+        "Metabo",
+        "KNIPEX",
+        "Wera Tools",
+        "Wiha Tools",
+        "FACOM",
+        "Proto Tools",
+        "伯鑫工具"
+      ],
+      "contextual": [
+        "STANLEY",
+        "Bosch",
+        "Milwaukee",
+        "TTI",
+        "Irwin",
+        "Ridgid"
+      ]
+    },
+    "無人載具及機器人": {
+      "strong": [
+        "FANUC",
+        "Yaskawa",
+        "KUKA",
+        "Universal Robots",
+        "ABB Robotics",
+        "Skydio",
+        "AeroVironment",
+        "宇樹科技",
+        "Unitree Robotics",
+        "達明機器人",
+        "Techman Robot",
+        "大疆創新"
+      ],
+      "contextual": [
+        "DJI",
+        "Anduril",
+        "ABB",
+        "Hyundai",
+        "Boston Dynamics"
+      ]
+    }
+  }
+}

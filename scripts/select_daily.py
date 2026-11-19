@@ -10,6 +10,7 @@ Rules:
 import json
 import re
 from collections import defaultdict
+from industry_entities import entity_event
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -21,7 +22,7 @@ SECTORS=("總體情勢","機械與金屬加工","自行車","汽配","手工具"
 SECTOR_TERMS={
  "總體情勢":("匯率","新台幣","關稅","反傾銷","出口管制","油價","石油","鋼價","運價","航運","原物料","貨櫃","war","tariff","exchange rate","oil price"),
  "機械與金屬加工":("工具機","精密機械","木工機","機床","金屬加工","精密零件","鈑金","沖壓","鑄造","鍛造","CNC","機械訂單","上銀","永進","東台","程泰","machine tool","metal fabrication","machining","woodworking machinery"),
- "自行車":("自行車","電動自行車","電動輔助自行車","電動二輪車","電動三輪車","三輪車","電動機車","美利達","巨大集團","捷安特","Specialized","Giant Bicycles","e-bike","ebike","electric bicycle","electric bike","electric two-wheeler","electric motorcycle","electric tricycle","e-trike","tricycle","bicycle","bike","pedelec","cargo bike"),
+ "自行車":("自行車","電動自行車","電動輔助自行車","電動二輪車","電動三輪車","三輪車","電動機車","美利達","巨大集團","捷安特","Giant Bicycles","e-bike","ebike","electric bicycle","electric bike","electric two-wheeler","electric motorcycle","electric tricycle","e-trike","tricycle","bicycle","bike","pedelec","cargo bike"),
  "汽配":("汽車零組件","汽配","汽車零配件","車用零件","車用零組件","AM零件","汽車售後","汽車零件","東陽","堤維西","昭輝","車載相機","汽車部品","automotive parts","aftermarket","auto parts"),
  "手工具":("手工具","五金工具","五金業","水五金","扳手","套筒","氣動工具","電動工具","園藝工具","園林工具","修枝剪","鏈鋸","電鑽","衝擊起子","釘槍","氣動扳手","汽修工具","汽車維修工具","特殊工具","專用工具","特工","automotive special tools","automotive specialty tools","special service tools","special tools","special tool","power tools","pneumatic tools","air tools","garden tools","gardening tools","outdoor power equipment","伯鑫工具","臺灣五金","Taiwan Tools Expo","TITE x IHT","hand tools","hardware tools"),
  "無人載具及機器人":("機器人","無人機","無人載具","人形機器人","無人船","robotics","humanoid","drone","unmanned"),
@@ -40,6 +41,8 @@ def relevant_to_sector(article,sector,verified):
     if any(word.casefold() in title for word in BAD_HEADLINE):return False
     terms=SECTOR_TERMS.get(sector,())
     if any(term.casefold() in title for term in terms):
+        return True
+    if entity_event(title,sector):
         return True
     # A verified source-backed editorial summary can independently establish
     # industry relevance, even if a headline only names the manufacturer.
