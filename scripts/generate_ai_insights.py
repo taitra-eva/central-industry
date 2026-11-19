@@ -10,6 +10,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from topic_taxonomy import normalize_article
 import requests
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -86,6 +87,7 @@ def main():
         time.sleep(15)  # conservative pacing for rate-limited free models
     records["updated_at"]=datetime.now(timezone.utc).isoformat()
     INSIGHTS.write_text(json.dumps(records,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    for x in doc["items"]: normalize_article(x)
     NEWS.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("AI summary finished:",made,"articles; failed:",failures,"eligible:",len(eligible))
 
