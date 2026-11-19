@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 import requests, feedparser
-from relevance import should_keep
+from relevance import should_keep, is_government_source
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
@@ -15,7 +15,7 @@ cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
 blocked=('經濟部國際貿易署','國際貿易署經貿資訊網','國貿署','international trade administration','indexbox','bloomberg','financial times','wall street journal','nikkei asia','the information','market research future')
-news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF and not any(word in (n.get('source','')+' '+n.get('url','')).casefold() for word in blocked) and 'trade.gov.tw' not in n.get('url','').lower() and not is_government_source(n.get('source',''), n.get('source_url') or n.get('url','')) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
 for entry in news.values():
     if entry.get('region')=='日本':entry['region']='亞洲'
 success=0
@@ -51,6 +51,7 @@ for query in cfg:
             source=e.get('source',{}).get('title','') if e.get('source') else 'Google News'
             # Exclude clearly paywalled / market-research lead-generation domains or sources.
             if any(word in source.casefold() for word in blocked):continue
+            if is_government_source(source,link):continue
             if 'trade.gov.tw' in link.lower() or 'trade.moea.gov.tw' in link.lower():continue
             low=title.casefold()
             # Google News RSS descriptions are often just a list of article links. They
