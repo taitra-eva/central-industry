@@ -20,7 +20,7 @@ TEMP = ROOT / ".article_texts.json"
 UA = "Mozilla/5.0 (compatible; CentralIndustryNews/1.0; public article reader)"
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"})
-LIMIT = 45  # bounded daily network work; prioritize Taiwan and current news
+LIMIT = 65  # daily attempt cap, distributed across Taiwan and overseas regions
 MAX_BYTES = 2_500_000
 
 def google_link(url):
@@ -74,12 +74,22 @@ def read_public_page(url):
 def main():
     d=json.loads(DB.read_text(encoding="utf-8"))
     rows=d.get("items", [])
-    # Re-check articles not previously read; prefer Taiwan and newer articles.
-    candidates=[n for n in rows if n.get("access_status") != "readable" or not n.get("summary_zh")]
-    candidates.sort(key=lambda x:(x.get("region") != "台灣", -(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
+    # Balance original-article attempts across regions rather than letting a
+    # large Taiwan queue consume the entire daily allowance. Already-readable
+    # items with a saved excerpt need not be fetched again.
+    quotas={"台灣":24,"歐洲":12,"北美":12,"亞洲":12,"其他":5}
+    candidates=[n for n in rows if n.get("access_status")!="readable" or not n.get("summary_zh")]
+    candidates.sort(key=lambda x:-(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp()))
+    chosen=[]
+    for region,quota in quotas.items():
+        picked=[n for n in candidates if n.get("region")==region][:quota]
+        chosen.extend(picked)
+    chosen_ids={x["id"] for x in chosen}
+    chosen.extend(n for n in candidates if n["id"] not in chosen_ids)
+    candidates=chosen[:LIMIT]
     texts={}
     stats={}
-    for item in candidates[:LIMIT]:
+    for item in candidates:
         resolved=publisher_url(item["url"])
         if not resolved:
             result={"access_status":"unresolved","read_reason":"Google News did not provide a usable publisher URL"}
@@ -102,6 +112,7 @@ def main():
     TEMP.write_text(json.dumps(texts,ensure_ascii=False),encoding="utf-8")
     DB.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Publisher article read results:",json.dumps(stats,ensure_ascii=False))
+    print("Publisher reads by region:",json.dumps({r:sum(x.get("region")==r for x in candidates) for r in quotas},ensure_ascii=False))
     print("Saved ephemeral article texts:",len(texts))
 
 if __name__=="__main__":
