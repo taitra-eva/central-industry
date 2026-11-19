@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T03:14:27.803342+00:00",
+  "updated_at": "2026-11-19T05:18:07.202385+00:00",
   "status": "ok",
-  "sources_checked": 48,
-  "sources_successful": 48,
+  "sources_checked": 57,
+  "sources_successful": 57,
   "items": [
     {
       "id": "5cef2712fa38e97318b1",
@@ -40,8 +40,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:13.834888+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "ee557ed1947534c85382",
@@ -139,6 +141,44 @@
       "translation_method": "manual_headline_translation"
     },
     {
+      "id": "4ebd973d8cdb7750687b",
+      "title": "Top 10 Tool Set Brands Ranked: 2026 Professional Hand Tools Comparison - The Courier-Journal",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOEw5aDQ4ZHhEbFg1R3RYY2t3UjdqYWxiWkY2OW45S08xWUR5QVFLMUxhODZaRzVKcEd6Z0JMdmhlLU5kNmZfT1lKdG01TGE0TWVFaGtLcEN6Y0R3SW9oMmZPbVphT185TXgwYVJnaHh3RXN1dmVqVDEtTzVMcWpnU0lpeUVRZ3gtVkNNcUhHWElyU0Z3dlVxLTNaOFpfeGVYZWg2U3ByMWVyaWFsYW9hYjlwLTIwejFQaHdZa1k1Q1ItZFNWMmtDcw?oc=5",
+      "source": "The Courier-Journal",
+      "published_at": "2026-11-18T18:02:22+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "前10名 工具集品牌排名:2026 專業手工具比較 - The Courier-Journal",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "e1dac169bb2556503f7f",
+      "title": "Oil Is Estimated to Ease in 2027 as Suppliers Adapt to Hormuz Disruption - Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQemVlWXFYSER3TzkzTUttVzhFRlppS3VNeDkzNUh6ZzFZQ1NIVjNMREFjLXhnS1h5Vmw0R0R3UFFVa0NTNnl3ZjFyaHZtOVFuV1lOSmotdW5wX3JhUDItVW9QRFRkUmVvTGRXOWEyQjFQQmVrbUNQcFhXbUZ1YVhKTzhSNFB2Qk5GckZ6eUFBSGtVa3RWbVRDcE5LVDVqaW9ZOVQxUExCNVhzMHVWMWVWamwtekNRWHJKTkpN?oc=5",
+      "source": "Goldman Sachs",
+      "published_at": "2026-11-18T17:12:15+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "估計石油在2027年會變得容易,",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "bb374b54fbe51292460a",
       "title": "LiveWire faces financial uncertainty as Harley rules out funding losses - Powersports Business",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZVNQWGozdTM3anlZM2l5dXlFYTBGWDhtY2xkb1pFM1FEVjRzdUlyX20tQlVOdFY0emdzY1VlX1otSVJjYURNZkNqRzA3ODY1TzUzUVVNeWJwT0JHVmN3NVdDLU1QSEpETVZzSWFXMC1sNUdicXN0NmQtTEVhalpZdzhrczdiMloybGFDamNGNnlFUkdzV1FsR1RHaF9hekhwRXJRUHB3Q2p1bVBhNWdTQmdUZ1RWbmhEbXBGQWhrbFJndDRfN0VNTw?oc=5",
@@ -188,6 +228,50 @@
       "translation_method": "manual_headline_translation"
     },
     {
+      "id": "0da396402460d8cf1914",
+      "title": "嘉聯益攻機器人 專案明年量產",
+      "url": "https://udn.com/news/story/7252/9887349",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:14.554728+00:00",
+      "source_url": "https://udn.com/news/story/7252/9887349",
+      "body_length": 676,
+      "excerpt": "聽新聞\n                \n                  \n                  \n                  \n                \n                \n                  \n                  \n                  \n                \n                \n                  0:00 /\n                  0:00\n                \n              \n              \n嘉聯益攻機器人",
+      "summary_zh": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。\n\n嘉聯益第3季每股淨損0.27元，累計前三季合併營收44.04億元，年增4.8%，淨損7.2億元，虧損收斂，每股淨損1.13元。\n\n該公司表示，前三季毛利及營業利益表現已較去年同期大幅提升，主要是因為營收增加，以及銷售組合轉佳，新機種產品陸續開出且毛利率上升，第三是資產配置最佳化，折舊費用降低，另外，還有營運體質調整，精實組織人力，整體效率及競爭力大幅提升。\n\n至於機器人靈巧手相關應用，該公司也與政府研究單位合作，目前歐美客戶正進行產品驗證，已小量生產，新承接的專案明年陸續進入量產。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "d42c56b56a9ee883147b",
+      "title": "能源論壇12月2日登場 葉惠青：化減碳為長期競爭力",
+      "url": "https://udn.com/news/story/7241/9887632",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:15.165349+00:00",
+      "source_url": "https://udn.com/news/story/7241/9887632",
+      "body_length": 843,
+      "excerpt": "能源論壇12月2日登場 葉惠青：化減碳為長期競爭力\n永豐餘（6790）董事長葉惠青表示，企業不能只著眼於減碳目標，更要從能源自主、循環經濟及產業轉型出發，將減碳轉化為長期競爭力。永豐餘以自主發電為基礎，結合生質能源、智慧能源管理與綠色材料，逐步建立兼顧能源韌性與商業價值的發展模式。\n經濟日報將於12月2日舉辦「2026能源願景高峰論壇-AI時代",
+      "summary_zh": "永豐餘（6790）董事長葉惠青表示，企業不能只著眼於減碳目標，更要從能源自主、循環經濟及產業轉型出發，將減碳轉化為長期競爭力。永豐餘以自主發電為基礎，結合生質能源、智慧能源管理與綠色材料，逐步建立兼顧能源韌性與商業價值的發展模式。\n\n經濟日報將於12月2日舉辦「2026能源願景高峰論壇-AI時代 智慧能源新戰略」，本論壇由經濟日報主辦，經濟部能源署、工研院、台電、台達電、永豐餘、國泰投信、富邦投信協辦。\n\n葉惠青將以「能源韌性的企業綠色解方」為題發表演說。永豐餘將能源效率提升、低碳能源布局與產品升級連結，持續以2030年各廠年度節電率平均至少1.5%、總替代能源投入比例大於35%為目標。\n\n在能源布局上，永豐餘長期發展汽電共生，並進一步推動「三態綠電」，涵蓋固態、液態及氣態生質能源，透過木質燃料、廢棄物及有機廢水轉換沼氣等方式，將資源轉化為能源。自主發電不僅有助降低對外部電力依賴，也能掌握能源來源與成本，提升供電穩定性。\n\n除了發電，永豐餘也將能源管理技術延伸至儲能、微電網及虛擬電廠。高雄久堂廠導入結合汽電共生的表後儲能系統，透過智慧能源管理進行尖離峰電力調度，降低契約容量需求；同時參與台南、嘉義等地防災型微電網建置，提升災害期間的供電韌性。\n\n此外，也協助客運業者整合電動巴士充電設施與用電排程，將分散的能源資源整合為可調度電力服務，讓企業從能源使用者進一步成為能源管理服務提供者。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
       "id": "cdc294d858e46f4ca735",
       "title": "Motorbike telematics set to more than triple by 2030 - IOT Insider",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWtFTVNBR25SMkd5R3hUQVFjN2FIWmJFWUpfOU9aay1vSmJPSXpKSGloREdVUk9JWmJOZE9zY1VBeHR4WWgwR1ZERWJmNnNuV2lZTzJTOFZKRjRqbzJBWEk0S3VWZmtwYks1TU9IeFM4cHJuQXB3Ry1lVHRuRmtESG12NkxoNWs3dWFicThWY1QybDhtV2pMeGdWRnZsQTl2Q0ktSTk5UGZZZw?oc=5",
@@ -201,6 +285,44 @@
       "topic": "產業動態",
       "title_zh": "機車遠端資訊管理市場規模預計至 2030 年將成長逾三倍",
       "translation_method": "manual_headline_translation"
+    },
+    {
+      "id": "db0a3d117b4216573992",
+      "title": "America's Top Manufacturers of 2027 - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02eHBCWFhEdWoxR3pvWi1BZmtucTg0aDMwMVgtaklqc0RtTjRSb3RhQWN5MXV1b09YdmtHY1Z4ZGVUUFQwdWlXUFQzN0VMengxd2czN2tUUzdfOVhCMFRGbTJOTGRSTHdHbHhhN0dTc2d4by0yOVE?oc=5",
+      "source": "Time Magazine",
+      "published_at": "2026-11-18T14:01:34+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "2027年美國頂級製造商——時代雜誌",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "4ae1084b4f9af3a58219",
+      "title": "IWGB Generative AI Manifesto: 6 Unions Speak Out - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU0h6RjY5NGpJRF9aZDNRUnB2Y2ZHaTJqWVlrUS1Cb2FsZ19aUUxvMko4WnF6bjZLLVIwWEk1TXlkRHhaOXBtZFZhZ0JfMy0wVUZHZ1U4LW4xMksyVGRxTTkzaHZjRnN3NEJPMVh4cDluX01UalVwZmRvY1NNOEd0V3NaS2lWcEJ4TTAw?oc=5",
+      "source": "shattered.io",
+      "published_at": "2026-11-18T13:40:49+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "IWGB Generative AI 宣言:6個聯盟發言 - 粉碎.io",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "8eb65cc5efde5c9e8dc5",
@@ -238,6 +360,28 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "戰略伙伴關係 擴大跨機器人平臺的可彈性無線電整合-無人系統技術",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "64f69deaee933b54c47f",
+      "title": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict - Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1k4SUVuUWd6NFUyaDFsOGhlNDVJb0hfOUt6TXJ2cGFURVhQcWZkb1pZSHk3YXlSeml0NDZmUmtQWUtZc3M1TS1jSGp4dmZZVmt2enZLbnp0ZnJ5bG82dzBUcG5EN3VTR2FxOWFjNG9oTlhYX0tpaUtKQmI5MkpHZG5kNEd0bVo3RThJam1pNHZGRzMtMXV1ZEdOakVMVGN0MXd6eW5TSlF3U2vSAbABQVVfeXFMTTY5R0VHQ1dyeFZ3eTMxbW91b1hmY3JNM21tQU1DWm14eV9jMXhpRUhhSjFDTmxBNld5ZWIyTUc2Z0FZR0RSMURDamd1UTF3bi1hd1l2Rm9CTy1CcTBib2x2VVQ5WW9Eejc0ZUZUX3J2dkxMZjNxRVFCVGR2Ml9UUHpSSDJubUw1YkJwOUMzNDYtQ3JxS09fcm1ENWtQc1hYaDBqZlBVS1MyMVRUQnV0bjE?oc=5",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-18T05:55:00+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [
+        "地緣政治",
+        "上游原物料"
+      ],
+      "priority": "international",
+      "region": "其他",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "儘管美國-伊朗衝突升級,",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -317,6 +461,27 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "6ec3e4d38332184acaa7",
+      "title": "Washington Can Start Delivering on Affordability by Rejecting Trump’s Tariffs - Tax Foundation",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzhRRFhsa2d6d0NORXVyMEloRFU4b3J5al83QnNnXzlBYWcxSmZKWGJLZUlqQnVBWDd5ckR2STZ2WVNrN29YWGxKZFRlNVdVUEpraWFfM1RiU2owZTB3TFhlUjNZQXR0OW1PWkR5NTg3R01pZExLQjFQaFZRM0ZpWUQzVGM?oc=5",
+      "source": "Tax Foundation",
+      "published_at": "2026-11-17T22:59:04+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [
+        "國際政策"
+      ],
+      "priority": "international",
+      "region": "北美",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "華盛頓可以透過拒絕特朗普的關稅來開始實現可負擔性-稅收基金會",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "bdf7a11ede85d83f0998",
       "title": "Oil Futures Rise as Middle East Shipping Risks Persist - WSJ",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGtrNWkxVGpxdjJGWnVJbzFDQXlabGJVV2I5bFhMYmJFOXAtQjR4cERNMnZabG90ZUo3cm80Zm0xdUpYallfU1kyV2FaMVFwUG5UUWR3UWNFMXU0RDJPcndiS0RuejcxWkJDU1kxbnQ2NnJPWXNBNGtGelpVd0FsbVF0emUyTVdpaEVFYlFnNmZSVTlhRUo5bzhYTkRicFpoa0loRGw0OUJQM215T0lkZUpUNDhFSHM?oc=5",
@@ -357,6 +522,27 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "9a4b74356c1c71bc195e",
+      "title": "Industrial dos Carvalhinhos strengthens its technological innovation to meet the European footwear industry's evolving demands - FashionNetwork France",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdXBVXzY3WGZuLVI5azF2WFFsUkkwazBoVGMyMWlIQUhGSXhEdUFVckRoa3FoRTNZWmN3SnJfOEcxZnljMFJWQ3ZPSWV4cVdZWHBTMEN4SFZiSlVWeGRJOGhLV2JyUUphOXhMUlpOOWp3c3ZpTl9nQjJfOU9vQ2w4WFo5Q25jMEFXQVB5OXNSN19EMGlQWUNERDRHTTFDSmVFU0dIdXVYWFEzNl9tbmctVmNfTUtyaTdVUldJcS1TT29CXzhUbnpqVTltbHZNTEtQOVVPOG9sdG5BcGN0bWpkZ0dYZE1WajN4TU1PNzdtV1lENGYwQ0I3YTdRSzVkMnhUSjFXcg?oc=5",
+      "source": "FashionNetwork France",
+      "published_at": "2026-11-17T18:15:05+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "機械"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "市場需求與景氣",
+      "access_status": "not_verified",
+      "excerpt": "Industrial dos Carvalhinhos strengthens its technological innovation to meet the European footwear industry's evolving demands FashionNetwork France",
+      "title_zh": "Carvalhinhos加強技術創新,以滿足歐洲鞋業不斷變化的需求——法國時尚網",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "Carvalhinhos加強技術創新,以滿足歐洲鞋業不斷變化的需求FashionNetwork France",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt"
+    },
+    {
       "id": "6527c05c8aad36146750",
       "title": "Industrial dos Carvalhinhos strengthens its technological innovation to meet the European footwear industry's evolving demands - FashionNetwork - The World's Fashion Business News",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTThyb0FpLUhXcUh4QmpuUnJzaUhsOGRreDgzaFl5RzJHcFp5cHRXQU9MRzR0bGJQQ21Ra29EX1lRbUpsekxpUHVOTk9yY2Y4WUJobm1JR2ZZT2Q3M3kyakRJeXc5NXJ3WkxfcjRFNnpEdTEwTXZwYVAxRWJjNFZtYkRob09uU085R0ZZdU4xR2JlZXBUZ2Jyb1dRTlBQNmUtM0NGUXhsNWltRlJzdHJZRFR2TFJyZUVkZzFPT3B4dFpsLXhyZXNpM283R29vYk5xczYtM1pLUDJHMDJhcG9CSW5hRjhYbWRfVERjZUw1RjMzZmtPV0Q5ZkpRNnE5dkRBajNSLQ?oc=5",
@@ -393,6 +579,115 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "647743db85cf8e0db7ba",
+      "title": "Companies got billions in tariff refunds. Will you get paid? - azcentral.com and The Arizona Republic",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcVNSSDlpWHhKdnRKeVBVeXZvRGFkSVh4aU44TzJqeFJFS29VenRNazFyUkN1NjlvalNRTnY3ZXBDWS1NaDZZd01VdDFIczNxWjJIRHY3LVF4OFp3ckdIMFVyQ2RIdXNJUkJmdmw4WGxiZEFXLWtWVHgwdEtsa01DbjVaTEhnME0xb2g1bndTVlpiLXp2Z1ZCdnpBOWU0VTljTmJwdTJ4aVRIQWU3ZUVWX2pXOFpPMFhhYWkwQl9ob1ZDNU9wRzZmM2ln?oc=5",
+      "source": "azcentral.com and The Arizona Republic",
+      "published_at": "2026-11-17T16:31:00+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [
+        "國際政策"
+      ],
+      "priority": "international",
+      "region": "北美",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "公司得到數十億的關稅退稅. 你會得到報酬嗎? - azcentral.com和亞利桑那共和國",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "ed629697ab15e1752cec",
+      "title": "中加走近…卡尼赴APEC會習近平 雙方宣布擴大關稅減免",
+      "url": "https://udn.com/news/story/125069/9885140",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:15.777669+00:00",
+      "source_url": "https://udn.com/news/story/125069/9885140",
+      "body_length": 1098,
+      "excerpt": "中加走近…卡尼赴APEC會習近平",
+      "summary_zh": "中國大陸國家主席習近平昨在深圳會見赴陸出席亞太經合會（ＡＰＥＣ）的加拿大總理卡尼，會後雙方宣布將延長並擴大經貿問題初步聯合安排，包括中方進一步放寬加拿大農漁產品的關稅減免，加方則延長並擴大部分大陸鋼鋁產品的關稅減免二年。\n\n這是卡尼出任總理後第三次與習近平會面。二人曾於去年ＡＰＥＣ慶州峰會期間會晤，而後卡尼於今年一月訪陸，成為近十年來首位訪陸的加國總理。\n\n卡尼昨與習近平在深圳會談，加拿大總理辦公室會後發表聲明，宣布兩國將延長並擴大經貿問題初步聯合安排，中方將為約四億加元的加拿大出口商品提供額外關稅減免，其中包括一點一六億加元的冷凍豬肉，以及二點八五億加元的魚類及海產。加拿大則同意，將原定於二○二六年底到期的部分大陸鋼鋁產品的現行關稅減免措施延長二年，並將減免範圍擴大至另外卅二個加拿大本土供應不足或未有供應的鋼鋁關稅稅目。\n\n除關稅安排外，加方還公布多項投資、教育機會及航空等商業合作進展，包括加拿大航空將於二○二七年五月開辦溫哥華至廣州新航線。此外，加方將於二○二七年組織大型貿易代表團訪陸。\n\n卡尼在聲明中表示，中加兩國重新調整關係，為加拿大農民、牧場經營者及漁業界帶來數以十億加元計的新出口訂單，亦令兩國民眾旅遊、留學及營商更便利。他稱，加拿大正強化本國實力，同時推動對外關係多元化。\n\n大陸商務部昨晚發布中加經貿磋商成果指，雙方同意將初步聯合安排的相關豁免措施延長二年。加方將進一步",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "827b1cf36512e7e1b15a",
+      "title": "鴻海斥資 14 億買 Sony 子公司 深耕日本車用零組件市場",
+      "url": "https://money.udn.com/money/story/5612/9885131",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:16.467026+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9885131",
+      "body_length": 712,
+      "excerpt": "本文共659字\n鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。\n根據公告，相關交易涵蓋相關業務、技術、客戶關係及營運資源，經主管機關核准並完成相關先決條件後，預計2027年4月底前完成交割。\n鴻海集團10月時才宣布與三菱電機策略聯盟，共同經營汽車設備事業；這次收購日本SSS，顯示鴻海集團深耕全球與日本電動車及車用零組件市場的決心。\n三菱電機之前宣布移轉旗下負責汽車設備事業的三菱電機移動株式會社（Mitsubishi Electric",
+      "summary_zh": "鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。\n\n根據公告，相關交易涵蓋相關業務、技術、客戶關係及營運資源，經主管機關核准並完成相關先決條件後，預計2027年4月底前完成交割。\n\n鴻海集團10月時才宣布與三菱電機策略聯盟，共同經營汽車設備事業；這次收購日本SSS，顯示鴻海集團深耕全球與日本電動車及車用零組件市場的決心。\n\n三菱電機之前宣布移轉旗下負責汽車設備事業的三菱電機移動株式會社（Mitsubishi Electric Mobility）50%股權予鴻海集團，未來由雙方共同經營三菱電機移動。股權移轉交易金額預計為1,150億日圓。\n\n鴻海表示，長期深耕資通訊領域相機模組設計、製造及整合，SSS車載相機模組事業為日本車載相機模組市場的重要供應商之一，長期與日系車廠合作。透過收購，鴻海結合SSS車載相機模組事業既有的技術、客戶基礎，以及直接服務汽車製造商的經驗，進一步強化車載整合服務能力，全面提升業務競爭優勢。\n\n隨著先進駕駛輔助系統（ADAS）與智慧車輛持續發展，車載相機成為汽車感知系統的重要產品，未來十年（2026到2036）間車載相機模組出貨年複合成長率約6.9%。鴻海持續布局車載影",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "e06001d75713d3798f4c",
+      "title": "BIS強化AI晶片管制 供應鏈洗牌…台鏈穩站受惠第一排",
+      "url": "https://www.chinatimes.com/newspapers/20261118000218-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:17.058514+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261118000218-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 278,
+      "excerpt": "美國商務部工業暨安全局（BIS）收緊AI晶片及海外算力管制，牽動供應鏈布局。零組件業者認為，無論輝達GPU或雲端大廠ASIC需求如何消長，訂單仍有望落在台廠，台灣AI供應鏈業者站在受惠第一排。不過，2027年上半年訂單已底定，下半年轉趨觀望，仍須追蹤客戶拉貨節奏。\n被動元件供應鏈指出，中國持續發展本土AI，台廠經輝達及雲端服務商供應鏈驗證，已累積AI通用料技術實力，AWS、Google、Meta及微軟持續布局ASIC，也為台廠帶來接單機會。\n此篇限「暢讀會員 /",
+      "summary_zh": "美國商務部工業暨安全局（BIS）收緊AI晶片及海外算力管制，牽動供應鏈布局。零組件業者認為，無論輝達GPU或雲端大廠ASIC需求如何消長，訂單仍有望落在台廠，台灣AI供應鏈業者站在受惠第一排。不過，2027年上半年訂單已底定，下半年轉趨觀望，仍須追蹤客戶拉貨節奏。\n\n被動元件供應鏈指出，中國持續發展本土AI，台廠經輝達及雲端服務商供應鏈驗證，已累積AI通用料技術實力，AWS、Google、Meta及微軟持續布局ASIC，也為台廠帶來接單機會。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "837a827aee4a22bd5d12",
+      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
+      "url": "https://www.chinatimes.com/newspapers/20261118000242-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:17.560156+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261118000242-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 288,
+      "excerpt": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。\n根據歐盟執委會調查數據，總規模約232億歐元的歐盟冷軋扁鋼市場中，受調查的五國進口總額約17.75億歐元，台灣以3.45億歐元高居五國之首。\n此篇限「暢讀會員 /",
+      "summary_zh": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。\n\n根據歐盟執委會調查數據，總規模約232億歐元的歐盟冷軋扁鋼市場中，受調查的五國進口總額約17.75億歐元，台灣以3.45億歐元高居五國之首。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
       "id": "6489a92918d9cf1b426e",
       "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial - The Robot Report",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTRNdjY3dzFkQlVNeXdNSXpjMTM4UGRxYUJWaHN5dng2Qkk1ZHkwZWNVMmhWSlFBVi1HMzdkQ3RYdzlOVVRKRkpqdlZuU1VTWGxVNmlCSHdrWWtHcnRBYVdsTzItYUpSQWQxTGtUTkMweFdUZEJzQUM4LUtXTU1Zd1pXV1RWRXRJMWtRY0wzWlJOQUJaNktKempERQ?oc=5",
@@ -409,6 +704,25 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "波士頓動態 地圖集人造物首次著陸 非自動試驗 - 機器人報告",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "ff63b473c927fc40d17d",
+      "title": "3 European AI Infrastructure Stocks Worth Watching Now - Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWE44YVVNRURLV0JPSG16X09BYndocndTV2pBb3ZqX2VDRktoTVVSNzRWOWZ3Y0tUYVZ4YktKOGgwSjREdGptMWRINDBNS0MwSzBBRU1CT3NJMUZaZ3hlbEl0dm9MRmtGX1ppa09yeVlTVmFrelphMWZhczV1eWR0c2lYT3FrT3piRFJBS004SjhKdFVURFlrXzd0ek1JOEtWWVUzUlBrWTgyWXJvYmZzdXI0RHFpbjE0SndiSElrVnVIc3l1ZllkNjY5REgxOExtWGpRUHNuVUhrMmliSzZkODQ2aEfSAeoBQVVfeXFMTWJueFg3MFlhckhYbTV5T1Exa3IxV2ZrQlB1TVh6M3YwT0FHWm1VNHU3NjBwdG16SEhITEt2WVE2NllnYjB0YmNybldFTzRfRDVUcW0ydnlEa2FpOFlxUG1wWDE2LV9IRVR4RmVQU2REVFBCdDRGWFl0QmZIWHcyVURCeUsyMWgwa3AtNkh1VVRIMzcxSmVyWDVwRk14RE9GcHRwa3ZIcUdwYjQ1Y2NRLVR4OUs5ME9yUVZuamxmbkdONWlZbHFFbUd4cWJMMS1EUVBKYzRNZjJRTlNrdmUycEg4bUdNUzIwWjZn?oc=5",
+      "source": "Simply Wall St",
+      "published_at": "2026-11-17T11:20:13+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "3 歐洲AI 基礎設施股票值得現在觀看 -- -- 簡而言之,聖牆",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -564,6 +878,72 @@
       "translation_method": "manual_headline_translation"
     },
     {
+      "id": "19ae260e19ebbb49a43a",
+      "title": "ABAC支持亞太自貿區 籲數位產品永久零關稅",
+      "url": "https://www.chinatimes.com/newspapers/20261117000221-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-16T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:18.083470+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261117000221-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 270,
+      "excerpt": "APEC領袖峰會17日登場，ABAC（APEC企業諮詢委員會）則在16日順利結束年內最後一次會議，共達成14份成果文件，包括支持亞太自貿區等區域貿易一體化方針，並呼籲永久免徵數位產品關稅。\nABAC主席、中化集團董事長李凡榮16日在記者會上表示，歷經今年四次會議，已形成致領袖信函、政策建議報告等共14份成果文件，最受關注的包括ABAC「關於支持亞太自貿區的聲明」和「關於支持互聯互通的聲明」，這也將為APEC領袖峰會貢獻成果。\n此篇限「暢讀會員 /",
+      "summary_zh": "APEC領袖峰會17日登場，ABAC（APEC企業諮詢委員會）則在16日順利結束年內最後一次會議，共達成14份成果文件，包括支持亞太自貿區等區域貿易一體化方針，並呼籲永久免徵數位產品關稅。\n\nABAC主席、中化集團董事長李凡榮16日在記者會上表示，歷經今年四次會議，已形成致領袖信函、政策建議報告等共14份成果文件，最受關注的包括ABAC「關於支持亞太自貿區的聲明」和「關於支持互聯互通的聲明」，這也將為APEC領袖峰會貢獻成果。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "3c76bd961330ec3190e1",
+      "title": "機器人通用化指引發布論壇 產官研雲集",
+      "url": "https://www.chinatimes.com/newspapers/20261117000489-260204?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-16T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:18.591934+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261117000489-260204?utm_source=iii_news&utm_medium=rss",
+      "body_length": 405,
+      "excerpt": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY",
+      "summary_zh": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY 2026機器人通用化指引發布暨技術生態論壇」，透過指引發布、技術論壇與實體展示，聚焦關鍵零組件的技術發展與應用，以此勾勒臺灣機器人產業下一階段的發展方向。\n\n經濟部產發署電資組科長李振隆表示，政府去年「智慧機器人產業推動方案」，持續透過政策引導與跨域資源整合，為國內業者創造投入智慧機器人產業的有利條件。面對全球機器人產業快速發展與國際供應鏈重組，現階段關鍵不僅在於技術研發，更在於如何讓既有技術能量，轉化為具市場競爭力的產品與解決方案。透過政府、法人與產業的持續合作，促進技術交流、資源整合及商機鏈結，協助更多臺灣業者切入國際機器人供應鏈，讓智慧機器人成為帶動臺灣產業升級的新成長動能。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "2bd7b316dedc46ae9a11",
+      "title": "熙特爾結盟美韓大廠 拓AI能源版圖",
+      "url": "https://www.chinatimes.com/newspapers/20261117000316-260204?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-16T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:19.080580+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261117000316-260204?utm_source=iii_news&utm_medium=rss",
+      "body_length": 342,
+      "excerpt": "美國能源設備大廠GE Vernova、韓國SK集團旗下電池製造商SK On與熙特爾新能源宣布簽署合作備忘錄（MOU），正式建立台美韓戰略合作關係。三方將結合電力轉換技術、先進電池技術與大型儲能系統整合製造能力，共同布局國際能源市場，瞄準全球AI電力基礎建設商機，攜手打造具備國際競爭力的能源解決方案。\n為深化三方戰略合作，GE Vernova北亞及東南亞地區電力轉換設備（PCS）業務主管嵇紹鵬（Shaopeng Ji）、SK On儲能事業營運副總裁Minsuk Kwak專程來台，共同參訪熙特爾旗下子公司辰熙精密的電池模組生產基地，實地了解台灣的儲能製造與系統整合實力。\n此篇限「暢讀會員 /",
+      "summary_zh": "美國能源設備大廠GE Vernova、韓國SK集團旗下電池製造商SK On與熙特爾新能源宣布簽署合作備忘錄（MOU），正式建立台美韓戰略合作關係。三方將結合電力轉換技術、先進電池技術與大型儲能系統整合製造能力，共同布局國際能源市場，瞄準全球AI電力基礎建設商機，攜手打造具備國際競爭力的能源解決方案。\n\n為深化三方戰略合作，GE Vernova北亞及東南亞地區電力轉換設備（PCS）業務主管嵇紹鵬（Shaopeng Ji）、SK On儲能事業營運副總裁Minsuk Kwak專程來台，共同參訪熙特爾旗下子公司辰熙精密的電池模組生產基地，實地了解台灣的儲能製造與系統整合實力。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
       "id": "ac3ac656e94bf9954284",
       "title": "What the foiled attack on Threod reveals about Russia’s sabotage campaign in Europe - Estonian World",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaElyek0wcEJCNXdrVmNtTXEwY3NpbE9lT2NvcW1QM3c4anJqSW90czlkRkNhaTdoWE1FV1JfdnhDeWZSZFBIVzl2eGxReThJQkh6eHdqTGxTWTdfNjJiMmphTURjQlRvYV9xZGZ5MTdtMzZacklKZ2U4WE5qMGNRTEJuS05OLUU4OHRIYVkyb1h0cGJJR1U4c1pER0xGQm5hTEliYUlYUVFLT3lUelUxYjhEYzhsc3NLWmpCVHNyMm03UQ?oc=5",
@@ -598,6 +978,25 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "60444a67a3decb8c368b",
+      "title": "Europe needs to find third way on China: European scholar - Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsVTYzbW1BMkduanplNmYwZVBHVXpFZWpuY0dfODhtVUhJRTRzbnhRWVJuZlFiY0dRZmtLOEtsR290TVJFVHdEUTIzQWVkV1hSN0xITGlhREU5bF95YzliR053?oc=5",
+      "source": "Global Times",
+      "published_at": "2026-11-16T12:29:00+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "機械"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "歐洲需要尋找中國的第三條道路:歐洲學者-全球時報.",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "af7612c734592bca178c",
       "title": "經濟部因應美國關稅4大措施 截至11月12日辦理情形 - 經濟部產業發展署",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VTDAwV0FkbDJVRFBtWER6TG5YUzNxVUNxcm05T3ZXVTREaFhRU2tQby1lWC1CeEd6c2NTdlJvNGJ3LWptcXU1MkZ2M0hxUkdGVlVSMzBRX2tiRkV2SWdsWlVXNGI?oc=5",
@@ -614,8 +1013,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:19.476653+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "2f7e34475f02eb85a14f",
@@ -631,8 +1032,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:19.899335+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "d82f261da2be82c8c05d",
@@ -650,8 +1053,164 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:20.284804+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
+    },
+    {
+      "id": "c870b327935673e3ada9",
+      "title": "關稅減壓 紡纖業2027看旺",
+      "url": "https://www.chinatimes.com/newspapers/20261116000188-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:20.903846+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261116000188-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 1048,
+      "excerpt": "關稅減壓 紡纖業2027看旺 美期中選舉後，遠東新、新纖、力麗、儒鴻、聚陽齊喊衝 04:102026/11/16 工商時報 袁延壽 Facebook Line Threads 複製連結 示意圖。圖／新華社 Facebook Line Threads 複製連結 字級設定：小中大特 紡織廠對美國選後看法 美國期中選舉後，國內紡纖大廠，包括遠東新、新纖、力麗、儒鴻、聚陽等上中下游業者普遍認為，隨關稅及貿易壁壘政策的不確定性下降，有助品牌客戶重新評估採購策略、恢復下單動能，在全球市場與紡織供應鏈趨於穩定下，有利2027年整體產業環境與景氣趨於正向。",
+      "summary_zh": "關稅減壓 紡纖業2027看旺 美期中選舉後，遠東新、新纖、力麗、儒鴻、聚陽齊喊衝 04:102026/11/16 工商時報 袁延壽 Facebook Line Threads 複製連結 示意圖。圖／新華社 Facebook Line Threads 複製連結 字級設定：小中大特 紡織廠對美國選後看法 美國期中選舉後，國內紡纖大廠，包括遠東新、新纖、力麗、儒鴻、聚陽等上中下游業者普遍認為，隨關稅及貿易壁壘政策的不確定性下降，有助品牌客戶重新評估採購策略、恢復下單動能，在全球市場與紡織供應鏈趨於穩定下，有利2027年整體產業環境與景氣趨於正向。 紡纖業者指出，今年干擾服飾消費信心的關稅變化與中東戰事、地緣政治的影響已逐步趨緩，成衣產業最痛苦的調整期已過去。 此篇限「暢讀會員 / 尊榮會員」閱讀 升級付費方案，即可暢讀《中國時報》《工商時報》《旺報》每日報紙內容。 查看付費方案 已有帳號？ 立即登入 或 回首頁看其他新聞 #正向 #樂觀 #確定性 #動能 #關稅 【限時優惠】 訂閱中時新聞網享無廣告閱讀，前3個月每月$49 也許您會感興趣 推薦閱讀 《文創股》3大成長引擎 智冠今年獲利看升 08:382026/11/19 財經 鄭麗文點名彰化選情「比較危險」魏平政：王惠美是最大助力 13:542026/11/11 政治 《橡膠股》台橡：BD看漲至明年首季 供給緊俏支撐報價 15:3020",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "9e7630daca61e502f40f",
+      "title": "1分鐘看世界／歐盟能源業延攬前北約官員 擬強化能源基建防護力",
+      "url": "https://money.udn.com/money/story/5599/9880524",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:21.430865+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9880524",
+      "body_length": 1177,
+      "excerpt": "本文共1111字\n歐洲近來爆發多起疑似政府撐腰的蓄意破壞和網攻事件，當地能源業者Fortum、Neste等延攬前北約官員，希望借重他們在軍事和地緣政治方面的專業，協助強化電網和煉油廠等關鍵基礎設施的防護能力。歐盟執委會也正準備檢討能源安全框架，預料將更聚焦相關基礎設施的實體安全。\n近幾個月歐洲多國超市冷藏和冷凍設施遭駭，8月時德國萊比錫機場遭無人機攻擊，這些事件均引發「混合戰爭」的疑慮，懷疑俄羅斯或其他國家在背後主導。\n英國／Quadrature避險基金好會賺 去年繳稅15億美元 遠超巴克萊\n少有人知的避險基金Quadrature",
+      "summary_zh": "歐洲近來爆發多起疑似政府撐腰的蓄意破壞和網攻事件，當地能源業者Fortum、Neste等延攬前北約官員，希望借重他們在軍事和地緣政治方面的專業，協助強化電網和煉油廠等關鍵基礎設施的防護能力。歐盟執委會也正準備檢討能源安全框架，預料將更聚焦相關基礎設施的實體安全。\n\n近幾個月歐洲多國超市冷藏和冷凍設施遭駭，8月時德國萊比錫機場遭無人機攻擊，這些事件均引發「混合戰爭」的疑慮，懷疑俄羅斯或其他國家在背後主導。\n\n少有人知的避險基金Quadrature Capital，去年在英國繳納企業稅11.4億英鎊（15.1億美元），是巴克萊的三倍，滙豐銀行的兩倍。該基金交易獲利達87億美元，媲美業界巨頭。\n\nMeta遭義大利數據保護局罰款8.05億歐元（8.87億美元），原因是臉書程式未經Android用戶明確同意，擅自存取手機相簿的照片和影片，估計約有2,000萬名Android用戶受影響。\n\n美國駐歐軍隊的裁減規模可能僅約5,000人，遠低於歐洲先前擔心的2.5萬人，因北約積極提高國防預算，降低華府藉撤軍施壓的必要性，且中東軍事行動仍依賴駐歐基地支援。\n\n總理卡尼承諾，將對巴西主導的熱帶森林永續基金（TFFF），未來四年最多提供5.6億加幣（3.9億美元），以助TFFF達到募資門檻。基金要保護逾10億公頃熱帶森林。\n\n私募基金巨擘Brookfield與KKR對中東眼鏡零售商Eyewa，展開併購爭",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "53ea1cb998fe0a492dec",
+      "title": "研揚總經理林建宏：機器人應用升溫",
+      "url": "https://www.chinatimes.com/newspapers/20261116000177-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:22.029784+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261116000177-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 278,
+      "excerpt": "隨著AI逐漸延伸至實體設備，機器人與Physical AI成為工業電腦產業下一波重要發展方向，研揚看好人形機器人、四足機器人及自主移動機器人等應用需求持續增加，將機器人控制器列為未來重要布局主軸，並憑藉高效能、小型化運算平台及客製化能力，積極爭取全球機器人產業商機。\n研揚總經理林建宏認為，機器人功能日益複雜，對運算效能的要求持續提高，但機器人本身可容納電子設備的空間有限，因此如何在有限體積內提供足夠運算能力，成為控制器供應商的重要技術門檻。\n此篇限「暢讀會員 /",
+      "summary_zh": "隨著AI逐漸延伸至實體設備，機器人與Physical AI成為工業電腦產業下一波重要發展方向，研揚看好人形機器人、四足機器人及自主移動機器人等應用需求持續增加，將機器人控制器列為未來重要布局主軸，並憑藉高效能、小型化運算平台及客製化能力，積極爭取全球機器人產業商機。\n\n研揚總經理林建宏認為，機器人功能日益複雜，對運算效能的要求持續提高，但機器人本身可容納電子設備的空間有限，因此如何在有限體積內提供足夠運算能力，成為控制器供應商的重要技術門檻。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "740891e58cff801e706f",
+      "title": "研揚迎戰缺料潮 供應鏈優勢成關鍵",
+      "url": "https://www.chinatimes.com/newspapers/20261116000182-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:22.521300+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261116000182-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 281,
+      "excerpt": "工業電腦（IPC）產業2026年所面臨的最大挑戰之一，就是零組件價格上漲與部分關鍵料件供應吃緊，尤其在AI帶動運算需求持續擴張下，部分中央處理器（CPU）及相關零組件出現缺貨，供應鏈管理能力成為IPC廠商爭取訂單的重要競爭條件。\n研揚總經理林建宏表示，當客戶面臨缺料問題時，首先考量的是能否確保產品順利交付，供應商若能提供穩定貨源，便有機會取得原本屬於競爭同業的訂單。部分新客戶在初次合作後，也開始評估後續產品及專案合作，對未來業務拓展具有正面幫助。\n此篇限「暢讀會員 /",
+      "summary_zh": "工業電腦（IPC）產業2026年所面臨的最大挑戰之一，就是零組件價格上漲與部分關鍵料件供應吃緊，尤其在AI帶動運算需求持續擴張下，部分中央處理器（CPU）及相關零組件出現缺貨，供應鏈管理能力成為IPC廠商爭取訂單的重要競爭條件。\n\n研揚總經理林建宏表示，當客戶面臨缺料問題時，首先考量的是能否確保產品順利交付，供應商若能提供穩定貨源，便有機會取得原本屬於競爭同業的訂單。部分新客戶在初次合作後，也開始評估後續產品及專案合作，對未來業務拓展具有正面幫助。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "774748524118645e559d",
+      "title": "陸機器人退燒 資金回流半導體",
+      "url": "https://www.chinatimes.com/newspapers/20261116000222-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:23.033582+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261116000222-260203?utm_source=iii_news&utm_medium=rss",
+      "body_length": 297,
+      "excerpt": "中國大陸具身智慧投資熱潮降溫，創投資金重新轉向半導體產業。最新數據顯示，大陸10月具身智慧領域融資件數月減45％，相較之下，第三季半導體融資金額年增逾9成，AI晶片、先進封裝等領域持續吸引大額投資。市場人士指出，創投機構不再單純追逐技術概念，企業實際訂單與商業化能力，已成為重要投資門檻。\n科創板日報報導，第三方統計顯示，10月大陸具身智慧領域共完成33件融資，金額達人民幣（下同）101.05億元，較9月的60件、110.28億元，分別減少45％及8.4％，顯示投資活動明顯收縮。\n此篇限「暢讀會員 /",
+      "summary_zh": "中國大陸具身智慧投資熱潮降溫，創投資金重新轉向半導體產業。最新數據顯示，大陸10月具身智慧領域融資件數月減45％，相較之下，第三季半導體融資金額年增逾9成，AI晶片、先進封裝等領域持續吸引大額投資。市場人士指出，創投機構不再單純追逐技術概念，企業實際訂單與商業化能力，已成為重要投資門檻。\n\n科創板日報報導，第三方統計顯示，10月大陸具身智慧領域共完成33件融資，金額達人民幣（下同）101.05億元，較9月的60件、110.28億元，分別減少45％及8.4％，顯示投資活動明顯收縮。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "4591cf111c263b5f9448",
+      "title": "日本擬設亞洲版能源總署 幫東南亞儲備原油「收取費用」",
+      "url": "https://money.udn.com/money/story/5599/9880529",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:23.594786+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9880529",
+      "body_length": 736,
+      "excerpt": "本文共680字\n日相高市早苗可能提議成立亞洲版的國際能源總署（IEA），以便此區國家在遭遇危機時，能合作採購石油。另外，她也打算提案，要收取使用費，在日本國內替東南亞國家儲備石油。\n日本「讀賣新聞」15日報導，政府官員透露，高市將在17日於菲律賓馬尼拉舉行的亞洲零排放共同體（AZEC）會議上，提出此事。\n亞洲版IEA的正式名稱為「亞洲石油安全工作組」（Asia Petroleum Security Task",
+      "summary_zh": "日相高市早苗可能提議成立亞洲版的國際能源總署（IEA），以便此區國家在遭遇危機時，能合作採購石油。另外，她也打算提案，要收取使用費，在日本國內替東南亞國家儲備石油。\n\n日本「讀賣新聞」15日報導，政府官員透露，高市將在17日於菲律賓馬尼拉舉行的亞洲零排放共同體（AZEC）會議上，提出此事。\n\n亞洲版IEA的正式名稱為「亞洲石油安全工作組」（Asia Petroleum Security Task Force），預計開放AZEC參與國加入。\n\n該小組將共享石油市場及原油儲備等的知識與經驗，也要蒐集及分析數據，協助穩定市場，並負責制定規則，規範會員國如何緊急釋出儲油、如何分享等。\n\n該小組的秘書處將由日本出資的東協暨東亞經濟研究所（ERIA）擔任。高市也預計宣布，IEA將在東京設立新辦事處，這個辦事處會參與亞洲版IEA的運作，並扮演核心角色。\n\nIEA成立時，日本即為其中一員，但東南亞國家未加入IEA。日本主導成立亞洲版IEA，以推動亞洲合作購買石油。IEA是為因應第一次石油危機，於1974年成立。IEA要求會員國必須維持相當於90天用量的石油儲備。\n\n高市4月在AZEC相關會議上，提出「亞洲能源與資源韌性夥伴關係」（POWERR Asia），即由日本主導的能源採購支援措施，此次提案是POWERR Asia的第二階段。\n\n各國支付儲備設施使用費，換取緊急狀況發生時，優先購買石油的權利。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "3e873fd172e7e446be81",
+      "title": "再生能源開發慢 電力排放係數未達標",
+      "url": "https://www.chinatimes.com/newspapers/20261116000477-260114?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:24.136576+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261116000477-260114?utm_source=iii_news&utm_medium=rss",
+      "body_length": 347,
+      "excerpt": "再生能源發電占比20％目標，預計民國118年才實現，導致攸關電力碳排的「電力排放係數」降不下來！經濟部初估，去年我國電力排放係數為0.456，雖較10年前下降14％，卻沒降至法定0.388的目標。環團分析，除了光電弊案頻傳，還發生山坡地被剷平蓋光電、拉抬租金迫使養殖戶出走等現象，建議政府先行畫定合適土地嚴格招商，同時使一定面積以上的新建住宅負有裝設屋頂光電的義務，加快綠電發展速度。\n「電力排放係數」代表每度電排放溫室氣體的量，環境部依《氣候變遷因應法》訂立第2期110至114年溫室氣體階段管制目標，設定114年降至0.388，經濟部初估114年電力排放係數0.456，未達標。\n此篇限「暢讀會員 /",
+      "summary_zh": "再生能源發電占比20％目標，預計民國118年才實現，導致攸關電力碳排的「電力排放係數」降不下來！經濟部初估，去年我國電力排放係數為0.456，雖較10年前下降14％，卻沒降至法定0.388的目標。環團分析，除了光電弊案頻傳，還發生山坡地被剷平蓋光電、拉抬租金迫使養殖戶出走等現象，建議政府先行畫定合適土地嚴格招商，同時使一定面積以上的新建住宅負有裝設屋頂光電的義務，加快綠電發展速度。\n\n「電力排放係數」代表每度電排放溫室氣體的量，環境部依《氣候變遷因應法》訂立第2期110至114年溫室氣體階段管制目標，設定114年降至0.388，經濟部初估114年電力排放係數0.456，未達標。",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "2a43bb2c36222cd09d1c",
@@ -708,8 +1267,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:24.533617+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "3460e4231c36e8001c76",
@@ -727,8 +1288,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:24.918229+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "4db66a954f6cb4da654a",
@@ -744,6 +1307,116 @@
       "topic": "產業動態",
       "title_zh": "Musk Says SpaceX已經訂購了100 GW 一年的太陽能製造裝置 從一個小知識的德國公司,\" For Starmind to Create a Sentient Sun\" - 24/7 Wall St.",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "bf1c3bbc4e25e60acd95",
+      "title": "觀察站／黃仁勳卸任輝達CEO 牽動供應鏈布局",
+      "url": "https://udn.com/news/story/7238/9875571",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:25.552050+00:00",
+      "source_url": "https://udn.com/news/story/7238/9875571",
+      "body_length": 963,
+      "excerpt": "黃仁勳桃色風暴請辭…牽動供應鏈布局",
+      "summary_zh": "輝達執行長黃仁勳捲入桃色風波請辭，這家由黃仁勳掌舵卅三年的晶片龍頭大廠要臨時撤換執行長，一時間，要找到適當的接替人選，難上加難。不過，業界人士點明，此風波後續仍有六大關鍵變數，值得觀察。\n\n長期研究半導體領域的產業人士指出，黃仁勳不僅是輝達創辦人，更是人工智慧（ＡＩ）核心晶片繪圖處理器（ＧＰＵ）技術、CUDA軟體生態系及ＡＩ運算平台的重要推手，他突然卸任，可能牽動產品策略、客戶關係及供應鏈布局。\n\n首先，輝達董事會的態度。桃色風暴牽涉的究竟是公司利益、內控機制，還是違法行為，輝達董事會如何認定事件是關鍵，估計董事會很快會做出決定。\n\n第二，美國是否擴大ＡＩ晶片出口管制。若華府進一步限制高階晶片透過第三地流向中國大陸，將影響輝達部分市場需求及出貨規畫。\n\n第四，美國國會將在十八日舉行閉門簡報會議。觀察重點在於此事件是否涉及敏感技術、商業機密及資訊安全，相關疑慮能否釐清，將影響後續監管壓力。\n\n第五，美國期中選舉後ＡＩ資料中心政策變化，若各州提高開發門檻，可能延後雲端業者ＡＩ建設計畫，進而影響ＡＩ晶片採購時程。\n\n第六，輝達訂單變化是否衝擊台積電。若出口管制導致輝達調整訂單數量，台積電仍可能透過超微、谷歌、博通及其他客戶增加訂單，分散單一客戶風險。但若全球ＡＩ資本支出放緩，衝擊就不可免。\n\n寬量國際創辦人兼執行長李鴻基則從全球ＡＩ產業結構提出不同觀察。他認為，黃仁勳是否卸任，不會改變台",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "155bc86c5adb82dc9641",
+      "title": "後市變數增 台韓供應鏈嚴陣以待",
+      "url": "https://www.chinatimes.com/newspapers/20261113000266-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:26.087100+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261113000266-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 263,
+      "excerpt": "輝達執行長黃仁勳辭去執行長一職，有分析指出其真正的變數在於尚處投資初期的AI工廠、機器人及自駕車計畫。Omdia首席分析師蘇廉節警告，若輝達執行速度放慢或產品藍圖不再明確，競爭對手將獲得更多追趕空間。韓國企業可能必須分散半導體客戶，台灣供應鏈也得重新評估產能擴張節奏。\n此外，韓國供應商繃緊神經，輝達與SK集團正推動約5,000億美元的AI計畫，涵蓋大型資料中心及下一代晶片，SK海力士則是輝達HBM的重要供應商。\n此篇限「暢讀會員 /",
+      "summary_zh": "輝達執行長黃仁勳辭去執行長一職，有分析指出其真正的變數在於尚處投資初期的AI工廠、機器人及自駕車計畫。Omdia首席分析師蘇廉節警告，若輝達執行速度放慢或產品藍圖不再明確，競爭對手將獲得更多追趕空間。韓國企業可能必須分散半導體客戶，台灣供應鏈也得重新評估產能擴張節奏。\n\n此外，韓國供應商繃緊神經，輝達與SK集團正推動約5,000億美元的AI計畫，涵蓋大型資料中心及下一代晶片，SK海力士則是輝達HBM的重要供應商。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "465d9374763b2138353d",
+      "title": "機電四雄：今年獲利估續創新高",
+      "url": "https://www.chinatimes.com/newspapers/20261113000302-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "機械"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:26.623592+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261113000302-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 1006,
+      "excerpt": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line Threads 複製連結 字級設定：小中大特 士電、中興電、亞力、華城等機電四雄，受惠於台電強韌電網計畫持續釋單，又接獲半導體建廠或AI資料中心（AIDC）訂單，前三季獲利全寫同期新高。士電前三季每股稅後純益（EPS）達6.74元，飆史上新高。機電四雄皆認為，今年營收及獲利有望續創新高。",
+      "summary_zh": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line Threads 複製連結 字級設定：小中大特 士電、中興電、亞力、華城等機電四雄，受惠於台電強韌電網計畫持續釋單，又接獲半導體建廠或AI資料中心（AIDC）訂單，前三季獲利全寫同期新高。士電前三季每股稅後純益（EPS）達6.74元，飆史上新高。機電四雄皆認為，今年營收及獲利有望續創新高。 華城第三季EPS為3.96元、前三季EPS達10.48元；中興電第三季EPS為2.61元、前三季EPS為7.11元。 此篇限「暢讀會員 / 尊榮會員」閱讀 升級付費方案，即可暢讀《中國時報》《工商時報》《旺報》每日報紙內容。 查看付費方案 已有帳號？ 立即登入 或 回首頁看其他新聞 #建廠 #亞力 #強韌 #士電 #訂單 【限時優惠】 訂閱中時新聞網享無廣告閱讀，前3個月每月$49 也許您會感興趣 推薦閱讀 半導體拚擴產 漢科握150億訂單 04:102026/11/19 證券．權證 美國德州等新任州長有意暫緩興建AIDC 華城、亞力及中興電表態 11:182026/11/09 財經 APEC首提深圳倡議 聚焦四大領域 04:102026/11/19 財經要聞 ",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "0477154adc4469aa5e41",
+      "title": "COP31示警 戰爭、關稅不應耽擱氣候改善",
+      "url": "https://www.chinatimes.com/newspapers/20261113000330-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:27.105954+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261113000330-260203?utm_source=iii_news&utm_medium=rss",
+      "body_length": 252,
+      "excerpt": "第31屆聯合國氣候變遷大會（COP31）正在土耳其舉行。會議期間，巴西與土耳其等國領袖警告，全球不應因戰爭與貿易衝突而分散改善氣候的努力。此外土耳其與亞洲基礎設施投資銀行（AIIB）達成16億美元融資協議，創下氣候政策融資新高。\n與會領袖警告，戰爭與貿易衝突不應分散全球對抗氣候變遷的注意力。聯合國秘書長古特雷斯指出，全球減碳行動過於緩慢，排放量、氣溫及氣候災害持續增加，世界正走向自我毀滅。\n此篇限「暢讀會員 /",
+      "summary_zh": "第31屆聯合國氣候變遷大會（COP31）正在土耳其舉行。會議期間，巴西與土耳其等國領袖警告，全球不應因戰爭與貿易衝突而分散改善氣候的努力。此外土耳其與亞洲基礎設施投資銀行（AIIB）達成16億美元融資協議，創下氣候政策融資新高。\n\n與會領袖警告，戰爭與貿易衝突不應分散全球對抗氣候變遷的注意力。聯合國秘書長古特雷斯指出，全球減碳行動過於緩慢，排放量、氣溫及氣候災害持續增加，世界正走向自我毀滅。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "d38124750d9ad3cc552a",
+      "title": "零關稅卡關 美系車廠訂價策略轉彎",
+      "url": "https://www.chinatimes.com/newspapers/20261113000606-260110?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:27.611276+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261113000606-260110?utm_source=iii_news&utm_medium=rss",
+      "body_length": 312,
+      "excerpt": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。\n對於計價策略是否放棄「零關稅」？代理商寶嘉聯合僅低調表示，首波導入的Jeep Wrangler Rubicon與Sahara等兩車型，還是提供優惠價格；但85周年、Whitecap兩款特仕車因僅限量20台，訂價策略也不一樣。\n此篇限「暢讀會員 /",
+      "summary_zh": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。\n\n對於計價策略是否放棄「零關稅」？代理商寶嘉聯合僅低調表示，首波導入的Jeep Wrangler Rubicon與Sahara等兩車型，還是提供優惠價格；但85周年、Whitecap兩款特仕車因僅限量20台，訂價策略也不一樣。",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "09b6a53fbefdaf61def5",
@@ -765,6 +1438,156 @@
       "excerpt": "",
       "title_zh": "ESTUN 機器人整合RoboDK模擬軟體以加速歐洲擴張 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "72a354a2756b6cd05826",
+      "title": "伊朗戰爭前景訊號分歧 國際油價上揚",
+      "url": "https://money.udn.com/money/story/5599/9873149",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "insufficient_text",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:28.201399+00:00",
+      "read_reason": "Page retrieved but substantial article body not extracted"
+    },
+    {
+      "id": "c4993511f0584b9f0b67",
+      "title": "元太報喜 大咬 Google 最強 VLA 機器人商機",
+      "url": "https://money.udn.com/money/story/5612/9873068",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:28.707111+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9873068",
+      "body_length": 1139,
+      "excerpt": "本文共1081字\n雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結緣。元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人就無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\nGoogle宣布，Gemini Robotics 2.5已在賓士生產線上崗，在賓士生產線的概念驗證中，協助",
+      "summary_zh": "雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結緣。元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人就無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\n\nGoogle宣布，Gemini Robotics 2.5已在賓士生產線上崗，在賓士生產線的概念驗證中，協助 Apptronik的Apollo 2人形機器人揀貨並包裝汽車零件，成功率達96%。可承接單調工作，讓技術人員專注於複雜組裝任務。\n\n機器人利用Google開發的具身推理模型（Gemini Robotics ER）追蹤工作流程，並採用 Gemini Robotics 2.5 動作模型控制其手臂和手部，從物料箱中取出金屬汽車支架，並將其放入排序容器中，同時自動修正任何間隙。\n\n業界指出，Apollo 2人形機器人在上述場域有出色表現，元太的電子紙在人機介面的功能，是讓實體AI順利運作的關鍵之一。\n\nGoogle指出，Gemini Robotics 2.5在三大關鍵領域技術大幅提升，機",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "24338fe3076d2b5ec7c6",
+      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
+      "url": "https://udn.com/news/story/7252/9873026",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:29.301866+00:00",
+      "source_url": "https://udn.com/news/story/7252/9873026",
+      "body_length": 1124,
+      "excerpt": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機\n雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結緣。\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\nGoogle宣布，Gemini Robotics",
+      "summary_zh": "雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\n\nGoogle宣布，Gemini Robotics 2.5已在賓士生產線上崗，在賓士生產線的概念驗證中，協助Apptronik的Apollo 2人形機器人揀貨並包裝汽車零件，成功率達96%。可承接單調工作，讓技術人員專注於複雜組裝任務。\n\n機器人利用Google開發的具身推理模型（Gemini Robotics ER）追蹤工作流程，並採用Gemini Robotics 2.5動作模型控制其手臂和手部，從物料箱中取出金屬汽車支架，並將其放入排序容器中，同時自動修正任何間隙。\n\n業界指出，Apollo 2人形機器人在上述場域有出色表現，元太的電子紙在人機介面的功能，是讓實體AI順利運作的關鍵之一。\n\nGoogle指出，Gemini Robotics 2.5在三大關鍵領域技術大幅提升，機器人可藉助日常工具、處理嬌弱柔性物體，完成顯著較多任務，性能與靈巧度大幅提升。同時，Google優化實體安",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "e35c40020d573135bd70",
+      "title": "亞洲鋼價築底 明年Q1拚開門紅",
+      "url": "https://www.chinatimes.com/newspapers/20261112000321-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:29.796905+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261112000321-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 255,
+      "excerpt": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。\n亞洲主力鋼廠新盤價陸續出爐，越南和發鋼廠熱軋每噸微漲4美元，中鋼熱軋每噸調漲300元，不僅終止傳統淡季的停滯期，更邁入連續三個月開高盤的強勢步調；中國大陸寶鋼、越南河靜鋼則連袂開出平盤，為年末市況帶來挺價效應。\n此篇限「暢讀會員 /",
+      "summary_zh": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。\n\n亞洲主力鋼廠新盤價陸續出爐，越南和發鋼廠熱軋每噸微漲4美元，中鋼熱軋每噸調漲300元，不僅終止傳統淡季的停滯期，更邁入連續三個月開高盤的強勢步調；中國大陸寶鋼、越南河靜鋼則連袂開出平盤，為年末市況帶來挺價效應。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "8dda7b7a245a4d4b0246",
+      "title": "記憶體教父養出小金雞 下一步要建立本土特殊氣體供應鏈",
+      "url": "https://money.udn.com/money/story/5612/9870493",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:30.335382+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9870493",
+      "body_length": 917,
+      "excerpt": "本文共880字\n「記憶體教父」高啟全回來了，領軍特殊氣體廠兆捷科技，要挑戰本土特氣龍頭，預計12月創新板上市。隨自製產品比重拉升、新廠擴產及半導體先進製程需求帶動，兆捷董事長高啟全宣告，公司成長動能全面啟動。\n高啟全昨（10）日在兆捷上市前說明會上表示，兆捷上市只是起點，真正目標是要獲利，並建立台灣自主的半導體特殊氣體供應鏈。公司歷經十年研發及客戶驗證，已逐步進入收割期，未來將以高毛利自製產品取代進口，擴大市場版圖。\n營運目標方面，高啟全指出，兆捷今年全年營收目標7億元，有望邁向損益兩平里程碑。目前自製產品約占氣體營收三成，較去年提升約兩成，目標明年提高至35%，未來三年進一步達到六成以上。隨新廠投產及高毛利自製產品品項增加，未來兩",
+      "summary_zh": "「記憶體教父」高啟全回來了，領軍特殊氣體廠兆捷科技，要挑戰本土特氣龍頭，預計12月創新板上市。隨自製產品比重拉升、新廠擴產及半導體先進製程需求帶動，兆捷董事長高啟全宣告，公司成長動能全面啟動。\n\n高啟全昨（10）日在兆捷上市前說明會上表示，兆捷上市只是起點，真正目標是要獲利，並建立台灣自主的半導體特殊氣體供應鏈。公司歷經十年研發及客戶驗證，已逐步進入收割期，未來將以高毛利自製產品取代進口，擴大市場版圖。\n\n營運目標方面，高啟全指出，兆捷今年全年營收目標7億元，有望邁向損益兩平里程碑。目前自製產品約占氣體營收三成，較去年提升約兩成，目標明年提高至35%，未來三年進一步達到六成以上。隨新廠投產及高毛利自製產品品項增加，未來兩至三年，年營收規模有望提升至16億至17億元。\n\n兆捷目前自製產品約占氣體營收三成，較去年明顯提升，預計明年提高至35%，未來三年進一步突破六成。隨產品組合改善及新廠產能開出，營收與獲利成長空間同步擴大。\n\n擴產布局方面，兆捷銅鑼新廠第一期已完工，並取得南科橋頭科學園區土地，啟動下一階段擴廠計畫，橋頭廠最快2028年初投產，形成南北雙生產基地，強化就近供應半導體客戶的能力。\n\n產品方面，自製高階植入氣體已打入先進製程供應鏈，薄膜沉積用矽甲烷（SiH4）今年10月開始供應面板大廠，植入及薄膜氣體將成為下一波成長主力。\n\n另外，自製氟系清潔氣體已陸續通過記憶體大廠認證，",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "9acaa92a54a3e32065fc",
+      "title": "Helion 11月起供貨 台系供應鏈亮相",
+      "url": "https://www.chinatimes.com/newspapers/20261111000222-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:30.810844+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261111000222-260202?utm_source=iii_news&utm_medium=rss",
+      "body_length": 315,
+      "excerpt": "AMD（超微）代理式AI機櫃Helion首批產品將自11月起供貨，台灣伺服器廠陣容亮相。AMD公布超過10款Helion認證機櫃，合作夥伴涵蓋鴻海、廣達旗下雲達、緯穎、英業達及技嘉等，提供液冷、氣冷及CPU搭配GPU的不同配置，爭取雲端與企業AI部署商機。\nAMD運算與企業AI解決方案資深副總裁Ravi Kuppuswamy表示，代理式AI涵蓋多個運算階段，從工作規劃、資料檢索到工具執行，各自需要不同硬體資源。客戶既有機房條件、散熱設施與工作負載也不同，Helion因此採開放式參考架構，讓系統業者依需求設計產品。\n此篇限「暢讀會員 /",
+      "summary_zh": "AMD（超微）代理式AI機櫃Helion首批產品將自11月起供貨，台灣伺服器廠陣容亮相。AMD公布超過10款Helion認證機櫃，合作夥伴涵蓋鴻海、廣達旗下雲達、緯穎、英業達及技嘉等，提供液冷、氣冷及CPU搭配GPU的不同配置，爭取雲端與企業AI部署商機。\n\nAMD運算與企業AI解決方案資深副總裁Ravi Kuppuswamy表示，代理式AI涵蓋多個運算階段，從工作規劃、資料檢索到工具執行，各自需要不同硬體資源。客戶既有機房條件、散熱設施與工作負載也不同，Helion因此採開放式參考架構，讓系統業者依需求設計產品。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "60bc2046da77baaccdcd",
+      "title": "能源論壇12月2日登場／台電總座郭天合：AI用電 已超前部署",
+      "url": "https://udn.com/news/story/7241/9870494",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:31.406819+00:00",
+      "source_url": "https://udn.com/news/story/7241/9870494",
+      "body_length": 880,
+      "excerpt": "能源論壇12月2日登場／台電總座郭天合：AI用電 已超前部署\n算力爆發性增長，考驗電網韌性，台電公司總經理郭天合強調，台電早已超前部署推動電源端四大供電策略，並全面強化電網韌性，提供企業長期發展所需穩定電力，確保電力能安全快速地輸送至用戶端，也盼各界共同營造有利電力建設環境。\n經濟日報將於12月2日舉辦「2026能源願景高峰論壇-AI時代",
+      "summary_zh": "算力爆發性增長，考驗電網韌性，台電公司總經理郭天合強調，台電早已超前部署推動電源端四大供電策略，並全面強化電網韌性，提供企業長期發展所需穩定電力，確保電力能安全快速地輸送至用戶端，也盼各界共同營造有利電力建設環境。\n\n經濟日報將於12月2日舉辦「2026能源願景高峰論壇-AI時代 智慧能源新戰略」。本論壇由經濟日報主辦，經濟部能源署、工研院、台電、台達電（2308）、永豐餘（1907）、國泰投信、富邦投信協辦。\n\n郭天合將以「AI時代的台灣電力未來布局」為題發表演說，台灣正迎接千載難逢的AI機遇，電力布局亦處關鍵時刻。據全國電力資源供需報告，2026年至2035年電力需求年均成長率達2.5%，遠高於過去十年。\n\n台電觀察到，AI產業為24小時全天候運轉，墊高用電基礎，使用電曲線從「山峰」逐步轉為「高原」型態，促使台電持續精進提升電力負載預測及供電能力。\n\n台電已超前部署，從擴大開發燃氣機組、推動機組延役或轉緊急備用、審慎評估並推動核電再運轉整備、開發綠能等四大策略布局，確保未來供電裕度不僅「滿足當下」，更能「長期支撐產業未來」。透過興建高效率、低排放的燃氣機組，搭配再生能源發展，為國家產業長期發展提供多元且低碳電力來源；兼顧環保前提下，藉由靈活策略推動既有機組升級延長運轉時間，及將退場機組轉為緊急備用。\n\nAI及科技產業也為電網帶來負載壓力。郭天合形容，若民生用電密度是乒乓球、傳統",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "3917f8d274dac1aaf8e1",
@@ -822,8 +1645,10 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:31.802635+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "e112a3b41cb1c031ed3f",
@@ -858,6 +1683,116 @@
       "topic": "產業動態",
       "title_zh": "自行車產業觀點：如果 2027 年自行車不再供過於求，會發生什麼事？",
       "translation_method": "manual_headline_translation"
+    },
+    {
+      "id": "90c91aff78fa1a064c7b",
+      "title": "蘋果進擊機器人 鴻準有望成為大贏家",
+      "url": "https://money.udn.com/money/story/5612/9867940",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:32.325261+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9867940",
+      "body_length": 1088,
+      "excerpt": "本文共1031字\n蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML",
+      "summary_zh": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。\n\n蘋果人形機器人「大腦」，讓機器人具備思考、推論與理解能力，在輝達、特斯拉等等科技巨頭大推機器人之際，蘋果有後來居上態勢。近期全球AI大咖陷入AI估值重估壓力之際，蘋果滿手現金，業界看好有望逆勢突圍，在人形機器人市場大顯身手，進一步帶來更多商機與訂單。\n\n以台廠來看，鴻準以模具、機構件、機殼起家，過去也曾負責製造、組裝鴻海集團自用的「FoxBot」機器人，具有量產經驗，也曾透過子公司斥資3,000萬美元，入股香港機器人公司博歌科技，被市場認為是未來AI機器人概念股之一，有望成為蘋果揮軍人形機器人第一梯隊夥伴，迎來大單。\n\n鴻準已定下新目標，衝刺機器人與AI，目前正針對機器人的精進材料應用與表面處理等相關技術進行研發，期盼能掌握市場先機。\n\n台達電方面，近年來持續加碼機器人研發，去年也成立機器人研究院，投入機器人相關技術研發，並攜手輝達開發相關解決方案，目前已布局馬達、驅動器、控制器、感測及編碼器等關鍵零組件，可從零組件、機器人模組一路向上整合至控制及AI軟體。\n\n根據蘋果在其機器人研究專案官網展示的文",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "8cf0757fcb7437e69f80",
+      "title": "上銀、雅特力有喜 跟著蘋果搶機器人商機",
+      "url": "https://money.udn.com/money/story/5612/9867939",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:32.833600+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9867939",
+      "body_length": 818,
+      "excerpt": "本文共763字\n蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。\n「HALO」能讓人形機器人完美達成推箱子、坐椅子及穿越障礙物等任務，關節等機器人關鍵零組件更顯重要，這部分正是上銀的強項。上銀供應的產品，主要應用於人形機器人下肢的小型滾珠螺桿及線性滑軌。\n上銀布局人形機器人關鍵零組件近期有重大突破，該公司與美系大廠人形機器人合作，相關零組件已開始分批出貨，為台灣供應鏈跨入人形機器量產新階段揭開序幕。另一方面，日本人形機器人大廠供應鏈也開始與上銀接觸，積極洽談",
+      "summary_zh": "蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。\n\n「HALO」能讓人形機器人完美達成推箱子、坐椅子及穿越障礙物等任務，關節等機器人關鍵零組件更顯重要，這部分正是上銀的強項。上銀供應的產品，主要應用於人形機器人下肢的小型滾珠螺桿及線性滑軌。\n\n上銀布局人形機器人關鍵零組件近期有重大突破，該公司與美系大廠人形機器人合作，相關零組件已開始分批出貨，為台灣供應鏈跨入人形機器量產新階段揭開序幕。另一方面，日本人形機器人大廠供應鏈也開始與上銀接觸，積極洽談合作計畫。\n\n至於上銀與美國新創公司合作開發的新一代具AI視覺功能的雙臂八軸物流機器人，因設計規格變更，預計近期重新送樣測試，最快2027年進入小批量生產。\n\n上銀近幾年加速拓展機器人領域，除了與美系大廠合作之外，也積極拓展日本、中國大陸市場，預估今年整體機器人營收比重將超過12%，明年隨人形機器人關鍵零組件出貨放量，比重還會持續增加。\n\n人形機器人的關節部分，雅特力提到，主要有兩大塊，一個是精密減速機，這是機構或機械部分，而在電子部分有高效能CPU及相關MCU等，這是關節電機的主控中心，該公司已從第3季開始批量出貨相關產品給關節電機的方案商，明年有機會出量達百萬顆",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "592f2daab4316ee77ff9",
+      "title": "蘋果秀機器人大腦 人形產品出現重大突破 鴻準受惠將拿下大單",
+      "url": "https://money.udn.com/money/story/5612/9867805",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:33.356518+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9867805",
+      "body_length": 1024,
+      "excerpt": "本文共998字\n蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML",
+      "summary_zh": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準有望成為大贏家，拿下蘋果機器人大單，台達電也可望沾光。\n\n蘋果人形機器人「大腦」，讓機器人具備思考、推論與理解能力，在輝達、特斯拉等等科技巨頭大推機器人之際，蘋果有後來居上態勢。近期全球AI大咖陷入AI估值重估壓力之際，蘋果滿手現金，業界看好有望逆勢突圍，在人形機器人市場大顯身手，進一步帶來更多商機與訂單。\n\n以台廠來看，鴻準以模具、機構件、機殼起家，過去也曾負責製造、組裝鴻海集團自用的「FoxBot」機器人，具有量產經驗，也曾透過子公司斥資3,000萬美元，入股香港機器人公司博歌科技，被市場認為是未來AI機器人概念股之一，有望成為蘋果揮軍人形機器人第一梯隊夥伴，迎來大單。\n\n鴻準已定下新目標，衝刺機器人與AI，目前正針對機器人的精進材料應用與表面處理等相關技術進行研發，期盼能掌握市場先機。\n\n台達電方面，近年來持續加碼機器人研發，去年也成立機器人研究院，投入機器人相關技術研發，並攜手輝達開發相關解決方案，目前已布局馬達、驅動器、控制器、感測及編碼器等關鍵零組件，可從零組件、機器人模組一路向上整合至控制及AI軟體。\n\n根據蘋果在其機器人研究專案官網展示的文件與影片，藉由旗下研發的",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "3d748b1d3d1b6bb8e84a",
+      "title": "宇樹將成為蘋果機器人關鍵夥伴 上銀、雅特力跟進搶商機",
+      "url": "https://money.udn.com/money/story/5612/9867809",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:33.870633+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9867809",
+      "body_length": 497,
+      "excerpt": "本文共445字\n蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。\n「HALO」能讓人形機器人完美達成推箱子、坐椅子及穿越障礙物等任務，關節等機器人關鍵零組件更顯重要，這部分正是上銀的強項。上銀供應的產品，主要應用於人形機器人下肢的小型滾珠螺桿及線性滑軌。\n上銀近幾年加速拓展機器人領域，除了與美系大廠合作之外，也積極拓展日本、中國大陸市場，預估今年整體機器人營收比重將超過12%，明年隨人形機器人關鍵零組件出貨放量，比重還會持續增加。\n雅特力也是外界點名宇樹協力",
+      "summary_zh": "蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。\n\n「HALO」能讓人形機器人完美達成推箱子、坐椅子及穿越障礙物等任務，關節等機器人關鍵零組件更顯重要，這部分正是上銀的強項。上銀供應的產品，主要應用於人形機器人下肢的小型滾珠螺桿及線性滑軌。\n\n上銀近幾年加速拓展機器人領域，除了與美系大廠合作之外，也積極拓展日本、中國大陸市場，預估今年整體機器人營收比重將超過12%，明年隨人形機器人關鍵零組件出貨放量，比重還會持續增加。\n\n在機器人的關節部分，雅特力提到，主要有兩大塊，一個是精密減速機，這是機構或機械部分，而在電子部分有高效能CPU及相關MCU等，這是關節電機的主控中心，該公司已從第3季開始批量出貨相關產品給關節電機的方案商。",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "58e74bbaaa0ffa470723",
+      "title": "大陸能源企業爭相研發重點產品 陸鈉離子電池 衝商業化量產",
+      "url": "https://www.chinatimes.com/newspapers/20261110000261-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:34.391172+00:00",
+      "source_url": "https://www.chinatimes.com/newspapers/20261110000261-260203?utm_source=iii_news&utm_medium=rss",
+      "body_length": 306,
+      "excerpt": "大陸鈉離子電池產業正衝刺商業化量產，希望能從樣品驗證邁向GWh級規模化交付階段。陸媒報導指出，大型領先企業近期積極針對儲能等領域發表新一代電芯產品，並加快產線調整。儘管仍有許多關卡要過，但國金證券預計，今年或為鈉電產業規模化商用的關鍵時間點。\n綜合陸媒報導，鈉電池在安全性、寬溫域適應性、充電速度等優於鋰電池，是目前大陸能源企業爭相研發的重點產品。全球電池龍頭企業寧德時代6月在慕尼黑發表天恒鈉電儲能系統，計畫今年底實現1GWh出貨，明年6月啟動交付，還與海博思創簽下三年60GWh儲能鈉電長約訂單。\n此篇限「暢讀會員 /",
+      "summary_zh": "大陸鈉離子電池產業正衝刺商業化量產，希望能從樣品驗證邁向GWh級規模化交付階段。陸媒報導指出，大型領先企業近期積極針對儲能等領域發表新一代電芯產品，並加快產線調整。儘管仍有許多關卡要過，但國金證券預計，今年或為鈉電產業規模化商用的關鍵時間點。\n\n綜合陸媒報導，鈉電池在安全性、寬溫域適應性、充電速度等優於鋰電池，是目前大陸能源企業爭相研發的重點產品。全球電池龍頭企業寧德時代6月在慕尼黑發表天恒鈉電儲能系統，計畫今年底實現1GWh出貨，明年6月啟動交付，還與海博思創簽下三年60GWh儲能鈉電長約訂單。",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "f2f6fd632b4a9b23cde0",
@@ -913,6 +1848,27 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "af6409e4873b18b95286",
+      "title": "Tite x IHT 2026: Taiwan Tools Expo Drives Global Growth - ETMM",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0R6Z0Uxd2tsMXJfX1dVb0toTGVSZUpqeGhNQVZhTmJyN1JvYTZOUmQtYlkxVV9hbHkyQlpDSUJGbm1HT3ZrLUV4cXo0UUFKb3lJTEtvZnU5NlM0aWE0eFpoc0FJWUZXckQxYTh0YnhiRXRaUkRGY0ZGUEVtaE5Oa3JSS3B0aC02Q0FWTlp6QU9JeS00MEVXbGpOOHNWb29pbUJkN3FoMWQtMlZzQ3UwbEEwem4tVTZNOHBzczRR?oc=5",
+      "source": "ETMM",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [
+        "台灣產業"
+      ],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "Tite x IHT 2026:臺灣工具博覽會驅動全球增長-ETMM",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "b2a2ed205e3572f789c2",
       "title": "115年智慧電動車輛產業輔導推動計畫 期末成果發表會 - 財團法人車輛研究測試中心",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Sd1E3U2t2RE0xdjVmV0ZuY2hHZVNrRWZ1djRkcHB4bC04LWlzdWtPenNFblUwNmRiSThxVjA5YjB2d3UyTUtYUWlzSW5pV01yUTdqTFAwLU1ySGM?oc=5",
@@ -926,8 +1882,130 @@
       "priority": "taiwan",
       "region": "台灣",
       "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T05:19:34.769519+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
+    },
+    {
+      "id": "141a938fff5e49d409e7",
+      "title": "台積電強化整頓供應鏈 沒改善就掉單",
+      "url": "https://money.udn.com/money/story/5612/9865607",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:35.349659+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9865607",
+      "body_length": 811,
+      "excerpt": "本文共757字\n台積電（2330）海內外如火如荼趕工擴廠，但近期工安事件頻傳，台積電內部高度關注，業界盛傳公司已成立專案小組強化整頓供應鏈，若供應鏈問題未改善恐「掉單」，漢唐（2404）、帆宣（6196）、中鋼構（2013）與多家營造夥伴等協力廠商壓力大。\n台積電持續強化整頓供應鏈管理，外傳11月17日召開供應鏈管理論壇，屆時公布的優良供應商名單將有所變動，\n台積電每年的供應鏈管理論壇皆會頒發優良供應商獎項，獲獎廠商獲得肯定，無不引以為榮。不過，近期台積電高雄楠梓園區F22",
+      "summary_zh": "台積電（2330）海內外如火如荼趕工擴廠，但近期工安事件頻傳，台積電內部高度關注，業界盛傳公司已成立專案小組強化整頓供應鏈，若供應鏈問題未改善恐「掉單」，漢唐（2404）、帆宣（6196）、中鋼構（2013）與多家營造夥伴等協力廠商壓力大。\n\n台積電每年的供應鏈管理論壇皆會頒發優良供應商獎項，獲獎廠商獲得肯定，無不引以為榮。不過，近期台積電高雄楠梓園區F22 P4廠新建工程、寶山廠先後傳出工安意外，使得今年優良供應商卓越表現獎名單將面臨洗牌，台積電今年供應商大會也會更聚焦工安議題。\n\n台積電全球大擴廠，也帶來管理挑戰。台積電資深副總經理暨副共同營運長／資訊安全長侯永清日前公開提到，台積電目前全球加起來接有近20座廠正在建置，當前供應鏈的挑戰絕非單一環節或單一公司能解決，而是關乎整體生態系。\n\n他當時提到，現在客戶總問：「既然你們現在能同時蓋20座廠，那可以蓋30座嗎？」然而問題在整個生態系統還沒做好這樣的準備，每個工地的施工人力有限。\n\n因應大擴廠帶來的挑戰，台積電內部已成立工地安全強化委員會，強調跨部門協作，全方位推動工地安全衛生事務，以及導入AI解決方案提升工地安全、協調成熟廠區與新建工程進行介面管理及安全改進、與承攬商合作，鼓勵其提升安全和工作環境。對外溝通，並提供必要的法律建議等。\n\n台積電今年並新增三項營建工地管理指標，做為安全管理成效的追蹤依據，確保每位參與建廠專案夥伴",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "316f51469b39c62b47ea",
+      "title": "全球市場觀測站／AI基建供應鏈 遭重擊",
+      "url": "https://udn.com/news/story/10103/9865541",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:35.955434+00:00",
+      "source_url": "https://udn.com/news/story/10103/9865541",
+      "body_length": 798,
+      "excerpt": "全球市場觀測站／AI基建供應鏈",
+      "summary_zh": "美國民主黨在期中選舉取得國會控制權後，市場開始重新評估AI及資料中心擴建面臨的監管風險。法人表示，若資料中心建置速度放緩，首當其衝的將是AI基礎建設供應鏈，其中AI半導體受到的衝擊可能最為明顯，相關基礎建設概念股也可能受到牽連，包括AI電力基礎建設族群。\n\n反觀那斯達克成分股中，仍有不少企業並非直接受惠於AI基礎建設擴張，例如Alphabet、Amazon等雲端服務業者。這些公司雖然同樣受到AI類股修正影響，但跌幅相較半導體等AI基礎建設族群相對有限。\n\n這波修正並非全部的科技股全面崩盤，而是AI資本支出鏈估值重新定價。中國信託投信表示，後續有三大焦點值得持續關注：一、大型雲端業者是否有下修資本支出的預估；二、輝達、Broadcom、AMD、美光有沒有下修AI需求展望；三、民主黨提出的AI、資料中心政策最後究竟只是環保、電力及水資源限制，還是真的會壓低建設量。\n\n若資本支出沒有下修、訂單沒有取消，只是短線因為消息面將評價修正，對供應鏈的意義比較像是估值修正，並非是產業的翻轉；反之，若後續企業開始下修資本支出或AI需求展望，影響層面就可能進一步擴大。目前市場觀望情緒仍濃厚，未來美國科技巨頭公布的財報與財測，將成為市場重要觀察指標。\n\n中信NASDAQ ETF（009800）經理人張圭慧指出，經過近期大幅修正，股票估值吸引力逐漸浮現，但市場仍面臨AI產業融資、商業化進度及地緣政治等不確",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "0753122620a68249ec63",
+      "title": "打入蘋果折疊機供應鏈 運錩迎新一波拉貨商機",
+      "url": "https://udn.com/news/story/7252/9865672",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:36.798863+00:00",
+      "source_url": "https://udn.com/news/story/7252/9865672",
+      "body_length": 798,
+      "excerpt": "打入蘋果折疊機供應鏈 運錩迎新一波拉貨商機\n蘋果首款折疊手機iPhone",
+      "summary_zh": "蘋果首款折疊手機iPhone Duo搶購效應發威，運錩（2069）迎新一波拉貨商機。運錩旗下寧波奇億已切入美系手機供應鏈，隨新增產能開出、高毛利產品出貨擴大，運錩上季獲利倍增、獲利動能發酵，本季至明年營運可望更強。\n\n運錩近日公布第3季財報，單季稅後純益1.28億元，較去年同期大增103%，每股純益（EPS）0.77元，優於去年同期0.38元。尤其單季毛利率由去年同期8.56%躍升至14.36%，大增5.8個百分點，凸顯高附加價值產品出貨增加，帶動獲利能力明顯改善。\n\n累計前三季，運錩合併營收76.33億元，雖較去年同期小幅下滑約1%，但營業利益達5.63億元，稅後純益4.05億元，EPS達2.43元，不僅較去年同期倍增，更提前超越去年全年EPS 1.62元的水準，展現企業轉型成果。\n\n營收動能也持續升溫。運錩最新公布10月營收9.6億元，年增22.27%，寫下近18個月新高，且為連三個月成長；累計前十月營收85.94億元，年增1.13%，由前三季的年減轉為正成長，顯示整體營運逐步走出傳統不銹鋼市場低迷陰影。\n\n法人分析，運錩此波營運成長最大亮點，在於旗下全資子公司寧波奇億成功跨入高階電子材料供應鏈，尤其蘋果首款折疊手機於10月23日正式上市後，市場反應熱烈，部分訂單交期已延至明年1月，蘋果正積極提升產能，為相關精密材料供應商帶來後續擴大出貨的機會。\n\n據悉，寧波奇億已取得蘋果折疊",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "35efc1e31026e66fec55",
+      "title": "陸企獲准買輝達晶片疑點重重…通過審查企業可能與遭美制裁公司有關",
+      "url": "https://udn.com/news/story/6811/9865669",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "read_checked_at": "2026-11-19T05:19:37.514065+00:00",
+      "source_url": "https://udn.com/news/story/6811/9865669",
+      "body_length": 967,
+      "excerpt": "聽新聞\n                \n                  \n                  \n                  \n                \n                \n                  \n                  \n                  \n                \n                \n                  0:00 /\n                  0:00\n                \n              \n             ",
+      "summary_zh": "美國商務部批准數十家中國大陸企業，向輝達（NVIDIA）採購H200晶片，但媒體調查發現，一些通過審查的陸企與遭到美國政府制裁的公司有關，疑似提供掩護，引發國安疑慮。\n\n紐約時報調查發現，陸企「New Matrix」通過商務部審查能購買H200，但在中國大陸境內，幾乎沒有證據顯示該公司確實存在。\n\nNew Matrix地址登記在北京西北郊區的新建工業園區，但所在大樓的名冊卻沒有New Matrix的名字，登記辦公室內空蕩蕩，連工業園區的物業管理處也沒有New Matrix任何紀錄，讓人質疑這家公司的幕後人物。\n\n中國企業登記資料顯示，New Matrix所有人與當地的知名私募股權基金有關，但該基金2024年被美國政府列入貿易黑名單。分析師推測，New Matrix或許是基金關聯企業的掩護公司。\n\n另一家獲准取得H200的企業Maginfra，也有類似情況。紐時記者9月走訪登記地址，只見上鎖的房間內擺著幾張桌椅，沒有招牌。分析人士認為，Maginfra可能源自遭美國列入實體清單的浪潮集團（Inspur），雙方人員及專利有所重疊，也都有政府持股。\n\n紐時調查還發現浙江銀盾雲科技，與潤澤智算科技集團股份有關，後者曾為軍方承包商提供服務。前白宮國安委員會中國事務主任托賓坦言：「我非常擔心，商務部與輝達均未進行盡職調查，以確保遵守許可條款。」\n\n紐時指出，拜登時期擔心AI晶片會被北京用於發展",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "10372bfcfe83d1819c6a",
+      "title": "大陸華北鋼廠限產 支撐亞洲鋼價 中鋼、中鴻等台廠迎轉單",
+      "url": "https://money.udn.com/money/story/10871/9865612",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
       "access_status": "not_verified",
-      "excerpt": ""
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "e6d8bd14199d1cc208d3",
+      "title": "能源論壇12月2日登場／能源署長吳志偉：增建機組 滿足 AI 用電",
+      "url": "https://udn.com/news/story/7238/9865736",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
     },
     {
       "id": "26b959f523ba4e53a907",
@@ -995,6 +2073,134 @@
       "topic": "產業動態"
     },
     {
+      "id": "b8a3dd899c4a8f718467",
+      "title": "美期中選舉後 川普關稅不退場 拚外交突破",
+      "url": "https://money.udn.com/money/story/5599/9860647",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "213da3b194bf8983da27",
+      "title": "藍潮擋關！川普關稅仍有牌面 對伊朗陷入困局",
+      "url": "https://udn.com/news/story/125060/9860527",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "ef40bb70f49bf16768d0",
+      "title": "中加相互豁免關稅延長兩年…加國豌豆、龍蝦等維持低稅率 陸鋼鋁比照辦理",
+      "url": "https://udn.com/news/story/6811/9860667",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "56bacd8f764108d77e42",
+      "title": "共和黨失利 關稅談判恐再起",
+      "url": "https://www.chinatimes.com/newspapers/20261106000286-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "b8975b450de0bd5fe263",
+      "title": "美AI基建急煞 衝擊亞洲供應鏈",
+      "url": "https://www.chinatimes.com/newspapers/20261106000627-260110?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "716d8f5401696553c2dc",
+      "title": "陸傳封殺軟銀54億美元併購案 ABB機器人事業交易遭否決 孫正義實體AI布局受挫",
+      "url": "https://money.udn.com/money/story/5599/9860630",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "142222a9b2cc785f5c12",
+      "title": "陸企仿生機器人大戰 開打",
+      "url": "https://www.chinatimes.com/newspapers/20261106000347-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
+      "id": "f56fb9bb45362f78e692",
+      "title": "台塑集團擴大新能源版圖 國產電芯產能拚倍增搶攻商機",
+      "url": "https://money.udn.com/money/story/5612/9860680",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T05:18:43.984620+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
       "id": "c1d3a78bd2d4aaef943a",
       "title": "Pudu Robotics unveils ‘One Brain, Multiple Embodiments’ strategy and showcases full portfolio in European first - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQc2pDVFVESHZqUmFHaS1XNURtR1haMDJVdmFwc0xCUXhBWmpZTENtYTdvbjIwU3p6UTQtSG5seGM4MkwyUnNVYjdtNGFCTkpobVpHS2kxN1VXTkg1TXc3MFA4TjFvMXp3dDQzbEhMam9KZUI5WnphWnE3TmloSmxQUGx3endMRW4yY3RBZlAxdlVVUllCTDVCai1YNWtkeklDem5nZV9COHpSVTdLQWFCTWc0UjN1TTVRQjhGdkRWSWktU1poRzJ5V1BxM0w0bGgzc1hTZ2lTQlFnS2NGZEtDcVpha2Z1VDJPVlhJT0FocmdNX3ltUjd2dw?oc=5",
@@ -1015,5 +2221,10 @@
       "excerpt_translation_zh": "Pudu機器人技術揭幕 \" 一個大腦,多重嵌入 \" 策略,並在歐洲第一個機器人和自動化新聞中展示完整的組合",
       "excerpt_translation_status": "machine_translation_of_source_excerpt"
     }
-  ]
+  ],
+  "itis_discovery": {
+    "checked_at": "2026-11-19T05:18:43.984620+00:00",
+    "days_with_direct_links": 10,
+    "new_items": 47
+  }
 }
