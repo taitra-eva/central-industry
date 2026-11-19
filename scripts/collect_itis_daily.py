@@ -18,6 +18,7 @@ from relevance import should_keep, is_government_source
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/news.json"
+EXCLUDED=set(json.loads((ROOT/'config/excluded_news_ids.json').read_text(encoding='utf8'))['ids'])
 NOW = datetime.now(timezone.utc)
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; IndustryNewsIndexer/1.0)"}
 BASES = [
@@ -80,7 +81,7 @@ def get_day(day):
 
 def main():
     data=json.loads(DATA.read_text(encoding="utf8"))
-    news={n["id"]:n for n in data.get("items",[]) if not is_government_source(n.get("source",""),n.get("source_url") or n.get("url","")) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
+    news={n["id"]:n for n in data.get("items",[]) if n["id"] not in EXCLUDED and not is_government_source(n.get("source",""),n.get("source_url") or n.get("url","")) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
     added=0
     successful_days=0
     # Attempt each day of the publication discovery window; ITIS can have gaps.
@@ -91,6 +92,7 @@ def main():
         for title,url,sectors in found:
             norm=re.sub(r"\W+","",title.casefold())
             uid=hashlib.sha256(norm.encode("utf8")).hexdigest()[:20]
+            if uid in EXCLUDED:continue
             if uid in news:
                 for sector in sectors:
                     if sector not in news[uid].get("industries",[]):
