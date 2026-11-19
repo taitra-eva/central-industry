@@ -6,6 +6,7 @@ blocks reading, retain that article as an independent item.
 """
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -45,38 +46,93 @@ def proven_duplicate(a,b,texts):
         return False
     return True
 
+
+def headline_key(article):
+    """Remove a trailing publisher suffix; preserve the factual headline."""
+    title=(article.get("title") or "").strip()
+    publisher=(article.get("source") or "").strip()
+    # The suffix must be an actual publisher label, not part of the story.
+    if publisher:
+        escaped=re.escape(publisher)
+        title=re.sub(r"\s+[-–|｜]\s*"+escaped+r"\s*$","",title,flags=re.I)
+    title=re.sub(r"[\s\u3000]+"," ",title).casefold()
+    title=re.sub(r"[^\w\u3400-\u9fff]+","",title)
+    return title if len(title)>=22 else ""
+
+
+def same_publication_window(a,b):
+    """Exact syndication headlines within 48 hours; no broad topic merging."""
+    try:
+        ta=datetime.fromisoformat(a.get("published_at") or a["discovered_at"])
+        tb=datetime.fromisoformat(b.get("published_at") or b["discovered_at"])
+        return abs((ta-tb).total_seconds())<=48*3600
+    except (KeyError,TypeError,ValueError):
+        return False
+
+
+def exact_title_duplicate(a,b):
+    ka,kb=headline_key(a),headline_key(b)
+    return bool(ka and kb and ka==kb and same_publication_window(a,b))
+
+
+def keep_priority(article,insight_ids):
+    """Prefer source-supported analysis, then direct publisher links."""
+    direct=source_url(article)
+    trusted=article.get("source","").casefold() in ("reuters","中央社 cna","經濟日報")
+    return (
+        article.get("id") in insight_ids,
+        article.get("access_status")=="readable",
+        bool(direct),
+        trusted,
+    )
+
+
 def main():
-    if not BODIES.exists():
-        print("Duplicate review skipped: original publisher bodies unavailable")
-        return
-    texts=json.loads(BODIES.read_text(encoding="utf-8"))
-    if not texts:
-        print("Duplicate review: no publisher texts available; no headlines merged")
-        return
     d=json.loads(NEWS.read_text(encoding="utf-8"))
     rows=d.get("items",[])
+    texts=json.loads(BODIES.read_text(encoding="utf-8")) if BODIES.exists() else {}
+    ins=json.loads(INSIGHTS.read_text(encoding="utf-8")) if INSIGHTS.exists() else {"items":[]}
+    insight_ids={ident for record in ins.get("items",[]) for ident in record.get("article_ids",[])}
+    # A strong exact-headline match is sufficient even if publisher bodies failed.
+    # For different headlines, continue to require two verified full texts.
     chosen=[]
     removed={}
-    for item in rows:
+    exact_count=0
+    body_count=0
+    for item in sorted(rows,key=lambda x:keep_priority(x,insight_ids),reverse=True):
         prior=None
+        by_title=False
         for existing in chosen:
+            if exact_title_duplicate(item,existing):
+                prior=existing
+                by_title=True
+                break
             if proven_duplicate(item,existing,texts):
                 prior=existing
                 break
         if prior:
             removed[item["id"]]=prior["id"]
-            print("CONFIRMED SAME BODY:",item["id"],"duplicate of",prior["id"])
-        else:chosen.append(item)
+            for sector in item.get("industries",[]):
+                if sector not in prior.get("industries",[]):
+                    prior.setdefault("industries",[]).append(sector)
+            if by_title:
+                exact_count+=1
+                print("CONFIRMED SAME HEADLINE:",item["id"],"duplicate of",prior["id"])
+            else:
+                body_count+=1
+                print("CONFIRMED SAME BODY:",item["id"],"duplicate of",prior["id"])
+        else:
+            chosen.append(item)
     if removed:
         d["items"]=chosen
         NEWS.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-        # Keep previous editorial analyses only if a surviving article backs
-        # them. Never replace their source IDs with unverified alternatives.
+        # Analyses of removed source IDs must not be silently assigned to a
+        # different publisher; retain only analyses of surviving sources.
         if INSIGHTS.exists():
-            ins=json.loads(INSIGHTS.read_text(encoding="utf-8"))
             for entry in ins.get("items",[]):
                 entry["article_ids"]=[x for x in entry.get("article_ids",[]) if x not in removed]
             ins["items"]=[x for x in ins["items"] if x.get("article_ids")]
             INSIGHTS.write_text(json.dumps(ins,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("Content-confirmed duplicate removal:",len(removed),"/",len(rows))
+    print("Duplicate removal: exact publisher-suffixed headlines",exact_count,
+          "; full body confirmed",body_count,"; total",len(removed),"/",len(rows))
 if __name__=="__main__":main()
