@@ -591,6 +591,60 @@
       "region": "北美",
       "q": "Taiwan dollar exchange rate manufacturing exporters competitiveness USD TWD",
       "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "台灣 電動自行車 e-bike 電動輔助自行車 出口 訂單",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "台灣 電動二輪車 電動機車 零組件 市場 銷售",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "台灣 電動三輪車 三輪車 物流載具 製造",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:money.udn.com 電動自行車 電動二輪車 電動三輪車 台廠",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:ctee.com.tw e-bike 電動三輪車 電動二輪車 供應鏈",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "自行車",
+      "region": "歐洲",
+      "q": "European e-bike electric cargo tricycle electric two wheeler industry manufacturers",
+      "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "北美",
+      "q": "US electric bicycles e-trikes electric motorcycles industry orders",
+      "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "亞洲",
+      "q": "日本 電動アシスト自転車 電動三輪車 電動二輪車 市場 部品",
+      "locale": "ja-JP"
+    },
+    {
+      "industry": "自行車",
+      "region": "亞洲",
+      "q": "Southeast Asia electric two wheeler electric tricycle manufacturers parts market",
+      "locale": "en-US"
     }
   ]
 }
