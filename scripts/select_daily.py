@@ -20,12 +20,31 @@ CAP=8
 SECTORS=("總體情勢","機械與金屬加工","自行車","汽配","手工具","無人載具及機器人")
 SECTOR_TERMS={
  "總體情勢":("匯率","新台幣","關稅","反傾銷","出口管制","油價","石油","鋼價","運價","航運","原物料","貨櫃","war","tariff","exchange rate","oil price"),
- "機械與金屬加工":("工具機","精密機械","木工機","機床","金屬加工","鈑金","沖壓","鑄造","鍛造","CNC","machine tool","metal fabrication","machining","woodworking machinery"),
- "自行車":("自行車","電動自行車","電動輔助自行車","電動二輪車","電動三輪車","三輪車","電動機車","e-bike","ebike","electric bicycle","electric bike","electric two-wheeler","electric motorcycle","electric tricycle","e-trike","tricycle","bicycle","bike","pedelec","cargo bike"),
- "汽配":("汽車零組件","汽配","車用零件","AM零件","汽車售後","汽車零件","automotive parts","aftermarket","auto parts"),
- "手工具":("手工具","五金工具","水五金","扳手","套筒","氣動工具","電動工具","hand tools","hardware tools"),
+ "機械與金屬加工":("工具機","精密機械","木工機","機床","金屬加工","精密零件","鈑金","沖壓","鑄造","鍛造","CNC","機械訂單","上銀","永進","東台","程泰","machine tool","metal fabrication","machining","woodworking machinery"),
+ "自行車":("自行車","電動自行車","電動輔助自行車","電動二輪車","電動三輪車","三輪車","電動機車","美利達","巨大集團","捷安特","Specialized","Giant Bicycles","e-bike","ebike","electric bicycle","electric bike","electric two-wheeler","electric motorcycle","electric tricycle","e-trike","tricycle","bicycle","bike","pedelec","cargo bike"),
+ "汽配":("汽車零組件","汽配","汽車零配件","車用零件","車用零組件","AM零件","汽車售後","汽車零件","東陽","堤維西","昭輝","車載相機","汽車部品","automotive parts","aftermarket","auto parts"),
+ "手工具":("手工具","五金工具","五金業","水五金","扳手","套筒","氣動工具","電動工具","伯鑫工具","臺灣五金","Taiwan Tools Expo","TITE x IHT","hand tools","hardware tools"),
  "無人載具及機器人":("機器人","無人機","無人載具","人形機器人","無人船","robotics","humanoid","drone","unmanned"),
 }
+# Clearly non-industry pages should never fill the daily quota just because
+# a broad Google News query returned them.
+BAD_HEADLINE=(
+ "的搜尋結果","搜尋結果 -","選舉","宮廟","力挺候選人",
+ "胰臟癌","癌症治療","投資組合","股票推薦","stocks worth watching",
+ "top 10 tool set brands","brand ranked","比較評測","開戶優惠",
+ "cagr","股價預測","記者個人頁","作者專頁","員工介紹",
+ "人才培育","招生","就業講座","copyright","版權所有",
+)
+def relevant_to_sector(article,sector,verified):
+    title=((article.get("title") or "")+" "+(article.get("title_zh") or "")).casefold()
+    if any(word.casefold() in title for word in BAD_HEADLINE):return False
+    terms=SECTOR_TERMS.get(sector,())
+    if any(term.casefold() in title for term in terms):
+        return True
+    # A verified source-backed editorial summary can independently establish
+    # industry relevance, even if a headline only names the manufacturer.
+    return article["id"] in verified
+
 TRUSTED=("中央社","經濟日報","工商時報","MoneyDJ","輪彥","Bicycle Retailer","Bike Europe","MA 工具機","Modern Machine Shop","ITIS 每日新聞")
 def date_key(article):
     stamp=article.get("discovered_at") or article.get("published_at") or ""
@@ -64,10 +83,11 @@ def main():
     for day,bucket in sorted(byday.items()):
         per_sector=defaultdict(int)
         for article in sorted(bucket,key=lambda x:score(x,verified),reverse=True):
-            sectors=list(dict.fromkeys(x for x in article.get("industries",[]) if x in SECTORS))
+            sectors=list(dict.fromkeys(x for x in article.get("industries",[]) if x in SECTORS and relevant_to_sector(article,x,verified)))
             if not sectors:
-                rejected["no_valid_sector"]+=1
+                rejected["no_confirmed_sector_subject"]+=1
                 continue
+            article["industries"]=sectors
             if any(per_sector[x]>=CAP for x in sectors):
                 for x in sectors:
                     if per_sector[x]>=CAP:rejected[x]+=1
