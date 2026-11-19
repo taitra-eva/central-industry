@@ -209,49 +209,49 @@
       "q": "site:itis.org.tw/NetReport_Detail.aspx 無人機 機器人"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "台灣",
       "q": "site:ida.gov.tw 產業政策 傳統產業 中小企業 製造業"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "台灣",
       "q": "site:moea.gov.tw 產業政策 外銷訂單 工業生產"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "台灣",
       "q": "site:trade.gov.tw 貿易政策 關稅 出口 業者"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "台灣",
       "q": "site:customs.gov.tw 鋼鋁 關稅 進出口 貿易"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "台灣",
       "q": "台灣 製造業 鋼鐵 銅 鋁 原物料 價格 供應鏈"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "北美",
       "q": "US tariffs trade policy manufacturing supply chains energy costs",
       "locale": "en-US"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "歐洲",
       "q": "Europe EU industrial policy machinery supply chain energy sanctions",
       "locale": "en-US"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "日本",
       "q": "日本 産業政策 製造業 原材料 エネルギー 物流"
     },
     {
-      "industry": "共通政策與國際情勢",
+      "industry": "總體情勢",
       "region": "其他",
       "q": "global conflict shipping routes oil prices manufacturing supply chains",
       "locale": "en-US"
