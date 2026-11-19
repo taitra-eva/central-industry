@@ -2,7 +2,7 @@
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="index,follow"><title>產業新聞內容｜中部產業情報中心</title>
 <style>
-:root{font-family:system-ui,"Noto Sans TC",sans-serif;color:#372b24;background:#f7f2ed}*{box-sizing:border-box}body{margin:0}.top{background:#744020;padding:25px max(20px,calc((100vw - 900px)/2));color:white}.top a{color:white;text-decoration:none}.wrap{max-width:900px;padding:20px;margin:0 auto}.paper{background:white;border:1px solid #e6d9cc;border-radius:14px;padding:28px;margin:18px 0}.paper h1{font-size:27px;line-height:1.5;margin:12px 0}.paper h2{font-size:19px;margin:0 0 12px}.meta{color:#827366;font-size:14px;line-height:1.7}.flag{display:inline-block;background:#f5e9dd;border-radius:6px;padding:5px 8px;margin:4px 6px 4px 0;font-size:13px}.pending{padding:14px;background:#fff3e2;border:1px solid #e7c9a6;border-radius:9px;line-height:1.8}a{color:#99531f}hr{border:0;border-top:1px solid #e9dbce;margin:24px 0}.footer{color:#827366;font-size:13px;padding:5px 0 30px}@media(max-width:600px){.paper{padding:18px}.paper h1{font-size:22px}}
+:root{font-family:system-ui,"Noto Sans TC",sans-serif;color:#372b24;background:#f7f5f2}*{box-sizing:border-box}body{margin:0}.top{background:#fff;padding:19px max(20px,calc((100vw - 900px)/2));color:#68432c;border-bottom:1px solid #e8ded4}.top a{color:#91562f;text-decoration:none;font-weight:650}.wrap{max-width:900px;padding:20px;margin:0 auto}.paper{background:white;border:1px solid #e6ddd6;border-radius:18px;padding:32px;margin:21px 0;box-shadow:0 9px 27px #573c2409}.paper h1{font-size:27px;line-height:1.45;margin:13px 0;color:#3f2d22}.paper h2{font-size:20px;margin:0 0 14px;border-left:4px solid #b3764d;padding-left:12px}.meta{color:#827366;font-size:14px;line-height:1.7}.flag{display:inline-block;background:#f5e9dd;border-radius:6px;padding:5px 8px;margin:4px 6px 4px 0;font-size:13px}.pending{padding:15px;background:#fff8ee;border:1px solid #eed6c2;border-radius:10px;line-height:1.85}a{color:#99531f}hr{border:0;border-top:1px solid #eee5dc;margin:27px 0}.paper p{font-size:15px;line-height:1.9;color:#514338}.footer{color:#827366;font-size:13px;padding:5px 0 30px}@media(max-width:600px){.paper{padding:18px}.paper h1{font-size:22px}}
 </style></head><body><header class="top"><a href="./">← 返回中部產業情報中心</a></header><main class="wrap"><div id="detail" class="paper">載入新聞資料中…</div><div class="footer">本站儲存公開新聞索引與經授權／可取得資訊的整理結果；原文章著作權屬發布者所有。</div></main>
 <script>
 const root=document.getElementById('detail');
@@ -18,7 +18,7 @@ add(root,'h1',x.title_zh||x.title);
 const tags=document.createElement('div');root.appendChild(tags);
 for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
-add(root,'h2','繁體中文重點整理');
+add(root,'h2','中文重點與原文資訊');
 if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){
  add(root,'p',x.summary_zh);
  add(root,'p',x.summary_status==='source_excerpt_translated'?'此段是從實際讀取的來源正文擷取重點段落並翻成中文，尚非生成式 AI 撰寫的完整摘要。':'依取得的原始報導內容整理；公司、數據和事件以原文為準。','meta');
