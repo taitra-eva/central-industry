@@ -1,0 +1,92 @@
+{
+  "queries": [
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "台灣 工具機 工業 機械 訂單"
+    },
+    {
+      "industry": "機械",
+      "region": "北美",
+      "q": "machine tools manufacturing orders CNC US",
+      "locale": "en-US"
+    },
+    {
+      "industry": "機械",
+      "region": "歐洲",
+      "q": "European machine tools manufacturing demand",
+      "locale": "en-US"
+    },
+    {
+      "industry": "機械",
+      "region": "日本",
+      "q": "日本 工作機械 受注 日刊工業新聞"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "台灣 自行車 零組件 出口 庫存"
+    },
+    {
+      "industry": "自行車",
+      "region": "北美",
+      "q": "bicycle retailer inventory sales North America",
+      "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "歐洲",
+      "q": "Bike Europe bicycle market inventory",
+      "locale": "en-US"
+    },
+    {
+      "industry": "自行車",
+      "region": "日本",
+      "q": "日本 自転車 業界 市場"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "台灣 汽車零組件 售後市場 出口"
+    },
+    {
+      "industry": "汽配",
+      "region": "北美",
+      "q": "automotive aftermarket parts suppliers US",
+      "locale": "en-US"
+    },
+    {
+      "industry": "汽配",
+      "region": "歐洲",
+      "q": "European automotive suppliers aftermarket",
+      "locale": "en-US"
+    },
+    {
+      "industry": "汽配",
+      "region": "日本",
+      "q": "日本 自動車部品 業界"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "台灣 手工具 汽修工具 五金 出口"
+    },
+    {
+      "industry": "手工具",
+      "region": "北美",
+      "q": "hand tools automotive repair tools DIY market USA",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "歐洲",
+      "q": "European DIY hardware tools retail demand",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "日本",
+      "q": "日本 作業工具 DIY ホームセンター 市場"
+    }
+  ]
+}
