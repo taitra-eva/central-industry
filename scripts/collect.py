@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 import requests, feedparser
 from relevance import should_keep, is_government_source
 from topic_taxonomy import normalize_article
+from industry_entities import entity_sectors, entity_event
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
@@ -85,11 +86,17 @@ for query in cfg:
                     '無人載具及機器人':['無人機','機器人','drone','robotics','unmanned']
                 }
                 extra_industries=[industry for industry,terms in industry_terms.items() if any(t in low for t in terms)]
+                # Company/brand signals can reveal sector headlines without generic product terms.
+                for sector in entity_sectors(title):
+                    if sector not in extra_industries: extra_industries.append(sector)
                 # Product-independent contract machining partners often appear
                 # alongside hand-tool maker names, not generic 手工具 keywords.
                 if ('伯鑫工具' in title or ('六強聯盟' in title and '工具' in title)):
                     for sector in ('手工具','機械與金屬加工'):
                         if sector not in extra_industries:extra_industries.append(sector)
+            # Articles found under one sector may legitimately concern several others.
+            for sector in entity_sectors(title):
+                if sector!=query['industry'] and sector not in extra_industries: extra_industries.append(sector)
             tags=[]
             for tag,words in {
                 '國內政策':['法規','補助','政策','經濟部','產發署'],
@@ -103,7 +110,7 @@ for query in cfg:
             counts[query['q']]['new_items']+=1
             news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']]+extra_industries,'tags':tags,'priority':'taiwan' if query['region']=='台灣' else 'international','region':query['region'],'language_hint':'ja' if locale=='ja-JP' else None,'topic':topic,'access_status':'not_verified','excerpt':excerpt}
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
-    time.sleep(.3)
+    time.sleep(1.0)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
 items=sorted((normalize_article(n) for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF and should_keep(n.get('title',''), '總體情勢' if n.get('industries')==['總體情勢'] else None)[0]),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
 # News.json is the 30-day online archive. Avoid daily duplicate snapshots
