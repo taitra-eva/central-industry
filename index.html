@@ -167,7 +167,7 @@ function renderArchive(){
   const x=group.items[0],row=node('article',undefined,'archive-row');
   const meta=node('div',undefined,'archive-meta');
   meta.append(node('span',date(x.published_at)+' · '+(x.industries||[]).join('、'),'mini'));
-  if(group.items.length===1)meta.append(link(sourceName(x)+' · 原文',original(x),true));
+  if(group.items.length===1)meta.append(node('span',sourceName(x),'mini'));
   row.append(meta);
   const h=node('h3');
   if(group.items.length===1)h.append(link(x.title_zh||x.title,original(x),true));
