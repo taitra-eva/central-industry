@@ -1,8 +1,8 @@
-"""Cap new discoveries at 8 articles per industry per discovery day.
+"""Cap news at 8 articles per industry per ORIGINAL PUBLICATION day.
 
 Rules:
 * All six categories count; a cross-sector article consumes one slot in each.
-* Existing 30-day archive uses the same cap per original discovery date.
+* A 14-day backfill allocates each story to its original publication day, not the crawl day.
 * News is ranked by supported, specific subject and freshness, not RSS order.
 * This is an editorial selection limit, NOT proof that 8 stories exist.
 * Duplicates are handled separately only when source content supports it.
@@ -47,7 +47,7 @@ def relevant_to_sector(article,sector,verified):
 
 TRUSTED=("中央社","經濟日報","工商時報","MoneyDJ","輪彥","Bicycle Retailer","Bike Europe","MA 工具機","Modern Machine Shop","ITIS 每日新聞")
 def date_key(article):
-    stamp=article.get("discovered_at") or article.get("published_at") or ""
+    stamp=article.get("published_at") or article.get("discovered_at") or ""
     return stamp[:10] if len(stamp)>=10 else "undated"
 
 def timestamp(article):
@@ -100,7 +100,7 @@ def main():
         print("Daily selection",day,json.dumps(dict(per_sector),ensure_ascii=False))
     data["items"]=sorted(retained,key=timestamp,reverse=True)
     data["daily_category_cap"]=CAP
-    data["daily_selection_limit_note"]="每個產業以首次收錄日期計算，每日最多8則；舊日新聞在30日內保留"
+    data["daily_selection_limit_note"]="每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留"
     DB.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Daily cap selection:",len(articles),"->",len(retained),"; dropped:",dict(rejected))
 if __name__=="__main__":main()
