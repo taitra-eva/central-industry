@@ -1,12 +1,12 @@
 {
   "generated_at": "2026-11-19T06:09:21.832381+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 145,
+  "articles_total": 139,
   "readable_total": 46,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 57,
+      "articles": 54,
       "readable": 32
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "汽配",
-      "articles": 25,
+      "articles": 24,
       "readable": 1
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 34,
+      "articles": 31,
       "readable": 12
     }
   ],
