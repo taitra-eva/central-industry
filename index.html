@@ -100,38 +100,12 @@ function renderSectorGrid(){const el=$('sector-grid');el.replaceChildren();for(c
 
 // Related-coverage grouping: a topic group is not a claim that all reports
 // describe the same event. All articles remain available in the archive.
-function relatedTheme(x){
- const t=((x.title_zh||'')+' '+(x.title||'')).toLowerCase();
- if((x.industries||[]).includes('總體情勢')&&/(油價|原油|石油|油輪|荷莫茲|霍爾木茲|布倫特|crude|brent|oil price|oil tanker|hormuz)/i.test(t))return 'oil-market';
- if((x.industries||[]).includes('無人載具及機器人')&&/元太/.test(t)&&/機器人|google|apptronik/i.test(t))return 'eink-robot';
- if((x.industries||[]).includes('汽配')&&/鴻海/.test(t)&&/sony|索尼|車載相機/i.test(t))return 'foxconn-sony';
- return null;
-}
-const THEME_TITLES={
- 'oil-market':'國際石油價格、供應與中東航運情勢',
- 'eink-robot':'元太電子紙與 Google 機器人應用',
- 'foxconn-sony':'鴻海收購 Sony 車載相機模組事業'
-};
-function titleSimilarity(a,b){
- const chars=s=>new Set((s.toLowerCase().replace(/(經濟日報|工商時報|中央社|聯合新聞網|新聞|最新)/g,'').replace(/[^\p{L}\p{N}]/gu,'').match(/[\p{Script=Han}]{2}|[a-z]{4,}/gu)||[]));
- const aa=chars((a.title_zh||a.title||'')),bb=chars((b.title_zh||b.title||''));
- if(!aa.size||!bb.size)return 0;
- let same=0;for(const x of aa)if(bb.has(x))same++;
- return same/Math.min(aa.size,bb.size);
-}
+// Never group reports by broad themes such as oil, robotics or energy.
+// Duplicate articles are removed only after the original publisher text is
+// available and confirms substantial overlap (scripts/dedupe_articles.py).
+// Without source-text evidence, display each report as a distinct event.
 function groupNewsByCoverage(items){
- const groups=[];
- for(const item of items){
-  const t=relatedTheme(item),time=Date.parse(item.published_at||item.discovered_at||0)||0;
-  let target=null;
-  for(const g of groups){
-   if(t&&g.theme===t&&Math.abs(time-g.latestTime)<=7*86400000){target=g;break}
-   if(!t&&!g.theme&&g.items.length<8&&Math.abs(time-g.latestTime)<=4*86400000&&titleSimilarity(item,g.items[0])>=.82){target=g;break}
-  }
-  if(target){target.items.push(item);target.latestTime=Math.max(target.latestTime,time)}
-  else groups.push({theme:t,title:t?THEME_TITLES[t]:(item.title_zh||item.title),items:[item],latestTime:time})
- }
- return groups;
+ return items.map(item=>({theme:null,title:item.title_zh||item.title,items:[item]}));
 }
 function renderWatch(){
  setText('watch-sector','目前分類：'+chosen);
@@ -139,7 +113,7 @@ function renderWatch(){
   .sort((a,b)=>(Date.parse(b.published_at||b.discovered_at)||0)-(Date.parse(a.published_at||a.discovered_at)||0));
  const grouped=groupNewsByCoverage(matches);
  const pages=Math.max(1,Math.ceil(grouped.length/PAGE));watchPage=Math.min(watchPage,pages);
- setText('watch-count','共 '+matches.length+' 則新聞，整理成 '+grouped.length+' 組 · 第 '+watchPage+' / '+pages+' 頁');
+ setText('watch-count','共 '+matches.length+' 則新聞 · 第 '+watchPage+' / '+pages+' 頁');
  const out=$('watch-list');out.replaceChildren();
  if(!grouped.length)out.append(node('div','目前尚無收錄新聞。','empty'));
  for(const group of grouped.slice((watchPage-1)*PAGE,watchPage*PAGE)){
@@ -187,7 +161,7 @@ function renderArchive(){
  .sort((a,b)=>Date.parse(b.published_at||b.discovered_at||0)-Date.parse(a.published_at||a.discovered_at||0));
  const grouped=groupNewsByCoverage(items);
  const pages=Math.max(1,Math.ceil(grouped.length/PAGE));page=Math.min(pages,page);
- setText('archive-count','找到 '+items.length+' 則新聞 · 合併為 '+grouped.length+' 組 · 第 '+page+' / '+pages+' 頁');
+ setText('archive-count','找到 '+items.length+' 則新聞 · 第 '+page+' / '+pages+' 頁');
  const out=$('archive-list');out.replaceChildren();
  for(const group of grouped.slice((page-1)*PAGE,page*PAGE)){
   const x=group.items[0],row=node('article',undefined,'archive-row');
