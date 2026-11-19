@@ -1,15 +1,18 @@
 """Collect public RSS article metadata only, with no paid API or article copying."""
 import hashlib, json, re, time
+from html import unescape
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 import requests, feedparser
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
+CUTOFF=NOW-timedelta(days=30)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
-news={n['id']:n for n in previous.get('items',[])}
+news={n['id']:n for n in previous.get('items',[]) if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat())) >= CUTOFF}
 success=0
 for query in cfg:
     en=query.get('locale')=='en-US'
@@ -28,7 +31,7 @@ for query in cfg:
             if e.get('published_parsed'):
                 import calendar
                 published=datetime.fromtimestamp(calendar.timegm(e.published_parsed),timezone.utc).isoformat()
-                if datetime.fromisoformat(published)<NOW-timedelta(days=14):continue
+                if datetime.fromisoformat(published)<CUTOFF:continue
             norm=re.sub(r'\W+','',title.casefold())
             uid=hashlib.sha256(norm.encode()).hexdigest()[:20]
             if uid in news:
@@ -42,12 +45,18 @@ for query in cfg:
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
-items=sorted(news.values(),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
+items=sorted((n for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
 # Retain all index items; also save a dated snapshot of newly discovered items.
 archive=ROOT/'data/archive'
 archive.mkdir(parents=True,exist_ok=True)
-today=(NOW+timedelta(hours=8)).date().isoformat()
-today_items=[n for n in items if n.get('discovered_at','').startswith(NOW.date().isoformat())]
+today=NOW.astimezone(ZoneInfo('Asia/Taipei')).date().isoformat()
+for old in archive.glob('????-??-??.json'):
+    try:
+        if (NOW.astimezone(ZoneInfo('Asia/Taipei')).date()-datetime.strptime(old.stem,'%Y-%m-%d').date()).days>30:
+            old.unlink()
+    except ValueError:
+        pass
+today_items=[n for n in items if datetime.fromisoformat(n.get('discovered_at', NOW.isoformat())).astimezone(ZoneInfo('Asia/Taipei')).date().isoformat()==today]
 snapshot=archive/(today+'.json')
 existing=json.loads(snapshot.read_text(encoding='utf8')) if snapshot.exists() else {'date':today,'items':[]}
 all_today={n['id']:n for n in existing.get('items',[])}
