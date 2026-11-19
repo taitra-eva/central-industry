@@ -24,11 +24,10 @@ THEMES=[
  ("robot-aeon","研揚機器人運算平台",("研揚","機器人"),"無人載具及機器人"),
  ("tariff-steel-eu","歐盟對台灣冷軋鋼材課稅",("歐盟","冷軋"),"總體情勢"),
  ("oil-middle-east","中東情勢與國際原油市場",("oil","crude","brent","石油","原油","荷莫茲","hormuz"),"總體情勢"),
- ("trade-tariff","國際關稅與貿易措施",("關稅","tariff"),"總體情勢"),
  ("taiwan-electric","台灣電網建設與用電",("台電","電網","電力"),"總體情勢"),
  ("taiwan-steel","台灣及亞洲鋼鐵市場",("鋼價","中鋼","鋼廠"),"總體情勢"),
  ("foxconn-auto","鴻海車用零組件布局",("鴻海","車載","sony","索尼"),"汽配"),
- ("industry-machinery","機電製造業接單與業者動態",("機電四雄","士電","華城","工具機"),"機械"),
+ ("industry-machinery","機電四雄營運與電網訂單",("機電四雄",),"機械"),
  ("bike-inventory","自行車市場庫存與採購",("自行車","庫存","bike inventory","bicycle"),"自行車"),
  ("handtools-market","台灣手工具與水五金市場",("手工具","水五金","五金工具"),"手工具"),
 ]
@@ -103,7 +102,10 @@ def main():
             "latest_at":items[0].get("published_at") or items[0].get("discovered_at"),
             "taiwan_focus":any(x.get("region")=="台灣" for x in items),
         })
-    events.sort(key=lambda e:(not e["taiwan_focus"],-len(e["article_ids"]),-datetime.fromisoformat(e["latest_at"]).timestamp() if e["latest_at"] else 0))
+    # Prioritize reports with Taiwan industry evidence; broad aggregates are not
+    # necessarily more important than company-specific verified developments.
+    boosts={"tariff-steel-eu":7,"foxconn-auto":6,"robot-eink":5,"robot-jialianyi":5,"machine-apple":3,"industry-machinery":4}
+    events.sort(key=lambda e:(-(boosts.get(e["id"],0)),not e["taiwan_focus"],-len(e["article_ids"]),-datetime.fromisoformat(e["latest_at"]).timestamp() if e["latest_at"] else 0))
     output={
        "generated_at":datetime.now(timezone.utc).isoformat(),
        "method":"rule_based_source_backed_grouping_no_generative_ai",
