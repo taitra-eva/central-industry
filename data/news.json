@@ -1,9 +1,31 @@
 {
-  "updated_at": "2026-11-19T08:03:42.337769+00:00",
+  "updated_at": "2026-11-19T08:32:39.081377+00:00",
   "status": "ok",
-  "sources_checked": 86,
-  "sources_successful": 86,
+  "sources_checked": 103,
+  "sources_successful": 103,
   "items": [
+    {
+      "id": "65e26e339e00af916b86",
+      "title": "英國自明年7月起強制申報特定鋼鐵進口產品之熔煉及澆鑄國- 新聞 - MoneyDJ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOHdxODNJNTFOcnVZVmEtWVpFSlBJRjhSM1V2Nkc1ZVN4NjhJZjk2cjJUTnNIdGNFRGpYbmNTal9UY2pPQ29tQUZ4LW80cFE4akhVX3RLa3ZueWFNeTRTNDBna1BsX0xOOE95Q1BxdUZBZVU5TjAwX2pObGc3OHFRaEFSN2FPS3BCckVfNmw2WXZtQQ?oc=5",
+      "source": "MoneyDJ",
+      "published_at": "2026-11-19T08:10:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [
+        "上游原物料"
+      ],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:12.395716+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
+    },
     {
       "id": "4d608f96eb7950bfe269",
       "title": "Oil Prices Mixed as Traders Weigh Supply Outlook, Middle East Shipping Risks - WSJ",
@@ -24,10 +46,52 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:34.224615+00:00",
+      "read_checked_at": "2026-11-19T08:34:35.978537+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "石油混合價格作為貿易商Weigh供應展望,中東航運風險-WSJ",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "d8ef4fc562b2572248b1",
+      "title": "車素材や部品の基準、業界で統一 コスト削減で海外勢対抗、自工会 - 中日新聞Web",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TN2hqRkE2X19XVk9XV3ltdURGenEwZXpuTWhGYl9nblFYRE1OMF9YZ3V1czFKTXZjOHlJcnJ0dHFlMkctekkwSl9iU2lyRnp3em4tZQ?oc=5",
+      "source": "中日新聞Web",
+      "published_at": "2026-11-19T07:27:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "亞洲",
+      "language_hint": "ja",
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:31.312443+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL",
+      "title_zh": "汽車材料和零件標準,行業統一,對海外降低成本,自會-春一通通網",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "54e9e1511e3c3d399d36",
+      "title": "《國際經濟》韓2026出口大躍進躋身兆元俱樂部- 國際 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LR2NOTG5mbG5JZlZsbnhuQUt6QzdLdDEwZjc2TmJmdTVrdU95Qld1ZnhwWVZyNGF5MTFJME4yRHlRRE9iLW9JRmI3Wm8wcUNBVGVCTFU0ZmpqMlR5RGZz?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-19T07:01:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:12.729112+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "54d2c46e04175cc275bd",
@@ -48,7 +112,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:11.551564+00:00",
+      "read_checked_at": "2026-11-19T08:34:13.064244+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -68,7 +132,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "Hanwha demonstrates counter-drone and GRUNT robotic systems’ integration with Romanian military networks in exercise Defence Industry Europe",
-      "read_checked_at": "2026-11-19T08:05:20.544504+00:00",
+      "read_checked_at": "2026-11-19T08:34:20.653811+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的整合 -- -- 歐洲國防工業",
       "translation_method": "argos_offline_machine_translation",
@@ -92,7 +156,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:25.142482+00:00",
+      "read_checked_at": "2026-11-19T08:34:25.787320+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "無人機通訊方面的PDW & Sine工程合夥人-無人機系統技術",
       "translation_method": "argos_offline_machine_translation"
@@ -116,7 +180,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:11.926511+00:00",
+      "read_checked_at": "2026-11-19T08:34:13.392461+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -136,7 +200,7 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:12.287069+00:00",
+      "read_checked_at": "2026-11-19T08:34:13.725622+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -160,7 +224,7 @@
       "excerpt": "",
       "title_zh": "儘管海灣戰爭支援石油供應過剩,",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:34.600889+00:00",
+      "read_checked_at": "2026-11-19T08:34:36.389997+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -183,7 +247,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:34.968675+00:00",
+      "read_checked_at": "2026-11-19T08:34:36.732802+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "隨著中東航運攻擊,油價穩定,反向供應盈餘前景-路透社",
       "translation_method": "argos_offline_machine_translation"
@@ -205,7 +269,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:12.661959+00:00",
+      "read_checked_at": "2026-11-19T08:34:14.039042+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -225,7 +289,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:13.025670+00:00",
+      "read_checked_at": "2026-11-19T08:34:14.362990+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -245,7 +309,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:13.399210+00:00",
+      "read_checked_at": "2026-11-19T08:34:14.700516+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -265,7 +329,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:29.584275+00:00",
+      "read_checked_at": "2026-11-19T08:34:31.645330+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "自動會議,\"全日本\"部分分享汽車零部件和材料[新聞觀察](回應)汽車新聞-車景!.",
       "translation_method": "argos_offline_machine_translation"
@@ -286,7 +350,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:13.771720+00:00",
+      "read_checked_at": "2026-11-19T08:34:15.029619+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -309,7 +373,29 @@
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "川崎機器人發射 F系列 S型控制器 整合安全和網路安全 機器人與自動化新聞",
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
-      "read_checked_at": "2026-11-19T08:05:20.908978+00:00",
+      "read_checked_at": "2026-11-19T08:34:20.982037+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
+    },
+    {
+      "id": "5fcaeb4e686cbc1c9f66",
+      "title": "臺灣智慧製造深化臺泰合作 拓展東協商機 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LLVlqTzVHcTlSVkFlLXYtY3FOQ2pvQno5WDhVb3Y1S1gxZFhnYVhYelFWbUFWX2hrdWEweFhWVUNnV2Y5QzRMTGU1cDRSQW9URFE?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-11-18T21:00:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [
+        "台灣產業"
+      ],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:15.369936+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -329,7 +415,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:29.957515+00:00",
+      "read_checked_at": "2026-11-19T08:34:32.156987+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "日本汽車和零部件部分融入行業標準 降低成本-琉球新浦數碼",
       "translation_method": "argos_offline_machine_translation"
@@ -351,7 +437,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:30.367884+00:00",
+      "read_checked_at": "2026-11-19T08:34:32.494622+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "日本車和零件部分常見.",
       "translation_method": "argos_offline_machine_translation"
@@ -373,7 +459,7 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:14.143601+00:00",
+      "read_checked_at": "2026-11-19T08:34:15.691016+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -396,7 +482,7 @@
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "Einride報道,由於自主貨運業務擴充套件了機器人和自動化新聞,合同收入增長76%",
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
-      "read_checked_at": "2026-11-19T08:05:21.292841+00:00",
+      "read_checked_at": "2026-11-19T08:34:21.317756+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -417,7 +503,7 @@
       "excerpt": "",
       "title_zh": "供貨依賴性使全球貿易暴露,其他貿易新聞也在本月公佈——世界經濟論壇",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:25.520630+00:00",
+      "read_checked_at": "2026-11-19T08:34:26.255283+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -438,7 +524,7 @@
       "excerpt": "",
       "title_zh": "PIX Movement宣佈6個合作伙伴 拓展全球自主移動 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:21.677355+00:00",
+      "read_checked_at": "2026-11-19T08:34:21.637955+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -456,7 +542,7 @@
       "title_zh": "DRiV 與 XGM 成立合資公司，擴充北美汽車售後市場的自有品牌車輛懸吊控制產品",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T08:05:25.914526+00:00",
+      "read_checked_at": "2026-11-19T08:34:26.899608+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -477,7 +563,7 @@
       "excerpt": "",
       "title_zh": "前10名 工具集品牌排名:2026 專業手工具比較 - The Courier-Journal",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:26.286011+00:00",
+      "read_checked_at": "2026-11-19T08:34:27.340668+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -497,7 +583,7 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:14.520416+00:00",
+      "read_checked_at": "2026-11-19T08:34:16.023388+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -517,7 +603,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:30.723457+00:00",
+      "read_checked_at": "2026-11-19T08:34:32.824766+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "USMCA下的亞洲電池和EV供應商重組所有權-墨西哥商業新聞",
       "translation_method": "argos_offline_machine_translation"
@@ -540,7 +626,7 @@
       "excerpt": "",
       "title_zh": "估計石油在2027年會變得容易,",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:35.335827+00:00",
+      "read_checked_at": "2026-11-19T08:34:37.060143+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -558,7 +644,7 @@
       "title_zh": "哈雷不再承擔虧損資金，LiveWire 面臨財務不確定性",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T08:05:26.671675+00:00",
+      "read_checked_at": "2026-11-19T08:34:27.808617+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -579,7 +665,7 @@
       "excerpt": "",
       "title_zh": "普陀機器人騎乘中國AI革命的潮汐浪潮-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:22.060300+00:00",
+      "read_checked_at": "2026-11-19T08:34:21.971149+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -601,7 +687,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:27.032899+00:00",
+      "read_checked_at": "2026-11-19T08:34:28.301520+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "關稅回收方案將產生非常不同的價格影響——稅收政策中心",
       "translation_method": "argos_offline_machine_translation"
@@ -621,7 +707,7 @@
       "title_zh": "從資本市場寵兒到四年內破產重整：這家自行車企業出了什麼問題？",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T08:05:22.453572+00:00",
+      "read_checked_at": "2026-11-19T08:34:22.315307+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -683,7 +769,7 @@
       "title_zh": "機車遠端資訊管理市場規模預計至 2030 年將成長逾三倍",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T08:05:22.870260+00:00",
+      "read_checked_at": "2026-11-19T08:34:22.625521+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -704,7 +790,7 @@
       "excerpt": "",
       "title_zh": "2027年美國頂級製造商——時代雜誌",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:27.394984+00:00",
+      "read_checked_at": "2026-11-19T08:34:28.746398+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -725,7 +811,27 @@
       "excerpt": "",
       "title_zh": "IWGB Generative AI 宣言:6個聯盟發言 - 粉碎.io",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:23.255488+00:00",
+      "read_checked_at": "2026-11-19T08:34:23.070792+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
+    },
+    {
+      "id": "fa51a662862fddb655a3",
+      "title": "外資續砍台股　新台幣貶值壓力難解創逾19個月新低 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVUxBLUc2ZXpxQlFiVjhhbVZkZFc3QVB5WVN3b2R6TUwtTzBsUDhFN2t6T0Y2VWM3cEtLS1ozY0djN3pheWJQN0NhclVKdnVlS0owOXcwQ3dRUVBncnB3QmdfZURUT29uLXZvc0wzUHc4dnVSMnAzRkdYczdzSFBTQ9IBX0FVX3lxTE1Tc2hETjM1OHhzYWJISmdhMmxYckdXbmhPOTFIcFhRYkE4NlBNTnV4cjFPQUtIaTczdUZxQURtYVp1ZHdnd3JMbWZHZDM1Q1J1NDU1U1RxZm94cEN4XzFZ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T10:45:48+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:16.344581+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -746,7 +852,7 @@
       "excerpt": "",
       "title_zh": "ClearSpace更接近歐洲空間碎片清除任務的發射 - 機器人和自動化新聞",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:23.651248+00:00",
+      "read_checked_at": "2026-11-19T08:34:23.736657+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -766,7 +872,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:14.898840+00:00",
+      "read_checked_at": "2026-11-19T08:34:16.677518+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -786,7 +892,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:15.279209+00:00",
+      "read_checked_at": "2026-11-19T08:34:17.011361+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -806,7 +912,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:15.667288+00:00",
+      "read_checked_at": "2026-11-19T08:34:17.459619+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -826,7 +932,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:16.029236+00:00",
+      "read_checked_at": "2026-11-19T08:34:17.802916+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -846,7 +952,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:16.406398+00:00",
+      "read_checked_at": "2026-11-19T08:34:18.135218+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -866,7 +972,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:31.088227+00:00",
+      "read_checked_at": "2026-11-19T08:34:33.180318+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "日本車和零件部分整合以降低成本-春一通通網",
       "translation_method": "argos_offline_machine_translation"
@@ -888,10 +994,30 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:31.475893+00:00",
+      "read_checked_at": "2026-11-19T08:34:33.538140+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "提高鋼鐵和樹脂在工業中的酸性效率,包括汽車製造商和汽車材料及部件——Nikkei Inc.",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "82b51ed0250bad249cba",
+      "title": "中國車市競爭激烈 裕日車：合資品牌經營更艱辛 | 產業熱點 | 產業 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3THU5M1JlVFpES3ZxdkFTc1Y3NEE1R1RxUHpWbHI0aUNmcU9YZEk1YWRWbk9UQ3J4ek83RWRRSnpyV3NqbGlKWE9fUjBXQzA1ZFlxd0dNSWJ6QQ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T08:36:27+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T08:34:18.536765+00:00",
+      "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
       "id": "afbaa0f854c7ad15e9e7",
@@ -912,7 +1038,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:16.781715+00:00",
+      "read_checked_at": "2026-11-19T08:34:18.931122+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -932,7 +1058,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:17.142810+00:00",
+      "read_checked_at": "2026-11-19T08:34:19.339977+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -952,7 +1078,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:31.982176+00:00",
+      "read_checked_at": "2026-11-19T08:34:34.014318+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "版權: 雅虎! 權利保留。 新聞",
       "translation_method": "argos_offline_machine_translation"
@@ -974,7 +1100,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:32.343488+00:00",
+      "read_checked_at": "2026-11-19T08:34:34.389650+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "日本汽車工業抹殺\"製造者之恩\"! 鐵,樹脂,鋼帶的通俗化和3D印刷零件的發行是否成了中國的假冒?. - MSR網路",
       "translation_method": "argos_offline_machine_translation"
@@ -996,7 +1122,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:17.514559+00:00",
+      "read_checked_at": "2026-11-19T08:34:19.655131+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1016,7 +1142,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:32.721286+00:00",
+      "read_checked_at": "2026-11-19T08:34:34.711698+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "在\"IPF Japan 2026(國際塑膠展)\"展出.",
       "translation_method": "argos_offline_machine_translation"
@@ -1038,7 +1164,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:33.084440+00:00",
+      "read_checked_at": "2026-11-19T08:34:35.073327+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "將日本汽車和零件納入部分成本降低行業標準-Niigata Nippo",
       "translation_method": "argos_offline_machine_translation"
@@ -1060,7 +1186,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:33.473064+00:00",
+      "read_checked_at": "2026-11-19T08:34:35.581187+00:00",
       "read_reason": "Google News did not provide a usable publisher URL",
       "title_zh": "日本汽車和零件部分通用,標準化以降低成本-靜岡Shimbun DIGI",
       "translation_method": "argos_offline_machine_translation"
@@ -1150,7 +1276,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:17.924437+00:00",
+      "read_checked_at": "2026-11-19T08:34:19.992006+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1171,7 +1297,7 @@
       "excerpt": "",
       "title_zh": "戰略伙伴關係 擴大跨機器人平臺的可彈性無線電整合-無人系統技術",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:27.764529+00:00",
+      "read_checked_at": "2026-11-19T08:34:29.187426+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1191,7 +1317,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T08:05:18.293471+00:00",
+      "read_checked_at": "2026-11-19T08:34:20.318770+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1235,7 +1361,7 @@
       "excerpt": "",
       "title_zh": "儘管美國-伊朗衝突升級,",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:35.723522+00:00",
+      "read_checked_at": "2026-11-19T08:34:37.421243+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1320,7 +1446,7 @@
       "excerpt": "",
       "title_zh": "評論:特朗普的進口關稅政策失敗 通貨膨脹增加-拉斯維加斯評論-雜誌",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:28.132588+00:00",
+      "read_checked_at": "2026-11-19T08:34:29.654623+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -1913,7 +2039,7 @@
       "title_zh": "美利達工業前三季獲利下降 2%",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T08:05:24.016800+00:00",
+      "read_checked_at": "2026-11-19T08:34:24.190727+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2010,7 +2136,7 @@
       "excerpt": "",
       "title_zh": "墨西哥亞洲太陽能艙的關稅和港口瓶頸-墨西哥商業新聞",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:28.491194+00:00",
+      "read_checked_at": "2026-11-19T08:34:30.009659+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2033,7 +2159,7 @@
       "excerpt": "",
       "title_zh": "華盛頓可以透過拒絕特朗普的關稅來開始實現可負擔性-稅收基金會",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:28.851725+00:00",
+      "read_checked_at": "2026-11-19T08:34:30.447897+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2153,7 +2279,7 @@
       "excerpt": "",
       "title_zh": "會議報告:處於機器人革命邊緣的建築業-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:24.396301+00:00",
+      "read_checked_at": "2026-11-19T08:34:24.641257+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2176,7 +2302,7 @@
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "Carvalhinhos加強技術創新,以滿足歐洲鞋業不斷變化的需求 FashionNetwork France",
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
-      "read_checked_at": "2026-11-19T08:05:24.769345+00:00",
+      "read_checked_at": "2026-11-19T08:34:25.329518+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2274,7 +2400,7 @@
       "excerpt": "",
       "title_zh": "公司得到數十億的關稅退稅. 你會得到報酬嗎? - azcentral.com和亞利桑那共和國",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-19T08:05:29.221356+00:00",
+      "read_checked_at": "2026-11-19T08:34:30.875278+00:00",
       "read_reason": "Google News did not provide a usable publisher URL"
     },
     {
@@ -2625,6 +2751,24 @@
       "excerpt": ""
     },
     {
+      "id": "e290a6417841e28f4967",
+      "title": "00940追蹤指數成分股異動 納入儒鴻大成鋼等10檔 | 產業熱點 | 產業 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMUo0ZUFpd1o2N19NRExnSWtJX1htWWVXMVJhRXc1UG1DTU9yRlFCQ3laZXB5cWt1WEhzaWR1TUE3bmdoR3NES2JYU2dOZ2dsZnhVVlZhTnpNQQ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T09:54:56+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "1163d4875ab7a0d4b935",
       "title": "台波深化產業合作 台灣空運前進波蘭搶攻東歐物流商機 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tUlhwNlRlMnZLdXc4NllxNzZBXzVsSkMtalUwQklDUWxtamdWTGdQR2w4OTlNVDVVTzhMM0FCRUJSTWhIYl9MSHEwN1VhUWZhUjVxRFhVSzU5d9IBX0FVX3lxTE9UWDJFQVpMNVlvU0hyNGxqWk51b1MwbDhkU3NEYkdxZE9xVWNqUmxMSU9ScGxDUUJTX3JrRnRlTHdhUEo3dGE5Y3k5bEdfSWs2bHhtbWNLZUZXb1kzaWJV?oc=5",
@@ -2662,6 +2806,26 @@
       "topic": "產業動態",
       "access_status": "not_verified",
       "excerpt": ""
+    },
+    {
+      "id": "edefd77ad4620d6a80e8",
+      "title": "美股交易・正式啟航 | ETO Markets 鏈接全球頂尖企業 開啟多元資產新局 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CXzZPV1pRZTZCMlJBNnJhTTRTRk5CUXZMbTR2UWMxNUtDb3FkLTY3WFNnR0ZnOGoyaUdaX2s2ZlhwcWVBaElNcGV6SElNazFtUHRCbWMtdVJ6Tk5H0gFiQVVfeXFMT0NRSXRHWmU3aE8xa3VKZkgtOUV3NHkwQmxVRkNMUEFvbHBjcmtNVWRWYzlxXzRoU0U4bDluQ3IzX0VYbjF4OWEzazhwYzAzelAzbTM0dEVhYWdyeEl2WEF0Mmc?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T08:01:52+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "市場需求與景氣",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "版權所有。",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "588eb9ae4d1584dc37dd",
@@ -3393,6 +3557,24 @@
       "excerpt": ""
     },
     {
+      "id": "900554534392e5c3e5d5",
+      "title": "台股創史上第2大跌點　外資匯出趨緩新台幣小貶4.8分 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xRTFEUFVLU1ozU1RjSVJnY0xfdDZvT1hxdEVCVlJuQzRlRFhwT0hoRWhmQzNrTjVZM1d3SXZ6NzZaYkFka3dyZ0ZmTzY5OWFzemFkUnluczV2OFVuOTJWb3UybUYxZlJlOUdwYmRwR3VhWnhmT1YzV0dqWkwzQdIBX0FVX3lxTFBTbkN2cTlTekxCcDEtb1hBc3ktZUFfWjQ1OF9OSU5oRGJRdFc1QXlPUjdKSzVvTWxHTTRKUjBialZycmxBblJKN0FzRUI4RXQ0LV9kbW1vR1p5QXkydXlz?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-16T10:21:36+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "4b24e564aabbbe59c6da",
       "title": "黃仁勳黯然下台 吳誠文示警：全球 AI 供應鏈與產業標準面臨挑戰 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11dFotY2pFTEFxaVZYcG1qdUNEeU9tWGRIakEzdDBVNHl4MXRuZmpzN0R2M0E5N3Y4UTRWcWdVTzhnWHl4cGdZeW11VW9WZFdQM00tRDVzXzNBd9IBX0FVX3lxTE1kM1JKYnZrT0Jid2NKbmRTT0VucDJLWFFDWFQyenI2LTFWUHhRT0FPYnhFVVVZZXFkRmdnQXdKaDRmS3U5SFMyaXg0VkRpZmJUTE55MXFvbExadlJZS3Zn?oc=5",
@@ -3665,6 +3847,27 @@
       "excerpt": ""
     },
     {
+      "id": "86a803bcd716bc99ac6c",
+      "title": "黃仁勳風波經濟部：台灣頂尖、強韌供應鏈無法取代| 政治 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hUGl6TWVkSGp5VDczUmg1N2NCNEJMQzRCUXNwSjRGTF8ySWZpM0RNNEp0UDNsaXVHZmVFUFhlZXYtYjNweDRUYkFhX2w5bE14WXZMeWJpbGRiZlVXa29j?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-16T04:36:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [
+        "國內政策",
+        "台灣產業"
+      ],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "7c9cfd51fcb258422dce",
       "title": "輝達副總裁喊「愛台灣」 強調台廠是供應鏈關鍵 - 中央社 CNA",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3eVl5R2tQOXpFNFk2RVg4dEZXaV9Cem5pc19pTXZFWDFRMk42LVJjcWFqQ0VCRmtuUGhGeEI1YzlyWjl6c3dKR2Ztc1ExekRsZ2EtY1FTTQ?oc=5",
@@ -3677,6 +3880,24 @@
       "tags": [
         "台灣產業"
       ],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "17cacab4c1a4c9e0c5b3",
+      "title": "中國被控操縱鐵礦砂貿易澳政府憂心恐衝擊經濟| 國際 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00bUVCdzFtaWNNa1Z6bXpfQy04ZXJsSlpJWG10WmFJd1BzYUtka2lIT2xiblBqRFduYzBzNGNlUzljeGZrYUpEOVc0S043cExyWm9kZ3RtYWNLQnFoV2hn?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-16T04:30:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
       "priority": "taiwan",
       "region": "台灣",
       "language_hint": null,
@@ -4719,6 +4940,24 @@
       "excerpt": ""
     },
     {
+      "id": "4104b771ddc56504a6e2",
+      "title": "台股連3漲收復44000點　新台幣升勢乏力收32.86元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hZVlST1p4YTBXNS1YMk1EQ0RuOUVqT2VmWU1wZnkxc0RsclNCN212WXhxd21GUkU3QTdpdkhJM2pIbFhDYXBIclR0N3preVN4QjhmQ0FaWjZ3d9IBX0FVX3lxTFBZTTVhM0F6aWFGVGJON3B3aFdfc1ctUnkxWXhmMV85Q3NGRFlHLW5kVUh1VmVVSU9weldWVHdzSEFMaXZNakVhTmFOcUgwek9sMjJXYXR2T2xfRVFaZzJF?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-11T10:22:09+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "651267e87968795514ef",
       "title": "美利達財報／2026年前三季累計 EPS 2.74元 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wSTJiMUt2SWRXU3hSOG5JOHZwNVV2dTAwNGRYcUFHOWJQWVl0bGpEMDVPWTZNLXpGYy1zN2RzS0g4cFQ5NklLS1FRRGFXeEtHTnByNC1Qck1TZ9IBX0FVX3lxTE9tZDlnMk9RVk9ycHVKdWRKWThFOXpqaTM2aGN5Z1ZGU042eEt2RlVjUGxycjYwbU5IMmtCNVRJUi1zcmJGQWtUTGhCZENtS3dwUk1vU0hzMmgxNjFxM1dz?oc=5",
@@ -4839,6 +5078,22 @@
       "summary_status": "source_excerpt_translated"
     },
     {
+      "id": "90e997b83c737a7af7cd",
+      "title": "匯率激戰！央行拉尾盤 守住33元",
+      "url": "https://udn.com/news/story/7238/9870555",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T08:33:44.092965+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞"
+    },
+    {
       "id": "3917f8d274dac1aaf8e1",
       "title": "Oversonic Robotics takes RoBee R20 humanoid robot to Munich and Lisbon - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVE2bTRTOVQwZ3VTOXViY2kxdTBib3VvOENRM3VpNWRDZWVUQUpHQkRFTHh5S0JyMlQwZGswZFpRakt3RXRDdEFOVlh0cG0xMG5WTlcydHV3ZDZjejhwa0RSZF95RGlWbGZ3M0F0Q0gxeG41MWwtcUVtd0JYMnQ5ODM2ZG9FdGVRR240R2RYM24zNGc2RWVhc0JueHZhRVdKYVJuem93SFVGRW1pMTN1MGVfNTJFQzNZbmo4QUo0NHV3VWpaR0E?oc=5",
@@ -4953,6 +5208,43 @@
       "excerpt": ""
     },
     {
+      "id": "8d099d71ac88dc1b3d02",
+      "title": "華航10月營收221.56億元創同期新高客收同期最佳、貨收年增近五成- 產業 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ndUZqVlgxNy1MT2pyV3ZCS2N3YnhnOW1pWHpjeHQtRmVZQ2tUWnM4c0J1cTlya21MSk9ReXVteVMwZW1URFlmWWUtOUZKU1pjRm9lN1owRFBXZWdsN1JZ?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-10T07:38:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "9837c9c2524abe6bfb06",
+      "title": "機械公會：10月出口35.93億美元連21紅全年拚新高| 產經 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZUpjbzlWcFRtSG9DWC1FQWR3ZTJtVU9OVlU3Q2ZOU1BLcm9xVVNNUWgzX1YzcWFPc2hMMlE2VHQ3ZVFqR0w0VDBieDNtY0VNVmhFUU12czg2T0t3MXc?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-10T07:35:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢",
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "e112a3b41cb1c031ed3f",
       "title": "Commercial Drones | UAS for Commercial Applications - Unmanned Systems Technology",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TdndCaUplLVRUYlRZdzJHVi1GMTk1eWtvSDFpSjZCdDJHbFNnYUFTamVweERlOE4xb1RBclpZU2lBMEpoYWpVV25wcjlLcG81d3hNQXFlZ3p3UnhyZGpFcFlQN1BhSkROQ1c5MFRUSUlNdHhFZVIyQTRjYXAzQQ?oc=5",
@@ -4969,6 +5261,26 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "商用無人駕駛飛機用於商業應用 -- -- 無人員系統技術",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "e2fa0811fc012341b366",
+      "title": "IMTS Powers September Spike in Metalworking Machinery Orders - National Association of Wholesaler-Distributors",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU0tGcC1XZHNvbGhUcnNnMW1jVHlVYXJEWExZdGRiU05pVWVHd1JxcGRWMTkxdkFtbjY0dWlITzdGUzhPVkh4OWhPblNVVEpNR2RyU1VlWWlDd1E1eHAzNHpVUTl5bVluZHR4N2VIaVBGWlFSVUFCSlkxcG1feUNqWW1DMk5EZmM2Z084VmxMUl84bklt?oc=5",
+      "source": "National Association of Wholesaler-Distributors",
+      "published_at": "2026-11-09T22:30:28+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "IMTS 金屬加工機械命令中的斯派克權力-全國批發商協會",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -5230,6 +5542,60 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "ed1a03222897d66be997",
+      "title": "張建一：新台幣貶過頭　台股大漲匯率跌勢可望告段落 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nX2k0dmw1bmR5UkNVTmpVWDVVU01uLXFsZkFJc3Z1LVpBclpyUEY0MGFYOUpYbkRRck1hZF80YklmTGtheDEtRUE4Tk1TNFFONjVOYVJiTnFid9IBX0FVX3lxTE1laHc5YmdUNHZwOTdIbl9XUHNzN0FaNVRjbmhHWFJTR2VRQU5RTXZoX08wY0pkRHVDTUt1X09kUXJiODRiSjRLZE1obk1BVzRPWkY2RXJwVm1QcFRFajJZ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "ef7a675fecf2bec35c99",
+      "title": "台股強彈難擋外資匯出 新台幣爆量重貶逾1角收32.882元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QY2g5TjVuSV9LQVVjQ1QwbEZIOG1lVEF0bWdCaVhUcU10emNuNkYzdFJibnAxeUdiYXphWFdnM2NCVlN1UVJTMFc4Vlh2eHdJR2ZlZ1FGZ3ZGZ9IBX0FVX3lxTFBPOVFmMWN3bWJtdmNGeFdRV1p3endzTmtqVEdjU0JiUjV5OVB2MkVoSHdiQVZUMGl5LVdLR2dfZ1ZBUm0tS3d0b0NvSG5KZ2VlcVRBWEtKdGR6X0RXaGFn?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "fff27b2884a0151eacfb",
+      "title": "護駕到資本市場有底氣》新台幣重貶傳產迎雙面刃- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PR0xVaDBpUVVkQThDTEdKRXdsSzhwT2t1dThucThqXzVlX3kwNHdPLTJoXzJNZEdIbkhfUXNlQ2RuOVpGbTFOTENfQWM1TXU5ZVBoVC1MYlN3VDFxT0pv?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
       "access_status": "not_verified",
       "excerpt": ""
     },
@@ -5500,6 +5866,24 @@
       "excerpt": ""
     },
     {
+      "id": "0ede884232cb9980d574",
+      "title": "中鋼擬投資逾10億推動固態氧化物燃料電池及碳捕捉與利用| 產經 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3VDkydUQ5Q0VWTk1feHplRE9ZNXlWaWFaUHZHMUhFOXAyQUdBeWdLRnFsOEh4Y0FxSjJ4SzNzV2NXVmFXWFRLVU9PT1pCSzhXbHg0dUk2dkV6QTZoSnc?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "discovered_at": "2026-11-19T08:32:39.081377+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "b8a3dd899c4a8f718467",
       "title": "美期中選舉後 川普關稅不退場 拚外交突破",
       "url": "https://money.udn.com/money/story/5599/9860647",
@@ -5720,8 +6104,8 @@
     }
   ],
   "itis_discovery": {
-    "checked_at": "2026-11-19T08:04:39.671070+00:00",
+    "checked_at": "2026-11-19T08:33:44.092965+00:00",
     "days_with_direct_links": 10,
-    "new_items": 0
+    "new_items": 1
   }
 }

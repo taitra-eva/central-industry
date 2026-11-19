@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-19T08:05:49.283964+00:00",
+  "generated_at": "2026-11-19T08:34:49.417404+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 288,
+  "articles_total": 308,
   "readable_total": 42,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 64,
+      "articles": 79,
       "readable": 29
     },
     {
       "name": "機械與金屬加工",
-      "articles": 64,
+      "articles": 69,
       "readable": 0
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "汽配",
-      "articles": 31,
+      "articles": 32,
       "readable": 1
     },
     {
@@ -103,10 +103,11 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "e35c40020d573135bd70",
-        "10372bfcfe83d1819c6a"
+        "10372bfcfe83d1819c6a",
+        "0ede884232cb9980d574"
       ],
       "readable_sources": 2,
-      "source_count": 2,
+      "source_count": 3,
       "latest_at": "2026-11-11T16:00:00+00:00",
       "taiwan_focus": true
     },
