@@ -67,8 +67,8 @@ function renderWatch(){
  }
  const nav=$('watch-pagination');nav.replaceChildren();
  if(pages>1){
-  const prev=node('button','上一頁');prev.disabled=watchPage===1;prev.onclick=()=>{watchPage--;renderWatch();$('watch').scrollIntoView({behavior:'smooth',block:'start'})};
-  const next=node('button','下一頁');next.disabled=watchPage===pages;next.onclick=()=>{watchPage++;renderWatch();$('watch').scrollIntoView({behavior:'smooth',block:'start'})};
+  const prev=node('button','上一頁');prev.disabled=watchPage===1;prev.onclick=()=>{watchPage--;renderWatch();$('sectors').scrollIntoView({behavior:'smooth',block:'start'})};
+  const next=node('button','下一頁');next.disabled=watchPage===pages;next.onclick=()=>{watchPage++;renderWatch();$('sectors').scrollIntoView({behavior:'smooth',block:'start'})};
   nav.append(prev,node('span','第 '+watchPage+' / '+pages+' 頁','mini'),next)
  }
 }
