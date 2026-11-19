@@ -18,7 +18,7 @@ TEXTS=ROOT/".article_texts.json"
 INSIGHTS=ROOT/"data/insights.json"
 KEY=os.environ.get("GROQ_API_KEY","").strip()
 MODEL=os.environ.get("GROQ_MODEL","openai/gpt-oss-20b")
-LIMIT=int(os.environ.get("AI_DAILY_LIMIT","35"))
+LIMIT=int(os.environ.get("AI_DAILY_LIMIT","20"))
 API="https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM="""你是臺灣製造業產業情報分析員。只能使用使用者提供的原始新聞全文作答。
@@ -74,14 +74,16 @@ def main():
                     "confidence":obj.get("confidence","未評估")}
             records["items"].append(record)
             article["ai_summary_status"]="generated_unreviewed"
-            if sector not in article.get("industries",[]):
+            if sector!="總體情勢" and article.get("industries")==["總體情勢"]:
+                article["industries"]=[sector]
+            elif sector not in article.get("industries",[]):
                 article.setdefault("industries",[]).append(sector)
             made+=1
             print("AI analyzed:",identifier,article.get("source"),sector)
         except (requests.RequestException,ValueError,KeyError,TypeError) as e:
             failures+=1
             print("AI generation failed:",identifier,str(e)[:180])
-        time.sleep(1.6)
+        time.sleep(15)  # conservative pacing for rate-limited free models
     records["updated_at"]=datetime.now(timezone.utc).isoformat()
     INSIGHTS.write_text(json.dumps(records,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     NEWS.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
