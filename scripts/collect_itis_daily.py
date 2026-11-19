@@ -15,6 +15,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from relevance import should_keep, is_government_source
+from topic_taxonomy import normalize_article
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/news.json"
@@ -108,7 +109,7 @@ def main():
             added+=1
         if added>=MAX_NEW:break
         time.sleep(0.2)
-    data["items"]=sorted(news.values(),key=lambda n:n.get("published_at") or n["discovered_at"],reverse=True)
+    data["items"]=sorted((normalize_article(n) for n in news.values() if should_keep(n.get("title",""), "總體情勢" if n.get("industries")==["總體情勢"] else None)[0]),key=lambda n:n.get("published_at") or n["discovered_at"],reverse=True)
     data["itis_discovery"]={"checked_at":NOW.isoformat(),"days_with_direct_links":successful_days,
                              "new_items":added}
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
