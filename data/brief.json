@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-19T08:34:49.417404+00:00",
+  "generated_at": "2026-11-19T12:46:54.582826+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 306,
+  "articles_total": 343,
   "readable_total": 42,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 76,
+      "articles": 81,
       "readable": 29
     },
     {
       "name": "機械與金屬加工",
-      "articles": 70,
-      "readable": 0
+      "articles": 85,
+      "readable": 1
     },
     {
       "name": "自行車",
-      "articles": 16,
+      "articles": 18,
       "readable": 0
     },
     {
       "name": "汽配",
-      "articles": 32,
+      "articles": 38,
       "readable": 1
     },
     {
       "name": "手工具",
-      "articles": 6,
-      "readable": 0
+      "articles": 7,
+      "readable": 1
     },
     {
       "name": "無人載具及機器人",
-      "articles": 112,
+      "articles": 121,
       "readable": 12
     }
   ],
@@ -121,15 +121,19 @@
       "preview": "日相高市早苗可能提議成立亞洲版的國際能源總署（IEA），以便此區國家在遭遇危機時，能合作採購石油。另外，她也打算提案，要收取使用費，在日本國內替東南亞國家儲備石油。 日本「讀賣新聞」15日報導，政府官員透露，高市將在17日於菲律賓馬尼拉舉行的亞洲零排放共同體（AZEC）會議上，提出此事。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
+        "840c3f2722df88be2292",
+        "f18f8336e5ac73dd295c",
         "4d608f96eb7950bfe269",
         "5cef2712fa38e97318b1",
         "d4c75ee34188efd65bcd",
+        "5f9be8ec853de9bd8476",
         "e1dac169bb2556503f7f",
         "64f69deaee933b54c47f",
         "b66beeccfc43d3c152bd",
         "35c48dfb14413ab23efa",
         "bdf7a11ede85d83f0998",
         "49eb61652f714c4e55f7",
+        "84160ba797bb62492f3a",
         "65a484bcd058a3fc7db6",
         "a2f1c765ed24ded97768",
         "e083670504d223655113",
@@ -138,8 +142,27 @@
         "c0b8761afd1ed4759fbb"
       ],
       "readable_sources": 1,
-      "source_count": 15,
-      "latest_at": "2026-11-19T08:00:00+00:00",
+      "source_count": 19,
+      "latest_at": "2026-11-19T10:21:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-27249349a6b343634e3f",
+      "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟 | 產業動態 | 商情 - 經濟日報",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢",
+        "機械與金屬加工",
+        "手工具"
+      ],
+      "preview": "臺灣手工具出口穩居全球前三大，背後卻是2千多家中小企業構成的綿密分工體系，九成以上業者員工不到50人。當美國關稅來襲，伯鑫工具如何透過經濟部產業發展署推動「提升產業競爭力-研發轉型支持產業聯盟」計畫合組六強聯盟，把分散的製造強項轉化為整條供應鏈的競爭力？",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "27249349a6b343634e3f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T02:02:09+00:00",
       "taiwan_focus": true
     },
     {
@@ -494,23 +517,6 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "0753122620a68249ec63"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-08T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-35efc1e31026e66fec55",
-      "title": "陸企獲准買輝達晶片疑點重重…通過審查企業可能與遭美制裁公司有關",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國商務部批准數十家中國大陸企業，向輝達（NVIDIA）採購H200晶片，但媒體調查發現，一些通過審查的陸企與遭到美國政府制裁的公司有關，疑似提供掩護，引發國安疑慮。 紐約時報調查發現，陸企「New Matrix」通過商務部審查能購買H200，但在中國大陸境內，幾乎沒有證據顯示該公司確實存在。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "35efc1e31026e66fec55"
       ],
       "readable_sources": 1,
       "source_count": 1,
