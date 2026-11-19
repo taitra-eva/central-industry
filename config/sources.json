@@ -57,7 +57,7 @@
     },
     {
       "name": "日刊自動車新聞",
-      "region": "日本",
+      "region": "亞洲",
       "type": "汽車專業媒體",
       "url": "https://www.netdenjd.com/"
     },
@@ -151,7 +151,7 @@
     },
     {
       "name": "robot digest",
-      "region": "日本",
+      "region": "亞洲",
       "type": "工業機器人專業媒體",
       "url": "https://www.robot-digest.com/",
       "collection_status": "google_news_site_query_only",
