@@ -71,7 +71,7 @@ def search_original_article(title, source):
     """Free Bing RSS search fallback; never assume a search hit is the article."""
     import feedparser
     from urllib.parse import urlencode
-    query = '"' + re.sub(r"\\s+-\\s+[^-]+$", "", title).strip() + '" ' + (source or "")
+    query = '"' + re.sub(r"\s+-\s+[^-]+$", "", title).strip() + '" ' + (source or "")
     try:
         response = session.get("https://www.bing.com/search",
                                params={"q": query, "format": "rss"},
@@ -84,7 +84,7 @@ def search_original_article(title, source):
             if not url.startswith("https://") or not host or google_link(url):
                 continue
             # Reject unrelated sites when the publisher has an explicit domain.
-            publisher_domain = re.search(r"([a-z0-9-]+\\.(?:com|net|org|co\\.uk|tw|jp))", (source or "").lower())
+            publisher_domain = re.search(r"([a-z0-9-]+\.(?:com|net|org|co\.uk|tw|jp))", (source or "").lower())
             if publisher_domain and not (host == publisher_domain.group(1) or host.endswith("." + publisher_domain.group(1))):
                 continue
             if not title_matches(title, entry.get("title", ""), 0.78):
