@@ -45,6 +45,21 @@ def is_publisher_link(url):
         return False
     return not any(parsed.netloc.lower().endswith(x) for x in BLOCKED_HOSTS) and not is_government_source("",url)
 
+def original_publisher_label(url):
+    """Identify the known publisher from its direct host, not from ITIS."""
+    host=(urlparse(url).hostname or "").lower()
+    if host in ("money.udn.com",):
+        return "經濟日報"
+    if host in ("udn.com","www.udn.com"):
+        return "聯合新聞網"
+    if host in ("www.chinatimes.com","chinatimes.com"):
+        return "chinatimes.com（原刊別待確認）"
+    if host in ("www.cna.com.tw","cna.com.tw"):
+        return "中央社 CNA"
+    if host in ("news.ltn.com.tw","www.ltn.com.tw"):
+        return "自由時報"
+    return host or "原始媒體未辨識"
+
 def choose_categories(title):
     low=title.casefold()
     return [sector for sector,words in KEYWORDS.items() if any(w.casefold() in low for w in words)]
@@ -85,6 +100,10 @@ def main():
     news={n["id"]:n for n in data.get("items",[]) if n["id"] not in EXCLUDED and not is_government_source(n.get("source",""),n.get("source_url") or n.get("url","")) and should_keep(n.get('title',''), '總體情勢' if '總體情勢' in n.get('industries',[]) else None)[0]}
     added=0
     successful_days=0
+    for previous in news.values():
+        if previous.get("source")=="ITIS 每日新聞所引述的原始媒體":
+            previous["source"]=original_publisher_label(previous.get("source_url") or previous.get("url",""))
+            previous.setdefault("discovery_source","ITIS 每日重點新聞")
     # Attempt each day of the publication discovery window; ITIS can have gaps.
     for ago in range(14):
         day=(NOW+timedelta(hours=8)-timedelta(days=ago)).date()
@@ -101,7 +120,7 @@ def main():
                 continue
             if added>=MAX_NEW:break
             stamp=datetime.combine(day,datetime.min.time(),tzinfo=timezone(timedelta(hours=8))).astimezone(timezone.utc).isoformat()
-            news[uid]={"id":uid,"title":title,"url":url,"source":"ITIS 每日新聞所引述的原始媒體",
+            news[uid]={"id":uid,"title":title,"url":url,"source":original_publisher_label(url),
                        "published_at":stamp,"date_precision":"itis_index_date_not_original_pubdate",
                        "discovered_at":NOW.isoformat(),"industries":sectors,
                        "region":"台灣","topic":"產業動態","access_status":"not_verified",

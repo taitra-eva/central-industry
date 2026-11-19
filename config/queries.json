@@ -3,7 +3,7 @@
     {
       "industry": "機械與金屬加工",
       "region": "台灣",
-      "q": "台灣 工具機 工業 機械 訂單"
+      "q": "台灣 工具機 塑橡膠機 木工機 食品加工包裝機 訂單"
     },
     {
       "industry": "機械與金屬加工",
@@ -72,7 +72,7 @@
     {
       "industry": "手工具",
       "region": "台灣",
-      "q": "台灣 手工具 汽修工具 五金 出口"
+      "q": "台灣 手工具 汽修工具 扳手 套筒 電動工具 氣動工具 出口"
     },
     {
       "industry": "手工具",
@@ -668,6 +668,36 @@
       "region": "亞洲",
       "q": "日本 電動工具 エア工具 園芸工具 メーカー 需要",
       "locale": "ja-JP"
+    },
+    {
+      "industry": "總體情勢",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 製造業 出口 匯率 關稅"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 工具機 金屬加工 半導體設備 食品包裝機"
+    },
+    {
+      "industry": "自行車",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 自行車 電動自行車 車架 變速器"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 汽車零組件 車燈 售後市場"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 手工具 電動工具 氣動工具 扣件"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:news.ltn.com.tw 無人機 機器人 自動駕駛 感測"
     }
   ]
 }
