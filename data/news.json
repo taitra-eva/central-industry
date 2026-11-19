@@ -1,29 +1,136 @@
 {
-  "updated_at": "2026-11-19T12:44:24.658422+00:00",
+  "updated_at": "2026-11-19T13:26:21.597104+00:00",
   "status": "partial",
-  "sources_checked": 103,
-  "sources_successful": 99,
+  "sources_checked": 116,
+  "sources_successful": 115,
   "items": [
     {
-      "id": "27249349a6b343634e3f",
-      "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
-      "title_zh": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
-      "url": "https://money.udn.com/money/story/11799/9887094",
-      "source_url": "https://money.udn.com/money/story/11799/9887094",
-      "source": "經濟日報",
-      "published_at": "2026-11-19T02:02:09+00:00",
-      "discovered_at": "2026-11-19T12:44:24+00:00",
+      "id": "257ed4e73bcd3b3751f7",
+      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5",
+      "source": "Yahoo Finance",
+      "published_at": "2026-11-19T13:02:50+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
       "industries": [
-        "手工具",
-        "機械與金屬加工"
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:32.721617+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "隨著中東航運攻擊對供應盈餘的前景反向上升 -- -- 雅虎金融",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "e3d0144002441789ec88",
+      "title": "Germany's Bike Industry Loses €2 Billion in Revenue and 2,400 Jobs as Post-Pandemic Slump Continues - TodoMountainBike",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR2s0SmdEMUVyTU9HcDVJcVdwQ1R4a2ViYk5vYjVEQW5JZ19fNFRfY3JNWWVRNWpCeGxZLUwzVDN1d2llMmE1TkYyOGZZdnZiNVdzbll3WjJfSGE0SEg2Wkc2Z0VseHQ0MUxBeXRCRTZtQUhsMzkyeVNQWjE2MU1tbi1OQmI0am4t?oc=5",
+      "source": "TodoMountainBike",
+      "published_at": "2026-11-19T12:34:22+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:26.738816+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "德國腳踏車工業損失了20億歐元的收入和2 400個就業崗位作為後流行貧民窟的延續-多多山腳踏車",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "1b7da277a8bbb93a6d0d",
+      "title": "傳美出口管制新規衝擊　台積電、三星暫停部分對中晶片出貨 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUzlnbW55alJZUTdNeWVaSl9oWHoyRC1Jb2k3bU5PSjJMWkJqamtKcG1FUlZXRkVyQWFCMURtMHN4dS1hM0xYX1B4YTV6ekpSR2FsMFlCUEFjV280RTQ0a0dTb2xRLWloTExnd2Nfek9RZDBqZ2g5SDJVTV8zbEpYc9IBX0FVX3lxTE00YXRON3c4UGVZd1hjeWU3ZmZKUUF4ajluT2JMTzZ1ekpVS183d1FnTTJ5OGdDcTVqdHNkc0xZSU1tYjdFVWxQWmFOVnVwWnVVWkdjZnVSSXVaRTFLV3BN?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T12:21:23+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
       ],
       "tags": [],
       "priority": "taiwan",
       "region": "台灣",
-      "topic": "技術發展與產業轉型",
-      "access_status": "not_verified",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "unresolved",
       "excerpt": "",
-      "ai_summary_status": "editorial_source_verified"
+      "read_checked_at": "2026-11-19T13:28:11.070597+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "77a54288872cf009b86d",
+      "title": "For its planned U.S. drone production, J-Star aims to source all specialty materials from U.S. suppliers. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVUJRTXRDVFRkUFhNaG9mQ2VhbFFtSnVucGhVUjlSRGtqRkpDendTYkFKUkxrajgtZWpISlRmZXR3dHpRbEJQdGVvWE5nNE9CVTBmRDdFaVB4Mm1SQ1B0MkVneU16QVJFb2xSR1JVdEpJTHdiN3RBclNkd2F0ckJaRVpPREVBTTlTNkJ0QldaMW9jOTFYVTZTY2tBNEVpTXZQSF9XY3Y2MnZWTnhSa0Vyd0I0aFVxUWlycUdPSVFLdw?oc=5",
+      "source": "Stock Titan",
+      "published_at": "2026-11-19T12:05:16+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:27.160029+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "為其計劃中的美國無人機生產,J-Star旨在從美國供應商那裡源出所有特有材料. - 泰坦魚",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "4dd3f426126d31d010c1",
+      "title": "海巡V-BAT軍用無人機恆春升空 民航局實施適航驗證 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xM293OGQ0SGZNRGxaMW9ZdDZqdjR4TUEzRTFJOTNIVHk0bDlfR1pTellfUFZBcnVLWEI4aXRDNWtReU5VdXV0ZDNIZFpKSkIySkpwYU04dG1rd9IBX0FVX3lxTFBycU9zNnk3R01wVjJQT0U5ZVdKSTdhRnBhLUxieXZRUWEyTHpLU0VxcmJ3QWJVNF85Ny15SVBfSGRldl9mbFpCZmhXVXpBaUNYWFdyMDROa09kRlpCelJV?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T11:34:12+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:11.524770+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "fc25d8936d2a6e7a8521",
+      "title": "ARX Robotics Names Airbus Veteran Mirko Reuter as New CTO - DroneXL",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPem5HSXMzcXpfcmxXcG93Qmtlb0dubExHRHlqeUhVWlZaZTlqY2VvY0tJN241aEttOHFobHFRd3lYMjBIc3lONlQxSTc3UTlZVTNDNmdQREhmWUpzNXFhbmRzYmxJQVA5cHNrNEJtVGItckJUTlllbE1oaEFva2VjRWtZOXEyTXc2?oc=5",
+      "source": "DroneXL",
+      "published_at": "2026-11-19T11:29:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:21.454935+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "ARX 機器人名稱 空中客車 退伍軍人 Mirko Reuter 作為新CTO - DroneXL",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "a7720993b3ce28d9e526",
@@ -42,9 +149,119 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T12:46:27.012976+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL",
+      "read_checked_at": "2026-11-19T13:28:27.587460+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
       "title_zh": "Makera為 A1S 桌面 CNC 開啟全球預發指令,將金屬切入 Maker 的會席 - PR Newswire UK",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "840c3f2722df88be2292",
+      "title": "Oil Prices Edge Higher as Traders Weigh Middle East Shipping Risks - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUlHaVFFSnlSWkY0ako5NjJsMTNsVjQ4eGhKc05oZGFWMDN4c3RQR0NyODVNUzNUenFRNS01Y1QyZi03Vm45eTNkbXF3bVBlTUhkWGVHeXIteUlPNFY2aEh3bnh4VXFaVzRMWk1fOV84SXQ4RlRMb2p4QWZ1b2NMb0JJQWZpdURHb2VLLVZVT20yQk5nWTBPUl9hUUxvcllXM0p1dFdxZjd2WWFlaEtVUGFoUzNHNG1IYWQyTkZfLUtOQQ?oc=5",
+      "source": "WSJ",
+      "published_at": "2026-11-19T10:21:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:33.153658+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "石油價格比貿易商高 中東航運風險 - WSJ",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "1c297fd3d2c1dd3ed75b",
+      "title": "台股重挫失守4萬點　新台幣盤中貶破33元終場小升0.5分 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrV0lOb1IzUXI2ZHZXNVBXd0VFT3A0M2h5Qm1KcnZwYUgtY3ZVSVF6Z3UtSVVoY0h4S2Z5RFJERUVDWFlzeTB1cmlEQ3U4MTB3MWZQcU81MENFQdIBX0FVX3lxTE1aVENUN1Fud2F4aEE5SFZlOU5VeVkwQUVjR0tlaVhnckkwYW5Yd2F4cnQ0VWltZkVYcU5UNUJZeEd5YmI1S3h0LU9yNklmTjM5SnF6VllxS3AtclRqRmww?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T09:45:38+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:11.922309+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "f18f8336e5ac73dd295c",
+      "title": "Middle East conflict triggers biggest disruption ever to global oil trade, IEA warns - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWlk0OG5fSFVxS01zQmJQZ2t6SmN4R2JsZ2lDdi16QXJRQnY2b3p6ZmpJZ3pmWFFDU3dKMXJiSTRXb0JISm43VVlBWUpfbDFXeXlxSE80SktiQzY2MDczdW8wRTNpcF91TVNmSG9Kc1V2RHlubzlzTlRmdGJwMEYweW1vZjdxSEpPY0RIbFRPOHdHWlBkM3lBMURLUDVxZk9EQWJ2aDRoYlZfTHN0RlpVOVVWWW52d0tUN1NreXp2aHQ?oc=5",
+      "source": "NBC News",
+      "published_at": "2026-11-19T09:26:36+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:33.590686+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "中東衝突引發有史以來全球石油貿易的最大破壞,",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "5c9680393902c103b8dd",
+      "title": "Hanwha demonstrates counter-drone and GRUNT robotic systems’ integration with Romanian military networks in exercise - Defence Industry Europe",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdG1nTkFyTG9wcWo1RUhwdXQ2UTIxajVpTXg1QUpDbEFCRG1weUJ4cldzNDJVUlpoOVBaVy1UTTlyNk9aMTllYmV3bHZjN3B1VHNzODJZbFJnVEQxQTNFLVFRdkU5OUhzTDFZQTE2VnI4WlRHVmpkVWV6RlV1MWZKanF2YXRtMWdEZ3lxVHVHYWhsTGtKSkQzeTlqOTZfMjRFdndOWnhvTjVLNVpxdXYwLWtkZnp0SEMycHRzYkVTaEw4N3cyUDdBcHFKc05ycGVjdG9RaXpLNlg5d2It?oc=5",
+      "source": "Defence Industry Europe",
+      "published_at": "2026-11-19T06:47:07+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "Hanwha demonstrates counter-drone and GRUNT robotic systems’ integration with Romanian military networks in exercise Defence Industry Europe",
+      "read_checked_at": "2026-11-19T13:28:21.859056+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的整合 -- -- 歐洲國防工業",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的融合,以進行歐洲國防工業演習",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt"
+    },
+    {
+      "id": "849ed2710071ebad5f8d",
+      "title": "PDW & Sine Engineering Partner on Drone Communications - Unmanned Systems Technology",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYUFqQjlxQ2xScl93Y1BjYTluMU5sSUgwSHpTa0k5bS1LWHJtci1QOWhJclFVRGJXRWRsT3ZZU1FRZFVOQVczUHprdUJkLVJ3WUpEYmhTS1hVaV9yWHpQNGpYU3AwV3JTUGxJY0ZmYkxrbE9oTVhkVmY1Q1k0VmlidmpvUHBPT294QUZqMV9BRmlqT2xXV3ZOcnFsMTBKamlnaWFYU1ln?oc=5",
+      "source": "Unmanned Systems Technology",
+      "published_at": "2026-11-19T06:21:21+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:27.992649+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "無人機通訊方面的PDW & Sine工程合夥人-無人機系統技術",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -64,10 +281,78 @@
       "topic": "市場需求與景氣",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T12:46:27.981182+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL",
+      "read_checked_at": "2026-11-19T13:28:28.408900+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
       "title_zh": "O'Reilly Wants to Buy NAP Auto Parts, Create An An Aftermarket Giant - Motor1.com 網際網路檔案館的存檔,存檔日期2013-12-22. 網際網路檔案館的存檔,存檔日期2013-12-21. 網際網路檔案館的存檔,存檔日期2013-12-22. .",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "2ec4125dc3d6e5083d07",
+      "title": "美擴大先進半導體出口管制　馬來西亞尋求釐清資料中心服務規範 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pdkRIOUxPd3lCNEpjaUJabHpFTGQyTG5KeUc0bWJwNUJyOGxtbkhBcU9EMEZ1cWFWWnRQYUk0WGh2ZGFwTDdjNWhOTmJYSmxoSFFCUzBTd1Npd9IBX0FVX3lxTE1VeTlkVW4xVWlnejRFZUJadUlxMDR1TGl0WXNoWUd4V3VlaThhUkREM29sbFNNNDFJa0pHbGQ2cTF4WGZpVUZnUzNUV2RmcncwMDljRGs4SHZSZGtTVWRn?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T03:30:34+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:12.350508+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "5f9be8ec853de9bd8476",
+      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-11-19T02:47:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:34.022972+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "隨著中東航運攻擊逆向供應盈餘的前景而油價上升-路透社",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "27249349a6b343634e3f",
+      "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
+      "title_zh": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
+      "url": "https://money.udn.com/money/story/11799/9887094",
+      "source_url": "https://money.udn.com/money/story/11799/9887094",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T02:02:09+00:00",
+      "discovered_at": "2026-11-19T12:44:24+00:00",
+      "industries": [
+        "手工具",
+        "機械與金屬加工",
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "excerpt": "本文共1887字\n臺灣手工具出口穩居全球前三大，背後卻是2千多家中小企業構成的綿密分工體系，九成以上業者員工不到50人。當美國關稅來襲，伯鑫工具如何透過經濟部產業發展署推動「提升產業競爭力-研發轉型支持產業聯盟」計畫合組六強聯盟，把分散的製造強項轉化為整條供應鏈的競爭力？\n去年四月初，美國關稅新制讓正在休假的伯鑫主管手機響個不停。客戶趕在生效前拉貨，上半年看似平穩；到了第四季，需求卻迅速轉冷。\n景氣與關稅雙重夾擊",
+      "ai_summary_status": "editorial_source_verified",
+      "read_checked_at": "2026-11-19T13:28:12.932142+00:00",
+      "body_length": 1953,
+      "summary_zh": "臺灣手工具出口穩居全球前三大，背後卻是2千多家中小企業構成的綿密分工體系，九成以上業者員工不到50人。當美國關稅來襲，伯鑫工具如何透過經濟部產業發展署推動「提升產業競爭力-研發轉型支持產業聯盟」計畫合組六強聯盟，把分散的製造強項轉化為整條供應鏈的競爭力？\n\n去年四月初，美國關稅新制讓正在休假的伯鑫主管手機響個不停。客戶趕在生效前拉貨，上半年看似平穩；到了第四季，需求卻迅速轉冷。\n\n關稅推升成本，消費者轉為觀望，買主也要求供應商分攤成本。伯鑫工具副總經理吳昌旻坦言，景氣與關稅影響難以完全拆開，卻形成「雙重夾擊」。面對不確定性，降低單一市場依賴，已成為重要課題。\n\n對手工具產業而言，品牌型錄厚厚一本往往涵蓋成千上萬種品項，沒有一家工廠能全部包辦。買主選擇在臺灣採購，看中的是成品廠、加工廠與零組件供應商共同形成的完整製造網絡，「如果我們想讓buyer持續向臺灣採購，不可能只靠某一家、某一個產品做得好。」吳昌旻說。\n\n面對缺工、高溫與粉塵等3K作業環境，以及國際客戶日益明確的碳排要求，伯鑫號召同為手工具成品廠的共茂工業、祥鼎工業、及電鍍加工夥伴青輪昌工業、負責熱處理的佳鍊工業、輯興熱處理等成品廠與加工夥伴組成六強聯盟，將關稅帶來的壓力，轉化為供應鏈同步升級的契機。\n\n「很多時候是想做，但不知道自己能不能做到。」吳昌旻說，不少供應商早有轉型意願，卻受限於資訊人才、導入經驗及預算。這次計畫沿著",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "7a57d45643ef1744cd65",
@@ -85,8 +370,56 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-19T12:46:19.328092+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL"
+      "read_checked_at": "2026-11-19T13:28:13.678351+00:00",
+      "read_reason": "Search result page title differs from the original news headline"
+    },
+    {
+      "id": "ee557ed1947534c85382",
+      "title": "Kawasaki Robotics launches F Series S-type controller with integrated safety and cybersecurity - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcGl2NzMwWjUtU1lISy1oTnBpMTNyR21LOTE3S0JucG9ZNXhZY0JCUHhFRXFyNEEzT1ZOUXNrSnd5WXhmNm1yTHlYNGp6MEt2c0ZOSDlsX3o1R25oV2g0V005U21EZTB2WVhOVlVRRGRaMmFhZUwwZWhrdXZBa3k1YUlmWS1OS0dSZ3V6TjlpZkhwdG03N3pNMkYwY1dGang5MWhuUjlKM2NuZ2tvVGZJeVYyWkhhTEg5M3k0SlZsUC1JVDNHVWZMWmtZWXhVQmh0RGRuZ0s2cDVjN0JRZ1R6Tkl0V3B5dw?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-18T21:24:01+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "Kawasaki Robotics launches F Series S-type controller with integrated safety and cybersecurity Robotics & Automation News",
+      "read_checked_at": "2026-11-19T13:28:22.283384+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "川崎機器人發射 F 系列 S 型控制器與綜合安全與網路安全 - 機器人與自動化新聞",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "川崎機器人發射 F系列 S型控制器 整合安全和網路安全 機器人與自動化新聞",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt"
+    },
+    {
+      "id": "71ef18a7a590354a2b60",
+      "title": "Einride reports 76 percent growth in contracted revenue as autonomous freight operations expand - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTk5CNnFmM1pjYnFkdHF1OVhaR21ZT1lZYnRULUc0R0VPWV8wSkZBS1A1RmkzeE10a2RTS0FGX3luelNOTmFjdm91QjNjRnhfUVBfRl9mSzk3YXVfZURhWTA0SE9Tdmk1SHlod1NDWU9FWG5BZTVXZTR6WmZoUjRVUjA2NElLRDZhTmlVU3VJRVdZNFlVdXRwVnVOWGZmNG5Gc0NyTTV0S3FFY2JOVVZNbnBZdURtQy1qMGZCSFgwWm4zYWZkY21FUGozZzNlejFzVWRrMEI2LU5hUTN1NjBSOGZSdnJ5ZEU?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-18T19:35:38+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "unresolved",
+      "excerpt": "Einride reports 76 percent growth in contracted revenue as autonomous freight operations expand Robotics & Automation News",
+      "read_checked_at": "2026-11-19T13:28:22.699727+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "Einride報告說,隨著自主貨運業務的擴大,合同收入增長了76% -- -- 機器人和自動化新聞",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "Einride報道,由於自主貨運業務擴充套件了機器人和自動化新聞,合同收入增長76%",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt"
     },
     {
       "id": "3de49452831f3b456a29",
@@ -103,8 +436,8 @@
       "title_zh": "DRiV 與 XGM 成立合資公司，擴充北美汽車售後市場的自有品牌車輛懸吊控制產品",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T12:46:28.658017+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL",
+      "read_checked_at": "2026-11-19T13:28:28.814308+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
       "tags": []
     },
     {
@@ -122,8 +455,8 @@
       "title_zh": "從資本市場寵兒到四年內破產重整：這家自行車企業出了什麼問題？",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-19T12:46:25.268437+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL",
+      "read_checked_at": "2026-11-19T13:28:23.093366+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
       "tags": []
     },
     {
@@ -150,6 +483,165 @@
       "tags": []
     },
     {
+      "id": "d42c56b56a9ee883147b",
+      "title": "能源論壇12月2日登場 葉惠青：化減碳為長期競爭力",
+      "url": "https://udn.com/news/story/7241/9887632",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "fa51a662862fddb655a3",
+      "title": "外資續砍台股　新台幣貶值壓力難解創逾19個月新低 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVUxBLUc2ZXpxQlFiVjhhbVZkZFc3QVB5WVN3b2R6TUwtTzBsUDhFN2t6T0Y2VWM3cEtLS1ozY0djN3pheWJQN0NhclVKdnVlS0owOXcwQ3dRUVBncnB3QmdfZURUT29uLXZvc0wzUHc4dnVSMnAzRkdYczdzSFBTQ9IBX0FVX3lxTE1Tc2hETjM1OHhzYWJISmdhMmxYckdXbmhPOTFIcFhRYkE4NlBNTnV4cjFPQUtIaTczdUZxQURtYVp1ZHdnd3JMbWZHZDM1Q1J1NDU1U1RxZm94cEN4XzFZ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T10:45:48+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:14.244462+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "afbaa0f854c7ad15e9e7",
+      "title": "氫能關鍵零組件與AI無人機齊發光 台灣代表團波蘭國際發明展奪雙料大獎 | 熱門亮點 | 商情 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ESVhZbnJ0YnhNTGRtUUVfeHFRRHdwQURnTUI4Y3JYVmZZbjlDX3hkMmI3d01ZZkN2ZVRhVUtaNXR3VGszY3o5LVVITHdhTThOaXdmMWZ5aGNJUQ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T08:02:50+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:14.669385+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "036a91dfb47cffb2294a",
+      "title": "移民署、警政署無人機採購案混陸晶片 內政部朝解約處理 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZdVA4RkJ2aEF0cTlucXh6N2VjdWxzMWsxakFOckFlRlR2U0xzZ2dtWUNaRUFyazNWbmxMSUhrbm5taC1sRGxBQ2VJTVZnSzNHY3FWTWE2SmRYQdIBX0FVX3lxTE42TEZtWlZ2TWNQR2FRSDhfQTQzM1lsbFl5X1BESjBZOGRkMGlpckU3V1ZQLXJRZEZlSzYxVHNuZHh5MnYwX3JuWkU0MzAyMVVZbnJxYjB4VlVuQWlRUnlB?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T07:50:02+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:15.135434+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "8760a29286c5f12174ae",
+      "title": "搶攻無人化晶圓廠，三星、SK 海力士、美光聯手制定機器人充電標準 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZm9BSTJZVE81LWtON3VnMzM3UkZBWU53NkhKY1hmQmdIRzBpak53SXJaOW5JNzFuM21tUXVRc3pRSmVyZHBBY2pnNld2UkF2a0t4cWVPOFpnUzhxdTZSMEdwTGRSUW1NdXFEcURDcGd1akJMWEVldmtsV09LUWxHS2J2RndPdw?oc=5",
+      "source": "TechNews 科技新報",
+      "published_at": "2026-11-18T06:56:46+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:15.538067+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "64f69deaee933b54c47f",
+      "title": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict - Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1k4SUVuUWd6NFUyaDFsOGhlNDVJb0hfOUt6TXJ2cGFURVhQcWZkb1pZSHk3YXlSeml0NDZmUmtQWUtZc3M1TS1jSGp4dmZZVmt2enZLbnp0ZnJ5bG82dzBUcG5EN3VTR2FxOWFjNG9oTlhYX0tpaUtKQmI5MkpHZG5kNEd0bVo3RThJam1pNHZGRzMtMXV1ZEdOakVMVGN0MXd6eW5TSlF3U2vSAbABQVVfeXFMTTY5R0VHQ1dyeFZ3eTMxbW91b1hmY3JNM21tQU1DWm14eV9jMXhpRUhhSjFDTmxBNld5ZWIyTUc2Z0FZR0RSMURDamd1UTF3bi1hd1l2Rm9CTy1CcTBib2x2VVQ5WW9Eejc0ZUZUX3J2dkxMZjNxRVFCVGR2Ml9UUHpSSDJubUw1YkJwOUMzNDYtQ3JxS09fcm1ENWtQc1hYaDBqZlBVS1MyMVRUQnV0bjE?oc=5",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-18T05:55:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:34.463002+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "儘管美國-伊朗衝突升級,",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "083959b4cd032585d49c",
+      "title": "龔明鑫訪波蘭 攜手打造 AI、無人機非紅供應鏈 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZRXNsZGEydjk5bXZCSzhlZ201T09sRkpxSE9xNUFEcGRfVndzcUtodUxfNl9NVHNTOWE4bmExNVJkOUtHWEtPV19FeWVxay1Ibm5CMUhtMTRLUdIBX0FVX3lxTE1sbEF1LXdSM3JKV2ZOckZTeXdEY01zcDR1aWViTzNyNlZfODNMQ1NmRm1Odk5TaWowMjNXZDFxTm1XLXBROVRqVmcxUGFqY0U1SG91alBxSDJNSTI1V29B?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T04:53:27+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:15.944386+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "3d619f013bff7b82e011",
+      "title": "平均22歲挑戰全球機器人市場 台灣青年創辦Vibe Robotics獲YC投資 | 熱門亮點 | 商情 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JdEtLa25BQTlrNmU5NWQ5VXBfN0RfM2kwZ0VZNGRYS0ZwQjYxOHNvdFFNbnA1U19QQURtUXl5TFBCSjJYdEEwVUpiLVdDOFAyay0wT3JmcjdTZw?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-18T02:02:56+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:16.352286+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
       "id": "7a91502036102a99dca1",
       "title": "進む系列をまたぐ自動車部品メーカーの再編 その統合モデルと今後の見通しは？ - M&A Online",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGFoSG8yNE1WTV9sZDUtcnFkaHVpYXpaT05jRHNNVlN5aFBXRFNFX0huSXFGRGdnMGFQSmU3T21SOE9rbkQ1d0NldGFFRXVwWFZZaTRpMlAwNS1Ud3k4YUtMU2FuZWs2Q2xXb0NvWThwQ1lCMTFCR3FyUGxXMDZOUXFpWkR2VFZtalJBNHpIenVRS2tBZ3dVY2FXaWRxMkZyVWJ2Si13UjRLbXBIT2NB?oc=5",
@@ -164,9 +656,99 @@
       "region": "亞洲",
       "language_hint": "ja",
       "topic": "產業動態",
-      "access_status": "not_verified",
+      "access_status": "unresolved",
       "excerpt": "",
       "title_zh": "整個系列的汽車零件廠商的重新理解 將模型和未來s整合起來? - M&A Online",
+      "translation_method": "argos_offline_machine_translation",
+      "read_checked_at": "2026-11-19T13:28:31.868889+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "35c48dfb14413ab23efa",
+      "title": "Oil Prices Swing as Gulf Attacks Continue - Rigzone",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLWZ4NXdVWURJNGdxOV9ncFFVNFNBUkVGSW5CLU5fYjZnamx5Y19uTkVSa0hfLTYzZHE2UWtVLTMwVVRYX2dkN0haQlZTcW1yR0tuZTZfXy1MX0hGRl9ReUgwbExPcjZFNC1aWnRMNTJZQkcwMjduTVNFdmUtY1g3bXp1dk80ZTY3Y3JlVmhTRG1VNVd2eUR0Y0JTaTNwOEpLNi16MUN3?oc=5",
+      "source": "Rigzone",
+      "published_at": "2026-11-17T20:53:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:34.888661+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "石油價格隨海灣襲擊而波動 -- -- Rigzone",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "02355e120930b3ace571",
+      "title": "Conference report: Construction industry on the verge of a robotics revolution - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXpDcXlFVFBJVEJhbERQSFZXcEZvYng1eEVXLWR0Ry1ITzZKeTZiRHRNam43UlNJbzY3UUJiS0tObGtOTWp3RnI2NEVUcGpjNU5yZ3BKLVNUMzdEc2tNUnlEUl8wdnNuTlVZcDRfeDlCeGo5a0dYVHFZUFJleEZ2RkxXY0txNGMxLXJ3ZnZVTlBPdHNCN0tNQjhrRjRkNnlWYTlhSUVhYWFyeloyLU1vX01uQkQxZmJkTnBGNkpmVVBOQXo5dlduYy1lVlBLQzQ?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-17T18:57:38+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "read_failed",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:23.690921+00:00",
+      "read_reason": "HTTP 405",
+      "title_zh": "會議報告:處於機器人革命邊緣的建築業-機器人與自動化新聞",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "c4c18b090e623d661034",
+      "title": "Giant's Sales Rise 6.2% and Operating Profit Jumps 29%, but North America Remains a Weak Spot - TodoMountainBike",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjdVSVZseFdLUFVmbVExYnZHd2hLcXUzeS1YdEpTc2VDOWduSWFST3BGN3BDdVBZcGFvZFFMbG41cnBYdlZuN1RzZ2JCb09rX0FjYzI1cmdRclE1REVaaHpMcUFtM0xhUnlRQ0RYemowcWtjV1ZodDF1czZ1QzlMUDB2bHhSSDF0NzU2NUo3cFYtcGtGU3RZ?oc=5",
+      "source": "TodoMountainBike",
+      "published_at": "2026-11-17T17:13:51+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "市場需求與景氣",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:29.235159+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "Giant的銷售率上升了6.2%, 運營利潤躍升了29%, 但北美仍是一個薄弱點 - TodoMountainBike",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "49eb61652f714c4e55f7",
+      "title": "Crude Oil Prices Climb on Global Supply Threats - Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2JvZW45VlRuUnlETmN4aVdpYlg0SXNadXMtaU5BR2RWY1h0bnhxWnE1NU5EQUhhOFU5TTVDeDVfQmw2LXZyamJndWpkTkhZZUszVzJjNlZNZi05YW1PQ2QxbzZJbk9ETGQ1b0tnVjIyWlZadnBwVmU1bjk5RDJZUS1fYmdYMlYtdHhWS1JmOExLZTZVaEE?oc=5",
+      "source": "Barchart.com",
+      "published_at": "2026-11-17T16:45:09+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:35.323804+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "原油價格攀升對全球供應威脅-Barchart.com",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -239,6 +821,87 @@
       "tags": []
     },
     {
+      "id": "e06001d75713d3798f4c",
+      "title": "BIS強化AI晶片管制 供應鏈洗牌…台鏈穩站受惠第一排",
+      "url": "https://www.chinatimes.com/newspapers/20261118000218-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "6489a92918d9cf1b426e",
+      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial - The Robot Report",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTRNdjY3dzFkQlVNeXdNSXpjMTM4UGRxYUJWaHN5dng2Qkk1ZHkwZWNVMmhWSlFBVi1HMzdkQ3RYdzlOVVRKRkpqdlZuU1VTWGxVNmlCSHdrWWtHcnRBYVdsTzItYUpSQWQxTGtUTkMweFdUZEJzQUM4LUtXTU1Zd1pXV1RWRXRJMWtRY0wzWlJOQUJaNktKempERQ?oc=5",
+      "source": "The Robot Report",
+      "published_at": "2026-11-17T15:32:33+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:29.631505+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "波士頓動態公司 阿特拉斯人造陸生第一次非自體試驗——機器人報告",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "3cc053056ccd1d4c66fe",
+      "title": "貿協率21家台企參與烏克蘭重建展無人機引擎與飛機金屬零組件受矚目- 產業 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54VDZvYWtpZ1ExYzRyX3dfcWNhVVIwbEh4M08wcnhCS3QyLWpVYXNiaDkxaDJEdDhxWm16dVFfMWNNMmg2SHRpMTlFdDluUnBLcHhNUGJHMTh3SWlKR1N3?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-17T10:47:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:16.739355+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "84160ba797bb62492f3a",
+      "title": "Oil prices caught between rising Mideast exports and tanker attacks - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORW1OUjJKZ1lMbm9wNmNBLTZxa3RSbDJabmgzZlI3X2VNWFFGMS0ybnJIUEc0R1htb29UVWZfd01meHZpSExEMTVBSHZrRmhMQ3gwNlctTldVWmFKRW1wVlNXQ2QwdnFHUEtZYlU3SW96Wjl3VmQ3cFB5OGtNOGdhYW5nUVB2T2x4SGt5ODAzbi1ENmlBOVNmT1ZNSjdxdXRmdmQ3VFE0UXBka21oT3JxeTRES2RwNzRaSnc?oc=5",
+      "source": "The Globe and Mail",
+      "published_at": "2026-11-17T10:04:55+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:35.826592+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "中東部出口增加與油輪襲擊之間的油價-環球郵報",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "19ae260e19ebbb49a43a",
       "title": "ABAC支持亞太自貿區 籲數位產品永久零關稅",
       "url": "https://www.chinatimes.com/newspapers/20261117000221-260202?utm_source=iii_news&utm_medium=rss",
@@ -283,6 +946,143 @@
       "summary_zh": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY 2026機器人通用化指引發布暨技術生態論壇」，透過指引發布、技術論壇與實體展示，聚焦關鍵零組件的技術發展與應用，以此勾勒臺灣機器人產業下一階段的發展方向。\n\n經濟部產發署電資組科長李振隆表示，政府去年「智慧機器人產業推動方案」，持續透過政策引導與跨域資源整合，為國內業者創造投入智慧機器人產業的有利條件。面對全球機器人產業快速發展與國際供應鏈重組，現階段關鍵不僅在於技術研發，更在於如何讓既有技術能量，轉化為具市場競爭力的產品與解決方案。透過政府、法人與產業的持續合作，促進技術交流、資源整合及商機鏈結，協助更多臺灣業者切入國際機器人供應鏈，讓智慧機器人成為帶動臺灣產業升級的新成長動能。",
       "summary_status": "source_excerpt_translated",
       "tags": []
+    },
+    {
+      "id": "2bd7b316dedc46ae9a11",
+      "title": "熙特爾結盟美韓大廠 拓AI能源版圖",
+      "url": "https://www.chinatimes.com/newspapers/20261117000316-260204?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-16T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "900554534392e5c3e5d5",
+      "title": "台股創史上第2大跌點　外資匯出趨緩新台幣小貶4.8分 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xRTFEUFVLU1ozU1RjSVJnY0xfdDZvT1hxdEVCVlJuQzRlRFhwT0hoRWhmQzNrTjVZM1d3SXZ6NzZaYkFka3dyZ0ZmTzY5OWFzemFkUnluczV2OFVuOTJWb3UybUYxZlJlOUdwYmRwR3VhWnhmT1YzV0dqWkwzQdIBX0FVX3lxTFBTbkN2cTlTekxCcDEtb1hBc3ktZUFfWjQ1OF9OSU5oRGJRdFc1QXlPUjdKSzVvTWxHTTRKUjBialZycmxBblJKN0FzRUI4RXQ0LV9kbW1vR1p5QXkydXlz?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-16T10:21:36+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:17.096950+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "c36b78fb9fed1e0e3329",
+      "title": "陸軍無人機評鑑貼近真實戰場 納夜間接戰、雙機協同打擊高難度課目 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHc3BVaGdRbWVfNXhBQ3k1blo3cEZRUXkxelE0b01aYklpc1J1X1QtVWVnb0RBaHo0UUNFQTRDRERaYlJhUzA2TnBTbHFiX0NsckhnQ0VIYzdHd9IBX0FVX3lxTE4yYVVycDVhbEcxRmt3b3VGT05tOXZVWXpueEttWW5IRXhjQThqREF5N3Y2QmFrbnhDai1FY19GSlJ0cHM2SEVfQ3dtRnRIZHU1aG5YZVc0YUVJZWtUZ1dV?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-16T08:56:15+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:17.480942+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "a964e0ae15268d2c7e48",
+      "title": "俄稱擊落逾1300架烏軍無人機控烏克蘭襲擊克里米亞大橋| 國際 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BZUpQdU04a0RtX1o0dTFTVXpqYWp5a1huZjJqVERDclVnTGpCVXhVRERVNDhGdVlUSDE0YlVydWFFUXgxeENHMHBoM1RMZUxVVkhJWEtOU2JnVEVmX0Nv?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-16T08:37:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:17.872820+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "2f7e34475f02eb85a14f",
+      "title": "台美機器人無人載具論壇 促成8項台美產業MOU簽署 | 熱門亮點 | 商情 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TVllHa1V6c1ZibXU0YWRHZlF3d1FJd09BdFZNb1RESEtPSjh2WHFPWXZrdEF5c05DZVJVNXRfNERfbThIakRoSEZubXUzSWJ5TTE4OE5YcG5KZw?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-16T02:31:12+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:18.257239+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "d82f261da2be82c8c05d",
+      "title": "所有消息| Taiwan Drone Association - taiwandrones.org",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Wd3pSN19ZanFRZ0ltRF9Kd1pFUEUzRE5kYTJGaDlTa2hMdWRMNm1sZ3BQeFlyQjg3ei1WcThZYnp3c1FTQXFCRQ?oc=5",
+      "source": "taiwandrones.org",
+      "published_at": "2026-11-15T20:47:40+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:18.646771+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "6a3ba613f22d8aad883a",
+      "title": "關稅減壓紡纖業2027看旺- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mZTdJMGhfSU1Td01FRE1keWJUVmRuUnhLMGI3RzZTVzhuS1BFUHlZb3FXeTZCYXdRUE1tbGpXME8xdmg0NGE0UkxFVTlURGVyUFBDREYwNVZTVmJoVnQ4?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-15T19:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:19.070066+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
     },
     {
       "id": "53ea1cb998fe0a492dec",
@@ -331,6 +1131,216 @@
       "tags": []
     },
     {
+      "id": "9e7630daca61e502f40f",
+      "title": "1分鐘看世界／歐盟能源業延攬前北約官員 擬強化能源基建防護力",
+      "url": "https://money.udn.com/money/story/5599/9880524",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "740891e58cff801e706f",
+      "title": "研揚迎戰缺料潮 供應鏈優勢成關鍵",
+      "url": "https://www.chinatimes.com/newspapers/20261116000182-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "4591cf111c263b5f9448",
+      "title": "日本擬設亞洲版能源總署 幫東南亞儲備原油「收取費用」",
+      "url": "https://money.udn.com/money/story/5599/9880529",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "3e873fd172e7e446be81",
+      "title": "再生能源開發慢 電力排放係數未達標",
+      "url": "https://www.chinatimes.com/newspapers/20261116000477-260114?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "2a43bb2c36222cd09d1c",
+      "title": "Physicl raises $10 million to improve physical AI training with synthetic data - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnhKaW1XcEFPVzV1MUp4LTRoM3ZqalZ3UHd5VFpSc3FXWEt5NzExOWJ1b2JOZXNaSV9aUk5rLXg1aENZdHFBeExPUjRFcDZLdFdpLWlMdEJxU2c4Z2FmcXc0dmJBcDJxSG4zMTAxZnQyRENFRUYyY1RkT3RXdVFvWlJ0MG9CMG1idUFUcUdOSUd6Z2RJQjhOMy1OTHNqWThaNGI5M2Vld2EycGhlSlA3ZWpMTGdrSUY5eGxzRUNJSWFYal9ZMmtiYUhuZ0J0alU?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-15T15:45:16+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:24.255714+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "Physicl 籌集了 1 000 萬美元,用於改進物理AI 培訓,同時提供合成資料 - Robotics & Automation News",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "da62f6afff08c0084aaa",
+      "title": "防彈衣到無人船...宜蘭軍工「隱形冠軍」崛起 打進北約軍備供應鏈 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuV1kydC13WkQwaDJIbGY2Yk5RTlgtTTBlMTBMOG9fdndRVVdzVmtoY3VvRFpRTk5JN1JHcXh4YkpJNlJiNmhJd0hMUGxEbmR2TTc4bU9PTTBCQdIBX0FVX3lxTE16X19mbWhaUDhOaUowZ1gzMGJ0T3RCMzd3YkhPbm5fdUphNHpnZ21NajZEWUlnZHJ0al9CMUNNbWxxTXllckxSaS1PWVhEb2JHeGdBaXUxZ3dYYnJiallr?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-15T12:55:22+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:19.448075+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "c0e1721fc88ea2085f3f",
+      "title": "搶攻歐美邊緣 AI 市場！擷發科鎖定無人機、車載等應用，美 IPO 最快估明年 Q1 底上市 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82X3ZSQkJKSTFSa1ZyRVNwWmZzUTBPRE1hVzRMTlQ1QkJhRGg2Zzd1YXRyZ21laVE3cE16LXZCYkhOa0NkdS1jTGJmMEVMYTJweHFjay1uRDQ5Q3k2OHRvRFg0MDhic2VqM2xZdjZfMEtlZTlXZlh3?oc=5",
+      "source": "TechNews 科技新報",
+      "published_at": "2026-11-15T01:16:44+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:19.840289+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "39a97af7e8c39fd5658a",
+      "title": "超越AI硬體 安富利台灣聚焦AI基礎設施、機器人與邊緣智慧新商機 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zYVFYRHZkU01BNXl2N1hNeFJvemZXYld4dmszX182SUxyd0ZDa1VXNlNHdzFuSTF4MzBCODNIUmdWTHpKQm9tdTl2NHExSWcweXpMSVJhTkFVZ9IBX0FVX3lxTE9tbDF5NEt3ZV9pcUh2LW9ZdV9WRnhHVU0zU0h4VmN2VHk0cTFaY2lYRC0yRGd1UF9OVWtxdFRWekpNcV9LUjBkU2UwR1hPaDRPVGhKX2hwM0gzcjZCcnFj?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-13T08:59:31+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:20.243143+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "6f63a1036768368df390",
+      "title": "《產業》全球貨櫃航運供需邏輯正在改變不能再單看船隊規模- 產業 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kN1g3MTNSUThrTzRMTllvbHlIeFB5amRwVnBLUWo5SFl2SFNNM3p1QXduSVd2ZFoyOTV5MG5uWFIxQTM5WkxOMDhkMUc0VlFzV1BoMTB0MkExWU5pRTNF?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-13T05:41:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:20.648953+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "8eee76c503005c6fac48",
+      "title": "都是運價惹得禍？大成鋼第3季毛利率下滑 爆量大跌 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkWmNZX1VJV2p2ZUdIYktQVnNxWkl6Umt0Z01UVkp3UVkwZTl4WDdyVUYzWHREeXhDMGw5d0pQM2NKc0QyR2tMVzY0OTNEUy1nby1jZEZydnc4d9IBX0FVX3lxTE5NMS1xNm9Zd1Jib1hYQzhtRV9NVi1BekU1X0lMNWYwN0JvVm4wRUd3Ym9uRGJiUXZGb0pzM3BiWUhITlp0MHNJOVFFTHp6ZDhHTjhJSmdNRWxTZ0RPZ2Zj?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-13T04:16:47+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:21.022895+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "4c2655dbf54fbe9d4351",
+      "title": "臺灣機器人供應鏈動起來！產官研共推通用化指引助攻產業升級 | 產業動態 | 商情 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BRndQMzhBZUJ6aFpyMHFjX0stWFhkMlREVHpISW5NUnJZLUZtRkpBeURldm53UDlJcEJWM0RkSHMzc19LRmgycmV0UTNuMTd0R1h1UW9HeHNQaFU?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-13T02:02:28+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:36.220812+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
       "id": "0477154adc4469aa5e41",
       "title": "COP31示警 戰爭、關稅不應耽擱氣候改善",
       "url": "https://www.chinatimes.com/newspapers/20261113000330-260203?utm_source=iii_news&utm_medium=rss",
@@ -375,6 +1385,28 @@
       "summary_zh": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。\n\n對於計價策略是否放棄「零關稅」？代理商寶嘉聯合僅低調表示，首波導入的Jeep Wrangler Rubicon與Sahara等兩車型，還是提供優惠價格；但85周年、Whitecap兩款特仕車因僅限量20台，訂價策略也不一樣。",
       "summary_status": "source_excerpt_translated",
       "tags": []
+    },
+    {
+      "id": "09b6a53fbefdaf61def5",
+      "title": "ESTUN Robotics integrates RoboDK simulation software to accelerate European expansion - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUTQzQ3VXUGV3ajRfU1VQcW16RGJ1M3RiQjk0ZS1TLUN3TEJvWGdfTnBLVHVYQURoYjI2M2drR2Y4aUptcEJhUG5HWHdwdnQ3a0dmblRHal9lcnpxUUtwVF9POG9TLUJDV2dLaHZVSjVBMTZjankzT3VoVklVUFE5ZmNDRE1XdF8yRk1rZ1NMd1RIQUdncG5CcWl5eDlSNzBOcGc3S0tPYnJVSHpibjVONXBmMjk5amVzZDNrM1ZmTmdLQ2tGUHJZUnJxRl9pM3hwZVU3OF9TN1ppVkhGRjdIYmNFLXdjZ1hhaHJ3ODRFbjVGdW5uZFQ5ZlVHelR2QnI4Mlo0RkVJd2tUcEMtQ3h0VXBoR3VZUHM0Y295eGFKNzlOTU1hbjlTVnZXRHdheHM?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-12T00:40:29+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:24.686169+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "ESTUN 機器人整合RoboDK模擬軟體以加速歐洲擴張 - 機器人與自動化新聞",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "c4993511f0584b9f0b67",
@@ -423,6 +1455,48 @@
       "tags": []
     },
     {
+      "id": "24338fe3076d2b5ec7c6",
+      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
+      "url": "https://udn.com/news/story/7252/9873026",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": [],
+      "read_checked_at": "2026-11-19T13:28:37.446040+00:00",
+      "source_url": "https://udn.com/news/story/7252/9873026",
+      "body_length": 1124,
+      "excerpt": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機\n雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結緣。\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\nGoogle宣布，Gemini Robotics",
+      "summary_zh": "雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通，少了元太的電子紙，機器人無法明白瞭解人類的指令，凸顯元太在Google機器人關鍵元件具舉足輕重地位。\n\nGoogle宣布，Gemini Robotics 2.5已在賓士生產線上崗，在賓士生產線的概念驗證中，協助Apptronik的Apollo 2人形機器人揀貨並包裝汽車零件，成功率達96%。可承接單調工作，讓技術人員專注於複雜組裝任務。\n\n機器人利用Google開發的具身推理模型（Gemini Robotics ER）追蹤工作流程，並採用Gemini Robotics 2.5動作模型控制其手臂和手部，從物料箱中取出金屬汽車支架，並將其放入排序容器中，同時自動修正任何間隙。\n\n業界指出，Apollo 2人形機器人在上述場域有出色表現，元太的電子紙在人機介面的功能，是讓實體AI順利運作的關鍵之一。\n\nGoogle指出，Gemini Robotics 2.5在三大關鍵領域技術大幅提升，機器人可藉助日常工具、處理嬌弱柔性物體，完成顯著較多任務，性能與靈巧度大幅提升。同時，Google優化實體安",
+      "summary_status": "source_excerpt_translated"
+    },
+    {
+      "id": "72a354a2756b6cd05826",
+      "title": "伊朗戰爭前景訊號分歧 國際油價上揚",
+      "url": "https://money.udn.com/money/story/5599/9873149",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "insufficient_text",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": [],
+      "read_checked_at": "2026-11-19T13:28:36.729852+00:00",
+      "read_reason": "Page retrieved but substantial article body not extracted"
+    },
+    {
       "id": "cc614b12bb48769672c4",
       "title": "美利達前3季每股賺2.74元　自行車市場去庫存步尾聲 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44V1hleEhRanFlNUR0SHN6WE91WEVuTjFXT3ZTMFF2US15SGJtR21jb3hkWUUyYWd2dmlCUjlMc0FtdDN0S1JCUmppMEQxcThRUHhaQzlkLVJzQdIBX0FVX3lxTE9LUXM1eWRBclRVZTF2TTAzU3lyS21IYWZMU1luUkFCWGJnaHgwZno1NV9JdXY0d2ZtYzZaZUEzekZlQnBsRVpDQnVFLWh5dzd1ZGo3OXNLdVE5S1ltdGdr?oc=5",
@@ -437,6 +1511,194 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "市場需求與景氣",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:37.898150+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "4104b771ddc56504a6e2",
+      "title": "台股連3漲收復44000點　新台幣升勢乏力收32.86元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hZVlST1p4YTBXNS1YMk1EQ0RuOUVqT2VmWU1wZnkxc0RsclNCN212WXhxd21GUkU3QTdpdkhJM2pIbFhDYXBIclR0N3preVN4QjhmQ0FaWjZ3d9IBX0FVX3lxTFBZTTVhM0F6aWFGVGJON3B3aFdfc1ctUnkxWXhmMV85Q3NGRFlHLW5kVUh1VmVVSU9weldWVHdzSEFMaXZNakVhTmFOcUgwek9sMjJXYXR2T2xfRVFaZzJF?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-11T10:22:09+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:38.370401+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "651267e87968795514ef",
+      "title": "美利達財報／2026年前三季累計 EPS 2.74元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wSTJiMUt2SWRXU3hSOG5JOHZwNVV2dTAwNGRYcUFHOWJQWVl0bGpEMDVPWTZNLXpGYy1zN2RzS0g4cFQ5NklLS1FRRGFXeEtHTnByNC1Qck1TZ9IBX0FVX3lxTE9tZDlnMk9RVk9ycHVKdWRKWThFOXpqaTM2aGN5Z1ZGU042eEt2RlVjUGxycjYwbU5IMmtCNVRJUi1zcmJGQWtUTGhCZENtS3dwUk1vU0hzMmgxNjFxM1dz?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-11T10:02:06+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:38.757466+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "f1718cc3831c45cdd7d6",
+      "title": "亞馬遜發表全新「Ring Robotics」系列，AI 巡邏無人機與機器人顛覆傳統安防 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMzZzTzZHLVc1UjJIWFNwYzdteFQwTmFHR0ZwQTRLMVR2cDdKRWhCU3hFTHlkZEE4a3o4VjFoMDRWZWZZd0dXVFdzNU00RWM0Z1pjdGVmYkx1WW9ERTYxR0FoVENTZi1vVEYwRC1VUTFQUk9EOUtsdXRlbnR4WDFqdFNfdzhlcUU?oc=5",
+      "source": "TechNews 科技新報",
+      "published_at": "2026-11-11T03:04:22+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:39.155439+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "98ba1184d41156422d28",
+      "title": "上銀訂單旺到2027年中，擴產螺桿線軌攻機器人- 新聞 - MoneyDJ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVNHSUgtRHJfakdoNzZuTVhYMm1yU1Z5MU53NU8zRDBPVGxkRkNfanBFenFTcnpvakZSaW1ndkctU3c3YnE2UnRfbFlmTTBJb0t2cUoxbGJUdkJVTUcxMEdxc2NZNnlwdmJzWVFwNmdjcVZRdTBuUUhPZE9CTmZBRnZOd1R5LTd6cHVJWUZrTTJIUQ?oc=5",
+      "source": "MoneyDJ",
+      "published_at": "2026-11-11T01:58:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "8dda7b7a245a4d4b0246",
+      "title": "記憶體教父養出小金雞 下一步要建立本土特殊氣體供應鏈",
+      "url": "https://money.udn.com/money/story/5612/9870493",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "9acaa92a54a3e32065fc",
+      "title": "Helion 11月起供貨 台系供應鏈亮相",
+      "url": "https://www.chinatimes.com/newspapers/20261111000222-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "60bc2046da77baaccdcd",
+      "title": "能源論壇12月2日登場／台電總座郭天合：AI用電 已超前部署",
+      "url": "https://udn.com/news/story/7241/9870494",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "90e997b83c737a7af7cd",
+      "title": "匯率激戰！央行拉尾盤 守住33元",
+      "url": "https://udn.com/news/story/7238/9870555",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "3917f8d274dac1aaf8e1",
+      "title": "Oversonic Robotics takes RoBee R20 humanoid robot to Munich and Lisbon - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVE2bTRTOVQwZ3VTOXViY2kxdTBib3VvOENRM3VpNWRDZWVUQUpHQkRFTHh5S0JyMlQwZGswZFpRakt3RXRDdEFOVlh0cG0xMG5WTlcydHV3ZDZjejhwa0RSZF95RGlWbGZ3M0F0Q0gxeG41MWwtcUVtd0JYMnQ5ODM2ZG9FdGVRR240R2RYM24zNGc2RWVhc0JueHZhRVdKYVJuem93SFVGRW1pMTN1MGVfNTJFQzNZbmo4QUo0NHV3VWpaR0E?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-10T15:58:20+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:25.079720+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "超音速機器人將Robee R20人造機器人帶到慕尼黑和里斯本 - 機器人與自動化新聞",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "6f5454b08d0dae9702f9",
+      "title": "上銀半導體訂單看到2027年中，螺桿線軌持續擴產- 新聞 - MoneyDJ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2p1UmZCb25MM1BSSjlYYzFoZUluaGp2UE5mUEVpMTBkZzhwVElpSmM2VDZyTmd0QlBFRVJmMG5MUjA3YklEeE5xUkM5RjN0TlhhazF2c3A0aWNJS29NNlVaY0gwOHRxYVllYU9sbnpTWGxtNmppQVpfQ3pnZXhublI3QmtvUnZDZXlHWkR5eGZmdw?oc=5",
+      "source": "MoneyDJ",
+      "published_at": "2026-11-10T09:40:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
       "access_status": "not_verified",
       "excerpt": ""
     },
@@ -477,6 +1739,48 @@
       "excerpt": ""
     },
     {
+      "id": "c0b8761afd1ed4759fbb",
+      "title": "Iran war impact on global oil markets - Oil & Gas Journal",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1UVDNzMnV4NzBqQXJ4NUM4OTBKQlJSdnlOQjdGbXlSZkJSMDBvQkJITkgydndPR1ZPZTZPeEpmTjI?oc=5",
+      "source": "Oil & Gas Journal",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "title_zh": "伊朗戰爭對全球石油市場的影響-石油和天然氣雜誌",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "e112a3b41cb1c031ed3f",
+      "title": "Commercial Drones | UAS for Commercial Applications - Unmanned Systems Technology",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TdndCaUplLVRUYlRZdzJHVi1GMTk1eWtvSDFpSjZCdDJHbFNnYUFTamVweERlOE4xb1RBclpZU2lBMEpoYWpVV25wcjlLcG81d3hNQXFlZ3p3UnhyZGpFcFlQN1BhSkROQ1c5MFRUSUlNdHhFZVIyQTRjYXAzQQ?oc=5",
+      "source": "Unmanned Systems Technology",
+      "published_at": "2026-11-09T22:52:04+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:30.039433+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "商用無人駕駛飛機用於商業應用 -- -- 無人駕駛系統技術",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
       "id": "e2fa0811fc012341b366",
       "title": "IMTS Powers September Spike in Metalworking Machinery Orders - National Association of Wholesaler-Distributors",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU0tGcC1XZHNvbGhUcnNnMW1jVHlVYXJEWExZdGRiU05pVWVHd1JxcGRWMTkxdkFtbjY0dWlITzdGUzhPVkh4OWhPblNVVEpNR2RyU1VlWWlDd1E1eHAzNHpVUTl5bVluZHR4N2VIaVBGWlFSVUFCSlkxcG1feUNqWW1DMk5EZmM2Z084VmxMUl84bklt?oc=5",
@@ -491,10 +1795,12 @@
       "region": "北美",
       "language_hint": null,
       "topic": "進出口與訂單趨勢",
-      "access_status": "not_verified",
+      "access_status": "unresolved",
       "excerpt": "",
       "title_zh": "IMTS 金屬加工機械命令中的斯派克權力-全國批發商協會",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "read_checked_at": "2026-11-19T13:28:30.508185+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
     },
     {
       "id": "f9a41c600db35b11e7d4",
@@ -510,7 +1816,10 @@
       "topic": "產業動態",
       "title_zh": "自行車產業觀點：如果 2027 年自行車不再供過於求，會發生什麼事？",
       "translation_method": "manual_headline_translation",
-      "tags": []
+      "tags": [],
+      "access_status": "unresolved",
+      "read_checked_at": "2026-11-19T13:28:30.986723+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
     },
     {
       "id": "3d748b1d3d1b6bb8e84a",
@@ -559,6 +1868,57 @@
       "tags": []
     },
     {
+      "id": "90c91aff78fa1a064c7b",
+      "title": "蘋果進擊機器人 鴻準有望成為大贏家",
+      "url": "https://money.udn.com/money/story/5612/9867940",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "8cf0757fcb7437e69f80",
+      "title": "上銀、雅特力有喜 跟著蘋果搶機器人商機",
+      "url": "https://money.udn.com/money/story/5612/9867939",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "58e74bbaaa0ffa470723",
+      "title": "大陸能源企業爭相研發重點產品 陸鈉離子電池 衝商業化量產",
+      "url": "https://www.chinatimes.com/newspapers/20261110000261-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
       "id": "f2f6fd632b4a9b23cde0",
       "title": "FOX Factory's Q3 Results Reveal a 14.4% Specialty Sports Sales Drop as Bike Inventory Pressures Continue - TodoMountainBike",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHQ5WkJtQlExc0VYMDZiNnNwNWNDVTY0QUR6dmFVdlNITWprMGlGWnVGVTZFcW1UajJ1OGpUdkd6MU1uSFNSSzM5WXRoM2hQQ2x5NDlDeVludHpkM1FiNk41TXZHdFpsYVV2dzN4MlRfTjlHZ2pDQUNKQTZDY3MwR1prc21xVTFKQWhweFdWVHdlUXhaS3c?oc=5",
@@ -572,7 +1932,129 @@
       "topic": "市場需求與景氣",
       "title_zh": "FOX Factory 第三季特殊運動產品銷售下滑 14.4%，自行車庫存壓力持續",
       "translation_method": "manual_headline_translation",
-      "tags": []
+      "tags": [],
+      "access_status": "unresolved",
+      "read_checked_at": "2026-11-19T13:28:25.482664+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "ed1a03222897d66be997",
+      "title": "張建一：新台幣貶過頭　台股大漲匯率跌勢可望告段落 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nX2k0dmw1bmR5UkNVTmpVWDVVU01uLXFsZkFJc3Z1LVpBclpyUEY0MGFYOUpYbkRRck1hZF80YklmTGtheDEtRUE4Tk1TNFFONjVOYVJiTnFid9IBX0FVX3lxTE1laHc5YmdUNHZwOTdIbl9XUHNzN0FaNVRjbmhHWFJTR2VRQU5RTXZoX08wY0pkRHVDTUt1X09kUXJiODRiSjRLZE1obk1BVzRPWkY2RXJwVm1QcFRFajJZ?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "af6409e4873b18b95286",
+      "title": "Tite x IHT 2026: Taiwan Tools Expo Drives Global Growth - ETMM",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0R6Z0Uxd2tsMXJfX1dVb0toTGVSZUpqeGhNQVZhTmJyN1JvYTZOUmQtYlkxVV9hbHkyQlpDSUJGbm1HT3ZrLUV4cXo0UUFKb3lJTEtvZnU5NlM0aWE0eFpoc0FJWUZXckQxYTh0YnhiRXRaUkRGY0ZGUEVtaE5Oa3JSS3B0aC02Q0FWTlp6QU9JeS00MEVXbGpOOHNWb29pbUJkN3FoMWQtMlZzQ3UwbEEwem4tVTZNOHBzczRR?oc=5",
+      "source": "ETMM",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "title_zh": "Tite x IHT 2026:臺灣工具博覽會驅動全球增長-ETMM",
+      "translation_method": "argos_offline_machine_translation",
+      "read_checked_at": "2026-11-19T13:28:25.895322+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
+    },
+    {
+      "id": "cf8e47373c09faa1f7f3",
+      "title": "Fixed Wing Drone | Fixed Wing UAV, UAS Manufacturers - Unmanned Systems Technology",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa182Tl8tXzROMkhBUUM3SXN1SElxTUtZcmRxLUFpNVZoaEpzUktJeG9pYzY1QTYxWVBneWc2T3lQNTZnUGhsbVAwa09DSXlKM2swWVhONGJOMHJLZU81YmdWd0UyckNZVnBOQzQwcG10RnFEdV9MWHBCUm1vRHpHTUVB?oc=5",
+      "source": "Unmanned Systems Technology",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:31.437673+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "固定翼無人駕駛飛行器,無人駕駛飛行器製造商-無人駕駛系統技術",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "2a9462bf4c3ec5c76351",
+      "title": "6 Best Drone Stocks for 2026 and How to Invest - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWt5Z0s0MGJCTG1OS1FTUVM1MHFmSDl3VU54SlRzSHlka2JCb0RIQ1dBMUx0enVybDZ1ZTRQVlA4YWY5emEyT3o3am1oUjJfSVRVeV85VUJQQkRQVFVJTUI2WFdYd0JFUGFMdFFsZENlZ1FDNXppSklULTFMMmJ4ZE5RQnk2aTdfb1owTQ?oc=5",
+      "source": "The Motley Fool",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-19T13:28:26.315937+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article",
+      "title_zh": "6 2026年最佳無人機股票和如何投資-Motley傻瓜",
+      "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "ef7a675fecf2bec35c99",
+      "title": "台股強彈難擋外資匯出 新台幣爆量重貶逾1角收32.882元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QY2g5TjVuSV9LQVVjQ1QwbEZIOG1lVEF0bWdCaVhUcU10emNuNkYzdFJibnAxeUdiYXphWFdnM2NCVlN1UVJTMFc4Vlh2eHdJR2ZlZ1FGZ3ZGZ9IBX0FVX3lxTFBPOVFmMWN3bWJtdmNGeFdRV1p3endzTmtqVEdjU0JiUjV5OVB2MkVoSHdiQVZUMGl5LVdLR2dfZ1ZBUm0tS3d0b0NvSG5KZ2VlcVRBWEtKdGR6X0RXaGFn?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "fff27b2884a0151eacfb",
+      "title": "護駕到資本市場有底氣》新台幣重貶傳產迎雙面刃- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PR0xVaDBpUVVkQThDTEdKRXdsSzhwT2t1dThucThqXzVlX3kwNHdPLTJoXzJNZEdIbkhfUXNlQ2RuOVpGbTFOTENfQWM1TXU5ZVBoVC1MYlN3VDFxT0pv?oc=5",
+      "source": "工商時報",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "c496b1ae0cad792b581e",
@@ -589,29 +2071,12 @@
       "region": "亞洲",
       "language_hint": null,
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
+      "access_status": "unresolved",
       "excerpt": "",
       "title_zh": "2026 腳踏車產業貿易和關稅最新訊息 - People Forbikes",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "af6409e4873b18b95286",
-      "title": "Tite x IHT 2026: Taiwan Tools Expo Drives Global Growth - ETMM",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0R6Z0Uxd2tsMXJfX1dVb0toTGVSZUpqeGhNQVZhTmJyN1JvYTZOUmQtYlkxVV9hbHkyQlpDSUJGbm1HT3ZrLUV4cXo0UUFKb3lJTEtvZnU5NlM0aWE0eFpoc0FJWUZXckQxYTh0YnhiRXRaUkRGY0ZGUEVtaE5Oa3JSS3B0aC02Q0FWTlp6QU9JeS00MEVXbGpOOHNWb29pbUJkN3FoMWQtMlZzQ3UwbEEwem4tVTZNOHBzczRR?oc=5",
-      "source": "ETMM",
-      "published_at": "2026-11-09T08:00:00+00:00",
-      "discovered_at": "2026-11-19T05:18:07.202385+00:00",
-      "industries": [
-        "手工具"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "歐洲",
-      "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "title_zh": "Tite x IHT 2026:臺灣工具博覽會驅動全球增長-ETMM",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "read_checked_at": "2026-11-19T13:28:32.298751+00:00",
+      "read_reason": "Google News URL and free publisher search could not find a verified article"
     },
     {
       "id": "be6a4218582c23ef393b",
@@ -655,6 +2120,74 @@
       "tags": []
     },
     {
+      "id": "141a938fff5e49d409e7",
+      "title": "台積電強化整頓供應鏈 沒改善就掉單",
+      "url": "https://money.udn.com/money/story/5612/9865607",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "316f51469b39c62b47ea",
+      "title": "全球市場觀測站／AI基建供應鏈 遭重擊",
+      "url": "https://udn.com/news/story/10103/9865541",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "0753122620a68249ec63",
+      "title": "打入蘋果折疊機供應鏈 運錩迎新一波拉貨商機",
+      "url": "https://udn.com/news/story/7252/9865672",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "e6d8bd14199d1cc208d3",
+      "title": "能源論壇12月2日登場／能源署長吳志偉：增建機組 滿足 AI 用電",
+      "url": "https://udn.com/news/story/7238/9865736",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-08T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
       "id": "777e32e3becf6cafecb9",
       "title": "經部旗艦臺灣館首結合AAPEX及SEMA 同步搶攻北美汽車零配件及改裝車商機 - 中央社 CNA",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tZlFUejdlWTE2RHpvOE9WS1lMb0ZqdnFPaG56WER1U2JZT2dKcElTWTdpM0E3UDhsTmJrRmdnR25WZmk4Mm42OG5OWTB5SEJOV3NlTWJR?oc=5",
@@ -694,13 +2227,115 @@
       "summary_zh": "美國民主黨在期中選舉掀起「藍潮」大勝拿下國會，川普未來兩年內政施政受阻，可能把更多心力轉向外交和貿易，爭取政績。關稅仍是他不願放手的工具，伊朗戰爭則讓他面臨降低物價和維持施壓的兩難。從美中談判到台灣軍售，接下來要看他如何運用手中權力，以及新國會能制衡多少。\n\n彭博指出，歷任總統在任期下半場失去國會支持後，往往更積極尋求外交突破，川普也可能藉重大談判、國際協議或軍事行動，留下政績。當前議題包括伊朗戰爭、俄烏談判，以及和俄國總統普亭、大陸國家主席習近平的會面安排。川普可能尋求協議，也可能加強施壓，甚至在明年一月新國會就任前加快行動。\n\n伊朗戰爭推高能源價格、加重生活負擔，成為共和黨敗選主因。川普若能與伊朗達成協議，有助減輕國內壓力，也能宣揚外交成果。但他仍未排除再次攻擊伊朗。\n\n國會可透過國防預算施壓。川普提出二○二七會計年度一點五兆美元國防預算，比前一年增加百分之四十四，連共和黨內都有人質疑。民主黨接掌國會後，恢復戰事和補充彈藥所需經費可能更難取得支持。\n\n關稅是另一個爭議。關稅不只是川普的貿易政策，也是外交施壓和報復工具。民主黨掌握兩院要大幅改寫關稅政策，仍須面對參院議事門檻和總統否決權。\n\n外交關係協會資深研究員林賽認為，川普將反對限制關稅權力法案，法案若遭總統否決，則須兩院各有三分之二票數才能推翻，民主黨的席次不足以跨過這些門檻。分析人士預期，關稅將繼續存在，但可能更集中於特定",
       "summary_status": "source_excerpt_translated",
       "tags": []
+    },
+    {
+      "id": "ef40bb70f49bf16768d0",
+      "title": "中加相互豁免關稅延長兩年…加國豌豆、龍蝦等維持低稅率 陸鋼鋁比照辦理",
+      "url": "https://udn.com/news/story/6811/9860667",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "56bacd8f764108d77e42",
+      "title": "共和黨失利 關稅談判恐再起",
+      "url": "https://www.chinatimes.com/newspapers/20261106000286-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "716d8f5401696553c2dc",
+      "title": "陸傳封殺軟銀54億美元併購案 ABB機器人事業交易遭否決 孫正義實體AI布局受挫",
+      "url": "https://money.udn.com/money/story/5599/9860630",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "142222a9b2cc785f5c12",
+      "title": "陸企仿生機器人大戰 開打",
+      "url": "https://www.chinatimes.com/newspapers/20261106000347-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "b8975b450de0bd5fe263",
+      "title": "美AI基建急煞 衝擊亞洲供應鏈",
+      "url": "https://www.chinatimes.com/newspapers/20261106000627-260110?utm_source=iii_news&utm_medium=rss",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "f56fb9bb45362f78e692",
+      "title": "台塑集團擴大新能源版圖 國產電芯產能拚倍增搶攻商機",
+      "url": "https://money.udn.com/money/story/5612/9860680",
+      "source": "ITIS 每日新聞所引述的原始媒體",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
     }
   ],
   "itis_discovery": {
-    "checked_at": "2026-11-19T12:45:33.183740+00:00",
+    "checked_at": "2026-11-19T13:27:37.289709+00:00",
     "days_with_direct_links": 10,
-    "new_items": 0
+    "new_items": 27
   },
   "daily_category_cap": 8,
-  "daily_selection_limit_note": "每個產業以首次收錄日期計算，每日最多8則；舊日新聞在30日內保留"
+  "daily_selection_limit_note": "每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留"
 }
