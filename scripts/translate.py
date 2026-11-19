@@ -28,7 +28,7 @@ def main():
     source_texts = json.loads(raw_file.read_text(encoding="utf-8")) if raw_file.exists() else {}
     needed = set()
     for x in entries:
-        if not x.get("title_zh") and (lang := language(x.get("title", ""))):
+        if not x.get("title_zh") and (lang := x.get("language_hint") or language(x.get("title", ""))):
             needed.add(lang)
         if x.get("excerpt") and not x.get("excerpt_translation_zh") and (lang := language(x["excerpt"])):
             needed.add(lang)
@@ -68,7 +68,7 @@ def main():
         return bycode[src].get_translation(bycode["zh"]).translate(text)
     for x in entries:
         original = x.get("title","")
-        src = language(original)
+        src = x.get("language_hint") or language(original)
         if src and not x.get("title_zh") and src in bycode and "zh" in bycode:
             try:
                 translation=translate_to_zh(original,src)
@@ -114,7 +114,9 @@ def main():
                 x["summary_zh"]=selected[:600]
                 x["summary_status"]="source_excerpt_translated"
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("Translated titles:",count, "total:",len(entries))
+    untranslated=[x for x in entries if not x.get("title_zh") and (x.get("language_hint") or language(x.get("title","")))]
+    print("Translated titles:",count,"total:",len(entries),"foreign titles still missing Chinese:",len(untranslated))
+    for x in untranslated[:10]: print("MISSING TITLE TRANSLATION:",x.get("region"),x.get("title","")[:100])
 
 if __name__=="__main__":
     main()
