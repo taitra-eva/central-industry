@@ -17,6 +17,9 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python scripts/collect.py
+      - name: Discover relevant articles from ITIS daily news
+        run: python scripts/collect_itis_daily.py
+        continue-on-error: true
       - name: Read free public original articles
         run: python scripts/read_articles.py
       - name: Translate available titles and publisher excerpts offline
