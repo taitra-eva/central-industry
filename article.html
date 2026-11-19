@@ -19,12 +19,12 @@ const tags=document.createElement('div');root.appendChild(tags);
 for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
 add(root,'h2','繁體中文重點整理');
-if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){
+if(x.summary_zh&&x.summary_status==='verified'){
  add(root,'p',x.summary_zh);
- if(x.summary_status==='source_excerpt_translated')add(root,'p','本段為來源提供的摘要片段之機器翻譯，並非全文摘要；可能未涵蓋全部報導細節。','meta');
- else add(root,'p','依可合法取得的原始報導資訊整理；建議與下方來源交叉查證。','meta');
+ add(root,'p','依取得的原始報導內容整理；公司、數據和事件以原文為準。','meta');
 }else{
- add(root,'div','目前尚未取得足夠的原文內容，無法產生可靠的繁體中文重點整理；本站不根據標題自行補寫公司、數字或事件細節。','pending');
+ add(root,'div',x.access_status==='blocked'?'新聞網站不允許機器讀取全文。':'目前尚未取得足夠的原文內容，無法產生可靠的繁體中文重點整理。','pending');
+ add(root,'p','（本新聞涉及'+(x.topic||'產業動態')+'；僅依已取得的標題與分類資訊判定，並非全文摘要。）','meta');
 }
 if(x.impact_zh){add(root,'h2','對台灣中部產業的可能影響');add(root,'p',x.impact_zh);add(root,'p','此為分析判斷，並非已證實的訂單或市場變化。','meta');}
 root.appendChild(document.createElement('hr'));
