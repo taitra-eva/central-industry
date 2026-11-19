@@ -27,10 +27,10 @@ GENERAL_POLITICS = (
     "美國期中選舉", "國會選舉", "政治評論", "election prediction",
 )
 SUBSTANTIVE = (
-    "製造", "工業", "產業", "企業", "廠商", "供應鏈", "出口", "外銷", "進口",
+    "製造", "工業生產", "工廠", "供應鏈", "出口", "外銷", "進口",
     "關稅", "匯率", "新台幣", "日圓", "歐元", "外匯", "能源", "油價", "原油", "航運", "運費", "港口", "物流", "原物料",
     "鋼", "銅", "鋁", "機械", "工具", "水五金", "汽車", "自行車", "無人", "機器人",
-    "factory", "manufacturer", "manufacturing", "industrial", "industry", "supply",
+    "factory", "manufacturer", "manufacturing", "industrial production", "supply chain",
     "tariff", "exchange rate", "currency", "forex", "exports", "imports", "trade", "energy", "oil", "crude",
     "shipping", "freight", "port", "steel", "copper", "aluminum", "robot",
     "automotive", "bicycle", "machine tool", "hardware",
