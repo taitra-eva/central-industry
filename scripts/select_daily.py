@@ -10,6 +10,7 @@ Rules:
 import json
 import re
 from collections import defaultdict
+from industry_entities import entity_event
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -40,6 +41,8 @@ def relevant_to_sector(article,sector,verified):
     if any(word.casefold() in title for word in BAD_HEADLINE):return False
     terms=SECTOR_TERMS.get(sector,())
     if any(term.casefold() in title for term in terms):
+        return True
+    if entity_event(title,sector):
         return True
     # A verified source-backed editorial summary can independently establish
     # industry relevance, even if a headline only names the manufacturer.
