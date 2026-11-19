@@ -6,7 +6,6 @@ blocks reading, retain that article as an independent item.
 """
 import json
 import re
-from difflib import SequenceMatcher
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -34,7 +33,12 @@ def proven_duplicate(a,b,texts):
     na=normalize(ta);nb=normalize(tb)
     if not na or not nb:return False
     if min(len(na),len(nb))/max(len(na),len(nb))<.88:return False
-    if SequenceMatcher(None,na[:8500],nb[:8500],autojunk=False).ratio()<.94:return False
+    # 9-character content shingles compare full factual text, not just topic.
+    # Fast enough to run across daily batches without expensive O(n²) alignment.
+    shingles=lambda x:set(x[i:i+9] for i in range(0,max(0,len(x)-8),4))
+    sa=shingles(na[:8500]);sb=shingles(nb[:8500])
+    if not sa or not sb:return False
+    if len(sa&sb)/len(sa|sb)<.89:return False
     nums=lambda text:set(x for x in re.findall(r"\d+(?:[.,]\d+)?",text) if len(x)>=3)
     a_nums=nums(na);b_nums=nums(nb)
     if a_nums and b_nums and len(a_nums&b_nums)/min(len(a_nums),len(b_nums))<.85:
