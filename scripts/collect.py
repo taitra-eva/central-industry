@@ -50,7 +50,29 @@ for query in cfg:
             excerpt=plain if len(plain)>120 and title.casefold() not in plain.casefold() and len(re.findall(r'http',plain))==0 else ''
             topics=[('政策與貿易措施',['tariff','關稅','regulation','policy','法規','補貼']),('供應鏈與原物料',['steel','鋼','鋁','material','supply chain','原料']),('進出口與訂單趨勢',['export','import','出口','進口','訂單','orders']),('市場需求與景氣',['market','demand','sales','庫存','需求','景氣']),('技術發展與產業轉型',['automation','technology','技術','自動化'])]
             topic=next((t for t,terms in topics if any(term in low for term in terms)),'產業動態')
-            news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']],'region':query['region'],'topic':topic,'access_status':'not_verified','excerpt':excerpt}
+            # Shared macro/policy events are a separate discovery category. Add other
+            # industry labels only when the headline explicitly names their subject.
+            extra_industries=[]
+            if query['industry']=='共通政策與國際情勢':
+                industry_terms={
+                    '機械':['工具機','機械','machine tool','machinery','cnc'],
+                    '自行車':['自行車','bicycle','e-bike','bike industry'],
+                    '汽配':['汽車零件','汽車零組件','auto parts','automotive parts','aftermarket'],
+                    '手工具':['手工具','五金工具','hand tool','repair tools'],
+                    '無人載具及機器人':['無人機','機器人','drone','robotics','unmanned']
+                }
+                extra_industries=[industry for industry,terms in industry_terms.items() if any(t in low for t in terms)]
+            tags=[]
+            for tag,words in {
+                '國內政策':['法規','補助','政策','經濟部','產發署'],
+                '國際政策':['tariff','關稅','sanctions','制裁','trade policy'],
+                '地緣政治':['war','conflict','戰爭','地緣'],
+                '上游原物料':['鋼鐵','鋁','銅','能源','oil price','steel','raw material'],
+                '物流供應鏈':['航運','運費','物流','shipping','supply chain'],
+                '台灣產業':['台灣','臺灣','taiwan']
+            }.items():
+                if any(word in low for word in words):tags.append(tag)
+            news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']]+extra_industries,'tags':tags,'priority':'taiwan' if query['region']=='台灣' else 'international','region':query['region'],'topic':topic,'access_status':'not_verified','excerpt':excerpt}
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
