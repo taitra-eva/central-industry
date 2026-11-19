@@ -61,7 +61,7 @@ for query in cfg:
             plain=unescape(re.sub(r'<[^>]+>',' ',e.get('summary','')))
             plain=' '.join(plain.split())
             excerpt=plain if len(plain)>120 and title.casefold() not in plain.casefold() and len(re.findall(r'http',plain))==0 else ''
-            topics=[('政策與貿易措施',['tariff','關稅','regulation','policy','法規','補貼']),('供應鏈與原物料',['steel','鋼','鋁','material','supply chain','原料']),('進出口與訂單趨勢',['export','import','出口','進口','訂單','orders']),('市場需求與景氣',['market','demand','sales','庫存','需求','景氣']),('技術發展與產業轉型',['automation','technology','技術','自動化'])]
+            topics=[('匯率與出口競爭力',['匯率','新台幣','日圓','歐元','exchange rate','forex','currency']),('政策與貿易措施',['tariff','關稅','regulation','policy','法規','補貼']),('供應鏈與原物料',['steel','鋼','鋁','material','supply chain','原料']),('進出口與訂單趨勢',['export','import','出口','進口','訂單','orders']),('市場需求與景氣',['market','demand','sales','庫存','需求','景氣']),('技術發展與產業轉型',['automation','technology','技術','自動化'])]
             topic=next((t for t,terms in topics if any(term in low for term in terms)),'產業動態')
             # Shared macro/policy events are a separate discovery category. Add other
             # industry labels only when the headline explicitly names their subject.
