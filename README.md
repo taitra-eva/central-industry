@@ -33,3 +33,13 @@ GitHub Pages website for public news indexing covering 機械、自行車、汽�
 - config/queries.json：各產業與地區新聞搜尋條件
 - config/sources.json：候選專業媒體與官方來源（**尚未驗證直接可自動擷取**）
 - scripts/collect.py：RSS 新聞索引蒐集程式
+
+## 2026-11-19 新增功能
+
+- 第五個分類「無人載具及機器人」，含台灣、美國、歐洲、日本共 4 組搜尋。
+- 每天台灣時間 09:00 排程執行一次（GitHub Actions 實際啟動可能延遲）。
+- `data/news.json` 不再只保留 1,200 筆；新增 `data/archive/YYYY-MM-DD.json` 每日新聞蒐集快照，隨 Actions 提交 GitHub。資料持續累積時仍須留意檔案及 GitHub Pages 使用限制。
+- 新聞列表點擊後先前往 `article.html?id=...`，依序顯示中文摘要區、原文標題與原始來源連結。
+- **目前尚未實作 AI 摘要產生器**：因現有 RSS 僅有標題資訊，不能捏造摘要；未取得足夠原文時，頁面會清楚標示「尚未完成」。
+- 寄送每日郵件**尚未啟用**：需確認指定收件信箱、授權寄信方式及寄信服務是否符合零額外費用限制。信件未來可提供站內文章網址，讓收件者閱讀已有的繁體中文摘要。
+- 原文不直接全文複製到本站，除非來源授權或有其他合法取得條件。
