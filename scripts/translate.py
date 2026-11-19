@@ -6,6 +6,7 @@ import json
 import re
 from html import unescape
 from pathlib import Path
+from topic_taxonomy import normalize_article
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/news.json"
@@ -113,6 +114,7 @@ def main():
             elif selected and not lang:
                 x["summary_zh"]=selected[:600]
                 x["summary_status"]="source_excerpt_translated"
+    for x in entries: normalize_article(x)
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     untranslated=[x for x in entries if not x.get("title_zh") and (x.get("language_hint") or language(x.get("title","")))]
     print("Translated titles:",count,"total:",len(entries),"foreign titles still missing Chinese:",len(untranslated))
