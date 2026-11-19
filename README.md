@@ -130,3 +130,15 @@ GitHub Pages website for public news indexing covering 機械、自行車、汽�
 - 需要由儲存庫擁有者在 GitHub **Settings → Secrets and variables → Actions → New repository secret** 設定 `GROQ_API_KEY`，金鑰僅存 GitHub Secret，**絕不能寫入程式、貼到聊天或提交到 repository**。到 https://console.groq.com/keys 建立。隨後在 https://github.com/taitra-eva/central-industry/actions/workflows/daily.yml 執行 workflow。
 - 文章閱讀之後是否成功，需看工作紀錄中的 `Publisher article read results:`、`Original URL resolution:`、`AI summary finished:`。尚未有透過 GitHub Actions 成功完成端對端 AI 推論的實際驗收。
 - 特別案例「伯鑫工具串聯同業與加工夥伴 組成六強聯盟」，已改用經確認的經濟日報直連 https://money.udn.com/money/story/11799/9887094 並根據公開報導補上查證後摘要與觀察重點；不是假定已經執行 Groq。
+
+## 2026-11-19：新聞品質／固定 TAG 管理（依使用者截圖修復）
+- 資料庫刪除不符合產業情報需求的「東海大學躍上台美半導體合作舞台」大學人才宣傳文，以及 ETO Markets 美股交易促銷文（其 `title_zh` 曾被擷取成「版權所有。」）。這兩篇 ID 被加入 `config/excluded_news_ids.json`，避免重複收入。
+- `scripts/relevance.py` 新增大學人才／品牌合作宣傳排除、金融交易推銷，以及著作權／網頁導覽文字排除。該大學報導是否為付費廣告**未查證**，排除理由是與目標製造業新聞的直接關聯不足，而非認定其屬付費廣告。
+- 固定的主題標籤放在 `config/topic_taxonomy.json`，共九個：
+  1. 產業動態；2. 市場需求與景氣；3. 進出口與訂單趨勢；
+  4. 政策與貿易措施；5. 供應鏈與原物料；6. 物流與航運；
+  7. 匯率與出口競爭力；8. 技術發展與產業轉型；9. 國際情勢與能源。
+- 每篇新聞顯示「地區、產業（可跨產業）、資訊屬性（唯一主題）」三類 TAG，不再把「手工具業者」「金屬加工協作」等臨時自由標籤顯示在網頁上。現有306則新聞已重設資訊屬性，移除自由 TAG。
+- 歷史新聞資料庫加上第三個下拉選單「資訊屬性」，可依九種標準類型過濾；可以與產業、地區及文字搜尋並用。
+- RSS、ITIS、離線翻譯、AI分析資料回寫都已加入標籤正規化步驟，降低日後重新產生不統一標籤的問題。
+- 目前仍是規則分類，尚不能聲稱每篇已完成生成式 AI 語意分類；未來須檢查模型實際讀取原文成功率。
