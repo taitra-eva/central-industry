@@ -7,6 +7,7 @@ from urllib.parse import quote
 from zoneinfo import ZoneInfo
 import requests, feedparser
 from relevance import should_keep, is_government_source
+from topic_taxonomy import normalize_article
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
@@ -104,7 +105,7 @@ for query in cfg:
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
-items=sorted((n for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
+items=sorted((normalize_article(n) for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF and should_keep(n.get('title',''), '總體情勢' if n.get('industries')==['總體情勢'] else None)[0]),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
 # News.json is the 30-day online archive. Avoid daily duplicate snapshots
 # to reduce repository growth. Existing snapshots are removed from the working tree;
 # historical Git commits may still retain those blobs until repository maintenance.
