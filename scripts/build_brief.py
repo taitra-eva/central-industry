@@ -1,6 +1,6 @@
 """Build source-backed, non-generative industry briefs.
 
-Groups same-topic reports using conservative, explicit labels; no paid AI/API
+Lists source-confirmed articles independently; no paid AI/API
 and no invented impact ratings. Stores only small source-based snippets,
 article IDs and date metadata. A future generative model can replace the
 source-passage previews with well-attributed, reviewed analysis.
@@ -33,20 +33,10 @@ THEMES=[
 ]
 
 def event_key(item):
-    title=((item.get("title_zh") or "")+" "+(item.get("title") or "")).casefold()
-    # The oil topic intentionally groups coverage into one issue rather than
-    # calling all reports duplicate. Individual articles remain accessible.
-    for key,label,terms,industry in THEMES:
-        if key=="oil-middle-east":
-            if item.get("industries") and "總體情勢" in item["industries"] and any(t in title for t in terms):
-                return key,label
-        elif industry in item.get("industries",[]):
-            if key.startswith(("machine-apple","robot-eink","robot-jialianyi","robot-robotready","robot-aeon","tariff-steel-eu","foxconn-auto")):
-                if all(t in title for t in terms): return key,label
-            elif any(t in title for t in terms):
-                return key,label
-    # Unique fallback: keep individual articles, rather than grouping on one
-    # overly broad keyword and accidentally hiding a distinct development.
+    """Only content-confirmed identical reports have already been deduplicated.
+    Never merge separate developments merely because they concern oil,
+    robots, steel, or other shared industry themes.
+    """
     return "article-"+item["id"],item.get("title_zh") or item.get("title") or "未命名事件"
 
 def summary_preview(item, limit=175):
