@@ -27,3 +27,8 @@ ITIS 智網公開產業評析,機械；汽配；手工具；無人載具及機�
 ITIS 每日重點新聞,六大分類,台灣,https://www.itis.org.tw/ITIS_Publish/ITISNEWS_New_One.aspx?td=YYYY/MM/DD,日期頁嘗試擷取原文媒體連結,47,讀取率依實際原始媒體而定,待審核,查詢條件或日期來源，尚非直接RSS訂閱
 台灣車輛工業同業公會（查詢條件）,汽配,台灣,https://www.ttvma.org.tw/,Google News site: 搜尋,0,未驗證,待審核,查詢條件或日期來源，尚非直接RSS訂閱
 台灣手工具產業網站（查詢條件）,手工具,台灣,https://www.taiwanhandtools.com.tw/,Google News site: 搜尋,0,未驗證,待審核,查詢條件或日期來源，尚非直接RSS訂閱
+中央社 CNA 產經,六大產業相關（依查詢條件）,台灣,https://www.cna.com.tw/list/aec.aspx,Google News site: 指定網站搜尋；非直接RSS訂閱,0,新納入，尚待Workflow驗證,待審核,已查證公開產業分類及RSS頁；只收錄公開新聞內容，不代表已串接官方RSS
+經濟日報,六大產業相關（依查詢條件）,台灣,https://money.udn.com/money/,Google News site: 指定網站搜尋；非直接RSS訂閱,0,新納入，尚待Workflow驗證,待審核,主要透過 site:money.udn.com 查找六大類產業動態
+工商時報,六大產業相關（依查詢條件）,台灣,https://www.ctee.com.tw/,Google News site: 指定網站搜尋；非直接RSS訂閱,0,新納入，尚待Workflow驗證,待審核,部分全文需訂閱；未通過免費可讀檢查者不得作全文摘要
+MoneyDJ 理財網,六大產業相關（依查詢條件）,台灣,https://www.moneydj.com/,Google News site: 指定網站搜尋；非直接RSS訂閱,0,新納入，尚待Workflow驗證,待審核,檢索製造業、工具機、供應鏈，排除股價薦股與投資促銷
+科技新報 TechNews,六大產業相關（依查詢條件）,台灣,https://technews.tw/,Google News site: 指定網站搜尋；非直接RSS訂閱,0,新納入，尚待Workflow驗證,待審核,只檢索機器人、無人機製造與供應鏈
