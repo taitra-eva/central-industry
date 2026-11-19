@@ -260,9 +260,13 @@
       "published_at": "2026-11-19T02:02:09+00:00",
       "discovered_at": "2026-11-19T08:03:42.337769+00:00",
       "industries": [
-        "總體情勢"
+        "手工具",
+        "機械與金屬加工"
       ],
-      "tags": [],
+      "tags": [
+        "手工具業者",
+        "金屬加工協作"
+      ],
       "priority": "taiwan",
       "region": "台灣",
       "language_hint": null,
