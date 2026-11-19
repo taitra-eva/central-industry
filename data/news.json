@@ -271,10 +271,11 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
+      "access_status": "not_verified",
       "excerpt": "",
       "read_checked_at": "2026-11-19T08:34:14.039042+00:00",
-      "read_reason": "Google News did not provide a usable publisher URL"
+      "read_reason": "原始網址已由公開搜尋確認；全文尚待工作流程讀取驗證",
+      "source_url": "https://money.udn.com/money/story/11799/9887094"
     },
     {
       "id": "8de726c4bc969cec3b08",
