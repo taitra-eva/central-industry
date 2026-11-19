@@ -1,24 +1,24 @@
 {
   "queries": [
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "台灣 工具機 工業 機械 訂單"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "北美",
       "q": "machine tools manufacturing orders CNC US",
       "locale": "en-US"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "歐洲",
       "q": "European machine tools manufacturing demand",
       "locale": "en-US"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "亞洲",
       "q": "日本 工作機械 受注 日刊工業新聞",
       "locale": "ja-JP"
@@ -116,12 +116,12 @@
       "locale": "ja-JP"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:ma-online.com.tw 工具機 零組件 產業"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:tmba.org.tw 工具機 會員 廠商 訂單"
     },
@@ -190,7 +190,7 @@
       "locale": "ja-JP"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:itis.org.tw/NetReport_Detail.aspx 工具機 機械 產業"
     },
@@ -293,7 +293,7 @@
       "locale": "ja-JP"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "亞洲",
       "q": "日本 工具機 受注 生産 企業 2026",
       "locale": "ja-JP"
@@ -329,7 +329,7 @@
       "locale": "zh-TW"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "亞洲",
       "q": "South Korea Southeast Asia machine tool factories manufacturers orders",
       "locale": "en-US"
@@ -383,25 +383,25 @@
       "locale": "zh-TW"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:money.udn.com 工具機 機械 訂單 精密零組件",
       "locale": "zh-TW"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:cna.com.tw 工具機 機械 出口 設備",
       "locale": "zh-TW"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:ctee.com.tw 工具機 機電 設備 廠商",
       "locale": "zh-TW"
     },
     {
-      "industry": "機械",
+      "industry": "機械與金屬加工",
       "region": "台灣",
       "q": "site:moneydj.com 工具機 傳動 滾珠螺桿 機械",
       "locale": "zh-TW"
@@ -489,6 +489,66 @@
       "region": "台灣",
       "q": "site:technews.tw 機器人 無人機 台灣 產業",
       "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "台灣 木工機械 木工機 木工設備 業者 訂單",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "台灣 精密機械 CNC 加工 精密零件 製造業",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "台灣 金屬加工 車銑複合 鈑金 沖壓 鑄造 鍛造 訂單",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "台中 彰化 金屬加工 客製化 零配件 代工 訂單",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "site:money.udn.com 木工機 精密機械 金屬加工",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "site:ctee.com.tw 木工機械 金屬加工 CNC 客製化",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "台灣",
+      "q": "site:cna.com.tw 金屬加工 精密製造 木工機",
+      "locale": "zh-TW"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "歐洲",
+      "q": "European woodworking machinery precision machining metal fabrication suppliers orders",
+      "locale": "en-US"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "北美",
+      "q": "US contract metal manufacturing CNC job shop woodworking machinery industry",
+      "locale": "en-US"
+    },
+    {
+      "industry": "機械與金屬加工",
+      "region": "亞洲",
+      "q": "日本 木工機械 精密加工 金属加工 受注",
+      "locale": "ja-JP"
     }
   ]
 }
