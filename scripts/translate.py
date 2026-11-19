@@ -34,7 +34,9 @@ def main():
         print("No foreign items to translate")
         return
     installed = {(p.from_code,p.to_code) for p in argostranslate.package.get_installed_packages()}
-    required = {(lang,"zh") for lang in needed}
+    required = {("en","zh")} if needed else set()
+    if "ja" in needed:
+        required.add(("ja","en"))
     missing = required - installed
     if missing:
         try:
@@ -52,12 +54,20 @@ def main():
     langs = argostranslate.translate.get_installed_languages()
     bycode = {x.code:x for x in langs}
     count=0
+    def translate_to_zh(text, src):
+        if "zh" not in bycode or src not in bycode:
+            return None
+        if src=="ja":
+            if "en" not in bycode:return None
+            english=bycode["ja"].get_translation(bycode["en"]).translate(text)
+            return bycode["en"].get_translation(bycode["zh"]).translate(english)
+        return bycode[src].get_translation(bycode["zh"]).translate(text)
     for x in entries:
         original = x.get("title","")
         src = language(original)
         if src and not x.get("title_zh") and src in bycode and "zh" in bycode:
             try:
-                translation=bycode[src].get_translation(bycode["zh"]).translate(original)
+                translation=translate_to_zh(original,src)
                 if translation and translation.strip()!=original.strip():
                     x["title_zh"]=converter.convert(translation.strip())
                     x["translation_method"]="argos_offline_machine_translation"
@@ -69,7 +79,7 @@ def main():
         if len(excerpt)>90 and src and not x.get("summary_zh") and src in bycode and "zh" in bycode:
             try:
                 excerpt=unescape(re.sub("<[^>]+>"," ",excerpt))
-                translation=bycode[src].get_translation(bycode["zh"]).translate(excerpt[:1200])
+                translation=translate_to_zh(excerpt[:1200],src)
                 if translation and translation.strip()!=excerpt.strip():
                     x["summary_zh"]=converter.convert(translation.strip())[:450]
                     x["summary_status"]="source_excerpt_translated"
