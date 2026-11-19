@@ -87,6 +87,28 @@
       "industry": "手工具",
       "region": "日本",
       "q": "日本 作業工具 DIY ホームセンター 市場"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "台灣 無人機 無人載具 機器人 供應鏈 產業"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "北美",
+      "q": "US drone unmanned vehicle robotics manufacturers supply chain",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "歐洲",
+      "q": "European robotics unmanned systems industrial drones market",
+      "locale": "en-US"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "日本",
+      "q": "日本 ロボット 無人機 ドローン 産業 市場"
     }
   ]
 }
