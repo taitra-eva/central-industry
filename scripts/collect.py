@@ -81,7 +81,7 @@ for query in cfg:
                     '機械與金屬加工':['工具機','機械','木工機','木工機械','精密機械','金屬加工','精密加工','鈑金','沖壓','鍛造','鑄造','metal fabrication','precision machining','woodworking machinery','machine tool','machinery','cnc'],
                     '自行車':['自行車','電動自行車','電動輔助自行車','電動二輪車','電動三輪車','三輪車','電動機車','bicycle','e-bike','ebike','electric bicycle','electric two-wheeler','electric tricycle','e-trike','pedelec'],
                     '汽配':['汽車零件','汽車零組件','auto parts','automotive parts','aftermarket'],
-                    '手工具':['手工具','五金工具','hand tool','repair tools'],
+                    '手工具':['手工具','五金工具','氣動工具','電動工具','園藝工具','園林工具','hand tool','repair tools','power tools','pneumatic tools','garden tools','outdoor power equipment'],
                     '無人載具及機器人':['無人機','機器人','drone','robotics','unmanned']
                 }
                 extra_industries=[industry for industry,terms in industry_terms.items() if any(t in low for t in terms)]
