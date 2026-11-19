@@ -53,7 +53,7 @@ for query in cfg:
             # Shared macro/policy events are a separate discovery category. Add other
             # industry labels only when the headline explicitly names their subject.
             extra_industries=[]
-            if query['industry']=='共通政策與國際情勢':
+            if query['industry']=='總體情勢':
                 industry_terms={
                     '機械':['工具機','機械','machine tool','machinery','cnc'],
                     '自行車':['自行車','bicycle','e-bike','bike industry'],
