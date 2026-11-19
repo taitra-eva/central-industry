@@ -6,12 +6,12 @@
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 79,
+      "articles": 78,
       "readable": 29
     },
     {
       "name": "機械與金屬加工",
-      "articles": 69,
+      "articles": 70,
       "readable": 0
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "手工具",
-      "articles": 5,
+      "articles": 6,
       "readable": 0
     },
     {
