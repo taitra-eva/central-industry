@@ -187,6 +187,26 @@
       "industry": "無人載具及機器人",
       "region": "日本",
       "q": "site:robot-digest.com 産業用ロボット 導入 メーカー"
+    },
+    {
+      "industry": "機械",
+      "region": "台灣",
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 工具機 機械 產業"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 手工具 水五金 產業"
+    },
+    {
+      "industry": "汽配",
+      "region": "台灣",
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 車輛 汽車零組件"
+    },
+    {
+      "industry": "無人載具及機器人",
+      "region": "台灣",
+      "q": "site:itis.org.tw/NetReport_Detail.aspx 無人機 機器人"
     }
   ]
 }
