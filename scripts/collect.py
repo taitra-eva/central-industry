@@ -9,6 +9,7 @@ import requests, feedparser
 ROOT=Path(__file__).resolve().parents[1]
 NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
+PUBLICATION_WINDOW=NOW-timedelta(days=14)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
@@ -31,7 +32,7 @@ for query in cfg:
             if e.get('published_parsed'):
                 import calendar
                 published=datetime.fromtimestamp(calendar.timegm(e.published_parsed),timezone.utc).isoformat()
-                if datetime.fromisoformat(published)<CUTOFF:continue
+                if datetime.fromisoformat(published)<PUBLICATION_WINDOW:continue
             norm=re.sub(r'\W+','',title.casefold())
             uid=hashlib.sha256(norm.encode()).hexdigest()[:20]
             if uid in news:
@@ -54,22 +55,13 @@ for query in cfg:
     time.sleep(.3)
 if not success:raise SystemExit('All RSS queries failed; previous news retained.')
 items=sorted((n for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
-# Retain all index items; also save a dated snapshot of newly discovered items.
+# News.json is the 30-day online archive. Avoid daily duplicate snapshots
+# to reduce repository growth. Existing snapshots are removed from the working tree;
+# historical Git commits may still retain those blobs until repository maintenance.
 archive=ROOT/'data/archive'
-archive.mkdir(parents=True,exist_ok=True)
-today=NOW.astimezone(ZoneInfo('Asia/Taipei')).date().isoformat()
-for old in archive.glob('????-??-??.json'):
-    try:
-        if (NOW.astimezone(ZoneInfo('Asia/Taipei')).date()-datetime.strptime(old.stem,'%Y-%m-%d').date()).days>30:
-            old.unlink()
-    except ValueError:
-        pass
-today_items=[n for n in items if datetime.fromisoformat(n.get('discovered_at', NOW.isoformat())).astimezone(ZoneInfo('Asia/Taipei')).date().isoformat()==today]
-snapshot=archive/(today+'.json')
-existing=json.loads(snapshot.read_text(encoding='utf8')) if snapshot.exists() else {'date':today,'items':[]}
-all_today={n['id']:n for n in existing.get('items',[])}
-all_today.update({n['id']:n for n in today_items})
-snapshot.write_text(json.dumps({'date':today,'items':list(all_today.values())},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+if archive.exists():
+    for old in archive.glob('????-??-??.json'):
+        old.unlink()
 result={'updated_at':NOW.isoformat(),'status':'ok' if success==len(cfg) else 'partial','sources_checked':len(cfg),'sources_successful':success,'items':items}
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('success',success,'/',len(cfg),'items',len(items))
