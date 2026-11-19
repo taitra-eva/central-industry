@@ -181,14 +181,6 @@
       "url": "https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsList",
       "collection_status": "candidate_site_query",
       "access_status": "not_verified"
-    },
-    {
-      "name": "經濟部國際貿易署貿易統計",
-      "region": "台灣",
-      "type": "貿易與國際市場",
-      "url": "https://publicinfo.trade.gov.tw/cuswebo/",
-      "collection_status": "candidate_site_query",
-      "access_status": "not_verified"
     }
   ]
 }
