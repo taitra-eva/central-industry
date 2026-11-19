@@ -94,7 +94,7 @@ def main():
         try:
             already_summarized={id for record in json.loads(existing_insights.read_text(encoding="utf-8")).get("items",[]) for id in record.get("article_ids",[])}
         except (ValueError,OSError):pass
-    candidates=[n for n in rows if n["id"] not in already_summarized]
+    candidates=[n for n in rows if n["id"] not in already_summarized or (n.get("source_url") and n.get("access_status")!="readable")]
     candidates.sort(key=lambda x:(x.get("access_status")=="readable" and bool(x.get("summary_zh")),-(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
 
     chosen=[]
