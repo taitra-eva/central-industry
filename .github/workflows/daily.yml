@@ -29,7 +29,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: openai/gpt-oss-20b
-          AI_DAILY_LIMIT: '35'
+          AI_DAILY_LIMIT: '20'
         run: python scripts/generate_ai_insights.py
       - name: Build source-backed industry brief
         run: python scripts/build_brief.py
