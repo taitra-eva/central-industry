@@ -86,7 +86,7 @@ def main():
         found=get_day(day)
         if found:successful_days+=1
         for title,url,sectors in found:
-            norm=re.sub(r"\\W+","",title.casefold())
+            norm=re.sub(r"\W+","",title.casefold())
             uid=hashlib.sha256(norm.encode("utf8")).hexdigest()[:20]
             if uid in news:
                 for sector in sectors:
@@ -106,7 +106,7 @@ def main():
     data["items"]=sorted(news.values(),key=lambda n:n.get("published_at") or n["discovered_at"],reverse=True)
     data["itis_discovery"]={"checked_at":NOW.isoformat(),"days_with_direct_links":successful_days,
                              "new_items":added}
-    DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf8")
+    DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print("ITIS daily discovery:",added,"new articles,",successful_days,"days with links")
 
 if __name__=="__main__":
