@@ -698,6 +698,29 @@
       "industry": "無人載具及機器人",
       "region": "台灣",
       "q": "site:news.ltn.com.tw 無人機 機器人 自動駕駛 感測"
+    },
+    {
+      "industry": "手工具",
+      "region": "台灣",
+      "q": "汽修專用工具 汽車維修特殊工具 台灣 製造 出口"
+    },
+    {
+      "industry": "手工具",
+      "region": "北美",
+      "q": "automotive specialty tools special service tools repair shops manufacturers",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "歐洲",
+      "q": "automotive special tools workshop tools aftermarket equipment manufacturers",
+      "locale": "en-US"
+    },
+    {
+      "industry": "手工具",
+      "region": "亞洲",
+      "q": "日本 自動車整備 特殊工具 専用工具 メーカー 市場",
+      "locale": "ja-JP"
     }
   ]
 }
