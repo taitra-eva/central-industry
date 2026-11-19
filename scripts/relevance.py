@@ -12,10 +12,13 @@ ADMIN_EXCLUSIONS = (
     "撤銷營業登記", "個人罰鍰", "行政執行", "催繳通知",
 )
 PAGE_TITLES = (
+    "版權所有", "著作權所有", "copyright", "所有權利保留", "網站地圖", "隱私權政策",
     "公告訊息", "新聞稿", "活動花絮", "全球商機資訊", "網站導覽", "更多資訊",
     "知識經濟產業組業務內容", "經貿資訊網", "重要連結", "首頁", "最新消息",
 )
 PROMOTIONAL = (
+    "美股交易", "多元資產", "外匯交易平台", "槓桿交易", "開戶優惠", "投資廣告",
+    "品牌置入", "業配", "廣編特輯", "贊助內容",
     "etf", "募集", "開募", "申購", "股價", "stock after", "is a buy",
     "投資組合", "選股", "基金推薦", "哪檔", "買進", "賣出", "股利",
 )
@@ -38,6 +41,15 @@ def should_keep(title, industry=None):
     low = text.casefold()
     if len(text) < 12:
         return False, "short_or_empty_title"
+    if re.search(r"(?:^|[\\s｜|:：-])(?:版權所有|著作權所有|Copyright(?: ©)?|All Rights Reserved)(?:[\\s。｜|:：-]|$)",text,re.I):
+        return False, "copyright_footer_or_navigation"
+    # Exclude university publicity about recruitment or talent programs when
+    # it lacks a concrete factory, actual order or industrial product.
+    university=(("大學" in text or "學院" in text) and
+                any(word in text for word in ("培育", "招生", "人才", "名校", "國際合作", "學術交流")))
+    tangible=any(word in text for word in ("量產", "出貨", "接單", "製程", "設備訂單", "生產線", "廠房投資", "商用產品"))
+    if university and not tangible:
+        return False, "academic_pr_not_industrial_news"
     if any(p.casefold() in low for p in ADMIN_EXCLUSIONS):
         return False, "individual_administrative_notice"
     # Generic homepages and category directories are not dated news articles.
