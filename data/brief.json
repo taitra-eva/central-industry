@@ -1,178 +1,49 @@
 {
   "generated_at": "2026-11-19T12:46:54.582826+00:00",
-  "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 343,
-  "readable_total": 42,
+  "method": "individual_articles_only_content_confirmed_duplicates_removed_separately",
+  "articles_total": 33,
+  "readable_total": 17,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 81,
-      "readable": 29
+      "articles": 8,
+      "readable": 8
     },
     {
       "name": "機械與金屬加工",
-      "articles": 85,
-      "readable": 1
+      "articles": 3,
+      "readable": 0
     },
     {
       "name": "自行車",
-      "articles": 18,
+      "articles": 8,
       "readable": 0
     },
     {
       "name": "汽配",
-      "articles": 38,
+      "articles": 5,
       "readable": 1
     },
     {
       "name": "手工具",
-      "articles": 7,
-      "readable": 1
+      "articles": 1,
+      "readable": 0
     },
     {
       "name": "無人載具及機器人",
-      "articles": 121,
-      "readable": 12
+      "articles": 8,
+      "readable": 8
     }
   ],
   "events": [
     {
-      "id": "machine-apple",
-      "title": "蘋果與機器人供應鏈",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "90c91aff78fa1a064c7b",
-        "8cf0757fcb7437e69f80",
-        "592f2daab4316ee77ff9",
-        "3d748b1d3d1b6bb8e84a"
-      ],
-      "readable_sources": 4,
-      "source_count": 4,
-      "latest_at": "2026-11-09T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "taiwan-electric",
-      "title": "台灣電網建設與用電",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "再生能源發電占比20％目標，預計民國118年才實現，導致攸關電力碳排的「電力排放係數」降不下來！經濟部初估，去年我國電力排放係數為0.456，雖較10年前下降14％，卻沒降至法定0.388的目標。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "3e873fd172e7e446be81",
-        "60bc2046da77baaccdcd"
-      ],
-      "readable_sources": 2,
-      "source_count": 2,
-      "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "robot-eink",
-      "title": "元太電子紙與機器人應用",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "c4993511f0584b9f0b67",
-        "24338fe3076d2b5ec7c6"
-      ],
-      "readable_sources": 2,
-      "source_count": 2,
-      "latest_at": "2026-11-11T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "taiwan-steel",
-      "title": "台灣及亞洲鋼鐵市場",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "e35c40020d573135bd70",
-        "10372bfcfe83d1819c6a",
-        "0ede884232cb9980d574"
-      ],
-      "readable_sources": 2,
-      "source_count": 3,
-      "latest_at": "2026-11-11T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "oil-middle-east",
-      "title": "中東情勢與國際原油市場",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "日相高市早苗可能提議成立亞洲版的國際能源總署（IEA），以便此區國家在遭遇危機時，能合作採購石油。另外，她也打算提案，要收取使用費，在日本國內替東南亞國家儲備石油。 日本「讀賣新聞」15日報導，政府官員透露，高市將在17日於菲律賓馬尼拉舉行的亞洲零排放共同體（AZEC）會議上，提出此事。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "840c3f2722df88be2292",
-        "f18f8336e5ac73dd295c",
-        "4d608f96eb7950bfe269",
-        "5cef2712fa38e97318b1",
-        "d4c75ee34188efd65bcd",
-        "5f9be8ec853de9bd8476",
-        "e1dac169bb2556503f7f",
-        "64f69deaee933b54c47f",
-        "b66beeccfc43d3c152bd",
-        "35c48dfb14413ab23efa",
-        "bdf7a11ede85d83f0998",
-        "49eb61652f714c4e55f7",
-        "84160ba797bb62492f3a",
-        "65a484bcd058a3fc7db6",
-        "a2f1c765ed24ded97768",
-        "e083670504d223655113",
-        "16d35ab810a877a8fdc9",
-        "4591cf111c263b5f9448",
-        "c0b8761afd1ed4759fbb"
-      ],
-      "readable_sources": 1,
-      "source_count": 19,
-      "latest_at": "2026-11-19T10:21:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-27249349a6b343634e3f",
-      "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟 | 產業動態 | 商情 - 經濟日報",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢",
-        "機械與金屬加工",
-        "手工具"
-      ],
-      "preview": "臺灣手工具出口穩居全球前三大，背後卻是2千多家中小企業構成的綿密分工體系，九成以上業者員工不到50人。當美國關稅來襲，伯鑫工具如何透過經濟部產業發展署推動「提升產業競爭力-研發轉型支持產業聯盟」計畫合組六強聯盟，把分散的製造強項轉化為整條供應鏈的競爭力？",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "27249349a6b343634e3f"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-19T02:02:09+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "robot-jialianyi",
+      "id": "article-0da396402460d8cf1914",
       "title": "嘉聯益攻機器人 專案明年量產",
       "sector": "無人載具及機器人",
       "sectors": [
         "無人載具及機器人"
       ],
-      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。 嘉聯益第3季每股淨損0.27元，累計前三季合併營收44.04億元，年增4.8%，淨損7.2億元，虧損收斂，每股淨損1.13元。",
+      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。\n\n嘉聯益第3季每股淨損0.27元，累計前三季合併營收44.04億元，年增4.8%，淨損7.2億元，虧損收斂，每股淨損1.13元。\n\n該公司表示，前三季毛利及營業",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "0da396402460d8cf1914"
@@ -183,20 +54,20 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-d42c56b56a9ee883147b",
-      "title": "能源論壇12月2日登場 葉惠青：化減碳為長期競爭力",
+      "id": "article-837a827aee4a22bd5d12",
+      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "永豐餘（6790）董事長葉惠青表示，企業不能只著眼於減碳目標，更要從能源自主、循環經濟及產業轉型出發，將減碳轉化為長期競爭力。永豐餘以自主發電為基礎，結合生質能源、智慧能源管理與綠色材料，逐步建立兼顧能源韌性與商業價值的發展模式。",
+      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "d42c56b56a9ee883147b"
+        "837a827aee4a22bd5d12"
       ],
       "readable_sources": 1,
       "source_count": 1,
-      "latest_at": "2026-11-18T16:00:00+00:00",
+      "latest_at": "2026-11-17T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -206,7 +77,7 @@
       "sectors": [
         "總體情勢"
       ],
-      "preview": "中國大陸國家主席習近平昨在深圳會見赴陸出席亞太經合會（ＡＰＥＣ）的加拿大總理卡尼，會後雙方宣布將延長並擴大經貿問題初步聯合安排，包括中方進一步放寬加拿大農漁產品的關稅減免，加方則延長並擴大部分大陸鋼鋁產品的關稅減免二年。",
+      "preview": "中國大陸國家主席習近平昨在深圳會見赴陸出席亞太經合會（ＡＰＥＣ）的加拿大總理卡尼，會後雙方宣布將延長並擴大經貿問題初步聯合安排，包括中方進一步放寬加拿大農漁產品的關稅減免，加方則延長並擴大部分大陸鋼鋁產品的關稅減免二年。\n\n這是卡尼出任總理後第三次與習近平會面。二人曾於去年ＡＰＥＣ慶州峰會期間會晤，",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "ed629697ab15e1752cec"
@@ -223,44 +94,10 @@
       "sectors": [
         "汽配"
       ],
-      "preview": "鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。",
+      "preview": "鴻海（2317）昨（17）日宣布，與索尼半導體解決方案公司（Sony Semiconductor Solutions Corporation，「SSS」）簽署協議，擬以72.4億日元（約新台幣14.5億元）現金收購SSS旗下車載相機模組事業。\n\n根據公告，相關交易涵蓋相關業務、技術、客戶關係及營運資",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "827b1cf36512e7e1b15a"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-17T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-e06001d75713d3798f4c",
-      "title": "BIS強化AI晶片管制 供應鏈洗牌…台鏈穩站受惠第一排",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國商務部工業暨安全局（BIS）收緊AI晶片及海外算力管制，牽動供應鏈布局。零組件業者認為，無論輝達GPU或雲端大廠ASIC需求如何消長，訂單仍有望落在台廠，台灣AI供應鏈業者站在受惠第一排。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "e06001d75713d3798f4c"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-17T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "tariff-steel-eu",
-      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "837a827aee4a22bd5d12"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -274,7 +111,7 @@
       "sectors": [
         "總體情勢"
       ],
-      "preview": "APEC領袖峰會17日登場，ABAC（APEC企業諮詢委員會）則在16日順利結束年內最後一次會議，共達成14份成果文件，包括支持亞太自貿區等區域貿易一體化方針，並呼籲永久免徵數位產品關稅。",
+      "preview": "APEC領袖峰會17日登場，ABAC（APEC企業諮詢委員會）則在16日順利結束年內最後一次會議，共達成14份成果文件，包括支持亞太自貿區等區域貿易一體化方針，並呼籲永久免徵數位產品關稅。\n\nABAC主席、中化集團董事長李凡榮16日在記者會上表示，歷經今年四次會議，已形成致領袖信函、政策建議報告等共",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "19ae260e19ebbb49a43a"
@@ -285,34 +122,16 @@
       "taiwan_focus": true
     },
     {
-      "id": "robot-robotready",
-      "title": "台灣機器人通用化與產業政策",
+      "id": "article-3c76bd961330ec3190e1",
+      "title": "機器人通用化指引發布論壇 產官研雲集",
       "sector": "無人載具及機器人",
       "sectors": [
         "無人載具及機器人"
       ],
-      "preview": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY 2026機器人通用化指引發布暨技術生態論壇」，透過指引發布、技術論壇與實體展示，聚焦關鍵零組件的技術發展與應用，以此勾勒臺灣機器人產業下一階段的發展方向。",
+      "preview": "為協助臺灣業者掌握市場商機、跨足機器人生態系，經濟部產發署、資策會及精機中心，共同舉辦「ROBOT READY 2026機器人通用化指引發布暨技術生態論壇」，透過指引發布、技術論壇與實體展示，聚焦關鍵零組件的技術發展與應用，以此勾勒臺灣機器人產業下一階段的發展方向。\n\n經濟部產發署電資組科長李振隆表",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "3c76bd961330ec3190e1",
-        "4c2655dbf54fbe9d4351"
-      ],
-      "readable_sources": 1,
-      "source_count": 2,
-      "latest_at": "2026-11-16T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-2bd7b316dedc46ae9a11",
-      "title": "熙特爾結盟美韓大廠 拓AI能源版圖",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國能源設備大廠GE Vernova、韓國SK集團旗下電池製造商SK On與熙特爾新能源宣布簽署合作備忘錄（MOU），正式建立台美韓戰略合作關係。三方將結合電力轉換技術、先進電池技術與大型儲能系統整合製造能力，共同布局國際能源市場，瞄準全球AI電力基礎建設商機，攜手打造具備國際競爭力的能源解決方案。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "2bd7b316dedc46ae9a11"
+        "3c76bd961330ec3190e1"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -320,50 +139,16 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-9e7630daca61e502f40f",
-      "title": "1分鐘看世界／歐盟能源業延攬前北約官員 擬強化能源基建防護力",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "歐洲近來爆發多起疑似政府撐腰的蓄意破壞和網攻事件，當地能源業者Fortum、Neste等延攬前北約官員，希望借重他們在軍事和地緣政治方面的專業，協助強化電網和煉油廠等關鍵基礎設施的防護能力。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "9e7630daca61e502f40f"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "robot-aeon",
+      "id": "article-53ea1cb998fe0a492dec",
       "title": "研揚總經理林建宏：機器人應用升溫",
       "sector": "無人載具及機器人",
       "sectors": [
         "無人載具及機器人"
       ],
-      "preview": "隨著AI逐漸延伸至實體設備，機器人與Physical AI成為工業電腦產業下一波重要發展方向，研揚看好人形機器人、四足機器人及自主移動機器人等應用需求持續增加，將機器人控制器列為未來重要布局主軸，並憑藉高效能、小型化運算平台及客製化能力，積極爭取全球機器人產業商機。",
+      "preview": "隨著AI逐漸延伸至實體設備，機器人與Physical AI成為工業電腦產業下一波重要發展方向，研揚看好人形機器人、四足機器人及自主移動機器人等應用需求持續增加，將機器人控制器列為未來重要布局主軸，並憑藉高效能、小型化運算平台及客製化能力，積極爭取全球機器人產業商機。\n\n研揚總經理林建宏認為，機器人功",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "53ea1cb998fe0a492dec"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-740891e58cff801e706f",
-      "title": "研揚迎戰缺料潮 供應鏈優勢成關鍵",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "工業電腦（IPC）產業2026年所面臨的最大挑戰之一，就是零組件價格上漲與部分關鍵料件供應吃緊，尤其在AI帶動運算需求持續擴張下，部分中央處理器（CPU）及相關零組件出現缺貨，供應鏈管理能力成為IPC廠商爭取訂單的重要競爭條件。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "740891e58cff801e706f"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -377,7 +162,7 @@
       "sectors": [
         "無人載具及機器人"
       ],
-      "preview": "中國大陸具身智慧投資熱潮降溫，創投資金重新轉向半導體產業。最新數據顯示，大陸10月具身智慧領域融資件數月減45％，相較之下，第三季半導體融資金額年增逾9成，AI晶片、先進封裝等領域持續吸引大額投資。",
+      "preview": "中國大陸具身智慧投資熱潮降溫，創投資金重新轉向半導體產業。最新數據顯示，大陸10月具身智慧領域融資件數月減45％，相較之下，第三季半導體融資金額年增逾9成，AI晶片、先進封裝等領域持續吸引大額投資。市場人士指出，創投機構不再單純追逐技術概念，企業實際訂單與商業化能力，已成為重要投資門檻。\n\n科創板日",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "774748524118645e559d"
@@ -394,7 +179,7 @@
       "sectors": [
         "總體情勢"
       ],
-      "preview": "第31屆聯合國氣候變遷大會（COP31）正在土耳其舉行。會議期間，巴西與土耳其等國領袖警告，全球不應因戰爭與貿易衝突而分散改善氣候的努力。此外土耳其與亞洲基礎設施投資銀行（AIIB）達成16億美元融資協議，創下氣候政策融資新高。",
+      "preview": "第31屆聯合國氣候變遷大會（COP31）正在土耳其舉行。會議期間，巴西與土耳其等國領袖警告，全球不應因戰爭與貿易衝突而分散改善氣候的努力。此外土耳其與亞洲基礎設施投資銀行（AIIB）達成16億美元融資協議，創下氣候政策融資新高。\n\n與會領袖警告，戰爭與貿易衝突不應分散全球對抗氣候變遷的注意力。聯合國",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "0477154adc4469aa5e41"
@@ -411,7 +196,7 @@
       "sectors": [
         "總體情勢"
       ],
-      "preview": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。",
+      "preview": "《台美對等貿易協定》難上路，美製車零關稅恐胎死腹中，也讓看好零關稅效應的美系車廠策略轉彎。美系越野吉普車品牌Jeep去年底喊出「零關稅計價」，不過12日發表Jeep Wrangler雙限量版特仕車時，已不再以「零關稅計價」為號召，改以購車禮遇與原廠延長保固為配套，透露出政策轉變的味道。\n\n對於計價策",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "d38124750d9ad3cc552a"
@@ -422,50 +207,67 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-8dda7b7a245a4d4b0246",
-      "title": "記憶體教父養出小金雞 下一步要建立本土特殊氣體供應鏈",
-      "sector": "總體情勢",
+      "id": "article-24338fe3076d2b5ec7c6",
+      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
+      "sector": "無人載具及機器人",
       "sectors": [
-        "總體情勢"
+        "無人載具及機器人"
       ],
-      "preview": "「記憶體教父」高啟全回來了，領軍特殊氣體廠兆捷科技，要挑戰本土特氣龍頭，預計12月創新板上市。隨自製產品比重拉升、新廠擴產及半導體先進製程需求帶動，兆捷董事長高啟全宣告，公司成長動能全面啟動。",
+      "preview": "雲端巨頭Google旗下最強VLA機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨Google機器人電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太供應電子紙，用於Apptronik人形機器人臉部及上半身，與人類進行溝通，串聯人機介面溝通",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "8dda7b7a245a4d4b0246"
+        "24338fe3076d2b5ec7c6"
       ],
       "readable_sources": 1,
       "source_count": 1,
-      "latest_at": "2026-11-10T16:00:00+00:00",
+      "latest_at": "2026-11-11T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
-      "id": "article-9acaa92a54a3e32065fc",
-      "title": "Helion 11月起供貨 台系供應鏈亮相",
-      "sector": "總體情勢",
+      "id": "article-c4993511f0584b9f0b67",
+      "title": "元太報喜 大咬 Google 最強 VLA 機器人商機",
+      "sector": "無人載具及機器人",
       "sectors": [
-        "總體情勢"
+        "無人載具及機器人"
       ],
-      "preview": "AMD（超微）代理式AI機櫃Helion首批產品將自11月起供貨，台灣伺服器廠陣容亮相。AMD公布超過10款Helion認證機櫃，合作夥伴涵蓋鴻海、廣達旗下雲達、緯穎、英業達及技嘉等，提供液冷、氣冷及CPU搭配GPU的不同配置，爭取雲端與企業AI部署商機。",
+      "preview": "雲端巨頭Google旗下最強視覺語言模型（VLA）機器人模型Gemini Robotics 2.5問世，機器人戰力躍進。台廠中，元太（8069）供貨電子紙產品，扮演串聯人機介面溝通要角，跟著大咬商機。\n\n元太是透過打入Google轉投資美國機器人開發商Apptronik供應鏈，與Google機器人結",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "9acaa92a54a3e32065fc"
+        "c4993511f0584b9f0b67"
       ],
       "readable_sources": 1,
       "source_count": 1,
-      "latest_at": "2026-11-10T16:00:00+00:00",
+      "latest_at": "2026-11-11T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
-      "id": "article-58e74bbaaa0ffa470723",
-      "title": "大陸能源企業爭相研發重點產品 陸鈉離子電池 衝商業化量產",
+      "id": "article-e35c40020d573135bd70",
+      "title": "亞洲鋼價築底 明年Q1拚開門紅",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "大陸鈉離子電池產業正衝刺商業化量產，希望能從樣品驗證邁向GWh級規模化交付階段。陸媒報導指出，大型領先企業近期積極針對儲能等領域發表新一代電芯產品，並加快產線調整。儘管仍有許多關卡要過，但國金證券預計，今年或為鈉電產業規模化商用的關鍵時間點。",
+      "preview": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。\n\n亞洲主力鋼廠新盤價陸續出爐，越南和發鋼廠熱軋每噸微漲4美元，中鋼熱軋每噸調漲300元，不僅終止傳統淡季的停滯期",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "58e74bbaaa0ffa470723"
+        "e35c40020d573135bd70"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-11T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-3d748b1d3d1b6bb8e84a",
+      "title": "宇樹將成為蘋果機器人關鍵夥伴 上銀、雅特力跟進搶商機",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。\n\n「HALO」能讓人形機器人完美達成推箱子、坐椅子及穿越障礙物等任務，關",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "3d748b1d3d1b6bb8e84a"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -473,88 +275,37 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-141a938fff5e49d409e7",
-      "title": "台積電強化整頓供應鏈 沒改善就掉單",
+      "id": "article-592f2daab4316ee77ff9",
+      "title": "蘋果秀機器人大腦 人形產品出現重大突破 鴻準受惠將拿下大單",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準有望成為大贏家，拿下蘋果機器人大單，台達電也可望沾光。\n\n蘋果人形機器人「大腦」，讓機器人具備",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "592f2daab4316ee77ff9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-09T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-10372bfcfe83d1819c6a",
+      "title": "大陸華北鋼廠限產 支撐亞洲鋼價 中鋼、中鴻等台廠迎轉單",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "台積電（2330）海內外如火如荼趕工擴廠，但近期工安事件頻傳，台積電內部高度關注，業界盛傳公司已成立專案小組強化整頓供應鏈，若供應鏈問題未改善恐「掉單」，漢唐（2404）、帆宣（6196）、中鋼構（2013）與多家營造夥伴等協力廠商壓力大。",
+      "preview": "中國大陸華北鋼鐵重鎮掀起新一波「環保限產潮」，唐山、邢台、天津接連啟動重汙染天氣應急措施，鋼材供給面臨收縮，有助緩解大陸低價鋼品出口壓力，支撐亞洲鋼價，中鋼（2002）、中鴻（2014）、燁輝（2023）及盛餘（2029）等四大鋼廠可望受惠。\n\n中鋼專家指出，河北邢台自今（9）日中午12時起發布紅色",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "141a938fff5e49d409e7"
+        "10372bfcfe83d1819c6a"
       ],
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-08T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-316f51469b39c62b47ea",
-      "title": "全球市場觀測站／AI基建供應鏈 遭重擊",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國民主黨在期中選舉取得國會控制權後，市場開始重新評估AI及資料中心擴建面臨的監管風險。法人表示，若資料中心建置速度放緩，首當其衝的將是AI基礎建設供應鏈，其中AI半導體受到的衝擊可能最為明顯，相關基礎建設概念股也可能受到牽連，包括AI電力基礎建設族群。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "316f51469b39c62b47ea"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-08T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-0753122620a68249ec63",
-      "title": "打入蘋果折疊機供應鏈 運錩迎新一波拉貨商機",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "蘋果首款折疊手機iPhone Duo搶購效應發威，運錩（2069）迎新一波拉貨商機。運錩旗下寧波奇億已切入美系手機供應鏈，隨新增產能開出、高毛利產品出貨擴大，運錩上季獲利倍增、獲利動能發酵，本季至明年營運可望更強。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "0753122620a68249ec63"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-08T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-e6d8bd14199d1cc208d3",
-      "title": "能源論壇12月2日登場／能源署長吳志偉：增建機組 滿足 AI 用電",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "AI產業興起，電力成關鍵議題。經濟部能源署長吳志偉表示，經濟部已盤點AI資料中心（AIDC）及半導體產業用電申請，推估未來十年用電需求年均成長率約2.5%；政府已規劃增建台電及民營燃氣機組，至2035年燃氣機組累計新增容量約26GW（百萬瓩），倘未來AI蓬勃發展帶動用電需求高於預期，仍有充足餘裕可供支應。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "e6d8bd14199d1cc208d3"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-08T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-b8a3dd899c4a8f718467",
-      "title": "美期中選舉後 川普關稅不退場 拚外交突破",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國共和黨在期中選舉慘敗後，美國總統川普未來兩年的施政勢將受阻，以下盤點觀察家與分析師對於川普未來兩年施政方向可能出現的轉變，預期關稅不會退場，可能改為針對特定國家或產品加徵關稅。 內政受阻，可能轉向外交爭取政績：川普將更難推動重大法案，但在外交和國安領域擁有較大的揮灑空間，可能藉重大談判、國際協議或軍事行動，留下政績。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "b8a3dd899c4a8f718467"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -564,112 +315,10 @@
       "sectors": [
         "總體情勢"
       ],
-      "preview": "美國民主黨在期中選舉掀起「藍潮」大勝拿下國會，川普未來兩年內政施政受阻，可能把更多心力轉向外交和貿易，爭取政績。關稅仍是他不願放手的工具，伊朗戰爭則讓他面臨降低物價和維持施壓的兩難。",
+      "preview": "美國民主黨在期中選舉掀起「藍潮」大勝拿下國會，川普未來兩年內政施政受阻，可能把更多心力轉向外交和貿易，爭取政績。關稅仍是他不願放手的工具，伊朗戰爭則讓他面臨降低物價和維持施壓的兩難。從美中談判到台灣軍售，接下來要看他如何運用手中權力，以及新國會能制衡多少。\n\n彭博指出，歷任總統在任期下半場失去國會支",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "213da3b194bf8983da27"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-ef40bb70f49bf16768d0",
-      "title": "中加相互豁免關稅延長兩年…加國豌豆、龍蝦等維持低稅率 陸鋼鋁比照辦理",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國期中選舉變天後，大陸官方宣布與加拿大雙方同意延長相互豁免關稅措施直至2028年底。代表加拿大輸陸的菜籽餅粕、豌豆、龍蝦和螃蟹將再以低關稅率出口多兩年。今年1月加拿大總理卡尼訪中期間，大陸還恢復了加拿大牛肉的市場准入。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "ef40bb70f49bf16768d0"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-56bacd8f764108d77e42",
-      "title": "共和黨失利 關稅談判恐再起",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國期中選舉共和黨大敗，牛津經濟研究院5日表示，儘管雙向風險都在增加，仍不會改變基準預測，該機構預估12月中旬可能出現的政府停擺，且川普政府跛腳鴨會期期間，將通過一項以國防為重點的快速預算協調法案，是需密切關注的近期風險。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "56bacd8f764108d77e42"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-b8975b450de0bd5fe263",
-      "title": "美AI基建急煞 衝擊亞洲供應鏈",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "美國期中選舉掀起反對AI資料中心的浪潮，德州、俄亥俄州和喬治亞州，多名主張限制資料中心開發的民主黨候選人勝選，各地選民也陸續通過相關禁令，恐拖慢美國AI基礎設施擴張。由於資料中心建設依賴亞洲供應鏈，分析警告，相關限制可能衝擊晶片、伺服器及電力設備需求，影響台灣、越南等亞洲出口。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "b8975b450de0bd5fe263"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-716d8f5401696553c2dc",
-      "title": "陸傳封殺軟銀54億美元併購案 ABB機器人事業交易遭否決 孫正義實體AI布局受挫",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "英國金融時報引述知情人士說法報導，這項交易是遭中國國家發展和改革委員會（NDRC）否決。軟銀近日已接獲相關決定通知，目前正設法確認是否還能重新提出申請，爭取批准。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "716d8f5401696553c2dc"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-142222a9b2cc785f5c12",
-      "title": "陸企仿生機器人大戰 開打",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "陸企在今年世界互聯網大會博覽會，掀起仿生機器人路線之爭。優必選旗下「優世界」以高度擬真的U1 Pro主打情感陪伴，新創公司首形科技則讓有精靈耳朵造型的「精靈．璇2.0」穿旗袍登台獻唱，搶攻商演市場。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "142222a9b2cc785f5c12"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-05T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-f56fb9bb45362f78e692",
-      "title": "台塑集團擴大新能源版圖 國產電芯產能拚倍增搶攻商機",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "台塑集團加速擴大新能源布局。旗下台塑（1301）、南亞、台化、台塑化及台化子公司台塑生醫昨（5）日共同宣布，將依原持股比率參與台塑新智能130億元現金增資，支持彰濱電芯廠二期擴建，推動國產電芯產能倍增，搶攻國內外儲能商機。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "f56fb9bb45362f78e692"
       ],
       "readable_sources": 1,
       "source_count": 1,
