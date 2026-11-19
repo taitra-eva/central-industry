@@ -14,7 +14,7 @@ import re
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data/news.json"
 OUTPUT=ROOT/"data/brief.json"
-SECTORS=["總體情勢","機械","自行車","汽配","手工具","無人載具及機器人"]
+SECTORS=["總體情勢","機械與金屬加工","自行車","汽配","手工具","無人載具及機器人"]
 
 THEMES=[
  ("machine-apple","蘋果與機器人供應鏈",("蘋果","機器人"),"無人載具及機器人"),
@@ -27,7 +27,7 @@ THEMES=[
  ("taiwan-electric","台灣電網建設與用電",("台電","電網","電力"),"總體情勢"),
  ("taiwan-steel","台灣及亞洲鋼鐵市場",("鋼價","中鋼","鋼廠"),"總體情勢"),
  ("foxconn-auto","鴻海車用零組件布局",("鴻海","車載","sony","索尼"),"汽配"),
- ("industry-machinery","機電四雄營運與電網訂單",("機電四雄",),"機械"),
+ ("industry-machinery","機電四雄營運與電網訂單",("機電四雄",),"機械與金屬加工"),
  ("bike-inventory","自行車市場庫存與採購",("自行車","庫存","bike inventory","bicycle"),"自行車"),
  ("handtools-market","台灣手工具與水五金市場",("手工具","水五金","五金工具"),"手工具"),
 ]
