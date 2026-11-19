@@ -28,18 +28,18 @@ function sendDailyIndustryDigest() {
   });
   const industries = ['機械','自行車','汽配','手工具','無人載具及機器人'];
   const esc = s => String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  // Deduplicate across sectors. Show up to 5 highlights per industry, but do not email the full article list.
+  // Include every newly discovered article exactly once, even when tagged to multiple industries.
   const displayed = new Set();
   const sections = industries.map(industry => {
     const sectorItems = allNew.filter(x => (x.industries || []).includes(industry));
-    const selected = sectorItems.filter(x => !displayed.has(x.id)).slice(0, 5);
+    const selected = sectorItems.filter(x => !displayed.has(x.id));
     selected.forEach(x => displayed.add(x.id));
     const lis = selected.map(x => {
       const url = HOME_URL + 'article.html?id=' + encodeURIComponent(x.id);
       const title = esc(x.title_zh || x.title);
       const summary = (x.summary_zh && ['verified','source_excerpt_translated'].includes(x.summary_status))
         ? '<div style="font-size:13px;color:#57463a;line-height:1.6;margin-top:4px">' + esc(x.summary_zh) + '</div>'
-        : '<div style="font-size:12px;color:#8a7a70">中文摘要尚未完成，點進頁面可查看原文來源</div>';
+        : '';
       return '<li style="margin:0 0 14px"><a style="color:#91511f;text-decoration:none;font-weight:bold" href="' + esc(url) + '">' + title + '</a>' +
         '<div style="font-size:12px;color:#867668">' + esc((x.region||'') + '｜' + (x.source||'')) + '</div>' + summary + '</li>';
     }).join('');
@@ -51,7 +51,7 @@ function sendDailyIndustryDigest() {
   const html = '<div style="font-family:Arial,\"Noto Sans TC\",sans-serif;max-width:720px;margin:auto;color:#3c3029">' +
     '<div style="background:#744020;color:white;padding:24px;border-radius:12px 12px 0 0"><h2 style="margin:0">中部產業情報日報</h2><div style="color:#f2dac3;margin-top:6px">' + today + '｜五大產業觀察</div></div>' +
     '<div style="background:#fffaf5;padding:22px;border:1px solid #eddfd0"><p>今日新收錄 <b>' + allNew.length +
-    '</b> 則，以下每個產業最多精選 5 則。點新聞可進入站內頁面，查看已取得的中文重點與原文資訊。</p>' +
+    '</b> 則，以下列出當天首次收錄的全部新聞（跨產業重複只列一次）。點標題可查看站內文章頁與原文來源。</p>' +
     sections + '<p style="text-align:center;margin-top:24px"><a style="background:#945226;color:white;padding:11px 18px;text-decoration:none;border-radius:7px" href="' + HOME_URL + '">查看網站全部新聞</a></p>' +
     '<p style="color:#8b7a70;font-size:12px">尚未取得足夠原文的文章不會編造中文摘要；本報告僅供情報參考。</p></div></div>';
   if (MailApp.getRemainingDailyQuota() < 1) throw Error('今日寄信配額不足');
@@ -77,7 +77,7 @@ function sendTestDigestNow() {
   const all = d.items || [];
   let sections = '';
   for (const sector of industries) {
-    const items = all.filter(x => (x.industries || []).includes(sector)).slice(0,3);
+    const items = all.filter(x => (x.industries || []).includes(sector));
     sections += '<h3 style="color:#865027;border-left:4px solid #b46c38;padding-left:10px">' + escapeHtml(sector) + '</h3>';
     sections += items.length ? '<ul style="padding-left:20px">' + items.map(x => {
       const link = HOME_URL+'article.html?id='+encodeURIComponent(x.id);
