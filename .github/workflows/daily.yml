@@ -10,11 +10,6 @@ on:
           - analyze
           - full
         default: full
-  schedule:
-    - cron: '30 7 * * *'
-      timezone: 'Asia/Taipei'
-    - cron: '0 8 * * *'
-      timezone: 'Asia/Taipei'
 permissions:
   contents: write
 concurrency:
@@ -22,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '30 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'collect') }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.stage == 'collect' }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -48,7 +43,7 @@ jobs:
           git diff --cached --quiet || (git commit -m 'chore: morning news collection' && git push)
 
   analyze:
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 8 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'analyze') }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.stage == 'analyze' }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
