@@ -84,7 +84,7 @@ function renderFocus(){
   head.append(topRight);card.append(head);
   appendTags(card,{region:first.region,industries:[sector],topic:first.topic});
   card.append(node('h3',entry.title));
-  card.append(node('div','重點摘要','insight-label'),node('p',entry.summary));
+  card.append(node('div','摘要','insight-label'),node('p',entry.summary));
   card.append(node('div','觀察重點','insight-label'),node('p',entry.observation,'insight-observation'));
   if(entry.sources.length>1){
    const details=document.createElement('details');details.className='related-details';
