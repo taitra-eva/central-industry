@@ -86,8 +86,17 @@ def main():
     # large Taiwan queue consume the entire daily allowance. Already-readable
     # items with a saved excerpt need not be fetched again.
     quotas={"台灣":24,"歐洲":12,"北美":12,"亞洲":12,"其他":5}
-    candidates=[n for n in rows if n.get("access_status")!="readable" or not n.get("summary_zh")]
-    candidates.sort(key=lambda x:-(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp()))
+    # Prefer new articles without AI summaries; retain explicit source URLs and retry
+    # previously unreadable publisher pages after failed Google News resolution.
+    existing_insights=ROOT/"data/insights.json"
+    already_summarized=set()
+    if existing_insights.exists():
+        try:
+            already_summarized={id for record in json.loads(existing_insights.read_text(encoding="utf-8")).get("items",[]) for id in record.get("article_ids",[])}
+        except (ValueError,OSError):pass
+    candidates=[n for n in rows if n["id"] not in already_summarized]
+    candidates.sort(key=lambda x:(x.get("access_status")=="readable" and bool(x.get("summary_zh")),-(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
+
     chosen=[]
     for region,quota in quotas.items():
         picked=[n for n in candidates if n.get("region")==region][:quota]
@@ -98,7 +107,7 @@ def main():
     texts={}
     stats={}
     for item in candidates:
-        resolved=publisher_url(item["url"])
+        resolved=item.get("source_url") or publisher_url(item["url"])
         if not resolved:
             result={"access_status":"unresolved","read_reason":"Google News did not provide a usable publisher URL"}
         else:
@@ -110,6 +119,7 @@ def main():
         if result.get("read_reason"):
             item["read_reason"]=result["read_reason"]
         if result.get("body"):
+            item.pop("read_reason",None)
             body=result["body"]
             item["body_length"]=len(body)
             # This sample is for evidence checking, not a copy of the full article.
@@ -122,6 +132,7 @@ def main():
     print("Publisher article read results:",json.dumps(stats,ensure_ascii=False))
     print("Publisher reads by region:",json.dumps({r:sum(x.get("region")==r for x in candidates) for r in quotas},ensure_ascii=False))
     print("Saved ephemeral article texts:",len(texts))
+    print("Original URL resolution:",sum(bool(x.get("source_url")) for x in rows),"of",len(rows),"articles")
 
 if __name__=="__main__":
     main()
