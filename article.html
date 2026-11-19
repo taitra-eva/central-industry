@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow"><title>產業新聞內容｜中部產業情報中心</title>
+<style>
+:root{font-family:system-ui,"Noto Sans TC",sans-serif;color:#17263b;background:#f3f6fa}*{box-sizing:border-box}body{margin:0}.top{background:#10243a;padding:25px max(20px,calc((100vw - 900px)/2));color:white}.top a{color:white;text-decoration:none}.wrap{max-width:900px;padding:20px;margin:0 auto}.paper{background:white;border:1px solid #dce4ed;border-radius:14px;padding:28px;margin:18px 0}.paper h1{font-size:27px;line-height:1.5;margin:12px 0}.paper h2{font-size:19px;margin:0 0 12px}.meta{color:#65758a;font-size:14px;line-height:1.7}.flag{display:inline-block;background:#e9f1f9;border-radius:6px;padding:5px 8px;margin:4px 6px 4px 0;font-size:13px}.pending{padding:14px;background:#fff8e9;border:1px solid #ebdcae;border-radius:9px;line-height:1.8}a{color:#14588f}hr{border:0;border-top:1px solid #e2e8f0;margin:24px 0}.footer{color:#65758a;font-size:13px;padding:5px 0 30px}@media(max-width:600px){.paper{padding:18px}.paper h1{font-size:22px}}
+</style></head><body><header class="top"><a href="./">← 返回中部產業情報中心</a></header><main class="wrap"><div id="detail" class="paper">載入新聞資料中…</div><div class="footer">本站儲存公開新聞索引與經授權／可取得資訊的整理結果；原文章著作權屬發布者所有。</div></main>
+<script>
+const root=document.getElementById('detail');
+function add(parent,tag,text,cls){const e=document.createElement(tag);e.textContent=text;if(cls)e.className=cls;parent.appendChild(e);return e}
+async function boot(){
+const id=new URLSearchParams(location.search).get('id');if(!id){root.textContent='網址缺少新聞識別碼。';return}
+try{
+const res=await fetch('./data/news.json?v='+Date.now());if(!res.ok)throw new Error('無法讀取新聞資料');
+const data=await res.json();const x=(data.items||[]).find(n=>n.id===id);root.replaceChildren();
+if(!x){add(root,'h1','找不到這則新聞');add(root,'p','可能已移至歷史資料或識別碼不正確。');return}
+add(root,'div',(x.source||'來源未確認')+' · '+(x.published_at?new Date(x.published_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'}):'日期未確認'),'meta');
+add(root,'h1',x.title_zh||x.title);
+const tags=document.createElement('div');root.appendChild(tags);
+for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
+root.appendChild(document.createElement('hr'));
+add(root,'h2','繁體中文重點摘要');
+if(x.summary_zh&&x.summary_status==='verified'){add(root,'p',x.summary_zh)}
+else{add(root,'div','此則新聞尚未完成可靠的中文摘要。目前蒐集系統只取得標題、來源、日期及原文連結，沒有取得足夠的報導內容，因此不會根據標題編造摘要。','pending')}
+if(x.impact_zh){add(root,'h2','產業影響分析');add(root,'p',x.impact_zh)}
+root.appendChild(document.createElement('hr'));
+add(root,'h2','原文資訊');
+add(root,'p','原文標題：'+x.title);
+add(root,'p','原始媒體：'+(x.source||'來源未確認'));
+const a=add(root,'a','前往原始文章查看完整內容');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';
+add(root,'p','因新聞著作權及來源授權限制，本站不擅自複製全文；如來源允許，未來可加入合法取得的原文摘錄。','meta');
+}catch(e){root.textContent='載入失敗：'+e.message}
+}boot();
+</script></body></html>
