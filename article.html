@@ -18,20 +18,21 @@ add(root,'h1',x.title_zh||x.title);
 const tags=document.createElement('div');root.appendChild(tags);
 for(const t of [...(x.industries||[]),x.region,x.topic].filter(Boolean))add(tags,'span',t,'flag');
 root.appendChild(document.createElement('hr'));
-add(root,'h2','繁體中文全文翻譯');
-if(x.full_translation_zh&&x.translation_rights==='approved'){
-  const paragraphs=x.full_translation_zh.split(/\\n\\s*\\n/).filter(Boolean);
-  for(const paragraph of paragraphs)add(root,'p',paragraph);
-  add(root,'p','本篇已取得全文及翻譯／刊載授權。','meta');
+add(root,'h2','繁體中文重點整理');
+if(x.summary_zh&&['verified','source_excerpt_translated'].includes(x.summary_status)){
+ add(root,'p',x.summary_zh);
+ if(x.summary_status==='source_excerpt_translated')add(root,'p','本段為來源提供的摘要片段之機器翻譯，並非全文摘要；可能未涵蓋全部報導細節。','meta');
+ else add(root,'p','依可合法取得的原始報導資訊整理；建議與下方來源交叉查證。','meta');
 }else{
-  add(root,'div','目前只有新聞標題、發布資訊和原文連結，尚未取得可在本站完整翻譯及刊載的授權內容。為避免違反原作者權益，本站不會自行轉貼第三方新聞全文。可由下方連結前往原始來源閱讀。','pending');
+ add(root,'div','目前尚未取得足夠的原文內容，無法產生可靠的繁體中文重點整理；本站不根據標題自行補寫公司、數字或事件細節。','pending');
 }
+if(x.impact_zh){add(root,'h2','對台灣中部產業的可能影響');add(root,'p',x.impact_zh);add(root,'p','此為分析判斷，並非已證實的訂單或市場變化。','meta');}
 root.appendChild(document.createElement('hr'));
 add(root,'h2','原文資訊');
 add(root,'p','原文標題：'+x.title);
 add(root,'p','原始媒體：'+(x.source||'來源未確認'));
 const a=add(root,'a','前往原始文章查看完整內容');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';
-add(root,'p','因新聞著作權及來源授權限制，本站不擅自複製全文；如來源允許，未來可加入合法取得的原文摘錄。','meta');
+add(root,'p','本站提供保留重要事實的中文重點整理，原始文章不會未經授權全文轉載。','meta');
 }catch(e){root.textContent='載入失敗：'+e.message}
 }boot();
 </script></body></html>
