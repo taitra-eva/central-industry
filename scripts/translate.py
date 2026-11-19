@@ -28,7 +28,7 @@ def main():
     for x in entries:
         if not x.get("title_zh") and (lang := language(x.get("title", ""))):
             needed.add(lang)
-        if x.get("excerpt") and not x.get("summary_zh") and (lang := language(x["excerpt"])):
+        if x.get("excerpt") and not x.get("excerpt_translation_zh") and (lang := language(x["excerpt"])):
             needed.add(lang)
     if not needed:
         print("No foreign items to translate")
@@ -81,8 +81,8 @@ def main():
                 excerpt=unescape(re.sub("<[^>]+>"," ",excerpt))
                 translation=translate_to_zh(excerpt[:1200],src)
                 if translation and translation.strip()!=excerpt.strip():
-                    x["summary_zh"]=converter.convert(translation.strip())[:450]
-                    x["summary_status"]="source_excerpt_translated"
+                    x["excerpt_translation_zh"]=converter.convert(translation.strip())
+                    x["excerpt_translation_status"]="machine_translation_of_source_excerpt"
             except Exception as ex:
                 print("Excerpt translation error:",str(ex)[:100])
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
