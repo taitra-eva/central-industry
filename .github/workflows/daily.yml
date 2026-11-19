@@ -8,7 +8,8 @@ on:
         options:
           - collect
           - analyze
-        default: collect
+          - full
+        default: full
   schedule:
     - cron: '30 7 * * *'
       timezone: 'Asia/Taipei'
@@ -77,3 +78,44 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A data/
           git diff --cached --quiet || (git commit -m 'chore: morning article analysis' && git push)
+
+  full:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.stage == 'full' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Fetch last 14 days of news candidates
+        run: python scripts/collect.py
+      - name: Discover relevant articles from ITIS
+        run: python scripts/collect_itis_daily.py
+        continue-on-error: true
+      - name: Select eight per industry and ORIGINAL publication day
+        run: python scripts/select_daily.py
+      - name: Read publisher article contents and resolve links
+        run: python scripts/read_articles.py
+      - name: Translate available titles and verified excerpts
+        run: python scripts/translate.py
+        continue-on-error: true
+      - name: Generate AI summaries from source bodies if free key is configured
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-20b
+          AI_DAILY_LIMIT: '20'
+        run: python scripts/generate_ai_insights.py
+      - name: Remove only text-confirmed duplicate stories
+        run: python scripts/dedupe_articles.py
+      - name: Recheck per-day industry limits
+        run: python scripts/select_daily.py
+      - name: Rebuild brief
+        run: python scripts/build_brief.py
+      - name: Save updated index
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data/
+          git diff --cached --quiet || (git commit -m 'chore: 14-day news catchup and AI test' && git push)
