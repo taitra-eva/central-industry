@@ -37,20 +37,41 @@
   ],
   "events": [
     {
-      "id": "tariff-steel-eu",
-      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
+      "id": "machine-apple",
+      "title": "蘋果與機器人供應鏈",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "90c91aff78fa1a064c7b",
+        "8cf0757fcb7437e69f80",
+        "592f2daab4316ee77ff9",
+        "3d748b1d3d1b6bb8e84a"
+      ],
+      "readable_sources": 4,
+      "source_count": 4,
+      "latest_at": "2026-11-09T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "taiwan-electric",
+      "title": "台灣電網建設與用電",
       "sector": "總體情勢",
       "sectors": [
         "總體情勢"
       ],
-      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。",
+      "preview": "再生能源發電占比20％目標，預計民國118年才實現，導致攸關電力碳排的「電力排放係數」降不下來！經濟部初估，去年我國電力排放係數為0.456，雖較10年前下降14％，卻沒降至法定0.388的目標。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "837a827aee4a22bd5d12"
+        "3e873fd172e7e446be81",
+        "60bc2046da77baaccdcd"
       ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-17T16:00:00+00:00",
+      "readable_sources": 2,
+      "source_count": 2,
+      "latest_at": "2026-11-15T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -72,57 +93,21 @@
       "taiwan_focus": true
     },
     {
-      "id": "robot-jialianyi",
-      "title": "嘉聯益攻機器人 專案明年量產",
-      "sector": "無人載具及機器人",
+      "id": "taiwan-steel",
+      "title": "台灣及亞洲鋼鐵市場",
+      "sector": "總體情勢",
       "sectors": [
-        "無人載具及機器人"
+        "總體情勢"
       ],
-      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。 嘉聯益第3季每股淨損0.27元，累計前三季合併營收44.04億元，年增4.8%，淨損7.2億元，虧損收斂，每股淨損1.13元。",
+      "preview": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "0da396402460d8cf1914"
+        "e35c40020d573135bd70",
+        "10372bfcfe83d1819c6a"
       ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-18T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "industry-machinery",
-      "title": "機電四雄：今年獲利估續創新高",
-      "sector": "機械",
-      "sectors": [
-        "機械"
-      ],
-      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "465d9374763b2138353d"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-12T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "machine-apple",
-      "title": "蘋果與機器人供應鏈",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "蘋果自主開發的人形機器人「大腦」問世，並於公司機器人研究專案官網（Apple AIML Research）大秀成果，單次任務測試平均成功率超過九成，意味蘋果正加速開發機器人產品並且有重大突破，台廠當中，鴻準（2354）有望成為大贏家，拿下蘋果機器人大單，台達電（2308）也可望沾光。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "90c91aff78fa1a064c7b",
-        "8cf0757fcb7437e69f80",
-        "592f2daab4316ee77ff9",
-        "3d748b1d3d1b6bb8e84a"
-      ],
-      "readable_sources": 4,
-      "source_count": 4,
-      "latest_at": "2026-11-09T16:00:00+00:00",
+      "readable_sources": 2,
+      "source_count": 2,
+      "latest_at": "2026-11-11T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -156,39 +141,20 @@
       "taiwan_focus": true
     },
     {
-      "id": "taiwan-electric",
-      "title": "台灣電網建設與用電",
-      "sector": "總體情勢",
+      "id": "robot-jialianyi",
+      "title": "嘉聯益攻機器人 專案明年量產",
+      "sector": "無人載具及機器人",
       "sectors": [
-        "總體情勢"
+        "無人載具及機器人"
       ],
-      "preview": "再生能源發電占比20％目標，預計民國118年才實現，導致攸關電力碳排的「電力排放係數」降不下來！經濟部初估，去年我國電力排放係數為0.456，雖較10年前下降14％，卻沒降至法定0.388的目標。",
+      "preview": "嘉聯益（6153）昨（18）日召開法說會，公司表示，隨客戶端往AI領域不斷靠攏，加上新承接機器人應用專案明年陸續進入量產，為營運添新動能。 嘉聯益第3季每股淨損0.27元，累計前三季合併營收44.04億元，年增4.8%，淨損7.2億元，虧損收斂，每股淨損1.13元。",
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
-        "3e873fd172e7e446be81",
-        "60bc2046da77baaccdcd"
+        "0da396402460d8cf1914"
       ],
-      "readable_sources": 2,
-      "source_count": 2,
-      "latest_at": "2026-11-15T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "taiwan-steel",
-      "title": "台灣及亞洲鋼鐵市場",
-      "sector": "總體情勢",
-      "sectors": [
-        "總體情勢"
-      ],
-      "preview": "亞洲主要鋼廠12月盤價呈「平高盤」的築底整理格局，市場專家與鋼鐵業者普遍預期，隨著第四季淡季效應逐漸出盡、下游供應鏈庫存落底補庫潮啟動，明年第一季鋼價有望一舉走出維穩行情迎來「開門紅」。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "e35c40020d573135bd70",
-        "10372bfcfe83d1819c6a"
-      ],
-      "readable_sources": 2,
-      "source_count": 2,
-      "latest_at": "2026-11-11T16:00:00+00:00",
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -206,6 +172,23 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-18T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "tariff-steel-eu",
+      "title": "歐盟祭高關稅 我冷軋鋼廠陷苦戰",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "台灣冷軋鋼材每年輸歐金額高達3.45億歐元、約新台幣125億元，換算年出口量約45萬～55萬公噸，占台灣整體冷軋鋼品外銷比重高達逾5成。隨輸歐將遭課徵20.7％～27％的懲罰性關稅，歐洲這塊台灣冷軋鋼廠最核心的海外市場，瞬間被築起高牆，包括中鋼、中鴻、燁輝、盛餘及裕鐵等國內鋼廠首當其衝，外銷接單與產能去化，面臨嚴峻考驗。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "837a827aee4a22bd5d12"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -393,6 +376,23 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-15T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "industry-machinery",
+      "title": "機電四雄：今年獲利估續創新高",
+      "sector": "機械",
+      "sectors": [
+        "機械"
+      ],
+      "preview": "機電四雄：今年獲利估續創新高 受惠台電強韌電網釋單、半導體建廠及AIDC訂單助攻 04:102026/11/13 工商時報 沈美幸 Facebook Line Threads 複製連結 機電四雄第三季獲利及展望 Facebook Line",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "465d9374763b2138353d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-12T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -735,5 +735,6 @@
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
     }
-  ]
+  ],
+  "selection_method": "台灣相關性優先，其次有原文片段的來源數，再依原文發布時間；無任何特定公司加分。內容僅供來源索引，非AI重要性分級。"
 }
