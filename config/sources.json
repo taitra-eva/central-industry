@@ -145,6 +145,51 @@
       "collection_status": "google_news_site_query_only",
       "access_status": "not_verified",
       "note": "僅候選公開免登入內容；會員或付費出版物不納入免費全文翻譯"
+    },
+    {
+      "name": "中央社 CNA 產經",
+      "region": "台灣",
+      "type": "中文綜合／產業新聞",
+      "url": "https://www.cna.com.tw/list/aec.aspx",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "已查證公開產業分類及RSS頁；只收錄公開新聞內容，不代表已串接官方RSS"
+    },
+    {
+      "name": "經濟日報",
+      "region": "台灣",
+      "type": "中文財經／製造業新聞",
+      "url": "https://money.udn.com/money/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "主要透過 site:money.udn.com 查找六大類產業動態"
+    },
+    {
+      "name": "工商時報",
+      "region": "台灣",
+      "type": "中文財經／產業新聞",
+      "url": "https://www.ctee.com.tw/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "部分全文需訂閱；未通過免費可讀檢查者不得作全文摘要"
+    },
+    {
+      "name": "MoneyDJ 理財網",
+      "region": "台灣",
+      "type": "中文產業／公司新聞",
+      "url": "https://www.moneydj.com/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "檢索製造業、工具機、供應鏈，排除股價薦股與投資促銷"
+    },
+    {
+      "name": "科技新報 TechNews",
+      "region": "台灣",
+      "type": "中文科技／產業新聞",
+      "url": "https://technews.tw/",
+      "collection_status": "google_news_site_query_only",
+      "access_status": "not_verified",
+      "note": "只檢索機器人、無人機製造與供應鏈"
     }
   ]
 }
