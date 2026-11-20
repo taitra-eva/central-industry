@@ -93,6 +93,7 @@ jobs:
         run: |
           python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
           python scripts/test_industry_entities.py
+          python scripts/test_sector_scope.py
           python scripts/test_collect_html.py
       - name: Collect directly from official and specialist publisher RSS
         run: python scripts/collect_direct.py
@@ -164,6 +165,7 @@ jobs:
         run: |
           python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
           python scripts/test_industry_entities.py
+          python scripts/test_sector_scope.py
           python scripts/test_collect_html.py
       - name: Collect directly from official and specialist publisher RSS
         run: python scripts/collect_direct.py
