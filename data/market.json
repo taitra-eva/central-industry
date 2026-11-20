@@ -1,6 +1,30 @@
 {
   "checked_at": null,
-  "fx": null,
-  "oil": null,
-  "fetch_failed": []
+  "fx": {
+    "source": "臺灣銀行",
+    "quote_type": "即期賣出",
+    "quote_time": "2026/11/20 04:01",
+    "source_url": "https://rate.bot.com.tw/xrt?Lang=zh-TW",
+    "currency": "TWD",
+    "rates": {
+      "USD": 33.015,
+      "EUR": 36.565,
+      "JPY": 0.2089,
+      "CNY": 4.953
+    },
+    "data_status": "official_quoted_snapshot"
+  },
+  "oil": {
+    "source": "美國能源資訊署 EIA（經 FRED 公開資料）",
+    "benchmark": "Brent",
+    "quote_type": "歐洲布蘭特原油現貨 FOB",
+    "quote_date": "2026-11-17",
+    "price_usd_per_barrel": 92.94,
+    "change_week": null,
+    "change_month": null,
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "data_status": "official_latest_observation_publicly_verified"
+  },
+  "fetch_failed": [],
+  "initial_snapshot_note": "已查證的最新公開報價快照；後續由 market-only 排程自動覆蓋。"
 }
