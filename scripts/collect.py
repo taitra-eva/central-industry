@@ -1,5 +1,5 @@
 """Collect public RSS article metadata only, with no paid API or article copying."""
-import hashlib, json, re, time
+import hashlib, json, re, time, os
 from html import unescape
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
@@ -14,6 +14,18 @@ NOW=datetime.now(timezone.utc)
 CUTOFF=NOW-timedelta(days=30)
 PUBLICATION_WINDOW=NOW-timedelta(days=14)
 cfg=json.loads((ROOT/'config/queries.json').read_text(encoding='utf8'))['queries']
+# Secondary discovery only: four regions per sector, at most 24 requests,
+# versus the former 126 Google News queries. Direct publishers run first.
+max_google=int(os.environ.get("GOOGLE_NEWS_FALLBACK_MAX","24"))
+if max_google<0:raise ValueError("GOOGLE_NEWS_FALLBACK_MAX must be >=0")
+if max_google<len(cfg):
+    picked=[]
+    for industry in ("總體情勢","機械與金屬加工","自行車","汽配","手工具","無人載具及機器人"):
+        for region in ("台灣","北美","歐洲","亞洲"):
+            entry=next((x for x in cfg if x.get("industry")==industry and x.get("region")==region),None)
+            if entry and entry not in picked:picked.append(entry)
+    cfg=picked[:max_google]
+print("Google News fallback queries:",len(cfg),"max",max_google)
 EXCLUDED=set(json.loads((ROOT/'config/excluded_news_ids.json').read_text(encoding='utf8'))['ids'])
 path=ROOT/'data/news.json'
 previous=json.loads(path.read_text(encoding='utf8'))
@@ -111,7 +123,7 @@ for query in cfg:
             news[uid]={'id':uid,'title':title,'url':link,'source':source,'published_at':published,'discovered_at':NOW.isoformat(),'industries':[query['industry']]+extra_industries,'tags':tags,'priority':'taiwan' if query['region']=='台灣' else 'international','region':query['region'],'language_hint':'ja' if locale=='ja-JP' else None,'topic':topic,'access_status':'not_verified','excerpt':excerpt}
     except Exception as ex:print('FAILED',query['q'],str(ex)[:150])
     time.sleep(1.0)
-if not success:raise SystemExit('All RSS queries failed; previous news retained.')
+if not success:print('All Google News fallback queries failed or were disabled; prior/direct publisher news retained.')
 items=sorted((normalize_article(n) for n in news.values() if datetime.fromisoformat(n.get('discovered_at',NOW.isoformat()))>=CUTOFF and should_keep(n.get('title',''), '總體情勢' if n.get('industries')==['總體情勢'] else None)[0]),key=lambda n:n.get('published_at') or n['discovered_at'],reverse=True)
 # News.json is the 30-day online archive. Avoid daily duplicate snapshots
 # to reduce repository growth. Existing snapshots are removed from the working tree;
