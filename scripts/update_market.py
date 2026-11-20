@@ -1,6 +1,6 @@
 """Update only the market price JSON. No news search, publisher reading or AI calls.
 
-FX: Bank of Taiwan indicative *spot selling* board rates.
+FX: Bank of Taiwan indicative *spot buying* board rates.
 Oil: EIA Brent Europe daily spot (FOB), delivered via FRED public CSV.
 Quote date is preserved. Missing/unparseable data are never invented.
 """
@@ -42,18 +42,18 @@ def parse_fx(html):
             if not re.search(r"\b"+code+r"\b",label):
                 continue
             # On BOT's four-rate table, first currency td is followed by
-            # cash buy, cash sell, spot buy, spot sell (not cash sell).
+            # cash buy, cash sell, spot buy, spot sell (not cash buy).
             values = [td.get_text(" ", strip=True).replace(",","") for td in cells]
             numerical = [float(x) for x in values if re.fullmatch(r"\d+(?:\.\d+)?",x)]
             if len(numerical) < 4:
                 raise ValueError("Missing four numeric quote columns for "+code)
-            value = numerical[3]
+            value = numerical[2]
             if not 0 < value < 200:
-                raise ValueError("Invalid spot selling quote for "+code)
+                raise ValueError("Invalid spot buying quote for "+code)
             rows[code] = value
     if set(rows) != set(CODES):
         raise ValueError("Missing currency rows: "+str(set(CODES)-set(rows)))
-    return {"source":"臺灣銀行","quote_type":"即期賣出","quote_time":stamp,
+    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":stamp,
             "source_url":FX_URL,"currency":"TWD","rates":rows}
 
 def parse_brent_csv(contents):
@@ -110,6 +110,10 @@ def parse_brent_text(contents):
 def main():
     old=json.loads(DEST.read_text(encoding="utf-8")) if DEST.exists() else {}
     updated=dict(old)
+    # A previously persisted SELL rate must never be retained or shown as a
+    # BUY rate, even if all live source calls fail.
+    if (updated.get("fx") or {}).get("quote_type")!="即期買入":
+        updated["fx"]=None
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
     for name, endpoints in [
