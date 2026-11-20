@@ -10,9 +10,11 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
+from html import unescape
 import requests
 import feedparser
-from relevance import should_keep
+from relevance import should_keep, is_government_source
+from select_daily import relevant_to_sector
 from industry_entities import entity_sectors
 from topic_taxonomy import normalize_article
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,7 +25,7 @@ def main():
     now=datetime.now(timezone.utc)
     doc=json.loads(NEWS.read_text(encoding="utf-8"))
     rows={row["id"]:row for row in doc.get("items",[])}
-    cfg=json.loads(SOURCES.read_text(encoding="utf-8"))["sources"]
+    cfg=[x for x in json.loads(SOURCES.read_text(encoding="utf-8"))["sources"] if x.get("type")=="rss"]
     total=0
     stats=[]
     for source in cfg:
@@ -38,13 +40,24 @@ def main():
                 title=re.sub(r"<[^>]+>"," ",entry.get("title","")).strip()
                 link=entry.get("link","")
                 host=(urlparse(link).hostname or "").lower()
-                if not host.endswith("bike-eu.com") or not link.startswith("https://"):
+                allowed=source.get("hosts") or ["bike-eu.com"]
+                if not link.startswith("https://") or not any(host==h or host.endswith("."+h) for h in allowed):
                     continue
-                if not should_keep(title,source["industry"])[0]:continue
+                if is_government_source(source["name"],link) or not should_keep(title,source["industry"])[0]:
+                    continue
+                candidate={"id":"","title":title,"title_zh":"","source":source["name"]}
+                if not relevant_to_sector(candidate,source["industry"],set()):
+                    continue
                 parsed=entry.get("published_parsed") or entry.get("updated_parsed")
                 if not parsed:continue
                 stamp=datetime.fromtimestamp(calendar.timegm(parsed),timezone.utc)
                 if not now-WINDOW<=stamp<=now+timedelta(hours=3):continue
+                raw=entry.get("summary","") or entry.get("description","")
+                excerpt=" ".join(unescape(re.sub(r"<[^>]+>"," ",raw)).split())
+                # RSS summaries must carry actual reporting, not link directories.
+                if len(excerpt)<80 or title.casefold() in excerpt.casefold() and len(excerpt)<len(title)+60:
+                    excerpt=""
+                excerpt=excerpt[:650]
                 uid=hashlib.sha256(re.sub(r"\W+","",title.casefold()).encode()).hexdigest()[:20]
                 sectors=[source["industry"]]
                 for sec in entity_sectors(title):
@@ -57,12 +70,16 @@ def main():
                     if original.startswith("https://news.google.com/"):
                         x["source_url"]=link
                         x["source"]=source["name"]
+                    if excerpt and len(excerpt)>len(x.get("publisher_excerpt","")):
+                        x["publisher_excerpt"]=excerpt
+                        x["publisher_excerpt_source"]="official_rss"
                     continue
                 item={"id":uid,"title":title,"url":link,"source_url":link,"source":source["name"],
                       "published_at":stamp.isoformat(),"discovered_at":now.isoformat(),
                       "industries":sectors,"tags":[],"priority":"international",
                       "region":source["region"],"language_hint":"en","topic":"產業動態",
-                      "access_status":"not_verified","excerpt":""}
+                      "access_status":"not_verified","excerpt":"",
+                      "publisher_excerpt":excerpt,"publisher_excerpt_source":"official_rss" if excerpt else ""}
                 rows[uid]=normalize_article(item)
                 added+=1
             total+=added
