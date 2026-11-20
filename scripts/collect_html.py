@@ -135,6 +135,25 @@ def main():
             stats["dated_relevant_cards"]=len(entries)
             free_checked=0
             for entry in entries:
+                if source.get("require_public_body"):
+                    # IEK free-labeled research may still require I-card login;
+                    # check the exact original article, never assume that a
+                    # list preview grants full-text public access.
+                    from read_articles import read_public_page
+                    if free_checked>=10:break
+                    free_checked+=1
+                    result=read_public_page(entry["link"],expected_title=entry["title"],minimum_length=450)
+                    if result.get("access_status")!="readable":
+                        stats["not_publicly_readable"]=stats.get("not_publicly_readable",0)+1
+                        continue
+                    article=result["body"]
+                    gate_markers=("您好：您尚未登入","登入後才可","登入後始可","請先登入才能",
+                                  "此報告須付費","購買模組後","升級付費會員")
+                    if any(mark in article for mark in gate_markers):
+                        stats["member_or_paywalled"]=stats.get("member_or_paywalled",0)+1
+                        continue
+                    entry["link"]=result.get("source_url") or entry["link"]
+                    stats["public_body_confirmed"]=stats.get("public_body_confirmed",0)+1
                 if source["name"]=="DIGITIMES":
                     # Some DIGITIMES content is member-only. A news listing
                     # or preview is NOT evidence that article text is free.
@@ -156,7 +175,7 @@ def main():
                     if "news.google.com" in (old.get("source_url") or old.get("url") or ""):
                         old["source_url"]=entry["link"]
                         old["source"]=source["name"]
-                    if entry["snippet"] and len(entry["snippet"])>len(old.get("publisher_excerpt","")):
+                    if not source.get("suppress_excerpt") and entry["snippet"] and len(entry["snippet"])>len(old.get("publisher_excerpt","")):
                         old["publisher_excerpt"]=entry["snippet"]
                         old["publisher_excerpt_source"]="publisher_news_listing"
                     continue
@@ -164,7 +183,9 @@ def main():
                     "source":source["name"],"published_at":entry["published_at"],"discovered_at":now.isoformat(),
                     "industries":sectors,"region":source["region"],"priority":"taiwan" if source["region"]=="台灣" else "international",
                     "topic":"產業動態","tags":[],"access_status":"not_verified","excerpt":"",
-                    "publisher_excerpt":entry["snippet"],"publisher_excerpt_source":"publisher_news_listing" if entry["snippet"] else ""})
+                    "publisher_excerpt":"" if source.get("suppress_excerpt") else entry["snippet"],
+                    "publisher_excerpt_source":"" if source.get("suppress_excerpt") or not entry["snippet"] else "publisher_news_listing",
+                    "source_content_policy":"link_only" if source.get("suppress_excerpt") else ""})
                 stats["new"]+=1
         except (requests.RequestException,ValueError,KeyError) as exc:
             stats["error"]=str(exc)[:200]
