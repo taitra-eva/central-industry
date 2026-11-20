@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T00:39:08.518386+00:00",
+  "updated_at": "2026-11-20T02:05:00+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -457,6 +457,104 @@
       "generated_at": "2026-11-20T00:38:53.518234+00:00",
       "source_url": "https://www.bike-eu.com/subject/product-trends",
       "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "42cb48f7469ea7ce4ca6"
+      ],
+      "title": "台中精機布局東南亞智慧製造 CNC工具機與自動化設備搶商機 - CTIMES",
+      "summary": "台中精機參加11月18日至21日在泰國曼谷舉辦的 METALEX 2026 國際金屬加工展，展示 CNC 車床、立式加工中心及伺服驅動射出成型機，藉由參展拓展東南亞智慧製造及自動化設備市場。報導重點在公司以工具機和整合設備切入區域製造業需求，尚未提供實際接單或成交金額。",
+      "observation": "台中精機以工具機及自動化設備同時參展，反映業者重視東南亞製造業升級需求。應持續追蹤展後實際詢單、經銷合作與訂單轉換情況；單憑參展資訊，尚無法判斷拓銷成果。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0/%E5%8F%B0%E4%B8%AD%E7%B2%BE%E6%A9%9F/%E8%87%AA%E5%8B%95%E5%8C%96%E8%A8%AD%E5%82%99/2611191115XC.shtml",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "98ba1184d41156422d28"
+      ],
+      "title": "上銀訂單旺到2027年中，擴產螺桿線軌攻機器人- 新聞 - MoneyDJ",
+      "summary": "上銀受半導體、AI 資料中心及自動化設備需求帶動，持續擴充滾珠螺桿、線性滑軌及相關精密設備產能。董事長卓文恒指出，部分產品交期延長，半導體相關訂單能見度延伸至 2027 年中；公司也擴充適用於人形機器人的微小型傳動元件，因應新應用需求。",
+      "observation": "半導體設備需求與人形機器人精密傳動元件成為值得並行追蹤的市場。後續應關注擴產設備投入後的產能釋出、交期變化及機器人零組件實際量產與出貨，不能將訂單能見度直接等同已實現營收。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "cc614b12bb48769672c4"
+      ],
+      "title": "美利達前3季每股賺2.74元　自行車市場去庫存步尾聲 - 經濟日報",
+      "summary": "自行車廠美利達公布 2026 年前三季合併營收約新臺幣 184 億元、年減 16%；歸屬母公司稅後淨利約 8.2 億元、年減 43%，每股盈餘 2.74 元。公司表示全球自行車市場的庫存調整已接近尾聲，但不同地區市場的復甦步調不一，將繼續依消費需求調整銷售策略及布局。",
+      "observation": "庫存調整接近尾聲是業者對市場階段的判斷，但美利達前三季營收及獲利仍較去年衰退。後續應觀察各地經銷商補庫存、終端需求及電動輔助自行車銷售變化，尚不能直接認定整體市場已全面復甦。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://money.udn.com/money/story/5612/9872694",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "8760a29286c5f12174ae"
+      ],
+      "title": "搶攻無人化晶圓廠，三星、SK 海力士、美光聯手制定機器人充電標準 - TechNews 科技新報",
+      "summary": "報導指出三星電子、SK 海力士及美光正在推動半導體晶圓廠移動式機器人的充電標準化，希望讓未來工廠中的行動機器人具備更一致的充電介面及作業條件。這項動態反映半導體製造業正在評估擴大機器人使用的共通基礎設施需求；報導尚未證實共同標準已正式完成或全面採用。",
+      "observation": "若共同充電規格逐步形成，工廠物流機器人、充電模組及系統整合商可能需要留意相容性要求。應追蹤標準發布、參與廠商和實際驗證時程，不宜把目前的制定計畫視為已實施的產業標準。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://technews.tw/2026/11/18/samsung-sk-hynix-micron-robot-charging-standard/",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "0014c4abe421527ad4f9"
+      ],
+      "title": "Pon.Bike擴充零配件版圖 整合四品牌通路 - 輪彥國際有限公司",
+      "summary": "荷蘭自行車集團 Pon.Bike 擴充零件與配件業務，旗下 Pon.Bike Parts & Accessories 納入 Fabric、Reserve Wheels、OneUp Components 三個品牌，並與既有 BBB Cycling 的通路資源整合，強化德國與比荷盧市場的產品供應及經銷服務。重點在於品牌組合與通路整合，而非已公布新的製造投資。",
+      "observation": "歐洲自行車零配件通路整合值得台灣供應商關注，可能影響品牌採購窗口、產品組合及經銷合作方式。應追蹤 Pon.Bike 的整合後供應商政策與採購安排，目前尚無資料證明台灣業者訂單已因此增減。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://www.wheelgiant.com.tw/2026/11/16/pon-bike%E6%93%B4%E5%85%85%E9%9B%B6%E9%85%8D%E4%BB%B6%E7%89%88%E5%9C%96%E3%80%80%E6%95%B4%E5%90%88%E5%9B%9B%E5%93%81%E7%89%8C%E9%80%9A%E8%B7%AF/",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "24338fe3076d2b5ec7c6"
+      ],
+      "title": "元太電子紙打進Google機器人鏈！串聯人機介面溝通要角 可望大咬商機",
+      "summary": "報導指出，元太透過美國機器人開發商 Apptronik 供應鏈，提供用於人形機器人臉部與上半身的電子紙元件，作為人機互動的顯示介面。Apptronik 與 Google 的機器人研發布局有所連結，因此元太的電子紙應用從傳統顯示場景延伸至機器人互動設備。報導未提供此項業務的實際出貨金額。",
+      "observation": "電子紙應用延伸到機器人人機介面，反映顯示與電子零組件廠商可探索新的機器人應用市場。後續應追蹤實際量產規模、元件設計定案及營收貢獻，不能依供應鏈切入就推定已形成顯著業績。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://udn.com/news/story/7252/9873026",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "2f7e34475f02eb85a14f"
+      ],
+      "title": "台美機器人無人載具論壇 促成8項台美產業MOU簽署 | 熱門亮點 | 商情 - 經濟日報",
+      "summary": "台美機器人、無人載具及高科技供應鏈媒合論壇於 2026 年 11 月 11、12 日舉行，促成 8 項台美產業合作備忘錄（MOU）簽署。論壇以美國新創需求對接台灣製造、模組、零組件與系統整合能量為方向，後續規劃透過交流及媒合持續推動合作。MOU 代表合作意向，並不等同已取得採購訂單。",
+      "observation": "對國內精密製造、感測元件與無人載具供應鏈而言，這類論壇可提供接觸美國新創需求的管道。應追蹤 8 項 MOU 是否進一步轉成技術驗證、樣品開發、採購契約或量產合作，不能把備忘錄數量當成已落實的商機。",
+      "observation_type": "觀察重點",
+      "method": "editorial_summary_from_verified_public_media",
+      "source_url": "https://www.cens.com/cens/html/zh/news/news_inner_64750.html",
+      "generated_at": "2026-11-20T02:05:00+00:00",
+      "confidence": "根據公開報導核對，部分未能取得完整正文",
+      "review_status": "source_cross_checked_not_AI"
     }
   ]
 }
