@@ -45,11 +45,11 @@ def main():
     # publisher-provided RSS/listing excerpt can support a *limited* brief.
     evidence={}
     for identifier,body in texts.items():
-        if identifier in byid and identifier not in done and body.strip():
+        if identifier in byid and byid[identifier].get("source_content_policy")!="link_only" and identifier not in done and body.strip():
             evidence[identifier]=(body,"publisher_body")
     for article in doc["items"]:
         identifier=article["id"]
-        if identifier in done or identifier in evidence:continue
+        if identifier in done or identifier in evidence or article.get("source_content_policy")=="link_only":continue
         kind=article.get("publisher_excerpt_source")
         excerpt=(article.get("publisher_excerpt") or "").strip()
         url=article.get("source_url") or article.get("url") or ""
