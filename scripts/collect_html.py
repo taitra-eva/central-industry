@@ -116,7 +116,21 @@ def main():
             resp.raise_for_status()
             entries=extract(source,resp.text,now)
             stats["dated_relevant_cards"]=len(entries)
+            free_checked=0
             for entry in entries:
+                if source["name"]=="DIGITIMES":
+                    # Some DIGITIMES content is member-only. A news listing
+                    # or preview is NOT evidence that article text is free.
+                    # Only collect items whose original full public text is
+                    # actually accessible without authentication.
+                    from read_articles import read_public_page
+                    if free_checked>=10:break
+                    free_checked+=1
+                    page=read_public_page(entry["link"],expected_title=entry["title"],minimum_length=250)
+                    if page.get("access_status")!="readable":
+                        stats["not_publicly_readable"]=stats.get("not_publicly_readable",0)+1
+                        continue
+                    stats["free_body_confirmed"]=stats.get("free_body_confirmed",0)+1
                 norm=re.sub(r"\W+","",entry["title"].casefold())
                 uid=hashlib.sha256(norm.encode()).hexdigest()[:20]
                 sectors=list(dict.fromkeys(entry.get("industries",[source.get("industry")])+entity_sectors(entry["title"])))
