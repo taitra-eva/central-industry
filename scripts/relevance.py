@@ -36,11 +36,22 @@ SUBSTANTIVE = (
     "automotive", "bicycle", "machine tool", "hardware",
 )
 
+# Reject chip/server stories if no tangible link to one of six industries.
+# Generic "export controls", "supply chain" or "policy" is NOT a link.
+ICT_SUBJECTS=("晶片","半導體","伺服器","資料中心","數據中心","記憶體","晶圓","台積電","晶圓代工","hbm","gpu","semiconductor","chip","data center","datacenter","server","dram","foundry")
+INDUSTRIAL_BRIDGES=("工具機","金屬加工","機械加工","精密機械","木工機","車床","加工中心","cnc","機床","線性滑軌","滾珠螺桿","沖壓","鍛造","鑄造","machine tool","metalworking","工業機器人","機器人","機械手臂","人形機器人","協作機器人","robot","無人機","無人載具","無人船","uav","drone","unmanned","自行車","電動二輪車","電動三輪車","e-bike","bicycle","bike","電動機車","汽車零組件","汽車零配件","汽配","汽車零件","車用零件","車用零組件","車載","automotive parts","auto parts","手工具","汽修工具","電動工具","氣動工具","扳手","套筒","五金工具","hand tool","power tool","鋼鐵","鋼價","鋁價","銅價","航運","運價","貨櫃","海運","油價","原油")
+def ict_out_of_scope(title):
+    """True for ICT-centric headlines with no explicit industrial product/sector."""
+    low=(title or "").casefold()
+    return any(term in low for term in ICT_SUBJECTS) and not any(term in low for term in INDUSTRIAL_BRIDGES)
+
 def should_keep(title, industry=None):
     text = re.sub(r"\s+", " ", title or "").strip()
     low = text.casefold()
     if len(text) < 12:
         return False, "short_or_empty_title"
+    if ict_out_of_scope(text):
+        return False, "ict_only_without_six_sector_industry_connection"
     if re.search(r"(?:^|[\s｜|:：-])(?:版權所有|著作權所有|Copyright(?: ©)?|All Rights Reserved)(?:[\s。｜|:：-]|$)",text,re.I):
         return False, "copyright_footer_or_navigation"
     # Exclude university publicity about recruitment or talent programs when
