@@ -1,0 +1,36 @@
+name: Resolve existing original publisher links (no Groq)
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/resolve_existing_links.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: resolve-existing-publisher-links
+  cancel-in-progress: false
+jobs:
+  resolve_links_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install URL search and HTML validation dependencies
+        run: pip install requests==2.32.3 feedparser==6.0.12 beautifulsoup4 trafilatura charset-normalizer googlenewsdecoder
+      - name: Validate link-only code syntax
+        run: python -m py_compile scripts/resolve_existing_links.py scripts/read_articles.py
+      - name: Search Bing and verify publisher URLs for existing articles only
+        env:
+          DIRECT_LINK_MAX: '40'
+          DIRECT_LINK_DELAY: '1.2'
+        run: python scripts/resolve_existing_links.py
+      - name: Commit verified original links (no Groq and no new news)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json
+          git diff --cached --quiet || (git commit -m 'data: verify direct original publisher links' && git pull --rebase origin main && git push)
