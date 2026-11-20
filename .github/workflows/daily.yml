@@ -5,6 +5,8 @@ on:
       timezone: 'Asia/Taipei'
     - cron: '0 8 * * *'
       timezone: 'Asia/Taipei'
+    - cron: '20 9,12,16 * * 1-5'
+      timezone: 'Asia/Taipei'
   workflow_dispatch:
     inputs:
       stage:
@@ -14,6 +16,7 @@ on:
           - collect
           - analyze
           - full
+          - market
         default: full
 permissions:
   contents: write
@@ -21,6 +24,25 @@ concurrency:
   group: daily-industry-news
   cancel-in-progress: false
 jobs:
+  market:
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '20 9,12,16 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'market') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install market source parser (no AI or news libraries needed)
+        run: pip install requests beautifulsoup4
+      - name: Update only Bank of Taiwan FX and Brent spot prices
+        run: python scripts/update_market.py
+      - name: Commit market quotes only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/market.json
+          git diff --cached --quiet || (git commit -m 'data: market-only FX and Brent quotes' && git pull --rebase origin main && git push)
   collect:
     if: ${{ (github.event_name == 'schedule' && github.event.schedule == '30 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'collect') }}
     runs-on: ubuntu-latest
