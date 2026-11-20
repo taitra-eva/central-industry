@@ -12,4 +12,9 @@ assert fx["quote_time"]=="2026/11/20 09:05"
 assert fx["rates"]=={"USD":32.50,"EUR":36.50,"JPY":0.22,"CNY":4.27},fx
 oil=parse_brent_csv("observation_date,DCOILBRENTEU\n2026-11-18,94.10\n2026-11-19,.\n2026-11-17,93.75\n")
 assert oil["quote_date"]=="2026-11-18" and oil["price_usd_per_barrel"]==94.10,oil
-print("PASS market FX spot-selling and latest dated Brent CSV parser")
+oil2=parse_brent_csv("observation_date,DCOILBRENTEU\n2026-10-20,80\n2026-11-13,90\n2026-11-20,99\n")
+assert oil2["change_week"]["pct"]==10.0,oil2
+assert oil2["change_month"]["pct"]==23.75,oil2
+assert oil2["change_week"]["base_date"]=="2026-11-13",oil2
+assert oil2["change_month"]["base_date"]=="2026-10-20",oil2
+print("PASS market FX, Brent history and comparative changes")
