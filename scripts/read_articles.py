@@ -160,7 +160,7 @@ def main():
         try:
             already_summarized={id for record in json.loads(existing_insights.read_text(encoding="utf-8")).get("items",[]) for id in record.get("article_ids",[])}
         except (ValueError,OSError):pass
-    candidates=[n for n in rows if n["id"] not in already_summarized or (n.get("source_url") and n.get("access_status")!="readable")]
+    candidates=[n for n in rows if n.get("source_content_policy")!="link_only" and (n["id"] not in already_summarized or (n.get("source_url") and n.get("access_status")!="readable"))]
     # Try publisher-direct URLs first; those are more likely to yield
     # verifiable full text than another encoded Google News link.
     candidates.sort(key=lambda x:(
