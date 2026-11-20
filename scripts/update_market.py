@@ -19,7 +19,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "data" / "market.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CentralIndustryMarket/1.0)"}
 FX_URL = "https://rate.bot.com.tw/xrt?Lang=zh-TW"
+FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/all/day?page=print"
 BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU"
+BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
 CODES = ("USD", "EUR", "JPY", "CNY")
 
@@ -73,11 +75,12 @@ def parse_brent_csv(contents):
     day, value = max(valid,key=lambda x:x[0])
     def compare(days_back):
         target=day-timedelta(days=days_back)
-        candidates=[(d,p) for d,p in valid
-                    if timedelta(0)<=target-d<=timedelta(days=5)]
+        # Nearest available trading day, either side of calendar target.
+        # A 30-day target may fall on a weekend or non-trading day.
+        candidates=[(d,p) for d,p in valid if abs((target-d).days)<=4]
         if not candidates:
             return None
-        base_date,base_price=max(candidates,key=lambda x:x[0])
+        base_date,base_price=min(candidates,key=lambda dp:(abs((target-dp[0]).days),dp[0]>target))
         if base_price<=0:return None
         return {"pct":round((value/base_price-1)*100,2),
                 "base_date":base_date.isoformat(),"base_price":base_price}
@@ -89,26 +92,50 @@ def parse_brent_csv(contents):
             "change_week":week,"change_month":month,
             "source_url":BR}
 
+
+def parse_brent_text(contents):
+    # FRED's second published format is a whitespace-delimited table with
+    # DATE VALUE rows, preceded by descriptive metadata.
+    rows=[]
+    for line in contents.splitlines():
+        match=re.match(r"^\s*(\d{4}-\d{2}-\d{2})\s+(\d+(?:\.\d+)?)\s*$",line)
+        if match: rows.append({"observation_date":match.group(1),"DCOILBRENTEU":match.group(2)})
+    if not rows: raise ValueError("FRED text contained no daily prices")
+    output=io.StringIO()
+    writer=csv.DictWriter(output,fieldnames=("observation_date","DCOILBRENTEU"))
+    writer.writeheader()
+    writer.writerows(rows)
+    return parse_brent_csv(output.getvalue())
+
 def main():
     old=json.loads(DEST.read_text(encoding="utf-8")) if DEST.exists() else {}
     updated=dict(old)
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
-    for name, url, parse in [
-        ("fx",FX_URL,parse_fx),
-        ("oil",BRENT_CSV_URL,parse_brent_csv),
+    for name, endpoints in [
+        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx)]),
+        ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text)]),
     ]:
-        try:
-            r=requests.get(url,headers=HEADERS,timeout=25)
-            r.raise_for_status()
-            fresh=parse(r.text)
-            fresh["fetched_at"]=now
-            updated[name]=fresh
-            print("MARKET_UPDATED",name,fresh.get("quote_time") or fresh.get("quote_date"))
-        except (requests.RequestException,ValueError,KeyError) as exc:
+        for url, parse in endpoints:
+            try:
+                r=requests.get(url,headers=HEADERS,timeout=25)
+                r.raise_for_status()
+                fresh=parse(r.text)
+                fresh["fetched_at"]=now
+                # Never replace the latest stored quote with a known older one.
+                old_date=(updated.get(name) or {}).get("quote_time") or (updated.get(name) or {}).get("quote_date") or ""
+                new_date=fresh.get("quote_time") or fresh.get("quote_date") or ""
+                if old_date and new_date and new_date<old_date:
+                    print("MARKET_OLDER_IGNORED",name,new_date,"stored",old_date)
+                    break
+                updated[name]=fresh
+                print("MARKET_UPDATED",name,new_date)
+                break
+            except (requests.RequestException,ValueError,KeyError) as exc:
+                print("MARKET_SOURCE_FAILED",name,url,str(exc)[:180])
+        else:
             failed.append(name)
-            print("MARKET_FETCH_FAILED",name,str(exc)[:180])
-            # Retain previous *dated* observation. Never fabricate a price.
+            print("MARKET_FETCH_FAILED",name,"all sources failed, previously verified quote retained")
     updated["checked_at"]=now
     updated["fetch_failed"]=failed
     DEST.write_text(json.dumps(updated,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

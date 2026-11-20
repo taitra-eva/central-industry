@@ -1,6 +1,38 @@
 {
   "checked_at": null,
-  "fx": null,
-  "oil": null,
-  "fetch_failed": []
+  "fx": {
+    "source": "臺灣銀行",
+    "quote_type": "即期賣出",
+    "quote_time": "2026/11/20 04:01",
+    "source_url": "https://rate.bot.com.tw/xrt?Lang=zh-TW",
+    "currency": "TWD",
+    "rates": {
+      "USD": 33.015,
+      "EUR": 36.565,
+      "JPY": 0.2089,
+      "CNY": 4.953
+    },
+    "data_status": "official_quoted_snapshot"
+  },
+  "oil": {
+    "source": "美國能源資訊署 EIA（經 FRED 公開資料）",
+    "benchmark": "Brent",
+    "quote_type": "歐洲布蘭特原油現貨 FOB",
+    "quote_date": "2026-11-17",
+    "price_usd_per_barrel": 92.94,
+    "change_week": {
+      "pct": 3.08,
+      "base_date": "2026-11-10",
+      "base_price": 90.16
+    },
+    "change_month": {
+      "pct": -21.78,
+      "base_date": "2026-10-19",
+      "base_price": 118.82
+    },
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "data_status": "official_latest_observation_publicly_verified"
+  },
+  "fetch_failed": [],
+  "initial_snapshot_note": "Verified quote snapshots from Bank of Taiwan and EIA/FRED, with historical EIA/FRED comparison dates; market-only workflow will refresh automatically."
 }

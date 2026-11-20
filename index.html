@@ -15,6 +15,27 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 .archive-panel{background:#fff;border:1px solid #e8dfd7;border-radius:16px;padding:20px}.controls{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:15px}.controls input,.controls select{border:1px solid #ded2c6;border-radius:8px;background:#fff;padding:10px 12px;color:#48372c;font-size:13px}.controls input{min-width:240px;flex:1}.controls select{min-width:135px}.archive-list{display:grid;gap:0}.archive-row{padding:13px 3px;border-bottom:1px solid #efe9e2}.archive-row:last-child{border:0}.archive-row h3{margin:4px 0 6px;font-size:14px;line-height:1.55}.archive-row h3 a{color:#423228;text-decoration:none}.archive-row h3 a:hover{color:#995126}.archive-links{display:flex;gap:15px;flex-wrap:wrap;font-size:12px}.pager{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:17px}.pager button{border:1px solid #ded0c3;border-radius:8px;background:#fffaf7;color:#7b5136;padding:8px 15px;cursor:pointer}.pager button:disabled{opacity:.45;cursor:default}.footnote{font-size:12px;color:#95867a;line-height:1.85;margin:13px 0}.sitefooter{background:#e9edf1;border-top:1px solid #dde1e6;padding:42px 0 48px;color:#68788b;text-align:center}.footer-brand{display:flex;flex-direction:column;align-items:center;gap:5px}.footer-logo{width:74px;height:88px;object-fit:contain}.footer-taitra{font-size:12px;color:#67798d;letter-spacing:.12em;font-weight:700}.footer-org{margin-top:18px;font-weight:750;font-size:14px;color:#596c81;letter-spacing:.07em}.footer-en{margin-top:8px;font-size:12px;letter-spacing:.13em}.footer-contact{margin-top:8px;font-size:12px;letter-spacing:.08em}.footer-date{margin-top:21px;color:#79889a;font-size:11px;letter-spacing:.04em}.footer-note{margin-top:10px;color:#8996a5;font-size:11px;line-height:1.65}.footer-contact a{color:#5c7698}.hidden{display:none!important}
 @media(max-width:850px){.watch-layout.has-observation{grid-template-columns:minmax(0,1fr) minmax(220px,.95fr)}.toplinks{gap:3px}.toplinks a{font-size:11px;padding:8px 5px}.masthead .shell{min-height:64px}.focus-grid{grid-template-columns:1fr}.sector-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:35px}.toplinks{gap:10px}}
 @media(max-width:560px){.watch-layout.has-observation{grid-template-columns:minmax(0,1fr)}.watch-observation{padding:12px}.footer-en{letter-spacing:.03em}.masthead .shell{display:block;padding-top:10px;padding-bottom:8px}.brand{margin-bottom:9px}.toplinks{overflow-x:auto;gap:5px}.toplinks a{font-size:11px}.backtop{right:12px;bottom:15px}.shell{padding-left:15px;padding-right:15px}.hero h1{font-size:33px}.brand small{display:none}.toplinks a{font-size:11px}.sector-grid{grid-template-columns:1fr 1fr}.metric{padding:12px}.metric strong{font-size:22px}.focus-card{padding:15px}.sector-tile{padding:13px;min-height:112px}.section-head h2{font-size:24px}.controls select{flex:1;min-width:120px}}
+
+/* High-contrast market dashboard only; do not alter the three news sections. */
+.hero .market-strip{background:#4c3023;border:2px solid #8a4c26;box-shadow:0 8px 25px #45271e24;padding:18px 19px 17px;border-radius:15px}
+.hero .market-heading{margin-bottom:12px}
+.hero .market-heading strong{font-size:16px;font-weight:900;color:#fff;letter-spacing:.025em}
+.hero .market-heading small{font-size:12px;font-weight:750;color:#ffe4b2}
+.hero .market-wrap{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:11px}
+.hero .market-tile{grid-column:span 1;background:#fffdfa;border:2px solid #cba888;border-radius:11px;padding:14px 12px;box-shadow:0 3px 0 #26170f20}
+.hero .market-tile span{font-size:13px;font-weight:850;color:#573521;line-height:1.5}
+.hero .market-tile strong{font-size:clamp(24px,2.3vw,33px);font-weight:900;color:#292d36;letter-spacing:.01em;margin:6px 0}
+.hero .market-tile small{font-size:11px;font-weight:750;color:#604f3e}
+.hero .market-tile:last-child{grid-column:span 2;background:#e5f2ed;border-color:#258474}
+.hero .market-tile:last-child span{color:#14594f}
+.hero .market-tile:last-child strong{color:#113f39}
+.hero .oil-trend{font-size:12px;font-weight:800;margin-top:8px;color:#24473e;line-height:1.7}
+.hero .oil-trend b{font-weight:900}
+.hero .market-note{font-size:11px;line-height:1.85;font-weight:650;color:#fff1dd;margin-top:13px}
+.hero .market-note a{font-weight:850;color:#ffcb81;text-decoration:underline}
+@media(max-width:990px){.hero .market-wrap{grid-template-columns:repeat(4,minmax(0,1fr))}.hero .market-tile:last-child{grid-column:span 4}}
+@media(max-width:630px){.hero .market-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.hero .market-tile:last-child{grid-column:span 2}.hero .market-strip{padding:13px}.hero .market-tile strong{font-size:24px}.hero .market-heading{flex-wrap:wrap}}
+
 </style></head>
 <body>
 <header class="masthead"><div class="shell"><a class="brand" href="./"><img id="header-logo" src="./assets/taitra-logo.svg" class="brand-mark" alt="TAITRA 貿協標誌"><span class="brand-name"><strong>中部產業情報中心</strong><small>CENTRAL TAIWAN INDUSTRY INTELLIGENCE</small></span></a><nav class="toplinks"><a href="#focus">01 焦點解讀</a><a href="#sectors">02 產業動態</a><a href="#archive">03 歷史新聞資料庫</a></nav></div></header>
@@ -224,7 +245,7 @@ async function loadMarket(){
   if(fx.quote_time)dates.push('臺銀牌告：'+fx.quote_time+'（台灣時間）');
   if(oil.quote_date)dates.push('Brent 現貨：'+oil.quote_date+'（交易日）');
   if(dates.length)document.getElementById('market-dates').textContent=dates.join('　｜　');
-  checked.textContent=data.checked_at?'最後檢查 '+data.checked_at.slice(0,16).replace('T',' '):'尚未取得行情';
+  checked.textContent=data.checked_at?'最後檢查 '+data.checked_at.slice(0,16).replace('T',' '):(fx.quote_time||oil.quote_date?'已載入最近可查證報價':'行情尚待更新');
  }catch(e){checked.textContent='行情資料未取得'}
 }
 loadMarket();
