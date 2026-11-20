@@ -58,6 +58,23 @@ def extract(source,html,now):
         if not 15<=len(title)<=180:
             img=a.find("img")
             title=clean(img.get("alt","")) if img else ""
+        if not 15<=len(title)<=180 and source["name"].startswith("TEDIBOA"):
+            # TEDIBOA article links are labeled "了解更多"; the title is
+            # a sibling in the same card, not the clickable anchor itself.
+            # Never read from the entire news listing: each article needs
+            # its own one-link card.
+            card=a
+            for _ in range(5):
+                card=card.parent
+                if not card or card.name in ("body","html","main"):break
+                if len(card.select("a[href]"))>3 or len(card.get_text(" ",strip=True))>850:break
+                headings=[clean(h.get_text(" ",strip=True)) for h in
+                          card.select("h2,h3,h4,h5,h6")]
+                headings=[h for h in headings if 15<=len(h)<=180 and
+                          h not in ("最新消息","NEWS","了解更多")]
+                if headings:
+                    title=headings[0]
+                    break
         if not 15<=len(title)<=180:
             continue
         # Date may appear on the article preview card, but never scan the
