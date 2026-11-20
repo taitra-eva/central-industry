@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:05:00+00:00",
+  "updated_at": "2026-11-20T02:58:52.803726+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -555,6 +555,36 @@
       "generated_at": "2026-11-20T02:05:00+00:00",
       "confidence": "根據公開報導核對，部分未能取得完整正文",
       "review_status": "source_cross_checked_not_AI"
+    },
+    {
+      "article_ids": [
+        "72a354a2756b6cd05826"
+      ],
+      "title": "伊朗戰爭前景訊號分歧 國際油價上揚",
+      "summary": "交易員評估伊朗戰爭落幕前景的矛盾訊號，國際油價今天上揚。紐約商品交易所西德州中級原油上揚0.6%，收報每桶86.53美元；倫敦北海布倫特原油上漲1.4%，收在每桶92.76美元。",
+      "observation": "此報導顯示因伊朗戰爭前景不確定，油價短期上揚。觀察需追蹤伊朗局勢變化對油價的長期影響，以及各主要交易所的波動幅度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T02:58:22.292308+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9873149",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "90e997b83c737a7af7cd"
+      ],
+      "title": "匯率激戰！央行拉尾盤 守住33元",
+      "summary": "新台幣於昨日匯率激戰中，央行尾盤介入，最終以32.865元收盤，升值1.7分，成功守住33元整數關卡。外資持續賣超，台股大漲逾千點，兩大外匯市場成交額達32.155億美元。央行總裁楊金龍表示外資匯出約百多億美元，並承諾將於一週內提出報告說明台幣貶值與外資賣出關係。",
+      "observation": "觀察顯示，外資持續賣超與台股大漲形成對比，央行介入匯市波動劇烈，短線上新台幣不致貶破33元。需追蹤央行後續報告及外資匯出量變化，以評估匯率長期走勢。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T02:58:37.803602+00:00",
+      "source_url": "https://udn.com/news/story/7238/9870555",
+      "confidence": "高"
     }
   ]
 }
