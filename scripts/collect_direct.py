@@ -46,7 +46,13 @@ def main():
                 if is_government_source(source["name"],link) or not should_keep(title,source["industry"])[0]:
                     continue
                 candidate={"id":"","title":title,"title_zh":"","source":source["name"]}
-                if not relevant_to_sector(candidate,source["industry"],set()):
+                matched=[sector for sector in ("總體情勢","機械與金屬加工","自行車","汽配","手工具","無人載具及機器人")
+                         if relevant_to_sector(candidate,sector,set())]
+                # A general CNA finance feed contains all industries; it must
+                # not label every item as macro nor discard sector-only news.
+                if source["industry"]=="總體情勢":
+                    if not matched:continue
+                elif source["industry"] not in matched:
                     continue
                 parsed=entry.get("published_parsed") or entry.get("updated_parsed")
                 if not parsed:continue
@@ -59,9 +65,8 @@ def main():
                     excerpt=""
                 excerpt=excerpt[:650]
                 uid=hashlib.sha256(re.sub(r"\W+","",title.casefold()).encode()).hexdigest()[:20]
-                sectors=[source["industry"]]
-                for sec in entity_sectors(title):
-                    if sec not in sectors: sectors.append(sec)
+                sectors=(matched if source["industry"]=="總體情勢"
+                         else [source["industry"]]+[x for x in matched if x!=source["industry"]])
                 if uid in rows:
                     x=rows[uid]
                     for sec in sectors:
