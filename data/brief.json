@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T14:03:14.103950+00:00",
+  "generated_at": "2026-11-20T00:39:08.830121+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 121,
-  "readable_total": 18,
+  "articles_total": 134,
+  "readable_total": 23,
   "sectors": [
     {
       "name": "總體情勢",
@@ -16,8 +16,8 @@
     },
     {
       "name": "自行車",
-      "articles": 11,
-      "readable": 0
+      "articles": 18,
+      "readable": 5
     },
     {
       "name": "汽配",
@@ -26,16 +26,33 @@
     },
     {
       "name": "手工具",
-      "articles": 2,
+      "articles": 3,
       "readable": 1
     },
     {
       "name": "無人載具及機器人",
-      "articles": 43,
+      "articles": 48,
       "readable": 8
     }
   ],
   "events": [
+    {
+      "id": "article-5005127a46634c65bab2",
+      "title": "特斯拉衝刺人形機器人、自駕車 盟立、亞光等台鏈受惠",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "特斯拉執行長馬斯克18日預告，將在兩個月內進行Optimus人形機器人示範展示，有望在12至18個月內完成多步驟複雜操作，先用於重工業，再進入家庭；特斯拉也計劃生產沒有方向盤、具有自動駕駛功能的Model Y休旅車。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "5005127a46634c65bab2"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T16:00:00+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-27249349a6b343634e3f",
       "title": "伯鑫工具串聯同業與加工夥伴 組成六強聯盟",
@@ -276,23 +293,6 @@
       "taiwan_focus": true
     },
     {
-      "id": "article-3d748b1d3d1b6bb8e84a",
-      "title": "宇樹將成為蘋果機器人關鍵夥伴 上銀、雅特力跟進搶商機",
-      "sector": "無人載具及機器人",
-      "sectors": [
-        "無人載具及機器人"
-      ],
-      "preview": "蘋果端出自行開發的人形機器人大腦「HALO」，並搭載在大陸機器人巨頭宇樹的產品大秀成果，業界驚艷，也讓宇樹更受矚目。業界看好，宇樹未來也將成為蘋果機器人關鍵夥伴，上銀（2049）、雅特力-KY（6907）等宇樹供應鏈跟著衝鋒。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "3d748b1d3d1b6bb8e84a"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-09T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
       "id": "article-592f2daab4316ee77ff9",
       "title": "蘋果秀機器人大腦 人形產品出現重大突破 鴻準受惠將拿下大單",
       "sector": "無人載具及機器人",
@@ -342,6 +342,91 @@
       "source_count": 1,
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
+    },
+    {
+      "id": "article-826f156c21d6444050dd",
+      "title": "同時暫停電子電車的交付以解決軟體問題",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "裡維安的附帶產品也暫停了TM-B電子機的交付,以解決軟體問題,包括充電問題. 大約兩週後應恢復運輸。 - 同時暫停e-bike的交付,以解決軟體問題 Rivian spin-off 也暫停 TM-B e-bike的交付,以解決軟體問題,包括充電問題。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "826f156c21d6444050dd"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T09:07:56+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-a1728520d5eaa35fc01d",
+      "title": "DJI 支援的 Amflow 以內部自動中樞進入城市電子腳踏車市場",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "DJI 支援的 Amflow 以內部自動中樞進入城市電子腳踏車市場 Amflow正與UE(Urban & Easy)一起進入城市電子腳踏車段,價格為3,099歐元。 頂部版本UE Carbon Pro將Avinox驅動系統與Amflow開發並自行建設的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "a1728520d5eaa35fc01d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T12:48:51+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-56caead1ef0165ea9056",
+      "title": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。 根據T3運輸智囊團的統計,德國腳踏車業的收入在2025年下降了7%,達到252億歐元,僱員人數下降了3%,約為74,300人. Canyon,保時捷,JobRad和破產的德國Accell子公司是2026年裁員的公司之一,而製造商和協會則將部分壓力歸咎於從中國低價進口.",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "56caead1ef0165ea9056"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T15:54:54+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-fd7bb99ce53bf6880e4f",
+      "title": "從汽車到電子腳踏車:瓦萊奧如何帶動微移動",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "贊助從汽車到電子腳踏車:Valeo如何推動微移動 經過多年的爆炸性增長,歐洲電子腳踏車市場似乎已進入一個新的階段。 人們不再需要說服力電動踏板輔助,但他們的注意力轉移到了電子腳踏車的可靠性,易用性和耐久性上. 隨著Cyclee,瓦萊奧希望支援這個新的增長階段.",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "fd7bb99ce53bf6880e4f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T08:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-409b5a7aa189ab060eb8",
+      "title": "德國電子腳踏車車主騎車越遠越少",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "班輪日記研究:德國電子腳踏車車主乘3.3 每週2公里,比腳踏車所有人多18%,但僅列出27%的通勤對37%。 - 德國電子腳踏車所有者騎車18%,但通勤率較低:德國電子腳踏車所有者騎車3.3 每週2公里,比腳踏車所有人多18%,但僅列出27%的通勤對37%。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "409b5a7aa189ab060eb8"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T07:32:09+00:00",
+      "taiwan_focus": false
     }
   ]
 }

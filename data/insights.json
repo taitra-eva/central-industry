@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:03:13.998126+00:00",
+  "updated_at": "2026-11-20T00:39:08.518386+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -401,6 +401,62 @@
       "source_url": "https://money.udn.com/money/story/11799/9887094",
       "corroboration_url": "https://www.businesstoday.com.tw/article/category/183016/post/202611190010/",
       "generated_at": "2026-11-19T10:51:00+00:00"
+    },
+    {
+      "article_ids": [
+        "5005127a46634c65bab2"
+      ],
+      "title": "特斯拉衝刺人形機器人、自駕車 盟立、亞光等台鏈受惠",
+      "summary": "特斯拉執行長馬斯克於18日宣布，將於兩個月內示範Optimus人形機器人，並計畫12至18個月內完成多步驟複雜操作，先投放重工業再進入家庭。盟立集團台灣廠於上半年開始供應人形機器人關鍵諧波減速機與關節模組，並與科達利、盟英科技合資成立科盟（泰國）公司，持股比例科達利51%、盟立39%、盟英10%，已於下半年量產關鍵元件。亞光則聚焦人形機器人視覺感測，董事長賴以仁指出每台機器人需7至8顆鏡頭，並於少量送樣階段。特斯拉亦計畫推出無方向盤的自動駕駛Model Y，適合載運六至七人。",
+      "observation": "台灣機械與金屬加工業可能因盟立與科達利合資的科盟泰國公司量產關鍵元件而獲得訂單增長，亞光的視覺感測技術亦有機會進入國際客戶。此舉可能提升台灣在人形機器人供應鏈中的地位，但目前尚未證實實際訂單量，應追蹤後續訂單簽約與產能擴充進度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T00:37:16.770707+00:00",
+      "source_url": "https://udn.com/news/story/7241/9890066",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "826f156c21d6444050dd"
+      ],
+      "title": "同時暫停電子電車的交付以解決軟體問題",
+      "summary": "ALSO（Rivian分拆公司）因軟體問題暫停TM‑B電動自行車交付，預計兩週後恢復。DJI後援的Amflow將於2026年11月17日全球上市其都市型電動自行車UE，起價3,099歐元，頂級UE Carbon Pro 3,499歐元。Avinox為其驅動系統增設後燈、手機充電座與鎖。KYB於2026年11月在歐洲推出160 mm倒置懸掛叉，適用於山地與e‑MTB。SCUDPower計畫在波蘭設立合資研發與製造設施，擴大歐洲電動自行車與微型移動市場。Honda則以Rotwild合作推出高端e‑MTB RN0，搭載全碳懸掛與新Shimano驅動單元。",
+      "observation": "台灣電動自行車製造商須關注ALSO停產對零件供應鏈的短期影響，並留意Amflow、Avinox、KYB及Honda的新產品上市，可能帶來價格與技術競爭壓力。軟體可靠性成為關鍵，應追蹤ALSO恢復交付後的市場反應。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T00:37:32.646307+00:00",
+      "source_url": "https://www.bike-eu.com/subject/innovations-products",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "a1728520d5eaa35fc01d"
+      ],
+      "title": "DJI 支援的 Amflow 以內部自動中樞進入城市電子腳踏車市場",
+      "summary": "Amflow 以DJI資金支持，推出全自動中樞的城市電動腳踏車系列 UE（Urban & Easy），首款定價 3,099 歐元，最高型號 UE Carbon Pro 搭載 Avinox 驅動系統與 Amflow 自研電子三速自動中樞，將於 2026 年 11 月 17 日全球上市，售價 3,499 歐元。",
+      "observation": "Amflow 進軍城市電動腳踏車市場，產品以自研電子三速自動中樞為特色，可能提升台灣相關零組件供應鏈需求。由於產品將於 2026 年上市，應追蹤其市場接受度與零件採購量變化。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T00:37:48.640983+00:00",
+      "source_url": "https://www.bike-eu.com/subject/product-launch",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "409b5a7aa189ab060eb8"
+      ],
+      "title": "德國電子腳踏車車主騎車越遠越少",
+      "summary": "德國電子腳踏車車主平均每日騎行距離為3.3公里，比普通腳踏車使用者多18%，但僅有27%的行程被標記為通勤，低於37%。同時，Lemmo於Kickstarter募得120萬歐元，推出全懸掛長尾電動貨車，搭載960Wh半固態電池。業界亦關注車燈從零件轉向核心架構、GPSR規範帶來的回收與安全議題，以及CES上展示的固態電池與嵌入式AI技術，預示電動腳踏車的未來發展方向。",
+      "observation": "對臺灣製造業而言，電動腳踏車的電池、車燈與AI模組需求可能上升，尤其是固態電池與嵌入式系統的技術趨勢。雖然本文未直接提及臺灣企業，但若臺灣廠商涉足相關零件或整車組裝，應持續追蹤歐洲市場需求變化與GPSR規範對零件品質的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-20T00:38:53.518234+00:00",
+      "source_url": "https://www.bike-eu.com/subject/product-trends",
+      "confidence": "高"
     }
   ]
 }
