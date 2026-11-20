@@ -105,7 +105,7 @@ def search_original_articles(title, source):
     return candidates
 
 
-def read_public_page(url, expected_title=None):
+def read_public_page(url, expected_title=None, minimum_length=250):
     try:
         response = session.get(url, timeout=10, allow_redirects=True, stream=True)
         status = response.status_code
@@ -137,7 +137,7 @@ def read_public_page(url, expected_title=None):
                              "subscribe to read the full article", "sign in to read the full article")
             if any(phrase.casefold() in text.casefold() for phrase in paywall_phrases):
                 return {"access_status":"blocked","read_reason":"Article body is behind subscription/login"}
-        if not text or len(text.strip()) < 250:
+        if not text or len(text.strip()) < minimum_length:
             return {"access_status":"insufficient_text","read_reason":"Page retrieved but substantial article body not extracted"}
         return {"access_status":"readable","source_url":response.url,"body":text.strip()}
     except requests.RequestException as ex:
