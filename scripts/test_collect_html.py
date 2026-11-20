@@ -50,3 +50,15 @@ page3="""<html><body>
 ta=extract(tediboa,page3,now)
 assert len(ta)==1 and "零組件" in ta[0]["title"],ta
 print("PASS CTIMES dotted date and industry selection; TEDIBOA substantive-news-only filter")
+
+# TEDIBOA listing puts "了解更多" on the anchor and the title in a
+# sibling heading. The article URL and heading must remain in the same card.
+page4="""<html><body><section><article>
+<h3>台灣無人機供應鏈關鍵零組件取得國際認證</h3>
+<p>2026-11-19</p>
+<p>無人機關鍵零組件製造廠商分享供應鏈與出口認證進展。</p>
+<a href="/News/Article/16200">了解更多</a>
+</article></section></body></html>"""
+headings=extract(tediboa,page4,now)
+assert len(headings)==1 and headings[0]["link"].endswith("/News/Article/16200"),headings
+print("PASS TEDIBOA: article title extracted from same-card heading, not generic 了解更多")
