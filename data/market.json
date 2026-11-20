@@ -20,11 +20,19 @@
     "quote_type": "歐洲布蘭特原油現貨 FOB",
     "quote_date": "2026-11-17",
     "price_usd_per_barrel": 92.94,
-    "change_week": null,
-    "change_month": null,
+    "change_week": {
+      "pct": 3.08,
+      "base_date": "2026-11-10",
+      "base_price": 90.16
+    },
+    "change_month": {
+      "pct": -21.78,
+      "base_date": "2026-10-19",
+      "base_price": 118.82
+    },
     "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
     "data_status": "official_latest_observation_publicly_verified"
   },
   "fetch_failed": [],
-  "initial_snapshot_note": "已查證的最新公開報價快照；後續由 market-only 排程自動覆蓋。"
+  "initial_snapshot_note": "Verified quote snapshots from Bank of Taiwan and EIA/FRED, with historical EIA/FRED comparison dates; market-only workflow will refresh automatically."
 }
