@@ -24,18 +24,15 @@ API="https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM="""你是臺灣製造業產業情報分析員。只能使用使用者提供的可追溯媒體資料作答；輸入可能是已驗證新聞正文，也可能只是媒體官方 RSS／公開新聞列表的簡介，兩者不得混淆。
 輸出合法JSON，鍵必須是 summary, observation, sector, confidence。
-summary: 繁體中文約120至250字，保留重要公司名稱、金額、日期、產銷數字與條件，不得杜撰。
-observation: 繁體中文約80至170字，說明對臺灣製造業、上下游、訂單、成本、市場的具體關聯與後續追蹤點，將推論明確標示為「可能」「應追蹤」；若原文不足以支持特定影響，明確指出尚未有證據。
+summary: 新聞正文可寫繁體中文約120至250字；只有公開簡介時以簡介長度為限，寧可只寫50至120字，保留原文實際提及的公司、數字、日期與條件，不得杜撰。
+observation: 新聞正文可寫繁體中文約80至170字；只有簡介時可以更短，僅說明可由簡介支持的產業關聯或需要追蹤的問題；所有推論明確標示「可能」「應追蹤」，證據不足時直接指出，不能替臺灣廠商憑空創造影響。
 sector: 從「總體情勢」「機械與金屬加工」「自行車」「汽配」「手工具」「無人載具及機器人」擇一主要分類。
 confidence: 高/中/低，按原文清晰度判斷。
 嚴禁將合作備忘錄視為已下單；嚴禁憑標題推算營收或訂單。不可照抄原文大段內容。若只有簡介，只能摘要簡介明確提到的事實；不得聲稱已閱讀全文，不能推論簡介沒有記載的訂單、產能、成本、影響或因果。觀察重點須說明可追蹤的面向與資料限制，必要時直接說證據不足。
 """
 
 def main():
-    if not TEXTS.exists():
-        print("AI analysis: missing extracted source text; skipping")
-        return
-    texts=json.loads(TEXTS.read_text(encoding="utf-8"))
+    texts=json.loads(TEXTS.read_text(encoding="utf-8")) if TEXTS.exists() else {}
     if not KEY:
         print("AI analysis NOT ACTIVE: set GROQ_API_KEY in repository Actions secrets; no API calls made")
         return
