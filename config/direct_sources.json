@@ -134,6 +134,103 @@
         "/"
       ],
       "status": "public_industry_news_page_parser_runtime_unverified"
+    },
+    {
+      "name": "CTIMES",
+      "industries": [
+        "機械與金屬加工",
+        "無人載具及機器人",
+        "汽配"
+      ],
+      "region": "台灣",
+      "type": "html",
+      "url": "https://www.ctimes.com.tw/ART/articleindex.asp?F=機械",
+      "hosts": [
+        "ctimes.com.tw"
+      ],
+      "url_patterns": [
+        ".shtml",
+        "/DispArt"
+      ],
+      "status": "industry_topic_listing_configured_runtime_unverified",
+      "note": "機械專區；僅接產業相關具日期原文，電子元件及半導體純技術消息不直接當工具機新聞"
+    },
+    {
+      "name": "CTIMES",
+      "industries": [
+        "機械與金屬加工",
+        "無人載具及機器人",
+        "汽配"
+      ],
+      "region": "台灣",
+      "type": "html",
+      "url": "https://www.ctimes.com.tw/",
+      "hosts": [
+        "ctimes.com.tw"
+      ],
+      "url_patterns": [
+        ".shtml",
+        "/DispArt"
+      ],
+      "status": "public_news_home_configured_runtime_unverified",
+      "note": "首頁補充來源，避免漏掉機器人、工業自動化報導"
+    },
+    {
+      "name": "DIGITIMES",
+      "industries": [
+        "機械與金屬加工",
+        "汽配",
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "type": "html",
+      "url": "https://www.digitimes.com.tw/tech/industries/?CnlID=1&cat=50",
+      "hosts": [
+        "digitimes.com.tw"
+      ],
+      "url_patterns": [
+        "/shwnws.asp",
+        "/tech/dt/n/"
+      ],
+      "status": "industry_listing_configured_runtime_unverified",
+      "note": "智慧製造專區；免費可讀且有明確日期才收錄，會員登入與訂閱內容不收錄"
+    },
+    {
+      "name": "DIGITIMES",
+      "industries": [
+        "汽配",
+        "無人載具及機器人",
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "type": "html",
+      "url": "https://www.digitimes.com.tw/tech/industries/?CnlID=1&cat=90",
+      "hosts": [
+        "digitimes.com.tw"
+      ],
+      "url_patterns": [
+        "/shwnws.asp",
+        "/tech/dt/n/"
+      ],
+      "status": "cartech_listing_configured_runtime_unverified",
+      "note": "車用電子與智慧製造相關的產業供應鏈文章；非汽配一般產品情報不納入"
+    },
+    {
+      "name": "TEDIBOA 台灣卓越無人機海外商機聯盟",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "type": "html",
+      "url": "https://www.tediboa.com.tw/News",
+      "hosts": [
+        "tediboa.com.tw"
+      ],
+      "url_patterns": [
+        "/News/Article/"
+      ],
+      "status": "association_news_list_configured_runtime_unverified",
+      "note": "只收產業供應鏈、技術製造、訂單、實質市場發展；單純出訪報喜、會員公告與活動宣傳不收"
     }
   ],
   "pending_html_sources": [
@@ -162,5 +259,5 @@
       "status": "HTTP_403_in_public_retrieval_not_assumed_accessible"
     }
   ],
-  "description": "Independent news media and association feeds only. Each new RSS/HTML feed must pass runtime validation; errors logged. Corporate product PR pages excluded."
+  "description": "Independent news media and association feeds only. Each new RSS/HTML feed must pass runtime validation; errors logged. Corporate product PR pages excluded. Added CTIMES, DIGITIMES and TEDIBOA publisher-owned news-list pilots; all are subject to runtime date/sector/article validation and do not imply articles were captured."
 }
