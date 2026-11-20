@@ -35,6 +35,8 @@ jobs:
           python-version: '3.12'
       - name: Install market source parser (no AI or news libraries needed)
         run: pip install requests beautifulsoup4
+      - name: Validate market parsers offline
+        run: python scripts/test_update_market.py
       - name: Update only Bank of Taiwan FX and Brent spot prices
         run: python scripts/update_market.py
       - name: Commit market quotes only
