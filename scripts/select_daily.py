@@ -11,6 +11,7 @@ import json
 import re
 from collections import defaultdict
 from industry_entities import entity_event, has as precise_match
+from relevance import ict_out_of_scope
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -80,7 +81,10 @@ def main():
         verified={ident for entry in i.get("items",[]) if entry.get("summary") and entry.get("observation") for ident in entry.get("article_ids",[])}
     # Keep separate day buckets; never truncate 30 days to merely 8 articles.
     byday=defaultdict(list)
-    for article in articles:byday[date_key(article)].append(article)
+    for article in articles:
+        if ict_out_of_scope(article.get("title") or ""):
+            continue
+        byday[date_key(article)].append(article)
     retained=[]
     rejected=defaultdict(int)
     for day,bucket in sorted(byday.items()):

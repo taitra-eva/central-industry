@@ -117,26 +117,6 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "1b7da277a8bbb93a6d0d",
-      "title": "傳美出口管制新規衝擊　台積電、三星暫停部分對中晶片出貨 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUzlnbW55alJZUTdNeWVaSl9oWHoyRC1Jb2k3bU5PSjJMWkJqamtKcG1FUlZXRkVyQWFCMURtMHN4dS1hM0xYX1B4YTV6ekpSR2FsMFlCUEFjV280RTQ0a0dTb2xRLWloTExnd2Nfek9RZDBqZ2g5SDJVTV8zbEpYc9IBX0FVX3lxTE00YXRON3c4UGVZd1hjeWU3ZmZKUUF4ajluT2JMTzZ1ekpVS183d1FnTTJ5OGdDcTVqdHNkc0xZSU1tYjdFVWxQWmFOVnVwWnVVWkdjZnVSSXVaRTFLV3BN?oc=5",
-      "source": "經濟日報",
-      "published_at": "2026-11-19T12:21:23+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "taiwan",
-      "region": "台灣",
-      "language_hint": null,
-      "topic": "政策與貿易措施",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:18.096463+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
-    },
-    {
       "id": "77a54288872cf009b86d",
       "title": "For its planned U.S. drone production, J-Star aims to source all specialty materials from U.S. suppliers. - Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVUJRTXRDVFRkUFhNaG9mQ2VhbFFtSnVucGhVUjlSRGtqRkpDendTYkFKUkxrajgtZWpISlRmZXR3dHpRbEJQdGVvWE5nNE9CVTBmRDdFaVB4Mm1SQ1B0MkVneU16QVJFb2xSR1JVdEpJTHdiN3RBclNkd2F0ckJaRVpPREVBTTlTNkJ0QldaMW9jOTFYVTZTY2tBNEVpTXZQSF9XY3Y2MnZWTnhSa0Vyd0I0aFVxUWlycUdPSVFLdw?oc=5",
@@ -407,29 +387,6 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "O'Reilly Wants to Buy NAP Auto Parts, Create An An Aftermarket Giant - Motor1.com 網際網路檔案館的存檔,存檔日期2013-12-22. 網際網路檔案館的存檔,存檔日期2013-12-21. 網際網路檔案館的存檔,存檔日期2013-12-22. .",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "2ec4125dc3d6e5083d07",
-      "title": "美擴大先進半導體出口管制　馬來西亞尋求釐清資料中心服務規範 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pdkRIOUxPd3lCNEpjaUJabHpFTGQyTG5KeUc0bWJwNUJyOGxtbkhBcU9EMEZ1cWFWWnRQYUk0WGh2ZGFwTDdjNWhOTmJYSmxoSFFCUzBTd1Npd9IBX0FVX3lxTE1VeTlkVW4xVWlnejRFZUJadUlxMDR1TGl0WXNoWUd4V3VlaThhUkREM29sbFNNNDFJa0pHbGQ2cTF4WGZpVUZnUzNUV2RmcncwMDljRGs4SHZSZGtTVWRn?oc=5",
-      "source": "經濟日報",
-      "published_at": "2026-11-19T03:30:34+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "taiwan",
-      "region": "台灣",
-      "language_hint": null,
-      "topic": "政策與貿易措施",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:25.697993+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article",
-      "source_url": "https://money.udn.com/money/story/5599/9888423",
-      "original_url_status": "publisher_link_verified",
-      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
     },
     {
       "id": "5f9be8ec853de9bd8476",
@@ -949,23 +906,6 @@
       "tags": []
     },
     {
-      "id": "e06001d75713d3798f4c",
-      "title": "BIS強化AI晶片管制 供應鏈洗牌…台鏈穩站受惠第一排",
-      "url": "https://www.chinatimes.com/newspapers/20261118000218-260202?utm_source=iii_news&utm_medium=rss",
-      "source": "chinatimes.com（原刊別待確認）",
-      "published_at": "2026-11-17T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "region": "台灣",
-      "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "discovery_source": "ITIS 每日重點新聞",
-      "tags": []
-    },
-    {
       "id": "63c25ecb5ff13a6aa4c2",
       "title": "美元指數升到19個月高點 已收復去年關稅「解放日」至今的失土 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1idHJXWWlOdllGamVzN2VFRU5vVmZhZkVpUE5kVll4M1QzWTM5aGphM0FNTU1UdU53WUpNcWtEM1ZUS1FXMFhpOFV2ZDhmSFhkOVZ2MG5HVHczQdIBX0FVX3lxTFBfSjNEMHRlNXFPMWRaTkQ1SDZ2YmxfZ2RLVURuNTJkWkUxczVFdzZtRmtZeHRacjBMM2E0OHhCMUlveGYxN1kwZFV0djVjUkN1SDFZRFdLQzliN2lDV1hr?oc=5",
@@ -1054,26 +994,6 @@
       "summary_zh": "DJI 支援的 Amflow 以內部自動中樞進入城市電子腳踏車市場\n\nAmflow正與UE(Urban & Easy)一起進入城市電子腳踏車段,價格為3,099歐元。 頂部版本UE Carbon Pro將Avinox驅動系統與Amflow開發並自行建設的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
-    },
-    {
-      "id": "9316d518e22394f2327b",
-      "title": "美國 BIS 對超級智慧晶片、伺服器遠端存取出口管制升級 經濟部說話了 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Lcjk3SEw0VE5ZeF9JNDFIdHJhVnRSLV9aT0R2MVVfSVByMFgwZXBfclhOS2hTclJnZ1pIaVVKTUo4N3cyeUgxTVRBc3pWRHdBRzlwc00xQnNNQdIBX0FVX3lxTE05REdWN1k0ZWp1WnExM19aeWc3ZXpsNzdmOHNScmZFYlVHSENPZGhWYzFuNDdNeUMyZjlNc1hlZnFRMVV5RVRWNTZ0RHkyMmtJellVSlU0MHJtcU9QWGpz?oc=5",
-      "source": "經濟日報",
-      "published_at": "2026-11-17T12:39:02+00:00",
-      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "taiwan",
-      "region": "台灣",
-      "language_hint": null,
-      "topic": "政策與貿易措施",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:40.951826+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
     },
     {
       "id": "d5ca13b3a284c7158d78",
@@ -2018,23 +1938,6 @@
       "editorial_source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562"
     },
     {
-      "id": "8dda7b7a245a4d4b0246",
-      "title": "記憶體教父養出小金雞 下一步要建立本土特殊氣體供應鏈",
-      "url": "https://money.udn.com/money/story/5612/9870493",
-      "source": "經濟日報",
-      "published_at": "2026-11-10T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "region": "台灣",
-      "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "discovery_source": "ITIS 每日重點新聞",
-      "tags": []
-    },
-    {
       "id": "9acaa92a54a3e32065fc",
       "title": "Helion 11月起供貨 台系供應鏈亮相",
       "url": "https://www.chinatimes.com/newspapers/20261111000222-260202?utm_source=iii_news&utm_medium=rss",
@@ -2540,23 +2443,6 @@
       "tags": []
     },
     {
-      "id": "141a938fff5e49d409e7",
-      "title": "台積電強化整頓供應鏈 沒改善就掉單",
-      "url": "https://money.udn.com/money/story/5612/9865607",
-      "source": "經濟日報",
-      "published_at": "2026-11-08T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "region": "台灣",
-      "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "discovery_source": "ITIS 每日重點新聞",
-      "tags": []
-    },
-    {
       "id": "316f51469b39c62b47ea",
       "title": "全球市場觀測站／AI基建供應鏈 遭重擊",
       "url": "https://udn.com/news/story/10103/9865541",
@@ -2861,5 +2747,17 @@
     "unresolved": 39,
     "remaining_candidates": 9,
     "checked_at": "2026-11-20T03:08:59.677078+00:00"
+  },
+  "ict_scope_filter": {
+    "note": "本批移除六篇半導體／伺服器主體、無六大產業直接關係的新聞；原始新聞仍可在 Git 歷史查閱",
+    "removed_ids": [
+      "1b7da277a8bbb93a6d0d",
+      "2ec4125dc3d6e5083d07",
+      "e06001d75713d3798f4c",
+      "9316d518e22394f2327b",
+      "8dda7b7a245a4d4b0246",
+      "141a938fff5e49d409e7"
+    ],
+    "reviewed_on": "2026-11-20"
   }
 }
