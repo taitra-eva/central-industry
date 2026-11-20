@@ -106,6 +106,34 @@
         "ctee.com.tw"
       ],
       "status": "rss_feed_indexed_by_reader_runtime_unverified"
+    },
+    {
+      "name": "American Machinist",
+      "industry": "機械與金屬加工",
+      "region": "北美",
+      "type": "html",
+      "url": "https://www.americanmachinist.com/news",
+      "hosts": [
+        "americanmachinist.com"
+      ],
+      "url_patterns": [
+        "/"
+      ],
+      "status": "public_industry_news_page_parser_runtime_unverified"
+    },
+    {
+      "name": "ETMM",
+      "industry": "機械與金屬加工",
+      "region": "歐洲",
+      "type": "html",
+      "url": "https://www.etmm-online.com/",
+      "hosts": [
+        "etmm-online.com"
+      ],
+      "url_patterns": [
+        "/"
+      ],
+      "status": "public_industry_news_page_parser_runtime_unverified"
     }
   ],
   "pending_html_sources": [
