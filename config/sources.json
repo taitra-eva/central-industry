@@ -243,6 +243,24 @@
       "access_status": "awaiting_workflow_validation",
       "direct_sources_count": 1,
       "note": "優先實質國際合作、技術、產業政策與供應鏈議題；排除一般會員公告與報喜性消息"
+    },
+    {
+      "name": "IEK產業情報網（工研院產科國際所）",
+      "region": "台灣",
+      "type": "跨產業研究／產業焦點及公開產業情報",
+      "url": "https://ieknet.iek.org.tw/",
+      "collection_status": "public_free_focus_html_configured_runtime_unverified",
+      "access_status": "strict_public_no_login_check_pending",
+      "direct_sources_count": 1,
+      "industries": [
+        "機械與金屬加工",
+        "自行車",
+        "汽配",
+        "手工具",
+        "無人載具及機器人",
+        "總體情勢"
+      ],
+      "note": "IEK跨領域涵蓋工具機、機器人、車輛及國際產經；只嘗試免費專區中無需登入且可讀全文的自身產業焦點，排除I卡登入、付費模組、簡報下載及其轉載的其他媒體新聞；保留原始IEK連結，遵守著作權與引用限制。"
     }
   ]
 }

@@ -231,6 +231,32 @@
       ],
       "status": "association_news_list_configured_runtime_unverified",
       "note": "只收產業供應鏈、技術製造、訂單、實質市場發展；單純出訪報喜、會員公告與活動宣傳不收"
+    },
+    {
+      "name": "IEK產業情報網（工研院產科國際所）",
+      "region": "台灣",
+      "type": "html",
+      "url": "https://ieknet.iek.org.tw/iekrpt/DefaultFree.aspx",
+      "hosts": [
+        "ieknet.iek.org.tw"
+      ],
+      "url_patterns": [
+        "/iekrpt/rpt_more.aspx",
+        "/iekrpt/rpt_open.aspx"
+      ],
+      "industries": [
+        "機械與金屬加工",
+        "自行車",
+        "汽配",
+        "手工具",
+        "無人載具及機器人",
+        "總體情勢"
+      ],
+      "require_public_body": true,
+      "require_own_research": true,
+      "suppress_excerpt": true,
+      "status": "free_focus_index_direct_trial_strict_public_page_validation_not_yet_runtime_verified",
+      "note": "僅IEK自有研究的免費產業焦點，非產業新聞轉載；會員或付費限制內容不得收錄、提取或概述；若未能證明免登入公開全文則跳過。仍需GitHub Action驗證。"
     }
   ],
   "pending_html_sources": [
