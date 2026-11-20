@@ -17,7 +17,7 @@ assert oil2["change_week"]["pct"]==10.0,oil2
 assert oil2["change_month"]["pct"]==23.75,oil2
 assert oil2["change_week"]["base_date"]=="2026-11-13",oil2
 assert oil2["change_month"]["base_date"]=="2026-10-20",oil2
-fallback=parse_brent_text("Some FRED metadata\\nDATE VALUE\\n2026-11-10 90.16\\n2026-11-17 92.94\\n2026-10-19 118.82\\n")
+fallback=parse_brent_text("Some FRED metadata\nDATE VALUE\n2026-11-10 90.16\n2026-11-17 92.94\n2026-10-19 118.82\n")
 assert fallback["quote_date"]=="2026-11-17",fallback
 assert fallback["change_week"]["pct"]==3.08,fallback
 assert fallback["change_month"]["pct"]==-21.78,fallback
