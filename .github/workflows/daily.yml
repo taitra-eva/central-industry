@@ -63,15 +63,20 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate six-sector entity matching before collection
         run: |
-          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect.py scripts/select_daily.py
+          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
           python scripts/test_industry_entities.py
-      - name: Collect Google News RSS candidates
-        run: python scripts/collect.py
-      - name: Collect verified direct publisher RSS links (no Google News redirect)
+          python scripts/test_collect_html.py
+      - name: Collect directly from official and specialist publisher RSS
         run: python scripts/collect_direct.py
+      - name: Collect dated articles from specialist publisher HTML lists
+        run: python scripts/collect_html.py
       - name: Discover relevant articles from ITIS
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
+      - name: Limited Google News supplemental discovery (24 vs 126 queries)
+        env:
+          GOOGLE_NEWS_FALLBACK_MAX: '24'
+        run: python scripts/collect.py
       - name: Deduplicate independently verifiable identical headlines before capping
         run: python scripts/dedupe_articles.py
       - name: Select up to eight new stories per sector
@@ -129,15 +134,20 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate six-sector entity matching before collection
         run: |
-          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect.py scripts/select_daily.py
+          python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
           python scripts/test_industry_entities.py
-      - name: Fetch last 14 days of news candidates
-        run: python scripts/collect.py
-      - name: Collect verified direct publisher RSS links (no Google News redirect)
+          python scripts/test_collect_html.py
+      - name: Collect directly from official and specialist publisher RSS
         run: python scripts/collect_direct.py
+      - name: Collect dated specialist media HTML news
+        run: python scripts/collect_html.py
       - name: Discover relevant articles from ITIS
         run: python scripts/collect_itis_daily.py
         continue-on-error: true
+      - name: Limited Google News supplemental discovery (24 vs 126 queries)
+        env:
+          GOOGLE_NEWS_FALLBACK_MAX: '24'
+        run: python scripts/collect.py
       - name: Deduplicate independently verifiable identical headlines before capping
         run: python scripts/dedupe_articles.py
       - name: Select eight per industry and ORIGINAL publication day

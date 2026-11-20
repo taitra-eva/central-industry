@@ -22,20 +22,17 @@ MODEL=os.environ.get("GROQ_MODEL","openai/gpt-oss-20b")
 LIMIT=int(os.environ.get("AI_DAILY_LIMIT","48"))
 API="https://api.groq.com/openai/v1/chat/completions"
 
-SYSTEM="""你是臺灣製造業產業情報分析員。只能使用使用者提供的原始新聞全文作答。
+SYSTEM="""你是臺灣製造業產業情報分析員。只能使用使用者提供的可追溯媒體資料作答；輸入可能是已驗證新聞正文，也可能只是媒體官方 RSS／公開新聞列表的簡介，兩者不得混淆。
 輸出合法JSON，鍵必須是 summary, observation, sector, confidence。
-summary: 繁體中文約120至250字，保留重要公司名稱、金額、日期、產銷數字與條件，不得杜撰。
-observation: 繁體中文約80至170字，說明對臺灣製造業、上下游、訂單、成本、市場的具體關聯與後續追蹤點，將推論明確標示為「可能」「應追蹤」；若原文不足以支持特定影響，明確指出尚未有證據。
+summary: 新聞正文可寫繁體中文約120至250字；只有公開簡介時以簡介長度為限，寧可只寫50至120字，保留原文實際提及的公司、數字、日期與條件，不得杜撰。
+observation: 新聞正文可寫繁體中文約80至170字；只有簡介時可以更短，僅說明可由簡介支持的產業關聯或需要追蹤的問題；所有推論明確標示「可能」「應追蹤」，證據不足時直接指出，不能替臺灣廠商憑空創造影響。
 sector: 從「總體情勢」「機械與金屬加工」「自行車」「汽配」「手工具」「無人載具及機器人」擇一主要分類。
 confidence: 高/中/低，按原文清晰度判斷。
-嚴禁將合作備忘錄視為已下單；嚴禁憑標題推算營收或訂單。不可照抄原文大段內容。沒有可靠正文就不要輸出分析。
+嚴禁將合作備忘錄視為已下單；嚴禁憑標題推算營收或訂單。不可照抄原文大段內容。若只有簡介，只能摘要簡介明確提到的事實；不得聲稱已閱讀全文，不能推論簡介沒有記載的訂單、產能、成本、影響或因果。觀察重點須說明可追蹤的面向與資料限制，必要時直接說證據不足。
 """
 
 def main():
-    if not TEXTS.exists():
-        print("AI analysis: missing extracted source text; skipping")
-        return
-    texts=json.loads(TEXTS.read_text(encoding="utf-8"))
+    texts=json.loads(TEXTS.read_text(encoding="utf-8")) if TEXTS.exists() else {}
     if not KEY:
         print("AI analysis NOT ACTIVE: set GROQ_API_KEY in repository Actions secrets; no API calls made")
         return
@@ -43,13 +40,40 @@ def main():
     records=json.loads(INSIGHTS.read_text(encoding="utf-8")) if INSIGHTS.exists() else {"items":[]}
     done={ident for entry in records["items"] for ident in entry.get("article_ids",[])}
     byid={x["id"]:x for x in doc["items"]}
-    eligible=[(id,body) for id,body in texts.items() if id in byid and id not in done and len(body)>=350]
-    eligible.sort(key=lambda pair:(byid[pair[0]].get("region")!="台灣",-(datetime.fromisoformat(byid[pair[0]].get("published_at") or byid[pair[0]]["discovered_at"]).timestamp())))
+    # Full text is preferred, but the former 350-character AI threshold
+    # was an implementation choice, not a user requirement. A verified
+    # publisher-provided RSS/listing excerpt can support a *limited* brief.
+    evidence={}
+    for identifier,body in texts.items():
+        if identifier in byid and identifier not in done and body.strip():
+            evidence[identifier]=(body,"publisher_body")
+    for article in doc["items"]:
+        identifier=article["id"]
+        if identifier in done or identifier in evidence:continue
+        kind=article.get("publisher_excerpt_source")
+        excerpt=(article.get("publisher_excerpt") or "").strip()
+        url=article.get("source_url") or article.get("url") or ""
+        if (kind in ("official_rss","publisher_news_listing") and
+                url.startswith("https://") and "news.google.com" not in url and
+                len(excerpt)>=65):
+            evidence[identifier]=(excerpt,"publisher_excerpt")
+    eligible=[(identifier,body,kind) for identifier,(body,kind) in evidence.items()]
+    eligible.sort(key=lambda item:(byid[item[0]].get("region")!="台灣",
+        -(datetime.fromisoformat(byid[item[0]].get("published_at") or byid[item[0]]["discovered_at"]).timestamp())))
+    print("AI evidence:",sum(kind=="publisher_body" for _,_,kind in eligible),"publisher bodies,",
+          sum(kind=="publisher_excerpt" for _,_,kind in eligible),"publisher excerpts")
     made=0
     failures=0
-    for identifier,body in eligible[:LIMIT]:
+    for identifier,body,kind in eligible[:LIMIT]:
         article=byid[identifier]
-        prompt=("新聞標題："+(article.get("title_zh") or article.get("title") or "")+"\n媒體："+article.get("source","")+"\n原始文章內容：\n"+body[:11500])
+        label=("已讀取的公開新聞正文" if kind=="publisher_body" else
+               "媒體官方 RSS 或新聞列表公開簡介，非新聞全文")
+        prompt=("新聞標題："+(article.get("title_zh") or article.get("title") or "")+
+                "\n媒體："+article.get("source","")+
+                "\n資料類型："+label+
+                "\n原始來源網址："+(article.get("source_url") or article.get("url") or "")+
+                "\n提供的來源內容：\n"+body[:11500]+
+                ("\n重要：僅依公開簡介寫有限摘要與後續追蹤，不能杜撰正文細節。" if kind=="publisher_excerpt" else ""))
         req={"model":MODEL,"messages":[{"role":"system","content":SYSTEM},{"role":"user","content":prompt}],"temperature":0.1,"reasoning_effort":"low","max_completion_tokens":2200,"response_format":{"type":"json_object"}}
         try:
             resp=requests.post(API,headers={"Authorization":"Bearer "+KEY,"Content-Type":"application/json"},json=req,timeout=70)
@@ -80,13 +104,16 @@ def main():
             summary=str(obj.get("summary","")).strip()
             observation=str(obj.get("observation","")).strip()
             sector=str(obj.get("sector","")).strip()
-            if not(70<=len(summary)<=850 and 45<=len(observation)<=650):
+            if not(45<=len(summary)<=850 and 30<=len(observation)<=650):
                 print("AI insufficient output; article",identifier);failures+=1;continue
             if sector not in ("總體情勢","機械與金屬加工","自行車","汽配","手工具","無人載具及機器人"):
                 sector=article.get("industries",["總體情勢"])[0]
+            if kind=="publisher_excerpt":
+                summary="【媒體公開簡介整理，非全文摘要】"+summary
             record={"article_ids":[identifier],"title":article.get("title_zh") or article.get("title"),
                     "summary":summary,"observation":observation,"observation_type":"觀察重點",
-                    "method":"groq_llm_from_publisher_body","model":MODEL,
+                    "method":"groq_llm_from_publisher_body" if kind=="publisher_body" else "groq_llm_from_publisher_excerpt",
+                    "evidence_type":kind,"model":MODEL,
                     "generated_at":datetime.now(timezone.utc).isoformat(),
                     "source_url":article.get("source_url") or article.get("url"),
                     "confidence":obj.get("confidence","未評估")}
@@ -97,7 +124,7 @@ def main():
             elif sector not in article.get("industries",[]):
                 article.setdefault("industries",[]).append(sector)
             made+=1
-            print("AI analyzed:",identifier,article.get("source"),sector)
+            print("AI analyzed:",identifier,article.get("source"),sector,kind)
         except (requests.RequestException,ValueError,KeyError,TypeError) as e:
             failures+=1
             print("AI generation failed:",identifier,str(e)[:180])

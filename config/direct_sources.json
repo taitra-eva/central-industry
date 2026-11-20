@@ -23,6 +23,117 @@
       "type": "rss",
       "url": "https://cms.bike-eu.com/rss_feed/news-marketing",
       "status": "published_official_feed_link"
+    },
+    {
+      "name": "中央社 CNA",
+      "industry": "總體情勢",
+      "region": "台灣",
+      "type": "rss",
+      "url": "https://feeds.feedburner.com/rsscna/finance",
+      "hosts": [
+        "cna.com.tw"
+      ],
+      "status": "official_rss_link_discovered_not_workflow_verified"
+    },
+    {
+      "name": "Robotics & Automation News",
+      "industry": "無人載具及機器人",
+      "region": "歐洲",
+      "type": "rss",
+      "url": "https://roboticsandautomationnews.com/feed/",
+      "hosts": [
+        "roboticsandautomationnews.com"
+      ],
+      "status": "rss_endpoint_found_workflow_unverified"
+    },
+    {
+      "name": "DIY International",
+      "industry": "手工具",
+      "region": "歐洲",
+      "type": "html",
+      "url": "https://www.diyinternational.com/news.html",
+      "hosts": [
+        "diyinternational.com"
+      ],
+      "url_patterns": [
+        "/content/"
+      ],
+      "status": "public_html_list_workflow_unverified"
+    },
+    {
+      "name": "AftermarketNews",
+      "industry": "汽配",
+      "region": "北美",
+      "type": "html",
+      "url": "https://www.aftermarketnews.com/category/aftermarket-news/",
+      "hosts": [
+        "aftermarketnews.com"
+      ],
+      "url_patterns": [
+        "/"
+      ],
+      "status": "public_html_list_workflow_unverified"
+    },
+    {
+      "name": "經濟日報",
+      "industry": "總體情勢",
+      "region": "台灣",
+      "type": "rss",
+      "url": "https://money.udn.com/rssfeed/news/1001/5590/11074",
+      "hosts": [
+        "money.udn.com"
+      ],
+      "status": "rss_feed_indexed_by_reader_runtime_unverified"
+    },
+    {
+      "name": "經濟日報",
+      "industry": "總體情勢",
+      "region": "台灣",
+      "type": "rss",
+      "url": "https://money.udn.com/rssfeed/news/1001/5591/10871",
+      "hosts": [
+        "money.udn.com"
+      ],
+      "status": "rss_feed_indexed_by_reader_runtime_unverified"
+    },
+    {
+      "name": "工商時報",
+      "industry": "總體情勢",
+      "region": "台灣",
+      "type": "rss",
+      "url": "https://www.ctee.com.tw/rss_web/livenews/policy",
+      "hosts": [
+        "ctee.com.tw"
+      ],
+      "status": "rss_feed_indexed_by_reader_runtime_unverified"
+    },
+    {
+      "name": "American Machinist",
+      "industry": "機械與金屬加工",
+      "region": "北美",
+      "type": "html",
+      "url": "https://www.americanmachinist.com/news",
+      "hosts": [
+        "americanmachinist.com"
+      ],
+      "url_patterns": [
+        "/"
+      ],
+      "status": "public_industry_news_page_parser_runtime_unverified"
+    },
+    {
+      "name": "ETMM",
+      "industry": "機械與金屬加工",
+      "region": "歐洲",
+      "type": "html",
+      "url": "https://www.etmm-online.com/",
+      "hosts": [
+        "etmm-online.com"
+      ],
+      "url_patterns": [
+        "/"
+      ],
+      "status": "public_industry_news_page_parser_runtime_unverified"
     }
   ],
   "pending_html_sources": [
@@ -43,7 +154,13 @@
       "industry": "手工具",
       "url": "https://www.torque-expo.com/hand-power-tools/",
       "status": "html_parser_unverified"
+    },
+    {
+      "name": "Modern Machine Shop",
+      "industry": "機械與金屬加工",
+      "url": "https://www.mmsonline.com/",
+      "status": "HTTP_403_in_public_retrieval_not_assumed_accessible"
     }
   ],
-  "description": "Only independent industry media and association news feeds are eligible; manufacturer press-release and promotion pages are not scraped as industry news."
+  "description": "Independent news media and association feeds only. Each new RSS/HTML feed must pass runtime validation; errors logged. Corporate product PR pages excluded."
 }
