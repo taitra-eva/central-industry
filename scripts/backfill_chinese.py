@@ -15,6 +15,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 import requests
 import feedparser
+from bs4 import BeautifulSoup
 from read_articles import (
     ROOT, DB, TEMP, session, google_link, publisher_url,
     read_public_page, story_title, title_matches,
@@ -66,12 +67,22 @@ def bing_candidates(title,source,hosts):
                             params={"q":query,"format":"rss"},timeout=15)
             res.raise_for_status()
             feed=feedparser.parse(res.content)
-            for entry in feed.entries[:12]:
-                link=entry.get("link","")
+            entries=[(entry.get("link",""),entry.get("title","")) for entry in feed.entries[:12]]
+            # RSS may be empty or throttled. Bing HTML results are a
+            # fallback, not an additional news discovery pipeline.
+            if not entries:
+                html=session.get("https://www.bing.com/search",
+                                 params={"q":query},timeout=15)
+                html.raise_for_status()
+                soup=BeautifulSoup(html.text,"html.parser")
+                entries=[(a.get("href",""),a.get_text(" ",strip=True))
+                         for a in soup.select("li.b_algo h2 a[href]")[:12]]
+            for link,found_title in entries:
                 if not link.startswith("https://") or not allowed_host(link,hosts) or link in seen:
                     continue
-                # RSS entry headline provides an independent preliminary check.
-                if not title_matches(title,entry.get("title",""),minimum=.67):
+                # Search headline is only a preliminary check; downloaded
+                # original page title is also verified independently.
+                if not title_matches(title,found_title,minimum=.67):
                     continue
                 seen.add(link)
                 output.append(link)
@@ -113,10 +124,9 @@ def main():
                 urls.append(decoded)
         if not urls:
             urls=bing_candidates(title,source,hosts)
-        last_reason="publisher_article_not_found"
-        attempted=set()
+        last_reason="Bing returned no verified publisher article"
         for candidate in dict.fromkeys(urls):
-            result=read_public_page(candidate,expected_title=title)
+            result=read_public_page(candidate,expected_title=title,minimum_length=120)
             # This exact page is revalidated after redirects.
             if result.get("access_status")=="readable" and allowed_host(result.get("source_url",""),hosts):
                 body=result["body"].strip()
