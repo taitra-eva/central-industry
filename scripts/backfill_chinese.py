@@ -35,7 +35,6 @@ PUBLISHER_HOSTS={
     "CTIMES":("ctimes.com.tw",),
     "輪彥國際有限公司":("wheelgiant.com.tw",),
     "taiwandrones.org":("taiwandrones.org",),
-    "M&A Online":("maonline.jp",),
 }
 SKIP_TITLES=("所有消息|", "所有消息 |")
 
@@ -114,11 +113,8 @@ def main():
                 urls.append(decoded)
         if not urls:
             urls=bing_candidates(title,source,hosts)
-        else:
-            # Direct link must still be verified by page title. If it is
-            # inaccessible, Bing has a chance to locate the original.
-            urls+=bing_candidates(title,source,hosts)
         last_reason="publisher_article_not_found"
+        attempted=set()
         for candidate in dict.fromkeys(urls):
             result=read_public_page(candidate,expected_title=title)
             # This exact page is revalidated after redirects.
@@ -138,6 +134,26 @@ def main():
                 break
             last_reason=result.get("read_reason") or result.get("access_status") or last_reason
         else:
+            # If the original direct URL failed, try Bing *once* before
+            # declaring no verifiable publisher body. No broad news crawl.
+            extra=[] if not urls else bing_candidates(title,source,hosts)
+            for candidate in extra:
+                if candidate in urls:continue
+                result=read_public_page(candidate,expected_title=title)
+                if result.get("access_status")!="readable" or not allowed_host(result.get("source_url",""),hosts):
+                    continue
+                body=result["body"].strip()
+                if len(body)<120:continue
+                row.update({"source_url":result["source_url"],"access_status":"readable",
+                    "read_checked_at":datetime.now(timezone.utc).isoformat(),
+                    "body_length":len(body),"excerpt":body[:320].rsplit(" ",1)[0]})
+                row.pop("read_reason",None)
+                texts[row["id"]]=body[:24000]
+                counts["readable"]+=1
+                print("ZH_BACKFILL_READABLE",row["id"],source,result["source_url"],len(body))
+                break
+            if row["id"] in texts:
+                continue
             # Do not downgrade a previously readable item if it was not
             # successfully re-fetched during this backfill pass.
             if row.get("access_status")!="readable":
