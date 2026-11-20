@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-11-20T10:24:43+08:00",
+  "checked_at": null,
   "fx": {
     "source": "臺灣銀行",
-    "quote_type": "即期賣出",
-    "quote_time": "2026/11/20 04:01",
-    "source_url": "https://rate.bot.com.tw/xrt?Lang=zh-TW",
+    "quote_type": "即期買入",
+    "quote_time": "2026/11/20 10:59",
+    "source_url": "https://rate.bot.com.tw/xrt?lang=zh-TW",
     "currency": "TWD",
     "rates": {
-      "USD": 33.015,
-      "EUR": 36.565,
-      "JPY": 0.2089,
-      "CNY": 4.953
+      "USD": 32.94,
+      "EUR": 36,
+      "JPY": 0.2052,
+      "CNY": 4.918
     },
     "data_status": "official_quoted_snapshot"
   },
@@ -34,8 +34,7 @@
     "data_status": "official_latest_observation_publicly_verified"
   },
   "fetch_failed": [
-    "fx",
     "oil"
   ],
-  "initial_snapshot_note": "Verified quote snapshots from Bank of Taiwan and EIA/FRED, with historical EIA/FRED comparison dates; market-only workflow will refresh automatically."
+  "initial_snapshot_note": "Four spot BUY rates based on the Bank of Taiwan public board quotation dated 2026/11/20 10:59; future scheduled market-only refresh will replace these when live retrieval succeeds. Brent unchanged."
 }
