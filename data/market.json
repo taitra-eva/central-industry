@@ -1,5 +1,5 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-11-20T09:19:11+08:00",
   "fx": {
     "source": "臺灣銀行",
     "quote_type": "即期賣出",
@@ -33,6 +33,9 @@
     "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
     "data_status": "official_latest_observation_publicly_verified"
   },
-  "fetch_failed": [],
+  "fetch_failed": [
+    "fx",
+    "oil"
+  ],
   "initial_snapshot_note": "Verified quote snapshots from Bank of Taiwan and EIA/FRED, with historical EIA/FRED comparison dates; market-only workflow will refresh automatically."
 }
