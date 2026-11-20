@@ -50,13 +50,30 @@ def main():
     for identifier,body in eligible[:LIMIT]:
         article=byid[identifier]
         prompt=("新聞標題："+(article.get("title_zh") or article.get("title") or "")+"\n媒體："+article.get("source","")+"\n原始文章內容：\n"+body[:11500])
-        req={"model":MODEL,"messages":[{"role":"system","content":SYSTEM},{"role":"user","content":prompt}],"temperature":0.1,"max_completion_tokens":1200,"response_format":{"type":"json_object"}}
+        req={"model":MODEL,"messages":[{"role":"system","content":SYSTEM},{"role":"user","content":prompt}],"temperature":0.1,"reasoning_effort":"low","max_completion_tokens":2200,"response_format":{"type":"json_object"}}
         try:
             resp=requests.post(API,headers={"Authorization":"Bearer "+KEY,"Content-Type":"application/json"},json=req,timeout=70)
             if resp.status_code in (401,403):
                 print("AI authentication denied; check GROQ_API_KEY");break
             if resp.status_code in (429,402):
                 print("AI quota/rate limit reached:",resp.status_code,"no paid calls enabled");break
+            if resp.status_code == 400:
+                # Preserve the provider's error type/code. A generic "Bad
+                # Request" hides whether it is JSON validation, unsupported
+                # settings, context size or another request-specific issue.
+                # Never print the API key, request payload or article body.
+                try:
+                    err=resp.json().get("error",{})
+                    if not isinstance(err,dict): err={"message":str(err)}
+                    print("AI HTTP 400 diagnosis:",identifier,
+                          "type:",str(err.get("type","unknown"))[:100],
+                          "code:",str(err.get("code","unknown"))[:100],
+                          "message:",str(err.get("message","unknown"))[:420])
+                except (ValueError,KeyError,TypeError):
+                    print("AI HTTP 400 diagnosis:",identifier,
+                          "provider returned no readable error object")
+                failures+=1
+                continue
             resp.raise_for_status()
             answer=resp.json()["choices"][0]["message"]["content"]
             obj=json.loads(answer)
