@@ -68,6 +68,10 @@ def extract(source,html,now):
         for _ in range(4):
             node=node.parent
             if not node or node.name in ("body","html","main"):break
+            # Never borrow the date or description from a neighbouring
+            # article card or the whole feed container.
+            if len(node.select("time[datetime]"))>1 or len(node.select("a[href]"))>4:
+                break
             time=node.select_one("time[datetime]")
             dt=(time.get("datetime","") if time else "") or ""
             short=clean(node.get_text(" ",strip=True))[:700]
