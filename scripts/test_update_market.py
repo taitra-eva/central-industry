@@ -1,5 +1,5 @@
 """Offline tests for market-only price parsers, no news or live requests."""
-from update_market import parse_fx, parse_brent_csv
+from update_market import parse_fx, parse_brent_csv, parse_brent_text
 sample='''<html><body><span>牌價最新掛牌時間：2026/11/20 09:05</span><table><tbody>
 <tr><td>美金 (USD)</td><td>32.00</td><td>33.00</td><td>32.30</td><td>32.50</td></tr>
 <tr><td>歐元 (EUR)</td><td>36.00</td><td>37.00</td><td>36.30</td><td>36.50</td></tr>
@@ -17,4 +17,8 @@ assert oil2["change_week"]["pct"]==10.0,oil2
 assert oil2["change_month"]["pct"]==23.75,oil2
 assert oil2["change_week"]["base_date"]=="2026-11-13",oil2
 assert oil2["change_month"]["base_date"]=="2026-10-20",oil2
-print("PASS market FX, Brent history and comparative changes")
+fallback=parse_brent_text("Some FRED metadata\\nDATE VALUE\\n2026-11-10 90.16\\n2026-11-17 92.94\\n2026-10-19 118.82\\n")
+assert fallback["quote_date"]=="2026-11-17",fallback
+assert fallback["change_week"]["pct"]==3.08,fallback
+assert fallback["change_month"]["pct"]==-21.78,fallback
+print("PASS market FX, Brent history, fallback text and comparative changes")
