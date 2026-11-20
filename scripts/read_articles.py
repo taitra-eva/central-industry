@@ -161,7 +161,13 @@ def main():
             already_summarized={id for record in json.loads(existing_insights.read_text(encoding="utf-8")).get("items",[]) for id in record.get("article_ids",[])}
         except (ValueError,OSError):pass
     candidates=[n for n in rows if n["id"] not in already_summarized or (n.get("source_url") and n.get("access_status")!="readable")]
-    candidates.sort(key=lambda x:(x.get("access_status")=="readable" and bool(x.get("summary_zh")),-(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
+    # Try publisher-direct URLs first; those are more likely to yield
+    # verifiable full text than another encoded Google News link.
+    candidates.sort(key=lambda x:(
+        0 if x.get("source_url") and not google_link(x["source_url"]) else
+        0 if not google_link(x.get("url","")) else 1,
+        x.get("access_status")=="readable" and bool(x.get("summary_zh")),
+        -(datetime.fromisoformat(x.get("published_at") or x["discovered_at"]).timestamp())))
 
     chosen=[]
     for region,quota in quotas.items():
@@ -186,8 +192,10 @@ def main():
                 if trial["access_status"]=="readable":
                     result=trial
                     break
-        if result["access_status"]=="unresolved":
-            result["read_reason"]="Google News decoding and verified free publisher search did not resolve the article"
+        if result["access_status"]=="unresolved" and not resolved:
+            result["read_reason"]="Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
+        # Keep HTTP 403/paywall/read_failed/insufficient_text diagnoses intact.
+        # They must not be mislabeled as a Google News decoding problem.
         item["access_status"]=result["access_status"]
         item["read_checked_at"]=datetime.now(timezone.utc).isoformat()
         if result.get("source_url"):
