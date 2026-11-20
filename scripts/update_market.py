@@ -8,7 +8,7 @@ import csv
 import io
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -71,9 +71,22 @@ def parse_brent_csv(contents):
     if not valid:
         raise ValueError("No numeric Brent observations")
     day, value = max(valid,key=lambda x:x[0])
+    def compare(days_back):
+        target=day-timedelta(days=days_back)
+        candidates=[(d,p) for d,p in valid
+                    if timedelta(0)<=target-d<=timedelta(days=5)]
+        if not candidates:
+            return None
+        base_date,base_price=max(candidates,key=lambda x:x[0])
+        if base_price<=0:return None
+        return {"pct":round((value/base_price-1)*100,2),
+                "base_date":base_date.isoformat(),"base_price":base_price}
+    week=compare(7)
+    month=compare(30)
     return {"source":"美國能源資訊署 EIA（經 FRED 公開資料）",
             "benchmark":"Brent","quote_type":"歐洲布蘭特原油現貨 FOB",
             "quote_date":day.isoformat(),"price_usd_per_barrel":value,
+            "change_week":week,"change_month":month,
             "source_url":BR}
 
 def main():
