@@ -1582,7 +1582,10 @@
       "read_checked_at": "2026-11-20T00:36:36.468565+00:00",
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "Physicl 籌集了 1 000 萬美元,用於改進物理AI 培訓,同時提供合成資料 - Robotics & Automation News",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/15/physicl-raises-10-million-to-improve-physical-ai-training-with-synthetic-data/107173/",
+      "original_url_status": "publisher_title_verified",
+      "original_url_checked_at": "2026-11-20T03:08:30.353277+00:00"
     },
     {
       "id": "da62f6afff08c0084aaa",
@@ -2851,5 +2854,12 @@
     "eligible_existing": 39,
     "updated_at": "2026-11-20T02:58:21.534645+00:00",
     "method": "Bing RSS title + official publisher hostname + article-page title + public body"
+  },
+  "direct_link_diagnostics": {
+    "checked": 40,
+    "resolved": 1,
+    "unresolved": 39,
+    "remaining_candidates": 9,
+    "checked_at": "2026-11-20T03:08:59.677078+00:00"
   }
 }
