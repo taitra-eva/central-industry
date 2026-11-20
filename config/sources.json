@@ -213,6 +213,36 @@
       "collection_status": "google_news_site_query_only",
       "access_status": "not_verified",
       "note": "只檢索機器人、無人機製造與供應鏈"
+    },
+    {
+      "name": "CTIMES",
+      "region": "台灣",
+      "type": "電子科技／智慧製造／工業自動化／機械相關媒體",
+      "url": "https://www.ctimes.com.tw/",
+      "collection_status": "direct_html_configured_not_yet_runtime_verified",
+      "access_status": "awaiting_workflow_validation",
+      "direct_sources_count": 2,
+      "note": "以工具機、工業自動化、機器人與製造供應鏈為主，排除與六產業無關的純電子科技文章"
+    },
+    {
+      "name": "DIGITIMES",
+      "region": "台灣",
+      "type": "資通訊／半導體／智慧製造／車用科技產業媒體",
+      "url": "https://www.digitimes.com.tw/",
+      "collection_status": "direct_html_configured_not_yet_runtime_verified",
+      "access_status": "awaiting_workflow_validation",
+      "direct_sources_count": 2,
+      "note": "僅自由公開且相關的智慧製造／車用零組件／機器人消息；會員與訂閱限定不擷取全文"
+    },
+    {
+      "name": "TEDIBOA 台灣卓越無人機海外商機聯盟",
+      "region": "台灣",
+      "type": "無人載具產業聯盟／公協會產業資訊",
+      "url": "https://www.tediboa.com.tw/",
+      "collection_status": "direct_html_configured_not_yet_runtime_verified",
+      "access_status": "awaiting_workflow_validation",
+      "direct_sources_count": 1,
+      "note": "優先實質國際合作、技術、產業政策與供應鏈議題；排除一般會員公告與報喜性消息"
     }
   ]
 }

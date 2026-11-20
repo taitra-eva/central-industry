@@ -22,7 +22,7 @@ CONFIG=ROOT/"config/direct_sources.json"
 MONTHS={"january":1,"february":2,"march":3,"april":4,"may":5,"june":6,
         "july":7,"august":8,"september":9,"october":10,"november":11,"december":12,
         "jan":1,"feb":2,"mar":3,"apr":4,"jun":6,"jul":7,"aug":8,"sep":9,"sept":9,"oct":10,"nov":11,"dec":12}
-DATE_RE=re.compile(r"(?<!\d)(20\d{2})[-/](\d{1,2})[-/](\d{1,2})(?!\d)")
+DATE_RE=re.compile(r"(?<!\d)(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})(?!\d)")
 EU_DATE=re.compile(r"(?<!\d)(\d{1,2})\.\s*([A-Za-z]+)\s+(20\d{2})")
 EN_DATE=re.compile(r"([A-Za-z]+)\s+(\d{1,2}),?\s+(20\d{2})")
 def publish_date(value):
@@ -81,12 +81,25 @@ def extract(source,html,now):
                 break
         if not stamp or stamp<now-timedelta(days=14) or stamp>now+timedelta(days=1):
             continue
-        if not should_keep(title,source["industry"])[0]:continue
+        targets=source.get("industries") or [source["industry"]]
+        if not should_keep(title,"總體情勢" if "總體情勢" in targets else None)[0]:continue
         candidate={"id":"","title":title,"title_zh":"","source":source["name"]}
-        if not relevant_to_sector(candidate,source["industry"],set()):continue
+        matched=[industry for industry in targets if relevant_to_sector(candidate,industry,set())]
+        if not matched:continue
+        if source["name"].startswith("TEDIBOA"):
+            # Association announcements are not all industry intelligence.
+            # Retain evidence of manufacturing, orders, supply chain,
+            # industry standards and markets; reject publicity-only items.
+            meaningful=("產能","量產","採購","訂單","製造","供應鏈","出口管制",
+                        "關稅","市場規模","測試驗證","零組件","認證","投資",
+                        "國際標準","技術標準","進口","出口")
+            promotion=("歡迎報名","踴躍參加","會員須知","展覽資訊","交流規劃",
+                       "參展花絮","拜會","出訪","攜手參展")
+            if any(x in title for x in promotion) or not any(x in (title+" "+snippet) for x in meaningful):
+                continue
         snippet=snippet.replace(title,"",1).strip(" -–|.:")
         if len(snippet)<80 or len(snippet)>500:snippet=snippet[:500] if len(snippet)>=80 else ""
-        records.append({"title":title,"link":url,"published_at":stamp.isoformat(),"snippet":snippet})
+        records.append({"title":title,"link":url,"published_at":stamp.isoformat(),"snippet":snippet,"industries":matched})
         seen.add(url)
         if len(records)>=35:break
     return records
@@ -103,10 +116,24 @@ def main():
             resp.raise_for_status()
             entries=extract(source,resp.text,now)
             stats["dated_relevant_cards"]=len(entries)
+            free_checked=0
             for entry in entries:
+                if source["name"]=="DIGITIMES":
+                    # Some DIGITIMES content is member-only. A news listing
+                    # or preview is NOT evidence that article text is free.
+                    # Only collect items whose original full public text is
+                    # actually accessible without authentication.
+                    from read_articles import read_public_page
+                    if free_checked>=10:break
+                    free_checked+=1
+                    page=read_public_page(entry["link"],expected_title=entry["title"],minimum_length=250)
+                    if page.get("access_status")!="readable":
+                        stats["not_publicly_readable"]=stats.get("not_publicly_readable",0)+1
+                        continue
+                    stats["free_body_confirmed"]=stats.get("free_body_confirmed",0)+1
                 norm=re.sub(r"\W+","",entry["title"].casefold())
                 uid=hashlib.sha256(norm.encode()).hexdigest()[:20]
-                sectors=[source["industry"]]+[x for x in entity_sectors(entry["title"]) if x!=source["industry"]]
+                sectors=list(dict.fromkeys(entry.get("industries",[source.get("industry")])+entity_sectors(entry["title"])))
                 if uid in rows:
                     old=rows[uid]
                     if "news.google.com" in (old.get("source_url") or old.get("url") or ""):
@@ -118,7 +145,7 @@ def main():
                     continue
                 rows[uid]=normalize_article({"id":uid,"title":entry["title"],"url":entry["link"],"source_url":entry["link"],
                     "source":source["name"],"published_at":entry["published_at"],"discovered_at":now.isoformat(),
-                    "industries":sectors,"region":source["region"],"priority":"international",
+                    "industries":sectors,"region":source["region"],"priority":"taiwan" if source["region"]=="台灣" else "international",
                     "topic":"產業動態","tags":[],"access_status":"not_verified","excerpt":"",
                     "publisher_excerpt":entry["snippet"],"publisher_excerpt_source":"publisher_news_listing" if entry["snippet"] else ""})
                 stats["new"]+=1

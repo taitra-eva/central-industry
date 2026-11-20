@@ -22,3 +22,31 @@ assert found[0]["link"].startswith("https://www.diyinternational.com/content/new
 assert found[0]["published_at"][:10]=="2026-11-19",found
 assert publish_date("7. August 2026").date().isoformat()=="2026-08-07"
 print("PASS: exact publisher URLs, explicit dates, relevant companies, non-tools excluded")
+
+# CTIMES publishes dates like 2026.11.18 in its machine-tool topic list.
+assert publish_date("日本工具機訂單年增 (2026.11.18)").date().isoformat()=="2026-11-18"
+ctimes={"name":"CTIMES","industries":["機械與金屬加工","無人載具及機器人"],"region":"台灣",
+ "url":"https://www.ctimes.com.tw/ART/articleindex.asp?F=機械",
+ "hosts":["ctimes.com.tw"],"url_patterns":[".shtml"]}
+page2="""<html><body><article>
+<a href="/工具機/2611180930AB.shtml">日本工具機訂單年增42.5% 精密零組件與高階設備迎新商機</a>
+<time datetime="2026-11-18">2026.11.18</time>
+<p>精密機械設備與出口訂單的發展需要追蹤工業應用。</p>
+</article></body></html>"""
+ct=extract(ctimes,page2,now)
+assert len(ct)==1 and "機械與金屬加工" in ct[0]["industries"],ct
+# Only substantive TEDIBOA industry news: a mere invitation must not
+# become a sourced article even when it has an explicit publication date.
+tediboa={"name":"TEDIBOA 台灣卓越無人機海外商機聯盟",
+ "industries":["無人載具及機器人"],"region":"台灣",
+ "url":"https://www.tediboa.com.tw/News","hosts":["tediboa.com.tw"],
+ "url_patterns":["/News/Article/"]}
+page3="""<html><body>
+<article><a href="/News/Article/21">歡迎報名無人機展覽資訊交流規劃</a>
+<time datetime="2026-11-19">2026-11-19</time><p>歡迎踴躍參加產業交流。</p></article>
+<article><a href="/News/Article/22">台灣無人機供應鏈關鍵零組件取得國際認證</a>
+<time datetime="2026-11-19">2026-11-19</time><p>產業零組件製造及認證進展。</p></article>
+</body></html>"""
+ta=extract(tediboa,page3,now)
+assert len(ta)==1 and "零組件" in ta[0]["title"],ta
+print("PASS CTIMES dotted date and industry selection; TEDIBOA substantive-news-only filter")
