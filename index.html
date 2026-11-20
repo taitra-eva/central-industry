@@ -33,18 +33,26 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 .hero .oil-trend b{font-weight:900}
 .hero .market-note{font-size:11px;line-height:1.85;font-weight:650;color:#fff1dd;margin-top:13px}
 .hero .market-note a{font-weight:850;color:#ffcb81;text-decoration:underline}
+/* Brent chart card: use its right side for comparison figures, not empty space. */
+.hero .market-tile.market-oil{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:center;column-gap:12px}
+.hero .market-oil .oil-main{min-width:0}
+.hero .market-oil .oil-trend{margin:0;border-left:2px solid #a3cbbf;padding-left:12px;display:grid;gap:9px;align-content:center}
+.hero .market-oil .oil-change{display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1.25}
+.hero .market-oil .oil-change span{font-size:11px;font-weight:800;color:#2c6659}
+.hero .market-oil .oil-change b{font-size:18px;font-weight:900;white-space:nowrap}
+@media(max-width:1120px) and (min-width:991px){.hero .market-tile.market-oil{grid-template-columns:1fr;row-gap:10px}.hero .market-oil .oil-trend{border-left:0;border-top:2px solid #a3cbbf;padding:9px 0 0;grid-template-columns:1fr 1fr;gap:5px}}
 @media(max-width:990px){.hero .market-wrap{grid-template-columns:repeat(4,minmax(0,1fr))}.hero .market-tile:last-child{grid-column:span 4}}
 @media(max-width:630px){.hero .market-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.hero .market-tile:last-child{grid-column:span 2}.hero .market-strip{padding:13px}.hero .market-tile strong{font-size:24px}.hero .market-heading{flex-wrap:wrap}}
 
 </style></head>
 <body>
 <header class="masthead"><div class="shell"><a class="brand" href="./"><img id="header-logo" src="./assets/taitra-logo.svg" class="brand-mark" alt="TAITRA 貿協標誌"><span class="brand-name"><strong>中部產業情報中心</strong><small>CENTRAL TAIWAN INDUSTRY INTELLIGENCE</small></span></a><nav class="toplinks"><a href="#focus">01 焦點解讀</a><a href="#sectors">02 產業動態</a><a href="#archive">03 歷史新聞資料庫</a></nav></div></header>
-<section class="hero"><div class="shell"><div class="eyebrow">DAILY INDUSTRY INTELLIGENCE</div><h1>中部產業情報<span style="color:#ab6e44">．</span><em>每日精選</em></h1><p>彙整產業、廠商與供應鏈的近期動態，提供中文資訊與原始報導連結。</p><div class="hero-ai-note">摘要及觀察重點由AI自動生成，未經人工審核</div><div class="hero-tags"><span>近 30 天資訊</span><span id="hero-date">最近更新載入中</span></div><div class="market-strip" aria-label="外匯與國際原油行情"><div class="market-heading"><strong>匯率及國際原油參考行情</strong><small id="market-checked">資料載入中</small></div><div class="market-wrap">
+<section class="hero"><div class="shell"><div class="eyebrow">DAILY INDUSTRY INTELLIGENCE</div><h1>中部產業情報<span style="color:#ab6e44">．</span><em>每日精選</em></h1><p>彙整產業、廠商與供應鏈的近期動態，提供中文資訊與原始報導連結。</p><div class="hero-ai-note">摘要及觀察重點由AI自動生成，未經人工審核</div><div class="hero-tags"><span>近 30 天資訊</span><span id="hero-date">最近更新載入中</span></div><div class="market-strip" aria-label="外匯與國際原油行情"><div class="market-heading"><strong>匯率及國際原油參考行情</strong></div><div class="market-wrap">
 <div class="market-tile"><span>美元 USD／TWD</span><strong id="market-usd">—</strong><small>臺銀即期賣出・1 美元</small></div>
 <div class="market-tile"><span>歐元 EUR／TWD</span><strong id="market-eur">—</strong><small>臺銀即期賣出・1 歐元</small></div>
 <div class="market-tile"><span>日圓 JPY／TWD</span><strong id="market-jpy">—</strong><small>臺銀即期賣出・1 日圓</small></div>
 <div class="market-tile"><span>人民幣 CNY／TWD</span><strong id="market-cny">—</strong><small>臺銀即期賣出・1 人民幣</small></div>
-<div class="market-tile"><span>布蘭特原油 Brent</span><strong id="market-brent">—</strong><small>美元／桶・每日現貨價格</small><div class="oil-trend">較上週 <b id="market-brent-week">—</b>　較上月 <b id="market-brent-month">—</b></div></div>
+<div class="market-tile market-oil"><div class="oil-main"><span>布蘭特原油 Brent</span><strong id="market-brent">—</strong><small>美元／桶・每日現貨價格</small></div><div class="oil-trend"><div class="oil-change"><span>較上週</span><b id="market-brent-week">—</b></div><div class="oil-change"><span>較上月</span><b id="market-brent-month">—</b></div></div></div>
 </div><div class="market-note"><span id="market-dates">尚無已驗證報價；不顯示推測數值。</span>　資料來源：<a href="https://rate.bot.com.tw/xrt?Lang=zh-TW" target="_blank" rel="noopener noreferrer">臺灣銀行</a>、<a href="https://fred.stlouisfed.org/series/DCOILBRENTEU" target="_blank" rel="noopener noreferrer">EIA／FRED（Brent 現貨）</a>。銀行匯率及原油價格均非即時交易報價。</div></div></section>
 
 <main class="shell">
@@ -220,7 +228,6 @@ function renderArchive(){
  nav.append(prev,node('span',page+' / '+pages,'mini'),next)}
 }
 async function loadMarket(){
- const checked=document.getElementById('market-checked');
  try{
   const response=await fetch('./data/market.json?v='+Date.now());
   if(!response.ok)throw new Error('行情資料尚未建立');
@@ -245,8 +252,8 @@ async function loadMarket(){
   if(fx.quote_time)dates.push('臺銀牌告：'+fx.quote_time+'（台灣時間）');
   if(oil.quote_date)dates.push('Brent 現貨：'+oil.quote_date+'（交易日）');
   if(dates.length)document.getElementById('market-dates').textContent=dates.join('　｜　');
-  checked.textContent=data.checked_at?'最後檢查 '+data.checked_at.slice(0,16).replace('T',' '):(fx.quote_time||oil.quote_date?'已載入最近可查證報價':'行情尚待更新');
- }catch(e){checked.textContent='行情資料未取得'}
+
+ }catch(e){document.getElementById('market-dates').textContent='市場行情資料暫時無法取得；請查看來源連結。'}
 }
 loadMarket();
 async function init(){const sel=$('industry');sel.append(new Option('所有產業',''));for(const sector of SECTORS)sel.append(new Option(sector,sector));try{const [nr,br,ir,tr]=await Promise.all([fetch('./data/news.json?v='+Date.now()),fetch('./data/brief.json?v='+Date.now()),fetch('./data/insights.json?v='+Date.now()),fetch('./config/topic_taxonomy.json?v='+Date.now())]);if(tr.ok){const taxonomy=await tr.json();if(Array.isArray(taxonomy.topics)&&taxonomy.topics.length)TOPICS=taxonomy.topics.map(x=>x.name)}const topicSelect=$('topic');for(const item of TOPICS)topicSelect.append(new Option(item,item));if(!nr.ok)throw new Error('新聞資料 HTTP '+nr.status);const news=await nr.json();records=news.items||[];if(br.ok)brief=await br.json();if(ir.ok)insights=await ir.json();setText('hero-date','資料更新 '+date(news.updated_at));setText('footer-update','中部產業情報中心 · '+twDateTime(news.updated_at)+'（台灣時間 UTC+8）');renderFocus();renderSectorGrid();renderWatch();renderArchive()}catch(e){$('focus-grid').replaceChildren(node('div','資料載入失敗：'+e.message,'empty'))}}$('keyword').addEventListener('input',()=>{page=1;renderArchive()});for(const x of ['industry','region','topic'])$(x).addEventListener('change',()=>{page=1;renderArchive()});$('backtop').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));window.addEventListener('scroll',()=>{$('backtop').classList.toggle('show',window.scrollY>480);let active='focus';for(const sec of ['focus','sectors','archive']){if($(sec).getBoundingClientRect().top<160)active=sec}document.querySelectorAll('.toplinks a').forEach(a=>a.classList.toggle('active',a.hash==='#'+active))},{passive:true});init();
