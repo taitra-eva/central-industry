@@ -45,23 +45,25 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 @media(max-width:630px){.hero .market-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.hero .market-tile:last-child{grid-column:span 2}.hero .market-strip{padding:10px}.hero .market-tile strong{font-size:24px}.hero .market-heading{flex-wrap:wrap}}
 
 
-/* Readability: stronger information-text contrast without changing layout or brand palette. */
-.hero p{color:#44352c;font-weight:550}
-.hero .hero-ai-note{color:#664734;font-weight:650}
-.hero-tags span{color:#574034;font-weight:650}
-.focus-card p{color:#352d28;font-size:14px;line-height:1.85;font-weight:500}
-.focus-card p.insight-observation{color:#302820!important;font-weight:550}
-.watch-card p{color:#352d28;font-size:14px;line-height:1.85;font-weight:500}
-.watch-observation p{color:#332b24;font-size:14px;font-weight:500}
-.summary-notice,.footnote{color:#57483d;font-weight:500}
-.date,.mini,.archive-meta .mini,.watch-count,.section-head small,.source-row,.insight-source{color:#625247}
-.empty{color:#594b41}
-.sector-tile small{color:#5b4d44}
+/* Dense, high-contrast content text: black, 13px, unchanged page structure. */
+.hero p{color:#111;font-weight:500}
+.hero .hero-info-line{display:flex;align-items:center;gap:9px 12px;flex-wrap:wrap;margin:0 0 10px;color:#111;font-size:13px;line-height:1.5}
+.hero .hero-info-line .hero-ai-note{display:inline;margin:0;color:#111;font-size:13px;font-weight:500;line-height:1.5}
+.hero .hero-info-tag{display:inline-block;color:#111;font-size:13px;font-weight:500;padding:3px 9px;border-radius:30px;border:1px solid #e2d1c1;background:#fff9f3;white-space:nowrap}
+.focus-card p{color:#111;font-size:13px;line-height:1.85;font-weight:500}
+.focus-card p.insight-observation{color:#111!important;font-weight:500}
+.watch-card p{color:#111;font-size:13px;line-height:1.85;font-weight:500}
+.watch-observation p{color:#111;font-size:13px;font-weight:500}
+.summary-notice,.footnote{color:#111;font-weight:500}
+.date,.mini,.archive-meta .mini,.watch-count,.section-head small,.source-row,.insight-source{color:#111}
+.empty{color:#111}
+.sector-tile small{color:#111}
+@media(max-width:690px){.hero .hero-info-line{gap:5px 9px}.hero .hero-info-line .hero-ai-note{flex-basis:100%}}
 
 </style></head>
 <body>
 <header class="masthead"><div class="shell"><a class="brand" href="./"><img id="header-logo" src="./assets/taitra-logo.svg" class="brand-mark" alt="TAITRA 貿協標誌"><span class="brand-name"><strong>中部產業情報中心</strong><small>CENTRAL TAIWAN INDUSTRY INTELLIGENCE</small></span></a><nav class="toplinks"><a href="#focus">01 焦點解讀</a><a href="#sectors">02 產業動態</a><a href="#archive">03 歷史新聞資料庫</a></nav></div></header>
-<section class="hero"><div class="shell"><div class="eyebrow">DAILY INDUSTRY INTELLIGENCE</div><h1>中部產業情報<span style="color:#ab6e44">．</span><em>每日精選</em></h1><p>彙整產業、廠商與供應鏈的近期動態，提供中文資訊與原始報導連結。</p><div class="hero-ai-note">摘要及觀察重點由AI自動生成，未經人工審核</div><div class="hero-tags"><span>近 30 天資訊</span><span id="hero-date">最近更新載入中</span></div><div class="market-strip" aria-label="外匯與國際原油行情"><div class="market-heading"><strong>匯率及國際原油參考行情</strong></div><div class="market-wrap">
+<section class="hero"><div class="shell"><div class="eyebrow">DAILY INDUSTRY INTELLIGENCE</div><h1>中部產業情報<span style="color:#ab6e44">．</span><em>每日精選</em></h1><p>彙整產業、廠商與供應鏈的近期動態，提供中文資訊與原始報導連結。</p><div class="hero-info-line"><span class="hero-ai-note">摘要及觀察重點由AI自動生成，未經人工審核</span><span class="hero-info-tag">近 30 天資訊</span><span class="hero-info-tag" id="hero-date">最近更新載入中</span></div><div class="market-strip" aria-label="外匯與國際原油行情"><div class="market-heading"><strong>匯率及國際原油參考行情</strong></div><div class="market-wrap">
 <div class="market-tile"><span>美元 USD／TWD</span><strong id="market-usd">—</strong><small>臺銀即期賣出・1 美元</small></div>
 <div class="market-tile"><span>歐元 EUR／TWD</span><strong id="market-eur">—</strong><small>臺銀即期賣出・1 歐元</small></div>
 <div class="market-tile"><span>日圓 JPY／TWD</span><strong id="market-jpy">—</strong><small>臺銀即期賣出・1 日圓</small></div>
