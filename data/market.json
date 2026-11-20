@@ -1,5 +1,5 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-11-20T17:21:56+08:00",
   "fx": {
     "source": "臺灣銀行",
     "quote_type": "即期買入",
@@ -34,6 +34,7 @@
     "data_status": "official_latest_observation_publicly_verified"
   },
   "fetch_failed": [
+    "fx",
     "oil"
   ],
   "initial_snapshot_note": "Four spot BUY rates based on the Bank of Taiwan public board quotation dated 2026/11/20 10:59; future scheduled market-only refresh will replace these when live retrieval succeeds. Brent unchanged."
