@@ -62,3 +62,22 @@ page4="""<html><body><section><article>
 headings=extract(tediboa,page4,now)
 assert len(headings)==1 and headings[0]["link"].endswith("/News/Article/16200"),headings
 print("PASS TEDIBOA: article title extracted from same-card heading, not generic 了解更多")
+
+# IEK covers multiple sectors; news candidates must have a dated,
+# direct IEK research-article URL, not a login or general-news listing.
+iek={"name":"IEK產業情報網（工研院產科國際所）",
+ "region":"台灣","industries":["機械與金屬加工","無人載具及機器人","總體情勢"],
+ "url":"https://ieknet.iek.org.tw/iekrpt/DefaultFree.aspx",
+ "hosts":["ieknet.iek.org.tw"],
+ "url_patterns":["/iekrpt/rpt_more.aspx","/iekrpt/rpt_open.aspx"],
+ "require_public_body":True,"suppress_excerpt":True}
+page5="""<html><body><article>
+<h3><a href="/iekrpt/rpt_more.aspx?rpt_idno=101">智慧製造與工具機供應鏈產能布局及出口訂單變化</a></h3>
+<time datetime="2026-11-19">2026/11/19</time>
+<p>台灣機械產業出口訂單及關鍵零組件製造。</p>
+</article><article><a href="/member/DailyNews.aspx">產業新聞總覽</a>
+<time datetime="2026-11-19">2026/11/19</time></article></body></html>"""
+iekfound=extract(iek,page5,now)
+assert len(iekfound)==1 and iekfound[0]["link"].startswith("https://ieknet.iek.org.tw/iekrpt/rpt_more.aspx"),iekfound
+assert "機械與金屬加工" in iekfound[0]["industries"],iekfound
+print("PASS IEK: own dated public-research link only, no daily syndicated listing")
