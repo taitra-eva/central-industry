@@ -199,7 +199,10 @@
       "access_status": "unresolved",
       "excerpt": "",
       "read_checked_at": "2026-11-20T02:56:01.802047+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_reason": "Bing backfill: Bing returned no verified publisher article",
+      "source_url": "https://money.udn.com/money/story/7307/9889731",
+      "original_url_status": "publisher_link_verified",
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
     },
     {
       "id": "fc25d8936d2a6e7a8521",
@@ -423,7 +426,10 @@
       "access_status": "unresolved",
       "excerpt": "",
       "read_checked_at": "2026-11-20T02:57:25.697993+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_reason": "Bing backfill: Bing returned no verified publisher article",
+      "source_url": "https://money.udn.com/money/story/5599/9888423",
+      "original_url_status": "publisher_link_verified",
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
     },
     {
       "id": "5f9be8ec853de9bd8476",
@@ -2657,7 +2663,10 @@
       "access_status": "not_verified",
       "excerpt": "",
       "read_reason": "Bing backfill: Bing returned no verified publisher article",
-      "read_checked_at": "2026-11-20T02:57:14.363100+00:00"
+      "read_checked_at": "2026-11-20T02:57:14.363100+00:00",
+      "source_url": "https://www.cna.com.tw/postwrite/chi/449187",
+      "original_url_status": "publisher_link_verified",
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
     },
     {
       "id": "0ede884232cb9980d574",
@@ -2677,7 +2686,10 @@
       "access_status": "not_verified",
       "excerpt": "",
       "read_reason": "Bing backfill: Bing returned no verified publisher article",
-      "read_checked_at": "2026-11-20T02:58:21.234231+00:00"
+      "read_checked_at": "2026-11-20T02:58:21.234231+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611060302.aspx",
+      "original_url_status": "publisher_link_verified",
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
     },
     {
       "id": "213da3b194bf8983da27",
