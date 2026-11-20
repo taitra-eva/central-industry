@@ -1,9 +1,62 @@
 {
-  "updated_at": "2026-11-19T14:00:25.807593+00:00",
-  "status": "partial",
-  "sources_checked": 122,
-  "sources_successful": 104,
+  "updated_at": "2026-11-20T00:10:32.476864+00:00",
+  "status": "ok",
+  "sources_checked": 126,
+  "sources_successful": 126,
   "items": [
+    {
+      "id": "6fed3ff7c83de5fc9cfc",
+      "title": "Iran war could leave consumers facing years of uncertainty over energy costs - KATU",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV1ZlelpEdW5oTExORjkwNzZuTUZJd0xfMTZSb0x1VEV3RHhJLWhYSHJ2djdQcWRVWGx4V2tsZDBiYndVWnpQczhvOU5rZG9LTVN1UDdpSEFXMUhNbzJYMUR3OXRnUjVyMXlsSDlVZ3NTemVaekZfcW1PVW0zVmtCMjEzMU1xYldZcUwyeEF4b3libFdaTzM3dzR3azY5TWdwYl9pUktiUjZJamw4UlZjMw?oc=5",
+      "source": "KATU",
+      "published_at": "2026-11-19T19:41:10+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "其他",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "187f8352370e60368267",
+      "title": "Boston Dynamics launches next-generation Stretch robot with major reliability upgrades - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPamhDX1hIenlZdG9Xcl9vN2JZLXNRTDExR3owNE5pOEwwWmV4b1lnM0c4cnBIUTNoSU1OUHlRQkMwY0tNY050WWpfWGZqYWdFVVM1VTF3Y01vV0xQaTBxV011R1B5SlFsSjRtekd6MTlha0dTc0FfOWxjRGx5YmNfUmtZQnRieVF1YUdla0lwRVFqa3dtV3VwcS0zZEpkeXVMc3Y1N3J5WXJvTm5vMGdueEExYkJFYkMyVUZoM2ZWNUlBZE00TkJPRGhqdGRuTjBqMnJRTkVUekJHaXc?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-19T17:41:28+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "5005127a46634c65bab2",
+      "title": "特斯拉衝刺人形機器人、自駕車 盟立、亞光等台鏈受惠",
+      "url": "https://udn.com/news/story/7241/9890066",
+      "source": "聯合新聞網",
+      "published_at": "2026-11-19T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-20T00:13:29.837045+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
     {
       "id": "08e9a5791d88c534a8a6",
       "title": "Why Tariffs Aren’t Bringing Factories Back to the U.S. - Harvard Business Review",
@@ -24,28 +77,6 @@
       "read_checked_at": "2026-11-19T14:02:48.886154+00:00",
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "為什麼關稅不能把工廠帶回美國——哈佛商業評論",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "257ed4e73bcd3b3751f7",
-      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5",
-      "source": "Yahoo Finance",
-      "published_at": "2026-11-19T13:02:50+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "其他",
-      "language_hint": null,
-      "topic": "物流與航運",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:02:57.602901+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "隨著中東航運攻擊對供應盈餘的前景反向上升 -- -- 雅虎金融",
       "translation_method": "argos_offline_machine_translation"
     },
     {
@@ -111,6 +142,24 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "為其計劃中的美國無人機生產,J-Star旨在從美國供應商那裡源出所有特有材料. - 泰坦魚",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "42cb48f7469ea7ce4ca6",
+      "title": "台中精機布局東南亞智慧製造 CNC工具機與自動化設備搶商機 - CTIMES",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNZ0J1SzVhcThvV3pzY2hUMy10cVBpbTRLMWZDREx2MW5YYkNsMFJfTHVvbV9aLUMwOEJpVkVtTC05NnNseVp5MHZwVG91dU5LQ0wtSzI2VlRKc0RRQkRtMHVOTFZFTHFORnJMdzl3b2x5UjRROUU1M0Z3dEZRb21iU0dHcWgzZ2s0WUNiVHJMRW5tOEdGV2lwNEJkTjNCYk1IcUNYcGZiR3pFeFRRTjNiMDEwbjIxcGhKb3hMcjh1cTNHU1k5T0dXdjhIakIyMUw3MDFjQlRTczM5NFJZaHY3YlQ3OUNaeE4zYzVUV29qNXBaXzllblo4dnVISXdESDJMSDZFZEtPMFZtaGo0QS1RZkJyNzQxaUg5VXRwZ3YyMnJ5dDhMSmxDV0FqYjM5YzV3WXc?oc=5",
+      "source": "CTIMES",
+      "published_at": "2026-11-19T11:52:24+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "4dd3f426126d31d010c1",
@@ -239,6 +288,25 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "中東衝突引發有史以來全球石油貿易的最大破壞,",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "826f156c21d6444050dd",
+      "title": "ALSO pauses e-bike deliveries to fix software issues",
+      "url": "https://www.bike-eu.com/subject/innovations-products",
+      "source_url": "https://www.bike-eu.com/subject/innovations-products",
+      "source": "Bike Europe",
+      "published_at": "2026-11-19T09:07:56+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "5c9680393902c103b8dd",
@@ -376,23 +444,22 @@
       "summary_status": "source_excerpt_translated"
     },
     {
-      "id": "7a57d45643ef1744cd65",
-      "title": "Specialized跨足保險 打造全方位售後服務 - 輪彥國際有限公司",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQnZ6cmt3dGhFemxPaEFhMTlmRjd6N05YdDdWd2JWOGFEM0FGTy1BV05zN0YwR1czakwyWnNGc0ZFNV9LODliSThUM2Z2R2lHbk1QQ2NMX3ZMNzc0ZEppRXV0Vy02WF80d2RMckNTSlpUODItNDNzWm1HaVJVcHdrSGNEOF84VWdFUkpMVU1PQWRWZGJ6R2ozM2pIcmhhYnpUT3Vua1dVR00wME5DQlFlNWRtSEtocnFmYnJ2VlhaejN2eGFtd0JVT3gtYlRKejhiYVh1a0ZqR2U5NFpTTmhJeEpwREloeWhyc2ZtRDRBcndBYnA4cWR1dVZCcEo3QURW?oc=5",
-      "source": "輪彥國際有限公司",
-      "published_at": "2026-11-18T23:16:00+00:00",
-      "discovered_at": "2026-11-19T03:14:27.803342+00:00",
+      "id": "4eaee3c3df5f609bb5f7",
+      "title": "中小傳產怎轉型？經部：切入智慧機器人、航太無人機等領域 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBETWNVZklTdlNnSkxnRW9GVzI0ajFqOVExdkZCcWVhQmpHaEJEc0JMdDVGc3R2TWlPOGk4UTh0RTZNZnNaRDhseERMSTZ5WndRdkh2NVdQR3ZVQmfSAWBBVV95cUxQZjhybHJHOXUzT2Foa1hJUFJ6WG93M0JnSGdYU1dCMV9PYWYtU3ZuWWNNclhIV0JqY3dIRFItWkZTelpPZnFMOUJTdmVUak0wSjZXVlNQTmRFTlZBNkhsYjU?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-19T01:10:22+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
       "industries": [
-        "自行車"
+        "無人載具及機器人"
       ],
       "tags": [],
       "priority": "taiwan",
       "region": "台灣",
+      "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:02:29.087014+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "ee557ed1947534c85382",
@@ -623,28 +690,6 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
     },
     {
-      "id": "64f69deaee933b54c47f",
-      "title": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict - Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1k4SUVuUWd6NFUyaDFsOGhlNDVJb0hfOUt6TXJ2cGFURVhQcWZkb1pZSHk3YXlSeml0NDZmUmtQWUtZc3M1TS1jSGp4dmZZVmt2enZLbnp0ZnJ5bG82dzBUcG5EN3VTR2FxOWFjNG9oTlhYX0tpaUtKQmI5MkpHZG5kNEd0bVo3RThJam1pNHZGRzMtMXV1ZEdOakVMVGN0MXd6eW5TSlF3U2vSAbABQVVfeXFMTTY5R0VHQ1dyeFZ3eTMxbW91b1hmY3JNM21tQU1DWm14eV9jMXhpRUhhSjFDTmxBNld5ZWIyTUc2Z0FZR0RSMURDamd1UTF3bi1hd1l2Rm9CTy1CcTBib2x2VVQ5WW9Eejc0ZUZUX3J2dkxMZjNxRVFCVGR2Ml9UUHpSSDJubUw1YkJwOUMzNDYtQ3JxS09fcm1ENWtQc1hYaDBqZlBVS1MyMVRUQnV0bjE?oc=5",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "published_at": "2026-11-18T05:55:00+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "其他",
-      "language_hint": null,
-      "topic": "國際情勢與能源",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:03:00.255404+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "儘管美國-伊朗衝突升級,",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
       "id": "6d61b9eecdc50a93b24a",
       "title": "COMMENTARY: Trump’s failed import tariff policy added to inflation - Las Vegas Review-Journal",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSVBhQlJWQU1TZ2ZiLUpIeklIZjJVWjNDUXdZdXZ6YkhZcGplbThfWEYxTjRqOGZnak9lcEYtS3pHLUpTQTU1aWhIS0ZvWEUzSWJUVzEzSTk4YjlXOGN5QVpCVEk2M0NranNCMW9OV1RLa25hcUc2QXFwQjJkalVoRktRQjR6ZWphekxTdW5PRHR4cjdOQndsNlBkZlJwemlMWTBVcFFtUl9Qem1XaDV4Yg?oc=5",
@@ -705,28 +750,6 @@
       "excerpt": "",
       "read_checked_at": "2026-11-19T14:02:32.808902+00:00",
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
-    },
-    {
-      "id": "6ec3e4d38332184acaa7",
-      "title": "Washington Can Start Delivering on Affordability by Rejecting Trump’s Tariffs - Tax Foundation",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzhRRFhsa2d6d0NORXVyMEloRFU4b3J5al83QnNnXzlBYWcxSmZKWGJLZUlqQnVBWDd5ckR2STZ2WVNrN29YWGxKZFRlNVdVUEpraWFfM1RiU2owZTB3TFhlUjNZQXR0OW1PWkR5NTg3R01pZExLQjFQaFZRM0ZpWUQzVGM?oc=5",
-      "source": "Tax Foundation",
-      "published_at": "2026-11-17T22:59:04+00:00",
-      "discovered_at": "2026-11-19T14:00:25.807593+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "北美",
-      "language_hint": null,
-      "topic": "政策與貿易措施",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:02:54.552114+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "華盛頓可以透過拒絕特朗普的關稅來開始實現可負擔性-稅收基金會",
-      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "7a91502036102a99dca1",
@@ -795,48 +818,22 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "c4c18b090e623d661034",
-      "title": "Giant's Sales Rise 6.2% and Operating Profit Jumps 29%, but North America Remains a Weak Spot - TodoMountainBike",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjdVSVZseFdLUFVmbVExYnZHd2hLcXUzeS1YdEpTc2VDOWduSWFST3BGN3BDdVBZcGFvZFFMbG41cnBYdlZuN1RzZ2JCb09rX0FjYzI1cmdRclE1REVaaHpMcUFtM0xhUnlRQ0RYemowcWtjV1ZodDF1czZ1QzlMUDB2bHhSSDF0NzU2NUo3cFYtcGtGU3RZ?oc=5",
-      "source": "TodoMountainBike",
-      "published_at": "2026-11-17T17:13:51+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "id": "920140fb7bc07b530dc4",
+      "title": "Conference report: Construction industry poised for a robotics breakthrough - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXpDcXlFVFBJVEJhbERQSFZXcEZvYng1eEVXLWR0Ry1ITzZKeTZiRHRNam43UlNJbzY3UUJiS0tObGtOTWp3RnI2NEVUcGpjNU5yZ3BKLVNUMzdEc2tNUnlEUl8wdnNuTlVZcDRfeDlCeGo5a0dYVHFZUFJleEZ2RkxXY0txNGMxLXJ3ZnZVTlBPdHNCN0tNQjhrRjRkNnlWYTlhSUVhYWFyeloyLU1vX01uQkQxZmJkTnBGNkpmVVBOQXo5dlduYy1lVlBLQzQ?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-17T18:57:38+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
       "industries": [
-        "自行車"
+        "無人載具及機器人"
       ],
       "tags": [],
       "priority": "international",
-      "region": "北美",
+      "region": "歐洲",
       "language_hint": null,
-      "topic": "市場需求與景氣",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:02:55.230227+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "Giant的銷售率上升了6.2%, 運營利潤躍升了29%, 但北美仍是一個薄弱點 - TodoMountainBike",
-      "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "49eb61652f714c4e55f7",
-      "title": "Crude Oil Prices Climb on Global Supply Threats - Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2JvZW45VlRuUnlETmN4aVdpYlg0SXNadXMtaU5BR2RWY1h0bnhxWnE1NU5EQUhhOFU5TTVDeDVfQmw2LXZyamJndWpkTkhZZUszVzJjNlZNZi05YW1PQ2QxbzZJbk9ETGQ1b0tnVjIyWlZadnBwVmU1bjk5RDJZUS1fYmdYMlYtdHhWS1JmOExLZTZVaEE?oc=5",
-      "source": "Barchart.com",
-      "published_at": "2026-11-17T16:45:09+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "其他",
-      "language_hint": null,
-      "topic": "國際情勢與能源",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:03:01.610649+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "原油價格攀升對全球供應威脅-Barchart.com",
-      "translation_method": "argos_offline_machine_translation"
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "827b1cf36512e7e1b15a",
@@ -925,6 +922,24 @@
       "tags": []
     },
     {
+      "id": "63c25ecb5ff13a6aa4c2",
+      "title": "美元指數升到19個月高點 已收復去年關稅「解放日」至今的失土 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1idHJXWWlOdllGamVzN2VFRU5vVmZhZkVpUE5kVll4M1QzWTM5aGphM0FNTU1UdU53WUpNcWtEM1ZUS1FXMFhpOFV2ZDhmSFhkOVZ2MG5HVHczQdIBX0FVX3lxTFBfSjNEMHRlNXFPMWRaTkQ1SDZ2YmxfZ2RLVURuNTJkWkUxczVFdzZtRmtZeHRacjBMM2E0OHhCMUlveGYxN1kwZFV0djVjUkN1SDFZRFdLQzliN2lDV1hr?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T15:52:18+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "6489a92918d9cf1b426e",
       "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial - The Robot Report",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTRNdjY3dzFkQlVNeXdNSXpjMTM4UGRxYUJWaHN5dng2Qkk1ZHkwZWNVMmhWSlFBVi1HMzdkQ3RYdzlOVVRKRkpqdlZuU1VTWGxVNmlCSHdrWWtHcnRBYVdsTzItYUpSQWQxTGtUTkMweFdUZEJzQUM4LUtXTU1Zd1pXV1RWRXRJMWtRY0wzWlJOQUJaNktKempERQ?oc=5",
@@ -965,6 +980,43 @@
       "excerpt": "",
       "read_checked_at": "2026-11-19T14:02:33.528331+00:00",
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
+    },
+    {
+      "id": "a1728520d5eaa35fc01d",
+      "title": "DJI-backed Amflow enters urban e-bike market with in-house automatic hub",
+      "url": "https://www.bike-eu.com/subject/product-launch",
+      "source_url": "https://www.bike-eu.com/subject/product-launch",
+      "source": "Bike Europe",
+      "published_at": "2026-11-17T12:48:51+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "9316d518e22394f2327b",
+      "title": "美國 BIS 對超級智慧晶片、伺服器遠端存取出口管制升級 經濟部說話了 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Lcjk3SEw0VE5ZeF9JNDFIdHJhVnRSLV9aT0R2MVVfSVByMFgwZXBfclhOS2hTclJnZ1pIaVVKTUo4N3cyeUgxTVRBc3pWRHdBRzlwc00xQnNNQdIBX0FVX3lxTE05REdWN1k0ZWp1WnExM19aeWc3ZXpsNzdmOHNScmZFYlVHSENPZGhWYzFuNDdNeUMyZjlNc1hlZnFRMVV5RVRWNTZ0RHkyMmtJellVSlU0MHJtcU9QWGpz?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T12:39:02+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "d5ca13b3a284c7158d78",
@@ -1009,26 +1061,41 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
     },
     {
-      "id": "84160ba797bb62492f3a",
-      "title": "Oil prices caught between rising Mideast exports and tanker attacks - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORW1OUjJKZ1lMbm9wNmNBLTZxa3RSbDJabmgzZlI3X2VNWFFGMS0ybnJIUEc0R1htb29UVWZfd01meHZpSExEMTVBSHZrRmhMQ3gwNlctTldVWmFKRW1wVlNXQ2QwdnFHUEtZYlU3SW96Wjl3VmQ3cFB5OGtNOGdhYW5nUVB2T2x4SGt5ODAzbi1ENmlBOVNmT1ZNSjdxdXRmdmQ3VFE0UXBka21oT3JxeTRES2RwNzRaSnc?oc=5",
-      "source": "The Globe and Mail",
-      "published_at": "2026-11-17T10:04:55+00:00",
-      "discovered_at": "2026-11-19T13:26:21.597104+00:00",
+      "id": "aed61620eb8e5fe20863",
+      "title": "Avinox adds lock, rear light and phone mount to e-bike system",
+      "url": "https://www.bike-eu.com/subject/innovations-products",
+      "source_url": "https://www.bike-eu.com/subject/innovations-products",
+      "source": "Bike Europe",
+      "published_at": "2026-11-17T08:45:35+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "596e1cd451be77ca04a7",
+      "title": "新台幣開盤貶0.4分　為32.89元 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTENob0pidjF4cGtPVzUxY09MOHU4SGVWZG9GNk5rZmJnYnh1eFBUYXZMRVM2bVVoZnVIQ05GWDR2V0IxVnJoRm0tWTRKbTRWMm1TNHpnYktmbnRYTVE0UkVXV0s2UDhtaWdOYnNyeEhpNlJ2bUg5Z2FvV2N2NlFydtIBX0FVX3lxTFBmT2swZnZwYlY5VmVhYi1ZMXBZYXVHZGJHWmJweHp6dFMyR1piVEwzRFRMa2EtZjBhbWZKUXFmMnotOHZSM0xDRDJsaWEtdTliRWlBSWNJemhZRmtQbXBr?oc=5",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T01:16:53+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
       "industries": [
         "總體情勢"
       ],
       "tags": [],
-      "priority": "international",
-      "region": "其他",
+      "priority": "taiwan",
+      "region": "台灣",
       "language_hint": null,
-      "topic": "國際情勢與能源",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:03:02.190087+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
-      "title_zh": "中東部出口增加與油輪襲擊之間的油價-環球郵報",
-      "translation_method": "argos_offline_machine_translation"
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "19ae260e19ebbb49a43a",
@@ -1094,6 +1161,25 @@
       "tags": []
     },
     {
+      "id": "56caead1ef0165ea9056",
+      "title": "German bike industry cuts jobs as 2025 revenue falls 7% to EUR 25.2bn",
+      "url": "https://www.bike-eu.com/subject/zukunft-fahrrad",
+      "source_url": "https://www.bike-eu.com/subject/zukunft-fahrrad",
+      "source": "Bike Europe",
+      "published_at": "2026-11-16T15:54:54+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "900554534392e5c3e5d5",
       "title": "台股創史上第2大跌點　外資匯出趨緩新台幣小貶4.8分 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xRTFEUFVLU1ozU1RjSVJnY0xfdDZvT1hxdEVCVlJuQzRlRFhwT0hoRWhmQzNrTjVZM1d3SXZ6NzZaYkFka3dyZ0ZmTzY5OWFzemFkUnluczV2OFVuOTJWb3UybUYxZlJlOUdwYmRwR3VhWnhmT1YzV0dqWkwzQdIBX0FVX3lxTFBTbkN2cTlTekxCcDEtb1hBc3ktZUFfWjQ1OF9OSU5oRGJRdFc1QXlPUjdKSzVvTWxHTTRKUjBialZycmxBblJKN0FzRUI4RXQ0LV9kbW1vR1p5QXkydXlz?oc=5",
@@ -1152,6 +1238,80 @@
       "excerpt": "",
       "read_checked_at": "2026-11-19T14:02:35.924072+00:00",
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
+    },
+    {
+      "id": "fd7bb99ce53bf6880e4f",
+      "title": "From automotive to e-bikes: how Valeo powers micromobility",
+      "url": "https://www.bike-eu.com/subject/valeo",
+      "source_url": "https://www.bike-eu.com/subject/valeo",
+      "source": "Bike Europe",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "409b5a7aa189ab060eb8",
+      "title": "German e-bike owners ride 18% further but commute less",
+      "url": "https://www.bike-eu.com/subject/product-trends",
+      "source_url": "https://www.bike-eu.com/subject/product-trends",
+      "source": "Bike Europe",
+      "published_at": "2026-11-16T07:32:09+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "0014c4abe421527ad4f9",
+      "title": "Pon.Bike擴充零配件版圖 整合四品牌通路 - 輪彥國際有限公司",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNdmZUUVE3SnlncDZaTF81OFFPMHFHOW1mWXBMeXpQNmU3Z1lDNnpKaGtUSVhWby0tTXRkYl9DdW50WW11TW02cWp4SDR5ekdoWUE1Rm1ia01ENEtmMENaT0RseEN2X1pWdFJCYVNkYWpvVmxtNXJiSXpIVmFDUzRBYUJLN0k4MDRHSXAtOEY3WExuWi1yaFZWN3FxM0tPVjM2eVlNeWgtQlEyTk05dkNUSkRSc0pza2Ntbm0xMC1NM2lKM3N5emhXWEhrRTEwLUI0WmtpempvQzloZTZPRzlNTURfMVZSTFphazRlR1ppNUdkUW1qRWNYM1oxbVNwcV80ZEYyWnNweHNYTXg3Z2haMFF6VQ?oc=5",
+      "source": "輪彥國際有限公司",
+      "published_at": "2026-11-16T04:34:36+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "e91f4e4d80f21309ce9e",
+      "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV1FDSFU5SXBVak5rMXlHYnFlSlpyR2lOV2k0bFlabDZ2d3hnTzZGSUlJTmdTUl9oSEVsNkEyMGxhN1RiUW5ncHRkcmUtSTQ1eUdta21tZVBuUDZXeW5ReGVXSUJrbkVjemhtWW9xeDJtMktNc21mNjFqazZkalVqb0J0dkpYZEhzQlFSMll3bDR1YkFCa3BwNmVtQVhTZ1VoX1Fmem02b1hSdzBTSmhVNmNDanBoN0J2Y2RMdA?oc=5",
+      "source": "TechNews 科技新報",
+      "published_at": "2026-11-16T02:34:35+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "2f7e34475f02eb85a14f",
@@ -1686,6 +1846,43 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
     },
     {
+      "id": "5d8f5837b9979be382e4",
+      "title": "Drones made in the USA: the American drone companies you need to know in 2026 - The Drone Girl",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pejRwSUhEaHFwWkdUb19HV255MGJuT3I4cVVRUjNnXzFEcTVpUEZfd3RSZTJhVWlmMzlSVi14Y2x2OFZtdUFHWlprR2FoWDlaTm5uYWNiZHdKc2I1dTNMa0pZaS1EMk9DZU42Qmc2NU5yMGfSAXNBVV95cUxOaXo0cElIRGhxcFpHVG9fR1dueTBibk9yOHFVUVIzZ18xRHE1aVBGX3d0UmUyYVVpZjM5UlYteGNsdjhWbXVBR1paa0dhaFg5Wk5ubmFjYmR3SnNiNXUzTGtKWWktRDJPQ2VONkJnNjVOcjBn?oc=5",
+      "source": "The Drone Girl",
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "250ef40e5caebe0a3325",
+      "title": "55% of Dutch bicycle buyers plan an e-bike",
+      "url": "https://www.bike-eu.com/subject/the-netherlands",
+      "source_url": "https://www.bike-eu.com/subject/the-netherlands",
+      "source": "Bike Europe",
+      "published_at": "2026-11-11T07:00:00+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "f1718cc3831c45cdd7d6",
       "title": "亞馬遜發表全新「Ring Robotics」系列，AI 巡邏無人機與機器人顛覆傳統安防 - TechNews 科技新報",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMzZzTzZHLVc1UjJIWFNwYzdteFQwTmFHR0ZwQTRLMVR2cDdKRWhCU3hFTHlkZEE4a3o4VjFoMDRWZWZZd0dXVFdzNU00RWM0Z1pjdGVmYkx1WW9ERTYxR0FoVENTZi1vVEYwRC1VUTFQUk9EOUtsdXRlbnR4WDFqdFNfdzhlcUU?oc=5",
@@ -2169,6 +2366,25 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
     },
     {
+      "id": "8add8812531e0d25140e",
+      "title": "The Platform Group&#039;s bike segment loses 6% revenue",
+      "url": "https://www.bike-eu.com/subject/the-platform-group",
+      "source_url": "https://www.bike-eu.com/subject/the-platform-group",
+      "source": "Bike Europe",
+      "published_at": "2026-11-09T06:00:00+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "be6a4218582c23ef393b",
       "title": "護駕到資本市場有底氣》美AI建廠添變數工具機、機電、水泥喜憂分歧- 日報 - 工商時報",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0ySGo1X3NrRGZ6UVRKZWhneFdXLW1wdjZfZlFLMFZKaDhoNXpmYXR1ZGJMR3FkdWRZTm1aYy1PaUU1ck81Rm1PWmRWbUJNLWlzOWVodmlzRlhidS1NWng0?oc=5",
@@ -2278,6 +2494,43 @@
       "tags": []
     },
     {
+      "id": "3c9c3f36ab586e666911",
+      "title": "Stanley Black & Decker Q3 Earnings Call Highlights - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeFhDQWliNzFTV0dac1dkanVkV05JcmtyLTJhYVdfdVE1aHV2QndlUm9rMnZZSDhsVHI2VFBPS2tkdmw3VHhtbFRVSmo4U0xCZS0tZ2NHMTdwMk44TWRDVE5RSVh2SkpCa1RyQnowekdoY1RvYXhWc3l6NWYzZGdWallCbkxKLWF4OXV0cTdQMGxuY3hnaVJBQ1pSZDFudFJKUVBsTEp3RVVvM3ByLWc?oc=5",
+      "source": "TradingView",
+      "published_at": "2026-11-08T01:14:00+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "0164651e5f914f8acdb7",
+      "title": "Fox Factory sales fall 10.1% on Marucci sale and bike destocking",
+      "url": "https://www.bike-eu.com/subject/united-states",
+      "source_url": "https://www.bike-eu.com/subject/united-states",
+      "source": "Bike Europe",
+      "published_at": "2026-11-06T09:00:58+00:00",
+      "discovered_at": "2026-11-20T00:13:25.834001+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "市場需求與景氣",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "777e32e3becf6cafecb9",
       "title": "經部旗艦臺灣館首結合AAPEX及SEMA 同步搶攻北美汽車零配件及改裝車商機 - 中央社 CNA",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tZlFUejdlWTE2RHpvOE9WS1lMb0ZqdnFPaG56WER1U2JZT2dKcElTWTdpM0E3UDhsTmJrRmdnR25WZmk4Mm42OG5OWTB5SEJOV3NlTWJR?oc=5",
@@ -2292,6 +2545,24 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "0ede884232cb9980d574",
+      "title": "中鋼擬投資逾10億推動固態氧化物燃料電池及碳捕捉與利用| 產經 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3VDkydUQ5Q0VWTk1feHplRE9ZNXlWaWFaUHZHMUhFOXAyQUdBeWdLRnFsOEh4Y0FxSjJ4SzNzV2NXVmFXWFRLVU9PT1pCSzhXbHg0dUk2dkV6QTZoSnc?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "discovered_at": "2026-11-20T00:10:32.476864+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "供應鏈與原物料",
       "access_status": "not_verified",
       "excerpt": ""
     },
@@ -2421,10 +2692,30 @@
       "tags": []
     }
   ],
+  "direct_source_diagnostics": [
+    {
+      "source": "Bike Europe",
+      "url": "https://cms.bike-eu.com/rss_feed/business-news",
+      "found": 50,
+      "new": 9
+    },
+    {
+      "source": "Bike Europe",
+      "url": "https://cms.bike-eu.com/rss_feed/e-bike-updates",
+      "found": 50,
+      "new": 9
+    },
+    {
+      "source": "Bike Europe",
+      "url": "https://cms.bike-eu.com/rss_feed/news-marketing",
+      "found": 50,
+      "new": 0
+    }
+  ],
   "itis_discovery": {
-    "checked_at": "2026-11-19T14:01:50.367490+00:00",
+    "checked_at": "2026-11-20T00:13:29.837045+00:00",
     "days_with_direct_links": 10,
-    "new_items": 1
+    "new_items": 4
   },
   "daily_category_cap": 8,
   "daily_selection_limit_note": "每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留"
