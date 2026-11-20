@@ -1,11 +1,10 @@
 name: Daily industry news
 on:
-  # One market-only update immediately after deploying the market updater.
-  # This does not run collect, analyze, or full.
+  # One-time existing-news backfill on deployment. Does NOT run collection.
   push:
     branches: [main]
     paths:
-      - scripts/update_market.py
+      - scripts/backfill_chinese.py
   schedule:
     - cron: '30 7 * * *'
       timezone: 'Asia/Taipei'
@@ -23,6 +22,7 @@ on:
           - analyze
           - full
           - market
+          - backfill_zh
         default: full
 permissions:
   contents: write
@@ -31,7 +31,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   market:
-    if: ${{ github.event_name == 'push' || (github.event_name == 'schedule' && github.event.schedule == '20 9,12,16 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'market') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '20 9,12,16 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'market') }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -51,6 +51,34 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/market.json
           git diff --cached --quiet || (git commit -m 'data: market-only FX and Brent quotes' && git pull --rebase origin main && git push)
+  backfill_zh:
+    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.stage == 'backfill_zh') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate Chinese-only Bing article resolution code
+        run: python -m py_compile scripts/backfill_chinese.py scripts/read_articles.py scripts/generate_ai_insights.py
+      - name: Bing search only existing unsummarized Chinese news; verify original publisher bodies
+        env:
+          ZH_BACKFILL_MAX: '45'
+        run: python scripts/backfill_chinese.py
+      - name: Generate grounded Chinese summaries and observations from recovered bodies
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-20b
+          AI_DAILY_LIMIT: '45'
+        run: python scripts/generate_ai_insights.py
+      - name: Save only restored original links and generated insights
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json data/insights.json
+          git diff --cached --quiet || (git commit -m 'chore: verified Bing Chinese article backfill' && git pull --rebase origin main && git push)
   collect:
     if: ${{ (github.event_name == 'schedule' && github.event.schedule == '30 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.stage == 'collect') }}
     runs-on: ubuntu-latest
