@@ -63,8 +63,10 @@ def bing_results(title,hosts,client):
     fragments=[core[:48]]
     if len(core)>30:fragments.append(core[:26])
     seen=set()
-    for fragment in fragments:
-        for domain in hosts[:2]:
+    # At most two Bing searches per article, not a fragments×domains
+    # Cartesian product that could trigger provider throttling.
+    query_pairs=list(dict.fromkeys([(fragments[0],hosts[0]),(fragments[-1],hosts[-1])]))
+    for fragment,domain in query_pairs:
             query="site:"+domain+" "+fragment
             try:
                 r=client.get("https://www.bing.com/search",params={"q":query,"format":"rss"},headers=AGENT,timeout=15)
