@@ -1,9 +1,87 @@
 {
-  "updated_at": "2026-11-20T00:10:32.476864+00:00",
+  "updated_at": "2026-11-21T00:14:26.155241+00:00",
   "status": "ok",
-  "sources_checked": 126,
-  "sources_successful": 126,
+  "sources_checked": 24,
+  "sources_successful": 24,
   "items": [
+    {
+      "id": "e5423be782c6f975b68b",
+      "title": "6,076億元追加預算過關 油價、民生電價凍漲到2028年1月底",
+      "url": "https://www.ctee.com.tw/news/20261120701248-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261120701248-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-20T15:33:40+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "立法院20日三讀通過115年度中央政府總預算追加預算案，歲出追加預算6,076億餘元全數照列，其中最大宗的中油增資2,338億元也全數過關。院會另通過主決議，要求政府在2028年1月底前凍漲油價，住宅每月用電500度以下、小商家每月用電1,500度以下的電價也應維持不變。 立法院長韓國瑜主持院會，處理追加預算案二、三讀。國民黨團、民眾黨團原先均提案刪除中油增資預算，國民黨團於表決前撤案。院會",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "551c4871e4a2fd7c10d2",
+      "title": "台灣無人載具聯盟出訪芬蘭 赴赫爾辛基展開產業與學術交流 - 中華新聞雲／中華日報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5MndDR0RmWWlwSkRYRWtSS1BRU3Q3OVEtVk1YTmdla0puS0VKSGY0Z19tV3B0SEdWQnotSy1sWlpHS2pxMGJmTDJMcGVzMF93eEE?oc=5",
+      "source": "中華新聞雲／中華日報",
+      "published_at": "2026-11-20T14:22:51+00:00",
+      "discovered_at": "2026-11-21T00:14:26.155241+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "74025a92342bf6c21f13",
+      "title": "Machine tool makers seek ₹3,000 crore fund to cut dependence on imports - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQm5Dam1IY2tCNG1CZkNOS2JfdkNkWWVycHpKQ24zYVBGNGVBM0JYcG9qYmZZSjR4OGFUN1ZydWxsS3lndVVvU2M3Vjlnb3JFQTlGdXVxWHhTRnFtcW9KNWhsbzBGM2pxUGw4SnRQR1dNSGlEVjN3NEJpRlVGc0I4WEpfVVBEcXpBcWp1U2RZc2lfQVktdnFGMDBOSW5tZFdjVWY0U3Q4ZFQzOWExeUFDR3dOUnFRQjVRV3BnUXd6cUNoTkxwZS1oZ0hmV1E5cDJ3OTNIQtIB2gFBVV95cUxNTEJ0cE9UTG9yOFBYS0lPRUJIX09sNFFnaURoXy0tS3dPOUFmaGRTbE5GaVNzeGRITDU4QkRaZEJlWGUtUU9kSzVuVzNYNTJiaTBGMkliMjA3cTU0NkZ0cU9PU0ItOU5rRnZmb3BwUDNXbmtqWnpoRWc4akdfTWllS0lfdHJYX0tOOWZmZkZxMzNFS0x0end5N3Bvc25DS2MzM2NPZlRHVlYyMGdFZjhjeWh1OVM1LWFXTno0d0poN3k3MnRja194VjdkcjE5VXQ2R2RNZmlCUE5UZw?oc=5",
+      "source": "Business Standard",
+      "published_at": "2026-11-20T13:13:54+00:00",
+      "discovered_at": "2026-11-21T00:14:26.155241+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "進出口與訂單趨勢",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "3790e57c8c1f01b30230",
+      "title": "台日工具機市場趨向分化 精密傳動與自動化設備迎新商機",
+      "url": "https://www.ctimes.com.tw/工具機/26112011240F.shtml",
+      "source_url": "https://www.ctimes.com.tw/工具機/26112011240F.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "discovered_at": "2026-11-21T00:13:32.566549+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "技術發展與產業轉型",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
     {
       "id": "6fed3ff7c83de5fc9cfc",
       "title": "Iran war could leave consumers facing years of uncertainty over energy costs - KATU",
@@ -25,6 +103,24 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "伊朗戰爭可能使消費者面臨多年的能源成本不確定性-KATU",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "b6c46981125fd0d98881",
+      "title": "More voters blame Trump’s tariffs for raising cost of living than Iran war: poll - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeE5kbnRzSEY3NWM1aEZyMC1zUWJ2UHEtVjNsZGNJMmhnWmt6RVlZeEdMM1A3TG1aTjQwVXc0OTJRYWY5MXZlZkpkVmR1S2p6eVpBTDN0NjFDVDFBWmNoelRFZTFMRWZodl9EeXJ3cXJCUmNzX21hb1VMWGlkUl9hd2tVTFpYRDRiSzVrVzFPZy1Sa2JKektHSzNFLVZZRVE?oc=5",
+      "source": "New York Post",
+      "published_at": "2026-11-19T17:56:00+00:00",
+      "discovered_at": "2026-11-21T00:14:26.155241+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "187f8352370e60368267",
@@ -229,6 +325,24 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
+      "id": "eb655075fb8ddd689022",
+      "title": "The bill for Trump’s trade war is coming due—at home and abroad - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LVldTODA1VnhXU3N6SlR3SEhVX21UaEd6WDZQLW5zdDdybXJXTThQM04wcElBaXhIUDR5dFpqUkF6MVZLN2VyNFVWV2F3UTJjT3UwZE1yc3ZvZFlQQkxmem5UX2FIR096ZTBOOVVxWVU1QQ?oc=5",
+      "source": "Fortune",
+      "published_at": "2026-11-19T10:56:00+00:00",
+      "discovered_at": "2026-11-21T00:14:26.155241+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "840c3f2722df88be2292",
       "title": "Oil Prices Edge Higher as Traders Weigh Middle East Shipping Risks - WSJ",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUlHaVFFSnlSWkY0ako5NjJsMTNsVjQ4eGhKc05oZGFWMDN4c3RQR0NyODVNUzNUenFRNS01Y1QyZi03Vm45eTNkbXF3bVBlTUhkWGVHeXIteUlPNFY2aEh3bnh4VXFaVzRMWk1fOV84SXQ4RlRMb2p4QWZ1b2NMb0JJQWZpdURHb2VLLVZVT20yQk5nWTBPUl9hUUxvcllXM0p1dFdxZjd2WWFlaEtVUGFoUzNHNG1IYWQyTkZfLUtOQQ?oc=5",
@@ -318,7 +432,9 @@
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
       "summary_zh": "裡維安的附帶產品也暫停了TM-B電子機的交付,以解決軟體問題,包括充電問題. 大約兩週後應恢復運輸。\n\n- 同時暫停e-bike的交付,以解決軟體問題 Rivian spin-off 也暫停 TM-B e-bike的交付,以解決軟體問題,包括充電問題。 大約兩週後應恢復運輸。\n\n- DJI支援的Amflow進入城市電子腳踏車市場,內部自動樞紐Amflow正與UE(Urban & Easy)一起移動進入城市電子腳踏車部分,價格為3,099歐元. 頂部版本UE Carbon Pro將Avinox驅動系統與Amflow開發並自行建設的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.\n\n- Avinox在e-bike系統上增加了鎖、後光和電話掛載,中國e-bike系統供應商Avinox推出了一個後光、電話充電掛載和機車及其驅動系統的機車鎖。 Amflow的UE,該品牌的首款城市電子腳踏車,是首款搭載全部三臺的車型. 阿維諾克斯不給零售價格.\n\n- KYB進入歐洲MTB後市場,160毫米反轉線圈日本吊車製造商KYB進入山地機車市場,山地機車和電子MTB採用160毫米反轉的吊車叉. 2026年11月起,叉子在歐洲繼續銷售. 開元 歐洲也正在為此建立一個分銷和服務網路。\n\n- 贊助的飛毛腿國家增加歐洲在波蘭設施中的存在 飛毛腿電力公司擁有近30年的定製電池包開發和製造經驗,正在加強對歐洲電子腳踏車和微移動製造商的承諾。 波蘭計劃中的合資企業發展和生產設施標誌著在加強客戶協作和加強當地存在方面的下一步。",
       "summary_status": "source_excerpt_translated",
-      "ai_summary_status": "generated_unreviewed"
+      "ai_summary_status": "generated_unreviewed",
+      "publisher_excerpt": "Rivian spin-off ALSO has paused TM-B e-bike deliveries to fix software issues, including charging problems. Shipments should resume in about two weeks.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "5c9680393902c103b8dd",
@@ -454,6 +570,27 @@
       "excerpt": "",
       "read_checked_at": "2026-11-20T02:56:05.476786+00:00",
       "read_reason": "Bing backfill: Bing returned no verified publisher article"
+    },
+    {
+      "id": "b54ff84f0c3efa338037",
+      "title": "台灣工具機轉型半導體設備鏈 精密加工與自動化技術迎新商機",
+      "url": "https://www.ctimes.com.tw/2611191119A8.shtml",
+      "source_url": "https://www.ctimes.com.tw/2611191119A8.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "discovered_at": "2026-11-21T00:13:32.566549+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "技術發展與產業轉型",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
     },
     {
       "id": "ee557ed1947534c85382",
@@ -749,6 +886,69 @@
       "read_reason": "Bing backfill: Bing returned no verified publisher article"
     },
     {
+      "id": "553334688ab921b58017",
+      "title": "日本工具機訂單年增42.5% 精密零組件與高階設備迎新商機",
+      "url": "https://www.ctimes.com.tw/工具機/261118113140.shtml",
+      "source_url": "https://www.ctimes.com.tw/工具機/261118113140.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "discovered_at": "2026-11-21T00:13:32.566549+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "進出口與訂單趨勢",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
+    {
+      "id": "64cf531308279d665aa8",
+      "title": "HDAD 2027 Panel: Real-World View of the Aftermarket",
+      "url": "https://www.aftermarketnews.com/hdad-2027-announces-real-world-view-of-the-aftermarket-panel/",
+      "source_url": "https://www.aftermarketnews.com/hdad-2027-announces-real-world-view-of-the-aftermarket-panel/",
+      "source": "AftermarketNews",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "discovered_at": "2026-11-21T00:13:32.566549+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "北美",
+      "priority": "international",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Three industry executives will discuss how commercial vehicle aftermarket suppliers are navigating today’s biggest challenges while positioning their businesses for what’s next. November 18, 2026",
+      "publisher_excerpt_source": "publisher_news_listing",
+      "source_content_policy": ""
+    },
+    {
+      "id": "562716e9d8f9f403334e",
+      "title": "AI & the Aftermarket: NTN Bearing Corporation of America’s Charles Harris",
+      "url": "https://www.aftermarketnews.com/ai-the-aftermarket-ntn-bearing-corporation-of-americas-charles-harris/",
+      "source_url": "https://www.aftermarketnews.com/ai-the-aftermarket-ntn-bearing-corporation-of-americas-charles-harris/",
+      "source": "AftermarketNews",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "discovered_at": "2026-11-21T00:13:32.566549+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "北美",
+      "priority": "international",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
+    {
       "id": "7a91502036102a99dca1",
       "title": "進む系列をまたぐ自動車部品メーカーの再編 その統合モデルと今後の見通しは？ - M&A Online",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGFoSG8yNE1WTV9sZDUtcnFkaHVpYXpaT05jRHNNVlN5aFBXRFNFX0huSXFGRGdnMGFQSmU3T21SOE9rbkQ1d0NldGFFRXVwWFZZaTRpMlAwNS1Ud3k4YUtMU2FuZWs2Q2xXb0NvWThwQ1lCMTFCR3FyUGxXMDZOUXFpWkR2VFZtalJBNHpIenVRS2tBZ3dVY2FXaWRxMkZyVWJ2Si13UjRLbXBIT2NB?oc=5",
@@ -835,6 +1035,48 @@
       "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
       "title_zh": "會議報告:建築業準備實現機器人突破-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "9deb5e1b3b226d885c8b",
+      "title": "稅率最高27% 歐課鋼材反傾銷稅 中鋼、中鴻承壓",
+      "url": "https://money.udn.com/money/story/10871/9885155",
+      "source_url": "https://money.udn.com/money/story/10871/9885155",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T18:23:26+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "436574530ebeed8e6918",
+      "title": "面對歐課鋼材反傾銷稅 中鋼：推多元去化策略 降低衝擊",
+      "url": "https://money.udn.com/money/story/10871/9885115",
+      "source_url": "https://money.udn.com/money/story/10871/9885115",
+      "source": "經濟日報",
+      "published_at": "2026-11-17T18:22:27+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "針對歐盟對以中鋼為主的台灣冷軋扁鋼進口產品課徵反傾銷關稅，中鋼表示，將採「多元去化」策略降低影響，轉向包括南韓、中美洲的巴西、阿根廷，以及非洲等地積極開發新客源。",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "827b1cf36512e7e1b15a",
@@ -996,6 +1238,27 @@
       "ai_summary_status": "generated_unreviewed"
     },
     {
+      "id": "8d26d7c1a2cacd51ecc9",
+      "title": "Amflow enters urban e-bike market with in-house automatic hub",
+      "url": "https://www.bike-eu.com/subject/product-launch",
+      "source_url": "https://www.bike-eu.com/subject/product-launch",
+      "source": "Bike Europe",
+      "published_at": "2026-11-17T12:48:51+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Amflow is moving into the urban e-bike segment with the UE (Urban & Easy), priced from EUR 3,099. The top version, the UE Carbon Pro, combines the Avinox drive system with an electronic three-speed automatic hub that Amflow developed and builds itself. It goes on sale worldwide on 17 November 2026 for EUR 3,499.",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
       "id": "d5ca13b3a284c7158d78",
       "title": "Penguin Random House doubles book picking productivity with Locus Robotics - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNXpuUHBBRmVhUkxjdzJUTnRPVHpBSXZnRDB1blRUdFlLUnY2MlpYTTlBMThKQnFXVU55OGQ4REdBOGR0SFJGaldwQms2ZWhjNFpyM2JWZ0hpaDFOTktTWTdOd0E4ckxEblpYR1VaZy1nT0xXNVFwT01IZUppVGZWa3kxanJ1dUtDWUhrbGJGYXJvX1JKOHJRSjBYQzR1bGdKdEFuSU5JWERFZkZhSWU1WkVrdE9vU014RUlWdTVvTEtDTG9yamRobTBlMA?oc=5",
@@ -1036,6 +1299,27 @@
       "excerpt": "",
       "read_checked_at": "2026-11-20T02:56:24.865403+00:00",
       "read_reason": "Bing backfill: Bing returned no verified publisher article"
+    },
+    {
+      "id": "aed61620eb8e5fe20863",
+      "title": "Avinox adds lock, rear light and phone mount to e-bike system",
+      "url": "https://www.bike-eu.com/subject/innovations-products",
+      "source_url": "https://www.bike-eu.com/subject/innovations-products",
+      "source": "Bike Europe",
+      "published_at": "2026-11-17T08:45:35+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "自行車"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Chinese e-bike system supplier Avinox has launched a rear light, a phone charging mount and a bike lock for bikes with its drive system. Amflow's UE, the brand's first urban e-bike, is the first model to carry all three. Avinox gives no retail prices.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "596e1cd451be77ca04a7",
@@ -1145,7 +1429,30 @@
       "excerpt_translation_zh": "巴芳,巴芳,巴芳,巴芳,巴芳\n隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。\n根據T3運輸智囊團的統計,德國腳踏車業的收入在2025年下降了7%,達到252億歐元,僱員人數下降了3%,約為74,300人. Canyon、保時捷、JobRad和德國破產公司",
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
       "summary_zh": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。\n\n根據T3運輸智囊團的統計,德國腳踏車業的收入在2025年下降了7%,達到252億歐元,僱員人數下降了3%,約為74,300人. Canyon,保時捷,JobRad和破產的德國Accell子公司是2026年裁員的公司之一,而製造商和協會則將部分壓力歸咎於從中國低價進口.",
-      "summary_status": "source_excerpt_translated"
+      "summary_status": "source_excerpt_translated",
+      "publisher_excerpt": "Revenue in the German bicycle industry fell 7% to EUR 25.2 billion in 2025, and the number of employees dropped 3% to around 74,300, according to the T3 Transportation Think Tank. Canyon, Porsche, JobRad and the insolvent German Accell subsidiaries are among the companies cutting jobs in 2026, while manufacturers and associations blame low-priced imports from China for part of the pressure.",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "d6c109731b80a2c5ccd7",
+      "title": "陳柏廷的航運攻防學 萬海如何在變局中搶下全球商機？",
+      "url": "https://money.udn.com/money/story/10871/9882799",
+      "source_url": "https://money.udn.com/money/story/10871/9882799",
+      "source": "經濟日報",
+      "published_at": "2026-11-16T15:48:03+00:00",
+      "discovered_at": "2026-11-21T00:13:25.518926+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "物流與航運",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "「人在跑、手在動、球也在動。」談起全球貨櫃輪市場變動，萬海航運（2615）董事長陳柏廷用球場上的瞬息變化，形容航運市場難以預測的特性。球的落點不只取決於球速，還要看場上每個人的位置與動作；海運市場也不只是船舶供給和貨運需求，地緣政治、港口政策與航線調整，都可能改變原有運輸計畫。",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "900554534392e5c3e5d5",
@@ -1232,7 +1539,9 @@
       "excerpt_translation_zh": "巴芳,巴芳,巴芳,巴芳,巴芳\n贊助\n贊助從汽車到電子腳踏車:Valeo如何推動微移動\n經過多年的爆炸性增長,歐洲電子腳踏車市場似乎已進入一個新的階段。 人們不再需要說服力 電動踏板援助, 但他們的注意力轉移到可靠性,使用方便和",
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
       "summary_zh": "贊助從汽車到電子腳踏車:Valeo如何推動微移動\n\n經過多年的爆炸性增長,歐洲電子腳踏車市場似乎已進入一個新的階段。 人們不再需要說服力電動踏板輔助,但他們的注意力轉移到了電子腳踏車的可靠性,易用性和耐久性上. 隨著Cyclee,瓦萊奧希望支援這個新的增長階段.",
-      "summary_status": "source_excerpt_translated"
+      "summary_status": "source_excerpt_translated",
+      "publisher_excerpt": "After years of explosive growth, the European market for e-bikes seems to have entered a new phase. People don’t need convincing of electric pedal assistance anymore, but their attention shifts to reliability, ease of use and durability of e-bikes. With Cyclee, Valeo wants to support that new phase of growth.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "409b5a7aa189ab060eb8",
@@ -1260,7 +1569,9 @@
       "excerpt_translation_status": "machine_translation_of_source_excerpt",
       "summary_zh": "班輪日記研究:德國電子腳踏車車主乘3.3 每週2公里,比腳踏車所有人多18%,但僅列出27%的通勤對37%。\n\n- 德國電子腳踏車所有者騎車18%,但通勤率較低:德國電子腳踏車所有者騎車3.3 每週2公里,比腳踏車所有人多18%,但僅列出27%的通勤對37%。\n\n- Lemmo在Kickstarter上為Lemmo 3型Kickstarter公司籌集了1.2mln歐元,這是一輛全懸浮長尾電子貨運機車,裝有960WH半固態電池。\n\n- 腳踏車燈從基本部件轉向OEMs管理的核心車輛結構、系統整合、貨運機車發展和安全預期正在改變現代機動專案如何評價照明。 隨著歐洲電子腳踏車和貨運腳踏車市場不斷成熟,車輛照明正在發展,超出了純粹元件層面的考慮範圍.\n\n- 贊助的 \" 2026年中國週期 \" :一個全球趨勢和機會的樞紐,藉助30年的專門知識和創新, \" 2026年中國週期 \" 已發展成為塑造 \" 兩輪汽車 \" 工業全球趨勢的關鍵樞紐。 今年的活動將跨越13個展廳,展示腳踏車、部件和相關技術的完整排隊。 升級貿易匹配會議和跨界採購服務,將進一步為參展商和全球買主提供精簡、高效的聯網機會。\n\n更多回顧,更透明:GPSR如何重塑產品安全 歐洲腳踏車業進入了歐盟制定的\"產品安全總條例\"(GPSR)的一年,最近一連串的回顧引起了這個問題,這些只是一系列孤立的質量失誤,還是GPSR更廣泛的影響的一部分?",
       "summary_status": "source_excerpt_translated",
-      "ai_summary_status": "generated_unreviewed"
+      "ai_summary_status": "generated_unreviewed",
+      "publisher_excerpt": "Linexo diary study: German e-bike owners ride 3.3 km per weekday, 18% more than bicycle owners, but name the commute in only 27% of entries vs 37%.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "0014c4abe421527ad4f9",
@@ -1892,7 +2203,9 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "55%的荷蘭腳踏車購買者計劃使用電子腳踏車",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "publisher_excerpt": "More than half of Dutch consumers who expect to buy a bicycle in the next five years plan an e-bike, according to Bike Europe research. Buyers of a new e-bike expect to spend an average of EUR 2,250.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "f1718cc3831c45cdd7d6",
@@ -1938,6 +2251,28 @@
       "editorial_source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562"
     },
     {
+      "id": "90e997b83c737a7af7cd",
+      "title": "匯率激戰！央行拉尾盤 守住33元",
+      "url": "https://udn.com/news/story/7238/9870555",
+      "source": "聯合新聞網",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "匯率與出口競爭力",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": [],
+      "source_url": "https://udn.com/news/story/7238/9870555",
+      "read_checked_at": "2026-11-20T02:58:05.866791+00:00",
+      "body_length": 797,
+      "excerpt": "匯率激戰！央行拉尾盤",
+      "ai_summary_status": "generated_unreviewed"
+    },
+    {
       "id": "9acaa92a54a3e32065fc",
       "title": "Helion 11月起供貨 台系供應鏈亮相",
       "url": "https://www.chinatimes.com/newspapers/20261111000222-260202?utm_source=iii_news&utm_medium=rss",
@@ -1970,28 +2305,6 @@
       "access_status": "not_verified",
       "discovery_source": "ITIS 每日重點新聞",
       "tags": []
-    },
-    {
-      "id": "90e997b83c737a7af7cd",
-      "title": "匯率激戰！央行拉尾盤 守住33元",
-      "url": "https://udn.com/news/story/7238/9870555",
-      "source": "聯合新聞網",
-      "published_at": "2026-11-10T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-19T13:27:37.289709+00:00",
-      "industries": [
-        "總體情勢"
-      ],
-      "region": "台灣",
-      "topic": "匯率與出口競爭力",
-      "access_status": "readable",
-      "discovery_source": "ITIS 每日重點新聞",
-      "tags": [],
-      "source_url": "https://udn.com/news/story/7238/9870555",
-      "read_checked_at": "2026-11-20T02:58:05.866791+00:00",
-      "body_length": 797,
-      "excerpt": "匯率激戰！央行拉尾盤",
-      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "3917f8d274dac1aaf8e1",
@@ -2397,7 +2710,9 @@
       "access_status": "not_verified",
       "excerpt": "",
       "title_zh": "平臺Group QQ039;s 腳踏車段損失6%的收入",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "publisher_excerpt": "Revenue in The Platform Group's (TPG) Freight Goods segment, which holds its bicycle and furniture platforms, fell 6% year-on-year in the first nine months of 2026. Group net revenue at the German e-commerce company rose 17% to EUR 622.7 million.",
+      "publisher_excerpt_source": "official_rss"
     },
     {
       "id": "be6a4218582c23ef393b",
@@ -2706,58 +3021,6 @@
       "tags": []
     }
   ],
-  "direct_source_diagnostics": [
-    {
-      "source": "Bike Europe",
-      "url": "https://cms.bike-eu.com/rss_feed/business-news",
-      "found": 50,
-      "new": 9
-    },
-    {
-      "source": "Bike Europe",
-      "url": "https://cms.bike-eu.com/rss_feed/e-bike-updates",
-      "found": 50,
-      "new": 9
-    },
-    {
-      "source": "Bike Europe",
-      "url": "https://cms.bike-eu.com/rss_feed/news-marketing",
-      "found": 50,
-      "new": 0
-    }
-  ],
-  "itis_discovery": {
-    "checked_at": "2026-11-20T00:13:29.837045+00:00",
-    "days_with_direct_links": 10,
-    "new_items": 4
-  },
   "daily_category_cap": 8,
-  "daily_selection_limit_note": "每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留",
-  "chinese_backfill_diagnostics": {
-    "attempted": 39,
-    "readable": 2,
-    "unresolved": 37,
-    "eligible_existing": 39,
-    "updated_at": "2026-11-20T02:58:21.534645+00:00",
-    "method": "Bing RSS title + official publisher hostname + article-page title + public body"
-  },
-  "direct_link_diagnostics": {
-    "checked": 40,
-    "resolved": 1,
-    "unresolved": 39,
-    "remaining_candidates": 9,
-    "checked_at": "2026-11-20T03:08:59.677078+00:00"
-  },
-  "ict_scope_filter": {
-    "note": "本批移除六篇半導體／伺服器主體、無六大產業直接關係的新聞；原始新聞仍可在 Git 歷史查閱",
-    "removed_ids": [
-      "1b7da277a8bbb93a6d0d",
-      "2ec4125dc3d6e5083d07",
-      "e06001d75713d3798f4c",
-      "9316d518e22394f2327b",
-      "8dda7b7a245a4d4b0246",
-      "141a938fff5e49d409e7"
-    ],
-    "reviewed_on": "2026-11-20"
-  }
+  "daily_selection_limit_note": "每個產業以原始發布日期計算，每日最多8則；最近14天新聞可補抓，舊日新聞在30日內保留"
 }
