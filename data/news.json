@@ -20,10 +20,17 @@
       "region": "台灣",
       "language_hint": "en",
       "topic": "國際情勢與能源",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "立法院20日三讀通過115年度中央政府總預算追加預算案，歲出追加預算6,076億餘元全數照列，其中最大宗的中油增資2,338億元也全數過關。院會另通過主決議，要求政府在2028年1月底前凍漲油價，住宅每月用電500度以下、小商家每月用電1,500度以下的電價也應維持不變。\n立法院長韓國瑜主持院會，處理追加預算案二、三讀。國民黨團、民眾黨團原先均提案刪除中油增資預算，國民黨團於表決前撤案。院會隨後就民眾黨團提案進行表決，國民黨立委未插表決卡，提案最終以8票贊成、39票反對未獲通過。\n國民黨立委洪孟楷表示，國民黨團以「捍衛國防、助民生、照顧弱勢」為原則審查預算，經與行政院、經濟部溝通後，以主決議要求政府在2028年1月31日前維持油價不",
       "publisher_excerpt": "立法院20日三讀通過115年度中央政府總預算追加預算案，歲出追加預算6,076億餘元全數照列，其中最大宗的中油增資2,338億元也全數過關。院會另通過主決議，要求政府在2028年1月底前凍漲油價，住宅每月用電500度以下、小商家每月用電1,500度以下的電價也應維持不變。 立法院長韓國瑜主持院會，處理追加預算案二、三讀。國民黨團、民眾黨團原先均提案刪除中油增資預算，國民黨團於表決前撤案。院會",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:37:47.094533+00:00",
+      "body_length": 613,
+      "title_zh": "6,076",
+      "translation_method": "argos_offline_machine_translation",
+      "summary_zh": "立法院20日三讀通過115年度中央政府總預算追加預算案，歲出追加預算6,076億餘元全數照列，其中最大宗的中油增資2,338億元也全數過關。院會另通過主決議，要求政府在2028年1月底前凍漲油價，住宅每月用電500度以下、小商家每月用電1,500度以下的電價也應維持不變。\n\n立法院長韓國瑜主持院會，處理追加預算案二、三讀。國民黨團、民眾黨團原先均提案刪除中油增資預算，國民黨團於表決前撤案。院會隨後就民眾黨團提案進行表決，國民黨立委未插表決卡，提案最終以8票贊成、39票反對未獲通過。\n\n國民黨立委洪孟楷表示，國民黨團以「捍衛國防、助民生、照顧弱勢」為原則審查預算，經與行政院、經濟部溝通後，以主決議要求政府在2028年1月31日前維持油價不高於2026年水準，並凍漲符合用電門檻的住宅及小商家電價，以減輕民眾與店家的負擔。\n\n民進黨立委范雲則表示，烏俄戰爭推升國際能源價格後，中油與台電為穩定國內物價吸收成本，影響財務結構。她指出，增資可望讓中油每年節省約42億元利息支出，也有助推動通霄至大潭第二條海底輸氣管線及台中廠三期計畫，強化天然氣供應。\n\n此次追加預算歲入828億元、歲出約6,076億元，債務舉借追加2,085億餘元，均依原列數通過。歲出除中油增資2,338億元外，另編列1,874.8億元因應中東衝突及穩定民生物價，包括補貼汽柴油、天然氣、家用液化石油氣及電價凍漲或緩漲所需經費。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "551c4871e4a2fd7c10d2",
@@ -40,8 +47,10 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-21T00:38:00.815800+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "74025a92342bf6c21f13",
@@ -58,14 +67,18 @@
       "region": "歐洲",
       "language_hint": null,
       "topic": "進出口與訂單趨勢",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-21T00:38:10.084804+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
+      "title_zh": "機器工具製造者尋求3 000克羅爾基金,以減少對進口的依賴----商業標準",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "3790e57c8c1f01b30230",
       "title": "台日工具機市場趨向分化 精密傳動與自動化設備迎新商機",
       "url": "https://www.ctimes.com.tw/工具機/26112011240F.shtml",
-      "source_url": "https://www.ctimes.com.tw/工具機/26112011240F.shtml",
+      "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/26112011240F.shtml",
       "source": "CTIMES",
       "published_at": "2026-11-20T00:00:00+00:00",
       "discovered_at": "2026-11-21T00:13:32.566549+00:00",
@@ -76,11 +89,16 @@
       "priority": "taiwan",
       "topic": "技術發展與產業轉型",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "全球製造業設備投資逐步回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件需求相對強勁的市場結構。隨著汽車、電子、半導體及精密製造產業提高自動化與加工精度要求，工具機競爭正由單機設備延伸至精密傳動、智慧控制與整線整合能力。\n根據日本工具機工業會（JMTBA）公布，2026年10月工具機訂單達2,043億日圓，年增42.5%，連續兩個月突破2,000億日圓，為歷史次高水準。其中，日本國內訂單約522億日圓，年增46.5%；海外訂單約1,521億日圓，年增41.1%，顯示國際製造業設備投資仍具動能。不過，整體訂單月減8.4%，反映短期需求仍存在波動。\n| 日本工具機訂單年增42.5%，台灣精密零組件出口展現成長韌性。",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-21T00:37:49.410406+00:00",
+      "body_length": 884,
+      "summary_zh": "全球製造業設備投資逐步回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件需求相對強勁的市場結構。隨著汽車、電子、半導體及精密製造產業提高自動化與加工精度要求，工具機競爭正由單機設備延伸至精密傳動、智慧控制與整線整合能力。\n\n根據日本工具機工業會（JMTBA）公布，2026年10月工具機訂單達2,043億日圓，年增42.5%，連續兩個月突破2,000億日圓，為歷史次高水準。其中，日本國內訂單約522億日圓，年增46.5%；海外訂單約1,521億日圓，年增41.1%，顯示國際製造業設備投資仍具動能。不過，整體訂單月減8.4%，反映短期需求仍存在波動。\n\n台灣工具機暨零組件工業同業公會（TMBA）統計，2026年前10月工具機整機出口16.59億美元，年減0.2%；關鍵零組件出口14.23億美元，年增14.5%。其中，10月工具機出口1.67億美元，年增18.49%；零組件單月出口1.58億美元，年增27.4%，成長幅度明顯高於整機。\n\n進一步觀察，台灣金屬切削工具機前10月出口13.50億美元，年減1.8%，金屬成型工具機則成長7.4%。零組件出口市場以中國、美國、日本、印度及韓國等為主，其中義大利、韓國、印度及越南需求成長較為突出，顯示台灣精密零件已逐步參與不同區域的設備製造供應鏈。\n\n技術發展方面，高階工具機正朝五軸加工、複合加工、智慧補償及自動化生產演進。滾珠螺",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "6fed3ff7c83de5fc9cfc",
@@ -99,8 +117,8 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:27.630596+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:20.079439+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "伊朗戰爭可能使消費者面臨多年的能源成本不確定性-KATU",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -119,8 +137,12 @@
       "region": "北美",
       "language_hint": null,
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-21T00:38:13.503659+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
+      "title_zh": "更多選民指責特朗普提高生活成本的關稅,",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "187f8352370e60368267",
@@ -139,8 +161,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:03.555395+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:10.625719+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "波士頓動力公司推出下一代伸展機器人 具有重大可靠性升級 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -185,8 +207,8 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:12.046954+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:14.010035+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "為什麼關稅不能把工廠帶回美國——哈佛商業評論",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -207,8 +229,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:12.768591+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:14.611855+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "德國腳踏車工業損失了20億歐元的收入和2 400個就業崗位作為後流行貧民窟的延續-多多山腳踏車",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -229,8 +251,8 @@
       "topic": "供應鏈與原物料",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:13.520954+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:15.211766+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "為其計劃中的美國無人機生產,J-Star旨在從美國供應商那裡源出所有特有材料. - 泰坦魚",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -249,13 +271,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "技術發展與產業轉型",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T00:35:48.736910+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "東南亞製造業持續朝電動車、汽車零組件、電子製造及精密加工發展，帶動高效率工具機與自動化設備需求。台灣工具機大廠台中精機參加11月18~21日在泰國曼谷舉行的METALEX",
+      "read_checked_at": "2026-11-21T00:37:49.754924+00:00",
       "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0/%E5%8F%B0%E4%B8%AD%E7%B2%BE%E6%A9%9F/%E8%87%AA%E5%8B%95%E5%8C%96%E8%A8%AD%E5%82%99/2611191115XC.shtml",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0/%E5%8F%B0%E4%B8%AD%E7%B2%BE%E6%A9%9F/%E8%87%AA%E5%8B%95%E5%8C%96%E8%A8%AD%E5%82%99/2611191115XC.shtml"
+      "editorial_source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0/%E5%8F%B0%E4%B8%AD%E7%B2%BE%E6%A9%9F/%E8%87%AA%E5%8B%95%E5%8C%96%E8%A8%AD%E5%82%99/2611191115XC.shtml",
+      "body_length": 770,
+      "summary_zh": "東南亞製造業持續朝電動車、汽車零組件、電子製造及精密加工發展，帶動高效率工具機與自動化設備需求。台灣工具機大廠台中精機參加11月18~21日在泰國曼谷舉行的METALEX 2026國際金屬加工展，展示CNC車床、立式加工中心及伺服驅動射出成型機，積極拓展東南亞智慧製造市場。\n\n此次展出聚焦加工效率、設備自動化與節能技術。其中，Vturn-NP16臥式CNC車床可整合機械手臂及自動上下料系統，支援無人化加工；Vcenter-F76立式加工中心配置最高8,000rpm主軸，滿足金屬零件精密加工需求。Ve-180伺服驅動射出成型機則透過製程參數最佳化及節能控制，回應製造業降低能耗與生產成本的需求。\n\n在整線應用方面，台中精機也推動鋁圈智慧加工方案，結合CNC設備、機械手臂、機器視覺檢測及生產管理系統，將單機加工延伸至自動化製程整合。此類系統可減少人工搬運與重複操作，並透過加工與檢測資料串接，提高生產流程的可追溯性。\n\n台中精機近年持續推進智慧工廠建置，其台中廠導入自動倉儲與物流管理，設置9,604個儲位，管理超過155種零件，支援四條加工產線，展現由設備製造商朝智慧製造系統整合商轉型的方向。\n\n從市場結構觀察，東南亞汽車、機車、電動車及電子供應鏈擴張，正增加高精度加工、彈性生產及自動化設備需求。因此，台灣工具機產業除了整機銷售，主軸、滾珠螺桿、線性滑軌、伺服控制器、刀具及自動上下料模組，",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "4dd3f426126d31d010c1",
@@ -272,13 +296,16 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:01.802047+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article",
+      "access_status": "readable",
+      "excerpt": "本文共580字\n海巡署採購12架美國國防科技公司Shield",
+      "read_checked_at": "2026-11-21T00:37:50.682306+00:00",
       "source_url": "https://money.udn.com/money/story/7307/9889731",
       "original_url_status": "publisher_link_verified",
-      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20",
+      "body_length": 633,
+      "summary_zh": "海巡署採購12架美國國防科技公司Shield AI生產的V-BAT軍用垂直起降無人機，日前在屏東恆春機場升空驗測。軍方人士指出，相關驗測是民航局針對V-BAT實施適航驗證，海軍也派人到現場觀察。\n\nV-BAT連日在屏東恆春機場進行地面測試與試飛。軍方人士說，每個國家對軍用無人機的適航規定不同，美國與我制度就不相同，美製無人機在我國要升空在各空域執勤，必須有美國政府機關出具適航證明，若無證明即須由我民航局檢測其適飛性。\n\n官員說，美援給海巡署的JUMP20無人機，曾由美國空軍出具適航證明，在我國適用形式驗證，V-BAT無人機則需要實測，甚至要抽檢拆驗零件。民航局正依權責驗證中。\n\n官員表示，海巡署採購12架V-BAT由漢翔公司得標，履約應無問題。當初Shield AI同意按民航局規定實施驗證，因此在恆春實施飛行並拆檢零件，要驗證過才能飛行。海軍也派人隨行。海軍規劃以350億元預算採購280架V-BAT，海巡署在陸、艦兩用測試間，海軍都會派人隨行觀察。\n\n對於海巡V-BAT無人機部署規劃，國安官員說，台灣北、南都要有，但是否與現有數架JUMP20無人機合併，則還在考量。基地都在港內，有任務就隨艦出航。\n\n海巡署也表示，近日新交艦的西拉雅號高緯度遠洋巡護船，未來將整合無人機及無人艇等智慧載具，作為艦隊分署無人載具測試母艦，經驗延續未來新維權艦造艦案，擴展海空偵蒐範圍。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "fc25d8936d2a6e7a8521",
@@ -297,8 +324,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:04.276621+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:11.198843+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "ARX 機器人名稱 空中客車 退伍軍人 Mirko Reuter 作為新CTO - DroneXL",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -319,8 +346,8 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:14.252165+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:15.783188+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Makera為 A1S 桌面 CNC 開啟全球預發指令,將金屬切入 Maker 的會席 - PR Newswire UK",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -339,8 +366,12 @@
       "region": "北美",
       "language_hint": null,
       "topic": "國際情勢與能源",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-21T00:38:16.315455+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
+      "title_zh": "特朗普貿易戰的法案即將出臺 — — 國內外—財富",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "840c3f2722df88be2292",
@@ -359,8 +390,8 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:28.495334+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:20.627118+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "石油價格比貿易商高 中東航運風險 - WSJ",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -381,8 +412,8 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:21.920786+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:01.302729+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "f18f8336e5ac73dd295c",
@@ -401,8 +432,8 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:29.301803+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:21.156305+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "中東衝突引發有史以來全球石油貿易的最大破壞,",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -453,11 +484,11 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "Hanwha demonstrates counter-drone and GRUNT robotic systems’ integration with Romanian military networks in exercise Defence Industry Europe",
-      "read_checked_at": "2026-11-20T00:36:05.991919+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:11.745403+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的整合 -- -- 歐洲國防工業",
       "translation_method": "argos_offline_machine_translation",
-      "excerpt_translation_zh": "Hanwha演示反龍和GRUNT機器人系統與羅馬尼亞軍事網路的融合,以進行歐洲國防工業",
+      "excerpt_translation_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的融合,以進行歐洲國防工業演習",
       "excerpt_translation_status": "machine_translation_of_source_excerpt"
     },
     {
@@ -477,8 +508,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:14.870103+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:16.828848+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "無人機通訊方面的PDW & Sine工程合夥人-無人機系統技術",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -499,8 +530,8 @@
       "topic": "市場需求與景氣",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:15.533478+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:17.374662+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "O'Reilly Wants to Buy NAP Auto Parts, Create An An Aftermarket Giant - Motor1.com 網際網路檔案館的存檔,存檔日期2013-12-22. 網際網路檔案館的存檔,存檔日期2013-12-21. 網際網路檔案館的存檔,存檔日期2013-12-22. .",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -521,8 +552,8 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:31.727632+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:21.659635+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "隨著中東航運攻擊逆向供應盈餘的前景而油價上升-路透社",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -568,8 +599,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:05.476786+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:01.789569+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "b54ff84f0c3efa338037",
@@ -586,11 +617,16 @@
       "priority": "taiwan",
       "topic": "技術發展與產業轉型",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "全球半導體先進製程、先進封裝及高階IC載板持續擴產，帶動精密加工、自動化搬送與製程設備需求，也為台灣工具機及機械零組件產業創造跨域轉型機會。包括東台、上銀等精密機械業者，近年積極布局半導體相關設備與次系統，從傳統金屬加工延伸至高精度製程及自動化應用，反映台灣機械產業正尋求新的技術成長市場。\n半導體製造與一般機械加工的差異，在於設備不僅必須具備高定位精度與穩定性，更須滿足潔淨度、低振動、溫度控制及長時間連續運轉等要求。尤其先進封裝朝多晶粒整合、微細線路與高密度互連發展，對精密運動控制、材料搬送、量測檢測及製程整合能力的需求持續提高。\n| 半導體製程升級帶動設備需求，台灣精密機械加速跨域布局。 |",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-21T00:37:51.029404+00:00",
+      "body_length": 881,
+      "summary_zh": "全球半導體先進製程、先進封裝及高階IC載板持續擴產，帶動精密加工、自動化搬送與製程設備需求，也為台灣工具機及機械零組件產業創造跨域轉型機會。包括東台、上銀等精密機械業者，近年積極布局半導體相關設備與次系統，從傳統金屬加工延伸至高精度製程及自動化應用，反映台灣機械產業正尋求新的技術成長市場。\n\n半導體製造與一般機械加工的差異，在於設備不僅必須具備高定位精度與穩定性，更須滿足潔淨度、低振動、溫度控制及長時間連續運轉等要求。尤其先進封裝朝多晶粒整合、微細線路與高密度互連發展，對精密運動控制、材料搬送、量測檢測及製程整合能力的需求持續提高。\n\n東台機械於2026年10月在TPCA Show展示獨立軸CCD高精度鑽孔設備，結合影像辨識與定位技術，因應高階PCB及IC載板的精密鑽孔需求。其無人化鑽孔工作站進一步整合自動上下料、刀具管理、板材搬送與自主移動機器人（AMR）物流調度，將單一加工設備延伸為連續運作的自動化製程系統。\n\n此項技術布局凸顯工具機產業的轉型方向。傳統CNC設備以加工精度、主軸性能及生產效率為核心，半導體相關設備則更加重視製程穩定性、設備間協同及資料整合。透過機器視覺、精密傳動、伺服控制與自動化物流技術，機械業者可由單機供應商逐步轉向製程設備及系統整合服務。\n\n對台灣零組件供應鏈而言，滾珠螺桿、線性滑軌、精密軸承、運動控制器、工業感測器及高精度加工件，均有機會延伸至半導體設備",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "ee557ed1947534c85382",
@@ -609,8 +645,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "Kawasaki Robotics launches F Series S-type controller with integrated safety and cybersecurity Robotics & Automation News",
-      "read_checked_at": "2026-11-20T00:36:06.753270+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:22.804369+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "川崎機器人發射 F 系列 S 型控制器與綜合安全與網路安全 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "川崎機器人發射 F系列 S型控制器 整合安全和網路安全 機器人與自動化新聞",
@@ -633,8 +669,8 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "Einride reports 76 percent growth in contracted revenue as autonomous freight operations expand Robotics & Automation News",
-      "read_checked_at": "2026-11-20T00:36:07.451070+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:23.334805+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Einride報告說,隨著自主貨運業務的擴大,合同收入增長了76% -- -- 機器人和自動化新聞",
       "translation_method": "argos_offline_machine_translation",
       "excerpt_translation_zh": "Einride報道,由於自主貨運業務擴充套件了機器人和自動化新聞,合同收入增長76%",
@@ -655,8 +691,8 @@
       "title_zh": "DRiV 與 XGM 成立合資公司，擴充北美汽車售後市場的自有品牌車輛懸吊控制產品",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-20T00:36:16.223764+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:17.913181+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "tags": []
     },
     {
@@ -676,8 +712,8 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:16.907087+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:18.438298+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "關稅回收方案將產生非常不同的價格影響-稅收政策中心",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -696,8 +732,8 @@
       "title_zh": "從資本市場寵兒到四年內破產重整：這家自行車企業出了什麼問題？",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-20T00:36:08.328135+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:23.879298+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "tags": []
     },
     {
@@ -757,8 +793,8 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:29.443233+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:02.291609+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "afbaa0f854c7ad15e9e7",
@@ -777,8 +813,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:09.148665+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:02.785964+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "036a91dfb47cffb2294a",
@@ -797,8 +833,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:13.067555+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:03.269134+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "8760a29286c5f12174ae",
@@ -815,13 +851,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T00:35:54.305459+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "隨著機器人應用越來越廣泛，市場消息傳出，三星、SK 海力士與美光正攜手制定半導體晶圓廠行動機器人的共同充電標準。三間公司已經組成初步協商小組，負責推動標準化工作，包括 SEMI 等主要產業組織也參與其中。\n根據韓媒《首爾經濟日報》（Seoul Economic",
+      "read_checked_at": "2026-11-21T00:37:51.391704+00:00",
       "source_url": "https://technews.tw/2026/11/18/samsung-sk-hynix-micron-robot-charging-standard/",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://technews.tw/2026/11/18/samsung-sk-hynix-micron-robot-charging-standard/"
+      "editorial_source_url": "https://technews.tw/2026/11/18/samsung-sk-hynix-micron-robot-charging-standard/",
+      "body_length": 1056,
+      "summary_zh": "隨著機器人應用越來越廣泛，市場消息傳出，三星、SK 海力士與美光正攜手制定半導體晶圓廠行動機器人的共同充電標準。三間公司已經組成初步協商小組，負責推動標準化工作，包括 SEMI 等主要產業組織也參與其中。\n\n根據韓媒《首爾經濟日報》（Seoul Economic Daily）報導，三大記憶體廠已組成協商小組，盼統一目前分歧的規格與操作方式，降低維護負擔，避免受制於單一供應商。\n\n據報導，這項計畫旨在統一過去因機器人製造商不同而有所差異的電池規格及充電站運作方式，透過制定共同的技術規格，讓不同製造商生產的機器人共用充電設備，降低半導體製造廠大規模部署機器人時的成本與複雜度，長期進一步提升機器人與製造營運系統之間的相容性。\n\n報導指出，三星電子、SK 海力士與美光正推動半導體晶圓廠移動式機器人的充電標準化計畫。三家公司已由實務工作人員組成初步協商小組，SEMI 等主要產業協會也參與這項標準化工作。\n\n目前研議納入標準化的項目，包括各類移動式機器人的電池規格、機器人充電站的通訊方式與設備、充電器連接零組件，以及電池管理系統（BMS）。隨著晶片製造商尋求推動既有廠房自動化，正評估導入人形機器人、自主移動機器人（AMR）及移動式操作機器人（Mobile Manipulator）。\n\n這類機器人不像固定式設備，而是能在廠區內自由移動並執行各項任務，由於機身內建電池，必須前往獨立設置的充電站進行",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "6d61b9eecdc50a93b24a",
@@ -840,8 +878,8 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:22.179724+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:24.438990+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "評論:特朗普的進口關稅政策失敗 通貨膨脹增加-拉斯維加斯評論-雜誌",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -862,8 +900,8 @@
       "topic": "供應鏈與原物料",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:17.092544+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:03.763895+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "3d619f013bff7b82e011",
@@ -882,14 +920,14 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:56:20.966337+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:04.242410+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "553334688ab921b58017",
       "title": "日本工具機訂單年增42.5% 精密零組件與高階設備迎新商機",
       "url": "https://www.ctimes.com.tw/工具機/261118113140.shtml",
-      "source_url": "https://www.ctimes.com.tw/工具機/261118113140.shtml",
+      "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/261118113140.shtml",
       "source": "CTIMES",
       "published_at": "2026-11-18T00:00:00+00:00",
       "discovered_at": "2026-11-21T00:13:32.566549+00:00",
@@ -900,11 +938,16 @@
       "priority": "taiwan",
       "topic": "進出口與訂單趨勢",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "全球製造業設備投資需求回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件持續擴張的不同發展態勢。隨著半導體、航太、汽車及自動化產業提高精密加工需求，工具機市場競爭正由設備價格延伸至控制技術、加工精度與系統整合能力。\n日本工具機工業會（JMTBA）公布2026年10月訂單金額達2,043億日圓，年增42.5%，連續兩個月突破2,000億日圓，創歷史次高紀錄。其中，日本國內訂單約522億日圓，年增46.5%；海外訂單約1,521億日圓，反映國際製造設備需求仍具支撐力。不過，整體訂單月減8.4%，顯示市場成長仍存在短期波動。\n| 台日工具機景氣呈現分化，台灣零組件出口成長凸顯產業轉型。 |",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-21T00:37:51.734452+00:00",
+      "body_length": 889,
+      "summary_zh": "全球製造業設備投資需求回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件持續擴張的不同發展態勢。隨著半導體、航太、汽車及自動化產業提高精密加工需求，工具機市場競爭正由設備價格延伸至控制技術、加工精度與系統整合能力。\n\n日本工具機工業會（JMTBA）公布2026年10月訂單金額達2,043億日圓，年增42.5%，連續兩個月突破2,000億日圓，創歷史次高紀錄。其中，日本國內訂單約522億日圓，年增46.5%；海外訂單約1,521億日圓，反映國際製造設備需求仍具支撐力。不過，整體訂單月減8.4%，顯示市場成長仍存在短期波動。\n\n根據台灣工具機暨零組件工業同業公會（TMBA）統計，2026年前10月工具機整機出口16.59億美元，年減0.2%；關鍵零組件出口14.23億美元，年增14.5%。單看10月，工具機出口1.67億美元，年增18.49%，顯示短期出貨已有改善，但累計表現仍未全面回升。\n\n進一步觀察，台灣金屬切削工具機前10月出口13.50億美元，年減1.8%，金屬成型工具機則成長7.4%。整機與零組件出口表現分化，反映台灣業者除整機製造外，也逐步透過精密傳動、控制系統及機械零組件參與國際設備供應鏈。\n\n隨著高階製造朝複合加工、五軸加工及自動化產線發展，工具機競爭重點已不只是加工速度，更包括熱變位補償、定位精度、主軸穩定性與設備稼動率。滾珠螺桿、線性滑軌、伺服驅動",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "64cf531308279d665aa8",
@@ -921,11 +964,20 @@
       "priority": "international",
       "topic": "產業動態",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "MEMA announced participants for the ‘Real-World View of the Aftermarket’ panel, which will take place January 18, during Heavy Duty Aftermarket Dialogue 2027 at the Gaylord Texan Resort & Convention Center in Grapevine, TX.\nThe Panel is Comprised of:\n- Puneet Cheema, President, TSE Brakes, MEMA Heavy Duty Business",
       "publisher_excerpt": "Three industry executives will discuss how commercial vehicle aftermarket suppliers are navigating today’s biggest challenges while positioning their businesses for what’s next. November 18, 2026",
       "publisher_excerpt_source": "publisher_news_listing",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-21T00:38:12.400192+00:00",
+      "body_length": 961,
+      "title_zh": "HDAD 2027 面板:市場的真實世界檢視",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "MEMA宣佈參加將於1月18日在TXGaylord Texan度假村和Grapevine會議中心舉行的 \" 事後市場真實世界觀 \" 小組。\n小組由以下人員組成:\n- Puneed Cheema,TeSE Brakes總裁,MEMA重職業務",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "MEMA宣佈參加將於1月18日在TXGaylord Texan度假村和Grapevine會議中心舉行的 \" 事後市場真實世界觀 \" 小組。\n\n- Punet Cheema,TESE Brakes總裁,MEMA重型商業論壇成員\n\n- 丹·格里芬(Dan Griffin),富餘市場解決方案總裁,PHINIA,MEMA富餘市場供應商\n\n- DJ Kimsey,北美車輛市場總裁,SKF集團,MEMA市場供應商\n\n他們將討論商業車輛的後銷供應商如何應對當今最大的挑戰,\n\nMEMA說,從市場動態轉向不斷變化的客戶期望,CV後市場供應商不乏挑戰。 行業執行小組將分享其組織如何應對、適應和準備前進的道路。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "562716e9d8f9f403334e",
@@ -942,11 +994,20 @@
       "priority": "international",
       "topic": "產業動態",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "AftermarketNews asked executives from leading manufacturers/suppliers about how their companies are using artificial intelligence, what problems they hope to solve and how they see AI impacting their business in the coming years. It is our pleasure to share their insights and, today, we hear from Charles Harris, Vice",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-21T00:38:12.917934+00:00",
+      "body_length": 3556,
+      "title_zh": "AI & the Aftermarket: NTN 美國控股公司查爾斯·哈里斯",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "AftermarketNews向主要廠商/供應商的主管們詢問了他們的公司如何使用人工智慧,他們希望解決什麼問題,以及他們如何看待AI在未來幾年影響他們的業務. 我們高興地分享他們的見解,今天,我們聽到查爾斯·哈里斯的發言。",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "AftermarketNews向主要廠商/供應商的主管們詢問了他們的公司如何使用人工智慧,他們希望解決什麼問題,以及他們如何看待AI在未來幾年影響他們的業務. 我們很高興分享他們的見解,今天,我們聽到美國NTN Bearing公司副總裁查爾斯·哈里斯的演講。\n\n你們公司目前如何使用人工智慧?\n\n在NTN,我們正在將AI應用到企業的多領域,我們的企業創新團隊與資訊科技和職能領導一起工作,尋找提高效率和決策的機會。 AI工具幫助員工精簡檔案建立,資料分析,研究和資訊管理等任務.\n\n在全球NTN集團中,AI也被用於製造和工程. 我們正在整合AI驅動的視察技術,以加強生產環境中的質量核查和一致性。 在汽車工程中,NTN在其輪心中心承載開發過程中實施了機器學習技術,使工程師能夠顯著地更快地評價設計並更高效地確定最佳解決方案. 透過將工程模擬與AI驅動最佳化相結合,我們可以在保持客戶期望的質量和可靠性的同時加快產品開發.\n\n你希望透過AI解決哪些具體的商業挑戰?",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "7a91502036102a99dca1",
@@ -967,8 +1028,8 @@
       "excerpt": "",
       "title_zh": "整個系列的汽車零件廠商的重新理解 將模型和未來s整合起來? - M&A Online",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-20T00:36:26.085710+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
+      "read_checked_at": "2026-11-21T00:38:18.899278+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "35c48dfb14413ab23efa",
@@ -987,8 +1048,8 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:32.704360+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:22.185152+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "石油價格隨海灣襲擊而波動 -- -- Rigzone",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -1009,8 +1070,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:09.031020+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:24.951094+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "會議報告:處於機器人革命邊緣的建築業-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -1031,8 +1092,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:09.721883+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:25.475963+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "會議報告:建築業準備實現機器人突破-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -1045,17 +1106,24 @@
       "published_at": "2026-11-17T18:23:26+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "總體情勢"
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "台灣",
       "language_hint": "en",
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "本文共688字\n路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。\n歐盟執委會16日公告，17日起將對來自日本製鐵與JFE鋼鐵等日本生產商的冷軋扁鋼產品，課徵27.9%的反傾銷關稅；台灣中鋼與中鴻鋼鐵（2014）等合作的台灣生產商遭課20.7%，未配合調查的其他業者則遭課27%。\n歐盟也對浦項鋼鐵等越南業者，課徵16%反傾銷關稅；印度JSW、塔塔等鋼鐵業者的稅率是9.5%；土耳其鋼鐵生產商的稅率介於3%-7.8%。\n在通常情況下，反傾銷稅是透過比較生產商的國內市場售價、與較低的出口價格計算",
       "publisher_excerpt": "路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:37:52.291739+00:00",
+      "body_length": 714,
+      "title_zh": "=======================================================================================================================================================================================",
+      "translation_method": "argos_offline_machine_translation",
+      "summary_zh": "路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。\n\n歐盟執委會16日公告，17日起將對來自日本製鐵與JFE鋼鐵等日本生產商的冷軋扁鋼產品，課徵27.9%的反傾銷關稅；台灣中鋼與中鴻鋼鐵（2014）等合作的台灣生產商遭課20.7%，未配合調查的其他業者則遭課27%。\n\n歐盟也對浦項鋼鐵等越南業者，課徵16%反傾銷關稅；印度JSW、塔塔等鋼鐵業者的稅率是9.5%；土耳其鋼鐵生產商的稅率介於3%-7.8%。\n\n在通常情況下，反傾銷稅是透過比較生產商的國內市場售價、與較低的出口價格計算，但這只適用於被認定為正常運作的市場。\n\n台灣是因低價的中國大陸鋼品進口增加，大幅壓低當地價格，因此針對這兩地的國內鋼品售價進行調整，這也是歐盟首度在反傾銷調查中，把中國大陸過剩產能對第三方市場的影響納入評估。\n\n印度則是國內價格受到政府影響鐵礦砂成本的措施所扭曲。針對中國大陸，歐盟並未採用其國內價格，而是根據其他地區的投入成本，推算「正常」價值。\n\n2025年提訴的歐洲鋼鐵工業聯盟（Eurofer）表示，不公平定價的進口產品正威脅歐洲的生產與就業，課徵這些關稅，是恢復公平競爭的必要舉措。\n\n歐盟冷軋扁鋼產品市場價值232億歐元（約新台幣8,386億元），去年自全",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "436574530ebeed8e6918",
@@ -1066,17 +1134,24 @@
       "published_at": "2026-11-17T18:22:27+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "總體情勢"
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "台灣",
       "language_hint": "en",
       "topic": "政策與貿易措施",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "本文共446字\n                            經濟日報 記者吳秉鍇／高雄報導\n                       ",
       "publisher_excerpt": "針對歐盟對以中鋼為主的台灣冷軋扁鋼進口產品課徵反傾銷關稅，中鋼表示，將採「多元去化」策略降低影響，轉向包括南韓、中美洲的巴西、阿根廷，以及非洲等地積極開發新客源。",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:37:52.831198+00:00",
+      "body_length": 567,
+      "title_zh": "校對:Soup",
+      "translation_method": "argos_offline_machine_translation",
+      "summary_zh": "針對歐盟對以中鋼（2002）為主的台灣冷軋扁鋼進口產品課徵反傾銷關稅，中鋼表示，將採「多元去化」策略降低影響，轉向包括南韓、中美洲的巴西、阿根廷，以及非洲等地積極開發新客源。\n\n中鋼指出，依歐盟宣布內容，此次對台灣、印度、日本、土耳其和越南進口的特定冷軋扁鋼產品課徵反傾銷稅，台灣以中鋼集團為主，開徵對象涵蓋中鋼、中龍和中鴻（2014），稅率為20.7%；其中，在一年10萬公噸配額內課徵20.7%，超出的數量以50%課徵。\n\n若以歐盟目前的冷軋扁鋼行情每公噸約800多美元、台灣行情每公噸約500多美元估算，被課20.7%稅率仍有獲利空間，惟若課徵50%將被阻擋在外，必須開發新市場。\n\n依據中鋼內部評估，該集團現行冷軋扁鋼產品出口除銷往歐盟外，同時銷往東北亞的日本、以及東南亞的越南、泰國、印尼和馬來西亞等國家，正分散市場去化產能。\n\n首先南韓方面，因當地政府對大陸開徵反傾銷稅措施，市場供應出現缺口，將可藉此填補需求；其次中南美洲方面，有汽車廠的巴西和阿根廷也對鋼品有需求。非洲也是另一新開發區塊市場。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "827b1cf36512e7e1b15a",
@@ -1164,8 +1239,8 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:33.081928+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:26.046720+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "6489a92918d9cf1b426e",
@@ -1184,8 +1259,8 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:22.949839+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:26.555105+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "波士頓動態公司 阿特拉斯人造陸生第一次非自體試驗——機器人報告",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -1206,8 +1281,8 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T02:57:36.855154+00:00",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article"
+      "read_checked_at": "2026-11-21T00:38:27.024077+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "a1728520d5eaa35fc01d",
@@ -1246,17 +1321,27 @@
       "published_at": "2026-11-17T12:48:51+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "自行車"
+        "自行車",
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Bafang\nAmflow enters urban e-bike market with in-house automatic hub\nAmflow is moving into the urban e-bike segment with the UE (Urban & Easy), priced from EUR 3,099. The top version, the UE Carbon Pro, combines the Avinox drive system with an electronic three-speed automatic hub that Amflow developed and builds",
       "publisher_excerpt": "Amflow is moving into the urban e-bike segment with the UE (Urban & Easy), priced from EUR 3,099. The top version, the UE Carbon Pro, combines the Avinox drive system with an electronic three-speed automatic hub that Amflow developed and builds itself. It goes on sale worldwide on 17 November 2026 for EUR 3,499.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:38:05.405431+00:00",
+      "body_length": 382,
+      "title_zh": "Amflow透過內部自動樞紐進入城市電子腳踏車市場",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "巴芳,巴芳,你好嗎?\nAmflow透過內部自動樞紐進入城市電子腳踏車市場\nAmflow正與UE(Urban & Easy)一起進入城市電子腳踏車段,價格為3,099歐元. 頂部版本\"UE Conform Pro\"將Avinox驅動系統與Amflow所開發並建設的電子三速自動中樞結合.",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "Amflow透過內部自動樞紐進入城市電子腳踏車市場\n\nAmflow正與UE(Urban & Easy)一起進入城市電子腳踏車段,價格為3,099歐元. 頂部版本為UE Carbon Pro,將Avinox驅動系統與Amflow開發並自建的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "d5ca13b3a284c7158d78",
@@ -1275,8 +1360,8 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:10.879665+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "read_checked_at": "2026-11-21T00:38:27.570891+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "企鵝隨機 豪斯雙人書與Locus Robotics - Robotics & Automation News 共選生產力",
       "translation_method": "argos_offline_machine_translation"
     },
@@ -1309,17 +1394,27 @@
       "published_at": "2026-11-17T08:45:35+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "自行車"
+        "自行車",
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Bafang\nALSO pauses e-bike deliveries to fix software issues\nRivian spin-off ALSO has paused TM-B e-bike deliveries to fix software issues, including charging problems. Shipments should resume in about two weeks.\n- ALSO pauses e-bike deliveries to fix software issues Rivian spin-off ALSO has paused TM-B e-bike",
       "publisher_excerpt": "Chinese e-bike system supplier Avinox has launched a rear light, a phone charging mount and a bike lock for bikes with its drive system. Amflow's UE, the brand's first urban e-bike, is the first model to carry all three. Avinox gives no retail prices.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:38:05.944349+00:00",
+      "body_length": 2166,
+      "title_zh": "Avinox 在e-bike系統中增加了鎖、後光和電話掛載",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "巴芳,巴芳,你好嗎?\n也暫停電子電車的交付以解決軟體問題\nRivian spin-off又暫停了TM-B電子電動的交付,以解決軟體問題,包括充電問題。 大約兩週後應恢復運輸。\n- 也暫停電子電機的交付 解決軟體問題 裡維安的附帶利益 也暫停TM-B電子電機",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "Rivian spin-off又暫停了TM-B電子電動的交付,以解決軟體問題,包括充電問題。 大約兩週後應恢復運輸。\n\n- 同時暫停電子電機交付,以解決軟體問題 Rivian spin-off 同時暫停TM-B電子電機的交付,以解決軟體問題,包括充電問題。 大約兩週後應恢復運輸。\n\n- Amflow進入城市電子腳踏車市場,內部自動樞紐 Amflow正與UE(城市和易)一起進入城市電子腳踏車部分,價格為3,099歐元。 頂部版本為UE Carbon Pro,將Avinox驅動系統與Amflow開發並自建的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.\n\n- Avinox在e-bike系統上新增了鎖,後光和電話掛載,中國e-bike系統供應商Avinox推出了後光,電話充電掛載和機車及其驅動系統的腳踏車鎖. Amflow's UE,該品牌的首個城市電子腳踏車,是首個搭載全部三臺的車型. 阿維諾克斯不給零售價格.\n\n- KYB進入歐洲MTB後市場,由160毫米倒轉的線圈叉日本吊車製造商KYB進入山地機車市場,由160毫米倒轉的懸浮叉為山地機車和e-MTB. 分叉從2026年11月起在歐洲繼續發售. 開元 歐洲也正在為此建立一個分銷和服務網路。\n\n- 贊助的飛毛腿國家增加歐洲在波蘭設施的存在 SCUDPower擁有近30年的定製電池包開發和製造經驗,正在加強其對歐洲電子腳踏車和微移動製造商的承諾。 波蘭計劃中的合資企業發展和生產設施標誌著朝著客戶更緊密地協作和加強當地存在邁出了下一步。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "596e1cd451be77ca04a7",
@@ -1422,7 +1517,7 @@
       "topic": "產業動態",
       "access_status": "readable",
       "excerpt": "Bafang\nGerman bike industry cuts jobs as 2025 revenue falls 7% to EUR 25.2bn\nRevenue in the German bicycle industry fell 7% to EUR 25.2 billion in 2025, and the number of employees dropped 3% to around 74,300, according to the T3 Transportation Think Tank. Canyon, Porsche, JobRad and the insolvent German Accell",
-      "read_checked_at": "2026-11-20T00:36:33.133738+00:00",
+      "read_checked_at": "2026-11-21T00:38:09.181929+00:00",
       "body_length": 470,
       "title_zh": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。",
       "translation_method": "argos_offline_machine_translation",
@@ -1431,7 +1526,8 @@
       "summary_zh": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。\n\n根據T3運輸智囊團的統計,德國腳踏車業的收入在2025年下降了7%,達到252億歐元,僱員人數下降了3%,約為74,300人. Canyon,保時捷,JobRad和破產的德國Accell子公司是2026年裁員的公司之一,而製造商和協會則將部分壓力歸咎於從中國低價進口.",
       "summary_status": "source_excerpt_translated",
       "publisher_excerpt": "Revenue in the German bicycle industry fell 7% to EUR 25.2 billion in 2025, and the number of employees dropped 3% to around 74,300, according to the T3 Transportation Think Tank. Canyon, Porsche, JobRad and the insolvent German Accell subsidiaries are among the companies cutting jobs in 2026, while manufacturers and associations blame low-priced imports from China for part of the pressure.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "d6c109731b80a2c5ccd7",
@@ -1442,17 +1538,22 @@
       "published_at": "2026-11-16T15:48:03+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "總體情勢"
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "台灣",
       "language_hint": "en",
       "topic": "物流與航運",
-      "access_status": "not_verified",
+      "access_status": "insufficient_text",
       "excerpt": "",
       "publisher_excerpt": "「人在跑、手在動、球也在動。」談起全球貨櫃輪市場變動，萬海航運（2615）董事長陳柏廷用球場上的瞬息變化，形容航運市場難以預測的特性。球的落點不只取決於球速，還要看場上每個人的位置與動作；海運市場也不只是船舶供給和貨運需求，地緣政治、港口政策與航線調整，都可能改變原有運輸計畫。",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:37:53.429447+00:00",
+      "read_reason": "Page retrieved but substantial article body not extracted",
+      "title_zh": "陳柏廷的航運攻防學?",
+      "translation_method": "argos_offline_machine_translation",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "900554534392e5c3e5d5",
@@ -1523,7 +1624,8 @@
       "published_at": "2026-11-16T08:00:00+00:00",
       "discovered_at": "2026-11-20T00:13:25.834001+00:00",
       "industries": [
-        "自行車"
+        "自行車",
+        "汽配"
       ],
       "tags": [],
       "priority": "international",
@@ -1532,7 +1634,7 @@
       "topic": "產業動態",
       "access_status": "readable",
       "excerpt": "Bafang\nSponsored\nSponsored From automotive to e-bikes: how Valeo powers micromobility\nAfter years of explosive growth, the European market for e-bikes seems to have entered a new phase. People don't need convincing of electric pedal assistance anymore, but their attention shifts to reliability, ease of use and",
-      "read_checked_at": "2026-11-20T00:36:33.564887+00:00",
+      "read_checked_at": "2026-11-21T00:38:09.576803+00:00",
       "body_length": 396,
       "title_zh": "從汽車到電子腳踏車:瓦萊奧如何帶動微移動",
       "translation_method": "argos_offline_machine_translation",
@@ -1541,7 +1643,8 @@
       "summary_zh": "贊助從汽車到電子腳踏車:Valeo如何推動微移動\n\n經過多年的爆炸性增長,歐洲電子腳踏車市場似乎已進入一個新的階段。 人們不再需要說服力電動踏板輔助,但他們的注意力轉移到了電子腳踏車的可靠性,易用性和耐久性上. 隨著Cyclee,瓦萊奧希望支援這個新的增長階段.",
       "summary_status": "source_excerpt_translated",
       "publisher_excerpt": "After years of explosive growth, the European market for e-bikes seems to have entered a new phase. People don’t need convincing of electric pedal assistance anymore, but their attention shifts to reliability, ease of use and durability of e-bikes. With Cyclee, Valeo wants to support that new phase of growth.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "409b5a7aa189ab060eb8",
@@ -1588,13 +1691,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:01.504746+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "Pon.Bike擴充零配件版圖 整合四品牌通路\n2026 年 11 月 16 日\n文：黃美琴、圖：Pon.Bike\n荷蘭自行車集團Pon.Bike持續擴大零配件事業布局，旗下Pon.Bike Parts & Accessories（P&A）宣布新增Fabric、Reserve Wheels及OneUp Components三大品牌，與原有BBB Cycling整合經銷資源，強化德國及比荷盧市場的產品供應與通路服務。\n三大品牌各具市場定位，Fabric主攻座墊、車把帶等騎乘接觸零件；Reserve Wheels專精高性能碳纖維輪組；OneUp",
+      "read_checked_at": "2026-11-21T00:37:55.875752+00:00",
       "source_url": "https://www.wheelgiant.com.tw/2026/11/16/pon-bike%E6%93%B4%E5%85%85%E9%9B%B6%E9%85%8D%E4%BB%B6%E7%89%88%E5%9C%96%E3%80%80%E6%95%B4%E5%90%88%E5%9B%9B%E5%93%81%E7%89%8C%E9%80%9A%E8%B7%AF/",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://www.wheelgiant.com.tw/2026/11/16/pon-bike%E6%93%B4%E5%85%85%E9%9B%B6%E9%85%8D%E4%BB%B6%E7%89%88%E5%9C%96%E3%80%80%E6%95%B4%E5%90%88%E5%9B%9B%E5%93%81%E7%89%8C%E9%80%9A%E8%B7%AF/"
+      "editorial_source_url": "https://www.wheelgiant.com.tw/2026/11/16/pon-bike%E6%93%B4%E5%85%85%E9%9B%B6%E9%85%8D%E4%BB%B6%E7%89%88%E5%9C%96%E3%80%80%E6%95%B4%E5%90%88%E5%9B%9B%E5%93%81%E7%89%8C%E9%80%9A%E8%B7%AF/",
+      "body_length": 515,
+      "summary_zh": "荷蘭自行車集團Pon.Bike持續擴大零配件事業布局，旗下Pon.Bike Parts & Accessories（P&A）宣布新增Fabric、Reserve Wheels及OneUp Components三大品牌，與原有BBB Cycling整合經銷資源，強化德國及比荷盧市場的產品供應與通路服務。\n\n三大品牌各具市場定位，Fabric主攻座墊、車把帶等騎乘接觸零件；Reserve Wheels專精高性能碳纖維輪組；OneUp Components則聚焦登山車零組件，涵蓋升降座管、踏板及操控系統等產品，進一步擴大Pon.Bike從一般騎乘配件至高階性能零組件的產品陣容。\n\n為提升經銷效率，Pon.Bike P&A將建立整合四大品牌的多品牌經銷商平台，讓德國及比荷盧經銷商透過單一入口完成採購，原有客戶經理與服務窗口維持不變。\n\n四大品牌預計於2027年1月22日至24日比利時Velofollies展首次聯合亮相。此舉顯示Pon.Bike正透過品牌資源整合與通路數位化，強化歐洲自行車售後零配件市場的競爭布局。",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "e91f4e4d80f21309ce9e",
@@ -1631,13 +1736,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:02.903284+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "台美機器人無人載具論壇 促成 8 項台美產業 MOU 簽署\n2026/11/17 | By 經濟日報\n隨著全球AI浪潮從虛擬走向實體世界（Physical AI），機器人與無人載具已成為各國兵家必爭之地。由經濟部產業發展署指導，工業技術研究院與中華民國無人載具系統產業發展協會（TUVIDA）承辦、美國硬體新創平台 Atomica",
+      "read_checked_at": "2026-11-21T00:37:56.380231+00:00",
       "source_url": "https://www.cens.com/cens/html/zh/news/news_inner_64750.html",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://www.cens.com/cens/html/zh/news/news_inner_64750.html"
+      "editorial_source_url": "https://www.cens.com/cens/html/zh/news/news_inner_64750.html",
+      "body_length": 2008,
+      "summary_zh": "隨著全球AI浪潮從虛擬走向實體世界（Physical AI），機器人與無人載具已成為各國兵家必爭之地。由經濟部產業發展署指導，工業技術研究院與中華民國無人載具系統產業發展協會（TUVIDA）承辦、美國硬體新創平台 Atomica 協辦的「台美機器人×無人載具×高科技供應鏈媒合論壇」，11月11、12日一連兩天於台北圓山大飯店盛大登場。\n\n論壇以「美國出題、台灣解題」為主軸，吸引大批國內精密製造、機電與零組件業者共襄盛舉，兩天共促成六項台美合作備忘錄（MOU）簽署，成功將美方新創的打樣與量產需求，直接對接台灣的製造能量。\n\n本次論壇最大亮點，在於美方重量級新創與創投生態系代表親自來台說明前瞻架構與實證需求，包含波士頓 Physical AI 硬體新創平台 Atomica 創辦人蕭潔蓮（Sophie Hsiao）、投資無人機與人形機器人的創投 Fundomo 創辦合夥人 Rajeev Surati（MIT EECS博士、連續創業者），以及半導體雷射新創 Topolight 創辦人 Daniel 等均親臨現場，與台灣供應鏈展開深度交流。\n\n論壇首日聚焦「美方需求日」，除開幕儀式與產業趨勢分享外，並規劃台灣供應鏈實地參訪；第二天則為「台灣解題日」，由台灣製造、模組與零組件業者展現精密感測、快速打樣與高階製造實力，美方新創團隊如小型水面無人載具 Jaia Robotics、智慧通風新創 Ze",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "d82f261da2be82c8c05d",
@@ -1808,15 +1915,20 @@
       "region": "歐洲",
       "language_hint": null,
       "topic": "技術發展與產業轉型",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-20T00:36:36.468565+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "Paris-based startup Physicl has raised $10 million in seed funding to develop technology that helps robotics and physical AI researchers identify and address weaknesses in their AI models.\nThe funding round was led by Inovia Capital, with participation from US Venture Partners, and will support the expansion of",
+      "read_checked_at": "2026-11-21T00:38:06.574223+00:00",
       "title_zh": "Physicl 籌集了 1 000 萬美元,用於改進物理AI 培訓,同時提供合成資料 - Robotics & Automation News",
       "translation_method": "argos_offline_machine_translation",
       "source_url": "https://roboticsandautomationnews.com/2026/11/15/physicl-raises-10-million-to-improve-physical-ai-training-with-synthetic-data/107173/",
       "original_url_status": "publisher_title_verified",
-      "original_url_checked_at": "2026-11-20T03:08:30.353277+00:00"
+      "original_url_checked_at": "2026-11-20T03:08:30.353277+00:00",
+      "body_length": 3107,
+      "excerpt_translation_zh": "巴黎啟動 Physicl籌集了1000萬美元的種子資金來開發技術來幫助機器人和物理AI研究人員發現並解決其AI模型中的弱點.\n籌資回合由Inovia Capital牽頭,美國風險夥伴公司參加,將支援擴大",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "巴黎啟動 Physicl籌集了1000萬美元的種子資金來開發技術來幫助機器人和物理AI研究人員發現並解決其AI模型中的弱點.\n\n資助回合由Inovia Capital領導,美國風險夥伴參與,並將支援擴大Physicl的團隊,並進一步發展其合成資料生成平臺。\n\n公司還引入了Studio,這個應用程式允許研究人員建立定製的3D環境並生成針對AI模型掙扎的具體情況的培訓資料.\n\n物理AI開發者面臨的挑戰之一是準備模型,以便在不可預測的現實世界環境中可靠地執行.\n\n雖然模型在有控制的演示中表現良好,但在遇到不尋常的照明條件,不熟悉的物體或出乎意料的物理安排時,它們可能會掙扎.\n\n這些情況通常稱為邊緣情況,很難透過常規資料收集全面掌握。\n\nPhysicl的方法允許研究人員在模擬中複製有問題的情景,產生變異並使用由此產生的資料來改進模型效能.\n\nPhysicl的創始人兼執行長Alex de Vigan說:“模型在邊緣情況下失敗了。 當研究人員發現這些弱點時,他們需要一種方法來生成專門解決它們的資料並測試模型是否改進. 我們建立了Physicl,使這一過程變得容易和可重複。”",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "da62f6afff08c0084aaa",
@@ -2114,13 +2226,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "市場需求與景氣",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:03:04.170970+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "本文共350字\n                            中央社 記者潘智義台北11日電\n                       ",
+      "read_checked_at": "2026-11-21T00:37:57.048573+00:00",
       "source_url": "https://money.udn.com/money/story/5612/9872694",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://money.udn.com/money/story/5612/9872694"
+      "editorial_source_url": "https://money.udn.com/money/story/5612/9872694",
+      "body_length": 470,
+      "summary_zh": "自行車廠美利達今天董事會通過第3季財報。前3季集團合併累計營收新台幣184億元，年減16%，歸屬母公司稅後淨利8.2億元，年減43%，每股盈餘（EPS）2.74元。\n\n美利達說明，全球自行車市場目前已到去庫存尾聲階段，各區域市場表現略有不同，將持續依各市場消費趨勢及產品需求，調整銷售策略與市場布局。\n\n美利達指出，歐洲子公司前3季營收較去年同期成長14%，反映歐洲市場銷售動能逐步回升；中國市場受惠於中低階自行車需求增加，前3季銷售量及營收分別較去年同期成長7%及1%。\n\n美利達表示，將持續推動產品生命週期管理（PLM）專案，透過PLM平台串聯產品等各階段資訊，提升資料整合與管理效能。展望未來，全球自行車市場庫存調整已逐步進入尾聲，產業長期發展趨勢仍然正向，將聚焦新產品推出及各區域市場布局，強化營運韌性。",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "4104b771ddc56504a6e2",
@@ -2200,12 +2314,19 @@
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Bafang\nGiant Benelux dealers to offer bike leasing via Leasefiets from January\nFrom January 2027, Giant Benelux dealers can offer leases on Giant and Liv bikes through Leasefiets, with no buy-back obligation.\n- Giant Benelux dealers to offer bike leasing via Leasefiets from January From January 2027, Giant Benelux",
       "title_zh": "55%的荷蘭腳踏車購買者計劃使用電子腳踏車",
       "translation_method": "argos_offline_machine_translation",
       "publisher_excerpt": "More than half of Dutch consumers who expect to buy a bicycle in the next five years plan an e-bike, according to Bike Europe research. Buyers of a new e-bike expect to spend an average of EUR 2,250.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:38:07.066032+00:00",
+      "body_length": 1891,
+      "excerpt_translation_zh": "巴芳,巴芳,你好嗎?\n從1月份起透過租賃商提供腳踏車租賃的大型Benelux交易商\n從2027年1月起,巨型貝納盧斯經銷商可以透過Lserfiets提供巨型和利夫機車的租賃,不承擔回購義務.\n從2027年1月起,大貝納盧斯公司透過租賃公司提供腳踏車租賃",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "從1月份起透過租賃商提供腳踏車租賃的大型Benelux交易商\n\n從2027年1月起,巨型貝納盧斯經銷商可以透過Lserfiets提供巨型和利夫機車的租賃,不承擔回購義務.\n\n- 從2027年1月起,大貝勒盧克經銷商透過Lserfiets提供腳踏車租賃,大貝勒盧克經銷商可以透過Lserfiets提供Giant和Liv腳踏車租賃,不承擔回購義務.\n\n- Van Raam調查:80%的使用者將每週一次的出行換成騎行的Van Raam調查846名使用者:大約80%的使用者將每週一次出行的出行換成腳踏車,每週騎行3-4次. 其三輪車範圍無銷售數字.\n\n- 遺產品牌在荷蘭城市腳踏車中佔據主導地位, 而電子腳踏車的選擇則保持開放 問一個荷蘭腳踏車手,他們可以買下哪輛腳踏車, 一個名字比其他任何名字都多。 在Bike Europe的消費小組中,Gazelle在潛在電子腳踏車購買者的48%和尋找非電氣城市腳踏車的58%的入圍名單上. 巴塔武斯是領先者,49%的消費者認為它是非電力城市腳踏車,34%是電子腳踏車。\n\n- VanMoof在其應用程式VanMoof中加入了自由射程感知導航,在其Android和iOS應用程式中加入了自由轉彎導航,稱為\"Rider Nav\". 荷蘭e-bike品牌稱該功能在所有連線的VanMoof機車上工作,並根據電池的剩餘範圍規劃路線.\n\n- 55%的荷蘭腳踏車買家計劃使用電子腳踏車, 新電子客車的購買者預計平均花費2,250歐元。\n\n- Pon.Bike P&A將Fabric、Reserve和OneUp新增到BBB組合Pon.Bike零部件和輔助產品(Pon.Bike P&A)現在除了其現有的BBB迴圈範圍之外,還供應了Fabric、Reserve Wheels和OneUp元件。 貝內盧斯和德國的經銷商可以透過一個多品牌經銷商門戶訂購所有四個品牌.",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "f1718cc3831c45cdd7d6",
@@ -2242,13 +2363,15 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "進出口與訂單趨勢",
-      "access_status": "unresolved",
-      "excerpt": "",
-      "read_checked_at": "2026-11-19T14:03:06.357331+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article",
+      "access_status": "readable",
+      "excerpt": "MoneyDJ新聞 2026-11-11 09:58:29 數位內容中心",
+      "read_checked_at": "2026-11-21T00:37:57.907315+00:00",
       "source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562",
       "editorial_review_status": "public_source_cross_checked",
-      "editorial_source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562"
+      "editorial_source_url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=a5c4cabd-aa8f-4292-bf4c-cce244837562",
+      "body_length": 731,
+      "summary_zh": "上銀（2049）持續擴充滾珠螺桿、線性滑軌與半導體設備產能，因應半導體、AI資料中心與自動化設備接單增加。研磨級滾珠螺桿交期已逾6.5個月，線性滑軌交期約4至6個月，部分半導體設備訂單能見度已看到2027年中。目前產能仍追不上接單速度，產線透過設備汰換、人員增補與加班生產消化在手訂單。\n\n半導體設備布局集中在晶圓機器人、晶圓移載系統與EFEM，客戶已排定2027年的設備交付時程，上銀也投入新型晶圓移載設備開發。共同封裝光學與新型晶圓製程帶動精密定位需求，小型、高精度線性滑軌與滾珠螺桿列入開發重點，並結合大銀微系統的驅動技術，爭取後續設備採用。五軸加工機轉台等機電整合產品也已切入日本、中國等工具機客戶，產品組合由傳動零組件延伸至轉台與移載系統。\n\n機器人業務也持續發展。上銀已取得美系人形機器人大廠小型線性滑軌訂單，單批規模達五位數支，預計2027年初開始出貨。行星式滾柱螺桿瞄準人形機器人下肢關節、高負載電動致動器與特殊工業設備，今年底進入量產，明年開始供應客戶。矽谷物流機器人合作案已完成規格修改與測試，新規格產品預計年底出貨，初期規模約數十台，後續仍待客戶在美國完成驗證。\n\n小型滾珠螺桿與小型線性滑軌新增設備預計年底前投產，行星式滾柱螺桿設備也同步增加，年底整體螺桿與線軌產出規模可望較年初增加25%至30%，大埔美精密機械園區另規劃倉儲設施。\n\n財務方面，10月營收28.5億元，月增",
+      "summary_status": "source_excerpt_translated"
     },
     {
       "id": "90e997b83c737a7af7cd",
@@ -2688,8 +2811,8 @@
       "excerpt": "",
       "title_zh": "2026 腳踏車產業貿易和關稅最新訊息 - People Forbikes",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-20T00:36:26.886304+00:00",
-      "read_reason": "Google News decoding and verified free publisher search did not resolve the article"
+      "read_checked_at": "2026-11-21T00:38:19.479244+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
       "id": "8add8812531e0d25140e",
@@ -2707,12 +2830,15 @@
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
+      "access_status": "read_failed",
       "excerpt": "",
       "title_zh": "平臺Group QQ039;s 腳踏車段損失6%的收入",
       "translation_method": "argos_offline_machine_translation",
       "publisher_excerpt": "Revenue in The Platform Group's (TPG) Freight Goods segment, which holds its bicycle and furniture platforms, fell 6% year-on-year in the first nine months of 2026. Group net revenue at the German e-commerce company rose 17% to EUR 622.7 million.",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-21T00:38:07.433463+00:00",
+      "read_reason": "HTTP 404",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "be6a4218582c23ef393b",
@@ -2844,10 +2970,17 @@
       "region": "歐洲",
       "language_hint": "en",
       "topic": "市場需求與景氣",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Bafang\nLime cuts emissions 25.3% with greener aluminium and cells\nLime cut emissions per e-bike, e-scooter and battery by 25.3% in 2025 with renewable aluminium and LG cells. Scope 3 is 97.5% of its footprint.\n- Lime cuts emissions 25.3% with greener aluminium and cells Lime cut emissions per e-bike, e-scooter and",
       "title_zh": "福克斯工廠的銷售額在Marucci銷售和機車脫產時下降了10.1%。",
-      "translation_method": "argos_offline_machine_translation"
+      "translation_method": "argos_offline_machine_translation",
+      "read_checked_at": "2026-11-21T00:38:08.311779+00:00",
+      "body_length": 2030,
+      "excerpt_translation_zh": "巴芳,巴芳,你好嗎?\n以更綠色的鋁和電池減少25.3%的排放量\n2025年,用再生鋁和液化石油氣電池,萊姆將每臺電子腳踏車、電子煙霧器和電池的排放量減少25.3%。 範圍3是其足跡的97.5%。\n- 用更綠色的鋁和電池減少25.3%的石灰排放量",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "以更綠色的鋁和電池減少25.3%的排放量\n\n2025年,用再生鋁和液化石油氣電池,萊姆將每臺電子腳踏車、電子煙霧器和電池的排放量減少25.3%。 範圍3是其足跡的97.5%。\n\n- 2025年,用更綠色的鋁和電池將排放量減少25.3%,用再生鋁和LG電池將每臺電子腳踏車、電子煙霧器和電池的排放量減少25.3%。 範圍3是其足跡的97.5%。\n\n- Fox Factory的銷售額在Marucci銷售額和以美國為基地的Fox Factory控股公司的機車拆分量上下降了10.1%,2026年第三季度的淨銷售額下降到3.384億美元(29,430萬歐元)。 淨損失為1.096億美元(9,530萬歐元)。\n\n- 萊姆公司收入最高1bn美元,因為Q3銷售額上升了20%,萊姆公司第三季度的收入同比上升了20%,達到3.61億美元(3.2億歐元)。 美國共享微移動運營商的收入首次低於10億美元(8.88億歐元)。 淨收入上升了41%,達到4 400萬美元。\n\n- Lemmo與中國的汽車製造商合作,為歐洲柏林電子腳踏車品牌Lemmo準備貨物釋出會,透過汽車製造商而不是腳踏車零售在中國銷售零摺疊電子腳踏車。 自2025年與尼歐開始合作後,\"零號\"透過汽車製造商\"尼歐生活\"商店收到了數以萬計的訂單.\n\n- 坎農代爾將全球總部從美國搬到了荷蘭邦. 由腳踏車擁有的Cannondale公司將其全球總部從康涅狄格州的威爾頓搬到荷蘭的沃登貝格. 威爾頓辦事處將於2027年中倒閉,全球職能集中在德國的沃登貝格和弗賴堡,研發和工程已經設在這兩個地方。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "777e32e3becf6cafecb9",
@@ -2864,13 +2997,16 @@
       "region": "台灣",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article",
-      "read_checked_at": "2026-11-20T02:57:14.363100+00:00",
+      "access_status": "readable",
+      "excerpt": "經部旗艦臺灣館首結合AAPEX及SEMA 同步搶攻北美汽車零配件及改裝車商機\n(中央社訊息服務20261106 11:56:07)「美國汽車售後服務零配件展（AAPEX）」於本（11）月3日至5日在美國拉斯維加斯盛大登場，為協助業者深耕北美市場，經濟部攜手車輛公會、手工具公會及汽配業者籌組「旗艦臺灣館」，邀集219家企業參展，為本屆第3大參展國，以「Team",
+      "read_checked_at": "2026-11-21T00:37:59.072891+00:00",
       "source_url": "https://www.cna.com.tw/postwrite/chi/449187",
       "original_url_status": "publisher_link_verified",
-      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20",
+      "body_length": 1118,
+      "summary_zh": "(中央社訊息服務20261106 11:56:07)「美國汽車售後服務零配件展（AAPEX）」於本（11）月3日至5日在美國拉斯維加斯盛大登場，為協助業者深耕北美市場，經濟部攜手車輛公會、手工具公會及汽配業者籌組「旗艦臺灣館」，邀集219家企業參展，為本屆第3大參展國，以「Team Taiwan」為主軸，向國際買主展現臺灣汽配產業的創新實力與供應鏈優勢，提升臺灣汽配產業在全球汽車售後市場的能見度與信賴度，促成商機逾6,000萬美元。\n\n經濟部表示，AAPEX已與「美國汽車改裝零配件展（SEMA）」結合成為「汽車售後服務週」，為全球汽車零組件產業重要採購平臺，亦是臺灣業者拓展北美市場的重要據點。今年首度籌組SEMA參展團並結合台灣精品館，展示輔助駕駛、車聯網及車隊管理等領域的科技成果及智慧移動與車用電子研發實力，透過同時進軍AAPEX與SEMA雙展，協助業者掌握售後服務與改裝件市場雙重商機。\n\n美國為臺灣汽車零配件最大出口市場，占我國汽配出口比重約50%。隨著全球車輛朝向電動化、智慧化發展及售後服務市場需求持續成長，本次我國參展業者集結了全球最大碰撞件製造商、汽車售後市場車燈領導品牌、車用電子產品大廠及摩擦材料製造等指標性廠商，彰顯臺灣汽車零配件之製造技術與智慧科技的創新能量，3天展期共吸引1,050位買主及訪客參與洽談及交流。\n\n本次旗艦臺灣館也特別設置產業應用情境展示區，展出內容",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "0ede884232cb9980d574",
@@ -2880,20 +3016,23 @@
       "published_at": "2026-11-06T08:00:00+00:00",
       "discovered_at": "2026-11-20T00:10:32.476864+00:00",
       "industries": [
-        "總體情勢"
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "taiwan",
       "region": "台灣",
       "language_hint": null,
       "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "excerpt": "",
-      "read_reason": "Bing backfill: Bing returned no verified publisher article",
-      "read_checked_at": "2026-11-20T02:58:21.234231+00:00",
+      "access_status": "readable",
+      "excerpt": "中鋼擬投資逾10億 推動固態氧化物燃料電池及碳捕捉與利用\n（中央社記者潘智義台北6日電）中鋼公司今天董事會通過投資新台幣10億7921萬8000元，推動固態氧化物燃料電池暨碳捕捉與利用計畫，以因應未來製程電氣化之電力需求，並配合中鋼119年後碳中和及製程電氣化策略，強化能源彈性及營運穩定性。\n中鋼透過新聞稿指出，上述計畫期間自115年12月1日起至117年12月31日，為期2年1個月。\n透過 Google",
+      "read_checked_at": "2026-11-21T00:38:00.099308+00:00",
       "source_url": "https://www.cna.com.tw/news/afe/202611060302.aspx",
       "original_url_status": "publisher_link_verified",
-      "original_url_evidence": "publisher_web_search_verified_2026-11-20"
+      "original_url_evidence": "publisher_web_search_verified_2026-11-20",
+      "body_length": 413,
+      "summary_zh": "（中央社記者潘智義台北6日電）中鋼公司今天董事會通過投資新台幣10億7921萬8000元，推動固態氧化物燃料電池暨碳捕捉與利用計畫，以因應未來製程電氣化之電力需求，並配合中鋼119年後碳中和及製程電氣化策略，強化能源彈性及營運穩定性。\n\n中鋼認為，全球經濟維持溫和擴張，科技產業成長有助緩和地緣衝突衝擊，歐美央行維持利率不變，有助支撐耐久財消費。鐵礦砂與冶金煤價格分別於每公噸90美元及265美元附近盤整，煉鋼成本仍處相對高檔。\n\n不過，國際市場鋼價走強，下游外銷接單持續升溫，新台幣匯率趨貶有助帶動國產鋼材採購需求。為反映市場行情，同時穩定供應鏈購料成本以擴大接單，中鋼已於5日將12月月盤產品小幅調漲。（編輯：黃國倫）1151106",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "213da3b194bf8983da27",

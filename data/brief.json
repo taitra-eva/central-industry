@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-20T00:39:08.830121+00:00",
+  "generated_at": "2026-11-21T00:44:16.262570+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 134,
-  "readable_total": 23,
+  "articles_total": 143,
+  "readable_total": 47,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 55,
-      "readable": 8
+      "articles": 51,
+      "readable": 9
     },
     {
       "name": "機械與金屬加工",
-      "articles": 6,
-      "readable": 1
+      "articles": 16,
+      "readable": 11
     },
     {
       "name": "自行車",
-      "articles": 18,
-      "readable": 5
+      "articles": 20,
+      "readable": 11
     },
     {
       "name": "汽配",
-      "articles": 5,
-      "readable": 1
+      "articles": 8,
+      "readable": 5
     },
     {
       "name": "手工具",
@@ -31,11 +31,45 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 48,
-      "readable": 8
+      "articles": 49,
+      "readable": 12
     }
   ],
   "events": [
+    {
+      "id": "article-e5423be782c6f975b68b",
+      "title": "6,076",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "立法院20日三讀通過115年度中央政府總預算追加預算案，歲出追加預算6,076億餘元全數照列，其中最大宗的中油增資2,338億元也全數過關。院會另通過主決議，要求政府在2028年1月底前凍漲油價，住宅每月用電500度以下、小商家每月用電1,500度以下的電價也應維持不變。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "e5423be782c6f975b68b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-20T15:33:40+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-3790e57c8c1f01b30230",
+      "title": "台日工具機市場趨向分化 精密傳動與自動化設備迎新商機",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "全球製造業設備投資逐步回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件需求相對強勁的市場結構。隨著汽車、電子、半導體及精密製造產業提高自動化與加工精度要求，工具機競爭正由單機設備延伸至精密傳動、智慧控制與整線整合能力。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "3790e57c8c1f01b30230"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-20T00:00:00+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-5005127a46634c65bab2",
       "title": "特斯拉衝刺人形機器人、自駕車 盟立、亞光等台鏈受惠",
@@ -51,6 +85,40 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-19T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-42cb48f7469ea7ce4ca6",
+      "title": "台中精機布局東南亞智慧製造 CNC工具機與自動化設備搶商機 - CTIMES",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "東南亞製造業持續朝電動車、汽車零組件、電子製造及精密加工發展，帶動高效率工具機與自動化設備需求。台灣工具機大廠台中精機參加11月18~21日在泰國曼谷舉行的METALEX 2026國際金屬加工展，展示CNC車床、立式加工中心及伺服驅動射出成型機，積極拓展東南亞智慧製造市場。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "42cb48f7469ea7ce4ca6"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T11:52:24+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-4dd3f426126d31d010c1",
+      "title": "海巡V-BAT軍用無人機恆春升空 民航局實施適航驗證 - 經濟日報",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "海巡署採購12架美國國防科技公司Shield AI生產的V-BAT軍用垂直起降無人機，日前在屏東恆春機場升空驗測。軍方人士指出，相關驗測是民航局針對V-BAT實施適航驗證，海軍也派人到現場觀察。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "4dd3f426126d31d010c1"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T11:34:12+00:00",
       "taiwan_focus": true
     },
     {
@@ -72,6 +140,23 @@
       "taiwan_focus": true
     },
     {
+      "id": "article-b54ff84f0c3efa338037",
+      "title": "台灣工具機轉型半導體設備鏈 精密加工與自動化技術迎新商機",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "全球半導體先進製程、先進封裝及高階IC載板持續擴產，帶動精密加工、自動化搬送與製程設備需求，也為台灣工具機及機械零組件產業創造跨域轉型機會。包括東台、上銀等精密機械業者，近年積極布局半導體相關設備與次系統，從傳統金屬加工延伸至高精度製程及自動化應用，反映台灣機械產業正尋求新的技術成長市場。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "b54ff84f0c3efa338037"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-19T00:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
       "id": "article-0da396402460d8cf1914",
       "title": "嘉聯益攻機器人 專案明年量產",
       "sector": "無人載具及機器人",
@@ -86,6 +171,74 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-18T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-8760a29286c5f12174ae",
+      "title": "搶攻無人化晶圓廠，三星、SK 海力士、美光聯手制定機器人充電標準 - TechNews 科技新報",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "隨著機器人應用越來越廣泛，市場消息傳出，三星、SK 海力士與美光正攜手制定半導體晶圓廠行動機器人的共同充電標準。三間公司已經組成初步協商小組，負責推動標準化工作，包括 SEMI 等主要產業組織也參與其中。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "8760a29286c5f12174ae"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T06:56:46+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-553334688ab921b58017",
+      "title": "日本工具機訂單年增42.5% 精密零組件與高階設備迎新商機",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "全球製造業設備投資需求回升，帶動日本工具機訂單明顯成長，台灣則呈現整機出口持平、關鍵零組件持續擴張的不同發展態勢。隨著半導體、航太、汽車及自動化產業提高精密加工需求，工具機市場競爭正由設備價格延伸至控制技術、加工精度與系統整合能力。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "553334688ab921b58017"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T00:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-9deb5e1b3b226d885c8b",
+      "title": "=======================================================================================================================================================================================",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "9deb5e1b3b226d885c8b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T18:23:26+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-436574530ebeed8e6918",
+      "title": "校對:Soup",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "針對歐盟對以中鋼（2002）為主的台灣冷軋扁鋼進口產品課徵反傾銷關稅，中鋼表示，將採「多元去化」策略降低影響，轉向包括南韓、中美洲的巴西、阿根廷，以及非洲等地積極開發新客源。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "436574530ebeed8e6918"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T18:22:27+00:00",
       "taiwan_focus": true
     },
     {
@@ -171,6 +324,40 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-16T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-0014c4abe421527ad4f9",
+      "title": "Pon.Bike擴充零配件版圖 整合四品牌通路 - 輪彥國際有限公司",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "荷蘭自行車集團Pon.Bike持續擴大零配件事業布局，旗下Pon.Bike Parts & Accessories（P&A）宣布新增Fabric、Reserve Wheels及OneUp Components三大品牌，與原有BBB Cycling整合經銷資源，強化德國及比荷盧市場的產品供應與通路服務。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0014c4abe421527ad4f9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T04:34:36+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-2f7e34475f02eb85a14f",
+      "title": "台美機器人無人載具論壇 促成8項台美產業MOU簽署 | 熱門亮點 | 商情 - 經濟日報",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "隨著全球AI浪潮從虛擬走向實體世界（Physical AI），機器人與無人載具已成為各國兵家必爭之地。由經濟部產業發展署指導，工業技術研究院與中華民國無人載具系統產業發展協會（TUVIDA）承辦、美國硬體新創平台 Atomica 協辦的「台美機器人×無人載具×高科技供應鏈媒合論壇」，11月11、12日一連兩天於台北圓山大飯店盛大登場。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "2f7e34475f02eb85a14f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-16T02:31:12+00:00",
       "taiwan_focus": true
     },
     {
@@ -293,6 +480,40 @@
       "taiwan_focus": true
     },
     {
+      "id": "article-cc614b12bb48769672c4",
+      "title": "美利達前3季每股賺2.74元　自行車市場去庫存步尾聲 - 經濟日報",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "自行車廠美利達今天董事會通過第3季財報。前3季集團合併累計營收新台幣184億元，年減16%，歸屬母公司稅後淨利8.2億元，年減43%，每股盈餘（EPS）2.74元。 美利達說明，全球自行車市場目前已到去庫存尾聲階段，各區域市場表現略有不同，將持續依各市場消費趨勢及產品需求，調整銷售策略與市場布局。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "cc614b12bb48769672c4"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-11T12:21:52+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-98ba1184d41156422d28",
+      "title": "上銀訂單旺到2027年中，擴產螺桿線軌攻機器人- 新聞 - MoneyDJ",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "上銀（2049）持續擴充滾珠螺桿、線性滑軌與半導體設備產能，因應半導體、AI資料中心與自動化設備接單增加。研磨級滾珠螺桿交期已逾6.5個月，線性滑軌交期約4至6個月，部分半導體設備訂單能見度已看到2027年中。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "98ba1184d41156422d28"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-11T01:58:00+00:00",
+      "taiwan_focus": true
+    },
+    {
       "id": "article-592f2daab4316ee77ff9",
       "title": "蘋果秀機器人大腦 人形產品出現重大突破 鴻準受惠將拿下大單",
       "sector": "無人載具及機器人",
@@ -324,6 +545,40 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-08T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-777e32e3becf6cafecb9",
+      "title": "經部旗艦臺灣館首結合AAPEX及SEMA 同步搶攻北美汽車零配件及改裝車商機 - 中央社 CNA",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "(中央社訊息服務20261106 11:56:07)「美國汽車售後服務零配件展（AAPEX）」於本（11）月3日至5日在美國拉斯維加斯盛大登場，為協助業者深耕北美市場，經濟部攜手車輛公會、手工具公會及汽配業者籌組「旗艦臺灣館」，邀集219家",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "777e32e3becf6cafecb9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-06T08:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-0ede884232cb9980d574",
+      "title": "中鋼擬投資逾10億推動固態氧化物燃料電池及碳捕捉與利用| 產經 - 中央社 CNA",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "（中央社記者潘智義台北6日電）中鋼公司今天董事會通過投資新台幣10億7921萬8000元，推動固態氧化物燃料電池暨碳捕捉與利用計畫，以因應未來製程電氣化之電力需求，並配合中鋼119年後碳中和及製程電氣化策略，強化能源彈性及營運穩定性。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0ede884232cb9980d574"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-06T08:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -361,6 +616,40 @@
       "taiwan_focus": false
     },
     {
+      "id": "article-64cf531308279d665aa8",
+      "title": "HDAD 2027 面板:市場的真實世界檢視",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "MEMA宣佈參加將於1月18日在TXGaylord Texan度假村和Grapevine會議中心舉行的 \" 事後市場真實世界觀 \" 小組。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "64cf531308279d665aa8"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T00:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-562716e9d8f9f403334e",
+      "title": "AI & the Aftermarket: NTN 美國控股公司查爾斯·哈里斯",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "AftermarketNews向主要廠商/供應商的主管們詢問了他們的公司如何使用人工智慧,他們希望解決什麼問題,以及他們如何看待AI在未來幾年影響他們的業務. 我們很高興分享他們的見解,今天,我們聽到美國NTN Bearing公司副總裁查爾斯·哈里斯的演講。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "562716e9d8f9f403334e"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-18T00:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
       "id": "article-a1728520d5eaa35fc01d",
       "title": "DJI 支援的 Amflow 以內部自動中樞進入城市電子腳踏車市場",
       "sector": "自行車",
@@ -375,6 +664,42 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-17T12:48:51+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-8d26d7c1a2cacd51ecc9",
+      "title": "Amflow透過內部自動樞紐進入城市電子腳踏車市場",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "自行車"
+      ],
+      "preview": "Amflow透過內部自動樞紐進入城市電子腳踏車市場 Amflow正與UE(Urban & Easy)一起進入城市電子腳踏車段,價格為3,099歐元. 頂部版本為UE Carbon Pro,將Avinox驅動系統與Amflow開發並自建的電子三速自動中樞結合. 它於2026年11月17日以3,499歐元在全球銷售.",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "8d26d7c1a2cacd51ecc9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T12:48:51+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-aed61620eb8e5fe20863",
+      "title": "Avinox 在e-bike系統中增加了鎖、後光和電話掛載",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "自行車"
+      ],
+      "preview": "Rivian spin-off又暫停了TM-B電子電動的交付,以解決軟體問題,包括充電問題。 大約兩週後應恢復運輸。 - 同時暫停電子電機交付,以解決軟體問題 Rivian spin-off 同時暫停TM-B電子電機的交付,以解決軟體問題,包括充電問題。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "aed61620eb8e5fe20863"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-17T08:45:35+00:00",
       "taiwan_focus": false
     },
     {
@@ -399,7 +724,8 @@
       "title": "從汽車到電子腳踏車:瓦萊奧如何帶動微移動",
       "sector": "自行車",
       "sectors": [
-        "自行車"
+        "自行車",
+        "汽配"
       ],
       "preview": "贊助從汽車到電子腳踏車:Valeo如何推動微移動 經過多年的爆炸性增長,歐洲電子腳踏車市場似乎已進入一個新的階段。 人們不再需要說服力電動踏板輔助,但他們的注意力轉移到了電子腳踏車的可靠性,易用性和耐久性上. 隨著Cyclee,瓦萊奧希望支援這個新的增長階段.",
       "body_status": "publisher_excerpt_not_ai_summary",
@@ -426,6 +752,57 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-16T07:32:09+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-2a43bb2c36222cd09d1c",
+      "title": "Physicl 籌集了 1 000 萬美元,用於改進物理AI 培訓,同時提供合成資料 - Robotics & Automation News",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "巴黎啟動 Physicl籌集了1000萬美元的種子資金來開發技術來幫助機器人和物理AI研究人員發現並解決其AI模型中的弱點. 資助回合由Inovia Capital領導,美國風險夥伴參與,並將支援擴大Physicl的團隊,並進一步發展其合成資料生成平臺。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "2a43bb2c36222cd09d1c"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-15T15:45:16+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-250ef40e5caebe0a3325",
+      "title": "55%的荷蘭腳踏車購買者計劃使用電子腳踏車",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "從1月份起透過租賃商提供腳踏車租賃的大型Benelux交易商 從2027年1月起,巨型貝納盧斯經銷商可以透過Lserfiets提供巨型和利夫機車的租賃,不承擔回購義務. - 從2027年1月起,大貝勒盧克經銷商透過Lserfiets提供腳踏",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "250ef40e5caebe0a3325"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-11T07:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-0164651e5f914f8acdb7",
+      "title": "福克斯工廠的銷售額在Marucci銷售和機車脫產時下降了10.1%。",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "以更綠色的鋁和電池減少25.3%的排放量 2025年,用再生鋁和液化石油氣電池,萊姆將每臺電子腳踏車、電子煙霧器和電池的排放量減少25.3%。 範圍3是其足跡的97.5%。 - 2025年,用更綠色的鋁和電池將排放量減少25.3%,用再生鋁和LG電池將每臺電子腳踏車、電子煙霧器和電池的排放量減少25.3%。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0164651e5f914f8acdb7"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-06T09:00:58+00:00",
       "taiwan_focus": false
     }
   ]

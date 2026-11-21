@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:58:52.803726+00:00",
+  "updated_at": "2026-11-21T00:44:15.827723+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -584,6 +584,306 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-20T02:58:37.803602+00:00",
       "source_url": "https://udn.com/news/story/7238/9870555",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "e5423be782c6f975b68b"
+      ],
+      "title": "6,076",
+      "summary": "立法院於20日三讀通過115年度中央政府總預算追加預算案，總額6,076億餘元。最大宗為中油增資2,338億元，另編列1,874.8億元以因應中東衝突及穩定民生物價，包括補貼汽柴油、天然氣、家用液化石油氣及電價凍漲或緩漲所需經費。院會亦通過主決議，要求政府於2028年1月底前凍漲油價，並維持住宅每月用電500度以下、小商家每月用電1,500度以下的電價不變。",
+      "observation": "此次追加預算主要針對能源與民生物價穩定，尤其中油增資預計可減少約42億元利息支出，並支持天然氣輸氣管線及台中廠三期計畫。觀察重點應包括：1) 中油增資後的財務結構變化及其對天然氣供應的實際影響；2) 2028年油價凍漲及電價凍漲政策的執行細節與可能的市場反應；3) 1,874.8億元補貼項目在實際運作中的分配與效果。證據顯示目前僅有預算編列，尚無實際執行或成效數據，需進一步追蹤相關政策落實與財務報告。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:39:05.142914+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261120701248-430101",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "3790e57c8c1f01b30230"
+      ],
+      "title": "台日工具機市場趨向分化 精密傳動與自動化設備迎新商機",
+      "summary": "全球製造業設備投資回升，帶動日本工具機訂單顯著成長，2026年前10月日本工具機訂單達2,043億日圓，年增42.5%。台灣則呈現整機出口持平（16.59億美元，年減0.2%），但關鍵零組件出口強勁（14.23億美元，年增14.5%）。其中金屬成型工具機出口增7.4%，金屬切削工具機略減1.8%。台灣零組件出口主要市場為中國、美國、日本、印度及韓國，義大利、韓國、印度及越南需求成長突出。技術趨勢聚焦五軸加工、複合加工、智慧補償與自動化，滾珠螺桿、線性滑軌、主軸、伺服驅動器及控制器成為競爭關鍵。",
+      "observation": "台灣精密零組件出口顯示韌性，年增14.5%，單月增幅高於整機。日本訂單雖高，但整體月減8.4%，顯示短期需求波動。觀察重點應追蹤日本訂單轉化為實際出貨速度、台灣零組件海外接單情況，以及印度、越南等新興市場的設備投資動向。技術發展方面，五軸加工與智慧補償等高階加工技術可能成為未來成長引擎，但需進一步確認台灣廠商在這些領域的產能與市場佔有率。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:39:20.960634+00:00",
+      "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/26112011240F.shtml",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "4dd3f426126d31d010c1"
+      ],
+      "title": "海巡V-BAT軍用無人機恆春升空 民航局實施適航驗證 - 經濟日報",
+      "summary": "海巡署採購12架美國Shield AI製V‑BAT軍用垂直起降無人機，於屏東恆春機場進行地面測試與試飛。民航局負責適航驗證，並需美國政府機關出具適航證明；若無證明，將由民航局檢測其適飛性。V‑BAT需實測並拆檢零件，海軍亦派人觀察。海軍計畫以350億元預算採購280架V‑BAT，並將無人機整合於新交艦西拉雅號，擴大海空偵蒐範圍。",
+      "observation": "此報導顯示台灣正加速軍用無人機的適航驗證與部署，尤其是V‑BAT系列。觀察重點包括：1) 民航局適航驗證程序是否能滿足軍事作業需求；2) 12架V‑BAT的實測與拆檢流程是否符合預期；3) 海軍預算與280架採購計畫的進度與成本控制；4) 與現有JUMP20無人機的整合策略。證據顯示目前仍在驗證階段，未有實際投入作業的證據，需持續追蹤後續驗證結果與部署進度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:39:36.533301+00:00",
+      "source_url": "https://money.udn.com/money/story/7307/9889731",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "b54ff84f0c3efa338037"
+      ],
+      "title": "台灣工具機轉型半導體設備鏈 精密加工與自動化技術迎新商機",
+      "summary": "台灣工具機業者正積極轉型進軍半導體設備鏈，因全球先進製程與高階IC載板持續擴產，帶動精密加工與自動化需求。東台機械於2026年10月於TPCA Show展示獨立軸CCD高精度鑽孔設備，結合影像辨識與自動上下料、刀具管理、板材搬送及AMR物流調度，形成連續運作的自動化製程系統。此舉凸顯工具機產業從傳統CNC向製程設備及系統整合的轉型方向。",
+      "observation": "此新聞顯示台灣精密機械業者已開始布局半導體相關設備，尤其在高精度鑽孔與自動化物流方面取得技術突破。觀察重點應追蹤：1) 2026年10月展出的設備是否已獲客戶驗證並進入量產；2) 台灣零組件供應鏈（滾珠螺桿、線性滑軌、精密軸承等）在半導體製程中的實際採用比例；3) 國產替代比例與海外供應鏈布局的變化。證據不足於判斷實際訂單量與市場佔有率，需進一步追蹤後續公告與訂單資訊。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:39:52.301010+00:00",
+      "source_url": "https://www.ctimes.com.tw/2611191119A8.shtml",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "553334688ab921b58017"
+      ],
+      "title": "日本工具機訂單年增42.5% 精密零組件與高階設備迎新商機",
+      "summary": "日本工具機工業會（JMTBA）公布2026年10月訂單金額達2,043億日圓，年增42.5%，連續兩個月突破2,000億日圓，創歷史次高紀錄。日本國內訂單約522億日圓，年增46.5%；海外訂單約1,521億日圓。整體訂單月減8.4%，顯示短期波動。台灣方面，2026年前10月工具機整機出口16.59億美元，年減0.2%；關鍵零組件出口14.23億美元，年增14.5%。10月單月工具機出口1.67億美元，年增18.49%。金屬切削工具機前10月出口13.50億美元，年減1.8%，金屬成型工具機則成長7.4%。台灣零組件出口在義大利、韓國、印度及越南等市場表現較佳。整體趨勢顯示日本工具機訂單增長，台灣則以零組件出口為主，整機出口持平。",
+      "observation": "日本工具機訂單大幅增長，顯示國際製造設備需求仍具支撐力，但整體訂單月減8.4%提示短期波動。台灣整機出口略減，零組件出口則顯著增長，說明台灣產業正由整機價格競爭轉向高精度零組件與智慧控制。應追蹤日本訂單能否轉化為實際出貨、台灣整機出口復甦幅度，以及精密傳動與控制器業者的海外接單變化，以掌握產業升級與市場重整契機。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:40:07.986682+00:00",
+      "source_url": "https://www.ctimes.com.tw/%E5%B7%A5%E5%85%B7%E6%A9%9F/261118113140.shtml",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "9deb5e1b3b226d885c8b"
+      ],
+      "title": "=======================================================================================================================================================================================",
+      "summary": "歐盟於17日起對來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品課徵反傾銷關稅，台灣稅率介於20.7%至27%之間。台灣中鋼與中鴻鋼鐵等合作商被課20.7%，未配合調查者則27%。歐盟亦對日本JFE鋼鐵27.9%、越南浦項鋼鐵16%、印度JSW、塔塔9.5%、土耳其3%–7.8%等施加關稅。歐盟首次將中國大陸過剩產能對第三方市場的影響納入評估，並認定台灣與印度存在「特殊市場情況」。",
+      "observation": "此舉可能影響台灣冷軋扁鋼出口至歐盟市場，尤其是中鋼與中鴻鋼鐵等受關稅影響的企業。需追蹤台灣鋼鐵企業的出口量變化、價格調整及歐盟市場需求。證據不足以判斷關稅對台灣整體鋼鐵產業的長期影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:40:23.527064+00:00",
+      "source_url": "https://money.udn.com/money/story/10871/9885155",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "436574530ebeed8e6918"
+      ],
+      "title": "校對:Soup",
+      "summary": "中鋼集團因歐盟對台灣冷軋扁鋼課徵反傾銷關稅（20.7%配額內、超額50%），將採取多元去化策略，開發南韓、中美洲巴西、阿根廷及非洲等新市場。現行出口已分散至日本、越南、泰國、印尼、馬來西亞等國。",
+      "observation": "中鋼已確認歐盟關稅對其冷軋扁鋼產能造成壓力，並計畫開發新市場以降低影響。觀察重點應追蹤南韓、中美洲及非洲市場的需求變化、進口配額執行情況及中鋼在這些區域的市場佔有率。證據顯示目前尚未有實際訂單或產能調整數據，需進一步確認新市場開發進度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:40:38.994172+00:00",
+      "source_url": "https://money.udn.com/money/story/10871/9885115",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "d6c109731b80a2c5ccd7"
+      ],
+      "title": "陳柏廷的航運攻防學?",
+      "summary": "【媒體公開簡介整理，非全文摘要】萬海航運（2615）董事長陳柏廷在經濟日報簡介中，將全球貨櫃輪市場比作球場，指出市場變動難以預測，受船舶供給、貨運需求、地緣政治、港口政策與航線調整等多重因素影響。",
+      "observation": "此簡介僅提及市場變動的多元因素，未提供具體數字或公司業績。觀察重點應追蹤萬海航運未來公告的營運策略、航線調整及對地緣政治風險的應對措施。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_excerpt",
+      "evidence_type": "publisher_excerpt",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:40:54.377344+00:00",
+      "source_url": "https://money.udn.com/money/story/10871/9882799",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "777e32e3becf6cafecb9"
+      ],
+      "title": "經部旗艦臺灣館首結合AAPEX及SEMA 同步搶攻北美汽車零配件及改裝車商機 - 中央社 CNA",
+      "summary": "經濟部旗艦臺灣館於11月3日至5日在美國拉斯維加斯的AAPEX（美國汽車售後服務零配件展）與SEMA（美國汽車改裝零配件展）同時參展，吸引219家臺灣企業，成為本屆第3大參展國。展期共吸引1,050位買主及訪客，促成商機逾6,000萬美元。臺灣企業展示輔助駕駛、車聯網、車隊管理等科技成果，並設置產業應用情境展示區、數位行銷專區及商務洽談區。經濟部表示，將持續組團參加慕尼黑電子展、杜賽道夫醫療展及日本國際橡塑膠展等國際大型展覽，協助多元產業海外拓銷。",
+      "observation": "此次展會顯示臺灣汽配產業在北美市場的能見度提升，商機逾6,000萬美元可能帶來訂單增長。需追蹤實際成交數據、後續合作進展及是否有進一步的供應鏈布局協議。證據不足以判斷是否已獲得具體訂單或長期合作協議。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:41:09.962094+00:00",
+      "source_url": "https://www.cna.com.tw/postwrite/chi/449187",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "0ede884232cb9980d574"
+      ],
+      "title": "中鋼擬投資逾10億推動固態氧化物燃料電池及碳捕捉與利用| 產經 - 中央社 CNA",
+      "summary": "中鋼公司董事會於2026年11月6日批准投資新台幣10億7921萬8000元，用於推動固態氧化物燃料電池（SOFC）及碳捕捉與利用（CCU）計畫。計畫自115年12月1日起至117年12月31日，為期2年1個月，旨在因應未來製程電氣化之電力需求，並配合中鋼119年後碳中和及製程電氣化策略，以強化能源彈性及營運穩定性。",
+      "observation": "此投資顯示中鋼正積極探索高端能源技術，可能提升其製程電氣化與碳減排能力。觀察重點包括：1) SOFC與CCU技術的實際部署進度與成本；2) 相關設備與原料供應鏈的可行性；3) 119年碳中和目標的實際落實情形。由於新聞僅提及投資金額與計畫時間，缺乏技術細節與預期效益，需進一步追蹤相關公告與技術報告。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:41:25.622728+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611060302.aspx",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "64cf531308279d665aa8"
+      ],
+      "title": "HDAD 2027 面板:市場的真實世界檢視",
+      "summary": "MEMA公布『Real-World View of the Aftermarket』討論會參與者，將於2027年1月18日在Grapevine的Gaylord Texan Resort & Convention Center舉行。討論會由Puneet Cheema（TSE Brakes總裁）、Dan Griffin（Aftermarket Solutions, PHINIA總裁）及DJ Kimsey（SKF Group北美車輛後市場總裁）三位業界領袖主持，聚焦商用車後市場供應商面臨的市場動態變化與客戶期望演進，並探討如何調整業務以迎接未來挑戰。",
+      "observation": "此新聞僅提供參與者名單與討論主題，未提及具體數字、訂單或策略細節。觀察重點應追蹤三位領袖在會議中提出的具體應對措施、技術創新或市場趨勢預測，並關注其對台灣相關產業的潛在影響。證據不足以推斷任何具體商業成果或市場變動。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:41:41.148287+00:00",
+      "source_url": "https://www.aftermarketnews.com/hdad-2027-announces-real-world-view-of-the-aftermarket-panel/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "562716e9d8f9f403334e"
+      ],
+      "title": "AI & the Aftermarket: NTN 美國控股公司查爾斯·哈里斯",
+      "summary": "NTN Bearing Corporation of America（NTN）表示其已在多個業務領域部署人工智慧（AI），包括文件製作、資料分析、資訊管理、製造與工程。AI 驅動的檢測技術提升品質驗證，機器學習協助車輪軸承開發，結合模擬與優化加速產品開發。公司亦將 AI 用於客戶訂單處理，期望自動化多格式訂單、減少行政工作，提升交貨準確度。未來三至五年，NTN 預期 AI 將在整個汽車產品生命週期中發揮更大影響，尤其在連網車輛診斷、零件識別、服務規劃、製造品質、供應鏈規劃與技術支援等方面，進一步提升後市場的響應與效率。",
+      "observation": "NTN 已將 AI 應用於文件製作、資料分析、製造檢測、車輪軸承設計等多項工作，顯示 AI 在提升效率與品質方面具實際效益。公司強調 AI 將在訂單處理、產品開發、品質保證與供應鏈規劃等領域帶來更大影響，可能促進後市場快速回應新車型與客戶需求。應追蹤 NTN 之 AI 投資規模、實際效能指標（如訂單處理時間縮短、品質缺陷率下降）以及與其他後市場供應商的合作動態，以評估 AI 對台灣製造業的可借鏡程度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:41:56.956646+00:00",
+      "source_url": "https://www.aftermarketnews.com/ai-the-aftermarket-ntn-bearing-corporation-of-americas-charles-harris/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "8d26d7c1a2cacd51ecc9"
+      ],
+      "title": "Amflow透過內部自動樞紐進入城市電子腳踏車市場",
+      "summary": "Amflow 於 2026 年 11 月 17 日正式推出其自家開發的電子三速自動樞紐，進軍城市電動腳踏車市場。新產品 UE（Urban & Easy）起價 3,099 歐元，最高型號 UE Carbon Pro 以 Avinox 驅動系統搭配 Amflow 自製電子三速自動樞紐，售價 3,499 歐元，全球銷售。",
+      "observation": "Amflow 透過自行研發的自動樞紐進入城市電動腳踏車市場，顯示其在驅動技術上的自主創新。此舉可能提升其在歐洲及全球市場的競爭力，值得關注其後續銷售表現與市場接受度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:42:12.371140+00:00",
+      "source_url": "https://www.bike-eu.com/subject/product-launch",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "aed61620eb8e5fe20863"
+      ],
+      "title": "Avinox 在e-bike系統中增加了鎖、後光和電話掛載",
+      "summary": "Avinox（中國電動自行車系統供應商）於近日推出三項新配件：後光、手機充電架及自行車鎖，並將其納入其驅動系統。Amflow的首款城市電動自行車UE即為首款搭載這三項配件的車型。Avinox未公布零售價格。",
+      "observation": "此新聞僅提及Avinox新增配件並於Amflow UE上首次實裝，未說明任何訂單、產能或銷售數據。觀察重點應為：1）Avinox是否將此配件套件推廣至其他車型；2）配件對於電動自行車市場的吸引力及競爭優勢；3）是否有後續公告說明價格或量產計畫。證據不足以推斷市場影響或訂單情況。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:42:27.800582+00:00",
+      "source_url": "https://www.bike-eu.com/subject/innovations-products",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "56caead1ef0165ea9056"
+      ],
+      "title": "隨著2025年收入下降7%,德國腳踏車工業削減了就業機會,降至25.2bn歐元。",
+      "summary": "德國腳踏車產業於2025年營收下降7%，降至252億歐元，員工數亦減少3%，約為74,300人。根據T3 Transportation Think Tank報告，Canyon、Porsche、JobRad及已破產的Accell子公司等企業將於2026年裁員。產業界將部分壓力歸因於中國低價進口產品。",
+      "observation": "此報導顯示德國腳踏車產業面臨營收與就業雙重下滑，可能因國際競爭加劇及市場需求變化。需追蹤2026年裁員進度、各公司成本結構調整，以及中國進口車型對本土市場的具體影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:42:43.206186+00:00",
+      "source_url": "https://www.bike-eu.com/subject/zukunft-fahrrad",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "fd7bb99ce53bf6880e4f"
+      ],
+      "title": "從汽車到電子腳踏車:瓦萊奧如何帶動微移動",
+      "summary": "在歐洲電動腳踏車市場經歷爆炸式成長後，已進入新階段，消費者不再需要說服使用電動腳踏輔助，而是更關注產品的可靠性、易用性與耐用度。Valeo 透過其 Cyclee 系列，將汽車技術延伸至微移動領域，提供高品質的電動腳踏車零件與解決方案，協助市場進一步成熟。",
+      "observation": "Valeo 以 Cyclee 為核心，將汽車產業的電控與安全技術應用於電動腳踏車，顯示跨領域技術整合的趨勢。觀察重點應聚焦於其零件供應鏈、產品性能測試與市場接受度。由於本文僅提及產品定位與市場趨勢，缺乏具體銷售數據與客戶案例，故需進一步追蹤其實際市場表現與競爭優勢。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:42:58.824035+00:00",
+      "source_url": "https://www.bike-eu.com/subject/valeo",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "2a43bb2c36222cd09d1c"
+      ],
+      "title": "Physicl 籌集了 1 000 萬美元,用於改進物理AI 培訓,同時提供合成資料 - Robotics & Automation News",
+      "summary": "巴黎初創公司Physicl於2026年11月15日宣布籌得1000萬美元種子輪投資，主要用於擴充團隊及進一步開發其合成資料生成平台。投資方包括Inovia Capital及US Venture Partners。公司推出的Studio應用可讓研究人員自訂3D環境，針對AI模型在實際環境中遇到的邊緣案例產生大量可變化的訓練資料。已與Meta、World Labs、Epic Games及SpAItial等AI實驗室合作，SpAItial使用Physicl資料後，其房間重建誤差率下降逾一半。",
+      "observation": "Physicl的技術聚焦於解決物理AI在非預期環境下的失效問題，透過合成資料提升模型魯棒性。此舉可能對台灣機械與金屬加工及無人載具領域的AI研發產生正面影響，尤其在模擬與實測結合上。應追蹤其技術成熟度、與本土AI研發機構的合作進展，以及是否能進一步降低實際應用成本。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:43:14.337229+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/15/physicl-raises-10-million-to-improve-physical-ai-training-with-synthetic-data/107173/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "250ef40e5caebe0a3325"
+      ],
+      "title": "55%的荷蘭腳踏車購買者計劃使用電子腳踏車",
+      "summary": "根據 Bike Europe 研究，55% 的荷蘭腳踏車購買者計畫在未來五年內購買電動腳踏車，平均預算約 2,250 歐元。研究亦指出，Gazelle 與 Batavus 為非電動城市腳踏車的主要選擇，分別被 58% 與 49% 的消費者考慮。Van Moof 亦推出免費導航功能，並在 2027 年起與 Leasefiets 合作提供租賃服務。",
+      "observation": "此報導顯示荷蘭電動腳踏車市場持續擴張，消費者對品牌與功能的需求多元。需追蹤 Leasefiets 租賃模式對 Giant 與 Liv 騰售的實際影響，以及 Van Moof 導航功能對使用者黏著度的提升。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:43:29.803418+00:00",
+      "source_url": "https://www.bike-eu.com/subject/the-netherlands",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "8add8812531e0d25140e"
+      ],
+      "title": "平臺Group QQ039;s 腳踏車段損失6%的收入",
+      "summary": "【媒體公開簡介整理，非全文摘要】The Platform Group’s (TPG) Freight Goods segment, which includes its bicycle and furniture platforms, reported a 6% YoY decline in revenue for the first nine months of 2026. Group net revenue rose 17% to EUR 622.7 million.",
+      "observation": "The decline in the bicycle‑related Freight Goods segment suggests a potential slowdown in demand or increased competition. Tracking future quarterly reports and market share data will clarify whether this is a temporary dip or a longer‑term trend. No evidence of new orders or capacity changes is provided in the brief.",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_excerpt",
+      "evidence_type": "publisher_excerpt",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:43:45.460706+00:00",
+      "source_url": "https://www.bike-eu.com/subject/the-platform-group",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "0164651e5f914f8acdb7"
+      ],
+      "title": "福克斯工廠的銷售額在Marucci銷售和機車脫產時下降了10.1%。",
+      "summary": "Fox Factory Holding Corp. 在 2026 年第三季報告淨銷售額下降 10.1%，至 3.384 億美元（約 2.943 億歐元）。跌幅主要因 Marucci 之售出及美國市場自行車庫存減少。公司同時錄得 1.096 億美元（約 9530 萬歐元）的淨虧損。",
+      "observation": "此報告顯示 Fox Factory 在美國市場面臨銷售下滑，可能與 Marucci 產品線變動及市場庫存管理相關。需追蹤其後續財報及庫存調整策略，以評估是否為短期波動或長期趨勢。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-21T00:44:00.827577+00:00",
+      "source_url": "https://www.bike-eu.com/subject/united-states",
       "confidence": "高"
     }
   ]
