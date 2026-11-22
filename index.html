@@ -90,6 +90,16 @@ function link(text,url,external){
 }
 function twDateTime(s){if(!s)return "日期未確認";const d=new Date(s);return isNaN(d)?"日期未確認":d.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false})}
 function date(s){if(!s)return '日期未確認';const d=new Date(s);return isNaN(d)?'日期未確認':d.toLocaleDateString('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'})}
+function displayTitle(x){
+ // Original Chinese headlines are authoritative. Never prefer a corrupted
+ // machine-translated title generated from a wrongly tagged "en" source.
+ const original=x.title||'';
+ const han=(original.match(/[\u4e00-\u9fff]/g)||[]).length;
+ if(han>=2&&!/[\u3040-\u30ff]/.test(original))return original;
+ const translated=x.title_zh||'';
+ if(/[{}\\]/.test(translated)||/^[-=]{8,}$/.test(translated))return original;
+ return translated||original;
+}
 function original(x){
  const url=x.source_url||x.url||'';
  try{const parsed=new URL(url),host=parsed.hostname.toLowerCase();
@@ -147,7 +157,7 @@ function renderFocus(){
   if(entry.sources.length===1)topRight.append(link(sourceName(first)+' · 原文',original(first),true));
   head.append(topRight);card.append(head);
   appendTags(card,{region:first.region,industries:[sector],topic:first.topic});
-  card.append(node('h3',entry.title));
+  card.append(node('h3',(entry.sources.length===1?displayTitle(first):entry.title)));
   card.append(node('div','摘要','insight-label'),node('p',entry.summary));
   card.append(node('div','觀察重點','insight-label'),node('p',entry.observation,'insight-observation'));
   if(entry.sources.length>1){
@@ -185,7 +195,7 @@ function renderWatch(){
   const insight=(insights.items||[]).find(entry=>(entry.article_ids||[]).includes(x.id)&&entry.observation);
   const box=node('article',undefined,'watch-card');
   const head=node('div',undefined,'watch-top');
-  const title=node('strong',group.items.length>1?group.title:(x.title_zh||x.title));
+  const title=node('strong',group.items.length>1?group.title:(displayTitle(x)));
   head.append(title,node('span',sourceName(x)+' · '+date(x.published_at),'mini'));
   const layout=node('div',undefined,'watch-layout'+(insight?' has-observation':''));
   const main=node('div',undefined,'watch-main');main.append(head);appendTags(main,x);
@@ -202,7 +212,7 @@ function renderWatch(){
    const links=node('div',undefined,'related-links');
    for(const article of group.items){
      const row=node('div',undefined,'related-source');
-     row.append(link((article.title_zh||article.title)+' · '+sourceName(article),original(article),true));
+     row.append(link((displayTitle(article))+' · '+sourceName(article),original(article),true));
      row.append(node('span',date(article.published_at),'mini'));
      links.append(row);
    }
@@ -234,7 +244,7 @@ function renderArchive(){
   if(group.items.length===1)meta.append(node('span',sourceName(x),'mini'));
   row.append(meta);
   const h=node('h3');
-  if(group.items.length===1)h.append(link(x.title_zh||x.title,original(x),true));
+  if(group.items.length===1)h.append(link(displayTitle(x),original(x),true));
   else h.textContent=group.title;
   row.append(h);appendTags(row,x);
   if(group.items.length>1){
