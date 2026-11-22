@@ -32,12 +32,19 @@ THEMES=[
  ("handtools-market","台灣手工具與水五金市場",("手工具","水五金","五金工具"),"手工具"),
 ]
 
+def display_title(item):
+    original=item.get("title") or ""
+    # Never choose a machine translation for an already-Chinese headline.
+    if len(re.findall(r"[\u4e00-\u9fff]",original))>=2 and not re.search(r"[\u3040-\u30ff]",original):
+        return original
+    return item.get("title_zh") or original or "未命名事件"
+
 def event_key(item):
     """Only content-confirmed identical reports have already been deduplicated.
     Never merge separate developments merely because they concern oil,
     robots, steel, or other shared industry themes.
     """
-    return "article-"+item["id"],item.get("title_zh") or item.get("title") or "未命名事件"
+    return "article-"+item["id"],display_title(item)
 
 def summary_preview(item, limit=175):
     summary=item.get("summary_zh","")
@@ -77,11 +84,11 @@ def main():
         if not reliable:
             continue
         lead=reliable[0]
-        titles=[x.get("title_zh") or x.get("title") for x in items]
+        titles=[display_title(x) for x in items]
         sectors=[s for s in SECTORS if any(s in x.get("industries",[]) for x in items)]
         events.append({
             "id":key,
-            "title":names[key] if len(items)>1 else (lead.get("title_zh") or lead.get("title")),
+            "title":names[key] if len(items)>1 else (display_title(lead)),
             "sector":sectors[0] if sectors else "總體情勢",
             "sectors":sectors,
             "preview":summary_preview(lead),
