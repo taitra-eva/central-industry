@@ -41,14 +41,17 @@ def main():
     entries = data.get("items", [])
     # Repair old records created when an erroneous "en" hint caused
     # already-Chinese headlines to be translated again.
+    repaired=0
     for article in entries:
         title=article.get("title","")
         if len(re.findall(r"[\u4e00-\u9fff]",title))>=2 and not re.search(r"[\u3040-\u30ff]",title):
             if article.get("translation_method")=="argos_offline_machine_translation":
                 article.pop("title_zh",None)
                 article.pop("translation_method",None)
+                repaired+=1
             if article.get("language_hint") in ("en","zh"):
                 article.pop("language_hint",None)
+                repaired+=1
     raw_file = ROOT / ".article_texts.json"
     source_texts = json.loads(raw_file.read_text(encoding="utf-8")) if raw_file.exists() else {}
     needed = set()
@@ -58,6 +61,9 @@ def main():
         if x.get("excerpt") and not x.get("excerpt_translation_zh") and (lang := language(x["excerpt"])):
             needed.add(lang)
     if not needed and not source_texts:
+        if repaired:
+            DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+            print("Repaired Chinese title fields:",repaired)
         print("No foreign items or source bodies to translate")
         return
     installed = {(p.from_code,p.to_code) for p in argostranslate.package.get_installed_packages()}
