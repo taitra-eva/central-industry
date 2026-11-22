@@ -31,6 +31,12 @@ confidence: 高/中/低，按原文清晰度判斷。
 嚴禁將合作備忘錄視為已下單；嚴禁憑標題推算營收或訂單。不可照抄原文大段內容。若只有簡介，只能摘要簡介明確提到的事實；不得聲稱已閱讀全文，不能推論簡介沒有記載的訂單、產能、成本、影響或因果。觀察重點須說明可追蹤的面向與資料限制，必要時直接說證據不足。
 """
 
+def display_title(article):
+    original=article.get("title") or ""
+    if len(re.findall(r"[\u4e00-\u9fff]",original))>=2 and not re.search(r"[\u3040-\u30ff]",original):
+        return original
+    return article.get("title_zh") or original
+
 def main():
     texts=json.loads(TEXTS.read_text(encoding="utf-8")) if TEXTS.exists() else {}
     if not KEY:
@@ -68,7 +74,7 @@ def main():
         article=byid[identifier]
         label=("已讀取的公開新聞正文" if kind=="publisher_body" else
                "媒體官方 RSS 或新聞列表公開簡介，非新聞全文")
-        prompt=("新聞標題："+(article.get("title_zh") or article.get("title") or "")+
+        prompt=("新聞標題："+(display_title(article))+
                 "\n媒體："+article.get("source","")+
                 "\n資料類型："+label+
                 "\n原始來源網址："+(article.get("source_url") or article.get("url") or "")+
@@ -110,7 +116,7 @@ def main():
                 sector=article.get("industries",["總體情勢"])[0]
             if kind=="publisher_excerpt":
                 summary="【媒體公開簡介整理，非全文摘要】"+summary
-            record={"article_ids":[identifier],"title":article.get("title_zh") or article.get("title"),
+            record={"article_ids":[identifier],"title":display_title(article),
                     "summary":summary,"observation":observation,"observation_type":"觀察重點",
                     "method":"groq_llm_from_publisher_body" if kind=="publisher_body" else "groq_llm_from_publisher_excerpt",
                     "evidence_type":kind,"model":MODEL,

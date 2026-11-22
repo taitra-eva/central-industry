@@ -61,6 +61,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Check original Chinese news title preservation (offline)
+        run: python scripts/test_chinese_titles.py
       - name: Validate Chinese-only Bing article resolution code
         run: python -m py_compile scripts/backfill_chinese.py scripts/read_articles.py scripts/generate_ai_insights.py
       - name: Bing search only existing unsummarized Chinese news; verify original publisher bodies
@@ -89,6 +91,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Check original Chinese news title preservation (offline)
+        run: python scripts/test_chinese_titles.py
       - name: Validate six-sector entity matching before collection
         run: |
           python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
@@ -127,6 +131,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Check original Chinese news title preservation (offline)
+        run: python scripts/test_chinese_titles.py
       - name: Read free public publisher articles
         run: python scripts/read_articles.py
       - name: Translate titles and verified source excerpts offline
@@ -161,6 +167,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Check original Chinese news title preservation (offline)
+        run: python scripts/test_chinese_titles.py
       - name: Validate six-sector entity matching before collection
         run: |
           python -m py_compile scripts/industry_entities.py scripts/collect_direct.py scripts/collect_html.py scripts/collect.py scripts/select_daily.py
