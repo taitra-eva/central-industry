@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T00:44:15.827723+00:00",
+  "updated_at": "2026-11-22T00:31:49.689479+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -884,6 +884,81 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-21T00:44:00.827577+00:00",
       "source_url": "https://www.bike-eu.com/subject/united-states",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "5e3b9126dd97ead0131b"
+      ],
+      "title": "{\\fn黑體\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}別這樣!",
+      "summary": "行政院長卓榮泰於今日召開財經首長會議，針對台股連續下挫及國安基金第10次護盤，指示財政部關注產業資金流動、強化企業融資與信用保證，並要求金管會持續掌握市場秩序、提出妥適因應措施。會議亦討論經濟部對AI基礎建設及半導體產業的長期發展趨勢，並報告今年前10月台灣出口總額已超過7500億美元、外銷訂單金額超過9400億美元，顯示出口動能強勁。",
+      "observation": "此新聞主要說明政府為穩定資本市場所採取的多項金融與產業支持措施，並提及AI與半導體等關鍵產業的營運動能。觀察重點應追蹤國安基金與金管會限空措施的實際效果、企業融資需求變化，以及AI基礎建設投資對產業轉型的具體影響。證據不足以評估這些措施對股市長期走勢或產業結構的直接影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-22T00:30:32.003724+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261121700596-430101",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "c7e6c5ff501d95fca2b2"
+      ],
+      "title": "時間:",
+      "summary": "台灣中油公司於11月23日至29日宣布汽柴油價格維持不調整，並於23日起至29日止不再調價。自2月28日至11月22日，透過專案平穩措施，汽柴油合計吸收約新台幣357.3億元。11月23日至29日各式油品參考零售價格為：92無鉛汽油31.2元/公升、95無鉛汽油32.7元/公升、98無鉛汽油34.7元/公升、超級柴油29.9元/公升。中油表示，為照顧民生與平穩物價，政府擴大貨物稅減徵，汽、柴油分別吸收3.7元及2.1元，並於23日至29日再加碼吸收2.2元及3.6元，合計汽、柴油各共吸收5.9元及5.7元。",
+      "observation": "此公告顯示中油已持續透過吸收成本方式維持油價穩定，並將持續監測國際油價與政經情勢。觀察重點應追蹤未來是否有進一步調價或擴大吸收措施，以及政府貨物稅減徵政策是否持續。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-22T00:30:47.745139+00:00",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611210162.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "d681fdee8138aebbc91f"
+      ],
+      "title": "154 億",
+      "summary": "經濟部自112年起推動「智慧化製造核心關鍵技術研發計畫」，三年內完成逾千案技術移轉及廠商服務，金額約9.44億元，並促成企業投資金額逾新台幣154億元。與大君鴻科技合作開發的五軸工具機已取得德國業者30台訂單，預估可創造約4.5億元產值。計畫聚焦國產高階工具機關鍵零組件、智慧化控制及軟硬體整合，並推動智慧工廠數位化需求。",
+      "observation": "此新聞顯示政府投資智慧製造及高階工具機研發，已帶來實際訂單與產值創造。觀察重點應追蹤：1) 154億元投資的具體落實情形及回報率；2) 大君鴻工具機在半導體腔體加工市場的市場佔有率與後續訂單；3) 其他參與廠商（如中鋼、巧新等）在高階工具機及電動車零組件領域的投資進度與效益。證據不足於說明投資是否已轉化為長期產能提升或技術自主化程度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-22T00:31:03.589900+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "a060d5279c7db01ee487"
+      ],
+      "title": "雷虎科技董事長陳冠如:無人機非藝術品.",
+      "summary": "雷虎科技董事長陳冠如在中央社專訪中指出，無人機在現代戰爭中已成為消耗品，重點在於大量低成本生產而非追求完美。公司已取得美國Blue UAS Cleared 認證，進入美國國防部DDP採購計畫，並與美國AI軍工企業Shield AI簽署合作備忘錄，將其自主化軟體整合至雷虎海鯊號無人艇。陳冠如強調台灣在「非紅供應鏈」中的重要角色，並呼籲台灣軍購標案應提升透明度，參考美國標案做法。",
+      "observation": "陳冠如的說法顯示雷虎正聚焦於低成本、大量生產的無人機，並已取得美國資安與軍規認證，證明其產品符合美國軍方標準。此舉可能提升台灣無人機產業在美國市場的競爭力，但目前尚未證實實際訂單數量，需追蹤美國DDP後續階段的訂單進度與台灣國防部採購情形。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-22T00:31:19.205122+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611210032.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "87727143c760efdf8444"
+      ],
+      "title": "2026年 781年 億元",
+      "summary": "印度航空（Air India）於2026財政年度已累積虧損超過2200億盧比，約合新台幣781億元。主要因燃油價格飆升、巴基斯坦空域限制及供應鏈問題，導致營運成本上升。公司正考慮與旗下低成本航空印度快運航空（Air India Express）加強合作，以改善獲利情況。",
+      "observation": "此新聞顯示印度航空面臨嚴重財務壓力，可能影響其未來營運方針與投資決策。觀察重點應追蹤：燃油價格變動對航空業成本的長期影響、空域限制對國際航線的具體影響、以及與印度快運航空合作的實際成效。證據不足以判斷此合作是否已成為正式訂單或已產生實際收益。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-22T00:31:34.689346+00:00",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611210025.aspx",
       "confidence": "高"
     }
   ]

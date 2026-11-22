@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-21T00:44:16.262570+00:00",
+  "generated_at": "2026-11-22T00:31:50.114298+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 143,
-  "readable_total": 47,
+  "articles_total": 150,
+  "readable_total": 52,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 51,
-      "readable": 9
+      "articles": 58,
+      "readable": 13
     },
     {
       "name": "機械與金屬加工",
-      "articles": 16,
-      "readable": 11
+      "articles": 17,
+      "readable": 12
     },
     {
       "name": "自行車",
@@ -21,8 +21,8 @@
     },
     {
       "name": "汽配",
-      "articles": 8,
-      "readable": 5
+      "articles": 9,
+      "readable": 6
     },
     {
       "name": "手工具",
@@ -31,11 +31,96 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 49,
-      "readable": 12
+      "articles": 50,
+      "readable": 13
     }
   ],
   "events": [
+    {
+      "id": "article-5e3b9126dd97ead0131b",
+      "title": "{\\fn黑體\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}別這樣!",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "台股連番重挫，為穩定國內資本市場，行政院長卓榮泰今天召集財經首長舉行會議時指示財政部關注產業資金流動情形，強化企業融資、信用保證支持及國安基金安定市場力道，同時也要求金管會須針對穩定市場提出妥適因應措施。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "5e3b9126dd97ead0131b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-21T14:38:55+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-c7e6c5ff501d95fca2b2",
+      "title": "時間:",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "（中央社記者曾筠庭台北21日電）台灣中油公司今天表示，為平穩物價及照顧民生，自23日凌晨零時起至11月29日晚上12時止，汽、柴油價格維持不調整；自2月28日至11月22日執行專案平穩各項措施期間，汽、柴油合計擴大吸收約新台幣357.3億元。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "c7e6c5ff501d95fca2b2"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-21T09:15:49+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-d681fdee8138aebbc91f",
+      "title": "154 億",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "（中央社記者曾筠庭台北21日電）為支持國內產業提升高階設備及智慧製造技術能量，經濟部自112年起推動「智慧化製造核心關鍵技術研發計畫」，3年內累計完成逾千案技術移轉及廠商服務，金額約9.44億元，並促成企業投資金額逾新台幣154億元。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d681fdee8138aebbc91f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-21T01:54:22+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-a060d5279c7db01ee487",
+      "title": "雷虎科技董事長陳冠如:無人機非藝術品.",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "（中央社記者潘智義台北21日電）俄烏戰爭自2022年2月開打迄今已逾4年半，傳統兵力交鋒逐步淡去，無人機長程攻擊成為延續戰局的主角。無人機製造商雷虎科技董事長陳冠如思考產業發展趨勢表示，除近年看到的非紅供應鏈商機外，現在更深刻感受無人機「消耗戰」的龐大需求。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "a060d5279c7db01ee487"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-21T00:50:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-87727143c760efdf8444",
+      "title": "2026年 781年 億元",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社記者李晉緯新德里20日專電）印度航空（Air India）正面臨燃油價格飆升等問題帶來的挑戰，讓該公司2026財政年度已虧損超過2200億盧比（約新台幣781億元）。 印度經濟時報（Economic Times）指出，印度航空目前正面臨巨大的財務壓力，2026財政年度累積超過2200億盧比，這可能會影響未來營運方針。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "87727143c760efdf8444"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-21T00:26:45+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-e5423be782c6f975b68b",
       "title": "6,076",
@@ -210,8 +295,9 @@
     {
       "id": "article-9deb5e1b3b226d885c8b",
       "title": "=======================================================================================================================================================================================",
-      "sector": "機械與金屬加工",
+      "sector": "總體情勢",
       "sectors": [
+        "總體情勢",
         "機械與金屬加工"
       ],
       "preview": "路透報導，歐盟在調查認定，來自台灣、日本、越南、印度及土耳其的冷軋扁鋼產品，在歐盟市場以不公平的低價銷售後，17日起對這些鋼材課徵最高27.9%的反傾銷關稅，台灣的稅率介於20.7%-27%之間。",
@@ -227,8 +313,9 @@
     {
       "id": "article-436574530ebeed8e6918",
       "title": "校對:Soup",
-      "sector": "機械與金屬加工",
+      "sector": "總體情勢",
       "sectors": [
+        "總體情勢",
         "機械與金屬加工"
       ],
       "preview": "針對歐盟對以中鋼（2002）為主的台灣冷軋扁鋼進口產品課徵反傾銷關稅，中鋼表示，將採「多元去化」策略降低影響，轉向包括南韓、中美洲的巴西、阿根廷，以及非洲等地積極開發新客源。",
