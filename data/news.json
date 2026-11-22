@@ -1,9 +1,132 @@
 {
-  "updated_at": "2026-11-21T00:14:26.155241+00:00",
+  "updated_at": "2026-11-22T00:04:36.629253+00:00",
   "status": "ok",
   "sources_checked": 24,
   "sources_successful": 24,
   "items": [
+    {
+      "id": "5e3b9126dd97ead0131b",
+      "title": "限空令擋不住台股跌勢！卓榮泰提4點裁示 國安基金強化穩市、央行緊盯匯率",
+      "url": "https://www.ctee.com.tw/news/20261121700596-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261121700596-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-21T14:38:55+00:00",
+      "discovered_at": "2026-11-22T00:03:38.562975+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "匯率與出口競爭力",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "台股連番重挫，為穩定國內資本市場，行政院長卓榮泰今天召集財經首長舉行會議時指示財政部關注產業資金流動情形，強化企業融資、信用保證支持及國安基金安定市場力道，同時也要求金管會須針對穩定市場提出妥適因應措施。 因應股市波動，政府祭出多道措施，包含國安基金6日宣布啟動史上第10次護盤，金管會當天也說明要祭出限空5大措施，隨後金管會又在19日宣布第2波限空令新措施，但台股20日仍重挫，最終收在36033",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "c7e6c5ff501d95fca2b2",
+      "title": "中油：23日起汽柴油價格維持不調整",
+      "url": "https://www.cna.com.tw/news/ahel/202611210162.aspx",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611210162.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-21T09:15:49+00:00",
+      "discovered_at": "2026-11-22T00:03:38.562975+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社記者曾筠庭台北21日電）台灣中油公司今天表示，為平穩物價及照顧民生，自23日凌晨零時起至11月29日晚上12時止，汽、柴油價格維持不調整；自2月28日至11月22日執行專案平穩各項措施期間，汽、柴油合計擴大吸收約新台幣357.3億元。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "1f57c21e9dacda773801",
+      "title": "Updates on the evolving tariff landscape for pharmaceutical and medical device companies - PwC",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYl9YTmtiX3NGZ194OHZsblVEenZxN1hUYjhyZ2V3cE5pV25fY0x4bnBKNzB3WHhWUlhlNU5vSW5nd3pCS2VTblM2dlFCdWU1ZC1aQXI3UEdlTU45OThMQ3RfREduc2ZFdk1PRXpQRnhyaUp2c3RTaF83ZExBZ3Q2TjBuQ2FvQ0ZOZkgycWlQcUZiUXBaYm91NUJXRXM0UGtwMmhoSDBPOW5IQ1dUbFRTQw?oc=5",
+      "source": "PwC",
+      "published_at": "2026-11-21T02:57:34+00:00",
+      "discovered_at": "2026-11-22T00:04:36.629253+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "d681fdee8138aebbc91f",
+      "title": "智慧製造研發計畫促投資逾154億　經部助攻高階工具機自主化",
+      "url": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-21T01:54:22+00:00",
+      "discovered_at": "2026-11-22T00:03:38.562975+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社記者曾筠庭台北21日電）為支持國內產業提升高階設備及智慧製造技術能量，經濟部自112年起推動「智慧化製造核心關鍵技術研發計畫」，3年內累計完成逾千案技術移轉及廠商服務，金額約9.44億元，並促成企業投資金額逾新台幣154億元。其中，與大君鴻科技公司合作開發的五軸工具機切入半導體腔體加工市場，已取得德國業者30台訂單，預估可創造約4.5億元產值。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "a060d5279c7db01ee487",
+      "title": "雷虎科技董事長陳冠如：無人機非藝術品　消耗戰須具大量生產能力【專訪】",
+      "url": "https://www.cna.com.tw/news/afe/202611210032.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611210032.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-21T00:50:00+00:00",
+      "discovered_at": "2026-11-22T00:03:38.562975+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社記者潘智義台北21日電）俄烏戰爭自2022年2月開打迄今已逾4年半，傳統兵力交鋒逐步淡去，無人機長程攻擊成為延續戰局的主角。無人機製造商雷虎科技董事長陳冠如思考產業發展趨勢表示，除近年看到的非紅供應鏈商機外，現在更深刻感受無人機「消耗戰」的龐大需求。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "87727143c760efdf8444",
+      "title": "燃油價格飆升、空域受限　印度航空2026財年虧損逾781億元",
+      "url": "https://www.cna.com.tw/news/aopl/202611210025.aspx",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611210025.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-21T00:26:45+00:00",
+      "discovered_at": "2026-11-22T00:03:38.562975+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社記者李晉緯新德里20日專電）印度航空（Air India）正面臨燃油價格飆升等問題帶來的挑戰，讓該公司2026財政年度已虧損超過2200億盧比（約新台幣781億元）。",
+      "publisher_excerpt_source": "official_rss"
+    },
     {
       "id": "e5423be782c6f975b68b",
       "title": "6,076億元追加預算過關 油價、民生電價凍漲到2028年1月底",
@@ -73,6 +196,24 @@
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "機器工具製造者尋求3 000克羅爾基金,以減少對進口的依賴----商業標準",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "fba833071860b350e2f5",
+      "title": "Trump–Putin–Xi Summit 2026: Global Trade, Ukraine War and India Impact - SMEStreet",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNE5vcUpUYWFYOVJtdWxnMldHeTUtTWJMYXhrM3ZaTUh0WE9fVXhBdUI2ZW1hQV8wOGlCUFhqNmpHMWZmOEdlNTBuZXJhZm1jNGE4Y0xoXzRvY24zcnFoTDVqQXQ1VThWbmI3cV9OakpXNmJ1Vmtxa20tNkd0UWpKU1FVdVBhRzg0bkVIR3JLT3RsX3EwNXhkd1NzQ1NpTG5hZmtSeThB0gGmAUFVX3lxTE00Tm9xSlRhYVg5Um11bGcyV0d5NS1NYkxheGszdlpNSHRYT19VeEF1QjZlbWFBXzA4aUJQWGo2akcxZmY4R2U1MG5lcmFmbWM0YThjTGhfNG9jbjNycWhMNWpBdDVVOFZuYjdxX05qSlc2YnVWa3FrbS02R3RRakpTUVV1UGFHODRuRUhHcktPdGxfcTA1eGR3U3NDU2lMbmFma1J5OEE?oc=5",
+      "source": "SMEStreet",
+      "published_at": "2026-11-20T05:31:12+00:00",
+      "discovered_at": "2026-11-22T00:04:36.629253+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "3790e57c8c1f01b30230",
@@ -1106,7 +1247,8 @@
       "published_at": "2026-11-17T18:23:26+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "tags": [],
       "priority": "international",
@@ -1134,7 +1276,8 @@
       "published_at": "2026-11-17T18:22:27+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "tags": [],
       "priority": "international",
@@ -1538,7 +1681,8 @@
       "published_at": "2026-11-16T15:48:03+00:00",
       "discovered_at": "2026-11-21T00:13:25.518926+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "tags": [],
       "priority": "international",
