@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T00:31:49.689479+00:00",
+  "updated_at": "2026-11-23T00:39:55.235350+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -959,6 +959,141 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-22T00:31:34.689346+00:00",
       "source_url": "https://www.cna.com.tw/news/aopl/202611210025.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "69718566f324d42da4e5"
+      ],
+      "title": "台塑化：23日起汽柴油價格維持不變",
+      "summary": "台塑石化於9月22日公告，從11月23日凌晨1時起，92無鉛汽油每公升31.2元、95+無鉛汽油每公升32.7元、98無鉛汽油每公升34.7元、超級柴油每公升29.7元，價格維持不變。此為自9月13日宣布9月14日調漲汽油價格以來，連續10週未調整油價。",
+      "observation": "台塑石化維持油價不變，顯示其對市場需求與成本變動的敏感度。觀察未來是否因原油價格波動或政策調整而改變定價策略，並追蹤其對加盟加油站營收與消費者行為的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:37:34.706932+00:00",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611220086.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "2f1137374312857d3b70"
+      ],
+      "title": "多路機器人在2026年CEMAT亞洲展示輪式人機和自主叉車",
+      "summary": "Multiway Robotics於2026年11月3日至6日在上海CeMAT Asia展示五款自主物流解決方案，其中包括可載重30公斤的H01輪式人形機器人，具備雙臂協作功能，能在倉儲與製造環境中進行托盤搬運。其餘產品包括MW‑O15全向側載機（最大載重8,000公斤）、MW‑K16極窄巷道叉車（巷道寬度1.75米、最高升高16.5米）、MW‑CT15自動托盤車（1.5噸載重）以及MW‑SE15平衡叉車（可精準堆疊六層、控制誤差5毫米）。公司亦推出MW‑RCS、MW‑WCS、MW‑WMS等軟體平台，整合機器人與倉儲管理系統。",
+      "observation": "此新聞主要說明Multiway Robotics在CeMAT Asia的產品展示，涵蓋輪式人形機器人與多種自主叉車，並提及其軟體整合方案。觀察重點應追蹤：1) 產品在實際倉儲環境中的試用與客戶採用情況；2) 軟體平台與第三方倉儲系統的兼容性；3) 產品在不同國家市場的銷售與服務網絡。由於新聞僅描述展示與技術規格，缺乏訂單或營收數據，故無法評估即時市場影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:37:50.610278+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/multiway-robotics-showcases-wheeled-humanoid-and-autonomous-forklifts-at-cemat-asia-2026/107492/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "d1936860ddef803e4bc2"
+      ],
+      "title": "從GTA 6到機器人戰鬥:人類戰鬥聯賽準備墨爾本首演",
+      "summary": "澳洲機器人戰鬥聯賽（HFC）將於2027年2月20日在墨爾本Margaret Court Arena舉行首場比賽，參賽機器人為EngineAI T800等人形機器人，將由人類操縱進行對戰。比賽分為12隊、六場比賽，包含無武器單挑、配備武器的雙人對決以及最後一戰。HFC計畫在九個國家舉辦12場活動，並透過門票、贊助、廣播及周邊商品創造商業收益。",
+      "observation": "此新聞顯示人形機器人競技可能成為新興觀眾體育，對機械耐久、動作控制及平衡系統的展示具有實際應用價值。觀察重點包括：1) 競賽規則與評分標準是否能促進技術進步；2) 觀眾接受度與票務銷售情況；3) 產業鏈上機器人製造商的參與度與品牌曝光。可能需要追蹤後續比賽結果、觀眾數據及媒體報導，以評估此類競技對台灣機器人產業的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:38:06.367621+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/from-gta-6-to-robot-fighting-humanoid-combat-league-prepares-for-melbourne-debut/107481/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "aeb5abdfa967e4242717"
+      ],
+      "title": "機器人投資將在2026年達到607億美元,",
+      "summary": "全球機器人投資預計於2026年達到607億美元，主要集中於少數大型公司。F-Prime Capital的《State of Robotics 2026》報告指出，至2026年9月已籌集約507億美元，其中約84％來自25筆250萬美元以上的大額投資，並排除Waymo 160億美元與Anduril 50億美元交易。美洲佔約80％投資，機器人類型包括人形機器人、AI基礎模型及工業機器人。自動駕駛與垂直機器人分別預計吸引約187億美元與252億美元投資。雖然私募投資創紀錄，上市機器人公司股價普遍下跌，且收購機會有限。報告警示投資估值可能超前於商業成效，強調營收為關鍵。",
+      "observation": "報告顯示投資高度集中於少數大型投資，且美洲市場主導，可能影響台灣機器人企業的資金獲取與市場進入。人形機器人與自動駕駛領域投資激增，顯示技術創新與應用需求上升，但同時上市公司表現不佳，提示投資風險。應追蹤台灣相關企業在這些高投資領域的技術進展、資金來源與營收成長，並關注SPAC再興的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:38:22.073100+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "8a142c6944ecf9ffe662"
+      ],
+      "title": "Nvidia 擴充套件艾薩克機器人平臺 新的人造物和AI開發工具",
+      "summary": "Nvidia 在 GTC Berlin 公布擴充其 Isaac 機器人開發平台，新增模擬框架、AI 訓練工具、資料集及一款參考人形機器人 Agile ONE SN。Agile ONE SN 高 1.4 公尺、重 40 公斤、31 個自由度，雙手各 20 個自由度，具觸覺感測與力控。平台將於 2027 年初上市。Nvidia 亦推出 Isaac OS 運行時框架、Isaac Lab 3.0、SimReady Central Library（超過 2,000 個模擬資產）及 Human 1M 資料集。多家歐洲機器人製造商（ABB、Kuka、Sereact、Neura Robotics 等）已整合 Nvidia 技術，並報告模擬開發可將委託時間縮減 50%。",
+      "observation": "此公告顯示 Nvidia 正加速推廣開源機器人平台，並與多家歐洲製造商合作。觀察重點應追蹤：1) Agile ONE SN 於 2027 年上市後的市場接受度與實際應用案例；2) Isaac Lab 3.0 與 Isaac OS 在實際工業環境中的部署效能；3) 相關歐洲企業整合後的成本節省與開發周期縮短數據。證據不足於說明此擴充是否已產生實際訂單或營收影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:38:37.682545+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "468bf06a280d9c322e6d"
+      ],
+      "title": "Schunk 附帶產品 Tactilia 機器人的發射, 以開發有彈性的機器人手",
+      "summary": "Schunk 已將其人形機器人子公司重新命名為 Tactilia Robotics，並在慕尼黑成立獨立公司，專注於開發模組化機器人手，目標應用於工業自動化。公司成立於 2026 年 1 月，產品設計可在製造與物流環境中處理多種物件，並可適用於人形機器人、協作機器人及移動操作器。Tactilia 以機械工程、感測器、致動器、軟體與物理 AI 結合，打造具備人類靈巧度的機器人手，並強調易於整合與持續運作。CEO Markus Netzer 於 2026 年 11 月 1 日上任，並表示希望此技術來自歐洲。公司將繼續利用 Schunk 的抓取與自動化專業知識，並可進入全球 15 個 CoLabs 進行測試與開發。",
+      "observation": "Tactilia 的模組化機器人手設計可跨平台使用，可能為工業自動化帶來更靈活的抓取解決方案。觀察重點包括：1) 技術成熟度與實際工業環境的可靠性；2) 與現有機器人平台的整合難易度；3) 進入市場的時間表與潛在客戶需求。由於目前僅有公司成立與技術概念說明，尚無實際產品測試數據或客戶訂單，故需持續追蹤其開發進度與市場反應。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:38:53.323762+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/schunk-spin-off-tactilia-robotics-launches-to-develop-dexterous-robot-hands/107466/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "26274793bb443a1c49f7"
+      ],
+      "title": "創世紀AI募集5億美元規模通用機器人",
+      "summary": "Genesis AI 於 2026 年 11 月 22 日宣布完成 5 億美元 A 系列融資，估值 35 億美元，主要用於擴大其通用機器人 Eno 的產能、數據收集與 AI 訓練。投資方包括 Premji Invest、Khosla Ventures、Eclipse、Durable Capital Partners、T. Rowe Price、Bpifrance、HSG、Nvidia、AMD Ventures、Zoom、Samsung Next、Ericsson，以及個人投資者 Eric Schmidt、Eric Yuan、Jerry Yang、Zach Kirkhorn。Genesis 正在自行開發硬體、AI 模型、模擬平台 GENE 與 Genesis World，並已研發機械手與數據收集手套，以提升機器人操控與學習效率。公司計畫將 Eno 先行推向製造、物流與實驗室應用，未來將進軍酒店、醫療等領域。",
+      "observation": "此融資將使 Genesis AI 能加速 Eno 的量產與 AI 訓練，並擴大至多個產業應用。觀察重點包括：1) 產能擴張是否能滿足製造與物流需求；2) GENE 與 Genesis World 的模擬效能對實際操作的影響；3) 進入醫療與酒店等高規範領域的合規與安全挑戰。需持續追蹤公司在 2027 年的產量、客戶案例與技術成熟度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:39:08.958320+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "bb07926e2f263d013f5b"
+      ],
+      "title": "修復機器人籌集了6 200萬美元,用於推進AI動力心血管手術機器人",
+      "summary": "Remedy Robotics（位於舊金山）於2026年11月22日宣布完成6200萬美元的B級融資，主要用於推進其AI驅動的N1心血管手術機器人。此輪投資由DCVC領投，並有UC Investments、Skip Capital、Hostplus等參與，原投資者Build Collective、Blackbird、Divergent Capital及KdT Ventures亦再度投資。資金將用於臨床試驗、監管審批及平台進一步開發，並計畫與加州大學合作進行關鍵臨床試驗以爭取FDA批准。N1系統結合機器人、機器學習與電腦視覺，可進行血管內手術，並正在研發自主操作功能。Remedy已與全球100多家醫院合作，並於2025年10月完成遠程神經介入手術示範。",
+      "observation": "此新聞顯示Remedy Robotics正積極推進AI心血管手術機器人技術，並已獲得大額資金支持。觀察重點包括：1) 監管審批進度與FDA批准時間表；2) 主要臨床試驗結果與安全性數據；3) 與加州大學合作的具體臨床試驗設計；4) 自主操作功能的成熟度與風險評估。需要追蹤的面向為臨床試驗進度、監管審批狀況及市場推廣策略。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:39:24.649696+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "cea9b5044369b237dd7b"
+      ],
+      "title": "Gobano機器人報告自主洗衣機器人成功率99.5%",
+      "summary": "Gobano Robotics 公布其自主洗衣機器人於法國 Henri Wartner Group 的試驗中，任務成功率達 99.5%。機器人負責重複性毛巾摺疊與檢查，能在數小時內自主運作，並在抓取失敗或毛巾位置異常時自動重啟流程。系統透過 Gobano 的 Toutatis 強化學習引擎，結合人類示範、工作模型與實際操作數據，日均產能提升約 5%。目前機器人雖達 68% 的人類產能，仍需人工補料、維護與處理例外情況。Gobano 目標擴大運作時間、提升產能並開發更多材料與工作流程的處理能力。",
+      "observation": "此案例顯示自主機器人可在柔性材料處理領域達高成功率，且強化學習能持續提升產能。觀察重點包括：1) 產能提升率與實際工時的關聯；2) 失敗重啟機制對生產線穩定性的影響；3) 未來擴充至其他材料或工作流程的可行性。需追蹤 Gobano 之後的產能數據、成本效益與在不同工廠環境的適應性。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-23T00:39:40.235225+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/",
       "confidence": "高"
     }
   ]

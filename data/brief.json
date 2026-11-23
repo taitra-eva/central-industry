@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T00:31:50.114298+00:00",
+  "generated_at": "2026-11-23T00:39:55.551845+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 150,
-  "readable_total": 52,
+  "articles_total": 159,
+  "readable_total": 61,
   "sectors": [
     {
       "name": "總體情勢",
@@ -11,8 +11,8 @@
     },
     {
       "name": "機械與金屬加工",
-      "articles": 17,
-      "readable": 12
+      "articles": 23,
+      "readable": 18
     },
     {
       "name": "自行車",
@@ -21,8 +21,8 @@
     },
     {
       "name": "汽配",
-      "articles": 9,
-      "readable": 6
+      "articles": 10,
+      "readable": 7
     },
     {
       "name": "手工具",
@@ -31,11 +31,28 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 50,
-      "readable": 13
+      "articles": 58,
+      "readable": 21
     }
   ],
   "events": [
+    {
+      "id": "article-69718566f324d42da4e5",
+      "title": "台塑化：23日起汽柴油價格維持不變",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "（中央社記者鍾榮峰台北22日電）台塑石化今天網站資料顯示汽油及柴油價格維持不變，是從9月13日宣布9月14日調漲汽油價格以來，連續10週未調整油價。 台塑石化網站公布加盟加油站11月23日凌晨1時起，參考零售價為92無鉛汽油每公升新台幣31.2元、95+無鉛汽油每公升32.7元、98無鉛汽油每公升34.7元、超級柴油每公升29.7元。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "69718566f324d42da4e5"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T05:48:43+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-5e3b9126dd97ead0131b",
       "title": "限空令擋不住台股跌勢！卓榮泰提4點裁示 國安基金強化穩市、央行緊盯匯率",
@@ -684,6 +701,148 @@
       "source_count": 1,
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
+    },
+    {
+      "id": "article-2f1137374312857d3b70",
+      "title": "多路機器人在2026年CEMAT亞洲展示輪式人機和自主叉車",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "多路機器人在上海Cemat Asia 2026展出5個自主材料處理解決方案,包括一個為靈活工業執行設計的輪式人造機器人. 展覽於11月3日至6日舉行,聚集了物流和自動化公司,展示製造,倉儲和內部物資運輸的技術. Multiway的排隊方式包括H01輪式人機、全方位側載貨機、窄軸叉車、自動托盤卡車和用於精確堆疊的平衡叉車。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "2f1137374312857d3b70"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T21:48:50+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-d1936860ddef803e4bc2",
+      "title": "從GTA 6到機器人戰鬥:人類戰鬥聯賽準備墨爾本首演",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "Grand Theft Auto VI的推出再次證明了電子遊戲的巨大文化影響. 但數百萬玩家在探索Rockstar Games最新虛擬世界的同時,另一種技術驅動的娛樂形式正在準備進入現實世界的體育競技場:人造機器人戰鬥. GTA 6於11月",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d1936860ddef803e4bc2"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T20:22:41+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-aeb5abdfa967e4242717",
+      "title": "機器人投資將在2026年達到607億美元,",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "全球機器人投資在2026年進入創紀錄的一年,預計資金將達到607億美元,不過根據風險資本公司F-Prime Capital的新報告,大部分增長集中在相對較少的公司. 該公司根據PitchBook資料及其自己的分析編寫的2026年機器人狀況報告表明,投資可以接近前四年的總和。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "aeb5abdfa967e4242717"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T20:11:05+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-8a142c6944ecf9ffe662",
+      "title": "Nvidia 擴充套件艾薩克機器人平臺 新的人造物和AI開發工具",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "Nvidia宣佈大規模擴充套件其Isaac機器人開發平臺,引入新的模擬框架,AI培訓工具,資料集和一個參考人造機器人,旨在加速通用機器人系統的發展. 這些公告在GTC柏林釋出,包括Agile ONE SN,Agile Robots開發的人類",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "8a142c6944ecf9ffe662"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T19:59:30+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-468bf06a280d9c322e6d",
+      "title": "Schunk 附帶產品 Tactilia 機器人的發射, 以開發有彈性的機器人手",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "Schunk更名為其人造機器人衍生Tactilia機器人公司,建立了一個以慕尼黑為基地的公司,專注於開發用於工業自動化應用的模組機器人手. 公司最初成立於2026年1月,名為Schunk Humanoid Robotics GmbH,正在開",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "468bf06a280d9c322e6d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T18:40:01+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-26274793bb443a1c49f7",
+      "title": "創世紀AI募集5億美元規模通用機器人",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "Genesis AI是一家在巴黎和加利福尼亞州運營的機器人公司,以35億美元的錢後估值方式籌集了5億美元A系列資金,以加速其通用機器人的發展和商業化. 籌資回合由Premji Invest、Khosla Ventures和Eclipse共同",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "26274793bb443a1c49f7"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T16:19:30+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-bb07926e2f263d013f5b",
+      "title": "修復機器人籌集了6 200萬美元,用於推進AI動力心血管手術機器人",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "修補機器人公司是一家位於舊金山的醫學機器人公司,它籌集了6200萬美元的B系列資金,以推進其AI驅動的N1系統,用於心血管和神經血管程式. 這筆資金將支援臨床試驗、管理審批工作以及機器人平臺的進一步發展,該平臺旨在透過現場、遠端和潛在的自主操作,使內血管程式成為可能。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "bb07926e2f263d013f5b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T16:05:23+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-cea9b5044369b237dd7b",
+      "title": "Gobano機器人報告自主洗衣機器人成功率99.5%",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "法國物理AI啟動Gobano Robotics表示,其自主機器人系統在亨利·沃特納集團(Henri Wartner Group)實現了99.5%的任務成功率,這是一家歷史長達150年的法國工業洗衣公司. 該公司的Gobano車站處理重複的毛",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "cea9b5044369b237dd7b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-22T15:56:51+00:00",
+      "taiwan_focus": false
     },
     {
       "id": "article-826f156c21d6444050dd",
