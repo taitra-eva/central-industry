@@ -70,7 +70,7 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 <div class="market-tile"><span>日圓 JPY／TWD</span><strong id="market-jpy">—</strong><small>臺銀即期買入・1 日圓</small></div>
 <div class="market-tile"><span>人民幣 CNY／TWD</span><strong id="market-cny">—</strong><small>臺銀即期買入・1 人民幣</small></div>
 <div class="market-tile market-oil"><div class="oil-main"><span>布蘭特原油 Brent</span><strong id="market-brent">—</strong><small>美元／桶・每日現貨價格</small></div><div class="oil-trend"><div class="oil-change"><span>較上週</span><b id="market-brent-week">—</b></div><div class="oil-change"><span>較上月</span><b id="market-brent-month">—</b></div></div></div>
-</div><div class="market-note"><span id="market-dates">尚無已驗證報價；不顯示推測數值。</span>　資料來源：<a href="https://rate.bot.com.tw/xrt?Lang=zh-TW" target="_blank" rel="noopener noreferrer">臺灣銀行</a>、<a href="https://fred.stlouisfed.org/series/DCOILBRENTEU" target="_blank" rel="noopener noreferrer">EIA／FRED（Brent 現貨）</a>。銀行匯率及原油價格均非即時交易報價。</div></div></section>
+</div><div class="market-note"><span id="market-dates">尚無已驗證報價；不顯示推測數值。</span>　資料來源：<a href="https://rate.bot.com.tw/xrt?Lang=zh-TW" target="_blank" rel="noopener noreferrer">臺灣銀行</a>、<a href="https://fred.stlouisfed.org/series/DCOILBRENTEU" target="_blank" rel="noopener noreferrer">EIA／FRED（Brent 現貨）</a>。銀行匯率及原油價格均非即時交易報價；官方匯率來源無法連線時，可能改採 <a href="https://app.haotool.org/ratewise/open-data/" target="_blank" rel="noopener noreferrer">HaoRate 公開同步資料</a>，並另行標示。</div></div></section>
 
 <main class="shell">
 <section class="section" id="focus"><div class="section-head"><div class="section-name"><span class="num">01</span><h2>焦點解讀</h2></div><small>INDUSTRY INTELLIGENCE & ANALYSIS</small></div><div class="focus-grid" id="focus-grid"><div class="empty">讀取重要事件中…</div></div></section>
@@ -288,6 +288,8 @@ async function loadMarket(){
   pct('market-brent-month',oil.change_month);
   const dates=[];
   if(fx.quote_time)dates.push('臺銀牌告：'+fx.quote_time+'（台灣時間）');
+  if(fx.provenance==='third_party_mirror_not_official_bank_api')
+   dates.push('匯率備援：HaoRate 同步臺銀資料（非官方 API）');
   else if(fx.fetched_at)dates.push('臺銀即期買入：擷取於 '+twDateTime(fx.fetched_at)+'（官方下載檔未提供掛牌時間）');
   if(oil.quote_date)dates.push('Brent 現貨：'+oil.quote_date+'（交易日）');
   if(Array.isArray(data.fetch_failed)&&data.fetch_failed.length){
