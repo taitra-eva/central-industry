@@ -21,6 +21,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CentralIndustryMarket/1.0)"}
 FX_URL = "https://rate.bot.com.tw/xrt?Lang=zh-TW"
 FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/fltxt/0/day"
 FX_CSV_URL = "https://rate.bot.com.tw/xrt/flcsv/0/day"
+FX_PUBLIC_MIRROR_URL = "https://raw.githubusercontent.com/haotool/app/data/public/rates/latest.json"
 BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU"
 BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
@@ -146,6 +147,42 @@ def parse_fx_csv(contents):
             "timestamp_status":"official_download_has_no_quote_time",
             "source_url":FX_CSV_URL,"currency":"TWD","rates":rows}
 
+
+def parse_fx_verified_mirror(contents):
+    """Optional public third-party mirror of BOT board data, not an official API.
+
+    Accept only a full four-currency set with the explicit .spot.buy schema,
+    evidence of BOT as origin, and a fresh source publication timestamp.
+    """
+    doc=json.loads(contents)
+    if doc.get("base")!="TWD" or "Taiwan Bank" not in str(doc.get("source","")):
+        raise ValueError("FX mirror does not identify Taiwan Bank as origin")
+    if "rate.bot.com.tw" not in str(doc.get("sourceUrl","")):
+        raise ValueError("FX mirror original-source URL is not BOT")
+    published=doc.get("sourcePublishedAt")
+    if not published:raise ValueError("FX mirror has no original source publication time")
+    stamp=datetime.fromisoformat(published.replace("Z","+00:00"))
+    if stamp.tzinfo is None:raise ValueError("FX mirror source timestamp has no timezone")
+    age=datetime.now(timezone.utc)-stamp.astimezone(timezone.utc)
+    if age>timedelta(days=4) or age<timedelta(minutes=-20):
+        raise ValueError("FX mirror source publication is older than 4 days or future-dated")
+    quotes={}
+    for code in CODES:
+        detail=(doc.get("details") or {}).get(code) or {}
+        value=(detail.get("spot") or {}).get("buy")
+        if not isinstance(value,(float,int)) or not 0<value<200:
+            raise ValueError("Invalid BOT spot-buy data in mirror for "+code)
+        quotes[code]=float(value)
+    bot_time=stamp.astimezone(ZoneInfo("Asia/Taipei")).strftime("%Y/%m/%d %H:%M")
+    return {"source":"臺灣銀行（HaoRate 第三方公開同步快照）",
+            "quote_type":"即期買入","quote_time":bot_time,
+            "source_url":"https://rate.bot.com.tw/xrt",
+            "mirror_url":FX_PUBLIC_MIRROR_URL,
+            "source_published_at":published,
+            "data_status":"third_party_republished_bot_quotation",
+            "provenance":"third_party_mirror_not_official_bank_api",
+            "currency":"TWD","rates":quotes}
+
 def parse_brent_eia_html(contents):
     """Read Brent Europe daily spot from official EIA dated weekly rows."""
     months={m:i+1 for i,m in enumerate(("jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"))}
@@ -203,7 +240,7 @@ def main():
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
     for name, endpoints in [
-        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text),(FX_CSV_URL,parse_fx_csv)]),
+        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text),(FX_CSV_URL,parse_fx_csv),(FX_PUBLIC_MIRROR_URL,parse_fx_verified_mirror)]),
         ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html),(BRENT_DATAHUB_URL,parse_brent_datahub_csv)]),
     ]:
         for url, parse in endpoints:
