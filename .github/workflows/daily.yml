@@ -60,7 +60,7 @@ jobs:
           echo "::error::Both FX and Brent retrievals failed; see data/market.json fetch_failed and source errors above"
           exit 1
   backfill_zh:
-    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.stage == 'backfill_zh') }}
+    if: ${{ (github.event_name == 'push' && (contains(join(github.event.head_commit.modified, ','), 'scripts/backfill_chinese.py') || contains(join(github.event.head_commit.added, ','), 'scripts/backfill_chinese.py'))) || (github.event_name == 'workflow_dispatch' && inputs.stage == 'backfill_zh') }}
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
