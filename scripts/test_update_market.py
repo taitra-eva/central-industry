@@ -1,5 +1,5 @@
 """Offline tests for market-only price parsers, no news or live requests."""
-from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_fx_csv, parse_brent_eia_html, parse_brent_datahub_csv
+from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_fx_csv, parse_fx_verified_mirror, parse_brent_eia_html, parse_brent_datahub_csv
 sample='''<html><body><span>牌價最新掛牌時間：2026/11/20 09:05</span><table><tbody>
 <tr><td>美金 (USD)</td><td>32.00</td><td>33.00</td><td>32.30</td><td>32.50</td></tr>
 <tr><td>歐元 (EUR)</td><td>36.00</td><td>37.00</td><td>36.30</td><td>36.50</td></tr>
@@ -55,3 +55,27 @@ CNY,Buying,4.86000,4.92100,4.93100
 fx_csv=parse_fx_csv(sample_csv)
 assert fx_csv["rates"]==fx2["rates"],fx_csv
 print("PASS BOT public CSV strict named Buying/Spot row parser")
+
+import json
+from datetime import datetime, timezone
+mirror_doc={
+ "base":"TWD","source":"Taiwan Bank (臺灣銀行牌告匯率)",
+ "sourceUrl":"https://rate.bot.com.tw/xrt",
+ "sourcePublishedAt":datetime.now(timezone.utc).isoformat(),
+ "details":{
+  "USD":{"spot":{"buy":32.935,"sell":33.035}},
+  "EUR":{"spot":{"buy":36.03,"sell":36.43}},
+  "JPY":{"spot":{"buy":0.2056,"sell":0.2096}},
+  "CNY":{"spot":{"buy":4.915,"sell":4.965}}
+ }
+}
+verified=parse_fx_verified_mirror(json.dumps(mirror_doc))
+assert verified["quote_type"]=="即期買入" and verified["rates"]=={
+ "USD":32.935,"EUR":36.03,"JPY":0.2056,"CNY":4.915},verified
+assert verified["provenance"].startswith("third_party_mirror")
+mirror_doc["sourcePublishedAt"]="2023-11-23T03:01:00Z"
+try:
+ parse_fx_verified_mirror(json.dumps(mirror_doc))
+ raise AssertionError("Stale mirror must be rejected")
+except ValueError:pass
+print("PASS verified BOT third-party mirror spot-buy schema and stale-data guard")
