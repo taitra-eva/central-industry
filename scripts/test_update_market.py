@@ -1,5 +1,5 @@
 """Offline tests for market-only price parsers, no news or live requests."""
-from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_brent_eia_html, parse_brent_datahub_csv
+from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_fx_csv, parse_brent_eia_html, parse_brent_datahub_csv
 sample='''<html><body><span>牌價最新掛牌時間：2026/11/20 09:05</span><table><tbody>
 <tr><td>美金 (USD)</td><td>32.00</td><td>33.00</td><td>32.30</td><td>32.50</td></tr>
 <tr><td>歐元 (EUR)</td><td>36.00</td><td>37.00</td><td>36.30</td><td>36.50</td></tr>
@@ -45,3 +45,13 @@ hub=parse_brent_datahub_csv("Date,Price\n2026-11-13,95.5\n2026-11-20,99.7\n2026-
 assert hub["quote_date"]=="2026-11-20" and hub["price_usd_per_barrel"]==99.7,hub
 assert "DataHub" in hub["source"] and "datahub.io" in hub["source_url"]
 print("PASS EIA-derived DataHub fallback retains provenance and dated quote")
+
+sample_csv='''Currency,Rate,Cash,Spot,Forward-10Days
+USD,Buying,32.50000,32.85000,32.90000
+EUR,Buying,36.00000,36.15000,36.19000
+JPY,Buying,0.20000,0.20430,0.20500
+CNY,Buying,4.86000,4.92100,4.93100
+'''
+fx_csv=parse_fx_csv(sample_csv)
+assert fx_csv["rates"]==fx2["rates"],fx_csv
+print("PASS BOT public CSV strict named Buying/Spot row parser")
