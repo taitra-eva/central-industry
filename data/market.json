@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T16:26:13+08:00",
+  "checked_at": "2026-11-23T16:28:59+08:00",
   "fx": {
     "source": "臺灣銀行",
     "quote_type": "即期買入",
@@ -31,7 +31,7 @@
       "base_price": 118.82
     },
     "source_url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm",
-    "fetched_at": "2026-11-23T16:26:13+08:00"
+    "fetched_at": "2026-11-23T16:28:59+08:00"
   },
   "fetch_failed": [
     "fx"
