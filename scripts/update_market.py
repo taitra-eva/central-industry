@@ -20,6 +20,7 @@ DEST = ROOT / "data" / "market.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CentralIndustryMarket/1.0)"}
 FX_URL = "https://rate.bot.com.tw/xrt?Lang=zh-TW"
 FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/fltxt/0/day"
+FX_CSV_URL = "https://rate.bot.com.tw/xrt/flcsv/0/day"
 BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU"
 BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
@@ -126,6 +127,25 @@ def parse_fx_text(contents):
             "timestamp_status":"official_download_has_no_quote_time",
             "source_url":FX_BACKUP_URL,"currency":"TWD","rates":rows}
 
+
+def parse_fx_csv(contents):
+    """Official BOT CSV: only accept rows with explicit Currency,Buying,cash,spot."""
+    rows={}
+    for fields in csv.reader(io.StringIO(contents.lstrip("\ufeff"))):
+        cells=[v.strip() for v in fields]
+        # BOT often quotes the buy/sell in separate columns.
+        for i,value in enumerate(cells[:-3]):
+            code=value.upper()
+            if code not in CODES:continue
+            if cells[i+1].casefold()!="buying":continue
+            try: spot=float(cells[i+3])
+            except ValueError:continue
+            if 0<spot<200:rows[code]=spot
+    if set(rows)!=set(CODES):raise ValueError("BOT CSV missing explicit spot-buy currency fields")
+    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":None,
+            "timestamp_status":"official_download_has_no_quote_time",
+            "source_url":FX_CSV_URL,"currency":"TWD","rates":rows}
+
 def parse_brent_eia_html(contents):
     """Read Brent Europe daily spot from official EIA dated weekly rows."""
     months={m:i+1 for i,m in enumerate(("jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"))}
@@ -183,13 +203,18 @@ def main():
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
     for name, endpoints in [
-        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text)]),
+        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text),(FX_CSV_URL,parse_fx_csv)]),
         ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html),(BRENT_DATAHUB_URL,parse_brent_datahub_csv)]),
     ]:
         for url, parse in endpoints:
             try:
                 r=requests.get(url,headers=HEADERS,timeout=25)
                 r.raise_for_status()
+                if name=="fx" and url in (FX_BACKUP_URL,FX_CSV_URL):
+                    print("BOT_PUBLIC_FORMAT_DIAGNOSTIC",url,
+                          "content-type",r.headers.get("Content-Type",""),
+                          "bytes",len(r.content),
+                          "sample",repr(r.text[:125]))
                 fresh=parse(r.text)
                 fresh["fetched_at"]=now
                 # Never replace the latest stored quote with a known older one.
@@ -199,7 +224,7 @@ def main():
                     print("MARKET_OLDER_IGNORED",name,new_date,"stored",old_date)
                     continue
                 updated[name]=fresh
-                print("MARKET_UPDATED",name,new_date)
+                print("MARKET_UPDATED" if new_date!=old_date or not old_date else "MARKET_VERIFIED_UNCHANGED",name,new_date)
                 break
             except (requests.RequestException,ValueError,KeyError) as exc:
                 print("MARKET_SOURCE_FAILED",name,url,str(exc)[:180])
