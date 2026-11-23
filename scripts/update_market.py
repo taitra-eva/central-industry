@@ -19,10 +19,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "data" / "market.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CentralIndustryMarket/1.0)"}
 FX_URL = "https://rate.bot.com.tw/xrt?Lang=zh-TW"
-FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/all/day?page=print"
+FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/fltxt/0/day"
 BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU"
 BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+BRENT_EIA_URL = "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+BRENT_DATAHUB_URL = "https://datahub.io/core/oil-prices/_r/-/data/brent-daily.csv"
 CODES = ("USD", "EUR", "JPY", "CNY")
 
 def parse_fx(html):
@@ -107,6 +109,70 @@ def parse_brent_text(contents):
     writer.writerows(rows)
     return parse_brent_csv(output.getvalue())
 
+
+def parse_fx_text(contents):
+    """Official BOT TXT export: currency, Buying, cash, spot, Selling, ..."""
+    rows={}
+    for line in contents.lstrip("\ufeff").splitlines():
+        m=re.match(r"^\s*(USD|EUR|JPY|CNY)\s+Buying\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)\b",line,re.I)
+        if m:
+            value=float(m.group(3))
+            if not 0<value<200:raise ValueError("Invalid BOT spot-buy "+m.group(1))
+            rows[m.group(1).upper()]=value
+    if set(rows)!=set(CODES):raise ValueError("Official BOT TXT missing currency or spot-buy columns")
+    # The official TXT export has no quotation timestamp. Store actual
+    # fetch time separately; NEVER invent an official quotation time.
+    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":None,
+            "timestamp_status":"official_download_has_no_quote_time",
+            "source_url":FX_BACKUP_URL,"currency":"TWD","rates":rows}
+
+def parse_brent_eia_html(contents):
+    """Read Brent Europe daily spot from official EIA dated weekly rows."""
+    months={m:i+1 for i,m in enumerate(("jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"))}
+    data={}
+    for tr in BeautifulSoup(contents,"html.parser").select("tr"):
+        cells=[td.get_text(" ",strip=True) for td in tr.find_all(["td","th"],recursive=False)]
+        if len(cells)<6:continue
+        m=re.search(r"(\d{4})\s+([A-Za-z]{3})\s*-\s*(\d{1,2})\s+to\b",cells[0],re.I)
+        if not m:continue
+        try: day=datetime(int(m.group(1)),months[m.group(2).lower()],int(m.group(3))).date()
+        except (ValueError,KeyError):continue
+        for delta,val in enumerate(cells[1:6]):
+            try:
+                price=float(val.replace(",",""))
+                if 0<price<1000:data[(day+timedelta(days=delta)).isoformat()]=price
+            except ValueError:continue
+    if not data:raise ValueError("EIA Brent HTML rows were not parsed")
+    buffer=io.StringIO()
+    writer=csv.DictWriter(buffer,fieldnames=["observation_date","DCOILBRENTEU"])
+    writer.writeheader()
+    for day,price in sorted(data.items()):
+        writer.writerow({"observation_date":day,"DCOILBRENTEU":price})
+    result=parse_brent_csv(buffer.getvalue())
+    result.update({"source":"美國能源資訊署 EIA（官方網站）","source_url":BRENT_EIA_URL})
+    return result
+
+
+def parse_brent_datahub_csv(contents):
+    """Independent public EIA-derived Brent daily CSV mirror from DataHub.
+
+    Only explicitly named Date/Price fields are accepted. This may lag the
+    original EIA; normal date checks reject any older observations.
+    """
+    reader=csv.DictReader(io.StringIO(contents.lstrip("\ufeff")))
+    if not reader.fieldnames or not {"Date","Price"}.issubset(reader.fieldnames):
+        raise ValueError("DataHub Brent CSV does not contain Date and Price columns")
+    buf=io.StringIO()
+    writer=csv.DictWriter(buf,fieldnames=["observation_date","DCOILBRENTEU"])
+    writer.writeheader()
+    for row in reader:
+        if row.get("Date") and row.get("Price"):
+            writer.writerow({"observation_date":row["Date"],"DCOILBRENTEU":row["Price"]})
+    item=parse_brent_csv(buf.getvalue())
+    item["source"]="EIA Brent 日現貨（DataHub 公開資料鏡像）"
+    item["source_url"]=BRENT_DATAHUB_URL
+    return item
+
 def main():
     old=json.loads(DEST.read_text(encoding="utf-8")) if DEST.exists() else {}
     updated=dict(old)
@@ -117,8 +183,8 @@ def main():
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
     for name, endpoints in [
-        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx)]),
-        ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text)]),
+        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text)]),
+        ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html),(BRENT_DATAHUB_URL,parse_brent_datahub_csv)]),
     ]:
         for url, parse in endpoints:
             try:
@@ -131,7 +197,7 @@ def main():
                 new_date=fresh.get("quote_time") or fresh.get("quote_date") or ""
                 if old_date and new_date and new_date<old_date:
                     print("MARKET_OLDER_IGNORED",name,new_date,"stored",old_date)
-                    break
+                    continue
                 updated[name]=fresh
                 print("MARKET_UPDATED",name,new_date)
                 break
@@ -142,8 +208,11 @@ def main():
             print("MARKET_FETCH_FAILED",name,"all sources failed, previously verified quote retained")
     updated["checked_at"]=now
     updated["fetch_failed"]=failed
+    updated["status"]="ok" if not failed else ("failed" if len(failed)==2 else "partial")
     DEST.write_text(json.dumps(updated,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("Market-only update complete; no news processed")
+    print("Market-only update complete; no news processed; status:",updated["status"])
+    if len(failed)==2:
+        raise RuntimeError("MARKET_DATA_STALE: both market sources failed; previous quotes retained")
 
 if __name__=="__main__":
     main()

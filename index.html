@@ -288,7 +288,12 @@ async function loadMarket(){
   pct('market-brent-month',oil.change_month);
   const dates=[];
   if(fx.quote_time)dates.push('臺銀牌告：'+fx.quote_time+'（台灣時間）');
+  else if(fx.fetched_at)dates.push('臺銀即期買入：擷取於 '+twDateTime(fx.fetched_at)+'（官方下載檔未提供掛牌時間）');
   if(oil.quote_date)dates.push('Brent 現貨：'+oil.quote_date+'（交易日）');
+  if(Array.isArray(data.fetch_failed)&&data.fetch_failed.length){
+   const failed=data.fetch_failed.map(x=>x==='fx'?'臺銀匯率':x==='oil'?'Brent 現貨':x);
+   dates.push('⚠ '+failed.join('、')+'本次更新失敗，顯示前次資料');
+  }
   if(dates.length)document.getElementById('market-dates').textContent=dates.join('　｜　');
 
  }catch(e){document.getElementById('market-dates').textContent='市場行情資料暫時無法取得；請查看來源連結。'}
