@@ -1,18 +1,22 @@
 {
-  "checked_at": "2026-11-23T16:28:59+08:00",
+  "checked_at": "2026-11-23T16:32:25+08:00",
   "fx": {
-    "source": "臺灣銀行",
+    "source": "臺灣銀行（HaoRate 第三方公開同步快照）",
     "quote_type": "即期買入",
-    "quote_time": "2026/11/20 10:59",
-    "source_url": "https://rate.bot.com.tw/xrt?lang=zh-TW",
+    "quote_time": "2026/11/23 11:01",
+    "source_url": "https://rate.bot.com.tw/xrt",
+    "mirror_url": "https://raw.githubusercontent.com/haotool/app/data/public/rates/latest.json",
+    "source_published_at": "2026-11-23T03:01:00.000Z",
+    "data_status": "third_party_republished_bot_quotation",
+    "provenance": "third_party_mirror_not_official_bank_api",
     "currency": "TWD",
     "rates": {
-      "USD": 32.94,
-      "EUR": 36,
-      "JPY": 0.2052,
-      "CNY": 4.918
+      "USD": 32.935,
+      "EUR": 36.03,
+      "JPY": 0.2056,
+      "CNY": 4.915
     },
-    "data_status": "official_quoted_snapshot"
+    "fetched_at": "2026-11-23T16:32:25+08:00"
   },
   "oil": {
     "source": "美國能源資訊署 EIA（官方網站）",
@@ -31,11 +35,9 @@
       "base_price": 118.82
     },
     "source_url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm",
-    "fetched_at": "2026-11-23T16:28:59+08:00"
+    "fetched_at": "2026-11-23T16:32:25+08:00"
   },
-  "fetch_failed": [
-    "fx"
-  ],
+  "fetch_failed": [],
   "initial_snapshot_note": "Four spot BUY rates based on the Bank of Taiwan public board quotation dated 2026/11/20 10:59; future scheduled market-only refresh will replace these when live retrieval succeeds. Brent unchanged.",
-  "status": "partial"
+  "status": "ok"
 }
