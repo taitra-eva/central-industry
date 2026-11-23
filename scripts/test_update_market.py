@@ -1,5 +1,5 @@
 """Offline tests for market-only price parsers, no news or live requests."""
-from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_brent_eia_html
+from update_market import parse_fx, parse_brent_csv, parse_brent_text, parse_fx_text, parse_brent_eia_html, parse_brent_datahub_csv
 sample='''<html><body><span>牌價最新掛牌時間：2026/11/20 09:05</span><table><tbody>
 <tr><td>美金 (USD)</td><td>32.00</td><td>33.00</td><td>32.30</td><td>32.50</td></tr>
 <tr><td>歐元 (EUR)</td><td>36.00</td><td>37.00</td><td>36.30</td><td>36.50</td></tr>
@@ -40,3 +40,8 @@ eia=parse_brent_eia_html(eia_html)
 assert eia["quote_date"]=="2026-11-20" and eia["price_usd_per_barrel"]==99,eia
 assert eia["change_week"] is not None and eia["change_month"] is not None,eia
 print("PASS official BOT TXT spot-buy fallback and direct EIA HTML Brent fallback")
+
+hub=parse_brent_datahub_csv("Date,Price\n2026-11-13,95.5\n2026-11-20,99.7\n2026-10-20,90.1\n")
+assert hub["quote_date"]=="2026-11-20" and hub["price_usd_per_barrel"]==99.7,hub
+assert "DataHub" in hub["source"] and "datahub.io" in hub["source_url"]
+print("PASS EIA-derived DataHub fallback retains provenance and dated quote")
