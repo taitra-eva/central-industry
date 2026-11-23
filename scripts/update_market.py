@@ -24,6 +24,7 @@ BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU
 BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
 BRENT_EIA_URL = "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+BRENT_DATAHUB_URL = "https://datahub.io/core/oil-prices/_r/-/data/brent-daily.csv"
 CODES = ("USD", "EUR", "JPY", "CNY")
 
 def parse_fx(html):
@@ -151,6 +152,27 @@ def parse_brent_eia_html(contents):
     result.update({"source":"美國能源資訊署 EIA（官方網站）","source_url":BRENT_EIA_URL})
     return result
 
+
+def parse_brent_datahub_csv(contents):
+    """Independent public EIA-derived Brent daily CSV mirror from DataHub.
+
+    Only explicitly named Date/Price fields are accepted. This may lag the
+    original EIA; normal date checks reject any older observations.
+    """
+    reader=csv.DictReader(io.StringIO(contents.lstrip("\ufeff")))
+    if not reader.fieldnames or not {"Date","Price"}.issubset(reader.fieldnames):
+        raise ValueError("DataHub Brent CSV does not contain Date and Price columns")
+    buf=io.StringIO()
+    writer=csv.DictWriter(buf,fieldnames=["observation_date","DCOILBRENTEU"])
+    writer.writeheader()
+    for row in reader:
+        if row.get("Date") and row.get("Price"):
+            writer.writerow({"observation_date":row["Date"],"DCOILBRENTEU":row["Price"]})
+    item=parse_brent_csv(buf.getvalue())
+    item["source"]="EIA Brent 日現貨（DataHub 公開資料鏡像）"
+    item["source_url"]=BRENT_DATAHUB_URL
+    return item
+
 def main():
     old=json.loads(DEST.read_text(encoding="utf-8")) if DEST.exists() else {}
     updated=dict(old)
@@ -162,7 +184,7 @@ def main():
     failed=[]
     for name, endpoints in [
         ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text)]),
-        ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html)]),
+        ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html),(BRENT_DATAHUB_URL,parse_brent_datahub_csv)]),
     ]:
         for url, parse in endpoints:
             try:
@@ -175,7 +197,7 @@ def main():
                 new_date=fresh.get("quote_time") or fresh.get("quote_date") or ""
                 if old_date and new_date and new_date<old_date:
                     print("MARKET_OLDER_IGNORED",name,new_date,"stored",old_date)
-                    break
+                    continue
                 updated[name]=fresh
                 print("MARKET_UPDATED",name,new_date)
                 break
