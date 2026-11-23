@@ -1,9 +1,198 @@
 {
-  "updated_at": "2026-11-22T00:04:36.629253+00:00",
+  "updated_at": "2026-11-23T00:11:16.418083+00:00",
   "status": "ok",
   "sources_checked": 24,
   "sources_successful": 24,
   "items": [
+    {
+      "id": "2f1137374312857d3b70",
+      "title": "Multiway Robotics showcases wheeled humanoid and autonomous forklifts at CeMAT Asia 2026",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/multiway-robotics-showcases-wheeled-humanoid-and-autonomous-forklifts-at-cemat-asia-2026/107492/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/multiway-robotics-showcases-wheeled-humanoid-and-autonomous-forklifts-at-cemat-asia-2026/107492/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T21:48:50+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Multiway Robotics showcased five autonomous material handling solutions at CeMAT Asia 2026 in Shanghai, including a wheeled humanoid robot designed for flexible industrial operations. The exhibition, held from November 3 to 6, brought together logistics and automation companies demonstrating technologies for manufacturing, warehousing and internal material transportation. Multiway’s lineup included its H01 wheeled humanoid, an […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "d1936860ddef803e4bc2",
+      "title": "From GTA 6 to robot fighting: Humanoid combat league prepares for Melbourne debut",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/from-gta-6-to-robot-fighting-humanoid-combat-league-prepares-for-melbourne-debut/107481/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/from-gta-6-to-robot-fighting-humanoid-combat-league-prepares-for-melbourne-debut/107481/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T20:22:41+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "The launch of Grand Theft Auto VI has once again demonstrated the enormous cultural influence of video games. But while millions of players explore Rockstar Games’ latest virtual world, another form of technologically driven entertainment is preparing to enter the real-world sporting arena: humanoid robot fighting. Released on November 19, GTA 6 is one of […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "aeb5abdfa967e4242717",
+      "title": "Robotics investment set to reach $60.7 billion in 2026, but funding boom raises concerns",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T20:11:05+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Global robotics investment is on course for a record year in 2026, with funding projected to reach $60.7 billion, although much of the growth is concentrated in a relatively small number of companies, according to a new report from venture capital firm F-Prime Capital. The firm’s State of Robotics 2026 report, based on PitchBook data […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "8a142c6944ecf9ffe662",
+      "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T19:59:30+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Nvidia has announced a major expansion of its Isaac robotics development platform, introducing new simulation frameworks, AI training tools, datasets and a reference humanoid robot designed to accelerate the development of general-purpose robotic systems. The announcements, made at GTC Berlin, include Agile ONE SN, a humanoid research platform developed by Agile Robots, alongside updates to […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "468bf06a280d9c322e6d",
+      "title": "Schunk spin-off Tactilia Robotics launches to develop dexterous robot hands",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/schunk-spin-off-tactilia-robotics-launches-to-develop-dexterous-robot-hands/107466/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/schunk-spin-off-tactilia-robotics-launches-to-develop-dexterous-robot-hands/107466/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T18:40:01+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Schunk has renamed its humanoid robotics spin-off Tactilia Robotics, establishing a Munich-based company focused on developing modular robotic hands for industrial automation applications. Originally founded in January 2026 as Schunk Humanoid Robotics GmbH, the company is developing robotic hands designed to handle a wide variety of objects and components in manufacturing and logistics environments. The […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "26274793bb443a1c49f7",
+      "title": "Genesis AI raises $500 million to scale general-purpose robotics",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T16:19:30+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Genesis AI, a robotics company with operations in Paris and California, has raised $500 million in Series A funding at a post-money valuation of $3.5 billion to accelerate development and commercialization of its general-purpose robots. The funding round was co-led by Premji Invest, Khosla Ventures and Eclipse, with participation from investors including Durable Capital Partners, […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "bb07926e2f263d013f5b",
+      "title": "Remedy Robotics raises $62 million to advance AI-powered cardiovascular surgery robot",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T16:05:23+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Remedy Robotics, a San Francisco-based medical robotics company, has raised $62 million in Series B funding to advance its AI-enabled N1 System for cardiovascular and neurovascular procedures. The funding will support clinical trials, regulatory approval efforts and further development of the robotic platform, which is designed to enable endovascular procedures through on-site, remote and potentially […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "cea9b5044369b237dd7b",
+      "title": "Gobano Robotics reports 99.5 percent success rate for autonomous laundry robot",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-22T15:56:51+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "French physical AI startup Gobano Robotics says its autonomous robotic system has achieved a 99.5 percent task success rate at Henri Wartner Group, a French industrial laundry company with a history spanning 150 years. The company’s Gobano Station handles repetitive towel folding and inspection tasks, operating autonomously for several hours while employees carry out other […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "69718566f324d42da4e5",
+      "title": "台塑化：23日起汽柴油價格維持不變",
+      "url": "https://www.cna.com.tw/news/ahel/202611220086.aspx",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611220086.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-22T05:48:43+00:00",
+      "discovered_at": "2026-11-23T00:10:12.935229+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": ""
+    },
     {
       "id": "5e3b9126dd97ead0131b",
       "title": "限空令擋不住台股跌勢！卓榮泰提4點裁示 國安基金強化穩市、央行緊盯匯率",
