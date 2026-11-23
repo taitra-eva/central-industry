@@ -1,6 +1,6 @@
 """Update only the market price JSON. No news search, publisher reading or AI calls.
 
-FX: Bank of Taiwan indicative *spot buying* board rates.
+FX: E.SUN Bank official published spot buying board rates (USD/EUR/JPY/CNY).
 Oil: EIA Brent Europe daily spot (FOB), delivered via FRED public CSV.
 Quote date is preserved. Missing/unparseable data are never invented.
 """
@@ -18,10 +18,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "data" / "market.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CentralIndustryMarket/1.0)"}
-FX_URL = "https://rate.bot.com.tw/xrt?Lang=zh-TW"
-FX_BACKUP_URL = "https://rate.bot.com.tw/xrt/fltxt/0/day"
-FX_CSV_URL = "https://rate.bot.com.tw/xrt/flcsv/0/day"
-FX_PUBLIC_MIRROR_URL = "https://raw.githubusercontent.com/haotool/app/data/public/rates/latest.json"
+FX_ESUN_URL = "https://accessible.esunbank.com.tw/Accessibility/ForeignExchangeRate"
 BRENT_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU"
 BRENT_TEXT_URL = "https://fred.stlouisfed.org/data/DCOILBRENTEU.txt"
 BR = "https://fred.stlouisfed.org/series/DCOILBRENTEU"
@@ -29,37 +26,56 @@ BRENT_EIA_URL = "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
 BRENT_DATAHUB_URL = "https://datahub.io/core/oil-prices/_r/-/data/brent-daily.csv"
 CODES = ("USD", "EUR", "JPY", "CNY")
 
-def parse_fx(html):
-    soup = BeautifulSoup(html, "html.parser")
-    text = soup.get_text(" ", strip=True)
-    stamps = re.findall(r"(20\d{2}/\d{2}/\d{2})\s+(\d{2}:\d{2})", text)
-    if not stamps:
-        raise ValueError("Bank of Taiwan quotation timestamp missing")
-    stamp = stamps[-1][0] + " " + stamps[-1][1]
-    rows = {}
-    for tr in soup.select("tr"):
-        cells = tr.find_all("td", recursive=False)
-        if not cells: 
-            continue
-        label = tr.get_text(" ", strip=True)
-        for code in CODES:
-            if not re.search(r"\b"+code+r"\b",label):
-                continue
-            # On BOT's four-rate table, first currency td is followed by
-            # cash buy, cash sell, spot buy, spot sell (not cash buy).
-            values = [td.get_text(" ", strip=True).replace(",","") for td in cells]
-            numerical = [float(x) for x in values if re.fullmatch(r"\d+(?:\.\d+)?",x)]
-            if len(numerical) < 4:
-                raise ValueError("Missing four numeric quote columns for "+code)
-            value = numerical[2]
-            if not 0 < value < 200:
-                raise ValueError("Invalid spot buying quote for "+code)
-            rows[code] = value
-    if set(rows) != set(CODES):
-        raise ValueError("Missing currency rows: "+str(set(CODES)-set(rows)))
-    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":stamp,
-            "source_url":FX_URL,"currency":"TWD","rates":rows}
+def parse_fx_esun(html):
+    """E.SUN official accessibility table: Currency | 買入 | 賣出.
 
+    No intermediate market/mirror and never silently use the selling price.
+    Reject login/error pages, incomplete currency sets or stale timestamps.
+    """
+    soup=BeautifulSoup(html,"html.parser")
+    text=soup.get_text(" ",strip=True)
+    if "玉山銀行即期外匯匯率表" not in text:
+        raise ValueError("E.SUN official rate table heading missing")
+    match=re.search(r"資料日期\s*[：:]\s*(20\d{2}[-/]\d{1,2}[-/]\d{1,2})\s+(\d{1,2}:\d{2}(?::\d{2})?)",text)
+    if not match:
+        raise ValueError("E.SUN official rate publication timestamp missing")
+    datepart=match.group(1).replace("/","-")
+    dt=datetime.strptime(datepart+" "+match.group(2),"%Y-%m-%d %H:%M:%S" if match.group(2).count(":")==2 else "%Y-%m-%d %H:%M")
+    dt=dt.replace(tzinfo=ZoneInfo("Asia/Taipei"))
+    elapsed=datetime.now(ZoneInfo("Asia/Taipei"))-dt
+    if elapsed>timedelta(days=5) or elapsed<timedelta(minutes=-20):
+        raise ValueError("E.SUN source publication date is older than five days or future-dated")
+    rates={}
+    for tr in soup.select("tr"):
+        cells=tr.find_all(["th","td"],recursive=False)
+        if len(cells)<3:
+            continue
+        cell0=cells[0].get_text(" ",strip=True)
+        cm=re.search(r"\b(USD|EUR|JPY|CNY)\b",cell0)
+        if not cm:
+            continue
+        code=cm.group(1)
+        # Explicitly verify buy/sell column order using the table headers.
+        table=tr.find_parent("table")
+        if table is None:
+            continue
+        head=" ".join(th.get_text(" ",strip=True) for th in table.select("th"))
+        if "買入" not in head or "賣出" not in head:
+            raise ValueError("E.SUN buy/sell table headers not confirmed")
+        num=cells[1].get_text(" ",strip=True).replace(",","")
+        if not re.fullmatch(r"\d+(?:\.\d+)?",num):
+            raise ValueError("Non-numeric E.SUN buying rate for "+code)
+        value=float(num)
+        if not 0<value<200:
+            raise ValueError("Invalid E.SUN spot buying rate for "+code)
+        rates[code]=value
+    if set(rates)!=set(CODES):
+        raise ValueError("E.SUN official table missing rates for "+str(set(CODES)-set(rates)))
+    return {"source":"玉山銀行","quote_type":"即期買入",
+            "quote_time":dt.strftime("%Y/%m/%d %H:%M"),
+            "source_url":FX_ESUN_URL,"currency":"TWD","rates":rates,
+            "data_status":"official_esun_spot_buying_board"}
+    
 def parse_brent_csv(contents):
     rows = list(csv.DictReader(io.StringIO(contents)))
     if not rows:
@@ -112,77 +128,6 @@ def parse_brent_text(contents):
     return parse_brent_csv(output.getvalue())
 
 
-def parse_fx_text(contents):
-    """Official BOT TXT export: currency, Buying, cash, spot, Selling, ..."""
-    rows={}
-    for line in contents.lstrip("\ufeff").splitlines():
-        m=re.match(r"^\s*(USD|EUR|JPY|CNY)\s+Buying\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)\b",line,re.I)
-        if m:
-            value=float(m.group(3))
-            if not 0<value<200:raise ValueError("Invalid BOT spot-buy "+m.group(1))
-            rows[m.group(1).upper()]=value
-    if set(rows)!=set(CODES):raise ValueError("Official BOT TXT missing currency or spot-buy columns")
-    # The official TXT export has no quotation timestamp. Store actual
-    # fetch time separately; NEVER invent an official quotation time.
-    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":None,
-            "timestamp_status":"official_download_has_no_quote_time",
-            "source_url":FX_BACKUP_URL,"currency":"TWD","rates":rows}
-
-
-def parse_fx_csv(contents):
-    """Official BOT CSV: only accept rows with explicit Currency,Buying,cash,spot."""
-    rows={}
-    for fields in csv.reader(io.StringIO(contents.lstrip("\ufeff"))):
-        cells=[v.strip() for v in fields]
-        # BOT often quotes the buy/sell in separate columns.
-        for i,value in enumerate(cells[:-3]):
-            code=value.upper()
-            if code not in CODES:continue
-            if cells[i+1].casefold()!="buying":continue
-            try: spot=float(cells[i+3])
-            except ValueError:continue
-            if 0<spot<200:rows[code]=spot
-    if set(rows)!=set(CODES):raise ValueError("BOT CSV missing explicit spot-buy currency fields")
-    return {"source":"臺灣銀行","quote_type":"即期買入","quote_time":None,
-            "timestamp_status":"official_download_has_no_quote_time",
-            "source_url":FX_CSV_URL,"currency":"TWD","rates":rows}
-
-
-def parse_fx_verified_mirror(contents):
-    """Optional public third-party mirror of BOT board data, not an official API.
-
-    Accept only a full four-currency set with the explicit .spot.buy schema,
-    evidence of BOT as origin, and a fresh source publication timestamp.
-    """
-    doc=json.loads(contents)
-    if doc.get("base")!="TWD" or "Taiwan Bank" not in str(doc.get("source","")):
-        raise ValueError("FX mirror does not identify Taiwan Bank as origin")
-    if "rate.bot.com.tw" not in str(doc.get("sourceUrl","")):
-        raise ValueError("FX mirror original-source URL is not BOT")
-    published=doc.get("sourcePublishedAt")
-    if not published:raise ValueError("FX mirror has no original source publication time")
-    stamp=datetime.fromisoformat(published.replace("Z","+00:00"))
-    if stamp.tzinfo is None:raise ValueError("FX mirror source timestamp has no timezone")
-    age=datetime.now(timezone.utc)-stamp.astimezone(timezone.utc)
-    if age>timedelta(days=4) or age<timedelta(minutes=-20):
-        raise ValueError("FX mirror source publication is older than 4 days or future-dated")
-    quotes={}
-    for code in CODES:
-        detail=(doc.get("details") or {}).get(code) or {}
-        value=(detail.get("spot") or {}).get("buy")
-        if not isinstance(value,(float,int)) or not 0<value<200:
-            raise ValueError("Invalid BOT spot-buy data in mirror for "+code)
-        quotes[code]=float(value)
-    bot_time=stamp.astimezone(ZoneInfo("Asia/Taipei")).strftime("%Y/%m/%d %H:%M")
-    return {"source":"臺灣銀行（HaoRate 第三方公開同步快照）",
-            "quote_type":"即期買入","quote_time":bot_time,
-            "source_url":"https://rate.bot.com.tw/xrt",
-            "mirror_url":FX_PUBLIC_MIRROR_URL,
-            "source_published_at":published,
-            "data_status":"third_party_republished_bot_quotation",
-            "provenance":"third_party_mirror_not_official_bank_api",
-            "currency":"TWD","rates":quotes}
-
 def parse_brent_eia_html(contents):
     """Read Brent Europe daily spot from official EIA dated weekly rows."""
     months={m:i+1 for i,m in enumerate(("jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"))}
@@ -233,25 +178,19 @@ def parse_brent_datahub_csv(contents):
 def main():
     old=json.loads(DEST.read_text(encoding="utf-8")) if DEST.exists() else {}
     updated=dict(old)
-    # A previously persisted SELL rate must never be retained or shown as a
-    # BUY rate, even if all live source calls fail.
-    if (updated.get("fx") or {}).get("quote_type")!="即期買入":
+    # Different banks have different rates. Never label old BOT rates as E.SUN.
+    if (updated.get("fx") or {}).get("source")!="玉山銀行":
         updated["fx"]=None
     now=datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     failed=[]
     for name, endpoints in [
-        ("fx",[(FX_URL,parse_fx),(FX_BACKUP_URL,parse_fx_text),(FX_CSV_URL,parse_fx_csv),(FX_PUBLIC_MIRROR_URL,parse_fx_verified_mirror)]),
+        ("fx",[(FX_ESUN_URL,parse_fx_esun)]),
         ("oil",[(BRENT_CSV_URL,parse_brent_csv),(BRENT_TEXT_URL,parse_brent_text),(BRENT_EIA_URL,parse_brent_eia_html),(BRENT_DATAHUB_URL,parse_brent_datahub_csv)]),
     ]:
         for url, parse in endpoints:
             try:
                 r=requests.get(url,headers=HEADERS,timeout=25)
                 r.raise_for_status()
-                if name=="fx" and url in (FX_BACKUP_URL,FX_CSV_URL):
-                    print("BOT_PUBLIC_FORMAT_DIAGNOSTIC",url,
-                          "content-type",r.headers.get("Content-Type",""),
-                          "bytes",len(r.content),
-                          "sample",repr(r.text[:125]))
                 fresh=parse(r.text)
                 fresh["fetched_at"]=now
                 # Never replace the latest stored quote with a known older one.

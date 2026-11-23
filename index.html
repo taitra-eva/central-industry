@@ -65,12 +65,12 @@ main.shell{padding-top:37px;padding-bottom:70px}.section{margin-top:38px}.sectio
 <body>
 <header class="masthead"><div class="shell"><a class="brand" href="./"><img id="header-logo" src="./assets/taitra-logo.svg" class="brand-mark" alt="TAITRA 貿協標誌"><span class="brand-name"><strong>DAILY INDUSTRY NEWS</strong><small>中部產業情報中心</small></span></a><nav class="toplinks"><a href="#focus">01 焦點解讀</a><a href="#sectors">02 產業動態</a><a href="#archive">03 歷史新聞資料庫</a></nav></div></header>
 <section class="hero"><div class="shell"><div class="eyebrow">DAILY INDUSTRY NEWS</div><h1>中部產業情報<span style="color:#ab6e44">．</span><em>每日精選</em></h1><p>彙整產業、廠商與供應鏈的近期動態，提供中文資訊與原始報導連結。</p><div class="hero-info-line"><span class="hero-ai-note">摘要及觀察重點由AI自動生成，未經人工審核</span><span class="hero-info-tag">近 30 天資訊</span><span class="hero-info-tag" id="hero-date">最近更新載入中</span></div><div class="market-strip" aria-label="外匯與國際原油行情"><div class="market-heading"><strong>匯率及國際原油參考行情</strong></div><div class="market-wrap">
-<div class="market-tile"><span>美元 USD／TWD</span><strong id="market-usd">—</strong><small>臺銀即期買入・1 美元</small></div>
-<div class="market-tile"><span>歐元 EUR／TWD</span><strong id="market-eur">—</strong><small>臺銀即期買入・1 歐元</small></div>
-<div class="market-tile"><span>日圓 JPY／TWD</span><strong id="market-jpy">—</strong><small>臺銀即期買入・1 日圓</small></div>
-<div class="market-tile"><span>人民幣 CNY／TWD</span><strong id="market-cny">—</strong><small>臺銀即期買入・1 人民幣</small></div>
+<div class="market-tile"><span>美元 USD／TWD</span><strong id="market-usd">—</strong><small>玉山銀行即期買入・1 美元</small></div>
+<div class="market-tile"><span>歐元 EUR／TWD</span><strong id="market-eur">—</strong><small>玉山銀行即期買入・1 歐元</small></div>
+<div class="market-tile"><span>日圓 JPY／TWD</span><strong id="market-jpy">—</strong><small>玉山銀行即期買入・1 日圓</small></div>
+<div class="market-tile"><span>人民幣 CNY／TWD</span><strong id="market-cny">—</strong><small>玉山銀行即期買入・1 人民幣</small></div>
 <div class="market-tile market-oil"><div class="oil-main"><span>布蘭特原油 Brent</span><strong id="market-brent">—</strong><small>美元／桶・每日現貨價格</small></div><div class="oil-trend"><div class="oil-change"><span>較上週</span><b id="market-brent-week">—</b></div><div class="oil-change"><span>較上月</span><b id="market-brent-month">—</b></div></div></div>
-</div><div class="market-note"><span id="market-dates">尚無已驗證報價；不顯示推測數值。</span>　資料來源：<a href="https://rate.bot.com.tw/xrt?Lang=zh-TW" target="_blank" rel="noopener noreferrer">臺灣銀行</a>、<a href="https://fred.stlouisfed.org/series/DCOILBRENTEU" target="_blank" rel="noopener noreferrer">EIA／FRED（Brent 現貨）</a>。銀行匯率及原油價格均非即時交易報價；官方匯率來源無法連線時，可能改採 <a href="https://app.haotool.org/ratewise/open-data/" target="_blank" rel="noopener noreferrer">HaoRate 公開同步資料</a>，並另行標示。</div></div></section>
+</div><div class="market-note"><span id="market-dates">尚無已驗證報價；不顯示推測數值。</span>　資料來源：<a href="https://accessible.esunbank.com.tw/Accessibility/ForeignExchangeRate" target="_blank" rel="noopener noreferrer">玉山銀行</a>、<a href="https://fred.stlouisfed.org/series/DCOILBRENTEU" target="_blank" rel="noopener noreferrer">EIA／FRED（Brent 現貨）</a>。銀行匯率及原油價格均非即時交易報價。</div></div></section>
 
 <main class="shell">
 <section class="section" id="focus"><div class="section-head"><div class="section-name"><span class="num">01</span><h2>焦點解讀</h2></div><small>INDUSTRY INTELLIGENCE & ANALYSIS</small></div><div class="focus-grid" id="focus-grid"><div class="empty">讀取重要事件中…</div></div></section>
@@ -287,13 +287,11 @@ async function loadMarket(){
   pct('market-brent-week',oil.change_week);
   pct('market-brent-month',oil.change_month);
   const dates=[];
-  if(fx.quote_time)dates.push('臺銀牌告：'+fx.quote_time+'（台灣時間）');
-  if(fx.provenance==='third_party_mirror_not_official_bank_api')
-   dates.push('匯率備援：HaoRate 同步臺銀資料（非官方 API）');
-  else if(fx.fetched_at)dates.push('臺銀即期買入：擷取於 '+twDateTime(fx.fetched_at)+'（官方下載檔未提供掛牌時間）');
+  if(fx.quote_time)dates.push('玉山銀行牌告：'+fx.quote_time+'（台灣時間）');
+  else if(fx.fetched_at)dates.push('玉山銀行擷取時間：'+twDateTime(fx.fetched_at));
   if(oil.quote_date)dates.push('Brent 現貨：'+oil.quote_date+'（交易日）');
   if(Array.isArray(data.fetch_failed)&&data.fetch_failed.length){
-   const failed=data.fetch_failed.map(x=>x==='fx'?'臺銀匯率':x==='oil'?'Brent 現貨':x);
+   const failed=data.fetch_failed.map(x=>x==='fx'?'玉山銀行匯率':x==='oil'?'Brent 現貨':x);
    dates.push('⚠ '+failed.join('、')+'本次更新失敗，顯示前次資料');
   }
   if(dates.length)document.getElementById('market-dates').textContent=dates.join('　｜　');
