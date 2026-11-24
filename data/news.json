@@ -1,9 +1,198 @@
 {
-  "updated_at": "2026-11-23T00:11:16.418083+00:00",
+  "updated_at": "2026-11-24T00:16:29.600832+00:00",
   "status": "ok",
   "sources_checked": 24,
   "sources_successful": 24,
   "items": [
+    {
+      "id": "34ad86c7459983f60e10",
+      "title": "民航局 力推無人機跨國認證",
+      "url": "https://www.ctee.com.tw/news/20261124700096-430104",
+      "source_url": "https://www.ctee.com.tw/news/20261124700096-430104",
+      "source": "工商時報",
+      "published_at": "2026-11-24T03:00:00+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。 何淑萍指出，隨著科技快速發展，無人機應用日益多元，從空拍攝影、農業作業、監測巡檢，到物流運送及緊急救援，逐步融入各項產業與公共服務。在台灣，無人機應用也持續成長。截至今年6月底，國內無人機註冊數",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "efb20580353f9426eda7",
+      "title": "Figure AI patents wearable system for teaching humanoid robots through human movement",
+      "url": "https://roboticsandautomationnews.com/2026/11/23/figure-ai-patents-wearable-system-for-teaching-humanoid-robots-through-human-movement/107567/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/figure-ai-patents-wearable-system-for-teaching-humanoid-robots-through-human-movement/107567/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-23T22:43:12+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Figure AI has filed a patent application for a wearable robotic system designed to capture human arm movements and use the resulting data to train humanoid robots or control them remotely in real time. The application, US 2026/0364774 A1, was published on November 19, 2026, and was highlighted in a report by Patentlyze, a publication […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "f06ac7b4977f872020a3",
+      "title": "原油供應趨於充裕且伊朗情勢緩和　國際油價重挫",
+      "url": "https://www.cna.com.tw/news/afe/202611240011.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611240011.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-23T21:41:08+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "4e874920e45957088e1f",
+      "title": "Surgical robotics drives demand for closer collaboration between motor and robot designers",
+      "url": "https://roboticsandautomationnews.com/2026/11/23/surgical-robotics-drives-demand-for-closer-collaboration-between-motor-and-robot-designers/107522/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/surgical-robotics-drives-demand-for-closer-collaboration-between-motor-and-robot-designers/107522/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-23T19:08:48+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Article contributed by Portescap, manufacturer of miniature motors for performance-critical applications At the technical level, what separates today’s surgical robotics from earlier generations is the degree to which the motion system and the platform are co-designed. The demands placed on the motion side of the equation have grown in three directions at once: more power […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "beac017dac979b7ea646",
+      "title": "Mobile robotics market set for fifteen-fold growth as autonomous picking expands",
+      "url": "https://roboticsandautomationnews.com/2026/11/23/mobile-robotics-market-set-for-fifteen-fold-growth-as-autonomous-picking-expands/107508/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/mobile-robotics-market-set-for-fifteen-fold-growth-as-autonomous-picking-expands/107508/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-23T18:43:34+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Mobile robots are becoming an increasingly important part of warehouse and factory automation, with applications expanding from repetitive material transport to more flexible goods movement and autonomous picking. Rising labour costs, persistent workforce shortages, and growing fulfilment complexity are encouraging manufacturers and logistics operators to invest in automated material handling solutions. According to IDTechEx, the […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "d39c4b6afa3b5764887b",
+      "title": "鋼鐵業搭 AI 熱潮 迎結構性復甦 華新、中鋼、豐興等吃補",
+      "url": "https://money.udn.com/money/story/10871/9897318",
+      "source_url": "https://money.udn.com/money/story/10871/9897318",
+      "source": "經濟日報",
+      "published_at": "2026-11-23T18:19:48+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "AI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華、中鋼、豐興均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "46d3d0aa07e41becf0fc",
+      "title": "XPeng to showcase humanoid robot and physical AI advances at AI Day 2026",
+      "url": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-23T15:41:51+00:00",
+      "discovered_at": "2026-11-24T00:15:14.943390+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "XPeng, an automaker which is also becoming a physical AI company, will host its 2026 AI Day on November 25 in Guangzhou, China, showcasing its latest advances in physical AI, humanoid robotics and next-generation mobility technologies. Themed “Origin”, this year-end event marks the eighth edition of XPeng’s annual technology showcase. Since its inaugural event in […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "96da840cb85a7dc0e976",
+      "title": "東台取得日韓高階鑽孔設備長單 精密加工拓展載板市場",
+      "url": "https://www.ctimes.com.tw/精密加工/鑽孔設備/東台/261123121897.shtml",
+      "source_url": "https://www.ctimes.com.tw/精密加工/鑽孔設備/東台/261123121897.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "discovered_at": "2026-11-24T00:15:21.171892+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
+    {
+      "id": "494a8412f66e7a457487",
+      "title": "Advance Auto Parts Opens New Store in Bradenton",
+      "url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-bradenton/",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-bradenton/",
+      "source": "AftermarketNews",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "discovered_at": "2026-11-24T00:15:21.171892+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "北美",
+      "priority": "international",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
     {
       "id": "2f1137374312857d3b70",
       "title": "Multiway Robotics showcases wheeled humanoid and autonomous forklifts at CeMAT Asia 2026",
@@ -2941,6 +3130,60 @@
       "excerpt": "",
       "title_zh": "伊朗戰爭對全球石油市場的影響-石油和天然氣雜誌",
       "translation_method": "argos_offline_machine_translation"
+    },
+    {
+      "id": "6a7acc6f43adcce946aa",
+      "title": "【独自】経産省主導「国産ドローン」の虚構、自衛隊や警察が使う無人機の実態は“ほぼ海外製品”だった！コア技術・重要部品に中国製品も使用…分解調査で判明 | Diamond Premium News - ダイヤモンド・オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BdmlZb1BvYk5TdGx2LTVJMVZiSXBwT1h2el9QQmo2S0FPUHV0VEhCSmg5bDhNdEtsQkdFVHp6LVVJbU9VdDFzX3lUcHM?oc=5",
+      "source": "ダイヤモンド・オンライン",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "discovered_at": "2026-11-24T00:16:29.600832+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "亞洲",
+      "language_hint": "ja",
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "ba876776a03c72c698b2",
+      "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor - The Robot Report",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTVplVmhOUk9MR1NnR19HZU9zYVJTTzNCeGJOdkF6cF9GUEVhcWtlWVVlUFF4anpyNm1tNWMyNFplRmRzeW96eVdwcDNfeXVQMFFUTVVyNW03ZmhFZl9EdjFGX0FBMVNrRXYxdVhQaGdBdUhYTm1UbXNybHVHRllCRXBqYXhyQmZwWHZTTjNoUlp6R0NkRFFFSW5YUk45Um14WlFMS1k0ajRRa3M?oc=5",
+      "source": "The Robot Report",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "discovered_at": "2026-11-24T00:16:29.600832+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "af17b6e4ff9db6c29456",
+      "title": "汽車零組件輸美關稅降 對中優勢擴大 - 自由時報",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaQmhRZnRQb1ZUZVNDY3lxOTRFY0Q3V2lhZlREU3NvX1ZRNnBaVUNOOXZQN29uRVU1cFBKOFJpSkluYUpPckJ1a0t3OHF3M1hIV0xmZGlGTVk?oc=5",
+      "source": "自由時報",
+      "published_at": "2026-11-10T04:24:25+00:00",
+      "discovered_at": "2026-11-24T00:16:29.600832+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "e112a3b41cb1c031ed3f",
