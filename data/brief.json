@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-23T00:39:55.551845+00:00",
+  "generated_at": "2026-11-24T00:43:34.062394+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 159,
-  "readable_total": 61,
+  "articles_total": 171,
+  "readable_total": 70,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 58,
-      "readable": 13
+      "articles": 59,
+      "readable": 14
     },
     {
       "name": "機械與金屬加工",
-      "articles": 23,
-      "readable": 18
+      "articles": 28,
+      "readable": 23
     },
     {
       "name": "自行車",
@@ -21,8 +21,8 @@
     },
     {
       "name": "汽配",
-      "articles": 10,
-      "readable": 7
+      "articles": 12,
+      "readable": 8
     },
     {
       "name": "手工具",
@@ -31,11 +31,79 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 58,
-      "readable": 21
+      "articles": 65,
+      "readable": 26
     }
   ],
   "events": [
+    {
+      "id": "article-34ad86c7459983f60e10",
+      "title": "民航局 力推無人機跨國認證",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "34ad86c7459983f60e10"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T03:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-f06ac7b4977f872020a3",
+      "title": "原油供應趨於充裕且伊朗情勢緩和　國際油價重挫",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。 倫敦北海布倫特原油2027年1月交割價下挫3.20美元或3.46%，來到每桶89.37美元。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "f06ac7b4977f872020a3"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T21:41:08+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-d39c4b6afa3b5764887b",
+      "title": "鋼鐵業搭 AI 熱潮 迎結構性復甦 華新、中鋼、豐興等吃補",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "AI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華（1605）、中鋼（2002）、豐興（2015）均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d39c4b6afa3b5764887b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T18:19:48+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-96da840cb85a7dc0e976",
+      "title": "東台取得日韓高階鑽孔設備長單 精密加工拓展載板市場",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "全球高階PCB、IC載板及半導體相關製程持續升級，帶動高精度鑽孔與自動化設備需求。台灣工具機大廠東台精機近期取得日本、韓國多家客戶的高階PCB鑽孔機年度長單，第四季接單已達滿載，並積極布局超音波硬脆材料加工與無人化鑽孔技術，展現台灣精密機械業者由傳統工具機跨入高階電子製造設備市場的轉型方向。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "96da840cb85a7dc0e976"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T00:00:00+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-69718566f324d42da4e5",
       "title": "台塑化：23日起汽柴油價格維持不變",
@@ -701,6 +769,94 @@
       "source_count": 1,
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
+    },
+    {
+      "id": "article-efb20580353f9426eda7",
+      "title": "圖AI 透過人類運動教授人造機器人的可穿戴系統",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "圖片AI為可穿戴的機器人系統申請了專利,該系統旨在捕捉人的手臂運動並利用由此產生的資料實時訓練人造機器人或遠端控制它們. 該申請號為US 2026/0364774 A1,釋出於2026年11月19日,在專利分析專業出版物Peratentlyze的一份報告中得到了強調. 擬議系統包括一個揹包式框架,裝有兩具隨人類操作員移動的機械臂。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "efb20580353f9426eda7"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T22:43:12+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-4e874920e45957088e1f",
+      "title": "外科機器人驅動著對馬達和機器人設計師之間更緊密協作的需求",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "用於效能關鍵應用的微型發動機製造商Portescap提供的文章 在技術方面,今天的外科機器人與前輩的區別在於運動系統和平臺的共同設計程度. 對方程式運動方面的要求同時在三個方向上增長:在較小的體積內增加功率,更精確地控制每次運動,在數千個程式和絕育週期中提高可靠性. 滿足其中任何一項要求是一項重大的工程任務。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "4e874920e45957088e1f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T19:08:48+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-beac017dac979b7ea646",
+      "title": "隨著自主採摘擴張,移動機器人市場將增長15倍",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "移動機器人正日益成為倉庫和工廠自動化的重要組成部分,應用程式從重複性材料運輸擴充套件到更靈活的貨物移動和自主採摘. 勞動力成本不斷上升、勞動力持續短缺以及履行情況日益複雜,都鼓勵製造商和物流運營商投資於自動化材料處理解決方案。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "beac017dac979b7ea646"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T18:43:34+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-46d3d0aa07e41becf0fc",
+      "title": "XPeng在2026年AI日展示人造機器人和物理AI進步",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "XPeng是一位汽車製造商, 同時也成為一家實體AI公司, 將於11月25日在中國廣州舉辦2026AI日活動, 這場年終活動標誌著XPeng年度技術展第八期。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "46d3d0aa07e41becf0fc"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T15:41:51+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-494a8412f66e7a457487",
+      "title": "高階自動部件在 Bradenton 開啟新倉庫",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "Advanced Auto Parts在布拉登頓開設了其最新商店,擴大了本地司機和汽車專業人員獲取零件,工具和專門知識的機會. 該公司在64號國道10010號與當地官員和馬納特技術學院代表一起為該校汽車技術方案捐款。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "494a8412f66e7a457487"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-23T00:00:00+00:00",
+      "taiwan_focus": false
     },
     {
       "id": "article-2f1137374312857d3b70",

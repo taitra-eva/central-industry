@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:39:55.235350+00:00",
+  "updated_at": "2026-11-24T00:43:33.721856+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -1095,6 +1095,141 @@
       "generated_at": "2026-11-23T00:39:40.235225+00:00",
       "source_url": "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/",
       "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "34ad86c7459983f60e10"
+      ],
+      "title": "民航局 力推無人機跨國認證",
+      "summary": "2026國際無人機及先進空中交通論壇於23日於台灣舉行，交通部民航局長何淑萍強調推動無人機跨國雙邊認證，並整合測試空域以支援產業發展。論壇聚焦國際無人機與AAM發展及航空安全規範，邀請國外民航主管機關與專家分享實務經驗。台灣截至6月底無人機註冊數逾4萬2千架，累計核准飛航活動超過3萬件。",
+      "observation": "此新聞顯示台灣正積極推動無人機與先進空中交通（AAM）相關法規與標準，並尋求跨國認證以提升國際競爭力。觀察重點應追蹤民航局後續公布的測試空域管理細節、雙邊認證進度，以及產業界對新規範的回饋與實務落地情形。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:41:13.175676+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261124700096-430104",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "f06ac7b4977f872020a3"
+      ],
+      "title": "原油供應趨於充裕且伊朗情勢緩和　國際油價重挫",
+      "summary": "中央社報導指出，近期原油供應趨於充裕，伊朗局勢緩和，導致國際油價大幅下跌。紐約商品交易所西德州中級原油2027年1月交割價下跌3.24美元（3.88%），至每桶80.17美元；倫敦北海布倫特原油同期交割價下挫3.20美元（3.46%），至每桶89.37美元。分析師預估石油市場將出現供應過剩。",
+      "observation": "油價下跌顯示全球原油供應過剩趨勢，可能影響台灣製造業能源成本與供應鏈。需追蹤伊朗局勢變化、波斯灣運輸量及美國對伊朗政策調整對油價的持續影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:41:28.818254+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611240011.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "d39c4b6afa3b5764887b"
+      ],
+      "title": "鋼鐵業搭 AI 熱潮 迎結構性復甦 華新、中鋼、豐興等吃補",
+      "summary": "AI需求旺盛，鋼鐵業迎結構性復甦。華新麗華（1605）、中鋼（2002）及豐興（2015）皆報告因AI、半導體設備及機器人材料需求大增，帶動棒線、條線及工具機關鍵零組件銷售。華新在AI液冷材料已貢獻獲利，並因航太材料產能缺口，英國子公司SMP計畫擴產。豐興第3季條線營收年增28%，銷量達26.3萬公噸；中鋼棒線接單已達全年目標，螺絲急單亦顯示未來需求。台灣工具機關鍵零組件出口前十月增14.5%，單月增27.4%，顯示上游棒材及合金鋼採購量上升。",
+      "observation": "AI與半導體設備的需求成為鋼鐵業復甦的主要驅動力，尤其在工具機零組件領域。華新已從AI液冷材料獲利，並計畫在越南設廠供應管材；豐興與中鋼則顯示棒線與條線接單量穩定，螺絲急單預示明年上半年需求可能優於下半年。觀察需追蹤的面向包括：1) AI液冷材料的市場佔有率與供應鏈擴張進度；2) 航太材料產能缺口對華新英國子公司SMP的影響；3) 工具機關鍵零組件出口增長是否能持續，及其對上游棒材採購量的長期影響。證據不足者：目前無具體數據顯示AI液冷材料在全球市場的佔比，亦未提及中鋼螺絲急單的具體數量。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:41:44.514274+00:00",
+      "source_url": "https://money.udn.com/money/story/10871/9897318",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "96da840cb85a7dc0e976"
+      ],
+      "title": "東台取得日韓高階鑽孔設備長單 精密加工拓展載板市場",
+      "summary": "東台精機於2026年前三季合併營收44.22億元，年增11%。公司近期取得日本、韓國多家客戶的高階PCB鑽孔機年度長單，第四季接單已達滿載。東台正布局超音波硬脆材料加工與無人化鑽孔技術，並於TPCA Show展示各軸獨立CCD高精度鑽孔設備，整合AMR、自动换刀、板材上下料及刀具管理，將單一鑽孔機延伸為可連續運作的自動化工作站。",
+      "observation": "東台取得日韓長單顯示高階PCB及半導體製程對精密鑽孔設備需求上升，可能帶動高速主軸、精密軸承、伺服驅動、機器視覺及刀具管理技術需求。應追蹤長單交付進度、客戶產線導入情形、設備良率及超音波加工技術商業化進度，以評估高階PCB與半導體材料加工能否成為台灣精密機械產業的新成長市場。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:41:59.987747+00:00",
+      "source_url": "https://www.ctimes.com.tw/%E7%B2%BE%E5%AF%86%E5%8A%A0%E5%B7%A5/%E9%91%BD%E5%AD%94%E8%A8%AD%E5%82%99/%E6%9D%B1%E5%8F%B0/261123121897.shtml",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "efb20580353f9426eda7"
+      ],
+      "title": "圖AI 透過人類運動教授人造機器人的可穿戴系統",
+      "summary": "Figure AI 於 2026/11/19 公布一項可穿戴機器人系統專利（US 2026/0364774 A1），設計為背包式框架，配備兩個可關節機械臂，能捕捉使用者手臂運動並以低於 20 毫秒的延遲將訊號轉換為人形機器人指令。系統包含肩、肘、腕七軸旋轉、編碼器與慣性測量單元，並可在工廠、倉庫等實務環境中收集訓練資料或即時遠端操控。專利未表明已開發商用產品，僅示範研究方向。",
+      "observation": "此專利顯示可穿戴式機械臂在實務環境中收集人類運動資料的潛力，對於需要大量實際操作數據以訓練人形機器人的開發者而言，可能成為重要工具。觀察重點應追蹤：1) 專利範圍是否涵蓋台灣相關研發；2) 低延遲控制技術是否可實現於現有機器人平台；3) 產業是否已有類似技術或競爭者。證據不足於判斷此技術是否已商用或對台灣製造業造成直接影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:42:15.826418+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/figure-ai-patents-wearable-system-for-teaching-humanoid-robots-through-human-movement/107567/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "4e874920e45957088e1f"
+      ],
+      "title": "外科機器人驅動著對馬達和機器人設計師之間更緊密協作的需求",
+      "summary": "本文闡述外科機器人對馬達與機器人設計師協作需求的提升。關鍵在於動作系統與平台的共設計，要求在更小體積內提供更高功率、更精確控制與更高可靠性。作者指出，無框架馬達（frameless motor）可直接整合於關節或末端執行器，節省重量與空間、提升扭矩與熱管理。此類設計需跨組織協調，因為功率、熱量、齒輪比、回饋解析度等決策涉及OEM與動作合作夥伴的專長。隨著外科機器人進入小型、靈活的市場（如門診中心），設計將更注重成本與尺寸，仍需保持功率與精度。",
+      "observation": "文章強調外科機器人設計已從單一部件採購轉向早期工程師對工程師的協作，並將選擇動作合作夥伴視為戰略決策。此趨勢可能促使台灣製造業在高精度馬達與機器人整合領域尋求合作機會，尤其在無框架馬達技術與熱管理方面。需追蹤台灣馬達廠商是否具備與外科機器人OEM合作的工程深度與全球製造能力。證據不足以判斷台灣企業已參與此領域，但技術需求與市場趨勢顯示潛在機會。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:42:31.544756+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/surgical-robotics-drives-demand-for-closer-collaboration-between-motor-and-robot-designers/107522/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "beac017dac979b7ea646"
+      ],
+      "title": "隨著自主採摘擴張,移動機器人市場將增長15倍",
+      "summary": "本報告指出，隨著自主採摘技術擴張，移動機器人、自治車輛與無人機在物流領域的市場將於2046年達到約2336億美元，較現況增長超過15倍。內部物流與移動採摘仍為最大應用，佔市場超過一半。傳統AGV與AGC仍服務於預測性工作流程，而自主移動機器人（AMR）與重載自治車輛（AMV）因導航與感知技術進步，正逐步取代市場份額。移動採摘技術分為結構化箱式採摘與移動機械手兩大路徑，前者成熟度較高，後者則需更先進的物件辨識與抓取技術。報告強調，採購決策將取決於部署成本、整合需求、作業彈性與長期擴充性。",
+      "observation": "可能因勞動成本上升與人力短缺，台灣製造業倉儲與物流部門將加速採用AMR與AMV，尤其在高密度儲存與逐步擴充的作業環境。應追蹤台灣本土機器人廠商是否已開發符合台灣倉儲規模的單載AMR或重載AMV，以及其與現有AGV系統的整合成本。報告未提及台灣市場具體需求或投資案例，故證據不足以評估台灣產業受影響程度。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:42:47.474524+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/mobile-robotics-market-set-for-fifteen-fold-growth-as-autonomous-picking-expands/107508/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "46d3d0aa07e41becf0fc"
+      ],
+      "title": "XPeng在2026年AI日展示人造機器人和物理AI進步",
+      "summary": "XPeng將於2026年11月25日在廣州舉辦AI Day，展示其最新的物理AI、仿人機器人與下一代移動技術。重點亮相Iron，身高約170公分、擁有76個自由度與21個手部自由度，搭載三顆自研Turing AI晶片，最高可達2,250 TOPS，能在機器人本體上執行物理AI模型，實現自主任務執行。Iron已於2026年9月8日完成量產，並於8月獲得逾9億美元股權融資，估值超過63億美元，成為中國實體AI產業最大單輪私募。活動亦將展示L2至L4自動駕駛、NGP智能駕駛、L4 Robotaxi及飛行車開發進度。",
+      "observation": "XPeng正加速將AI從純數位延伸至實體硬體，Iron的高自由度與本地AI運算顯示其在仿人機器人領域的技術深耕。若要評估其對台灣製造業的衝擊，需追蹤Iron的量產規模、零組件供應鏈需求及其在自動駕駛與飛行車領域的實際應用進度。證據顯示XPeng已完成量產並獲得大額融資，但尚未透露具體銷售或訂單數據，故對台灣廠商的直接影響仍需進一步觀察。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:43:03.164306+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "494a8412f66e7a457487"
+      ],
+      "title": "高階自動部件在 Bradenton 開啟新倉庫",
+      "summary": "Advance Auto Parts於美國佛羅里達州Bradenton開設第七家門市，地址為10010 State Road 64。開幕儀式邀請地方官員及Manatee Technical College代表，並捐贈汽車技術課程設備。該門市提供零件、工具及專業服務，並提供免費電池測試、電池與雨刷安裝及ReliaScan引擎燈掃描服務。",
+      "observation": "此新聞主要說明Advance Auto Parts在Bradenton擴大零售網絡，並支持地方汽車技術教育。觀察重點可追蹤：1) 進一步了解此門市對當地汽車維修市場的影響；2) 監測Manatee Technical College的課程增長及畢業生就業情況；3) 評估Advance Auto Parts在美國南部市場的佈局趨勢。證據僅來自新聞正文，無關於營收或訂單數據。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-24T00:43:18.721680+00:00",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-bradenton/",
+      "confidence": "中"
     }
   ]
 }

@@ -18,12 +18,16 @@
       "tags": [],
       "priority": "international",
       "region": "台灣",
-      "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。\n何淑萍指出，隨著科技快速發展，無人機應用日益多元，從空拍攝影、農業作業、監測巡檢，到物流運送及緊急救援，逐步融入各項產業與公共服務。在台灣，無人機應用也持續成長。截至今年6月底，國內無人機註冊數已逾4萬2千架，累計核准飛航活動超過3萬件以上，註冊、操作人員或飛航活動，都持續增加。\n何淑萍進一步說明，民航局已積極整合測試空域，透過系統化管理提供無人機測試空域，以支持產業發展；另將持續推動跨國雙邊認證，與國際接軌，期許台灣在無人機發展中扮",
       "publisher_excerpt": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。 何淑萍指出，隨著科技快速發展，無人機應用日益多元，從空拍攝影、農業作業、監測巡檢，到物流運送及緊急救援，逐步融入各項產業與公共服務。在台灣，無人機應用也持續成長。截至今年6月底，國內無人機註冊數",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:13.243987+00:00",
+      "body_length": 727,
+      "summary_zh": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。\n\n何淑萍指出，隨著科技快速發展，無人機應用日益多元，從空拍攝影、農業作業、監測巡檢，到物流運送及緊急救援，逐步融入各項產業與公共服務。在台灣，無人機應用也持續成長。截至今年6月底，國內無人機註冊數已逾4萬2千架，累計核准飛航活動超過3萬件以上，註冊、操作人員或飛航活動，都持續增加。\n\n何淑萍進一步說明，民航局已積極整合測試空域，透過系統化管理提供無人機測試空域，以支持產業發展；另將持續推動跨國雙邊認證，與國際接軌，期許台灣在無人機發展中扮演關鍵角色。她強調，面對日益多元的應用需求，民航局會積極精進管理法規、飛航活動申請程序及檢驗驗證制度，在確保飛航安全的前提下，支持創新應用與產業發展。\n\n交通部次長林國顯表示，無人機應用持續擴大，政府將協助產業有序發展，並兼顧機場安全維護及無人機監管。他指出，國內也需要導入國際間已採用的新規範，過程中政府須與各界溝通，並聽取業者在研發過程中的經驗與回饋。\n\n這次論壇聚焦「國際無人機與AAM發展」及「國際航空安全規範介紹」，邀請國外民航主管機關與專家分享實務經驗，希望國內產業藉此深化交流，促進我國無人機與先進空中交通法規、標準與技術進展，吸引國內近16",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "efb20580353f9426eda7",
@@ -34,17 +38,27 @@
       "published_at": "2026-11-23T22:43:12+00:00",
       "discovered_at": "2026-11-24T00:15:14.943390+00:00",
       "industries": [
-        "無人載具及機器人"
+        "無人載具及機器人",
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Figure AI has filed a patent application for a wearable robotic system designed to capture human arm movements and use the resulting data to train humanoid robots or control them remotely in real time.\nThe application, US 2026/0364774 A1, was published on November 19, 2026, and was highlighted in a report by",
       "publisher_excerpt": "Figure AI has filed a patent application for a wearable robotic system designed to capture human arm movements and use the resulting data to train humanoid robots or control them remotely in real time. The application, US 2026/0364774 A1, was published on November 19, 2026, and was highlighted in a report by Patentlyze, a publication […]",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:27.165190+00:00",
+      "body_length": 4745,
+      "title_zh": "圖AI 透過人類運動教授人造機器人的可穿戴系統",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "圖片AI為可穿戴的機器人系統申請了專利,該系統旨在捕捉人的手臂運動並利用由此產生的資料實時訓練人造機器人或遠端控制它們.\n該申請號為US 2026/0364774 A1,釋出於2026年11月19日,並在一篇報告中被強調.",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "圖片AI為可穿戴的機器人系統申請了專利,該系統旨在捕捉人的手臂運動並利用由此產生的資料實時訓練人造機器人或遠端控制它們.\n\n該申請號為US 2026/0364774 A1,釋出於2026年11月19日,在專利分析專業出版物Peratentlyze的一份報告中得到了強調.\n\n擬議系統包括一個揹包式框架,裝有兩具隨人類操作員移動的機械臂。\n\n裝置不是要求工人在動作捕捉室進行示威,而是允許在人們在工廠、倉庫和其他工作環境中執行日常任務時收集運動資料。\n\n根據專利申請,可穿戴的裝置包括附在操作員軀幹上的吊帶,機械臂伸過肩部,緊隨穿戴者的手臂移動。\n\n每個機械臂都裝有剛性連結,伸縮的關節和感測器,以測量肩部,肘部和腕部的運動.\n\n系統可提供高達7軸的每臂旋轉,使其能夠捕捉複雜的運動,同時容納不同的體型.\n\n聯合編碼器測量旋轉位置,而慣性測量單元跟蹤方向和運動. 手套般的附著物將機械臂的端部與操作員的手相連.",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "f06ac7b4977f872020a3",
@@ -60,12 +74,16 @@
       "tags": [],
       "priority": "international",
       "region": "台灣",
-      "language_hint": "en",
       "topic": "國際情勢與能源",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "原油供應趨於充裕且伊朗情勢緩和 國際油價重挫\n（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。\n紐約商品交易所西德州中級原油2027年1月交割價下跌3.24美元或3.88%，來到每桶80.17美元。\n倫敦北海布倫特原油2027年1月交割價下挫3.20美元或3.46%，來到每桶89.37美元。（編譯：陳彥鈞）1151124\n- 2026/11/18 17:07\n- 2026/11/16 16:54\n- 2026/11/15 19:16\n- 2026/11/13 19:11\n- 2026/11/11 22:20\n-",
       "publisher_excerpt": "（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:14.425192+00:00",
+      "body_length": 344,
+      "summary_zh": "（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。\n\n倫敦北海布倫特原油2027年1月交割價下挫3.20美元或3.46%，來到每桶89.37美元。（編譯：陳彥鈞）1151124",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "4e874920e45957088e1f",
@@ -76,17 +94,27 @@
       "published_at": "2026-11-23T19:08:48+00:00",
       "discovered_at": "2026-11-24T00:15:14.943390+00:00",
       "industries": [
-        "無人載具及機器人"
+        "無人載具及機器人",
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Article contributed by Portescap, manufacturer of miniature motors for performance-critical applications\nAt the technical level, what separates today’s surgical robotics from earlier generations is the degree to which the motion system and the platform are co-designed. The demands placed on the motion side of the",
       "publisher_excerpt": "Article contributed by Portescap, manufacturer of miniature motors for performance-critical applications At the technical level, what separates today’s surgical robotics from earlier generations is the degree to which the motion system and the platform are co-designed. The demands placed on the motion side of the equation have grown in three directions at once: more power […]",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:27.706490+00:00",
+      "body_length": 6508,
+      "title_zh": "外科機器人驅動著對馬達和機器人設計師之間更緊密協作的需求",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "用於效能關鍵應用的微型發動機製造商Portescap提供的文章\n在技術方面,今天的外科機器人與前輩的區別在於運動系統和平臺的共同設計程度. 行動方面的要求",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "用於效能關鍵應用的微型發動機製造商Portescap提供的文章\n\n在技術方面,今天的外科機器人與前輩的區別在於運動系統和平臺的共同設計程度. 對方程式運動方面的要求同時在三個方向上增長:在較小的體積內增加功率,更精確地控制每次運動,在數千個程式和絕育週期中提高可靠性.\n\n滿足其中任何一項要求是一項重大的工程任務。 三者同時相遇是真正定義現代外科機器人的挑戰.\n\n動力密度是起點. 機器人臂工作端可用的空間信封是有限的,但驅動手術工具所需的扭矩不是. 在一個緊湊,輕量級的包件中能夠交付高扭矩的馬達是一個先決條件,最佳化扭矩對質量比對於允許OEMs設計能響應而不變得無助的系統至關重要.\n\n這就是無幀電動機作為值得理解的設計反應出現的地方. 無框電動機被剝去至其基本部件 — — 支架和轉盤 — — 並放棄了傳統的住房、軸承和軸承。\n\n設計者沒有將一個包裝的馬達安裝到關節中,而是直接將轉子和 Stator整合到關節或終端效應器組裝中,以機器人自己的結構作為馬達的機械基礎.\n\n這些收益正是應用要求的:消除冗餘結構的重量和空間節省、反應運動的牽引率高、透過與周圍組裝的直接熱接觸冷卻、機械損失減少。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "beac017dac979b7ea646",
@@ -97,17 +125,27 @@
       "published_at": "2026-11-23T18:43:34+00:00",
       "discovered_at": "2026-11-24T00:15:14.943390+00:00",
       "industries": [
-        "無人載具及機器人"
+        "無人載具及機器人",
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Mobile robots are becoming an increasingly important part of warehouse and factory automation, with applications expanding from repetitive material transport to more flexible goods movement and autonomous picking. Rising labour costs, persistent workforce shortages, and growing fulfilment complexity are encouraging",
       "publisher_excerpt": "Mobile robots are becoming an increasingly important part of warehouse and factory automation, with applications expanding from repetitive material transport to more flexible goods movement and autonomous picking. Rising labour costs, persistent workforce shortages, and growing fulfilment complexity are encouraging manufacturers and logistics operators to invest in automated material handling solutions. According to IDTechEx, the […]",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:28.257121+00:00",
+      "body_length": 7990,
+      "title_zh": "隨著自主採摘擴張,移動機器人市場將增長15倍",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "移動機器人正日益成為倉庫和工廠自動化的重要組成部分,應用程式從重複性材料運輸擴充套件到更靈活的貨物移動和自主採摘. 勞動力成本上升、勞動力持續短缺和履行情況日益複雜令人鼓舞",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "移動機器人正日益成為倉庫和工廠自動化的重要組成部分,應用程式從重複性材料運輸擴充套件到更靈活的貨物移動和自主採摘. 勞動力成本不斷上升、勞動力持續短缺以及履行情況日益複雜,都鼓勵製造商和物流運營商投資於自動化材料處理解決方案。\n\n據IDTechEx稱,移動機器人,自主車輛,無人機在物流領域的綜合市場預計在未來20年將擴大15倍以上,到2046年年裝置收入將達到約2336億美元.\n\n預計內學和移動採摘仍然是最大的應用部分,佔整個市場機會的一半以上。\n\n伴隨著這種擴張,部署的機器人型別也發生了重大變化. 傳統自動化制導車輛(AGVs)傳統上支援在結構化工業環境中沿預定路線進行物資運輸。 基於網格的自動制導車(AGC)提供了另一種既定辦法,特別是高密度儲存和可重複運輸業務。\n\n隨著導航和感知技術的不斷改進,自主移動機器人(AMRs)和自主移動車輛(AMVs)透過更大的操作靈活性和減少對固定基礎設施的依賴而獲得了商業牽引力.\n\n過渡正在創造一個更加多樣化的市場,其中不同的機器人結構滿足不同的操作要求。 IDTechEx預計,在未來幾十年中,單裝AMR和重型AMV將獲得市場份額,而傳統的AGV和基於網格的AGC則繼續為可預見工作流程和既定基礎設施支援成本效益高的自動化的應用程式服務。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "d39c4b6afa3b5764887b",
@@ -118,17 +156,21 @@
       "published_at": "2026-11-23T18:19:48+00:00",
       "discovered_at": "2026-11-24T00:15:14.943390+00:00",
       "industries": [
-        "總體情勢"
+        "機械與金屬加工"
       ],
       "tags": [],
       "priority": "international",
       "region": "台灣",
-      "language_hint": "en",
       "topic": "供應鏈與原物料",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "本文共565字\nAI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華（1605）、中鋼（2002）、豐興（2015）均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。\n華新在AI液冷材料已貢獻獲利；且因高階航太材料也出現產能缺口，華新英國廠產能拚倍增。華新麗華表示，由於航太相關引擎用料需求強勁，英國子公司SMP現有產能供不應求，擬持續擴產因應。\n國內鋼廠率先感受到工具機零組件客戶拉貨。今年前十月台灣工具機關鍵零組件出口14.2億美元、年增14.5%，10月單月年增27.4%，前十月整機出口則年減0.2%。半導體設備及自動化設備都需要精密傳動元件，滾珠螺桿、傳動軸等零件出貨增加，直",
       "publisher_excerpt": "AI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華、中鋼、豐興均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:15.142489+00:00",
+      "body_length": 617,
+      "summary_zh": "AI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華（1605）、中鋼（2002）、豐興（2015）均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。\n\n華新在AI液冷材料已貢獻獲利；且因高階航太材料也出現產能缺口，華新英國廠產能拚倍增。華新麗華表示，由於航太相關引擎用料需求強勁，英國子公司SMP現有產能供不應求，擬持續擴產因應。\n\n國內鋼廠率先感受到工具機零組件客戶拉貨。今年前十月台灣工具機關鍵零組件出口14.2億美元、年增14.5%，10月單月年增27.4%，前十月整機出口則年減0.2%。半導體設備及自動化設備都需要精密傳動元件，滾珠螺桿、傳動軸等零件出貨增加，直接反映在上游棒材及合金鋼的採購量。\n\n豐興指出，工具機關鍵零組件是今年下游客戶接單最強的項目，帶動前三季條線銷量達26.3萬公噸、年增8%，第3季出貨年增16%，營收達20.7億元、年增28%。中鋼今年棒線接單量已達標，近期又見部分螺絲急單，預期明年上半年接單有機會優於今年下半年。\n\n華新是三家鋼廠中，已明確從AI液冷取得獲利的業者。執行長王錫欽指出，華新的管材、冷精棒已用於AI伺服器液冷系統，並帶來業績與獲利。相關客戶的生產基地集中在越南，華新規劃在當地設廠供應管材及冷精加工材料，目標一年內完成建廠及設備導入。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "46d3d0aa07e41becf0fc",
@@ -146,16 +188,25 @@
       "region": "歐洲",
       "language_hint": "en",
       "topic": "產業動態",
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "XPeng, an automaker which is also becoming a physical AI company, will host its 2026 AI Day on November 25 in Guangzhou, China, showcasing its latest advances in physical AI, humanoid robotics and next-generation mobility technologies.\nThemed “Origin”, this year-end event marks the eighth edition of XPeng’s annual",
       "publisher_excerpt": "XPeng, an automaker which is also becoming a physical AI company, will host its 2026 AI Day on November 25 in Guangzhou, China, showcasing its latest advances in physical AI, humanoid robotics and next-generation mobility technologies. Themed “Origin”, this year-end event marks the eighth edition of XPeng’s annual technology showcase. Since its inaugural event in […]",
-      "publisher_excerpt_source": "official_rss"
+      "publisher_excerpt_source": "official_rss",
+      "read_checked_at": "2026-11-24T00:40:28.804310+00:00",
+      "body_length": 2621,
+      "title_zh": "XPeng在2026年AI日展示人造機器人和物理AI進步",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "XPeng是一位汽車製造商, 同時也成為一家實體AI公司, 將於11月25日在中國廣州舉辦2026AI日活動,\n\" 奧裡金\"主題,今年年底的活動是XPeng的第八期年度活動。",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "XPeng是一位汽車製造商, 同時也成為一家實體AI公司, 將於11月25日在中國廣州舉辦2026AI日活動,\n\n這場年終活動標誌著XPeng年度技術展第八期。 XPeng自2019年的成立活動以來,一直在探索下一個技術前沿,從軟體定義的車輛和AI定義的移動到物理AI.\n\n在其前七期中預覽的技術後來已發展成為現實世界的應用,反映出公司注重將技術進步轉化為有形產品和使用者價值。\n\n隨著AI超越數字環境並進入物理世界,XPeng認為,僅靠AI這個日益強大的大模型是不夠的. 現實世界環境的複雜性和不可預測性要求AI與專有硬體和物理系統密切協調.\n\n下一階段的發展將取決於情報和表現的共同演變,使大赦國際能夠透過現實世界的相互作用來感知、理解、行動和不斷學習。\n\n在今年的AI日,XPeng將分享自己在物理AI方面的最新思維和實際進展,展示智慧如何從AI大腦延伸到物理身體,並轉化為現實世界的能力.\n\n一個關鍵亮點將是展示鐵,XPeng的通用高階人造機器人. 身高約170釐米,Iron具有高度人類形態設計,全身自由度76度,雙手各21度.\n\n它由三個內部開發的圖靈AI晶片提供最多2,250個TOPS的動力,在裝置上執行XPeng的物理AI基礎模型,使得無需遠端操作即可自主任務執行.",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "96da840cb85a7dc0e976",
       "title": "東台取得日韓高階鑽孔設備長單 精密加工拓展載板市場",
       "url": "https://www.ctimes.com.tw/精密加工/鑽孔設備/東台/261123121897.shtml",
-      "source_url": "https://www.ctimes.com.tw/精密加工/鑽孔設備/東台/261123121897.shtml",
+      "source_url": "https://www.ctimes.com.tw/%E7%B2%BE%E5%AF%86%E5%8A%A0%E5%B7%A5/%E9%91%BD%E5%AD%94%E8%A8%AD%E5%82%99/%E6%9D%B1%E5%8F%B0/261123121897.shtml",
       "source": "CTIMES",
       "published_at": "2026-11-23T00:00:00+00:00",
       "discovered_at": "2026-11-24T00:15:21.171892+00:00",
@@ -166,11 +217,16 @@
       "priority": "taiwan",
       "topic": "產業動態",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "全球高階PCB、IC載板及半導體相關製程持續升級，帶動高精度鑽孔與自動化設備需求。台灣工具機大廠東台精機近期取得日本、韓國多家客戶的高階PCB鑽孔機年度長單，第四季接單已達滿載，並積極布局超音波硬脆材料加工與無人化鑽孔技術，展現台灣精密機械業者由傳統工具機跨入高階電子製造設備市場的轉型方向。\n東台董事長嚴瑞雄10月27日表示，受惠高階PCB及半導體相關需求，公司接獲日韓客戶年度長單，帶動設備接單與出貨。東台2026年前三季合併營收44.22億元，年增11%，第四季營運可望延續設備需求成長動能。\n| 高階PCB設備需求升溫，東台布局超音波加工與無人化產線。 |",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-24T00:40:16.089518+00:00",
+      "body_length": 907,
+      "summary_zh": "全球高階PCB、IC載板及半導體相關製程持續升級，帶動高精度鑽孔與自動化設備需求。台灣工具機大廠東台精機近期取得日本、韓國多家客戶的高階PCB鑽孔機年度長單，第四季接單已達滿載，並積極布局超音波硬脆材料加工與無人化鑽孔技術，展現台灣精密機械業者由傳統工具機跨入高階電子製造設備市場的轉型方向。\n\n東台董事長嚴瑞雄10月27日表示，受惠高階PCB及半導體相關需求，公司接獲日韓客戶年度長單，帶動設備接單與出貨。東台2026年前三季合併營收44.22億元，年增11%，第四季營運可望延續設備需求成長動能。\n\n隨著高效能運算晶片朝高密度封裝與高速互連發展，PCB與IC載板製程對微孔加工、孔位精度及材料完整性的要求持續提高。尤其高多層板及複合材料結構增加，鑽孔設備除了高速主軸與精密定位能力，也必須兼顧孔壁品質、刀具磨耗及長時間加工穩定性。\n\n東台於2026年TPCA Show展示各軸獨立CCD高精度鑽孔設備，透過影像辨識與定位技術提高加工對位能力，並整合自主移動機器人（AMR）、自動換刀、板材上下料及集中刀具管理，將單一鑽孔機延伸為可連續運作的自動化工作站。\n\n此類整合方案的核心，在於降低人工搬運、換刀及設備等待時間，並改善高階PCB製程的稼動率與一致性。東台表示，相關設備訂單能見度已延伸至2027年底，反映高階電子製造設備需求具一定延續性。\n\n除PCB鑽孔外，東台亦透過旗下亞太菁英布局三軸至五",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "494a8412f66e7a457487",
@@ -187,11 +243,20 @@
       "priority": "international",
       "topic": "產業動態",
       "tags": [],
-      "access_status": "not_verified",
-      "excerpt": "",
+      "access_status": "readable",
+      "excerpt": "Advance Auto Parts opened its newest store in Bradenton, expanding access to parts, tools and expertise for local drivers and automotive professionals. The company marked the opening of the store at 10010 State Road 64 alongside local officials and representatives from Manatee Technical College who were on site to",
       "publisher_excerpt": "",
       "publisher_excerpt_source": "",
-      "source_content_policy": ""
+      "source_content_policy": "",
+      "read_checked_at": "2026-11-24T00:40:33.676405+00:00",
+      "body_length": 1520,
+      "title_zh": "高階自動部件在 Bradenton 開啟新倉庫",
+      "translation_method": "argos_offline_machine_translation",
+      "excerpt_translation_zh": "Advanced Auto Parts在布拉登頓開設了其最新商店,擴大了本地司機和汽車專業人員獲取零件,工具和專門知識的機會. 該公司在64號國道10010號的商店開業時,與當時在場的當地官員和Manatee技術學院的代表一道,為開店進行了標記。",
+      "excerpt_translation_status": "machine_translation_of_source_excerpt",
+      "summary_zh": "Advanced Auto Parts在布拉登頓開設了其最新商店,擴大了本地司機和汽車專業人員獲取零件,工具和專門知識的機會. 該公司在64號國道10010號與當地官員和馬納特技術學院代表一起為該校汽車技術方案捐款。\n\n這筆捐款將幫助學生透過學校的汽車技術計劃獲得實踐經驗、培訓和職業機會。 熟練汽車技術員的需求仍然很高,據美國勞工統計局預測,到2034年,每年約有70,000個開張.\n\n“在布拉登頓開設我們的第七家店是一個令人振奮的里程碑,使我們能夠更好地為全社群的顧客服務。” “無論幫助司機維持車輛或支援專業商店和技術人員,我們的團隊都側重於提供服務和客戶依賴的產品。 我們也自豪地支援馬納特技術學院,\n\n客戶可以在Advance獲得各種免費服務,包括電池測試、電池和擦拭刀片安裝以及購買,並透過ReliaScan檢查引擎燈光掃描,使一名團隊成員能夠快速掃描車輛並查明造成問題的原因,無需預約。",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
     },
     {
       "id": "2f1137374312857d3b70",
@@ -531,7 +596,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:47.945391+00:00",
+      "read_checked_at": "2026-11-24T00:40:34.313765+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "製藥和醫療器械公司不斷演變的關稅格局的最新情況-PwC",
       "translation_method": "argos_offline_machine_translation"
@@ -653,7 +718,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:26.856393+00:00",
+      "read_checked_at": "2026-11-24T00:40:17.557035+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -673,7 +738,7 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:46.095505+00:00",
+      "read_checked_at": "2026-11-24T00:40:30.053412+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "機器工具製造者尋求3 000克羅爾基金,以減少對進口的依賴----商業標準",
       "translation_method": "argos_offline_machine_translation"
@@ -695,7 +760,7 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:46.716878+00:00",
+      "read_checked_at": "2026-11-24T00:40:30.588047+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "特朗普-普丁基峰會2026年:全球貿易,烏克蘭戰爭和印度影響-中小企業街頭",
       "translation_method": "argos_offline_machine_translation"
@@ -743,7 +808,7 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:57.125345+00:00",
+      "read_checked_at": "2026-11-24T00:40:42.250046+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "伊朗戰爭可能使消費者面臨多年的能源成本不確定性-KATU",
       "translation_method": "argos_offline_machine_translation"
@@ -765,7 +830,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:48.625133+00:00",
+      "read_checked_at": "2026-11-24T00:40:34.875091+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "更多選民指責特朗普提高生活成本的關稅,",
       "translation_method": "argos_offline_machine_translation"
@@ -787,7 +852,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:47.297050+00:00",
+      "read_checked_at": "2026-11-24T00:40:31.159659+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "波士頓動力公司推出下一代伸展機器人 具有重大可靠性升級 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
@@ -833,7 +898,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:49.221428+00:00",
+      "read_checked_at": "2026-11-24T00:40:35.429285+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "為什麼關稅不能把工廠帶回美國——哈佛商業評論",
       "translation_method": "argos_offline_machine_translation"
@@ -855,7 +920,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:49.848716+00:00",
+      "read_checked_at": "2026-11-24T00:40:36.009102+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "德國腳踏車工業損失了20億歐元的收入和2 400個就業崗位作為後流行貧民窟的延續-多多山腳踏車",
       "translation_method": "argos_offline_machine_translation"
@@ -877,7 +942,7 @@
       "topic": "供應鏈與原物料",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:50.542524+00:00",
+      "read_checked_at": "2026-11-24T00:40:36.557734+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "為其計劃中的美國無人機生產,J-Star旨在從美國供應商那裡源出所有特有材料. - 泰坦魚",
       "translation_method": "argos_offline_machine_translation"
@@ -950,7 +1015,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:37:00.305343+00:00",
+      "read_checked_at": "2026-11-24T00:40:31.674015+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "ARX 機器人名稱 空中客車 退伍軍人 Mirko Reuter 作為新CTO - DroneXL",
       "translation_method": "argos_offline_machine_translation"
@@ -972,7 +1037,7 @@
       "topic": "進出口與訂單趨勢",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:51.162090+00:00",
+      "read_checked_at": "2026-11-24T00:40:37.096914+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Makera為 A1S 桌面 CNC 開啟全球預發指令,將金屬切入 Maker 的會席 - PR Newswire UK",
       "translation_method": "argos_offline_machine_translation"
@@ -994,7 +1059,7 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:51.835830+00:00",
+      "read_checked_at": "2026-11-24T00:40:37.642509+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "特朗普貿易戰的法案即將出臺 — — 國內外—財富",
       "translation_method": "argos_offline_machine_translation"
@@ -1016,7 +1081,7 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:57.701076+00:00",
+      "read_checked_at": "2026-11-24T00:40:42.917497+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "石油價格比貿易商高 中東航運風險 - WSJ",
       "translation_method": "argos_offline_machine_translation"
@@ -1038,7 +1103,7 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:27.669884+00:00",
+      "read_checked_at": "2026-11-24T00:40:18.062816+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1058,7 +1123,7 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:58.283434+00:00",
+      "read_checked_at": "2026-11-24T00:40:43.528668+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "中東衝突引發有史以來全球石油貿易的最大破壞,",
       "translation_method": "argos_offline_machine_translation"
@@ -1110,7 +1175,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "Hanwha demonstrates counter-drone and GRUNT robotic systems’ integration with Romanian military networks in exercise Defence Industry Europe",
-      "read_checked_at": "2026-11-23T00:37:00.899909+00:00",
+      "read_checked_at": "2026-11-24T00:40:32.282147+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Hanwha演示了反龍和GRUNT機器人系統與羅馬尼亞軍事網路的整合 -- -- 歐洲國防工業",
       "translation_method": "argos_offline_machine_translation",
@@ -1134,7 +1199,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:52.538966+00:00",
+      "read_checked_at": "2026-11-24T00:40:38.259851+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "無人機通訊方面的PDW & Sine工程合夥人-無人機系統技術",
       "translation_method": "argos_offline_machine_translation"
@@ -1156,7 +1221,7 @@
       "topic": "市場需求與景氣",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:53.228687+00:00",
+      "read_checked_at": "2026-11-24T00:40:38.863531+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "O'Reilly Wants to Buy NAP Auto Parts, Create An An Aftermarket Giant - Motor1.com 網際網路檔案館的存檔,存檔日期2013-12-22. 網際網路檔案館的存檔,存檔日期2013-12-21. 網際網路檔案館的存檔,存檔日期2013-12-22. .",
       "translation_method": "argos_offline_machine_translation"
@@ -1178,7 +1243,7 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:58.881363+00:00",
+      "read_checked_at": "2026-11-24T00:40:44.028645+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "隨著中東航運攻擊逆向供應盈餘的前景而油價上升-路透社",
       "translation_method": "argos_offline_machine_translation"
@@ -1225,7 +1290,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:28.210208+00:00",
+      "read_checked_at": "2026-11-24T00:40:18.641314+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1271,7 +1336,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "Kawasaki Robotics launches F Series S-type controller with integrated safety and cybersecurity Robotics & Automation News",
-      "read_checked_at": "2026-11-23T00:37:01.560257+00:00",
+      "read_checked_at": "2026-11-24T00:40:32.903547+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "川崎機器人發射 F 系列 S 型控制器與綜合安全與網路安全 - 機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation",
@@ -1295,11 +1360,11 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "Einride reports 76 percent growth in contracted revenue as autonomous freight operations expand Robotics & Automation News",
-      "read_checked_at": "2026-11-23T00:37:02.115815+00:00",
+      "read_checked_at": "2026-11-24T00:40:33.436087+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "Einride報告說,隨著自主貨運業務的擴大,合同收入增長了76% -- -- 機器人和自動化新聞",
       "translation_method": "argos_offline_machine_translation",
-      "excerpt_translation_zh": "Einride報道,由於自主貨運業務擴充套件了機器人和自動化新聞,合同收入增長了76%。",
+      "excerpt_translation_zh": "Einride報道,由於自主貨運業務擴充套件了機器人和自動化新聞,合同收入增長76%",
       "excerpt_translation_status": "machine_translation_of_source_excerpt"
     },
     {
@@ -1317,7 +1382,7 @@
       "title_zh": "DRiV 與 XGM 成立合資公司，擴充北美汽車售後市場的自有品牌車輛懸吊控制產品",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-23T00:36:53.899365+00:00",
+      "read_checked_at": "2026-11-24T00:40:39.378798+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "tags": []
     },
@@ -1338,7 +1403,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:54.532590+00:00",
+      "read_checked_at": "2026-11-24T00:40:39.957135+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "關稅回收方案將產生非常不同的價格影響-稅收政策中心",
       "translation_method": "argos_offline_machine_translation"
@@ -1358,7 +1423,7 @@
       "title_zh": "從資本市場寵兒到四年內破產重整：這家自行車企業出了什麼問題？",
       "translation_method": "manual_headline_translation",
       "access_status": "unresolved",
-      "read_checked_at": "2026-11-23T00:37:02.751756+00:00",
+      "read_checked_at": "2026-11-24T00:40:45.053291+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "tags": []
     },
@@ -1419,7 +1484,7 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:28.835482+00:00",
+      "read_checked_at": "2026-11-24T00:40:19.128654+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1439,7 +1504,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:29.456554+00:00",
+      "read_checked_at": "2026-11-24T00:40:19.570030+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1459,7 +1524,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:30.020091+00:00",
+      "read_checked_at": "2026-11-24T00:40:20.018899+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1504,7 +1569,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:55.148998+00:00",
+      "read_checked_at": "2026-11-24T00:40:45.623468+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "評論:特朗普的進口關稅政策失敗 通貨膨脹增加-拉斯維加斯評論-雜誌",
       "translation_method": "argos_offline_machine_translation"
@@ -1526,7 +1591,7 @@
       "topic": "供應鏈與原物料",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:30.610195+00:00",
+      "read_checked_at": "2026-11-24T00:40:20.522724+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1546,7 +1611,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:31.251737+00:00",
+      "read_checked_at": "2026-11-24T00:40:21.023440+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1654,7 +1719,7 @@
       "excerpt": "",
       "title_zh": "整個系列的汽車零件廠商的重新理解 將模型和未來s整合起來? - M&A Online",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-23T00:36:55.841597+00:00",
+      "read_checked_at": "2026-11-24T00:40:40.632173+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1674,7 +1739,7 @@
       "topic": "國際情勢與能源",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:59.475507+00:00",
+      "read_checked_at": "2026-11-24T00:40:44.520974+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "石油價格隨海灣襲擊而波動 -- -- Rigzone",
       "translation_method": "argos_offline_machine_translation"
@@ -1696,7 +1761,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:37:03.382304+00:00",
+      "read_checked_at": "2026-11-24T00:40:46.169607+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "會議報告:處於機器人革命邊緣的建築業-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
@@ -1718,7 +1783,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:37:03.977875+00:00",
+      "read_checked_at": "2026-11-24T00:40:46.693124+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "會議報告:建築業準備實現機器人突破-機器人與自動化新聞",
       "translation_method": "argos_offline_machine_translation"
@@ -1861,7 +1926,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:31.901360+00:00",
+      "read_checked_at": "2026-11-24T00:40:21.538513+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1881,7 +1946,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:37:04.558114+00:00",
+      "read_checked_at": "2026-11-24T00:40:47.203130+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "波士頓動態公司 阿特拉斯人造陸生第一次非自體試驗——機器人報告",
       "translation_method": "argos_offline_machine_translation"
@@ -1903,7 +1968,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:32.584193+00:00",
+      "read_checked_at": "2026-11-24T00:40:22.052046+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -1982,7 +2047,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:37:05.177055+00:00",
+      "read_checked_at": "2026-11-24T00:40:47.699271+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "企鵝隨機 豪斯雙人書與Locus Robotics - Robotics & Automation News 共選生產力",
       "translation_method": "argos_offline_machine_translation"
@@ -2004,7 +2069,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:33.129956+00:00",
+      "read_checked_at": "2026-11-24T00:40:22.554909+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2055,7 +2120,7 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:33.691348+00:00",
+      "read_checked_at": "2026-11-24T00:40:23.022370+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2171,7 +2236,7 @@
       "excerpt": "",
       "publisher_excerpt": "「人在跑、手在動、球也在動。」談起全球貨櫃輪市場變動，萬海航運（2615）董事長陳柏廷用球場上的瞬息變化，形容航運市場難以預測的特性。球的落點不只取決於球速，還要看場上每個人的位置與動作；海運市場也不只是船舶供給和貨運需求，地緣政治、港口政策與航線調整，都可能改變原有運輸計畫。",
       "publisher_excerpt_source": "official_rss",
-      "read_checked_at": "2026-11-23T00:36:25.805814+00:00",
+      "read_checked_at": "2026-11-24T00:40:16.657489+00:00",
       "read_reason": "Page retrieved but substantial article body not extracted",
       "ai_summary_status": "generated_unreviewed"
     },
@@ -2192,7 +2257,7 @@
       "topic": "匯率與出口競爭力",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:34.276118+00:00",
+      "read_checked_at": "2026-11-24T00:40:23.544645+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2212,7 +2277,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:34.908029+00:00",
+      "read_checked_at": "2026-11-24T00:40:24.030320+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2232,7 +2297,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:35.664015+00:00",
+      "read_checked_at": "2026-11-24T00:40:24.548214+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2338,7 +2403,7 @@
       "topic": "技術發展與產業轉型",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:36.308354+00:00",
+      "read_checked_at": "2026-11-24T00:40:25.093862+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2383,7 +2448,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:36.912595+00:00",
+      "read_checked_at": "2026-11-24T00:40:25.571130+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2403,7 +2468,7 @@
       "topic": "政策與貿易措施",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:37.497957+00:00",
+      "read_checked_at": "2026-11-24T00:40:26.047570+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2567,7 +2632,7 @@
       "topic": "供應鏈與原物料",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:38.108717+00:00",
+      "read_checked_at": "2026-11-24T00:40:26.497748+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2587,7 +2652,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:38.647919+00:00",
+      "read_checked_at": "2026-11-24T00:40:48.166442+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2607,7 +2672,7 @@
       "topic": "產業動態",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:39.205733+00:00",
+      "read_checked_at": "2026-11-24T00:40:48.631682+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -2627,7 +2692,7 @@
       "topic": "物流與航運",
       "access_status": "unresolved",
       "excerpt": "",
-      "read_checked_at": "2026-11-23T00:36:39.899565+00:00",
+      "read_checked_at": "2026-11-24T00:40:49.137425+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -3146,8 +3211,12 @@
       "region": "亞洲",
       "language_hint": "ja",
       "topic": "技術發展與產業轉型",
-      "access_status": "not_verified",
-      "excerpt": ""
+      "access_status": "unresolved",
+      "excerpt": "",
+      "read_checked_at": "2026-11-24T00:40:41.131053+00:00",
+      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
+      "title_zh": "鑽石黃金新聞",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "ba876776a03c72c698b2",
@@ -3165,7 +3234,9 @@
       "language_hint": null,
       "topic": "產業動態",
       "access_status": "not_verified",
-      "excerpt": ""
+      "excerpt": "",
+      "title_zh": "Axon向Skydio投資1.2B,成為其美國公共安全經銷商-The Robot Report",
+      "translation_method": "argos_offline_machine_translation"
     },
     {
       "id": "af17b6e4ff9db6c29456",
@@ -3485,7 +3556,7 @@
       "excerpt": "",
       "title_zh": "2026 腳踏車產業貿易和關稅最新訊息 - People Forbikes",
       "translation_method": "argos_offline_machine_translation",
-      "read_checked_at": "2026-11-23T00:36:56.481352+00:00",
+      "read_checked_at": "2026-11-24T00:40:41.681655+00:00",
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article"
     },
     {
@@ -3510,7 +3581,7 @@
       "translation_method": "argos_offline_machine_translation",
       "publisher_excerpt": "Revenue in The Platform Group's (TPG) Freight Goods segment, which holds its bicycle and furniture platforms, fell 6% year-on-year in the first nine months of 2026. Group net revenue at the German e-commerce company rose 17% to EUR 622.7 million.",
       "publisher_excerpt_source": "official_rss",
-      "read_checked_at": "2026-11-23T00:36:45.420307+00:00",
+      "read_checked_at": "2026-11-24T00:40:29.511898+00:00",
       "read_reason": "HTTP 404",
       "ai_summary_status": "generated_unreviewed"
     },
