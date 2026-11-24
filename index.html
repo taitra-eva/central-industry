@@ -131,27 +131,39 @@ function setText(id,v){$(id).textContent=v}
 function renderFocus(){
  const out=$('focus-grid');out.replaceChildren();
  const SECTOR_PRIORITY=['機械與金屬加工','自行車','汽配','手工具','無人載具及機器人'];
- const available=(insights.items||[]).map(entry=>({...entry,sources:(entry.article_ids||[]).map(id=>records.find(x=>x.id===id)).filter(Boolean)})).filter(entry=>entry.sources.length&&entry.summary&&entry.observation);
+ // Only recently published stories are eligible for the homepage focus.
+ // Older articles remain searchable in the 30-day news archive.
+ const cutoff=Date.now()-3*24*60*60*1000;
+ const published=e=>Math.max(...e.sources.map(x=>Date.parse(x.published_at||x.discovered_at||0)).filter(Number.isFinite),0);
+ const available=(insights.items||[])
+  .map(entry=>({...entry,sources:(entry.article_ids||[]).map(id=>records.find(x=>x.id===id)).filter(Boolean)}))
+  .filter(entry=>entry.sources.length&&entry.summary&&entry.observation)
+  .filter(entry=>published(entry)>=cutoff)
+  .sort((a,b)=>published(b)-published(a));
  const used=new Set(),selected=[];
- // At most one sourced analysis per specialist industry; avoid disguising
- // missing full-text coverage as a verified AI summary.
+ // Give each specialist sector one recent verified analysis, if available.
  for(const sector of SECTOR_PRIORITY){
-  const candidates=available.filter(e=>!used.has(e)&&e.sources.some(x=>x.industries?.includes(sector)));
-  candidates.sort((a,b)=>Date.parse(b.sources[0].published_at||0)-Date.parse(a.sources[0].published_at||0));
-  if(candidates.length){selected.push({entry:candidates[0],sector});used.add(candidates[0])}
+  const candidate=available.find(e=>!used.has(e)&&e.sources.some(x=>x.industries?.includes(sector)));
+  if(candidate){selected.push({entry:candidate,sector});used.add(candidate)}
  }
+ // Keep up to three recent macro analyses.
  const macro=available.filter(e=>!used.has(e)&&e.sources.some(x=>x.industries?.includes('總體情勢')));
- macro.sort((a,b)=>Date.parse(b.sources[0].published_at||0)-Date.parse(a.sources[0].published_at||0));
- // Reserve up to three macro stories, then use additional verified macro
- // analyses to fill vacant industry slots, never inventing missing sectors.
  for(const e of macro.slice(0,3)){selected.push({entry:e,sector:'總體情勢'});used.add(e)}
- for(const e of macro.slice(3)){
+ // Fill any remaining slots with the newest valid analyses across all sectors,
+ // rather than pinning an old article from a sector without recent coverage.
+ for(const e of available){
   if(selected.length>=8)break;
-  selected.push({entry:e,sector:'總體情勢'});used.add(e)
+  if(used.has(e))continue;
+  const sector=SECTOR_PRIORITY.find(s=>e.sources.some(x=>x.industries?.includes(s)))||
+   (e.sources.some(x=>x.industries?.includes('總體情勢'))?'總體情勢':null);
+  if(!sector)continue;
+  selected.push({entry:e,sector});used.add(e)
  }
- if(!selected.length){out.append(node('div','目前沒有取得足夠原文可供分析的新聞，請查看下方產業動態。','empty'));return}
+ selected.sort((a,b)=>published(b.entry)-published(a.entry));
+ if(!selected.length){out.append(node('div','最近三天沒有取得足夠原文可供分析的新聞，請查看下方產業動態。','empty'));return}
  for(const {entry,sector} of selected){
-  const first=entry.sources[0],card=node('article',undefined,'focus-card');
+  const first=entry.sources.slice().sort((a,b)=>Date.parse(b.published_at||b.discovered_at||0)-Date.parse(a.published_at||a.discovered_at||0))[0];
+  const card=node('article',undefined,'focus-card');
   const head=node('div',undefined,'focus-top'),topRight=node('div',undefined,'focus-date-source');
   topRight.append(node('span',date(first.published_at),'date'));
   if(entry.sources.length===1)topRight.append(link(sourceName(first)+' · 原文',original(first),true));
