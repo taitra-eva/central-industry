@@ -105,6 +105,60 @@ def search_original_articles(title, source):
     return candidates
 
 
+
+def official_udn_rss_matches(items):
+    """Resolve matching Google News records against publisher-owned RSS only.
+
+    The RSS item is evidence of the original URL and optional public excerpt,
+    not evidence that the complete publisher article is freely readable.
+    """
+    import feedparser
+    from html import unescape
+    needed=[x for x in items if x.get("source")=="經濟日報"
+            and not x.get("source_url")
+            and google_link(x.get("url",""))]
+    if not needed:
+        return {}
+    config=ROOT/"config/direct_sources.json"
+    if not config.exists():
+        return {}
+    try:
+        feeds=[x["url"] for x in json.loads(config.read_text(encoding="utf-8")).get("sources",[])
+               if x.get("name")=="經濟日報" and x.get("type")=="rss"
+               and urlparse(x.get("url","")).hostname=="money.udn.com"]
+    except (OSError,ValueError,KeyError):
+        return {}
+    publisher_entries=[]
+    for feed_url in dict.fromkeys(feeds):
+        try:
+            resp=session.get(feed_url,timeout=15)
+            resp.raise_for_status()
+            feed=feedparser.parse(resp.content)
+            if feed.bozo and not feed.entries:
+                raise ValueError("Publisher RSS could not be parsed")
+            for row in feed.entries:
+                link=row.get("link","")
+                parsed=urlparse(link)
+                if parsed.scheme!="https" or parsed.hostname!="money.udn.com":
+                    continue
+                if not re.match(r"^/money/story/\\d+/\\d+",parsed.path):
+                    continue
+                title=unescape(re.sub("<[^>]+>"," ",row.get("title",""))).strip()
+                excerpt=unescape(re.sub("<[^>]+>"," ",row.get("summary",""))).strip()
+                publisher_entries.append((title,link,excerpt))
+        except (requests.RequestException,ValueError) as ex:
+            print("Official UDN RSS lookup failed:",str(ex)[:120])
+    matches={}
+    for item in needed:
+        # The original source title must match; similar topics do not qualify.
+        found=next(((link,excerpt) for title,link,excerpt in publisher_entries
+                    if title_matches(item.get("title",""),title,minimum=0.78)),None)
+        if found:
+            matches[item["id"]]=found
+    print("Official UDN RSS link matches:",len(matches),"of",len(needed),
+          "unresolved Economic Daily records")
+    return matches
+
 def read_public_page(url, expected_title=None, minimum_length=250):
     try:
         response = session.get(url, timeout=10, allow_redirects=True, stream=True)
@@ -178,7 +232,17 @@ def main():
     candidates=chosen[:LIMIT]
     texts={}
     stats={}
+    udn_matches=official_udn_rss_matches(candidates)
     for item in candidates:
+        official_match=udn_matches.get(item["id"])
+        if official_match:
+            item["source_url"]=official_match[0]
+            item["original_url_status"]="publisher_rss_title_verified"
+            item["original_url_checked_at"]=datetime.now(timezone.utc).isoformat()
+            publisher_excerpt=official_match[1]
+            if len(publisher_excerpt)>=65 and len(publisher_excerpt)>len(item.get("publisher_excerpt") or ""):
+                item["publisher_excerpt"]=publisher_excerpt[:1200]
+                item["publisher_excerpt_source"]="official_rss"
         resolved=item.get("source_url") or publisher_url(item["url"])
         if resolved:
             result=read_public_page(resolved)
