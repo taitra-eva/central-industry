@@ -141,7 +141,7 @@ def official_udn_rss_matches(items):
                 parsed=urlparse(link)
                 if parsed.scheme!="https" or parsed.hostname!="money.udn.com":
                     continue
-                if not re.match(r"^/money/story/\\d+/\\d+",parsed.path):
+                if not re.match(r"^/money/story/\d+/\d+",parsed.path):
                     continue
                 title=unescape(re.sub("<[^>]+>"," ",row.get("title",""))).strip()
                 excerpt=unescape(re.sub("<[^>]+>"," ",row.get("summary",""))).strip()
