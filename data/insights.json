@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T00:43:33.721856+00:00",
+  "updated_at": "2026-11-25T00:46:03.862880+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -1229,6 +1229,156 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-24T00:43:18.721680+00:00",
       "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-bradenton/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "096639e7fcfd68a7c7be"
+      ],
+      "title": "荷莫茲海峽頻傳油輪遇襲　國際油價小升",
+      "summary": "荷莫茲海峽近日再次傳出油輪遭襲，導致美國與伊朗之間的外交努力顯得黯然失色。隨著油輪遭襲事件，國際油價在交投清淡的情況下小幅走高。紐約商品交易所西德州中級原油2027年1月交割價上漲1.88美元（2.35%），至每桶82.05美元；倫敦北海布倫特原油2027年1月交割價上揚2.03美元（2.27%），至每桶91.40美元。",
+      "observation": "油輪遭襲事件可能進一步推升國際油價，對台灣製造業的能源成本構成潛在壓力。需持續追蹤荷莫茲海峽局勢變化及油價波動，評估對能源密集型產業的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:43:28.046507+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611250009.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "0424728c4f962e16d385"
+      ],
+      "title": "受美國關稅消息拖累　歐洲股市收盤下跌",
+      "summary": "受美國關稅消息拖累，歐洲股市主要指數收盤下跌。根據中央社報導，媒體引述知情人士稱美國政府將於本週公布針對歐盟、中國等國家產業補貼措施的關稅調查結果，該消息導致歐洲股市指數下挫。倫敦FTSE 100下跌13.75點（0.13%）至10,467.07點；法蘭克福DAX下滑319.46點（1.26%）至25,017.81點；巴黎CAC 40微跌4.35點（0.05%）至8,040.49點。",
+      "observation": "此報導顯示美國關稅調查消息對歐洲股市造成短期負面影響，可能影響歐洲製造業及出口企業的股價表現。應追蹤美國關稅調查結果公布後，對歐盟及中國相關產業補貼政策的具體調整，以及對相關企業營運成本與市場需求的長期影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:43:43.803375+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611250003.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "73e7421129cfe788d5ae"
+      ],
+      "title": "傳美國準備調高對中國與其他國家關稅　最快本週公布",
+      "summary": "美國貿易代表葛里爾預計最快本週公布針對中國、歐盟及其他14國的關稅調查結果，調查聚焦於產業補貼與政府支持措施。若公布，可能導致多國面臨更高關稅，排除鋼、鋁及汽車等部分產品。美國政府表示將課徵與川普時期相近的關稅，最高法院已推翻部分川普關稅。",
+      "observation": "此消息顯示美國將加大對中國及其他國家關稅的壓力，可能影響全球供應鏈與製造業成本。需追蹤公布時間、實際關稅率及排除產品範圍，並觀察各國與美國的談判動態。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:43:59.365466+00:00",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "96595434708de5bccfb0"
+      ],
+      "title": "彭博：美新關稅稅率 不會高於已談定貿易協議約定水準",
+      "summary": "美國即將於24日公布301新關稅，彭博資訊引述消息人士表示，新關稅稅率不會超過已談妥的貿易協議水準，且將針對不同經濟體採取不同稅率，而非統一稅率。美國貿易代表署於今年3月針對16個國家（包括台灣、中國大陸、歐盟）對產業補貼進行調查，指出這些國家的補貼導致產能過剩，企業以較低價格打入全球市場，傷害美國廠商。",
+      "observation": "此報導顯示美國將在301關稅中採取差異化稅率，可能對台灣出口造成影響，但具體稅率及受影響產品尚未公布。應追蹤美國官方公告及台灣相關產業的報價變動，以評估實際影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:44:14.993357+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9899907",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "f33639d21d82515432d6"
+      ],
+      "title": "最快本周…川普將推新關稅 陸稅率恐高於他國",
+      "summary": "美國總統川普正準備於本週公布對中國大陸、日本、南韓等數十國的「新關稅」，其中大陸關稅稅率可能高於其他國家，因北京補貼範圍廣大。美國貿易代表葛里爾將公布歷時數個月的關稅調查結果，若調查認定補貼不公平，將採取關稅制裁。新關稅將涵蓋多數出口產品，鋼鋁及汽車等部分工業產品可能排除。美國最高法院已推翻川普對等關稅，未來關稅稅率仍未確定，但可能接近2025年訂定稅率。",
+      "observation": "此新聞主要涉及美國對外貿易政策，對台灣製造業的直接影響尚不明確。若美國對中國大陸及其他主要供應國加徵高關稅，可能間接影響台灣企業的供應鏈成本與出口競爭力。應追蹤美國關稅公布後的具體稅率、排除產品範圍，以及台灣企業在相關產業（如汽車零件、鋼鐵、電子零件）中的供應鏈位置。證據不足以推論台灣企業將直接受惠或受損。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:44:30.650460+00:00",
+      "source_url": "https://udn.com/news/story/6811/9899843",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "e87d33b4c6935891b370"
+      ],
+      "title": "Ati Robotics 採用 Simscale AI 模擬,用於自主車輛開發",
+      "summary": "Ati Robotics（美國）正在使用SimScale的AI雲端模擬技術，對其Sherpa自主移動機器人（AMR）進行結構與機械模擬，以驗證硬體在連續工廠作業中的載重、速度與可靠性。SimScale提供跨美國與印度團隊共用的模擬環境，減少傳統模擬所需的基礎設施負擔。此舉發生於全球工業機器人安裝量持續攀升（2025年超過60萬台，全球總量達500萬台），美國市場亦顯著成長，顯示製造業正加速投資自動化以提升生產力與應對勞動力短缺。",
+      "observation": "此新聞顯示Ati Robotics正透過雲端AI模擬加速AMR硬體驗證，可能提升其產品上市速度與可靠性。觀察重點包括：1) 模擬技術對開發週期的實際縮短效益；2) 兩地團隊協作效率提升；3) 其AMR在實際工廠環境中的表現。需追蹤的面向：實際硬體測試結果、客戶採用情況、與競爭對手的技術差異。證據不足於說明此技術是否已導致具體營收或訂單增長。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:44:46.207695+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/ati-robotics-adopts-simscale-ai-simulation-for-autonomous-vehicle-development/107602/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "282213cf24745405a78b"
+      ],
+      "title": "在波士頓漁碼頭開放海洋機器人設施的大型機器人",
+      "summary": "MassRobotics 正在波士頓漁碼頭建造一座海洋機器人設施，將於 2028 年初開放。該設施與 Massport 的 Blue Edge 計畫合作，提供創業公司直接進入波士頓港進行水下機器人、自治船隻等海洋技術測試。建設中，預計 2027 年開始舉辦示範、工作坊及網絡活動。設施將配備水箱、浮動測試平台及起降設備，距 MassRobotics 本部僅 10 分鐘步行路程。MassRobotics 已支援超過 100 家創業公司，其中 CRABI Robotics 專研船艙清潔機器人。",
+      "observation": "此新聞顯示波士頓海洋機器人產業正加速發展，MassRobotics 與 Massport 合作可降低創業公司測試成本，可能促進本地海洋科技創新。觀察重點：1) 2028 年開放時間與 2027 年活動安排；2) 設施設備與測試流程；3) 與 Massport Blue Edge 及 Marine Tech Hub 的聯動。應追蹤的面向包括：設施完成進度、實際使用率、創業公司參與度及後續投資動向。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:45:01.762968+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/massrobotics-to-open-marine-robotics-facility-at-boston-fish-pier/107593/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "8d35e7f1472960e0ba72"
+      ],
+      "title": "ASRock 用於物理AI開發的工業 \" 機器人入盒 \"",
+      "summary": "ASRock Industrial於2026年11月24日推出RBK-100 Robotics‑in‑a‑Box，為物理AI開發提供一體化平台。該套件搭載ASRock Industrial NUC BOX‑358H與Intel Core Ultra X7 358H處理器，標準版32GB DDR5、512GB PCIe Gen4 SSD，進階版64GB DDR5。內含RGB‑D相機、6-DOF領導‑跟隨機械手臂組，以及預裝AiRoboStarter軟體，支援演示錄製、資料集檢閱、模型訓練與機器人技能執行。進階版可整合代理式AI工作流程，提供語音、LLM、視覺、物件偵測等多模態功能。此產品旨在降低系統整合複雜度，促進研究人員、教育者與開發者在實體AI領域的實驗與應用。",
+      "observation": "RBK‑100的推出顯示ASRock Industrial正積極進軍物理AI與機器人開發平台市場。其硬體與軟體整合可降低開發門檻，對於需要快速原型與實驗的研究機構具有吸引力。未來觀察重點包括：1) 市場接受度與實際銷售數據；2) 與Intel合作的技術支援與更新頻率；3) 進階版代理式AI功能的實際效能與應用案例。證據不足以評估其對台灣本土機器人產業的直接影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:45:17.736317+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "29704261003e696978cc"
+      ],
+      "title": "高階自動部件在 Ocala 開啟新倉庫",
+      "summary": "Advance Auto Parts於今日在Ocala開設新店，地址為3770 SE Maricamp Rd。開幕式由公司高層Mark Ortiz主持，並與Marion Technical College代表共同剪彩，並捐贈資金支持該校汽車技術課程。此舉旨在為當地駕駛者與汽車專業人員提供零件、工具與專業支援。美國勞工統計局預估至2034年，每年約有70,000個汽車技術職缺。",
+      "observation": "此新聞主要顯示Advance Auto Parts在美國市場擴張零售網絡，並透過捐贈支持地方教育。對台灣製造業而言，顯示美國汽車零件市場仍具需求，且企業重視人才培育。觀察重點可追蹤：1) 進一步了解Ocala地區市場規模與競爭環境；2) 監測美國汽車技術職缺趨勢對零件需求的影響；3) 評估類似企業在台灣的市場進入策略。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:45:33.244638+00:00",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-ocala/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "5ac7589ced231716ff60"
+      ],
+      "title": "Glen Allen 高階自動部件開啟新儲存器",
+      "summary": "Advance Auto Parts於11月19日在弗吉尼亞州Glen Allen開設新店，地址10318 Washington Hwy。開幕式由公司高層、地方官員及Reynolds Community College代表共同剪彩，並捐贈金額以支持學院汽車技術課程。捐款將協助學生獲得實務經驗與職業機會。美國勞工統計局預估至2034年每年約有70,000個汽車技術職缺。",
+      "observation": "此次開店主要提升當地汽車零件與工具的可得性，並透過與學院合作加強人才培育。觀察重點包括：1) 新店對當地零售需求的影響；2) 捐贈對學院學生實務訓練的實際效益；3) 進一步追蹤是否有增加就業機會或提升技術人員供應。資料僅涵蓋開店與捐贈事實，未提及營收、庫存或長期業績。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-25T00:45:48.862725+00:00",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-glen-allen/",
       "confidence": "中"
     }
   ]

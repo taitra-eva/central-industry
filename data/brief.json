@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-24T00:43:34.062394+00:00",
+  "generated_at": "2026-11-25T00:46:04.430481+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 171,
-  "readable_total": 70,
+  "articles_total": 187,
+  "readable_total": 80,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 59,
-      "readable": 14
+      "articles": 68,
+      "readable": 20
     },
     {
       "name": "機械與金屬加工",
-      "articles": 28,
-      "readable": 23
+      "articles": 29,
+      "readable": 24
     },
     {
       "name": "自行車",
@@ -21,8 +21,8 @@
     },
     {
       "name": "汽配",
-      "articles": 12,
-      "readable": 8
+      "articles": 15,
+      "readable": 10
     },
     {
       "name": "手工具",
@@ -31,11 +31,96 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 65,
-      "readable": 26
+      "articles": 70,
+      "readable": 29
     }
   ],
   "events": [
+    {
+      "id": "article-096639e7fcfd68a7c7be",
+      "title": "荷莫茲海峽頻傳油輪遇襲　國際油價小升",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社紐約24日綜合外電報導）荷莫茲海峽（Strait of Hormuz）傳出又有油輪遭遇襲擊，這使美國與伊朗戰事的最新外交努力顯得黯然失色，國際油價今天便在交投清淡之下小幅走高。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "096639e7fcfd68a7c7be"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T21:03:13+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-0424728c4f962e16d385",
+      "title": "受美國關稅消息拖累　歐洲股市收盤下跌",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社倫敦24日綜合外電報導）有媒體引述知情人士說法指出，美國政府預計最快本週公布一項歷時數個月的關稅調查結果，調查對象為歐盟、中國等國家的產業補貼措施，此消息使歐洲股市主要指數今天收低。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0424728c4f962e16d385"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T17:20:56+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-73e7421129cfe788d5ae",
+      "title": "傳美國準備調高對中國與其他國家關稅　最快本週公布",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社華盛頓24日綜合外電報導）「華爾街日報」獨家報導，知情人士表示，美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果，調查對象為中國、歐盟及其他14國的產業補貼措施，但公布時間仍可能變動。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "73e7421129cfe788d5ae"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T16:19:50+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-96595434708de5bccfb0",
+      "title": "彭博：美新關稅稅率 不會高於已談定貿易協議約定水準",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "美國傳出最快24日公布301新關稅，彭博資訊引述消息人士說法，表示新關稅的稅率不會超過已談妥的貿易協議的水準，且會針對不同經濟體，採取不同稅率，而非對所有國家實施統一稅率。 今年3月，美國貿易代表署（USTR）針對16個國家對產業提供的補貼展開調查，包含台灣、中國大陸、歐盟等。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "96595434708de5bccfb0"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-f33639d21d82515432d6",
+      "title": "最快本周…川普將推新關稅 陸稅率恐高於他國",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "華爾街日報廿四日獨家報導，美國總統川普正準備提高對中國大陸、日本、南韓等數十國的「新關稅」，大陸關稅稅率可能高於其他許多國家，因為北京補貼範圍特別廣大；川普政府認為，這些國家扶植本國企業生產，傷害美國企業。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "f33639d21d82515432d6"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T16:00:00+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-34ad86c7459983f60e10",
       "title": "民航局 力推無人機跨國認證",
@@ -73,8 +158,9 @@
     {
       "id": "article-d39c4b6afa3b5764887b",
       "title": "鋼鐵業搭 AI 熱潮 迎結構性復甦 華新、中鋼、豐興等吃補",
-      "sector": "機械與金屬加工",
+      "sector": "總體情勢",
       "sectors": [
+        "總體情勢",
         "機械與金屬加工"
       ],
       "preview": "AI需求旺，鋼鐵業迎來結構性復甦，其中，華新麗華（1605）、中鋼（2002）、豐興（2015）均指出，近期來自AI與半導體設備、機器人材料需求大增，中鋼棒線接單達全年目標，豐興第3季條線營收年增28%。",
@@ -769,6 +855,92 @@
       "source_count": 1,
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
+    },
+    {
+      "id": "article-e87d33b4c6935891b370",
+      "title": "Ati Robotics 採用 Simscale AI 模擬,用於自主車輛開發",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "美國自主機器人公司Ati Robotics為工業環境開發智慧材料處理器,正在使用Simscale的AI-native雲模擬技術支援其Sherpa自主移動機器人(AMR)的硬體驗證。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "e87d33b4c6935891b370"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T09:03:17+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-282213cf24745405a78b",
+      "title": "在波士頓漁碼頭開放海洋機器人設施的大型機器人",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "MassRobotics公司正在波士頓魚碼頭開發一個新的海洋機器人設施,為初創企業提供直接進入波士頓港測試水下機器人,自主船隻和其他海洋技術的通道. 該設施正同Massport公司合作開發,作為其藍邊倡議的一部分,該倡議支援該區域不斷發展的海洋技術部門。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "282213cf24745405a78b"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T07:30:39+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-8d35e7f1472960e0ba72",
+      "title": "ASRock 用於物理AI開發的工業 \" 機器人入盒 \"",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "ASRock Industrial是臺灣工業計算和邊緣AI解決方案的供應商,已宣佈推出RBK-100 Robotics-in-a-Box. RBK-100旨在簡化機器人AI開發,使研究人員,教育工作者和開發者更容易獲得實際操作的實驗,它是一",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "8d35e7f1472960e0ba72"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T06:26:57+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-29704261003e696978cc",
+      "title": "高階自動部件在 Ocala 開啟新倉庫",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "Advance Auto Parts今天在奧卡拉開設了最新商店,擴大了當地司機和汽車專業人員獲取零件,工具和專門知識的機會. 該公司在3770 SE Maricamp Rd.的商店開業時,與當地官員和Marion技術學院的代表一起舉行了剪彩儀式,他們現場接受對學校汽車技術方案的捐款。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "29704261003e696978cc"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T00:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-5ac7589ced231716ff60",
+      "title": "Glen Allen 高階自動部件開啟新儲存器",
+      "sector": "汽配",
+      "sectors": [
+        "汽配"
+      ],
+      "preview": "Advanced Auto Parts於11月19日在維吉納州格倫艾倫開設了最新商店,拓寬了本地司機和汽車專業人員獲取零件,工具和專門知識的渠道. 該公司在10318 Washington Hwy. 開店時舉行了剪彩儀式,當地官員和Reynolds社群學院的代表也在場接受對學校汽車技術方案的捐款。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "5ac7589ced231716ff60"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-24T00:00:00+00:00",
+      "taiwan_focus": false
     },
     {
       "id": "article-efb20580353f9426eda7",
