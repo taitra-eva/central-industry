@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-11-25T13:27:23+08:00",
+  "checked_at": "2026-11-25T17:35:47+08:00",
   "fx": {
     "source": "玉山銀行",
     "quote_type": "即期買入",
-    "quote_time": "2026/11/25 13:27",
+    "quote_time": "2026/11/25 17:35",
     "source_url": "https://accessible.esunbank.com.tw/Accessibility/ForeignExchangeRate",
     "currency": "TWD",
     "rates": {
-      "CNY": 4.925,
-      "EUR": 35.95,
-      "JPY": 0.2052,
-      "USD": 32.97
+      "CNY": 4.939,
+      "EUR": 36.05,
+      "JPY": 0.2061,
+      "USD": 33.09
     },
     "data_status": "official_esun_spot_buying_board",
-    "fetched_at": "2026-11-25T13:27:23+08:00"
+    "fetched_at": "2026-11-25T17:35:47+08:00"
   },
   "oil": {
     "source": "美國能源資訊署 EIA（官方網站）",
@@ -32,7 +32,7 @@
       "base_price": 118.82
     },
     "source_url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm",
-    "fetched_at": "2026-11-25T13:27:23+08:00"
+    "fetched_at": "2026-11-25T17:35:47+08:00"
   },
   "fetch_failed": [],
   "status": "ok"
