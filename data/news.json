@@ -1,9 +1,222 @@
 {
-  "updated_at": "2026-11-24T00:16:29.600832+00:00",
+  "updated_at": "2026-11-25T00:13:36.830807+00:00",
   "status": "ok",
   "sources_checked": 24,
   "sources_successful": 24,
   "items": [
+    {
+      "id": "096639e7fcfd68a7c7be",
+      "title": "荷莫茲海峽頻傳油輪遇襲　國際油價小升",
+      "url": "https://www.cna.com.tw/news/afe/202611250009.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611250009.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-24T21:03:13+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社紐約24日綜合外電報導）荷莫茲海峽（Strait of Hormuz）傳出又有油輪遭遇襲擊，這使美國與伊朗戰事的最新外交努力顯得黯然失色，國際油價今天便在交投清淡之下小幅走高。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "0424728c4f962e16d385",
+      "title": "受美國關稅消息拖累　歐洲股市收盤下跌",
+      "url": "https://www.cna.com.tw/news/afe/202611250003.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611250003.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-24T17:20:56+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社倫敦24日綜合外電報導）有媒體引述知情人士說法指出，美國政府預計最快本週公布一項歷時數個月的關稅調查結果，調查對象為歐盟、中國等國家的產業補貼措施，此消息使歐洲股市主要指數今天收低。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "73e7421129cfe788d5ae",
+      "title": "傳美國準備調高對中國與其他國家關稅　最快本週公布",
+      "url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-24T16:19:50+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社華盛頓24日綜合外電報導）「華爾街日報」獨家報導，知情人士表示，美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果，調查對象為中國、歐盟及其他14國的產業補貼措施，但公布時間仍可能變動。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "96595434708de5bccfb0",
+      "title": "彭博：美新關稅稅率 不會高於已談定貿易協議約定水準",
+      "url": "https://money.udn.com/money/story/5599/9899907",
+      "source": "經濟日報",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-25T00:13:10.046933+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "f33639d21d82515432d6",
+      "title": "最快本周…川普將推新關稅 陸稅率恐高於他國",
+      "url": "https://udn.com/news/story/6811/9899843",
+      "source": "聯合新聞網",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-25T00:13:10.046933+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "e4be76478d16a7d5c803",
+      "title": "美再揮關稅大刀 陸稅率恐更高",
+      "url": "https://www.chinatimes.com/newspapers/20261125000290-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-25T00:13:10.046933+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "6e2c169487cbba450f51",
+      "title": "Trade war over green tech has no winners - Tech Xplore",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TV3pGT2c4ajJPQ1hnUG9FZ1hqMUw4N2RralBRZnRUTGstTnNGVVpuU3FMNU40dFFPRW1ORnZRbVFGLXE1WTc3Y21qYU16anlGekp6T1NybW5XaUVKOWVQT05pTmg3ZjNPd3paaWdiRzQ?oc=5",
+      "source": "Tech Xplore",
+      "published_at": "2026-11-24T14:53:30+00:00",
+      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "8e9ed887b8829e3784db",
+      "title": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPOWpQa3RXM0lDaDVzc0EzTDhXd2tfNHdvMGtJVGxZdnY4clVQdXVOaWNZTXo2ZmhiVnBMbWVCNm5NZ3RUNVBFa2xIbVpLamxQdUtkZDlxYkEwM0pZZWl5T1JudXh0WFlieGwyOVZQUldHZXN2SkNVYWNZTEk3UnVCd1huOWQxbE5BTzgwdEo4c0tyUWIycGl0WTZpeEgwUE9FV2dWaHowbjNkYW5PT2ZwRGpOaXNMUlNlMVNxX1NXNGtSQTdpdFRpNTdQYXNBYzFWaW1mMlFsMjhGbEFxUnlmZzZkcDlIYWk4eE9UX2JmR21WbnJrY05LV0k4SHM5Wk5hS183M2pvMFZXRzNsRmFOQ09QQWQydw?oc=5",
+      "source": "Morningstar",
+      "published_at": "2026-11-24T14:00:00+00:00",
+      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration Morningstar"
+    },
+    {
+      "id": "e87d33b4c6935891b370",
+      "title": "Ati Robotics adopts SimScale AI simulation for autonomous vehicle development",
+      "url": "https://roboticsandautomationnews.com/2026/11/24/ati-robotics-adopts-simscale-ai-simulation-for-autonomous-vehicle-development/107602/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/ati-robotics-adopts-simscale-ai-simulation-for-autonomous-vehicle-development/107602/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-24T09:03:17+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Ati Robotics, the US-based autonomous robotics company developing intelligent material-handling vehicles for industrial environments, is using SimScale’s AI-native cloud simulation technology to support hardware validation of its Sherpa autonomous mobile robot (AMR). The engineering team uses SimScale to conduct structural and mechanical simulations of the Sherpa platform, assessing vehicle design and drive system components against […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "282213cf24745405a78b",
+      "title": "MassRobotics to open marine robotics facility at Boston Fish Pier",
+      "url": "https://roboticsandautomationnews.com/2026/11/24/massrobotics-to-open-marine-robotics-facility-at-boston-fish-pier/107593/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/massrobotics-to-open-marine-robotics-facility-at-boston-fish-pier/107593/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-24T07:30:39+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "MassRobotics is developing a new marine robotics facility at Boston Fish Pier, providing startups with direct access to Boston Harbor for testing underwater robots, autonomous vessels and other marine technologies. The facility is being developed in partnership with Massport as part of its Blue Edge initiative, which supports the region’s growing marine technology sector. Construction […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "8d35e7f1472960e0ba72",
+      "title": "ASRock Industrial launches ‘robotics-in-a-box’ for physical AI development",
+      "url": "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-24T06:26:57+00:00",
+      "discovered_at": "2026-11-25T00:12:32.028279+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "ASRock Industrial, a Taiwanese provider of industrial computing and edge AI solutions, has announced the launch of RBK-100 Robotics-in-a-Box. Designed to simplify robotic AI development and make hands-on experimentation more accessible to researchers, educators, and developers, RBK-100 is an integrated physical AI development platform powered by the ASRock Industrial NUC BOX-358H featuring the Intel Core […]",
+      "publisher_excerpt_source": "official_rss"
+    },
     {
       "id": "34ad86c7459983f60e10",
       "title": "民航局 力推無人機跨國認證",
@@ -28,6 +241,66 @@
       "summary_zh": "「2026國際無人機及先進空中交通論壇」23日登場。交通部民航局長何淑萍表示，本次論壇旨在將國際發展趨勢及前沿技術規範向國內業者介紹，以完善檢驗標準、強化檢驗技術接軌及拓展國際合作等方向推動相關工作。\n\n何淑萍指出，隨著科技快速發展，無人機應用日益多元，從空拍攝影、農業作業、監測巡檢，到物流運送及緊急救援，逐步融入各項產業與公共服務。在台灣，無人機應用也持續成長。截至今年6月底，國內無人機註冊數已逾4萬2千架，累計核准飛航活動超過3萬件以上，註冊、操作人員或飛航活動，都持續增加。\n\n何淑萍進一步說明，民航局已積極整合測試空域，透過系統化管理提供無人機測試空域，以支持產業發展；另將持續推動跨國雙邊認證，與國際接軌，期許台灣在無人機發展中扮演關鍵角色。她強調，面對日益多元的應用需求，民航局會積極精進管理法規、飛航活動申請程序及檢驗驗證制度，在確保飛航安全的前提下，支持創新應用與產業發展。\n\n交通部次長林國顯表示，無人機應用持續擴大，政府將協助產業有序發展，並兼顧機場安全維護及無人機監管。他指出，國內也需要導入國際間已採用的新規範，過程中政府須與各界溝通，並聽取業者在研發過程中的經驗與回饋。\n\n這次論壇聚焦「國際無人機與AAM發展」及「國際航空安全規範介紹」，邀請國外民航主管機關與專家分享實務經驗，希望國內產業藉此深化交流，促進我國無人機與先進空中交通法規、標準與技術進展，吸引國內近16",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
+    },
+    {
+      "id": "4f6b9b905dca70ed8ae4",
+      "title": "美歐汽車售後市場新變革：維修權鬆綁、車齡創新高，台灣如何卡位零配件商機？ - 數位時代",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0b0FjSk9xcEc0TW81SEVwMG41XzFKTWtULVQwbHN3VDZTOXJlaTNYWEVIR3k3dTNVRjF0UDhkQWt2Z2dQS05XcDFzcGwyb0NfYkhLUUltNDZ0TDg?oc=5",
+      "source": "數位時代",
+      "published_at": "2026-11-24T02:22:00+00:00",
+      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "tags": [],
+      "priority": "taiwan",
+      "region": "台灣",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "29704261003e696978cc",
+      "title": "Advance Auto Parts Opens New Store in Ocala",
+      "url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-ocala/",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-ocala/",
+      "source": "AftermarketNews",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T00:12:38.986114+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "北美",
+      "priority": "international",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "The Florida store ribbon cutting with local leaders included a donation to Marion Technical College. November 24, 2026",
+      "publisher_excerpt_source": "publisher_news_listing",
+      "source_content_policy": ""
+    },
+    {
+      "id": "5ac7589ced231716ff60",
+      "title": "Advance Auto Parts Opens New Store in Glen Allen",
+      "url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-glen-allen/",
+      "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-glen-allen/",
+      "source": "AftermarketNews",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T00:12:38.986114+00:00",
+      "industries": [
+        "汽配"
+      ],
+      "region": "北美",
+      "priority": "international",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "The Virginia store ribbon cutting with local leaders included a donation to Reynolds Community College. November 24, 2026",
+      "publisher_excerpt_source": "publisher_news_listing",
+      "source_content_policy": ""
     },
     {
       "id": "efb20580353f9426eda7",
@@ -59,6 +332,24 @@
       "summary_zh": "圖片AI為可穿戴的機器人系統申請了專利,該系統旨在捕捉人的手臂運動並利用由此產生的資料實時訓練人造機器人或遠端控制它們.\n\n該申請號為US 2026/0364774 A1,釋出於2026年11月19日,在專利分析專業出版物Peratentlyze的一份報告中得到了強調.\n\n擬議系統包括一個揹包式框架,裝有兩具隨人類操作員移動的機械臂。\n\n裝置不是要求工人在動作捕捉室進行示威,而是允許在人們在工廠、倉庫和其他工作環境中執行日常任務時收集運動資料。\n\n根據專利申請,可穿戴的裝置包括附在操作員軀幹上的吊帶,機械臂伸過肩部,緊隨穿戴者的手臂移動。\n\n每個機械臂都裝有剛性連結,伸縮的關節和感測器,以測量肩部,肘部和腕部的運動.\n\n系統可提供高達7軸的每臂旋轉,使其能夠捕捉複雜的運動,同時容納不同的體型.\n\n聯合編碼器測量旋轉位置,而慣性測量單元跟蹤方向和運動. 手套般的附著物將機械臂的端部與操作員的手相連.",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
+    },
+    {
+      "id": "bdac44cc8300f4ddff49",
+      "title": "Skydio Expands Autonomous Drone Fleet with Fixed-Wing F10 Lightrunner (Video) - Thomasnet",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xLWxiNTVoaUlrUHpwMncxTnJKazJoYjBFLUVIZGZtNk5EM203Nm0xOVN0ZkRuU3ZfY2F3Wm1yUV9vNTJaOHNQelk4NVNodC1ZanhJM0NDZEJ4RTg0b0ROd1NvaGZDREEzeGc?oc=5",
+      "source": "Thomasnet",
+      "published_at": "2026-11-23T21:59:10+00:00",
+      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "f06ac7b4977f872020a3",
@@ -117,6 +408,24 @@
       "ai_summary_status": "generated_unreviewed"
     },
     {
+      "id": "ae8ff1e9a00e744d3158",
+      "title": "How Value-Added in Trade Complicates the Tariff Picture - Tax Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jOVZQT0lvQ1ljTFRpa0trX0tuRXpNc1ZIUGk4VFcxYmpGcEZPdTdXOGJzdnVtdldMSjRWS3A1YVRzMUpDb0lOTzZVLUlpS2pQSnZCX3NLYlZvMGE2dUd1N2tEckNQTHVqbVVyY2lqZWlzZ1BnOW1IQTlR?oc=5",
+      "source": "Tax Foundation",
+      "published_at": "2026-11-23T18:48:19+00:00",
+      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "beac017dac979b7ea646",
       "title": "Mobile robotics market set for fifteen-fold growth as autonomous picking expands",
       "url": "https://roboticsandautomationnews.com/2026/11/23/mobile-robotics-market-set-for-fifteen-fold-growth-as-autonomous-picking-expands/107508/",
@@ -156,7 +465,8 @@
       "published_at": "2026-11-23T18:19:48+00:00",
       "discovered_at": "2026-11-24T00:15:14.943390+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "tags": [],
       "priority": "international",
@@ -245,8 +555,8 @@
       "tags": [],
       "access_status": "readable",
       "excerpt": "Advance Auto Parts opened its newest store in Bradenton, expanding access to parts, tools and expertise for local drivers and automotive professionals. The company marked the opening of the store at 10010 State Road 64 alongside local officials and representatives from Manatee Technical College who were on site to",
-      "publisher_excerpt": "",
-      "publisher_excerpt_source": "",
+      "publisher_excerpt": "The store opening in Florida included a donation to Manatee Technical College. November 23, 2026",
+      "publisher_excerpt_source": "publisher_news_listing",
       "source_content_policy": "",
       "read_checked_at": "2026-11-24T00:40:33.676405+00:00",
       "body_length": 1520,
