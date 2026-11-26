@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T00:46:03.862880+00:00",
+  "updated_at": "2026-11-26T00:48:00.820150+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -1379,6 +1379,246 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-25T00:45:48.862725+00:00",
       "source_url": "https://www.aftermarketnews.com/advance-auto-parts-opens-new-store-in-glen-allen/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "a7077755229312f071c4"
+      ],
+      "title": "美301關稅方案出爐！這國擬被課最高35％、台15％、陸20％ 14國稅率一次看",
+      "summary": "美國貿易代表署（USTR）於25日公布針對14個經濟體的301調查結果，對台灣提議加徵15％的協議關稅稅率，部分商品可獲豁免。調查列舉台灣九項不合理行為，包括產業扶植、R&D支持、產業聚落、融資機制、產能過剩、金融壓抑、俄羅斯原料採購及勞工權益。美方將在現行MFN及301條款關稅之上加徵，並將於生效前公開徵求意見、安排聽證會，實施時間可能延後至2027年1月。其他國家關稅率分別為歐盟、韓國、日本及瑞士15％、泰國18％、新加坡10％、越南20％、印度17％。",
+      "observation": "此調查主要針對台灣的製造業結構性產能過剩，提出15％關稅並可豁免部分商品。觀察重點應追蹤台灣是否在聽證會後調整相關政策以符合美方要求，以及關稅實施後對高科技製造業、R&D投入與產業聚落的影響。證據不足以判斷實際關稀執行時間與具體商品範圍，需持續關注美方公開徵求意見期與聽證會結果。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:43:51.364355+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261126700055-430101",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "3182182e16eba95ba10a"
+      ],
+      "title": "美301關稅出爐》關稅15％定音 符合政院預期",
+      "summary": "美國貿易代表署於25日公布301調查報告，指出台灣的關稅稅率將接近協議稅率15％，且不會疊加最惠國（MFN）稅率。行政院表示此結果符合台美ART協議的成果，並將於26日召開記者會說明。美國方面表示短期內關稅不會生效，預計明年1月才正式實施。報告中亦提到將進行二次公聽會，最終稅率仍待決定。",
+      "observation": "此新聞僅說明美國301調查結果將以15％協議稅率為基準，並未透露具體產品或產業的關稅變動。觀察重點應追蹤：1) 何時正式公布最終稅率；2) 具體哪些產品將受影響；3) 相關公聽會的討論內容。證據不足以推論對台灣特定產業的直接影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:44:06.894029+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261126700069-430101",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "a959b846b4655afba1b5"
+      ],
+      "title": "美301關稅出爐》行政院經濟顧問張建一：台日韓輸美產品 站同一立足點",
+      "summary": "美國貿易代表辦公室於25日公布301條款調查結果，台灣產品對美關稅定為15％，與日本、韓國的協議稅率相同。行政院經濟顧問張建一表示，台灣已取得美方對台產品的關稅承諾，並強調此結果符合政府與企業期待。張建一指出，台灣在15％關稅下不會再加MFN關稅，且此關稅結構與日韓相同，將使台日韓輸美產品站在同一立足點。",
+      "observation": "此新聞顯示台灣在美301條款調查中取得與日韓相同的15％關稅待遇，可能對台灣出口競爭力產生正面影響。觀察重點應追蹤：1) 進一步確認美方是否正式簽署ART協議並通過國會；2) 觀察台灣產品在美市場的實際銷售表現與競爭力變化；3) 監測美方對半導體及其他高科技產品的關稅政策變動。證據不足於說明此關稅變動是否會直接提升台灣出口量或市場佔有率。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:44:22.487350+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261126700076-430101",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "bed2db9d0c55e9dfdf75"
+      ],
+      "title": "中東襲擊加劇供應不確定性　國際油價上揚",
+      "summary": "中東地區近期襲擊加劇，導致原油運輸前景不確定，國際油價隨之上揚。紐約商品交易所西德州中級原油2027年1月交割價上漲2%，至每桶83.68美元；倫敦北海布倫特原油2027年1月交割價上升3.5%，至每桶94.61美元。",
+      "observation": "此次襲擊可能進一步擾亂中東原油供應鏈，短期內或推高全球油價，進而影響能源成本及相關製造業。需持續追蹤中東局勢變化、油價波動及其對台灣製造業能源需求的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:44:38.043173+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611260011.aspx",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "ab20f5a22befe3647edb"
+      ],
+      "title": "就是比較賺！ 亞洲鋼材銷美 50%高額關稅擋不住",
+      "summary": "美國大型AI資料中心興建推升鋼構、鍍鋅鋼板及電力基礎設施用鋼需求，導致熱軋鋼捲價格飆升逾47%，達四年高點。雖然亞洲鋼材輸美需負擔50%高額關稅，但部分產品仍具價格競爭優勢，近400美元便宜於美國本土鋼材。南韓、越南等亞洲供應國進口量大增，顯示高關稅無法完全阻斷進口。台灣鍍面鋼品大廠燁輝、盛餘及中鋼因產品優勢與成本穩定，預期可抓住AI建設帶來的商機，提升產能利用率與加工利差。",
+      "observation": "此報導顯示美國AI資料中心需求強勁，推升鋼材價格，亞洲鋼材仍具競爭力。觀察重點應追蹤：1) 美國關稅與反傾銷稅變動對台灣鋼材實際受惠程度；2) AI建設項目進度與實際採購量；3) 台灣鋼材出口量與價格調整。證據不足於預測具體訂單數量或營收變化。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:44:53.832928+00:00",
+      "source_url": "https://money.udn.com/money/story/10871/9902281",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "2c0b6224da1dbe9b8b42"
+      ],
+      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
+      "summary": "美國貿易代表署（USTR）於25日宣布，將對14個主要貿易夥伴加徵新關稅，因應美方所稱的結構性產能過剩。對台灣提議的協議關稅最高為15%。其中中國大陸的關稅將與2018年已實施的301條款關稅疊加，最高可達25%+20%＝45%。其他夥伴如歐盟、南韓、日本、瑞士均為15%，泰國18%，新加坡10%，越南及印度若達成協議則分別為20%及17%。USTR指出台灣在高科技製造業方面的補貼與政策，認為其減少美國製造商在台灣及第三方市場的商機，損害美國經濟。",
+      "observation": "此新聞主要涉及美台之間的關稅談判，對台灣半導體及電子製造業可能造成直接影響。觀察重點應追蹤台灣企業對美國市場的出口比例、關稅調整後的成本變化，以及美國企業在台灣的投資動向。證據顯示台灣被列為不合理行為之一，但未提供具體數字或案例，故需進一步資料以評估實際影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:45:09.393404+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9902317",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "d848dde58bef4234102f"
+      ],
+      "title": "川普祭新關稅 陸反彈：「產能過剩」是偽命題",
+      "summary": "川普政府於近日對十四個主要貿易夥伴加徵新關稅，理由是美方所稱的「產能過剩」問題。中方外交部發言人郭嘉昆表示此說法為偽命題，並反對以此為藉口進行政治操弄。美國方面則指出，這波關稅可能使美國關稅稅率恢復至今年二月最高法院推翻前的水準，並將對歐盟設定15%上限、對大陸商品維持20%上限。報導亦提到，關稅可能被用作施壓工具，要求各國遵守貿易協議中的投資承諾。",
+      "observation": "此新聞主要涉及美中貿易摩擦與關稅政策，對台灣製造業的直接影響尚不明確。若台灣企業出口至美國或中國，可能面臨關稅調整風險；若涉及中美雙邊供應鏈，亦需關注關稅上限與投資承諾的變動。建議追蹤美國關稅上限實際執行情況、台灣企業在美中市場的出口比例，以及中美雙方在投資協議上的進展。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:45:24.980975+00:00",
+      "source_url": "https://udn.com/news/story/6811/9902428",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "dfda966c05f2578ee22d"
+      ],
+      "title": "關稅15％不疊加 政院有信心落實",
+      "summary": "美國貿易代表署（USTR）將於本週公布「三〇一條款」調查結果，針對中國、歐盟及台灣等十六個經濟體的產業補貼與工業產能過剩問題。行政院發言人李慧芝表示，台美已簽署對等貿易協定（ART）及投資合作備忘錄（MOU），取得對等關稅十五％不疊加的相對優惠待遇，對調查結果有信心不會影響此優惠。美方於六月公布的「強迫勞動」報告中已肯認台美ART談判成果，將台灣列為建議課徵十％較低稅率國家，並於七月正式宣布十％不疊加MFN關稅。相關人士透露，美方已透過管道向台方溝通，預期調查最終稅率仍將回到雙方議定的十五％不疊加。外交部長林佳龍亦指出，台美在關稅、投資及供應鏈合作溝通良好，三〇一條款不會衝擊台美關稅的最終結果。",
+      "observation": "此報導主要說明台美雙方已簽署ART與MOU，並取得對等關稅十五％不疊加的優惠。美方於六月的強迫勞動報告已肯認此協議，並於七月宣布十％不疊加MFN關稅。雖然三〇一調查將針對產能過剩與補貼進行調查，但報導中明確指出調查結果預期仍維持十五％不疊加。觀察重點應追蹤三〇一調查正式公布後的具體稅率與是否有任何額外調整，並留意美方是否在其他產業（如半導體）上提出新的關稅或補貼措施。證據不足的地方：報導未提及調查範圍內具體產業的調查細節或可能的調整幅度，亦未說明台灣在其他產業的具體影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:45:40.744027+00:00",
+      "source_url": "https://ec.ltn.com.tw/article/paper/1779882",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "a06e1203b03c8095ee88"
+      ],
+      "title": "美擬對14經濟體加徵關稅　中國20%最高、台韓日歐盟15%",
+      "summary": "美國總統川普於2026年11月25日宣布，將對14個主要貿易夥伴加徵新關稅。最高稅率為20%，適用於中國與越南；台灣、韓國、日本及歐盟將面臨15%關稅；新加坡為10%；柬埔寨、印尼、馬來西亞、泰國與孟加拉則為18%。此舉與川普此前的貿易戰政策相符，並將影響美國對這些國家的進口商品。",
+      "observation": "此新聞僅提供關稅稅率與目標國家，未說明具體商品清單或實施時間。對台灣而言，15%關稅將直接影響進口成本，特別是機械與金屬加工產業。需追蹤美國貿易代表署的正式公告，以確認最終清單與實施日期。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:45:56.421765+00:00",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "64c8798560820d7876df"
+      ],
+      "title": "美301調查出爐擬對14經濟體加關稅　台灣協議稅率至少15%",
+      "summary": "美國在301調查結束後，提出對14個經濟體加徵關稅的提案，其中包括台灣。彭博報導指出，美方提議對台灣徵收至少15%的「協議稅率」關稅。台美雙方已簽署對等貿易協定及投資合作備忘錄，相關人士表示最終稅率仍將回到雙方議定的15%，不會疊加。美方最高擬議稅率可達20%，但實際稅率預計不超過15%。",
+      "observation": "此新聞僅提及美國對台灣的關稅提案及雙方協議，並未透露實際關稅執行細節或對台灣產業的具體影響。觀察重點應追蹤美國最終決定的關稅稅率、執行時間表，以及台灣相關產業（如機械與金屬加工、汽配等）可能受到的影響。證據不足以推論具體產業受損或收益。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:46:11.904182+00:00",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "0a1f805c38a023734c1d"
+      ],
+      "title": "台五軸工具機取得德製造商多量訂單 精密加工切入半導體供應鏈",
+      "summary": "台灣大君鴻科技與經濟部合作開發的天車搖籃式五軸工具機，已切入半導體腔體加工市場，取得德國先進製程腔體製造業者30台設備訂單，預估可創造約4.5億元產值。此舉顯示台灣高階工具機自主研發與國際市場拓展成果。經濟部自2023年起推動智慧化製造核心關鍵技術研發計畫，至2026年總經費約21.3億元，近三年完成1,067案技術移轉及廠商服務，金額約9.44億元，促成598件企業投資。",
+      "observation": "此訂單主要針對半導體製程腔體的複雜幾何結構與高精度加工需求，五軸加工可降低重新裝夾次數、提升加工一致性。觀察重點應追蹤德國訂單交付進度、客戶驗收情形、設備加工精度及關鍵零組件自主化程度。證據顯示台灣機械產業正由標準化設備與價格競爭轉向高精度、客製化及製程整合能力。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:46:27.479057+00:00",
+      "source_url": "https://www.ctimes.com.tw/2611251350RQ.shtml",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "86b5498f611bf2434697"
+      ],
+      "title": "安傑利尼技術公司獲得了超音速機器人學的股份,以支援國際擴張",
+      "summary": "安傑利尼技術公司（Angelini Technologies）已取得意大利公司Oversonic Robotics股份，支持其工業擴張與國際化。此投資將協助Oversonic擴大製造能力，將其認知人形機器人RoBee推向全球市場，尤其美國。Oversonic已於2020年成立，開發RoBee R（工業）與RoBee M（醫療）兩種配置，並已在意大利及國際製造設施運作。投資方Angelini屬Angelini Industries Group，擁有超過1,200項專利，已在72個國家銷售1,300條生產線，員工約800人。投資條件與股權比例未公布。",
+      "observation": "此交易顯示意大利人形機器人企業正尋求外部資金以擴大國際市場，特別是美國。Angelini的工業自動化經驗與物流機器人專長，可能加速RoBee在工業環境中的採用。觀察重點包括：1) 投資後Oversonic是否能提升產能及進入美國市場；2) Angelini是否會提供供應鏈或物流支援；3) 投資對Oversonic股權結構及董事會成員的影響。證據不足以判斷投資金額、股權比例或具體財務條件。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:46:43.099692+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/angelini-technologies-acquires-stake-in-oversonic-robotics-to-support-international-expansion/107696/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "62ab407a96a838ffcc82"
+      ],
+      "title": "研究人員制定有量子啟發的方法來進行更安全的自主無人機導航",
+      "summary": "美國獨立研究人員Sai Krishna Thota於2026年11月25日發表於Elsevier《Knowledge-Based Systems》的一項研究，提出一套量子啟發的決策支援框架，旨在提升自主無人機導航的安全性與可靠性。該框架在評估路徑時同時考量能源消耗、通訊可靠性、天氣條件與安全規範，並在180個模擬任務中平均降低20.5％的路徑風險與52.8％的安全規則違規率，與現有風險感知規劃方法相比。研究亦指出安全提升伴隨能源消耗增加的權衡，並強調實際操作規則對整體效能的關鍵貢獻。",
+      "observation": "此研究僅基於電腦模擬，尚未在實際無人機上驗證。觀察重點應追蹤：1) 模擬結果在真實環境中的可轉換性；2) 能源消耗與安全之間的實際權衡；3) 量子啟發概念在非量子硬體上的實際效能。缺乏實測數據，故對市場影響與產業應用仍需進一步證實。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:46:58.595021+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/researcher-develops-quantum-inspired-approach-to-safer-autonomous-drone-navigation/107671/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "15a4eda93767748b5e00"
+      ],
+      "title": "可靠性成為機器人的下一個重大挑戰",
+      "summary": "本篇文章指出，隨著人工智慧、感測與控制系統的進步，機器人已能執行更複雜任務，但確保其長期可靠運作成為產業面臨的主要挑戰。HBK公司在其新報告《Reliability Will Define the Next Decade of Robotics》中，探討從人形機器人、倉儲自動化、醫療外科到海底檢測等多種應用，可靠性工程如何影響產品一致性、安全性與可預測性。文章提到，部分人形機器人開發者已採用Design for Reliability（DfR）方法，利用HBK的ReliaSoft軟體評估元件與系統層級的弱點；倉儲自動化公司亦使用此軟體分析大規模機器人群的可用性與維護需求；醫療機器人開發商與海底影像技術開發者亦同樣運用可靠性模型以降低風險。文章未披露具體公司名稱或數據，但強調可靠性將成為競爭差異化因素，影響營運成本、客戶信心與擴張能力。",
+      "observation": "文章顯示，可靠性已成為機器人產業的關鍵議題，尤其在人形機器人與倉儲自動化等高頻使用環境。可能需要追蹤的面向包括：1) 具體企業採用ReliaSoft或類似工具的實際效益數據；2) 可靠性評估對成本與維護週期的具體影響；3) 可靠性設計在不同應用領域（醫療、海底）中的差異化需求。證據不足於說明任何公司已實際提升可靠性或營收，僅指出使用工具與方法。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:47:14.497297+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/reliability-emerges-as-the-next-big-challenge-for-robotics/107653/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "12e81d6c46ec517f35a3"
+      ],
+      "title": "Neuryn Robotics 開發 AI 動力機器人實現時尚返回自動化",
+      "summary": "Neuryn Robotics 是一家位於馬德里的創業公司，專注於開發 AI 動力機器人以自動化時尚電子商務退貨流程。公司於 2026 年 11 月 20 日於 ExCeL London 展示技術，並成為 Alibaba.com CoCreate Pitch London 2026 競賽的 20 名決賽入圍者之一。雖未進入前三名，Neuryn Robotics 將獲得 10,000 美元獎金。其機器人可從拆包、檢查服裝狀況到決定是否轉售、維修或回收，並利用 AI 判斷每件衣物的處理方式。此技術有助於零售商應對歐盟 2026 年 7 月起實施的「禁止處置未售服飾」法規，並減輕環境與合規壓力。市場上已有其他公司（如 Sereact 與 Zalando 合作）進入此領域。",
+      "observation": "Neuryn Robotics 目前僅在競賽中獲得獎金，尚未公布任何商業合作或訂單。其技術針對退貨處理的自動化，符合歐盟新法規需求，未來可能吸引大型時尚零售商。應追蹤公司是否與零售商簽訂合作協議、技術部署進度及成本效益評估。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:47:30.208663+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/neuryn-robotics-develops-ai-powered-robots-to-automate-fashion-returns/107641/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "18d00fe8ad3ee6c4bb4e"
+      ],
+      "title": "Zipline和Chipotle在PGA巡迴賽歷史上首次完成無人機食品運送",
+      "summary": "Zipline 與 Chipotle 於 2026 年 11 月 25 日在德州奧斯汀的 PGA 巡迴賽歷史上首次完成無人機食品配送。兩位職業高爾夫球手 Joel Dahmen 與 Mark Hubbard 在 Fazio Canyons 球場第 18 洞練習時，收到 Zipline 無人機直接投遞的 Chipotle 餐點。Dahmen 點了牛排碗配薯條與 Queso Blanco，Hubbard 點了牛排墨西哥捲配鳄梨醬。此行為為 Chipotle 於 2025 年與 Zipline 合作後，將配送服務擴展至非傳統目的地（如後院、公園）的一部分。雖為宣傳活動，但顯示自主空中配送可服務傳統道路配送難以觸及的地點。",
+      "observation": "此事件顯示無人機配送在高爾夫球場等特殊環境的可行性，可能促進 Chipotle 在美國主要城市（如達拉斯、奧斯汀）擴大無人機配送覆蓋範圍。觀察重點包括：1) 無人機配送在高爾夫球場等非傳統場地的實際操作可行性；2) 兩家公司在 2025 年已合作，未來是否將此模式擴展至其他戶外活動；3) 需要追蹤是否有正式商業訂單或長期合作協議。證據僅來自此宣傳性示範，缺乏具體營收或訂單數據。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-26T00:47:45.819962+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/zipline-and-chipotle-complete-first-drone-food-delivery-in-pga-tour-history/107636/",
       "confidence": "中"
     }
   ]

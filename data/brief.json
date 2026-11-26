@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-25T00:46:04.430481+00:00",
+  "generated_at": "2026-11-26T00:48:01.496420+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 187,
-  "readable_total": 80,
+  "articles_total": 205,
+  "readable_total": 97,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 68,
-      "readable": 20
+      "articles": 74,
+      "readable": 25
     },
     {
       "name": "機械與金屬加工",
-      "articles": 29,
-      "readable": 24
+      "articles": 37,
+      "readable": 32
     },
     {
       "name": "自行車",
       "articles": 20,
-      "readable": 11
+      "readable": 12
     },
     {
       "name": "汽配",
@@ -26,16 +26,203 @@
     },
     {
       "name": "手工具",
-      "articles": 3,
+      "articles": 4,
       "readable": 1
     },
     {
       "name": "無人載具及機器人",
-      "articles": 70,
-      "readable": 29
+      "articles": 75,
+      "readable": 34
     }
   ],
   "events": [
+    {
+      "id": "article-3182182e16eba95ba10a",
+      "title": "美301關稅出爐》關稅15％定音 符合政院預期",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "美貿易代表署當地時間25日早指出，稅率接近協議稅率。稍早在各界屏息關注美國公布的結構性產能過剩301調查報告，會否成為台灣經貿的嚴峻考驗時，行政院即掛保證表示，能反映台美談判成果。行政院26日將召開記者會對外說明美國USTR公布301調查結果。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "3182182e16eba95ba10a"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T03:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-a959b846b4655afba1b5",
+      "title": "美301關稅出爐》行政院經濟顧問張建一：台日韓輸美產品 站同一立足點",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "美國貿易代表辦公室25日發布301條款調查結果對各貿易國的關稅稅率，台灣為15％，和韓國、日本的「協議稅率」關稅至少15％在同一水平。行政院經濟顧問、台灣經濟研究院長張建一表示，此一結果符合政府和企業的期待，而且台灣因此取得美方對台灣產品的關稅承諾，和日、韓已與美方簽有FTA（自由貿易協定）是同樣待遇。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "a959b846b4655afba1b5"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T03:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-a7077755229312f071c4",
+      "title": "美301關稅方案出爐！這國擬被課最高35％、台15％、陸20％ 14國稅率一次看",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "美國貿易代表署（USTR）針對主要貿易夥伴的製造業「結構性產能過剩」301調查，於25日公布調查結果，對包括台灣在內的14個經濟體加徵關稅。美方提議對台灣徵收15％的協議關稅稅率，部分商品則取得豁免，而擬議的關稅措施將經過公開徵求意見期，並在生效前安排聽證會，實施時間可能延後到2027年1月。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "a7077755229312f071c4"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T03:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-bed2db9d0c55e9dfdf75",
+      "title": "中東襲擊加劇供應不確定性　國際油價上揚",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "（中央社紐約25日綜合外電報導）中東地區襲擊加劇，使當地近幾個月逐漸恢復的原油運輸前景蒙上陰影，國際油價今天上揚。 本網站使用相關技術提供更好的閱讀體驗，同時尊重使用者隱私，點這裡瞭解中央社隱私聲明。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "bed2db9d0c55e9dfdf75"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T21:13:06+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-ab20f5a22befe3647edb",
+      "title": "就是比較賺！ 亞洲鋼材銷美 50%高額關稅擋不住",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "美國大型AI資料中心密集興建，帶動鋼構、鍍鋅鋼板及電力基礎設施用鋼需求強勁成長，加上當地鋼材供應吃緊，美國熱軋鋼捲價格衝上四年高點，較一年前大漲逾47%，即使亞洲鋼材輸美須負擔50%高額關稅，部分產品仍具價格競爭優勢，中鋼（2002）、裕鐵、燁輝（2023）、盛餘（2029）可望迎來新一波外銷及產業鏈商機。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "ab20f5a22befe3647edb"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T19:08:27+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-d848dde58bef4234102f",
+      "title": "川普祭新關稅 陸反彈：「產能過剩」是偽命題",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "路透報導，川普政府對十四個主要貿易夥伴加徵新關稅，因應美方所稱的產能過剩問題，中國大陸將面臨最高稅率，華府指控中國廉價出口商品充斥全球市場。大陸外交部發言人郭嘉昆昨表示，「產能過剩」是一個偽命題，中方反對以此為藉口進行政治操弄；中美雙方應共同落實兩國元首達成的重要共識，維護中美經貿關係穩定發展態勢。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d848dde58bef4234102f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-dfda966c05f2578ee22d",
+      "title": "關稅15％不疊加 政院有信心落實",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "〔記者鍾麗華、林哲遠、黃靖媗／台北報導〕美國貿易代表署（USTR）預計最快本週公布「三〇一條款」調查結果，鎖定中國、歐盟及台灣等十六個經濟體的產業補貼措施與工業產能過剩問題。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "dfda966c05f2578ee22d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-2c0b6224da1dbe9b8b42",
+      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "2c0b6224da1dbe9b8b42"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-a06e1203b03c8095ee88",
+      "title": "美擬對14經濟體加徵關稅　中國20%最高、台韓日歐盟15%",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "（中央社華盛頓25日綜合外電報導）總統川普宣布對美國主要貿易夥伴加徵新關稅。儘管共和黨在期中選舉慘敗，他仍堅定推動他的這項標誌性經濟主張。 英國「金融時報」（Financial Times）報導，美國官員提出對十多個貿易夥伴特定清單內的商品課徵最高20%關稅，其中中國與越南適用最高稅率，歐洲聯盟則為15%。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "a06e1203b03c8095ee88"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T15:21:32+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-64c8798560820d7876df",
+      "title": "美301調查出爐擬對14經濟體加關稅　台灣協議稅率至少15%",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "（中央社華盛頓25日綜合外電報導）美國歷經數月調查工業產能過剩問題後，今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。彭博報導，美方提議對台灣徵收至少15%的「協議稅率」關稅。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "64c8798560820d7876df"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T13:36:48+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-0a1f805c38a023734c1d",
+      "title": "台五軸工具機取得德製造商多量訂單 精密加工切入半導體供應鏈",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "全球半導體設備朝高精度、複合加工及製程自主化發展，帶動高階工具機與精密零組件需求。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "0a1f805c38a023734c1d"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T00:00:00+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-096639e7fcfd68a7c7be",
       "title": "荷莫茲海峽頻傳油輪遇襲　國際油價小升",
@@ -857,6 +1044,93 @@
       "taiwan_focus": true
     },
     {
+      "id": "article-86b5498f611bf2434697",
+      "title": "安傑利尼技術公司獲得了超音速機器人學的股份,以支援國際擴張",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "超音速機器人公司(Oversonic Robotics)是一家專門從事認知人造機器人的開發和製造的義大利公司,已宣佈安傑利尼技術公司已經獲得了該公司的股份,以支援其工業增長和國際擴張. 投資將幫助超音速公司擴大其製造能力,並將機器人解決方案引入全球市場,尤其關注美國。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "86b5498f611bf2434697"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T20:16:24+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-62ab407a96a838ffcc82",
+      "title": "研究人員制定有量子啟發的方法來進行更安全的自主無人機導航",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "美國的獨立研究者Sai Krishna Thota博士制訂了一個量子啟發式決策支援框架,旨在透過將業務風險與常規路線規劃目標放在一起,提高自主無人機導航的安全和可靠性。 這項研究發表在Elsevier的《知識系統》雜誌上,探討優先尋找兩個地點之間最短路線的傳統導航方法的侷限性。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "62ab407a96a838ffcc82"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T10:15:15+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-15a4eda93767748b5e00",
+      "title": "可靠性成為機器人的下一個重大挑戰",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "人工智慧,感知和控制系統的進步大大地擴大了機器人的能力,但據工程技術公司HBK稱,確保這些機器能夠長期可靠地執行正在成為業界最大的挑戰之一. HBK在一篇新文章\"為什麼可靠性會定義下一個機器人十年\"中審查了可靠性工程在從人造機器人和倉庫自動",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "15a4eda93767748b5e00"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T07:57:30+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-12e81d6c46ec517f35a3",
+      "title": "Neuryn Robotics 開發 AI 動力機器人實現時尚返回自動化",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "Neuryn Robotics是一家以馬德里為基地的啟動公司,開發了用於處理時尚電子商務回報的AI動力機器人系統,在Alibaba.com的CoCreate Pitch London 2026比賽中是20位入圍者之一. 西班牙公司於11月2",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "12e81d6c46ec517f35a3"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T07:32:28+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-18d00fe8ad3ee6c4bb4e",
+      "title": "Zipline和Chipotle在PGA巡迴賽歷史上首次完成無人機食品運送",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "自主無人機交付公司Zipline和餐廳連鎖Chipotle完成了公司所稱的PGA Tour歷史上第一個無人機食品交付,在德克薩斯州奧斯汀的一次練習賽中向兩名職業高爾夫球員提供新鮮準備的餐食. 送貨地點為奧姆尼·巴頓溪度假村(Omni Bar",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "18d00fe8ad3ee6c4bb4e"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T07:21:55+00:00",
+      "taiwan_focus": false
+    },
+    {
       "id": "article-e87d33b4c6935891b370",
       "title": "Ati Robotics 採用 Simscale AI 模擬,用於自主車輛開發",
       "sector": "無人載具及機器人",
@@ -1360,6 +1634,23 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-11T07:00:00+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-8add8812531e0d25140e",
+      "title": "平臺Group QQ039;s 腳踏車段損失6%的收入",
+      "sector": "自行車",
+      "sectors": [
+        "自行車"
+      ],
+      "preview": "平臺集團擁有腳踏車和傢俱平臺的貨運貨物部分的收入在2026年前9個月逐年下降6%。 德國電子商務公司的集團淨收入上升了17%,達到6.227億歐元.",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "8add8812531e0d25140e"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-09T06:00:00+00:00",
       "taiwan_focus": false
     },
     {
