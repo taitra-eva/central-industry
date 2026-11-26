@@ -1,9 +1,350 @@
 {
-  "updated_at": "2026-11-25T00:13:36.830807+00:00",
+  "updated_at": "2026-11-26T00:17:23.163337+00:00",
   "status": "ok",
   "sources_checked": 24,
   "sources_successful": 24,
   "items": [
+    {
+      "id": "a7077755229312f071c4",
+      "title": "美301關稅方案出爐！這國擬被課最高35％、台15％、陸20％ 14國稅率一次看",
+      "url": "https://www.ctee.com.tw/news/20261126700055-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261126700055-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-26T03:00:00+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "美國貿易代表署（USTR）針對主要貿易夥伴的製造業「結構性產能過剩」301調查，於25日公布調查結果，對包括台灣在內的14個經濟體加徵關稅。美方提議對台灣徵收15％的協議關稅稅率，部分商品則取得豁免，而擬議的關稅措施將經過公開徵求意見期，並在生效前安排聽證會，實施時間可能延後到2027年1月。 這意味著USTR提議，將比照對台灣課徵稍早與美方達成台美對等貿易協定（ART）的協議稅率15％，同",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "3182182e16eba95ba10a",
+      "title": "美301關稅出爐》關稅15％定音 符合政院預期",
+      "url": "https://www.ctee.com.tw/news/20261126700069-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261126700069-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-26T03:00:00+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "美貿易代表署當地時間25日早指出，稅率接近協議稅率。稍早在各界屏息關注美國公布的結構性產能過剩301調查報告，會否成為台灣經貿的嚴峻考驗時，行政院即掛保證表示，能反映台美談判成果。行政院26日將召開記者會對外說明美國USTR公布301調查結果。 按台美ART等協議，台灣關稅稅率為15％不疊加MFN稅率，與日韓等主要競爭對手相同。美國貿易代表署也稱，短期內關稅不會生效，明年1月才生效。 財經",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "a959b846b4655afba1b5",
+      "title": "美301關稅出爐》行政院經濟顧問張建一：台日韓輸美產品 站同一立足點",
+      "url": "https://www.ctee.com.tw/news/20261126700076-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261126700076-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-26T03:00:00+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "美國貿易代表辦公室25日發布301條款調查結果對各貿易國的關稅稅率，台灣為15％，和韓國、日本的「協議稅率」關稅至少15％在同一水平。行政院經濟顧問、台灣經濟研究院長張建一表示，此一結果符合政府和企業的期待，而且台灣因此取得美方對台灣產品的關稅承諾，和日、韓已與美方簽有FTA（自由貿易協定）是同樣待遇。且在15％關稅稅率下，台日韓的輸美產品將站在同一立足點，將以真正的產業競爭力在美國市場拚比。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "bed2db9d0c55e9dfdf75",
+      "title": "中東襲擊加劇供應不確定性　國際油價上揚",
+      "url": "https://www.cna.com.tw/news/afe/202611260011.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611260011.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-25T21:13:06+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": ""
+    },
+    {
+      "id": "86b5498f611bf2434697",
+      "title": "Angelini Technologies acquires stake in Oversonic Robotics to support international expansion",
+      "url": "https://roboticsandautomationnews.com/2026/11/25/angelini-technologies-acquires-stake-in-oversonic-robotics-to-support-international-expansion/107696/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/angelini-technologies-acquires-stake-in-oversonic-robotics-to-support-international-expansion/107696/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-25T20:16:24+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Oversonic Robotics, an Italian company specializing in the development and manufacturing of cognitive humanoid robots, has announced that Angelini Technologies has acquired a stake in the company to support its industrial growth and international expansion. The investment will help Oversonic expand its manufacturing capacity and bring its robotics solutions to global markets, with a particular […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "ab20f5a22befe3647edb",
+      "title": "就是比較賺！ 亞洲鋼材銷美 50%高額關稅擋不住",
+      "url": "https://money.udn.com/money/story/10871/9902281",
+      "source_url": "https://money.udn.com/money/story/10871/9902281",
+      "source": "經濟日報",
+      "published_at": "2026-11-25T19:08:27+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "美國大型AI資料中心密集興建，帶動鋼構、鍍鋅鋼板及電力基礎設施用鋼需求強勁成長，加上當地鋼材供應吃緊，美國熱軋鋼捲價格衝上四年高點，較一年前大漲逾47%，即使亞洲鋼材輸美須負擔50%高額關稅，部分產品仍具價格競爭優勢，中鋼、裕鐵、燁輝、盛餘可望迎來新一波外銷及產業鏈商機。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "2c0b6224da1dbe9b8b42",
+      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
+      "url": "https://money.udn.com/money/story/5599/9902317",
+      "source": "經濟日報",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "d848dde58bef4234102f",
+      "title": "川普祭新關稅 陸反彈：「產能過剩」是偽命題",
+      "url": "https://udn.com/news/story/6811/9902428",
+      "source": "聯合新聞網",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "ee0d36a15a1b92b96fd6",
+      "title": "301關稅對台最高15％封頂",
+      "url": "https://www.chinatimes.com/newspapers/20261126000238-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "dfda966c05f2578ee22d",
+      "title": "關稅15％不疊加 政院有信心落實",
+      "url": "https://ec.ltn.com.tw/article/paper/1779882",
+      "source": "ec.ltn.com.tw",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "a06e1203b03c8095ee88",
+      "title": "美擬對14經濟體加徵關稅　中國20%最高、台韓日歐盟15%",
+      "url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-25T15:21:32+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": ""
+    },
+    {
+      "id": "64c8798560820d7876df",
+      "title": "美301調查出爐擬對14經濟體加關稅　台灣協議稅率至少15%",
+      "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-25T13:36:48+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社華盛頓25日綜合外電報導）美國歷經數月調查工業產能過剩問題後，今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。彭博報導，美方提議對台灣徵收至少15%的「協議稅率」關稅。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "62ab407a96a838ffcc82",
+      "title": "Researcher develops quantum-inspired approach to safer autonomous drone navigation",
+      "url": "https://roboticsandautomationnews.com/2026/11/25/researcher-develops-quantum-inspired-approach-to-safer-autonomous-drone-navigation/107671/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/researcher-develops-quantum-inspired-approach-to-safer-autonomous-drone-navigation/107671/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-25T10:15:15+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "US-based independent researcher Dr Sai Krishna Thota has developed a quantum-inspired decision-support framework designed to improve the safety and reliability of autonomous drone navigation by prioritizing operational risks alongside conventional route planning objectives. The research, published in Elsevier’s journal Knowledge-Based Systems, addresses the limitations of conventional navigation methods that prioritize finding the shortest route between […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "15a4eda93767748b5e00",
+      "title": "Reliability emerges as the next big challenge for robotics",
+      "url": "https://roboticsandautomationnews.com/2026/11/25/reliability-emerges-as-the-next-big-challenge-for-robotics/107653/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/reliability-emerges-as-the-next-big-challenge-for-robotics/107653/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-25T07:57:30+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Advances in artificial intelligence, sensing and control systems have significantly expanded the capabilities of robots, but ensuring that these machines can operate reliably over extended periods is becoming one of the industry’s biggest challenges, according to engineering technology company HBK. In a new article, Why Reliability Will Define the Next Decade of Robotics, HBK examines […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "12e81d6c46ec517f35a3",
+      "title": "Neuryn Robotics develops AI-powered robots to automate fashion returns",
+      "url": "https://roboticsandautomationnews.com/2026/11/25/neuryn-robotics-develops-ai-powered-robots-to-automate-fashion-returns/107641/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/neuryn-robotics-develops-ai-powered-robots-to-automate-fashion-returns/107641/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-25T07:32:28+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Neuryn Robotics, a Madrid-based startup developing AI-powered robotic systems for processing fashion e-commerce returns, was among 20 finalists at Alibaba.com’s CoCreate Pitch London 2026 competition. The Spanish company presented its technology on November 20 at ExCeL London to a judging panel that included former professional footballer Rio Ferdinand, entrepreneur Deborah Meaden, Simon Squibb, Tijen Onaran […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "18d00fe8ad3ee6c4bb4e",
+      "title": "Zipline and Chipotle complete first drone food delivery in PGA Tour history",
+      "url": "https://roboticsandautomationnews.com/2026/11/25/zipline-and-chipotle-complete-first-drone-food-delivery-in-pga-tour-history/107636/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/25/zipline-and-chipotle-complete-first-drone-food-delivery-in-pga-tour-history/107636/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-25T07:21:55+00:00",
+      "discovered_at": "2026-11-26T00:16:17.715382+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Autonomous drone delivery company Zipline and restaurant chain Chipotle have completed what the companies describe as the first drone food delivery in PGA Tour history, delivering freshly prepared meals to two professional golfers during a practice round in Austin, Texas. The delivery took place on the 18th hole of the Fazio Canyons course at Omni […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "0a1f805c38a023734c1d",
+      "title": "台五軸工具機取得德製造商多量訂單 精密加工切入半導體供應鏈",
+      "url": "https://www.ctimes.com.tw/2611251350RQ.shtml",
+      "source_url": "https://www.ctimes.com.tw/2611251350RQ.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "discovered_at": "2026-11-26T00:16:22.008168+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "供應鏈與原物料",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
     {
       "id": "096639e7fcfd68a7c7be",
       "title": "荷莫茲海峽頻傳油輪遇襲　國際油價小升",
@@ -169,12 +510,12 @@
       "translation_method": "argos_offline_machine_translation"
     },
     {
-      "id": "8e9ed887b8829e3784db",
-      "title": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPOWpQa3RXM0lDaDVzc0EzTDhXd2tfNHdvMGtJVGxZdnY4clVQdXVOaWNZTXo2ZmhiVnBMbWVCNm5NZ3RUNVBFa2xIbVpLamxQdUtkZDlxYkEwM0pZZWl5T1JudXh0WFlieGwyOVZQUldHZXN2SkNVYWNZTEk3UnVCd1huOWQxbE5BTzgwdEo4c0tyUWIycGl0WTZpeEgwUE9FV2dWaHowbjNkYW5PT2ZwRGpOaXNMUlNlMVNxX1NXNGtSQTdpdFRpNTdQYXNBYzFWaW1mMlFsMjhGbEFxUnlmZzZkcDlIYWk4eE9UX2JmR21WbnJrY05LV0k4SHM5Wk5hS183M2pvMFZXRzNsRmFOQ09QQWQydw?oc=5",
-      "source": "Morningstar",
-      "published_at": "2026-11-24T14:00:00+00:00",
-      "discovered_at": "2026-11-25T00:13:36.830807+00:00",
+      "id": "7fac59f99d43e71ae057",
+      "title": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSU1EVW95QzNsRXZKdW9FeVVacmc4djliQkV4STRudUg0aVhhQ2ZBckxLN1hLTlptSEF6YnpHbHljV3FVZ2NBUWVycUd4bVhTYTA3dXQyeG5iUlFLVkRlVV90SXJEc0pXTDZwSW81d2tHSXlyTERZTGFWdGg2b1ktOHg4N0x5MXpTLWRPRGRDUjdrbjB2Q3lOY1RJa0hKNDVjQjFVZmZVRjU5Y0s2UUFoYXVlYXdmOWhfV3FiVTJBcmtnN09qNHNnUnpmajFIdWpNcEpnUW1mOC01bU5CMS1CQVdQZ0JHa19QcnE1UW9fM3lNNVNmUXdjWTk4VFM2UmVseEU3bkZOR0Z4NXNNbGd3?oc=5",
+      "source": "Business Wire",
+      "published_at": "2026-11-24T14:05:11+00:00",
+      "discovered_at": "2026-11-26T00:17:23.163337+00:00",
       "industries": [
         "無人載具及機器人"
       ],
@@ -183,14 +524,26 @@
       "region": "歐洲",
       "language_hint": null,
       "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration Morningstar",
-      "read_checked_at": "2026-11-25T00:42:41.902093+00:00",
-      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
-      "title_zh": "Universal Robots and Inbolt Make AI-Powered 3D 視覺指導 易用原生的Gen 7 機器人整合部署和縮放-晨星",
-      "translation_method": "argos_offline_machine_translation",
-      "excerpt_translation_zh": "通用機器人和Inbolt Make AI-powered 3D 視覺指導 易用本地Gen 7 機器人整合晨星部署和縮放",
-      "excerpt_translation_status": "machine_translation_of_source_excerpt"
+      "access_status": "not_verified",
+      "excerpt": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration Business Wire"
+    },
+    {
+      "id": "2fd483a3a5b7f96c72a2",
+      "title": "Taiwan Select Pavilion to showcase 18 companies at Vietnam Hardware & Hand Tools Expo 2026 - www.torque-expo.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMUdkcUVxM1RrVWg1X3V1ZlE5UjBZM1pLSHVvd2tzTVRkMnZDYWJHYjVjUkJ2UHBsbWhCcXNxZDFpb1dfUTFncFViUlVfY0NEOEUxVVhhbExmcUhTN3JtWTcwRDE0MHlTUGM1MVNYUzFkWktYdUFZUEVJM3RXeEIyaExhUXVSZWlHaUk1Z2pRYWlHTXhTcE1TT1FfanpnUVFxTktHUjM3cFBQWmkwc25WSi1lVzR4SGh3SGVfRXdUdTFFdG8?oc=5",
+      "source": "www.torque-expo.com",
+      "published_at": "2026-11-24T10:53:20+00:00",
+      "discovered_at": "2026-11-26T00:17:23.163337+00:00",
+      "industries": [
+        "手工具"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "e87d33b4c6935891b370",
