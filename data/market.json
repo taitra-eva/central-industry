@@ -1,38 +1,38 @@
 {
-  "checked_at": "2026-11-25T17:35:47+08:00",
+  "checked_at": "2026-11-26T10:27:47+08:00",
   "fx": {
     "source": "玉山銀行",
     "quote_type": "即期買入",
-    "quote_time": "2026/11/25 17:35",
+    "quote_time": "2026/11/26 10:27",
     "source_url": "https://accessible.esunbank.com.tw/Accessibility/ForeignExchangeRate",
     "currency": "TWD",
     "rates": {
-      "CNY": 4.939,
-      "EUR": 36.05,
-      "JPY": 0.2061,
-      "USD": 33.09
+      "CNY": 4.922,
+      "EUR": 35.97,
+      "JPY": 0.2052,
+      "USD": 32.91
     },
     "data_status": "official_esun_spot_buying_board",
-    "fetched_at": "2026-11-25T17:35:47+08:00"
+    "fetched_at": "2026-11-26T10:27:47+08:00"
   },
   "oil": {
     "source": "美國能源資訊署 EIA（官方網站）",
     "benchmark": "Brent",
     "quote_type": "歐洲布蘭特原油現貨 FOB",
-    "quote_date": "2026-11-17",
-    "price_usd_per_barrel": 92.94,
+    "quote_date": "2026-11-24",
+    "price_usd_per_barrel": 91.8,
     "change_week": {
-      "pct": 3.08,
-      "base_date": "2026-11-10",
-      "base_price": 90.16
+      "pct": -1.23,
+      "base_date": "2026-11-17",
+      "base_price": 92.94
     },
     "change_month": {
-      "pct": -21.78,
-      "base_date": "2026-10-19",
-      "base_price": 118.82
+      "pct": -28.35,
+      "base_date": "2026-10-26",
+      "base_price": 128.12
     },
     "source_url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm",
-    "fetched_at": "2026-11-25T17:35:47+08:00"
+    "fetched_at": "2026-11-26T10:27:47+08:00"
   },
   "fetch_failed": [],
   "status": "ok"
