@@ -1,9 +1,223 @@
 {
-  "updated_at": "2026-11-26T00:17:23.163337+00:00",
-  "status": "ok",
+  "updated_at": "2026-11-27T00:26:40.433449+00:00",
+  "status": "partial",
   "sources_checked": 24,
-  "sources_successful": 24,
+  "sources_successful": 22,
   "items": [
+    {
+      "id": "16948a39b7bb0db9a071",
+      "title": "科技業躲過301關稅 PC品牌廠：持續多元布局",
+      "url": "https://money.udn.com/money/story/5612/9904664",
+      "source": "經濟日報",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-27T00:26:14.691996+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "fab98c31381bd03d1327",
+      "title": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
+      "url": "https://money.udn.com/money/story/5612/9904652",
+      "source": "經濟日報",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-27T00:26:14.691996+00:00",
+      "industries": [
+        "機械與金屬加工",
+        "自行車",
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "28a3b535ac27912bdfca",
+      "title": "台美關稅即將底定 鄭麗君：有把握15％不疊加",
+      "url": "https://www.chinatimes.com/newspapers/20261127000275-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-27T00:26:14.691996+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "ef1c0a3245b2347015e4",
+      "title": "宇樹創辦人王興興：10年內機器人產量超新能源車",
+      "url": "https://www.chinatimes.com/newspapers/20261127000358-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-27T00:26:14.691996+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "9434ddc4982283da9c6f",
+      "title": "Egyptian underwater robotics team inspires award-winning education startup",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/egyptian-underwater-robotics-team-inspires-award-winning-education-startup/107753/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/egyptian-underwater-robotics-team-inspires-award-winning-education-startup/107753/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-26T14:20:52+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "A student underwater robotics team from Alexandria, Egypt, is bringing its engineering experience into school classrooms through an educational technology venture that has won first place at Louisiana Tech University’s 2026 Top Dog New Venture Championship. Overflow Robotics placed fifth at the 2026 MATE ROV World Championship, achieving what the team describes as the best […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "3353eecbfe1bb27254dc",
+      "title": "Researchers develop 3D-printable humanoid robotic hand costing less than $650",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/researchers-develop-3d-printable-humanoid-robotic-hand-costing-less-than-650/107748/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/researchers-develop-3d-printable-humanoid-robotic-hand-costing-less-than-650/107748/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-26T14:08:47+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Researchers at the New Jersey Institute of Technology (NJIT) have developed a dexterous humanoid robotic hand that can be manufactured using an affordable 3D printer and readily available components for less than $650 in parts. Called the PHD-Hand – short for Printable Humanoid Dexterous Hand – the five-fingered device uses a linkage-driven mechanism rather than […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "d5bda1e28f852c904763",
+      "title": "話題》美301關稅攤牌 台灣15％待遇藏隱憂 誰是贏家、誰成輸家？",
+      "url": "https://www.ctee.com.tw/news/20261126701077-430101",
+      "source_url": "https://www.ctee.com.tw/news/20261126701077-430101",
+      "source": "工商時報",
+      "published_at": "2026-11-26T12:31:09+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "美國301關稅終於攤牌！美國貿易代表署（USTR）公布14個經濟體的產能過剩調查結果，台灣擬適用最高15％、且不疊加MFN稅率，表面上守住關稅防線，背後卻暗藏全球製造業競爭版圖重新洗牌的危機。半導體等部分科技產品可望取得豁免，傳統產業原有的相對關稅優勢卻可能消失，更須提防中國過剩產能轉向其他市場傾銷；究竟這場關稅大戰誰是贏家、誰最受傷？歷經外資瘋狂提款、股匯雙殺的台股，又能否迎來真正的利空出盡行情",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "55ea649929636b984768",
+      "title": "《經濟》美301調查 農業部：我重要農產品銷美仍豁免關稅",
+      "url": "https://www.ctee.com.tw/news/20261126701196-430102",
+      "source_url": "https://www.ctee.com.tw/news/20261126701196-430102",
+      "source": "工商時報",
+      "published_at": "2026-11-26T12:29:08+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "【時報記者張佳琪台北報導】美國公告301調查報告，由於美國是我國幾大高經濟價值農產品外銷重要市場，業界關注其影響及後續。農業部今（26）日指出，美方的建議稅率並非最終結果，需待相關法定程序完成後才會定案，目前我農產品銷美關稅仍為10%不疊加MFN。 本次美方公布「結構性產能過剩」301調查報告，我國301關稅建議稅率為最低級別「15%不疊加MFN，且不再疊加強迫勞動301關稅」。農業部說明，",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "515df2bcda975f3701c7",
+      "title": "Universal Robots brings Inbolt’s 3D AI vision directly onto its Gen 7 robots - Robotics & Automation News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNlEtV2tBc1NFNEljeWxmUHZuaEVCVUw5S1hia2g1M2xrbVhCa280cXVRYnBSekdVOVZJUkRKd08xcnQ4Wmp4Tll3OHJZTTJTTm5QSldhZ3prS0RyclAxd0dPcTliUzlMT0RzWEcyelp2R2J1aS1nVGpKMjkzOXFncWFTVTF5bGFmNlBoUVBIa3pPanE4aExTeUZkUk5FdnpBRXlsdF9GYUFuYjJFT0xOdlFVTHQtZDFEaFZNX082X3BCdERlb0dIVmk5Sms?oc=5",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-26T11:59:22+00:00",
+      "discovered_at": "2026-11-27T00:26:40.433449+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "技術發展與產業轉型",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "4b6f97a4ca7c9dce7227",
+      "title": "Volvo Cars begins training Hexagon humanoid robots for factory work",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-26T11:49:48+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Volvo Cars has begun training and testing Hexagon Robotics’ AEON humanoid robots at its manufacturing plant in Ghent, Belgium, with the aim of introducing the machines into production operations by mid-2027. The Ghent facility is the first Volvo Cars plant to trial humanoid robots, which are being trained to perform repetitive and physically demanding tasks […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "c77f242fd916c6522bf9",
+      "title": "越南印度被美課高關稅恐衝擊蘋果鏈　分析師：台廠隱形成本更難扛",
+      "url": "https://www.cna.com.tw/news/afe/202611260275.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611260275.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-26T11:43:48+00:00",
+      "discovered_at": "2026-11-27T00:25:31.486754+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社記者吳家豪台北26日電）美國擬依301條款對14個經濟體加徵關稅，越南最高恐達35%，印度也面臨稅率變數，市場關注對蘋果供應鏈衝擊。分析師認為，台廠因配合大型客戶為主，直接承受關稅壓力有限，反而是當地法規、人員培訓與基建落後等隱形成本，讓台廠在印度與拉丁美洲布局短中期「基本上都會是個虧本的盤子」，相較之下越南情勢會好一些。",
+      "publisher_excerpt_source": "official_rss"
+    },
     {
       "id": "3182182e16eba95ba10a",
       "title": "美301關稅出爐》關稅15％定音 符合政院預期",
@@ -80,6 +294,24 @@
       "ai_summary_status": "generated_unreviewed"
     },
     {
+      "id": "c57874474b34cdf9e7eb",
+      "title": "Tariff Man Strikes Again - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXNFa3ppeXM1WkxmVU1tNDF4ZU55Ukg3dE9ZSEVjSmh2ZlFXTG9MQkEwb2E4c3FZeFhzRzZET1JrSmc0eGJ1bHJuVEpVSVU0NEE5dnMwRUFzR0xNQ2JPbDFLT3pjdXZNY3hGNVp1VnpubmFVbnhYYVFaak1kbmFBYkg3THlsSm05VjNQVDZHeXdtRjVVVFpTaXB3WjYxX0d5TWhxRkZUdG5XVkpVS2ticDFEeno?oc=5",
+      "source": "Foreign Policy",
+      "published_at": "2026-11-25T23:08:24+00:00",
+      "discovered_at": "2026-11-27T00:26:40.433449+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
       "id": "bed2db9d0c55e9dfdf75",
       "title": "中東襲擊加劇供應不確定性　國際油價上揚",
       "url": "https://www.cna.com.tw/news/afe/202611260011.aspx",
@@ -144,7 +376,8 @@
       "published_at": "2026-11-25T19:08:27+00:00",
       "discovered_at": "2026-11-26T00:16:17.715382+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "tags": [],
       "priority": "international",
@@ -157,6 +390,31 @@
       "read_checked_at": "2026-11-26T00:42:46.773766+00:00",
       "body_length": 989,
       "summary_zh": "美國大型AI資料中心密集興建，帶動鋼構、鍍鋅鋼板及電力基礎設施用鋼需求強勁成長，加上當地鋼材供應吃緊，美國熱軋鋼捲價格衝上四年高點，較一年前大漲逾47%，即使亞洲鋼材輸美須負擔50%高額關稅，部分產品仍具價格競爭優勢，中鋼（2002）、裕鐵、燁輝（2023）、盛餘（2029）可望迎來新一波外銷及產業鏈商機。\n\n美國電爐鋼鐵大廠紐克（Nucor）熱軋鋼捲報價已攀升至每短噸1,330美元，折合每公噸約1,466美元，相較一年前不到900美元，漲幅超過47%。川普原想靠高關稅保護本土鋼廠，但供應緊俏推升價格，讓關稅失去嚇阻力，反而使進口鋼材有利可圖。部分亞洲鋼材即使計入關稅及運輸費用，仍較美國本土鋼材便宜近400美元，吸引美國進口商擴大海外採購。\n\n美國鋼鐵協會數據顯示，今年前十個月，來自南韓的平軋鋼材進口量較一年前大增68%。10月越南鋼材進口申請量達到21.3萬短噸，是9月實際進口量的兩倍多，一舉躍居美國第四大供應來源國，顯示高關稅無法完全阻斷亞洲鋼材進入美國市場。\n\n由於AI資料中心除了建築本體需要大量鋼構、鋼板，空調風管、電纜托架、伺服器機櫃及電力設備，也需要大量冷軋、鍍鋅及高規格鋼材，相關電廠、變電站與輸配電設施的擴建，更進一步放大鋼鐵需求。\n\n國內鍍面鋼品大廠燁輝、盛餘具備外銷及產品加工優勢，可望爭取美國鋼價上漲帶來的商機。燁輝日前開盤時即指出，美國AI資料中心及基礎建設需求",
+      "summary_status": "source_excerpt_translated",
+      "ai_summary_status": "generated_unreviewed"
+    },
+    {
+      "id": "2c0b6224da1dbe9b8b42",
+      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
+      "url": "https://money.udn.com/money/story/5599/9902317",
+      "source": "經濟日報",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
+      "industries": [
+        "機械與金屬加工",
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "readable",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": [],
+      "read_checked_at": "2026-11-26T00:42:46.978898+00:00",
+      "source_url": "https://money.udn.com/money/story/5599/9902317",
+      "body_length": 795,
+      "excerpt": "本文共802字\n路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。至於台灣，美方提議的協議關稅稅率為最高15%。\n美國貿易代表署（USTR）在完成歷時八個月、針對貿易夥伴的不公平貿易行為301條款調查後，25日宣布上述關稅措施，調查對象包括美國親密盟友日本、歐盟及南韓與台灣。USTR暫未提議對墨西哥及挪威商品加徵關稅。\n一名美國高階官員表示，擬加徵關稅的對象包括中國、孟加拉、柬埔寨、歐盟、印度、印尼、日本、南韓、馬來西亞、新加坡、瑞士、台灣、泰國及越南。\n根據美方提出的關稅方案，14個",
+      "summary_zh": "路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。至於台灣，美方提議的協議關稅稅率為最高15%。\n\n美國貿易代表署（USTR）在完成歷時八個月、針對貿易夥伴的不公平貿易行為301條款調查後，25日宣布上述關稅措施，調查對象包括美國親密盟友日本、歐盟及南韓與台灣。USTR暫未提議對墨西哥及挪威商品加徵關稅。\n\n一名美國高階官員表示，擬加徵關稅的對象包括中國、孟加拉、柬埔寨、歐盟、印度、印尼、日本、南韓、馬來西亞、新加坡、瑞士、台灣、泰國及越南。\n\n根據美方提出的關稅方案，14個貿易夥伴中，唯獨中國大陸的新關稅將與2018年實施的301條款關稅疊加，美方擬在當年以強迫技術移轉為由課徵的25%關稅之上，再加徵最高20%關稅。\n\n歐盟、南韓、日本及瑞士的關稅稅率均為15%（包含最惠國待遇關稅），泰國為18%、新加坡為10%，越南及印度若達成貿易協議，稅率將分別為20%及17%。至於台灣，美方提議的協議關稅稅率最高15%。\n\n制定立法措施，為產業生態系的建構提供獎勵與支持等，這些行為、政策與做法減少美國生產商與出口商在台灣及第三方市場的商業機會，導致美國製造業的產量、出口、就業與投資流失，進而損害美國經濟，這種情況在電子、半導體及電信等產業領域",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
     },
@@ -209,30 +467,6 @@
       "ai_summary_status": "generated_unreviewed"
     },
     {
-      "id": "2c0b6224da1dbe9b8b42",
-      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
-      "url": "https://money.udn.com/money/story/5599/9902317",
-      "source": "經濟日報",
-      "published_at": "2026-11-25T16:00:00+00:00",
-      "date_precision": "itis_index_date_not_original_pubdate",
-      "discovered_at": "2026-11-26T00:16:48.792809+00:00",
-      "industries": [
-        "機械與金屬加工"
-      ],
-      "region": "台灣",
-      "topic": "政策與貿易措施",
-      "access_status": "readable",
-      "discovery_source": "ITIS 每日重點新聞",
-      "tags": [],
-      "read_checked_at": "2026-11-26T00:42:46.978898+00:00",
-      "source_url": "https://money.udn.com/money/story/5599/9902317",
-      "body_length": 795,
-      "excerpt": "本文共802字\n路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。至於台灣，美方提議的協議關稅稅率為最高15%。\n美國貿易代表署（USTR）在完成歷時八個月、針對貿易夥伴的不公平貿易行為301條款調查後，25日宣布上述關稅措施，調查對象包括美國親密盟友日本、歐盟及南韓與台灣。USTR暫未提議對墨西哥及挪威商品加徵關稅。\n一名美國高階官員表示，擬加徵關稅的對象包括中國、孟加拉、柬埔寨、歐盟、印度、印尼、日本、南韓、馬來西亞、新加坡、瑞士、台灣、泰國及越南。\n根據美方提出的關稅方案，14個",
-      "summary_zh": "路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。至於台灣，美方提議的協議關稅稅率為最高15%。\n\n美國貿易代表署（USTR）在完成歷時八個月、針對貿易夥伴的不公平貿易行為301條款調查後，25日宣布上述關稅措施，調查對象包括美國親密盟友日本、歐盟及南韓與台灣。USTR暫未提議對墨西哥及挪威商品加徵關稅。\n\n一名美國高階官員表示，擬加徵關稅的對象包括中國、孟加拉、柬埔寨、歐盟、印度、印尼、日本、南韓、馬來西亞、新加坡、瑞士、台灣、泰國及越南。\n\n根據美方提出的關稅方案，14個貿易夥伴中，唯獨中國大陸的新關稅將與2018年實施的301條款關稅疊加，美方擬在當年以強迫技術移轉為由課徵的25%關稅之上，再加徵最高20%關稅。\n\n歐盟、南韓、日本及瑞士的關稅稅率均為15%（包含最惠國待遇關稅），泰國為18%、新加坡為10%，越南及印度若達成貿易協議，稅率將分別為20%及17%。至於台灣，美方提議的協議關稅稅率最高15%。\n\n制定立法措施，為產業生態系的建構提供獎勵與支持等，這些行為、政策與做法減少美國生產商與出口商在台灣及第三方市場的商業機會，導致美國製造業的產量、出口、就業與投資流失，進而損害美國經濟，這種情況在電子、半導體及電信等產業領域",
-      "summary_status": "source_excerpt_translated",
-      "ai_summary_status": "generated_unreviewed"
-    },
-    {
       "id": "ee0d36a15a1b92b96fd6",
       "title": "301關稅對台最高15％封頂",
       "url": "https://www.chinatimes.com/newspapers/20261126000238-260202?utm_source=iii_news&utm_medium=rss",
@@ -250,6 +484,23 @@
       "tags": [],
       "read_checked_at": "2026-11-26T00:42:48.112711+00:00",
       "read_reason": "Article body is behind subscription/login"
+    },
+    {
+      "id": "febf042983a508fb9f20",
+      "title": "美鋼價狂飆 買家改搶亞洲進口貨",
+      "url": "https://www.chinatimes.com/newspapers/20261126000332-260203?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-27T00:26:14.691996+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "供應鏈與原物料",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
     },
     {
       "id": "a06e1203b03c8095ee88",
@@ -421,6 +672,24 @@
       "summary_zh": "自主無人機交付公司Zipline和餐廳連鎖Chipotle完成了公司所稱的PGA Tour歷史上第一個無人機食品交付,在德克薩斯州奧斯汀的一次練習賽中向兩名職業高爾夫球員提供新鮮準備的餐食.\n\n送貨地點為奧姆尼·巴頓溪度假村(Omni Barton Creek Resort & Spa)的法齊奧峽谷賽道第18個洞上,喬爾·達赫門和馬克·赫伯德正準備參加奧斯汀錦標賽.\n\n運送的錄影顯示無人機將一個包裹直接放入高爾夫球場.\n\n達赫門點了個有薯片和克索·布蘭克的牛排碗,而赫伯德則選擇了有瓜果的牛排捲餅.\n\nDahmen說:「經過一輪, 這一次,奇波特爾來到我們這裡。\n\n“當你的捲餅18歲時,\n\nChipotle於2025年首次與Zipline合作,將其交付能力擴大到常規目的地之外,包括後院和公共公園.\n\n無人機食品運送服務目前提供給德克薩斯州達拉斯和奧斯汀的奇波特爾客戶.",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
+    },
+    {
+      "id": "45d8d3f4e36eac55ef38",
+      "title": "Universal Robots and Inbolt make AI-powered 3D vision guidance easier to deploy and scale with native Gen 7 robot integration - Process and Control Today",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOY0dwOVJqR0JabnNFY3NFWF9pNmtkQk5ueWpWdTJXQVBoMFlCYlJsVzRsZHlnQW80emxKTWdpR2FTcDJta0owSmdPNWNHcmlBelFPbUs3bldFc0xlaWw2MnlSODc0RVhhNHY5YWdLRGdXazI3S195VzlHdlRvNXJ1QjBNNl94dHNCVE9TTExOTFRmMzF0NXExVkhwcWpZTG9PUlRkc1dNbHhPR2FVRDFyaFVmQ1lwU0F4MTJtdndTWDFoM2pYdXpqWXhkRmh1WmpXTE5wNmVCVzFRTk0wZmJSWDB0T0FzSnl0?oc=5",
+      "source": "Process and Control Today",
+      "published_at": "2026-11-25T05:03:33+00:00",
+      "discovered_at": "2026-11-27T00:26:40.433449+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "Universal Robots and Inbolt make AI-powered 3D vision guidance easier to deploy and scale with native Gen 7 robot integration Process and Control Today"
     },
     {
       "id": "0a1f805c38a023734c1d",
@@ -611,30 +880,6 @@
       "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
       "title_zh": "綠色科技貿易戰沒有贏家 - Tech Xplore",
       "translation_method": "argos_offline_machine_translation"
-    },
-    {
-      "id": "7fac59f99d43e71ae057",
-      "title": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSU1EVW95QzNsRXZKdW9FeVVacmc4djliQkV4STRudUg0aVhhQ2ZBckxLN1hLTlptSEF6YnpHbHljV3FVZ2NBUWVycUd4bVhTYTA3dXQyeG5iUlFLVkRlVV90SXJEc0pXTDZwSW81d2tHSXlyTERZTGFWdGg2b1ktOHg4N0x5MXpTLWRPRGRDUjdrbjB2Q3lOY1RJa0hKNDVjQjFVZmZVRjU5Y0s2UUFoYXVlYXdmOWhfV3FiVTJBcmtnN09qNHNnUnpmajFIdWpNcEpnUW1mOC01bU5CMS1CQVdQZ0JHa19QcnE1UW9fM3lNNVNmUXdjWTk4VFM2UmVseEU3bkZOR0Z4NXNNbGd3?oc=5",
-      "source": "Business Wire",
-      "published_at": "2026-11-24T14:05:11+00:00",
-      "discovered_at": "2026-11-26T00:17:23.163337+00:00",
-      "industries": [
-        "無人載具及機器人"
-      ],
-      "tags": [],
-      "priority": "international",
-      "region": "歐洲",
-      "language_hint": null,
-      "topic": "產業動態",
-      "access_status": "unresolved",
-      "excerpt": "Universal Robots and Inbolt Make AI-Powered 3D Vision Guidance Easier to Deploy and Scale With Native Gen 7 Robot Integration Business Wire",
-      "read_checked_at": "2026-11-26T00:43:02.851334+00:00",
-      "read_reason": "Encoded Google News URL could not be decoded; verified publisher search found no matching readable article",
-      "title_zh": "Universal Robots and Inbolt Make AI-Powered 3D Vision 指導 易用原生的Gen 7 機器人整合-業務線",
-      "translation_method": "argos_offline_machine_translation",
-      "excerpt_translation_zh": "Universal Robots and Inbolt Make AI-powered 3D Vision 指導 易用原生的Gen 7機器人整合業務線進行部署並縮放",
-      "excerpt_translation_status": "machine_translation_of_source_excerpt"
     },
     {
       "id": "2fd483a3a5b7f96c72a2",
@@ -931,6 +1176,24 @@
       "summary_zh": "（中央社紐約23日綜合外電報導）有跡象顯示，美國目前對於伊朗的立場趨於溫和，加上原油似乎仍持續從波斯灣運出，多位分析師預估，石油市場即將出現供應過剩，使國際油價今天重跌。\n\n倫敦北海布倫特原油2027年1月交割價下挫3.20美元或3.46%，來到每桶89.37美元。（編譯：陳彥鈞）1151124",
       "summary_status": "source_excerpt_translated",
       "ai_summary_status": "generated_unreviewed"
+    },
+    {
+      "id": "512a991bfe6b749303d8",
+      "title": "Axon invests $1.2B in Skydio, becomes exclusive public safety drone distributor in U.S. and Canada - The Drone Girl",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOam5neDVGWjhMYkJkaW1hTkN2VGNlTGlLdm02VEQzSmxSdFlZempsTXJSNjVEb3k3Z2tudVZRZXNQZjRIYkpIdW40VUN1V1hUb2ZYdE1GeFo0UE9faGl3M29IbWpHQWF3VFZsdFNscGFtYWx1R0pUMnZhb1pHRmxfcUlIZ1JTU3Z5aFZLelBJekVNbk1KWHRkUlM3Q3BmNDVZbWg3ZmtkSkg3RDNN0gGsAUFVX3lxTE5qbmd4NUZaOExiQmRpbWFOQ3ZUY2VMaUt2bTZURDNKbFJ0WVl6amxNclI2NURveTdna251VlFlc1BmNEhiSkh1bjRVQ3VXWFRvZlh0TUZ4WjRQT19oaXczb0htakdBYXdUVmx0U2xwYW1hbHVHSlQydmFvWkdGbF9xSUhnUlNTdnloVkt6UEl6RU1uTUpYdGRSUzdDcGY0NVltaDdma2RKSDdEM00?oc=5",
+      "source": "The Drone Girl",
+      "published_at": "2026-11-23T21:11:05+00:00",
+      "discovered_at": "2026-11-27T00:26:40.433449+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": ""
     },
     {
       "id": "4e874920e45957088e1f",
