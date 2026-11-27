@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-26T00:48:01.496420+00:00",
+  "generated_at": "2026-11-27T00:50:53.343421+00:00",
   "method": "rule_based_source_backed_grouping_no_generative_ai",
-  "articles_total": 205,
-  "readable_total": 97,
+  "articles_total": 219,
+  "readable_total": 105,
   "sectors": [
     {
       "name": "總體情勢",
-      "articles": 74,
-      "readable": 25
+      "articles": 81,
+      "readable": 29
     },
     {
       "name": "機械與金屬加工",
-      "articles": 37,
-      "readable": 32
+      "articles": 42,
+      "readable": 37
     },
     {
       "name": "自行車",
-      "articles": 20,
-      "readable": 12
+      "articles": 21,
+      "readable": 13
     },
     {
       "name": "汽配",
-      "articles": 15,
-      "readable": 10
+      "articles": 16,
+      "readable": 11
     },
     {
       "name": "手工具",
@@ -31,11 +31,98 @@
     },
     {
       "name": "無人載具及機器人",
-      "articles": 75,
-      "readable": 34
+      "articles": 81,
+      "readable": 37
     }
   ],
   "events": [
+    {
+      "id": "article-fab98c31381bd03d1327",
+      "title": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢",
+        "機械與金屬加工",
+        "自行車"
+      ],
+      "preview": "美國新301關稅若上路，台灣傳產出口挑戰大。我輸美關稅恐由10%升至15%，若實行，工具機對日韓的關稅紅利將一夕歸零，機械、工具機、手工具、水五金、自行車等產業也面臨接單及獲利考驗。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "fab98c31381bd03d1327"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-16948a39b7bb0db9a071",
+      "title": "科技業躲過301關稅 PC品牌廠：持續多元布局",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "美國新301關稅政策出爐，耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單，惟相關產品多由中國大陸工廠出口，台廠營運主力PC及AI伺服器仍屬豁免範圍。宏碁（2353）、神達均表示，已透過多元產能布局因應關稅變局，整體衝擊有限。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "16948a39b7bb0db9a071"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T16:00:00+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-d5bda1e28f852c904763",
+      "title": "話題》美301關稅攤牌 台灣15％待遇藏隱憂 誰是贏家、誰成輸家？",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "美國301關稅終於攤牌！美國貿易代表署（USTR）公布14個經濟體的產能過剩調查結果，台灣擬適用最高15％、且不疊加MFN稅率，表面上守住關稅防線，背後卻暗藏全球製造業競爭版圖重新洗牌的危機。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "d5bda1e28f852c904763"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T12:31:09+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-55ea649929636b984768",
+      "title": "《經濟》美301調查 農業部：我重要農產品銷美仍豁免關稅",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢"
+      ],
+      "preview": "【時報記者張佳琪台北報導】美國公告301調查報告，由於美國是我國幾大高經濟價值農產品外銷重要市場，業界關注其影響及後續。農業部今（26）日指出，美方的建議稅率並非最終結果，需待相關法定程序完成後才會定案，目前我農產品銷美關稅仍為10%不疊加MFN。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "55ea649929636b984768"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T12:29:08+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-c77f242fd916c6522bf9",
+      "title": "越南印度被美課高關稅恐衝擊蘋果鏈　分析師：台廠隱形成本更難扛",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工"
+      ],
+      "preview": "（中央社記者吳家豪台北26日電）美國擬依301條款對14個經濟體加徵關稅，越南最高恐達35%，印度也面臨稅率變數，市場關注對蘋果供應鏈衝擊。分析師認為，台廠因配合大型客戶為主，直接承受關稅壓力有限，反而是當地法規、人員培訓與基建落後等隱形成本，讓台廠在印度與拉丁美洲布局短中期「基本上都會是個虧本的盤子」，相較之下越南情勢會好一些。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "c77f242fd916c6522bf9"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T11:43:48+00:00",
+      "taiwan_focus": true
+    },
     {
       "id": "article-3182182e16eba95ba10a",
       "title": "美301關稅出爐》關稅15％定音 符合政院預期",
@@ -107,8 +194,9 @@
     {
       "id": "article-ab20f5a22befe3647edb",
       "title": "就是比較賺！ 亞洲鋼材銷美 50%高額關稅擋不住",
-      "sector": "機械與金屬加工",
+      "sector": "總體情勢",
       "sectors": [
+        "總體情勢",
         "機械與金屬加工"
       ],
       "preview": "美國大型AI資料中心密集興建，帶動鋼構、鍍鋅鋼板及電力基礎設施用鋼需求強勁成長，加上當地鋼材供應吃緊，美國熱軋鋼捲價格衝上四年高點，較一年前大漲逾47%，即使亞洲鋼材輸美須負擔50%高額關稅，部分產品仍具價格競爭優勢，中鋼（2002）、裕鐵、燁輝（2023）、盛餘（2029）可望迎來新一波外銷及產業鏈商機。",
@@ -119,6 +207,24 @@
       "readable_sources": 1,
       "source_count": 1,
       "latest_at": "2026-11-25T19:08:27+00:00",
+      "taiwan_focus": true
+    },
+    {
+      "id": "article-2c0b6224da1dbe9b8b42",
+      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
+      "sector": "總體情勢",
+      "sectors": [
+        "總體情勢",
+        "機械與金屬加工"
+      ],
+      "preview": "路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "2c0b6224da1dbe9b8b42"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-25T16:00:00+00:00",
       "taiwan_focus": true
     },
     {
@@ -149,23 +255,6 @@
       "body_status": "publisher_excerpt_not_ai_summary",
       "article_ids": [
         "dfda966c05f2578ee22d"
-      ],
-      "readable_sources": 1,
-      "source_count": 1,
-      "latest_at": "2026-11-25T16:00:00+00:00",
-      "taiwan_focus": true
-    },
-    {
-      "id": "article-2c0b6224da1dbe9b8b42",
-      "title": "美301開鍘擬對台課 15% 關稅 對14 個貿易夥伴加稅 對陸疊加20%",
-      "sector": "機械與金屬加工",
-      "sectors": [
-        "機械與金屬加工"
-      ],
-      "preview": "路透報導，川普政府提議對14個主要貿易夥伴加徵新關稅，以因應美方所稱的結構性產能過剩問題，全球貿易緊張局勢再度升溫。中國大陸不僅面臨最高稅率，也是唯一面臨須將新關稅與既有301條款關稅疊加的貿易夥伴。",
-      "body_status": "publisher_excerpt_not_ai_summary",
-      "article_ids": [
-        "2c0b6224da1dbe9b8b42"
       ],
       "readable_sources": 1,
       "source_count": 1,
@@ -1042,6 +1131,59 @@
       "source_count": 1,
       "latest_at": "2026-11-05T16:00:00+00:00",
       "taiwan_focus": true
+    },
+    {
+      "id": "article-9434ddc4982283da9c6f",
+      "title": "埃及水下機器人團隊激勵獲獎教育啟動",
+      "sector": "無人載具及機器人",
+      "sectors": [
+        "無人載具及機器人"
+      ],
+      "preview": "一個來自埃及亞歷山德里亞的學生水下機器人團隊正透過一個教育技術企業將工程經驗帶入學校教室,該企業在路易斯安那理工大學2026年Top Dog New Venture錦標賽上獲得了第一名. 在2026年MATE ROV世界錦標賽上,超流機器人",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "9434ddc4982283da9c6f"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T14:20:52+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-3353eecbfe1bb27254dc",
+      "title": "研究人員開發3D列印人造機器人手,成本低於650美元",
+      "sector": "機械與金屬加工",
+      "sectors": [
+        "機械與金屬加工",
+        "無人載具及機器人"
+      ],
+      "preview": "新澤西州理工學院(NJIT)的研究人員開發了一種可脫落的人造機器人手,可以使用負擔得起的3D印表機和零配件的現成部件進行製造,每部的用量不到650美元. 名為PHD-Hand – 簡稱為可列印的Humanoid Dexterous Hand",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "3353eecbfe1bb27254dc"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T14:08:47+00:00",
+      "taiwan_focus": false
+    },
+    {
+      "id": "article-4b6f97a4ca7c9dce7227",
+      "title": "沃爾沃汽車公司開始為工廠工作訓練六角人造機器人",
+      "sector": "汽配",
+      "sectors": [
+        "汽配",
+        "無人載具及機器人"
+      ],
+      "preview": "沃爾沃汽車公司已開始在比利時根特的製造廠培訓和測試六角機器人公司的AEON人造機器人,目的是在2027年中之前將這些機器引入生產業務. Ghent設施是第一個試驗人造機器人的沃爾沃汽車工廠,正在接受培訓,以便與工廠工人和現有的自動化系統一起執行重複和體力要求很高的任務。",
+      "body_status": "publisher_excerpt_not_ai_summary",
+      "article_ids": [
+        "4b6f97a4ca7c9dce7227"
+      ],
+      "readable_sources": 1,
+      "source_count": 1,
+      "latest_at": "2026-11-26T11:49:48+00:00",
+      "taiwan_focus": false
     },
     {
       "id": "article-86b5498f611bf2434697",

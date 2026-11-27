@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:48:00.820150+00:00",
+  "updated_at": "2026-11-27T00:50:52.783403+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -1619,6 +1619,126 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-26T00:47:45.819962+00:00",
       "source_url": "https://roboticsandautomationnews.com/2026/11/25/zipline-and-chipotle-complete-first-drone-food-delivery-in-pga-tour-history/107636/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "16948a39b7bb0db9a071"
+      ],
+      "title": "科技業躲過301關稅 PC品牌廠：持續多元布局",
+      "summary": "美國新301關稅政策未將耳機、鋰離子電池、基地台、印表機、電視及電玩主機列入豁免清單，但多數產品由中國大陸工廠出口，台灣廠商如宏碁與神達的主力PC及AI伺服器仍屬豁免範圍。宏碁董事長陳俊聖表示，已於泰國、印尼及越南布局供應鏈，具備彈性因應關稅變化；神達總經理何繼武指出，IT產品屬豁免，僅少數產品需繳納最高15%稅率，預期對集團影響輕微。",
+      "observation": "根據新聞，台灣PC及AI伺服器產品仍在豁免範圍內，因而衝擊有限。宏碁與神達已在亞太多國布局供應鏈，顯示對關稅變化的應對策略。可能需要追蹤未來301關稀政策的具體實施時間與是否擴大豁免範圍，以及各廠商在泰國、印尼、越南的產能投入與成本變化。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:48:47.857596+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9904664",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "fab98c31381bd03d1327"
+      ],
+      "title": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
+      "summary": "美國若實施301關稅，台灣工具機、機械、手工具、水五金、自行車等傳產出口將面臨挑戰。台灣目前適用10%關稅，日韓12.5%，若調升至15%，台廠輸美稅率將上升5個百分點，原有2.5個百分點的稅差消失，競爭將回歸交期、客製化、五軸加工及智慧製造等技術與價格優勢。業界呼籲台廠加強中國轉單商機，並提防亞洲過剩產能外溢，可能引發非美市場殺價戰。美方將中國工具機及機器人列為產能過剩調查重點，若台廠能以品質及性價比優勢轉單，或可擴大北美市占。自行車業亦受關稅變動影響，台灣企業將視最終稅率及客戶需求調配產能。",
+      "observation": "本報顯示301關稅可能將台灣工具機出口稅率從10%提升至15%，造成與日韓競爭的稅差消失，進而影響台廠的接單與毛利。業界建議台廠應加強中國轉單、提升技術與價格競爭力，並留意美方對台課徵25%關稅的替代方案。觀察重點應為：1) 301關稅最終稅率及豁免清單的確定；2) 台廠在美國市場的訂單量變化；3) 其他亞洲國家（越南、印度）產品是否因高關稅轉向歐洲或亞洲低價競銷，對台廠報價與毛利率的影響。證據不足時，僅以報導內容為依據，不能推論實際訂單或營收變動。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:49:03.660157+00:00",
+      "source_url": "https://money.udn.com/money/story/5612/9904652",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "d5bda1e28f852c904763"
+      ],
+      "title": "話題》美301關稅攤牌 台灣15％待遇藏隱憂 誰是贏家、誰成輸家？",
+      "summary": "美國貿易代表署於11月25日公布301關稅調查結果，對台灣等14個經濟體擬徵最高15％關稅，並不疊加既有最惠國待遇。部分科技產品可獲豁免，傳統產業如工具機、鋼鐵、扣件、手工具等可能面臨成本上升與訂單流失。台灣半導體及資通訊產品已享有232條款優惠，對出口影響有限；但扣件與手工具高度依賴美國市場，若關稅上升將削弱競爭優勢。台股因美股逆轉與外資大額提款，短期仍呈震盪劇烈。",
+      "observation": "根據公開新聞，台灣在301調查中被提議最高15％關稅，且不疊加MFN，這意味著對於已享有MFN或232優惠的產品，新增稅負有限。傳統產業如工具機、扣件、手工具等若被納入新關稅範圍，將面臨成本上升與市場需求下降的風險。觀察重點應追蹤：1) 具體哪些產品被列入301調查；2) 232條款對台灣半導體及鋼鐵產品的實際影響；3) 美國公聽會後最終確定的稅率與適用範圍；4) 台股短期波動與外資流動的關聯。證據不足時，僅以新聞所述為依據，避免推論未披露的訂單或產能變動。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:49:19.469091+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261126701077-430101",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "55ea649929636b984768"
+      ],
+      "title": "《經濟》美301調查 農業部：我重要農產品銷美仍豁免關稅",
+      "summary": "美國公布301調查報告，針對結構性產能過剩的農產品。台灣農業部指出，雖有建議稅率，但並非最終結果，仍維持目前10%不疊加MFN的關稅。台灣在322項農產品中，含蝴蝶蘭、火鶴花等26項台灣專屬豁免，均可免本次擬議加徵301產能過剩關稅。農業部強調，台灣重要輸美農產品仍保持關稅競爭優勢，並已編列180億韌性特別預算及300億元農安基金以支持產業。",
+      "observation": "本報導僅說明台灣目前仍享有關稅豁免，並未透露任何實際加徵或調整的具體時間表。未來需追蹤美國法定程序完成後的最終稅率決定，以及台美ART協議是否能維持現有優惠。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:49:35.090928+00:00",
+      "source_url": "https://www.ctee.com.tw/news/20261126701196-430102",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "c77f242fd916c6522bf9"
+      ],
+      "title": "越南印度被美課高關稅恐衝擊蘋果鏈　分析師：台廠隱形成本更難扛",
+      "summary": "美國擬依301條款對14個經濟體加徵關稅，越南最高恐達35%，印度亦面臨稅率變數。對蘋果供應鏈的衝擊尤為關注，因AirPods耳機多在越南生產。分析師指出，台廠因配合大型客戶為主，直接承受關稅壓力有限，但當地法規、人員培訓與基建落後等隱形成本，使其在印度與拉丁美洲布局短中期「基本上都會是個虧本的盤子」，相較之下越南情勢會好一些。台系供應鏈在全球硬體相關供應鏈中處於頂端，且在越南、印度等地的布局走在前面，取得歐美高價值訂單並無太大問題。",
+      "observation": "此報導顯示美國高關稅可能對越南與印度的蘋果供應鏈造成衝擊，尤其AirPods耳機。台廠面臨的主要風險來自隱形成本（法規、人員培訓、基建）而非直接關稅。觀察重點應追蹤：1) 台廠在印度與拉丁美洲的實際成本變化；2) 相關法規與基建投資進度；3) 蘋果在越南與印度的產能調整。證據不足於評估台廠實際利潤變動，需進一步數據。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:49:50.865230+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611260275.aspx",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "9434ddc4982283da9c6f"
+      ],
+      "title": "埃及水下機器人團隊激勵獲獎教育啟動",
+      "summary": "埃及亞歷山大市一支學生水下機器人團隊，名為Overflow Robotics，於2026年在路易斯安那科技大學（Louisiana Tech University）舉辦的Top Dog New Venture Championship中，以其教育科技創業項目Tech in Schools獲得第一名。該團隊在2026 MATE ROV World Championship中以第五名成績創下埃及、阿拉伯或非洲隊伍在國際水下機器人競賽中的最佳紀錄。Tech in Schools結合課程、設備、教學與導師，為中高級學生提供設計、建造與程式編寫機器人的實作機會，並已開始在埃及學校推廣，未來計畫擴展至美國。",
+      "observation": "此案例顯示水下機器人競賽團隊可將競賽經驗轉化為教育創業，並在國際舞台上取得佳績。觀察重點應追蹤：1) Tech in Schools在埃及及美國學校的實施成效與擴展進度；2) 競賽成績對團隊資金、導師招募及技術發展的影響；3) 兩校在創業比賽中的獎金與資源是否足以支持長期教育企業建設。證據顯示團隊已獲得獎金與認可，但對於未來營運規模與市場佔有率仍缺乏具體數據。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:50:06.531367+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/egyptian-underwater-robotics-team-inspires-award-winning-education-startup/107753/",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "3353eecbfe1bb27254dc"
+      ],
+      "title": "研究人員開發3D列印人造機器人手,成本低於650美元",
+      "summary": "研究人員於新澤西理工學院開發出一款名為PHD-Hand的五指人造機器人手，採用鏈接驅動機構與3D列印柔性鉸鏈，零件成本低於650美元。手部擁有15個獨立驅動自由度，能執行GRASP分類的33種抓握動作，並能旋轉55mm立方體、開啟罐頭蓋、操作精密螺絲刀等。控制介面為網頁式，可調整關節、預設姿勢並錄製重播動作。研究團隊將CAD、列印檔、控制軟體及零件清單公開於GitHub，期望降低實驗室、創業公司及業餘愛好者的進入門檻。",
+      "observation": "此技術主要針對機械與金屬加工領域的機器人手臂與抓取系統。雖已完成約200小時的原型測試並展示多種抓握，但仍缺乏長期耐久性與工業環境適用性的驗證。建議追蹤其後續測試結果、成本結構細節、以及是否有商業化合作或訂單訊息。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:50:22.165170+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/researchers-develop-3d-printable-humanoid-robotic-hand-costing-less-than-650/107748/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "4b6f97a4ca7c9dce7227"
+      ],
+      "title": "沃爾沃汽車公司開始為工廠工作訓練六角人造機器人",
+      "summary": "沃爾沃汽車公司於比利時根特工廠開始訓練Hexagon Robotics的AEON六角人造機器人，目標於2027年中期將其投入生產。此機器人以輪式移動，身高1.65米、重量60公斤，最高速度2.4米/秒，能承載10公斤。訓練初期聚焦於將零件精確放置於兩個固定裝置，未來將擴展至多件處理、導航及與現有自動化系統互動。此舉屬於沃爾沃對先進製造技術的投資，旨在提升安全、彈性與效率。",
+      "observation": "此新聞顯示沃爾沃正在試驗人形機器人以取代重複性、體力負荷高的工作，可能對汽車製造業的自動化趨勢產生示範效應。觀察重點包括：1) 何時能真正投入量產；2) 其對現有工廠佈局與人力成本的影響；3) 其他汽車製造商是否會跟進。證據不足以判斷此技術是否能大幅降低成本或提升產能，需持續追蹤後續試點結果與成本效益報告。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-27T00:50:37.783214+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
       "confidence": "中"
     }
   ]
