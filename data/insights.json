@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T00:50:52.783403+00:00",
+  "updated_at": "2026-11-28T00:46:40.080396+00:00",
   "method": "editorial_summary_based_on_extracted_publisher_content_not_automated_ai",
   "items": [
     {
@@ -1739,6 +1739,96 @@
       "model": "openai/gpt-oss-20b",
       "generated_at": "2026-11-27T00:50:37.783214+00:00",
       "source_url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "285be726853cbf7317be"
+      ],
+      "title": "市場交投清淡　油價震盪收低",
+      "summary": "市場交投清淡，油價震盪收低。中東能源基礎設施與油輪遭遇攻擊，投資人對供應憂慮加深。紐約市場西德州中級原油1月期貨價格下跌0.7%，收於每桶83.08美元；倫敦市場北海布倫特原油1月期貨價格下跌1.2%，收於每桶95.44美元。",
+      "observation": "油價下跌顯示市場對中東供應不確定性的擔憂。需追蹤中東地緣政治局勢、油輪攻擊頻率及其對全球供應鏈的影響。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:45:06.242126+00:00",
+      "source_url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "b84c7622ecfda97763ba"
+      ],
+      "title": "路透：川普新關稅施壓各國劍指北京　圖重塑全球貿易秩序",
+      "summary": "路透社報導，美國於2026年11月26日宣布新一輪加徵關稅，針對中國的關稅將在原有25%基礎上再加徵20%，上限為40%。此舉在美中貿易休兵協議範圍內，並於兩國領袖於12月在邁阿密舉行第4次高峰會前升高緊張。美國亦對歐盟、日本及部分東南亞國家施加類似壓力，並指出中國貿易順差將連續第二年超過1兆美元。報導強調此政策將重塑全球貿易秩序，並可能促使其他國家加強對中國的貿易防衛措施。",
+      "observation": "此新聞顯示美國將進一步加徵對中國的關稅，可能對台灣製造業造成間接影響，尤其是出口至美國及中國市場的產品。觀察重點應追蹤美中關稅上限變動、台灣企業在美中貿易協議中的定位，以及其他國家是否跟進類似措施。證據顯示美國已對多國施壓，但尚無具體數據顯示台灣企業受影響程度，需進一步追蹤。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:45:22.013463+00:00",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611270242.aspx",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "c8f2d6c43d3ec66ef789"
+      ],
+      "title": "工具機零組件出口年增27.4% 台灣精密 機械 供應鏈展現韌性",
+      "summary": "台灣工具機暨零組件工業同業公會統計顯示，2026年10月台灣工具機出口金額1.67億美元，年增18.49%；關鍵零組件出口1.58億美元，年增27.4%。累計今年前10月，工具機整機出口16.59億美元，年減0.2%，金屬切削工具機13.5億美元年減1.8%，金屬成型工具機3.09億美元年增7.4%。相較之下，關鍵零組件累計出口14.23億美元，年增14.5%，成長表現明顯優於整機。主要市場包括印度、越南、馬來西亞、德國、義大利、韓國等，顯示亞洲新興製造基地及部分歐洲設備市場持續提供供應鏈拓展機會。",
+      "observation": "零組件出口年增27.4%顯示精密機械零組件在國際設備供應鏈仍具成長動能，可能為台灣工具機產業轉型提供契機。觀察需追蹤半導體設備需求對零組件成長的實際貢獻、海外設備商採購動向、關鍵零組件訂單及新興市場製造業投資。證據不足以量化半導體設備對零組件成長的具體貢獻，需進一步資料。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:45:37.695865+00:00",
+      "source_url": "https://www.ctimes.com.tw/2611271127J4.shtml",
+      "confidence": "高"
+    },
+    {
+      "article_ids": [
+        "d61f57b8eae2c3dec329"
+      ],
+      "title": "仁寶推進實體AI醫療應用 智慧物流帶動醫療機器人發展",
+      "summary": "仁寶電腦將於12月初於2026台灣醫療科技展展示自主研發的智慧醫療機器人平台PolyMedX，並結合國科會「2026 AI創新獎」頒獎活動，呈現實體人工智慧與智慧醫院整合應用。公司已與台北醫學大學大數據團隊合作開發急診智慧決策系統AIDE，並將技術延伸至PolyMedX服務傳送機器人，串聯醫療資訊分析、臨床決策支援及實體任務執行。仁寶於今年5月與中山醫學大學合作，首階段鎖定急診送藥與醫療物流，建構急診室與藥局之間的閉環配送流程，未來規劃延伸至全院物流及營運管理。醫療機器人需具備自主導航、環境辨識、障礙物偵測、精密運動控制及人機安全等高要求，並與醫院資訊系統、智慧藥局及門禁設備互通。醫療機器人發展將帶動精密減速機、伺服馬達、運動控制器、光達、影像感測器、嵌入式運算平台、電池管理及無線通訊模組等零組件需求，為電子製造與精密機械業者提供市場機會。",
+      "observation": "仁寶已完成與醫學大學及醫院的產學合作，並於5月啟動急診送藥物流試點，顯示其在醫療機器人領域具備實務驗證基礎。PolyMedX的自主導航與任務執行能力、醫療物流效率、安全驗證及醫院採用規模仍待觀察，可能影響其商業化可複製性與國際擴張。需追蹤PolyMedX在2026台灣醫療科技展的展示成果、獲獎情形及後續合作案例，以評估其在醫療機器人市場的競爭力。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:45:53.692852+00:00",
+      "source_url": "https://www.ctimes.com.tw/%E9%86%AB%E7%99%82%E6%A9%9F%E5%99%A8%E4%BA%BA/%E5%AF%A6%E9%AB%94AI/%E6%99%BA%E6%85%A7%E9%86%AB%E7%99%82/%E4%BB%81%E5%AF%B6/26112711060D.shtml",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "77a17efadb02895b13f8"
+      ],
+      "title": "\" Iron \" 時代:XPeng準備大規模生產其人造機器人",
+      "summary": "XPeng在2026年AI Day於廣州揭露其最新一代通用人形機器人Iron，預計於2027年1月開始量產，目標每2.5分鐘產出一台。Iron擁有76自由度、21自由度手部、1500多個觸覺感測點、3D視覺與360°環境感知，搭載三顆Turing AI晶片，總計2,250兆次/秒計算力。XPeng利用其汽車製造經驗，已建成5萬平方公尺機器人資料工廠與超過600個AI檢測點的自動化生產線。首批Iron將於2027年第一季在XPeng零售店擔任店務助理，未來亦可應用於接待、教育、展覽與工業作業。公司計畫結合硬體銷售、軟體訂閱與開放生態系，讓機器人持續學習與增值。",
+      "observation": "XPeng的量產計畫顯示其已將汽車製造流程與AI技術結合，可能為人形機器人產業帶來成本與效率優勢。首批機器人定位於零售服務，表明XPeng正先行探索非汽車領域的商業模式。觀察重點應包括：1) 量產線實際產能與品質控制；2) 軟體訂閱與技能開發的市場接受度；3) 競爭對手在同類產品的技術與商業模式。證據顯示XPeng已具備硬體與製造基礎，但軟體生態與長期維護仍需進一步驗證。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:46:09.420783+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/27/the-iron-age-xpeng-prepares-for-mass-production-of-its-humanoid-robot/107831/",
+      "confidence": "中"
+    },
+    {
+      "article_ids": [
+        "bde028b1572f244fe2d4"
+      ],
+      "title": "Neura Robotics與Costa Group合作,",
+      "summary": "Neura Robotics、阿根政府與農食企業Costa Group於西班牙阿拉岡地區簽署備忘錄，計畫於2027年中開設Neura Gym Aragón及Physical AI Model Zone，投資數千萬歐元。Gym將結合機器人、AI模型、模擬與Neura的Neuraverse平台，提供中小企業及學術機構共享訓練基礎設施，並以Costa Group的農業與工業作業為實驗場域，探索機器人技能的開發、測試與商業化。",
+      "observation": "此計畫主要聚焦於將傳統工業知識轉化為可授權的機器人技能，並提供共享基礎設施以降低中小企業進入門檻。觀察重點應追蹤：1) 投資金額與資金來源細節；2) Gym與Model Zone的具體設施規模與技術規格；3) 參與企業的實際應用案例與商業模式；4) 知識產權與授權條款的具體安排。證據不足於說明具體營收或訂單情況，僅為合作協議。",
+      "observation_type": "觀察重點",
+      "method": "groq_llm_from_publisher_body",
+      "evidence_type": "publisher_body",
+      "model": "openai/gpt-oss-20b",
+      "generated_at": "2026-11-28T00:46:25.080281+00:00",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/27/turning-industrial-knowledge-into-robotic-skills-neura-robotics-partners-with-costa-group-to-develop-aragons-physical-ai-ambitions/107778/",
       "confidence": "中"
     }
   ]
