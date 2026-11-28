@@ -1,9 +1,153 @@
 {
-  "updated_at": "2026-11-27T00:26:40.433449+00:00",
-  "status": "partial",
+  "updated_at": "2026-11-28T00:19:15.542313+00:00",
+  "status": "ok",
   "sources_checked": 24,
-  "sources_successful": 22,
+  "sources_successful": 24,
   "items": [
+    {
+      "id": "285be726853cbf7317be",
+      "title": "市場交投清淡　油價震盪收低",
+      "url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+      "source_url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-27T21:08:46+00:00",
+      "discovered_at": "2026-11-28T00:18:15.671069+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "國際情勢與能源",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": ""
+    },
+    {
+      "id": "77a17efadb02895b13f8",
+      "title": "The ‘Iron’ age: XPeng prepares for mass production of its humanoid robot",
+      "url": "https://roboticsandautomationnews.com/2026/11/27/the-iron-age-xpeng-prepares-for-mass-production-of-its-humanoid-robot/107831/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/27/the-iron-age-xpeng-prepares-for-mass-production-of-its-humanoid-robot/107831/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-27T19:14:21+00:00",
+      "discovered_at": "2026-11-28T00:18:15.671069+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "For a company that made its name manufacturing intelligent electric vehicles, the prospect of producing a humanoid robot every two and a half minutes represents a remarkable evolution of its industrial ambitions. And that is precisely what Chinese technology company XPeng is working towards. At its AI Day 2026 event in Guangzhou, XPeng unveiled the […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "6f1d3cdf95c8c77f7785",
+      "title": "US tariff proposals threaten further disruption to automotive supply chains - Automotive Logistics",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeUdWVUVwMWpSaDZMZ1ZjUTAycVVobGdIeURJZnBGWVBGX1hlOXgwTF9neXNmWDFKMk1fWkhkRTV5TGRuc2J4VlR5OGZBVERKTWVrMlM0cThjd0xFMVBYTzNxMUZDSlpiNUs0eDJOalZNU1UzX2huRTRXVHh4djNRZHJCTWp4dHRabkUwVVJyS09US3l0MEt4c2tlZUtwano5SFMtRDZRc2JoUnphUWVGVXNUWEpGLWNxMG5nZ3owOGxkVWpU?oc=5",
+      "source": "Automotive Logistics",
+      "published_at": "2026-11-27T15:08:59+00:00",
+      "discovered_at": "2026-11-28T00:19:15.542313+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "北美",
+      "language_hint": null,
+      "topic": "物流與航運",
+      "access_status": "not_verified",
+      "excerpt": ""
+    },
+    {
+      "id": "b84c7622ecfda97763ba",
+      "title": "路透：川普新關稅施壓各國劍指北京　圖重塑全球貿易秩序",
+      "url": "https://www.cna.com.tw/news/aopl/202611270242.aspx",
+      "source_url": "https://www.cna.com.tw/news/aopl/202611270242.aspx",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-27T12:15:37+00:00",
+      "discovered_at": "2026-11-28T00:18:15.671069+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "台灣",
+      "language_hint": "en",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "（中央社新加坡／北京26日綜合外電報導）路透社報導，美國宣布最新一輪加徵關稅作為勢將加劇與中國的貿易緊張，讓北京成為華府透過施壓其他國家以懲罰這個世界工廠、進而重塑全球貿易秩序的主要目標。",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "bde028b1572f244fe2d4",
+      "title": "Neura Robotics partners with Costa Group to develop Aragón’s physical AI ambitions",
+      "url": "https://roboticsandautomationnews.com/2026/11/27/turning-industrial-knowledge-into-robotic-skills-neura-robotics-partners-with-costa-group-to-develop-aragons-physical-ai-ambitions/107778/",
+      "source_url": "https://roboticsandautomationnews.com/2026/11/27/turning-industrial-knowledge-into-robotic-skills-neura-robotics-partners-with-costa-group-to-develop-aragons-physical-ai-ambitions/107778/",
+      "source": "Robotics & Automation News",
+      "published_at": "2026-11-27T12:03:09+00:00",
+      "discovered_at": "2026-11-28T00:18:15.671069+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "tags": [],
+      "priority": "international",
+      "region": "歐洲",
+      "language_hint": "en",
+      "topic": "產業動態",
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "Europe’s industrial strength has traditionally been built on generations of accumulated knowledge – the expertise of people who understand how to work with materials, operate machinery, manufacture products and manage complex production processes. But what if that knowledge could be transferred to robots and become a commercially valuable asset in its own right? That is […]",
+      "publisher_excerpt_source": "official_rss"
+    },
+    {
+      "id": "c8f2d6c43d3ec66ef789",
+      "title": "工具機零組件出口年增27.4% 台灣精密 機械 供應鏈展現韌性",
+      "url": "https://www.ctimes.com.tw/2611271127J4.shtml",
+      "source_url": "https://www.ctimes.com.tw/2611271127J4.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "discovered_at": "2026-11-28T00:18:20.473415+00:00",
+      "industries": [
+        "機械與金屬加工"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "供應鏈與原物料",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
+    {
+      "id": "d61f57b8eae2c3dec329",
+      "title": "仁寶推進實體AI醫療應用 智慧物流帶動醫療機器人發展",
+      "url": "https://www.ctimes.com.tw/醫療機器人/實體AI/智慧醫療/仁寶/26112711060D.shtml",
+      "source_url": "https://www.ctimes.com.tw/醫療機器人/實體AI/智慧醫療/仁寶/26112711060D.shtml",
+      "source": "CTIMES",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "discovered_at": "2026-11-28T00:18:20.473415+00:00",
+      "industries": [
+        "無人載具及機器人"
+      ],
+      "region": "台灣",
+      "priority": "taiwan",
+      "topic": "產業動態",
+      "tags": [],
+      "access_status": "not_verified",
+      "excerpt": "",
+      "publisher_excerpt": "",
+      "publisher_excerpt_source": "",
+      "source_content_policy": ""
+    },
     {
       "id": "fab98c31381bd03d1327",
       "title": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
@@ -39,7 +183,8 @@
       "date_precision": "itis_index_date_not_original_pubdate",
       "discovered_at": "2026-11-27T00:26:14.691996+00:00",
       "industries": [
-        "機械與金屬加工"
+        "機械與金屬加工",
+        "總體情勢"
       ],
       "region": "台灣",
       "topic": "政策與貿易措施",
@@ -91,6 +236,40 @@
       "tags": [],
       "read_checked_at": "2026-11-27T00:47:39.127979+00:00",
       "read_reason": "Article body is behind subscription/login"
+    },
+    {
+      "id": "6940d185d4dacb95789a",
+      "title": "美揮關稅大刀 Fed鷹浪恐更強",
+      "url": "https://www.chinatimes.com/newspapers/20261127000279-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-28T00:18:44.790774+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
+    },
+    {
+      "id": "5cd3d1176ed874de9db8",
+      "title": "關稅媲美日韓歐盟 龔明鑫：達台美FTA效果",
+      "url": "https://www.chinatimes.com/newspapers/20261127000284-260202?utm_source=iii_news&utm_medium=rss",
+      "source": "chinatimes.com（原刊別待確認）",
+      "published_at": "2026-11-26T16:00:00+00:00",
+      "date_precision": "itis_index_date_not_original_pubdate",
+      "discovered_at": "2026-11-28T00:18:44.790774+00:00",
+      "industries": [
+        "總體情勢"
+      ],
+      "region": "台灣",
+      "topic": "政策與貿易措施",
+      "access_status": "not_verified",
+      "discovery_source": "ITIS 每日重點新聞",
+      "tags": []
     },
     {
       "id": "9434ddc4982283da9c6f",
